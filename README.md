@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-This is an example on how to host a custom Debian package repository using GitHub pages.
+This is the Linuxmuter.net archive. It is the place where you can get the latest versions of all Linuxmuster.net software.
 </p>
 
 # Setup
