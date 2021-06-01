@@ -1,0 +1,40 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+        with:
+          lfs: true
+
+      - name: Checkout LFS objects 🛎️
+        run: git lfs checkout
+
+      - name: Install and Build 🔧
+        run: |
+          sudo apt update && sudo apt install reprepro python3 python3-pip
+          pip3 install mako
+
+          # import keys
+          gpg2 --import deploy/pub.gpg
+          echo -e "${{ secrets.GPG_PRIVATE_KEY }}" | gpg2 --import
+          
+          mkdir incoming
+          cp packages/*/*/* incoming/
+
+          reprepro -V processincoming default
+          reprepro -V export
+
+          mv dists deploy
+          mv pool deploy
+          mv deploy/deploy-disclaimer.md deploy/README.md
+
+          python3 createStaticDirectoryListing.py deploy --indexPage README.md
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          branch: deploy
+          folder: deploy

@@ -1,0 +1,15 @@
+Origin: codecrafter912.github.io
+Label: codecrafter912.github.io
+Codename: bionic
+Architectures: i386 amd64 source
+Components: main
+Description: bionic stable
+SignWith: B8FDBD05AD2778B9
+
+Origin: codecrafter912.github.io
+Label: codecrafter912.github.io
+Codename: bionic-testing
+Architectures: i386 amd64 source
+Components: main
+Description: bionic testing
+SignWith: B8FDBD05AD2778B9
