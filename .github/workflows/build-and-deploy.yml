@@ -16,8 +16,9 @@ jobs:
 
           # import keys
           gpg2 --import deploy/pub.gpg
-          export GPG_TTY=$(tty)
-          echo -e "${{ secrets.GPG_PRIVATE_KEY }}" | gpg2 --import
+          echo -e "${{ secrets.GPG_PRIVATE_KEY }}" > private.key
+          gpg --allow-secret-key-import --import private.key
+          rm private.key
           
           mkdir incoming
           cp packages/*/*/* incoming/
