@@ -1,15 +1,33 @@
-Origin: codecrafter912.github.io
-Label: codecrafter912.github.io
+Origin: archive.linuxmuster.net 
+Label: archive.linuxmuster.net 
+Codename: focal
+Architectures: i386 amd64 source
+Components: main
+Description: focal stable
+SignWith: 4E8B8B667D752C32
+
+Origin: archive.linuxmuster.net
+Label: archive.linuxmuster.net 
+Codename: focal-testing
+Architectures: i386 amd64 source
+Components: main
+Description: focal testing
+SignWith: 4E8B8B667D752C32
+
+Origin: archive.linuxmuster.net
+Label: archive.linuxmuster.net
 Codename: bionic
 Architectures: i386 amd64 source
 Components: main
 Description: bionic stable
-SignWith: B8FDBD05AD2778B9
+SignWith: 4E8B8B667D752C32
 
-Origin: codecrafter912.github.io
-Label: codecrafter912.github.io
+Origin: archive.linuxmuster.net
+Label: archive.linuxmuster.net
 Codename: bionic-testing
 Architectures: i386 amd64 source
 Components: main
 Description: bionic testing
-SignWith: B8FDBD05AD2778B9
+SignWith: 4E8B8B667D752C32
+
+
