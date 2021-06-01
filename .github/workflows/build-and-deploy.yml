@@ -9,9 +9,6 @@ jobs:
         with:
           lfs: true
 
-      - name: Checkout LFS objects 🛎️
-        run: git lfs checkout
-
       - name: Install and Build 🔧
         run: |
           sudo apt update && sudo apt install reprepro python3 python3-pip
@@ -19,6 +16,7 @@ jobs:
 
           # import keys
           gpg2 --import deploy/pub.gpg
+          export GPG_TTY=$(tty)
           echo -e "${{ secrets.GPG_PRIVATE_KEY }}" | gpg2 --import
           
           mkdir incoming
