@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/linuxmuster/archive/actions/workflows/build-and-deploy.yml"><img src="https://github.com/linuxmuster/archive/actions/workflows/build-and-deploy.yml/badge.svg" /></a>
-  <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" />
+  <a href="https://ask.linuxmuster.net"><img src="https://img.shields.io/discourse/users?logo=discourse&logoColor=white&server=https%3A%2F%2Fask.linuxmuster.net" alt="Community Forum"/></a>
   <a href="https://www.gnu.org/licenses/agpl-3.0" ><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" /></a>
 </p>
 
@@ -14,15 +14,22 @@ This is an example on how to host a custom Debian package repository using GitHu
 
 # Setup
 To use the repository, please follow these steps:
-1. Import key:
+#### 1. Import key:
 ```bash
-wget -qO - "https://itsblue.github.io/github-pages-dep-repo/pub.gpg" | sudo apt-key add -
+wget -qO - "linuxmuster.github.io/archive/pub.gpg" | sudo apt-key add -
 ```
-2. Add repo:
+#### 2. Add repo:
+Choose ONE of these depending on your system:
+###### Ubuntu 20.04 Focal:
 ```bash
-echo "deb https://itsblue.github.io/github-pages-dep-repo bionic main" > /etc/apt/sources.list.d/github-pages-dep-repo.list
+echo "deb https://linuxmuster.github.io/archive focal main" > /etc/apt/sources.list.d/github-pages-dep-repo.list
 ```
-3. Apt update
+
+###### Ubuntu 18.04 Bionic:
+```bash
+echo "deb https://linuxmuster.github.io/archive bionic main" > /etc/apt/sources.list.d/github-pages-dep-repo.list
+```
+#### 3. Apt update
 ```bash
 apt update
 ```
