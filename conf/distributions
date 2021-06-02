@@ -30,4 +30,18 @@ Components: main
 Description: bionic testing
 SignWith: 4E8B8B667D752C32
 
+Origin: archive.linuxmuster.net
+Label: archive.linuxmuster.net
+Codename: lmn7
+Architectures: i386 amd64 source
+Components: main
+Description: lmn7 (bionic) stable
+SignWith: 4E8B8B667D752C32
 
+Origin: archive.linuxmuster.net
+Label: archive.linuxmuster.net
+Codename: lmn7-testing
+Architectures: i386 amd64 source
+Components: main
+Description: lmn7 (bionic) testing
+SignWith: 4E8B8B667D752C32
