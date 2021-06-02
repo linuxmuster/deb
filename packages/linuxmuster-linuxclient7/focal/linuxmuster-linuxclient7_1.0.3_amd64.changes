@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 10 May 2021 13:02:00 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Architecture: source all
+Version: 1.0.3
+Distribution: focal
+Urgency: medium
+Maintainer: Dorian Zedler <dorian@itsblue.de>, Andreas Till <andreas.till@netzint.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.0.3) focal; urgency=medium
+ .
+   - More cleanup in prepare-image (#13, #11)
+   - Pam_mount is not used anymore (#14)
+   - Home dir is now mounted as `$USER (H:)` instead of just `$USER`
+Checksums-Sha1:
+ 18ae2e4a4b9e6fc4185fae5d93eea1602e5b587b 647 linuxmuster-linuxclient7_1.0.3.dsc
+ d5b4991eeeda0ce9f9a4b02ddd1c94fe8566205c 30362 linuxmuster-linuxclient7_1.0.3.tar.gz
+ c41d6d04f9e996ca3d2b6501597701ace28ceeb1 26700 linuxmuster-linuxclient7_1.0.3_all.deb
+ 91d0a541c76b9359373916e4099a4ce0b5074e18 6734 linuxmuster-linuxclient7_1.0.3_amd64.buildinfo
+Checksums-Sha256:
+ 8cbeb2975c87928117c8a8391f7a1b15ddc35970eb5c9868d4f1b7bb96e3756b 647 linuxmuster-linuxclient7_1.0.3.dsc
+ 05189f80305877319077f27d430aeee176286b0dd871ef25b1ee1493d117e53a 30362 linuxmuster-linuxclient7_1.0.3.tar.gz
+ decb749578b3d5ae14d249eacea2625988b37137d339029995347209b1f50452 26700 linuxmuster-linuxclient7_1.0.3_all.deb
+ 25e66b22a91252b3f1b078999ebb80c12ad03e4a9d88dc2ea5123480db9c16fb 6734 linuxmuster-linuxclient7_1.0.3_amd64.buildinfo
+Files:
+ 40d35e52ed8d7b97c48915e0f6288811 647 linuxmuster optional linuxmuster-linuxclient7_1.0.3.dsc
+ 3bda78a73ac88c78dea7b012a10d6258 30362 linuxmuster optional linuxmuster-linuxclient7_1.0.3.tar.gz
+ 76ad064dd56c7c4e931b5c38293ad540 26700 linuxmuster optional linuxmuster-linuxclient7_1.0.3_all.deb
+ 429b2db17b9a08b26a4a94f610f5d350 6734 linuxmuster optional linuxmuster-linuxclient7_1.0.3_amd64.buildinfo
