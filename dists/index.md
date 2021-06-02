@@ -6,3 +6,5 @@ Files in this directory:
 - 📁 [bionic-testing/](bionic-testing)
 - 📁 [focal/](focal)
 - 📁 [focal-testing/](focal-testing)
+- 📁 [lmn7/](lmn7)
+- 📁 [lmn7-testing/](lmn7-testing)
