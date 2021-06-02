@@ -8,9 +8,9 @@ Conflicts: linuxmuster-client-adsso, linuxmuster-client-adsso7, ni-lmn-client-ad
 Priority: optional
 Section: linuxmuster
 Filename: pool/main/l/linuxmuster-linuxclient7/linuxmuster-linuxclient7_1.0.3_all.deb
-Size: 26644
-SHA256: 9fca6c4415839a14a70e7ba23e4041910d77707d8f184ebdb0fc38a01acd1e37
-SHA1: a59ca8b2826a89da1708c244157628f9f2a86907
-MD5sum: e6451783f332c12801b1b9128b7544b7
+Size: 26700
+SHA256: decb749578b3d5ae14d249eacea2625988b37137d339029995347209b1f50452
+SHA1: c41d6d04f9e996ca3d2b6501597701ace28ceeb1
+MD5sum: 76ad064dd56c7c4e931b5c38293ad540
 Description: Package for Ubuntu clients to connect to the linuxmuster.net 7 active directory server.
 

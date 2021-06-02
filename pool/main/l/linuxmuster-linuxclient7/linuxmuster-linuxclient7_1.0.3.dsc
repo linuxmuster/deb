@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 5.0.0)
 Package-List:
  linuxmuster-linuxclient7 deb linuxmuster optional arch=all
 Checksums-Sha1:
- a093a2296f5d2e8b299d9fff74f68bbaeba56e84 29780 linuxmuster-linuxclient7_1.0.3.tar.gz
+ d5b4991eeeda0ce9f9a4b02ddd1c94fe8566205c 30362 linuxmuster-linuxclient7_1.0.3.tar.gz
 Checksums-Sha256:
- b08f39d4e388948912d0abf67c2fc9d9c4a8d9228214ab9a484e40c7a09eb785 29780 linuxmuster-linuxclient7_1.0.3.tar.gz
+ 05189f80305877319077f27d430aeee176286b0dd871ef25b1ee1493d117e53a 30362 linuxmuster-linuxclient7_1.0.3.tar.gz
 Files:
- 68d0abb7fb5137d3bf9933f8735bf391 29780 linuxmuster-linuxclient7_1.0.3.tar.gz
+ 3bda78a73ac88c78dea7b012a10d6258 30362 linuxmuster-linuxclient7_1.0.3.tar.gz
