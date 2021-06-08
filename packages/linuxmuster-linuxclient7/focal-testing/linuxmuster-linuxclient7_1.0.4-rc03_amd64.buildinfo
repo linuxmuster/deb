@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-linuxclient7
 Binary: linuxmuster-linuxclient7
 Architecture: all source
-Version: 1.0.4-rc02
+Version: 1.0.4-rc03
 Checksums-Md5:
- ddb96cb33866e76924237f425ddc4793 667 linuxmuster-linuxclient7_1.0.4-rc02.dsc
- d94bd0e8777fddb4f183e3c7f05978ca 27208 linuxmuster-linuxclient7_1.0.4-rc02_all.deb
+ b3c451b445609ec1ece4744036a77e5f 667 linuxmuster-linuxclient7_1.0.4-rc03.dsc
+ 50b8cb36054e22d4c7916563a4a96d77 27240 linuxmuster-linuxclient7_1.0.4-rc03_all.deb
 Checksums-Sha1:
- 4568b1f2ce3a79bd728e92b8b9db62e7bd027f10 667 linuxmuster-linuxclient7_1.0.4-rc02.dsc
- c9b071367cd1b983215563bf94e4989477d46bc6 27208 linuxmuster-linuxclient7_1.0.4-rc02_all.deb
+ 025446ccb78d7bce184068d73dfccc911ee0edef 667 linuxmuster-linuxclient7_1.0.4-rc03.dsc
+ ba42934374256fc60ce48554a97284543329ef92 27240 linuxmuster-linuxclient7_1.0.4-rc03_all.deb
 Checksums-Sha256:
- d63f2c04e83592da4a1c2930046456156bc6656a171a578f6f0cacf26d22eb2b 667 linuxmuster-linuxclient7_1.0.4-rc02.dsc
- 290b90752cd73d65d6c796094b4e1c24f69999bf0746452525aa524d168a0df9 27208 linuxmuster-linuxclient7_1.0.4-rc02_all.deb
+ d94a1167f4306ad74c284cf9c557e5854820c2b337ac8d4eaa4016f769c363e9 667 linuxmuster-linuxclient7_1.0.4-rc03.dsc
+ 5824e86fab8c138eb2b3b49226ded812ecf90f977fd75b5b326928dea4cdaf9b 27240 linuxmuster-linuxclient7_1.0.4-rc03_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 08 Jun 2021 09:34:36 +0000
+Build-Date: Tue, 08 Jun 2021 10:06:58 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -186,4 +186,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
- SOURCE_DATE_EPOCH="1623146400"
+ SOURCE_DATE_EPOCH="1623146640"
