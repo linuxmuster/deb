@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 08 JUN 2021 12:04:00 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Architecture: source all
+Version: 1.0.4-rc04
+Distribution: focal-testing
+Urgency: medium
+Maintainer: Dorian Zedler <dorian@itsblue.de>, Andreas Till <andreas.till@netzint.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.0.4-rc04) focal-testing; urgency=medium
+ .
+   - Use rmdir instead of rmtree to remove share mountpoints
+   - Unmount sysvol on shutdown
+Checksums-Sha1:
+ 255b18edfcdb1dfdcc15a08f0fd4044006a373bf 667 linuxmuster-linuxclient7_1.0.4-rc04.dsc
+ 23550d945673c34d20374ba5456f4e09e47de040 31430 linuxmuster-linuxclient7_1.0.4-rc04.tar.gz
+ 9a034ae35824dc0f26b19405a75d6ed929ad6c7b 27296 linuxmuster-linuxclient7_1.0.4-rc04_all.deb
+ e7f4b5e975f4a4f3896cdcac4f18857f51180a22 6638 linuxmuster-linuxclient7_1.0.4-rc04_amd64.buildinfo
+Checksums-Sha256:
+ 17dcfa3245ecf26bc1539d06e70b173184fa0782edb460135b26bbec592d8a1b 667 linuxmuster-linuxclient7_1.0.4-rc04.dsc
+ be85a98f0d4af3e3e0e47c1a9e3fa999f1342275d41b7ac51c109d57160f9846 31430 linuxmuster-linuxclient7_1.0.4-rc04.tar.gz
+ 18eee0653a0a5d999ce04a24509dd071affcc748c60cf6cd7773e29e21d4c938 27296 linuxmuster-linuxclient7_1.0.4-rc04_all.deb
+ 1bfc330cbe99d0895d8127a7e85747c88e93249b97e532f550d98d9c228f15dd 6638 linuxmuster-linuxclient7_1.0.4-rc04_amd64.buildinfo
+Files:
+ 8a8182d62025eaf677a6c1ac8ea6f3fa 667 linuxmuster optional linuxmuster-linuxclient7_1.0.4-rc04.dsc
+ 271dddbaa5c0bc05815a30952acd9399 31430 linuxmuster optional linuxmuster-linuxclient7_1.0.4-rc04.tar.gz
+ ca835ed3e4006992cd8061f944b30c89 27296 linuxmuster optional linuxmuster-linuxclient7_1.0.4-rc04_all.deb
+ 51cb49373fced98fe9c5915c384ea525 6638 linuxmuster optional linuxmuster-linuxclient7_1.0.4-rc04_amd64.buildinfo

@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-linuxclient7
 Binary: linuxmuster-linuxclient7
 Architecture: all source
-Version: 1.0.4-rc03
+Version: 1.0.4-rc04
 Checksums-Md5:
- b3c451b445609ec1ece4744036a77e5f 667 linuxmuster-linuxclient7_1.0.4-rc03.dsc
- 50b8cb36054e22d4c7916563a4a96d77 27240 linuxmuster-linuxclient7_1.0.4-rc03_all.deb
+ 8a8182d62025eaf677a6c1ac8ea6f3fa 667 linuxmuster-linuxclient7_1.0.4-rc04.dsc
+ ca835ed3e4006992cd8061f944b30c89 27296 linuxmuster-linuxclient7_1.0.4-rc04_all.deb
 Checksums-Sha1:
- 025446ccb78d7bce184068d73dfccc911ee0edef 667 linuxmuster-linuxclient7_1.0.4-rc03.dsc
- ba42934374256fc60ce48554a97284543329ef92 27240 linuxmuster-linuxclient7_1.0.4-rc03_all.deb
+ 255b18edfcdb1dfdcc15a08f0fd4044006a373bf 667 linuxmuster-linuxclient7_1.0.4-rc04.dsc
+ 9a034ae35824dc0f26b19405a75d6ed929ad6c7b 27296 linuxmuster-linuxclient7_1.0.4-rc04_all.deb
 Checksums-Sha256:
- d94a1167f4306ad74c284cf9c557e5854820c2b337ac8d4eaa4016f769c363e9 667 linuxmuster-linuxclient7_1.0.4-rc03.dsc
- 5824e86fab8c138eb2b3b49226ded812ecf90f977fd75b5b326928dea4cdaf9b 27240 linuxmuster-linuxclient7_1.0.4-rc03_all.deb
+ 17dcfa3245ecf26bc1539d06e70b173184fa0782edb460135b26bbec592d8a1b 667 linuxmuster-linuxclient7_1.0.4-rc04.dsc
+ 18eee0653a0a5d999ce04a24509dd071affcc748c60cf6cd7773e29e21d4c938 27296 linuxmuster-linuxclient7_1.0.4-rc04_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 08 Jun 2021 10:06:58 +0000
+Build-Date: Wed, 14 Jul 2021 12:51:31 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -35,7 +35,7 @@ Installed-Build-Depends:
  cpp (= 4:7.4.0-1ubuntu2.3),
  cpp-10 (= 10.3.0-1ubuntu1~18.04~1),
  cpp-7 (= 7.5.0-3ubuntu1~18.04),
- cpp-9 (= 9.3.0-11ubuntu0~18.04.1),
+ cpp-9 (= 9.4.0-1ubuntu1~18.04),
  dash (= 0.5.8-2.10),
  debconf (= 1.5.66ubuntu1),
  debhelper (= 11.1.6ubuntu2),
@@ -59,8 +59,8 @@ Installed-Build-Depends:
  gcc-7 (= 7.5.0-3ubuntu1~18.04),
  gcc-7-base (= 7.5.0-3ubuntu1~18.04),
  gcc-8-base (= 8.4.0-1ubuntu1~18.04),
- gcc-9 (= 9.3.0-11ubuntu0~18.04.1),
- gcc-9-base (= 9.3.0-11ubuntu0~18.04.1),
+ gcc-9 (= 9.4.0-1ubuntu1~18.04),
+ gcc-9-base (= 9.4.0-1ubuntu1~18.04),
  gettext (= 0.19.8.1-6ubuntu0.3),
  gettext-base (= 0.19.8.1-6ubuntu0.3),
  grep (= 3.1-2build1),
@@ -75,7 +75,7 @@ Installed-Build-Depends:
  libacl1 (= 2.2.52-3build1),
  libarchive-zip-perl (= 1.60-1ubuntu0.1),
  libasan4 (= 7.5.0-3ubuntu1~18.04),
- libasan5 (= 9.3.0-11ubuntu0~18.04.1),
+ libasan5 (= 9.4.0-1ubuntu1~18.04),
  libasan6 (= 11.1.0-1ubuntu1~18.04.1),
  libatomic1 (= 11.1.0-1ubuntu1~18.04.1),
  libattr1 (= 1:2.4.47-2build1),
@@ -109,7 +109,7 @@ Installed-Build-Depends:
  libgc1c2 (= 1:7.4.2-8ubuntu1),
  libgcc-10-dev (= 10.3.0-1ubuntu1~18.04~1),
  libgcc-7-dev (= 7.5.0-3ubuntu1~18.04),
- libgcc-9-dev (= 9.3.0-11ubuntu0~18.04.1),
+ libgcc-9-dev (= 9.4.0-1ubuntu1~18.04),
  libgcc-s1 (= 11.1.0-1ubuntu1~18.04.1),
  libgcc1 (= 1:8.4.0-1ubuntu1~18.04),
  libgcrypt20 (= 1.8.1-4ubuntu1.2),
@@ -151,19 +151,19 @@ Installed-Build-Depends:
  libss2 (= 1.44.1-1ubuntu1.3),
  libstdc++-7-dev (= 7.5.0-3ubuntu1~18.04),
  libstdc++6 (= 11.1.0-1ubuntu1~18.04.1),
- libsystemd0 (= 237-3ubuntu10.47),
+ libsystemd0 (= 237-3ubuntu10.48),
  libtimedate-perl (= 2.3000-2),
  libtinfo5 (= 6.1-1ubuntu1.18.04),
  libtool (= 2.4.6-2),
  libtsan0 (= 11.1.0-1ubuntu1~18.04.1),
  libubsan0 (= 7.5.0-3ubuntu1~18.04),
  libubsan1 (= 11.1.0-1ubuntu1~18.04.1),
- libudev1 (= 237-3ubuntu10.47),
+ libudev1 (= 237-3ubuntu10.48),
  libunistring2 (= 0.9.9-0ubuntu2),
  libuuid1 (= 2.31.1-0.4ubuntu3.7),
- libxml2 (= 2.9.4+dfsg1-6.1ubuntu1.3),
+ libxml2 (= 2.9.4+dfsg1-6.1ubuntu1.4),
  libzstd1 (= 1.3.3+dfsg-2ubuntu1.2),
- linux-libc-dev (= 4.15.0-143.147),
+ linux-libc-dev (= 4.15.0-147.151),
  login (= 1:4.5-1ubuntu2),
  m4 (= 1.4.18-1),
  make (= 4.1-9.1ubuntu1),
