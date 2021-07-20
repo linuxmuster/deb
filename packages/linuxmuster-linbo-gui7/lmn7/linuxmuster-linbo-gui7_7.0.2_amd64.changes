@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 20 May 2021 13:00:00 +0100
+Source: linuxmuster-linbo-gui7
+Binary: linuxmuster-linbo-gui7
+Architecture: source all
+Version: 7.0.2
+Distribution: lmn7
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linbo-gui7 - Linuxmuster Linbo GUI
+Changes:
+ linuxmuster-linbo-gui7 (7.0.2) lmn7; urgency=low
+ .
+   * Fix sizes on very very very very small displays (<200px)
+Checksums-Sha1:
+ 439093e5537c51e30401b885e9594c6d2a6b2e46 660 linuxmuster-linbo-gui7_7.0.2.dsc
+ 13b4408184b8b57e335ffd46e0762a3677a0c3c9 3557706 linuxmuster-linbo-gui7_7.0.2.tar.gz
+ e9278159a2756ea582e252b536bd69b8e25dcc62 16883760 linuxmuster-linbo-gui7_7.0.2_all.deb
+ cd11a1e52cee8bae4356f0ff2c3e01a83aad522b 6596 linuxmuster-linbo-gui7_7.0.2_amd64.buildinfo
+Checksums-Sha256:
+ 3c3e4a30d1dded8f918c7cd84e6844c01b8b3c803760f1b0baf5774395f4bc9d 660 linuxmuster-linbo-gui7_7.0.2.dsc
+ d5986b9844819a0a9e549bde09db7145503c615e000150872929451bbbd99ba2 3557706 linuxmuster-linbo-gui7_7.0.2.tar.gz
+ 7925d850a32115aa16eaa50a747275dd547b46d6c4ac617b77f01b67ea4ec219 16883760 linuxmuster-linbo-gui7_7.0.2_all.deb
+ 8d54e729f15e60151765cfe76ae1de985449f05d35988f88be9d8d40ad5085af 6596 linuxmuster-linbo-gui7_7.0.2_amd64.buildinfo
+Files:
+ b46d20bf55224ae870fcc7ecea05be08 660 admin extra linuxmuster-linbo-gui7_7.0.2.dsc
+ 5295c8a1dc365e62a485fd85ce30f24f 3557706 admin extra linuxmuster-linbo-gui7_7.0.2.tar.gz
+ 8a39e78cf62691676ae1b8071ffb8638 16883760 admin extra linuxmuster-linbo-gui7_7.0.2_all.deb
+ b628f4f7d8e3aed5c282a67e9f94fc91 6596 admin extra linuxmuster-linbo-gui7_7.0.2_amd64.buildinfo
