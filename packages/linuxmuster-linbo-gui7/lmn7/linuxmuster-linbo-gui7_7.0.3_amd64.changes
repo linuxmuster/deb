@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 21 Jul 2021 09:15:00 +0100
+Source: linuxmuster-linbo-gui7
+Binary: linuxmuster-linbo-gui7
+Architecture: source all
+Version: 7.0.3
+Distribution: lmn7
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linbo-gui7 - Linuxmuster Linbo GUI
+Changes:
+ linuxmuster-linbo-gui7 (7.0.3) lmn7; urgency=low
+ .
+   * Fix Kernel append options
+Checksums-Sha1:
+ 9e18cf9fa321c6773d8ca136cbcd189b09466626 660 linuxmuster-linbo-gui7_7.0.3.dsc
+ 89921e75f958c1c0baa7dd4c20c9cb396e3efc6e 3557761 linuxmuster-linbo-gui7_7.0.3.tar.gz
+ c589a459a4b462326ce9f79976b28b5f6daf3fbc 16886004 linuxmuster-linbo-gui7_7.0.3_all.deb
+ f460a0d28fea9aa1c23813c8741f00e5cb8141a1 6596 linuxmuster-linbo-gui7_7.0.3_amd64.buildinfo
+Checksums-Sha256:
+ bfd3d9c68f2eef878f02921862922248b2340189dde1f71d959d053a6eed9052 660 linuxmuster-linbo-gui7_7.0.3.dsc
+ 06a7dd20f5d4d113aa689b8856d6de994b1157c0f45bec43e5f9619330d41699 3557761 linuxmuster-linbo-gui7_7.0.3.tar.gz
+ 11eaa5d3c028edecb26422b9d6dfb87e17537485d0e974e0add4a17fcce1fb78 16886004 linuxmuster-linbo-gui7_7.0.3_all.deb
+ 7e4df96075ed440fd75f8488d5018e1f897b4c33f1622178ea772660e5bb6853 6596 linuxmuster-linbo-gui7_7.0.3_amd64.buildinfo
+Files:
+ 77b74efe0ad0281bcd7e3cd6f68111e6 660 admin extra linuxmuster-linbo-gui7_7.0.3.dsc
+ bcd7c03ffb00cdd283021a66784d678c 3557761 admin extra linuxmuster-linbo-gui7_7.0.3.tar.gz
+ 24e34d2ab5bcb976dbab57bf5cb0d48b 16886004 admin extra linuxmuster-linbo-gui7_7.0.3_all.deb
+ 5e935a3e0fb1fff6339d2bbd49873ebf 6596 admin extra linuxmuster-linbo-gui7_7.0.3_amd64.buildinfo
