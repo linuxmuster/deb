@@ -1,37 +1,37 @@
 Origin: archive.linuxmuster.net
 Label: archive.linuxmuster.net
 Codename: focal
-Date: Sun, 15 Aug 2021 12:19:43 UTC
+Date: Tue, 28 Sep 2021 14:26:18 UTC
 Architectures: i386 amd64
 Components: main
 Description: focal stable
 MD5Sum:
- 09f00b9c71d804a73957f7d4c94b75b1 854 main/binary-i386/Packages
- b45e2dc300164a2f2d6ef9254e66a595 541 main/binary-i386/Packages.gz
+ a9f11e09ae1d8cc492d52375bf168acd 854 main/binary-i386/Packages
+ 8d3f244c1286c21197325d8a60838571 540 main/binary-i386/Packages.gz
  7a48714a38388ef15636440faf1ea3c9 124 main/binary-i386/Release
- 09f00b9c71d804a73957f7d4c94b75b1 854 main/binary-amd64/Packages
- b45e2dc300164a2f2d6ef9254e66a595 541 main/binary-amd64/Packages.gz
+ a9f11e09ae1d8cc492d52375bf168acd 854 main/binary-amd64/Packages
+ 8d3f244c1286c21197325d8a60838571 540 main/binary-amd64/Packages.gz
  52a322aa930ab061a3f5ec047de49805 125 main/binary-amd64/Release
- b1eab4dec8007c70e092ddf86a0a4f0e 999 main/source/Sources
- 6db9b6ed29795c784b4dada97266de95 504 main/source/Sources.gz
+ 08462b2e410e835f59c0d26034195101 999 main/source/Sources
+ 2eedd22f8d1909a815bcf7f15497dc43 506 main/source/Sources.gz
  a6a0ffc7944728d39991b221d68da4da 126 main/source/Release
 SHA1:
- 9430bba6c1f5dcc89531c03eac93dd9287294a35 854 main/binary-i386/Packages
- 9278a222a80f7f3ee47dcf9811f32f09fa44ec13 541 main/binary-i386/Packages.gz
+ c52a2036084fbdd7bc5c757c1b7c2334577cdfa5 854 main/binary-i386/Packages
+ ca58a70e948739f1c66075054ab47099881b04c6 540 main/binary-i386/Packages.gz
  ec37343c3627fc345e206282e45a0082d4814afb 124 main/binary-i386/Release
- 9430bba6c1f5dcc89531c03eac93dd9287294a35 854 main/binary-amd64/Packages
- 9278a222a80f7f3ee47dcf9811f32f09fa44ec13 541 main/binary-amd64/Packages.gz
+ c52a2036084fbdd7bc5c757c1b7c2334577cdfa5 854 main/binary-amd64/Packages
+ ca58a70e948739f1c66075054ab47099881b04c6 540 main/binary-amd64/Packages.gz
  97260873cce179bf59bd580327cb8434b28324ec 125 main/binary-amd64/Release
- d52432e50b6abca5bf420fa2feb9754ff46a356f 999 main/source/Sources
- d492f47a357e91ab34435203c711c6a2de5fb185 504 main/source/Sources.gz
+ 9c66cb704248d8d4210ac5a862ed41c0d0310002 999 main/source/Sources
+ 113e7a4da6feacb43cbb04320a5189da027df28a 506 main/source/Sources.gz
  0739e53731c21f655744553c007b788e6fe9e275 126 main/source/Release
 SHA256:
- 0c04590b4007eff8396c04a579516bf2d1c6fa9f9f4ea41f2c36009bea69a1b1 854 main/binary-i386/Packages
- ca59f8555991b33bcd2b7186a55c7eaa01f3274b73e0665950047b59914d382f 541 main/binary-i386/Packages.gz
+ 34c18e3bb97af807aae41933df1d23e394399b7f5215f2b38f53ec8995f20f62 854 main/binary-i386/Packages
+ c1e76b1b2c8e606a6096c5d2d001de3680c9eaa0e73913474fa7dbe51e1a29f8 540 main/binary-i386/Packages.gz
  79249e31e39f7fef70e27a9fe0bd0cf478a346809a4120475fad1b7ff31f7f7e 124 main/binary-i386/Release
- 0c04590b4007eff8396c04a579516bf2d1c6fa9f9f4ea41f2c36009bea69a1b1 854 main/binary-amd64/Packages
- ca59f8555991b33bcd2b7186a55c7eaa01f3274b73e0665950047b59914d382f 541 main/binary-amd64/Packages.gz
+ 34c18e3bb97af807aae41933df1d23e394399b7f5215f2b38f53ec8995f20f62 854 main/binary-amd64/Packages
+ c1e76b1b2c8e606a6096c5d2d001de3680c9eaa0e73913474fa7dbe51e1a29f8 540 main/binary-amd64/Packages.gz
  40e9e02d588b4acd689f0675f83832538155185583beb20a63be5ad04db38e8d 125 main/binary-amd64/Release
- 282f915585c3dd1496e125c81604bc1193667995bc2745b5f21c2179254c2bb6 999 main/source/Sources
- 28a9688d3e37e366f387c1be38577aaf8b8c0d8c87fcfbbec5905c6d1ac51e2f 504 main/source/Sources.gz
+ d013aa3bf7e1ae1b2c93daa1f149bd7df606bdaf64b80f8e2d440da8695053f6 999 main/source/Sources
+ b2bf8bd212ce568f6f920572c35275c5575de90794e6913ea0f8a9ff874c2c05 506 main/source/Sources.gz
  542d16dfd9529722ad0278f4d4fce665765bccfd3425a633186c6cee9bf86c1b 126 main/source/Release
