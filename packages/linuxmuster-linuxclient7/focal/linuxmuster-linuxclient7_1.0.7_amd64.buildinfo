@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-linuxclient7
 Binary: linuxmuster-linuxclient7
 Architecture: all source
-Version: 1.0.6
+Version: 1.0.7
 Checksums-Md5:
- 3b3240a0aa9735055eaac8b28b4b2e08 647 linuxmuster-linuxclient7_1.0.6.dsc
- a83b9d59e6d08cfa49c7c9e7d9e4752b 29724 linuxmuster-linuxclient7_1.0.6_all.deb
+ 0ad9eff8bf6f159bca43efb396688b7f 647 linuxmuster-linuxclient7_1.0.7.dsc
+ a5bdc76701685c64902091167a6799c7 29792 linuxmuster-linuxclient7_1.0.7_all.deb
 Checksums-Sha1:
- d6e846d50faef8d4f1ea22a7bea5892c3a1df15c 647 linuxmuster-linuxclient7_1.0.6.dsc
- 7eaba16cec1910f49a16135dca38fa693196be5f 29724 linuxmuster-linuxclient7_1.0.6_all.deb
+ 78c6403be961d6e1ebe5728dcbd4693367d1e486 647 linuxmuster-linuxclient7_1.0.7.dsc
+ 6a94f8dc496aac3e3584f7143f6faa85a00ea021 29792 linuxmuster-linuxclient7_1.0.7_all.deb
 Checksums-Sha256:
- 56d9c2b75cce2327a722ee020a83754a34f0a197211c4dc4eeb47a6138433b46 647 linuxmuster-linuxclient7_1.0.6.dsc
- 1b1f1075035719302c848135ea96563c26ffadb7d2bc1f126bb5802740add406 29724 linuxmuster-linuxclient7_1.0.6_all.deb
+ a0fd105f9dade4fe03bcf5a207c805eb7f04a3d5e3911cd85d5986d097a06526 647 linuxmuster-linuxclient7_1.0.7.dsc
+ bc5b4e0604f1297545ff609190e20be1832bf9776cfd643309b020352780e327 29792 linuxmuster-linuxclient7_1.0.7_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 28 Sep 2021 20:59:20 +0000
+Build-Date: Sat, 02 Oct 2021 21:51:54 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -163,7 +163,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.31.1-0.4ubuntu3.7),
  libxml2 (= 2.9.4+dfsg1-6.1ubuntu1.4),
  libzstd1 (= 1.3.3+dfsg-2ubuntu1.2),
- linux-libc-dev (= 4.15.0-156.163),
+ linux-libc-dev (= 4.15.0-159.167),
  login (= 1:4.5-1ubuntu2),
  m4 (= 1.4.18-1),
  make (= 4.1-9.1ubuntu1),
@@ -187,4 +187,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1632862573"
+ SOURCE_DATE_EPOCH="1633211306"
