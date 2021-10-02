@@ -1,5 +1,5 @@
 Package: linuxmuster-linuxclient7
-Version: 1.0.6
+Version: 1.0.7
 Architecture: all
 Maintainer: Dorian Zedler <dorian@itsblue.de>, Andreas Till <andreas.till@netzint.de>
 Installed-Size: 180
@@ -7,10 +7,10 @@ Depends: python3, python3-ldap, cifs-utils, ldb-tools, bind9-host, ipcalc, hxtoo
 Conflicts: linuxmuster-client-adsso, linuxmuster-client-adsso7, ni-lmn-client-adsso
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-linuxclient7/linuxmuster-linuxclient7_1.0.6_all.deb
-Size: 29724
-SHA256: 1b1f1075035719302c848135ea96563c26ffadb7d2bc1f126bb5802740add406
-SHA1: 7eaba16cec1910f49a16135dca38fa693196be5f
-MD5sum: a83b9d59e6d08cfa49c7c9e7d9e4752b
+Filename: pool/main/l/linuxmuster-linuxclient7/linuxmuster-linuxclient7_1.0.7_all.deb
+Size: 29792
+SHA256: bc5b4e0604f1297545ff609190e20be1832bf9776cfd643309b020352780e327
+SHA1: 6a94f8dc496aac3e3584f7143f6faa85a00ea021
+MD5sum: a5bdc76701685c64902091167a6799c7
 Description: Package for Ubuntu clients to connect to the linuxmuster.net 7 active directory server.
 
