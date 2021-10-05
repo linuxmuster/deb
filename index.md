@@ -36,6 +36,7 @@ sudo apt update
 
 # Index of /
 Files in this directory:
+- 🗒 [CNAME](CNAME)
 - 📁 [dists/](dists)
 - 📁 [pool/](pool)
 - 🗒 [pub.gpg](pub.gpg)
