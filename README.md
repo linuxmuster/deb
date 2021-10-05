@@ -16,7 +16,7 @@ This is the Linuxmuter.net archive. It is the place where you can get the latest
 To use the repository, please follow these steps:
 #### 1. Import key:
 ```bash
-wget -qO - "deb.linuxmuster.net/archive/pub.gpg" | sudo apt-key add -
+wget -qO - "https://deb.linuxmuster.net/archive/pub.gpg" | sudo apt-key add -
 ```
 #### 2. Add repo:
 Choose ONE of these depending on your system:
