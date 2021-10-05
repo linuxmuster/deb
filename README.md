@@ -16,18 +16,18 @@ This is the Linuxmuter.net archive. It is the place where you can get the latest
 To use the repository, please follow these steps:
 #### 1. Import key:
 ```bash
-wget -qO - "linuxmuster.github.io/archive/pub.gpg" | sudo apt-key add -
+wget -qO - "deb.linuxmuster.net/archive/pub.gpg" | sudo apt-key add -
 ```
 #### 2. Add repo:
 Choose ONE of these depending on your system:
 ###### Ubuntu 20.04 Focal:
 ```bash
-sudo sh -c 'echo "deb https://linuxmuster.github.io/archive focal main" > /etc/apt/sources.list.d/lmn7.list'
+sudo sh -c 'echo "deb https://deb.linuxmuster.net/archive focal main" > /etc/apt/sources.list.d/lmn7.list'
 ```
 
 ###### Ubuntu 18.04 Bionic:
 ```bash
-sudo sh -c 'echo "deb https://linuxmuster.github.io/archive bionic main" > /etc/apt/sources.list.d/lmn7.list'
+sudo sh -c 'echo "deb https://deb.linuxmuster.net/archive bionic main" > /etc/apt/sources.list.d/lmn7.list'
 ```
 #### 3. Apt update
 ```bash
