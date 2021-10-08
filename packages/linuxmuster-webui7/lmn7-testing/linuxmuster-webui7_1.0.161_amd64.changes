@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Fri, 08 Oct 2021 10:18:41 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 1.0.161
+Distribution: lmn7-testing
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (1.0.161) lmn7-testing; urgency=medium
+ .
+   - Multischool support
+   - Add custom fields
+   - Select template to print data, print data page improved
+   - Quota display on teacher view
+   - Update on Ajenti 2.1.43
+   - New plugins : samba DNS / vdi / dhcp / crontab
+   - Complete LMNFile actions
+   - More options for printer group management
+   - Manage filter script from sophomorix
+   - New footer style
+   - A lot of bug fixes and even more
+Checksums-Sha1:
+ f797a02757772a6e01a71e01c721be928c5ce985 572 linuxmuster-webui7_1.0.161.dsc
+ fc2e12e1dcb629f86944830b4efd391a240a5538 11480300 linuxmuster-webui7_1.0.161.tar.gz
+ 75e000f35338f7cd66285b0e6958970bdb6bb031 723776 linuxmuster-webui7_1.0.161_all.deb
+ f2e8d099259a8a58b8c5fdf623634201d40eef24 6649 linuxmuster-webui7_1.0.161_amd64.buildinfo
+Checksums-Sha256:
+ 5fd6008824b758b1fdcf9ab602c5fbb4cdfc0ca8710e06e1f19cf210b1a054eb 572 linuxmuster-webui7_1.0.161.dsc
+ e9d83321faab72494d603f6bf694a0406361bad79acc0c706d4317a5f40a6663 11480300 linuxmuster-webui7_1.0.161.tar.gz
+ 4a75d2e85d19cb139a8cc71254704d53b55ef1f899bdc4ea041baff998ad8c8e 723776 linuxmuster-webui7_1.0.161_all.deb
+ 4aa0a7b6df0dc5a1be2f26292893a08f6d5ca3dfbea769ebef1a7367e04811ec 6649 linuxmuster-webui7_1.0.161_amd64.buildinfo
+Files:
+ 0e4f5dfa6e1e288827b362e05c3432fa 572 admin optional linuxmuster-webui7_1.0.161.dsc
+ 33a6099bef4b372fac582fa92e53858c 11480300 admin optional linuxmuster-webui7_1.0.161.tar.gz
+ 963fcf86721374b92d4de5c06c082472 723776 admin optional linuxmuster-webui7_1.0.161_all.deb
+ 11e150f769cc18cd4beeb5b660c2de1f 6649 admin optional linuxmuster-webui7_1.0.161_amd64.buildinfo
