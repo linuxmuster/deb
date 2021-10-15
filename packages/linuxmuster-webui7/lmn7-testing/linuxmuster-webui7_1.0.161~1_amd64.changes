@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Fri, 08 Oct 2021 10:18:41 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 1.0.161~1
+Distribution: lmn7-testing
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (1.0.161~1) lmn7-testing; urgency=medium
+ .
+   - Multischool support
+   - Add custom fields
+   - Select template to print data, print data page improved
+   - Quota display on teacher view
+   - Update on Ajenti 2.1.43
+   - New plugins : samba DNS / vdi / dhcp / crontab
+   - Complete LMNFile actions
+   - More options for printer group management
+   - Manage filter script from sophomorix
+   - New footer style
+   - A lot of bug fixes and even more
+Checksums-Sha1:
+ 6ab599658b5d90ca5aea78cd5744aa7250c736d4 580 linuxmuster-webui7_1.0.161~1.dsc
+ d5cfa085cf0e1ef2ddd3d4843284e53a9576d44f 11479715 linuxmuster-webui7_1.0.161~1.tar.gz
+ f41ecf11ecd0ae8fbeeb1caf9bf9611cda0094f0 723756 linuxmuster-webui7_1.0.161~1_all.deb
+ 44ae9ff2f4f21096ee9097b8764131aea750ce21 6663 linuxmuster-webui7_1.0.161~1_amd64.buildinfo
+Checksums-Sha256:
+ 1e6abd9bb35f6959003b97bb25cb3bea181d8b9c1f0846cdb16225aed30f3023 580 linuxmuster-webui7_1.0.161~1.dsc
+ ae1c0b852542d04856f9b5f8248526c19ec8984db0fa234f5eb9380448624746 11479715 linuxmuster-webui7_1.0.161~1.tar.gz
+ ad5c7ea22457602162ea45da53aab80af57086d4a1b1f7af8a3230cb9301d4cc 723756 linuxmuster-webui7_1.0.161~1_all.deb
+ bdfee3f44da9f83569b8ecd97ad8085a383294dc8f971a9471cb3021b2f7c278 6663 linuxmuster-webui7_1.0.161~1_amd64.buildinfo
+Files:
+ d0dbb284831f766ef20d19a1fce7b137 580 admin optional linuxmuster-webui7_1.0.161~1.dsc
+ 7c06b35dc1f7b652acb4fa4c986441da 11479715 admin optional linuxmuster-webui7_1.0.161~1.tar.gz
+ 65ddd3626b543526380f9719e4b1a62b 723756 admin optional linuxmuster-webui7_1.0.161~1_all.deb
+ c59ec4d08e71c0ec8ce0259af7369fb5 6663 admin optional linuxmuster-webui7_1.0.161~1_amd64.buildinfo
