@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 4.0.0), fakeroot
 Package-List:
  linuxmuster-webui7 deb admin optional arch=all
 Checksums-Sha1:
- 08de7a13e87c3f4d183af1412883db4500308e4c 11479717 linuxmuster-webui7_1.0.161~1.tar.gz
+ d5cfa085cf0e1ef2ddd3d4843284e53a9576d44f 11479715 linuxmuster-webui7_1.0.161~1.tar.gz
 Checksums-Sha256:
- 97e6f7651cc19f392d2e9a1c846283508da4d8da68575986eb1bd0eaf592cba5 11479717 linuxmuster-webui7_1.0.161~1.tar.gz
+ ae1c0b852542d04856f9b5f8248526c19ec8984db0fa234f5eb9380448624746 11479715 linuxmuster-webui7_1.0.161~1.tar.gz
 Files:
- 3aaa432a4dda8159dceee183f563a249 11479717 linuxmuster-webui7_1.0.161~1.tar.gz
+ 7c06b35dc1f7b652acb4fa4c986441da 11479715 linuxmuster-webui7_1.0.161~1.tar.gz

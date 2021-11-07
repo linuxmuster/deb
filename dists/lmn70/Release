@@ -1,0 +1,37 @@
+Origin: archive.linuxmuster.net
+Label: archive.linuxmuster.net
+Codename: lmn70
+Date: Sun, 07 Nov 2021 10:48:44 UTC
+Architectures: i386 amd64
+Components: main
+Description: lmn70 (bionic) stable
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ 1886b0adb3efdb7f8554baf7f071d011 133 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 17a26fe5a3fb3c331a1ac536e64af7b0 134 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 081708a45f778b49be5b490543abc022 135 main/source/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ 5b53f0d926c9e101767100aa4901713f828cb709 133 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 73a4ed5488f393478faa4d87b1cd6dbd26d40ca4 134 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ dc8abf0f4de6a3c0adb2cb86acd9aa4a9ae97c8f 135 main/source/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 767eb9a34c1477036693c2dd579a03c0316b4dadf8b554a02227d65875626eac 133 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 1bb53c913d0deeec856a49115ad1e644f45d151f334617fa1bbdd58f320eb8cb 134 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ b17f40dc69e7e8a0390770346c74eba871d5d49bd5ca2d5c23778cc0244cc782 135 main/source/Release
