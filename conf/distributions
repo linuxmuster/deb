@@ -1,61 +1,61 @@
-Origin: archive.linuxmuster.net 
-Label: archive.linuxmuster.net 
+Origin: deb.linuxmuster.net 
+Label: deb.linuxmuster.net 
 Codename: focal
 Architectures: i386 amd64 source
 Components: main
 Description: focal stable
 SignWith: 4E8B8B667D752C32
 
-Origin: archive.linuxmuster.net
-Label: archive.linuxmuster.net 
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net 
 Codename: focal-testing
 Architectures: i386 amd64 source
 Components: main
 Description: focal testing
 SignWith: 4E8B8B667D752C32
 
-Origin: archive.linuxmuster.net
-Label: archive.linuxmuster.net
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
 Codename: bionic
 Architectures: i386 amd64 source
 Components: main
 Description: bionic stable
 SignWith: 4E8B8B667D752C32
 
-Origin: archive.linuxmuster.net
-Label: archive.linuxmuster.net
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
 Codename: bionic-testing
 Architectures: i386 amd64 source
 Components: main
 Description: bionic testing
 SignWith: 4E8B8B667D752C32
 
-Origin: archive.linuxmuster.net
-Label: archive.linuxmuster.net
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
 Codename: lmn7
 Architectures: i386 amd64 source
 Components: main
 Description: lmn7 (bionic) stable
 SignWith: 4E8B8B667D752C32
 
-Origin: archive.linuxmuster.net
-Label: archive.linuxmuster.net
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
 Codename: lmn7-testing
 Architectures: i386 amd64 source
 Components: main
 Description: lmn7 (bionic) testing
 SignWith: 4E8B8B667D752C32
 
-Origin: archive.linuxmuster.net
-Label: archive.linuxmuster.net
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
 Codename: lmn70
 Architectures: i386 amd64 source
 Components: main
 Description: lmn70 (bionic) stable
 SignWith: 4E8B8B667D752C32
 
-Origin: archive.linuxmuster.net
-Label: archive.linuxmuster.net
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
 Codename: lmn71
 Architectures: i386 amd64 source
 Components: main
