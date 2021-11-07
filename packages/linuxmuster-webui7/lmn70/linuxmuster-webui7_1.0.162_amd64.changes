@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 07 Nov 2021 15:04:34 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 1.0.162
+Distribution: lmn70
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (1.0.162) lmn70; urgency=medium
+ .
+   * Change start.conf name
+   * Sanitize spaces in CSV
+   * Accepting birthday without leading 0
+   * Fix permissions of config backups
+   * Add schoolsettings permissions for schooladmins
+   * Fix postsync file being deleted
+Checksums-Sha1:
+ 9f68987c4c8ba4ae14b663bebf86965cf7227658 572 linuxmuster-webui7_1.0.162.dsc
+ 652dfc9c8649584bcda67874d000783a3da1064e 12866741 linuxmuster-webui7_1.0.162.tar.gz
+ e0198411dde1d4ee065ab0d8ccbdb451fb733f14 1522792 linuxmuster-webui7_1.0.162_all.deb
+ 2846800771a5964e984b88c0ae1a39c434643c92 6652 linuxmuster-webui7_1.0.162_amd64.buildinfo
+Checksums-Sha256:
+ bf56b7f31e0aa7c2c244f33dc35dd5a3abd18096e9ed812c3216fcfefc18e3de 572 linuxmuster-webui7_1.0.162.dsc
+ 6e012aa3261143d426ced851788ac9a1949b3e20ade23208c9ee5f066f9164f4 12866741 linuxmuster-webui7_1.0.162.tar.gz
+ 7ff1a250dfe71d5b33c894381ff4b5e7dc4208685ee5f5d8c62c7abab34dc83b 1522792 linuxmuster-webui7_1.0.162_all.deb
+ 924b6fcb256aba920505cc8ba77f30d6717c59997a7fe43d095a95841b24f2a9 6652 linuxmuster-webui7_1.0.162_amd64.buildinfo
+Files:
+ 4c29f2999ed54e95829068318380910e 572 admin optional linuxmuster-webui7_1.0.162.dsc
+ 3c45fd8482e44465bb4e90e9f5da2f07 12866741 admin optional linuxmuster-webui7_1.0.162.tar.gz
+ 89017db8f90f44f51a4e54ee2efeb0a0 1522792 admin optional linuxmuster-webui7_1.0.162_all.deb
+ 355819884018768de0b3939c9c01c9cd 6652 admin optional linuxmuster-webui7_1.0.162_amd64.buildinfo
