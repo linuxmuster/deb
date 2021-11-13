@@ -13,23 +13,52 @@ This is the Linuxmuter.net archive. It is the place where you can get the latest
 </p>
 
 # Setup
+
 To use the repository, please follow these steps:
-#### 1. Import key:
+
+## 1. Import key:
+
 ```bash
 wget -qO - "https://deb.linuxmuster.net/pub.gpg" | sudo apt-key add -
 ```
-#### 2. Add repo:
+
+## 2. Add repo:
+
+Currently, the packages `linuxmuster-linuxclient7` and `linuxmuster-webui7` are here available.
+
+### Linuxclient7
+
 Choose ONE of these depending on your system:
-###### Ubuntu 20.04 Focal:
+
+##### Ubuntu 20.04 Focal:
+
 ```bash
 sudo sh -c 'echo "deb https://deb.linuxmuster.net/ focal main" > /etc/apt/sources.list.d/lmn7.list'
 ```
 
-###### Ubuntu 18.04 Bionic:
+##### Ubuntu 18.04 Bionic:
+
 ```bash
 sudo sh -c 'echo "deb https://deb.linuxmuster.net/ bionic main" > /etc/apt/sources.list.d/lmn7.list'
 ```
-#### 3. Apt update
+
+### Webui7
+
+##### Linuxmuster 7.1 ( testing )
+
+```bash
+sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/sources.list.d/lmn7.list'
+```
+
+##### Linuxmuster 7.0 ( stable )
+
+```bash
+sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn70 main" > /etc/apt/sources.list.d/lmn7.list'
+```
+
+
+## 3. Apt update
+
 ```bash
 sudo apt update
 ```
