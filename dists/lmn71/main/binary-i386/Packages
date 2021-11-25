@@ -1,19 +1,37 @@
-Package: linuxmuster-linbo7
-Version: 4.0.0-1
+Package: linuxmuster-base7
+Version: 7.1.0-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
-Installed-Size: 113790
+Installed-Size: 280
+Pre-Depends: python3
+Depends: coreutils, cups, printer-driver-cups-pdf, isc-dhcp-server, python3-bcrypt, python3-bs4, python3-lxml, python3-ipy, python3-reconfigure, python3-apt, python3-netifaces, python3-dialog, python3-ldap3, python3-netaddr, python3-paramiko, python3-requests, openssl, ntp, ntpdate, samba, samba-dsdb-modules, smbclient, ldb-tools, krb5-user, linuxmuster-webui7, linuxmuster-linbo7, screen, sophomorix-samba
+Conflicts: dnsmasq-base
+Priority: optional
+Section: linuxmuster
+Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.1.0-0_all.deb
+Size: 56664
+SHA256: e93915be1261cd6ec512478a980b3956075f7eac39d714fda59d44d5cfed8ac2
+SHA1: 0dbed089cfd2d0903ba5fb4cf53dd3f0ca7f41b5
+MD5sum: 3a96853c7b151f6918471755620481db
+Description: linuxmuster.net configuration scripts
+ This package provides configuration scripts for linuxmuster.net
+
+Package: linuxmuster-linbo7
+Version: 4.0.0-4
+Architecture: all
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Installed-Size: 113791
 Depends: dropbear-bin, rsync (>= 3), ctorrent, isolinux (>= 6.03), syslinux-common (>= 6.03), syslinux-utils (>= 6.03), ssh, sed, screen, xorriso (>= 1.4.2), dosfstools, udpcast, xz-utils, zip, mbr, wakeonlan, linuxmuster-base7, python3, linuxmuster-linbo-gui7, grub-common, grub-ipxe, grub-pc-bin, grub-efi-amd64-bin, tftpd-hpa (>= 5.2+20150808-1ubuntu1fifopatch), qemu-utils
 Suggests: isc-dhcp-server | dhcp3-server
 Conflicts: atftpd, bittorrent, linuxmuster-linbo, linuxmuster-linbo-common, linuxmuster-linbo-common7
 Breaks: linuxmuster-linbo-common7
 Priority: extra
 Section: admin
-Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.0.0-1_all.deb
-Size: 40893544
-SHA256: 8ff1a1d947aac44d12a6681fdf5d68f120cf470e213afbc6741cd195ab978a03
-SHA1: ec7c316c293425e6c99a0e28708017a97c1d4d13
-MD5sum: 0950b24d479fab21633cc8515ceecea6
+Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.0.0-4_all.deb
+Size: 40894076
+SHA256: f59db83af0766a03cfc06eb98d89214a0cd20d05bb34d4ae5e0e1b28af98f881
+SHA1: 06d798bfdd7bc2f7c569b90b6d78c30c4f2551de
+MD5sum: 0fe775a49638ec7952337d90cc8c3ae2
 Description: linuxmuster-linbo7
  This package contains kernel, initrd, scripts and pxe boot configuration for the Linux-based Network Boot (LINBO) boot/install/repair system.
 
