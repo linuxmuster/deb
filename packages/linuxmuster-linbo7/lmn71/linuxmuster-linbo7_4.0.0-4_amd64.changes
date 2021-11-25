@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 25 Nov 2021 13:31:00 +0001
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.0-4
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.0-4) lmn71; urgency=low
+ .
+   * another git workflow fix.
+Checksums-Sha1:
+ 8b49bbd11900bb39bb40a715a7706de985404b5d 1344 linuxmuster-linbo7_4.0.0-4.dsc
+ 42ad33ab397299be25c32044aa9e8553f98fe8fb 1950781 linuxmuster-linbo7_4.0.0-4.tar.gz
+ 06d798bfdd7bc2f7c569b90b6d78c30c4f2551de 40894076 linuxmuster-linbo7_4.0.0-4_all.deb
+ 979b29da531c54ed71afbc9ce75840a9519bd179 15844 linuxmuster-linbo7_4.0.0-4_amd64.buildinfo
+Checksums-Sha256:
+ 0bd8d99e03f124960a7d1b6f0f2fbfbd909555e089183ee286e96d3beed56d71 1344 linuxmuster-linbo7_4.0.0-4.dsc
+ e1d39a0cb7863da42b02c58aabe77c003e655aec78fba14187f142215f3e726e 1950781 linuxmuster-linbo7_4.0.0-4.tar.gz
+ f59db83af0766a03cfc06eb98d89214a0cd20d05bb34d4ae5e0e1b28af98f881 40894076 linuxmuster-linbo7_4.0.0-4_all.deb
+ e8cf82a028e9484ba4d7f3af715a5ff91560efcb78c57c6bbc6100ec2aee5a01 15844 linuxmuster-linbo7_4.0.0-4_amd64.buildinfo
+Files:
+ e964ecda6010ebd1c8a199a61a669862 1344 admin extra linuxmuster-linbo7_4.0.0-4.dsc
+ 16e771df65ace3f3a48e8f2e42afbb27 1950781 admin extra linuxmuster-linbo7_4.0.0-4.tar.gz
+ 0fe775a49638ec7952337d90cc8c3ae2 40894076 admin extra linuxmuster-linbo7_4.0.0-4_all.deb
+ 33f1aa363cbbc82f48804c07a1ece4af 15844 admin extra linuxmuster-linbo7_4.0.0-4_amd64.buildinfo
