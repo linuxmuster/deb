@@ -24,7 +24,7 @@ wget -qO - "https://deb.linuxmuster.net/pub.gpg" | sudo apt-key add -
 
 ## 2. Add repo:
 
-Currently, the `linuxmuster 7.1` testing and `linuxmuster-linuxclient7` and `linuxmuster-webui7` packages are here available.
+Currently, the `linuxmuster 7.1` testing and `linuxmuster-linuxclient7` and packages are here available.
 
 ### Linuxmuster 7.1 testing (including base, linbo & webui pkgs)
 
@@ -47,13 +47,6 @@ sudo sh -c 'echo "deb https://deb.linuxmuster.net/ focal main" > /etc/apt/source
 ```bash
 sudo sh -c 'echo "deb https://deb.linuxmuster.net/ bionic main" > /etc/apt/sources.list.d/lmn7.list'
 ```
-
-### Webui7 (Linuxmuster 7.0 stable)
-
-```bash
-sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn70 main" > /etc/apt/sources.list.d/lmn7.list'
-```
-
 
 ## 3. Apt update
 
