@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 26 Nov 2021 15:08:50 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 1.0.163~3
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (1.0.163~3) lmn71; urgency=medium
+ .
+   * Properly restart torrent service after changing image
+   * Disable too long hostnames
+   * Publish cron plugin
+   * Publish dhcp plugin
+   * Publish samba dns plugin
+Checksums-Sha1:
+ e0aa0527d6912ba726a60979333796c5db74a6e9 580 linuxmuster-webui7_1.0.163~3.dsc
+ 03949030803e4ac2e1e0ee0219fd2b14b37489be 11590560 linuxmuster-webui7_1.0.163~3.tar.gz
+ 465b4e2278d37d4fa74798e1af72799ad70bd500 740220 linuxmuster-webui7_1.0.163~3_all.deb
+ 13b3e858bff10d7dbf0197eba75a466045419ee4 6663 linuxmuster-webui7_1.0.163~3_amd64.buildinfo
+Checksums-Sha256:
+ 376d2385804f9bd193c8c4f541dadb9389a6f78a0fb190476af5a00f6fdd43e6 580 linuxmuster-webui7_1.0.163~3.dsc
+ d7d17cbb22e1b2fb4cbcf18fd5090e6348318a75e67aec77eb39dfcc8b3b763b 11590560 linuxmuster-webui7_1.0.163~3.tar.gz
+ 496e044c85daa2d9e62dd7112b41f7367e9647f520086f06430383abf304c699 740220 linuxmuster-webui7_1.0.163~3_all.deb
+ e924d928fc21634928cca62a781c8b2a94380df64d0db18464749c6cbe6ea39d 6663 linuxmuster-webui7_1.0.163~3_amd64.buildinfo
+Files:
+ 7e818637ce0eaf4367de7a92bbca8071 580 admin optional linuxmuster-webui7_1.0.163~3.dsc
+ b1f2edd0d5fe15be6e608842d5aeb08b 11590560 admin optional linuxmuster-webui7_1.0.163~3.tar.gz
+ 523cefb00f174e21a09f1e6bf02203bb 740220 admin optional linuxmuster-webui7_1.0.163~3_all.deb
+ 0eecc13406321c5bfac9cf62c9c3fd79 6663 admin optional linuxmuster-webui7_1.0.163~3_amd64.buildinfo
