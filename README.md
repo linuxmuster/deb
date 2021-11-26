@@ -42,13 +42,13 @@ sudo sh -c 'echo "deb https://deb.linuxmuster.net/ focal main" > /etc/apt/source
 sudo sh -c 'echo "deb https://deb.linuxmuster.net/ bionic main" > /etc/apt/sources.list.d/lmn7.list'
 ```
 
-### Webui7
-
-##### Linuxmuster 7.1 ( testing )
+### Linuxmuster 7.1 ( testing )
 
 ```bash
 sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/sources.list.d/lmn7.list'
 ```
+
+### Webui7
 
 ##### Linuxmuster 7.0 ( stable )
 
