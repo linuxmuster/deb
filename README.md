@@ -45,11 +45,11 @@ sudo sh -c 'echo "deb https://deb.linuxmuster.net/ bionic main" > /etc/apt/sourc
 ### Linuxmuster 7.1 ( testing )
 
 ```bash
-sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/sources.list.d/lmn7.list'
+sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/sources.list.d/lmn71.list'
 ```
 
 ### Webui7
-
+Uda
 ##### Linuxmuster 7.0 ( stable )
 
 ```bash
