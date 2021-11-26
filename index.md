@@ -49,7 +49,7 @@ sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/source
 ```
 
 ### Webui7
-Uda
+
 ##### Linuxmuster 7.0 ( stable )
 
 ```bash
