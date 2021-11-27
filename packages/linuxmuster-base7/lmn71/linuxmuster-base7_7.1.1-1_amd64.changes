@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 27 Nov 2021 18:15:00 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.1-1
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.1-1) lmn71; urgency=low
+ .
+   * fixed changelog timezone.
+   * exclude .github directory from source package.
+Checksums-Sha1:
+ d5aa07f6a4c073f0699f5b542915c30cec875eb1 579 linuxmuster-base7_7.1.1-1.dsc
+ 05532c7c342eae2d341e2d81db7a3b14fbe5ebde 74782 linuxmuster-base7_7.1.1-1.tar.gz
+ b2689abc15525718d2372d35c1c5580434ffdcf4 56724 linuxmuster-base7_7.1.1-1_all.deb
+ 031fcf2d4aeb58cae3a02c898a2fed715f462c9f 6666 linuxmuster-base7_7.1.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 26cbedbec2bef478d7a13faa54e93d66fc04e99d25e31f1bb79d5a23ec967c1b 579 linuxmuster-base7_7.1.1-1.dsc
+ d9bb62b13c0a2a5203ba2880c1788cbd512ddc4f7efcbc62c083ae70b13387c6 74782 linuxmuster-base7_7.1.1-1.tar.gz
+ 5de33b74ebae5d998012ce6faa284c1bc599330a1d8cd9ad9ed1448c6d9dee4e 56724 linuxmuster-base7_7.1.1-1_all.deb
+ e44efb6f866ec101048a65da80fc5d32b45e45d392252508e58f0bce0e74c812 6666 linuxmuster-base7_7.1.1-1_amd64.buildinfo
+Files:
+ 67352a0ef19c9946d3fb6f84ccf6160d 579 linuxmuster optional linuxmuster-base7_7.1.1-1.dsc
+ 5e7812c290800f627e452fcd20b876a9 74782 linuxmuster optional linuxmuster-base7_7.1.1-1.tar.gz
+ 10b7815d67204ef0960ea45de39eee53 56724 linuxmuster optional linuxmuster-base7_7.1.1-1_all.deb
+ 13cf8acd6b5d48fc54dae87337709983 6666 linuxmuster optional linuxmuster-base7_7.1.1-1_amd64.buildinfo
