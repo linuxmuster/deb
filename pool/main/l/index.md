@@ -6,4 +6,5 @@ Files in this directory:
 - 📁 [linuxmuster-linbo-gui7/](linuxmuster-linbo-gui7)
 - 📁 [linuxmuster-linbo7/](linuxmuster-linbo7)
 - 📁 [linuxmuster-linuxclient7/](linuxmuster-linuxclient7)
+- 📁 [linuxmuster-prepare/](linuxmuster-prepare)
 - 📁 [linuxmuster-webui7/](linuxmuster-webui7)

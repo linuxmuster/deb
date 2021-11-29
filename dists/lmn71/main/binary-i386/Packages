@@ -69,6 +69,21 @@ SHA1: 42decda80ca8ebee89e2a8f1cd14f80c59d742ed
 MD5sum: dcd738e1f23f00b381a7c1337b4772e1
 Description: Package for Ubuntu clients to connect to the linuxmuster.net 7 active directory server.
 
+Package: linuxmuster-prepare
+Version: 7.1.0-0
+Architecture: all
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Installed-Size: 61
+Depends: net-tools, python3-ipy, python3-netifaces, python3-pip, quota, rsync, ssh, vim, bash-completion
+Priority: optional
+Section: linuxmuster
+Filename: pool/main/l/linuxmuster-prepare/linuxmuster-prepare_7.1.0-0_all.deb
+Size: 14988
+SHA256: 8363749ea088e59218f41e6e45f169d7780025f746bbdb14d5da3310aaaeac87
+SHA1: b195b60dc7b3ab314257865066ea764c55079cba
+MD5sum: aed28e016d57d2d48a7625fa42caf6ef
+Description: linuxmuster.net pre setup configuration scripts
+
 Package: linuxmuster-webui7
 Version: 1.0.163~3
 Architecture: all
