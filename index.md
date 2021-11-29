@@ -15,6 +15,7 @@ This is the Linuxmuter.net archive. It is the place where you can get the latest
 # Packages
 This repo currently contains the following packages:
 - [webui7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71)
+- [prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71)
 - [linbo7](https://github.com/linuxmuster/linuxmuster-linbo7) (lmn71)
 - [linbo-gui7](https://github.com/linuxmuster/linuxmuster-linbo-gui7) (lmn71)
 - [linuxclient7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71)
