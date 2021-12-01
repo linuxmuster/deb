@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 01 Dec 2021 22:52:00 +0100
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Architecture: source all
+Version: 7.1.1-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.1.1-0) lmn71; urgency=low
+ .
+   * fix syntax error in lm71-prepare.
+Checksums-Sha1:
+ 5690952165854f105f434022c02c2077a8898aba 591 linuxmuster-prepare_7.1.1-0.dsc
+ 0bc989838ffb3f16dca72846a65d63ba8db2f640 30229 linuxmuster-prepare_7.1.1-0.tar.gz
+ 738dda3e4b12a4c4da831409abe0bd3e2395a30b 15028 linuxmuster-prepare_7.1.1-0_all.deb
+ 1334242dbdd4e13178f65bdc16024837d6d19f83 6682 linuxmuster-prepare_7.1.1-0_amd64.buildinfo
+Checksums-Sha256:
+ 05e13b1753eb5d22c75ec834b192538cdc2e0925361d984b59b3fba3d11476f0 591 linuxmuster-prepare_7.1.1-0.dsc
+ 06eb9be78083466cdaacf87c9df82ac21fd97b2baa8add1ec16e0da7ef6a4e4b 30229 linuxmuster-prepare_7.1.1-0.tar.gz
+ 040c8fac35bde329c4f87c75e720b890fc88c0932a71dba5abf3a024259db6c7 15028 linuxmuster-prepare_7.1.1-0_all.deb
+ 45536261d4aa74a1cc5fd6ed18dd8907d618736fe2024613b9fe0d3918b9f6e7 6682 linuxmuster-prepare_7.1.1-0_amd64.buildinfo
+Files:
+ d7fac568b2d48539432478fe919ae064 591 linuxmuster optional linuxmuster-prepare_7.1.1-0.dsc
+ 09fbc01dfa5a5b64a4345580854ba845 30229 linuxmuster optional linuxmuster-prepare_7.1.1-0.tar.gz
+ 7d233fc8f89d5358d5e60066a0f64a0e 15028 linuxmuster optional linuxmuster-prepare_7.1.1-0_all.deb
+ e0204dd3efe55e88ba2117b95c546f2b 6682 linuxmuster optional linuxmuster-prepare_7.1.1-0_amd64.buildinfo

@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-prepare
 Binary: linuxmuster-prepare
 Architecture: all source
-Version: 7.1.0-0
+Version: 7.1.1-0
 Checksums-Md5:
- c186ac6684705c20dc5e6f4a8abc5fe2 591 linuxmuster-prepare_7.1.0-0.dsc
- aed28e016d57d2d48a7625fa42caf6ef 14988 linuxmuster-prepare_7.1.0-0_all.deb
+ d7fac568b2d48539432478fe919ae064 591 linuxmuster-prepare_7.1.1-0.dsc
+ 7d233fc8f89d5358d5e60066a0f64a0e 15028 linuxmuster-prepare_7.1.1-0_all.deb
 Checksums-Sha1:
- d031ea296050f8fe34c3da8f3ad211e558ae6d4f 591 linuxmuster-prepare_7.1.0-0.dsc
- b195b60dc7b3ab314257865066ea764c55079cba 14988 linuxmuster-prepare_7.1.0-0_all.deb
+ 5690952165854f105f434022c02c2077a8898aba 591 linuxmuster-prepare_7.1.1-0.dsc
+ 738dda3e4b12a4c4da831409abe0bd3e2395a30b 15028 linuxmuster-prepare_7.1.1-0_all.deb
 Checksums-Sha256:
- 138e94613cbc3359732896b9dfd01e1ebffd3f73e70ab63b10d1fd5c0b9668ab 591 linuxmuster-prepare_7.1.0-0.dsc
- 8363749ea088e59218f41e6e45f169d7780025f746bbdb14d5da3310aaaeac87 14988 linuxmuster-prepare_7.1.0-0_all.deb
+ 05e13b1753eb5d22c75ec834b192538cdc2e0925361d984b59b3fba3d11476f0 591 linuxmuster-prepare_7.1.1-0.dsc
+ 040c8fac35bde329c4f87c75e720b890fc88c0932a71dba5abf3a024259db6c7 15028 linuxmuster-prepare_7.1.1-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 27 Nov 2021 17:30:17 +0000
+Build-Date: Wed, 01 Dec 2021 21:55:27 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -187,4 +187,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1638033120"
+ SOURCE_DATE_EPOCH="1638395520"
