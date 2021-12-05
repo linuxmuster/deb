@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 05 Dec 2021 16:55:22 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 1.0.162-1
+Distribution: lmn70
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (1.0.162-1) lmn70; urgency=medium
+ .
+   * Fix password list under schooladmin
+Checksums-Sha1:
+ b45f900358a7f0eecda00c0b4f7dcb78bd2bd2ef 580 linuxmuster-webui7_1.0.162-1.dsc
+ a7383c17e2cfd512c96b0ed062c16292c0c332a0 12865764 linuxmuster-webui7_1.0.162-1.tar.gz
+ d307e311b17f98250b34e7e03dedb009200b136e 1522780 linuxmuster-webui7_1.0.162-1_all.deb
+ dc4ebb176fdd5242293a5769c97a11942e7cb022 6666 linuxmuster-webui7_1.0.162-1_amd64.buildinfo
+Checksums-Sha256:
+ 33a91e323f5d1281ebff6df664e1da3481bd36cb3576d071f0d6299f7979a18c 580 linuxmuster-webui7_1.0.162-1.dsc
+ be67cda67881e534c70925c95d528c59a1afe513751f9c2ec595dd9d830aafc0 12865764 linuxmuster-webui7_1.0.162-1.tar.gz
+ 2e49084686a1fda1d2e88787b3ba57eb2402c31f5bb7d3cfc51d461906b1733d 1522780 linuxmuster-webui7_1.0.162-1_all.deb
+ 979fa1c28c13bce8b62ffdd6d28182aec8347d983bd24019ac58409d3ead17c5 6666 linuxmuster-webui7_1.0.162-1_amd64.buildinfo
+Files:
+ 2075d7aa51def6007156313977d3c19b 580 admin optional linuxmuster-webui7_1.0.162-1.dsc
+ b49af10f0ccdf5381251737ce31f6753 12865764 admin optional linuxmuster-webui7_1.0.162-1.tar.gz
+ b9081589ab629aba5d0b76944792e5c7 1522780 admin optional linuxmuster-webui7_1.0.162-1_all.deb
+ 6088e09ef38481186dd712169f5df5ca 6666 admin optional linuxmuster-webui7_1.0.162-1_amd64.buildinfo
