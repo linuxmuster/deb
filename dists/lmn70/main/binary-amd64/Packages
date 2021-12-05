@@ -1,5 +1,5 @@
 Package: linuxmuster-webui7
-Version: 1.0.162
+Version: 1.0.162-1
 Architecture: all
 Maintainer: Andreas Till <andreas.till@netzint.de>
 Installed-Size: 20147
@@ -7,10 +7,10 @@ Depends: python3-pip, python3-dev, python3-lxml, libffi-dev, libssl-dev, libjpeg
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_1.0.162_all.deb
-Size: 1522792
-SHA256: 7ff1a250dfe71d5b33c894381ff4b5e7dc4208685ee5f5d8c62c7abab34dc83b
-SHA1: e0198411dde1d4ee065ab0d8ccbdb451fb733f14
-MD5sum: 89017db8f90f44f51a4e54ee2efeb0a0
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_1.0.162-1_all.deb
+Size: 1522780
+SHA256: 2e49084686a1fda1d2e88787b3ba57eb2402c31f5bb7d3cfc51d461906b1733d
+SHA1: d307e311b17f98250b34e7e03dedb009200b136e
+MD5sum: b9081589ab629aba5d0b76944792e5c7
 Description: next generation web-based management tool for linuxmuster.net v7.x
 
