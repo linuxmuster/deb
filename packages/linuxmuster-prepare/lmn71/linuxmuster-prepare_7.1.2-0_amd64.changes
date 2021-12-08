@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 08 Dec 2021 16:03:00 +0100
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Architecture: source all
+Version: 7.1.2-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.1.2-0) lmn71; urgency=low
+ .
+   * removed applying netplan configuration since anyway a reboot is necessary.
+   * fixed hostname setup.
+Checksums-Sha1:
+ a37fcacce9a506f771efab7ffcfdecabd4268022 591 linuxmuster-prepare_7.1.2-0.dsc
+ 3348c64f6145660507975f65cf879ef56ce332ef 30072 linuxmuster-prepare_7.1.2-0.tar.gz
+ dece35af90962b58aee12403311840030aa99ba2 14840 linuxmuster-prepare_7.1.2-0_all.deb
+ f2d44d2678e35b3cca3e2089398f451fea074437 6682 linuxmuster-prepare_7.1.2-0_amd64.buildinfo
+Checksums-Sha256:
+ 0fd809334157ad576e7e547cfd56e0d97c45d00610e10a07da4f3f2857688b96 591 linuxmuster-prepare_7.1.2-0.dsc
+ 8414910c30c5991ad44413aafb3e7927b141de3cc7c9574a87e97cfe489c6be5 30072 linuxmuster-prepare_7.1.2-0.tar.gz
+ 3082ba2cc1fe44bb262c10b088bbbad629bb126cf81b86f45bf2a9bf5e6a6989 14840 linuxmuster-prepare_7.1.2-0_all.deb
+ 37c788b3f5a3d331b378aad5755bf081fbc151d0791a92d473dea8f4dda10e07 6682 linuxmuster-prepare_7.1.2-0_amd64.buildinfo
+Files:
+ 09f2e0af4487e7c1fc1da1bde117230b 591 linuxmuster optional linuxmuster-prepare_7.1.2-0.dsc
+ 78e37bc4a3ddab3911371d001476b6f9 30072 linuxmuster optional linuxmuster-prepare_7.1.2-0.tar.gz
+ cce1699d73b481eb238216bf62e1dfb3 14840 linuxmuster optional linuxmuster-prepare_7.1.2-0_all.deb
+ 3b09a64b246e024fe79bb252aa440710 6682 linuxmuster optional linuxmuster-prepare_7.1.2-0_amd64.buildinfo
