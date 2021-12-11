@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 11 Dec 2021 16:16:51 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 1.0.163~5
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (1.0.163~5) lmn71; urgency=medium
+ .
+   * Fixs in linbo4 plugin
+   * Add subnet settings
+   * Add linbo sync plugin
+Checksums-Sha1:
+ 8ef5350881e542431ef6e22cfffc371bd155d59b 580 linuxmuster-webui7_1.0.163~5.dsc
+ fb5b38aa609c683f0f9feab24a39797dd6ae82e1 11590544 linuxmuster-webui7_1.0.163~5.tar.gz
+ ca3f5d999f3086d7fa00b270bdae83555c17944e 740328 linuxmuster-webui7_1.0.163~5_all.deb
+ d23b27f33d009ac1b1aeb7b8c2de6d4d5fc34595 6663 linuxmuster-webui7_1.0.163~5_amd64.buildinfo
+Checksums-Sha256:
+ 27ed50aece2a19ee8ed7c5571f681b945ac5adc481f24b63a72cb81ec3562ff9 580 linuxmuster-webui7_1.0.163~5.dsc
+ 31eba8a8a0e49c5ff7d32bee9081a5f1bffe3f36e657bff85531a1e18bdb118a 11590544 linuxmuster-webui7_1.0.163~5.tar.gz
+ 9929d7bec7a382b1854355cdba4374ec2d68ac4d6e0aee4eae10f4a07df26118 740328 linuxmuster-webui7_1.0.163~5_all.deb
+ b2f81174ee77474269580381fd9b696749bbca386a5c8bd8e5d4b650c00f6b8e 6663 linuxmuster-webui7_1.0.163~5_amd64.buildinfo
+Files:
+ d0e756b08d1fe8412bdceb50bf1bc1d8 580 admin optional linuxmuster-webui7_1.0.163~5.dsc
+ 59feb11c362d1b1aefcdd8594f43a55d 11590544 admin optional linuxmuster-webui7_1.0.163~5.tar.gz
+ f894a196006ba3efdb392755cf5caa38 740328 admin optional linuxmuster-webui7_1.0.163~5_all.deb
+ fd8e9e12a831a67bdecf089566f70fd8 6663 admin optional linuxmuster-webui7_1.0.163~5_amd64.buildinfo
