@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 13 Dec 2021 20:55:34 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 1.0.163~6
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (1.0.163~6) lmn71; urgency=medium
+ .
+   * Display used images in start.conf and vice versa
+   * Fix template selection for admin and teachers
+   * Fix warning for empty classes in print password list
+   * Fix icons problems and remove png support in linbo plugin
+Checksums-Sha1:
+ b6eafad642370b28aed3bb38560cf0768d02a9f7 580 linuxmuster-webui7_1.0.163~6.dsc
+ 5a439b5ad72394379bb44cbd5f9bcdfae6bd5467 11590765 linuxmuster-webui7_1.0.163~6.tar.gz
+ 4a0e7ebdc69595ce6219f724997f9a1be496d964 741104 linuxmuster-webui7_1.0.163~6_all.deb
+ 08275ae45b6cc9e8a672cab7eaba35ad4d428c5d 6663 linuxmuster-webui7_1.0.163~6_amd64.buildinfo
+Checksums-Sha256:
+ 7c7415b34eb9e74c5b855303a237db4dc27b94ca38f48de65e538380b4f6a8dc 580 linuxmuster-webui7_1.0.163~6.dsc
+ f61b87226165fe69bdc8cf16a20d3dbc06cde5899a00dd610e9632f41375b152 11590765 linuxmuster-webui7_1.0.163~6.tar.gz
+ 62ee534e9c62ec55bfc3c0ebcd2423cd1df57a3a0d60dff4a353da6304c58ec1 741104 linuxmuster-webui7_1.0.163~6_all.deb
+ 9b29b6bb0c9cdf4751ca832e9b7b3994fff6bec4c4e8e8628be174f7ff9c850c 6663 linuxmuster-webui7_1.0.163~6_amd64.buildinfo
+Files:
+ 67b39700ff042f74406a781b7a8b7fb2 580 admin optional linuxmuster-webui7_1.0.163~6.dsc
+ d64b1e5e4ea9b903bace403645ee4cdd 11590765 admin optional linuxmuster-webui7_1.0.163~6.tar.gz
+ c2f8d9a45044d283f84c320a917c9c93 741104 admin optional linuxmuster-webui7_1.0.163~6_all.deb
+ f8bb8f804d71c90b7b7b886fa09d5511 6663 admin optional linuxmuster-webui7_1.0.163~6_amd64.buildinfo
