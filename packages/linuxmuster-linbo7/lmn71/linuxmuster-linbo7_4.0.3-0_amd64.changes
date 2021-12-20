@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Mon, 20 Dec 2021 15:00:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.3-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.3-0) lmn71; urgency=low
+ .
+   * Fix #32: Add global.reg to linuxmuster-win.
+   * Fix #33: /dev/nbd0 disconnected Report.
+   * Fix #34: fullsync with ext4 Filesystems changed behavior.
+   * Fix #35: Change ntpd Parameter.
+   * Fix #36: Use qcow2 in examples.
+   * Fix #37: remove all deprecated opsi code.
+Checksums-Sha1:
+ a9e960c71c2d9cffd6843fe010e80bdcc2b6649b 1344 linuxmuster-linbo7_4.0.3-0.dsc
+ afb45e05d2121773d5bfb6ff3e53b35a5dab1127 1948361 linuxmuster-linbo7_4.0.3-0.tar.gz
+ 1e29625c09f88b83dd833676c0688b2f6501ddf0 40889612 linuxmuster-linbo7_4.0.3-0_all.deb
+ ac295549557e101d9973286145418a808a8b7f71 15844 linuxmuster-linbo7_4.0.3-0_amd64.buildinfo
+Checksums-Sha256:
+ 134b2d43ab371953e06d449dda679d805f57998c57f9242fb2d5da291b2d8ba8 1344 linuxmuster-linbo7_4.0.3-0.dsc
+ 4bc4ff202242cedefcbe84380bb6b2d16dee9173695798b2ee39ea068462687d 1948361 linuxmuster-linbo7_4.0.3-0.tar.gz
+ d93ca2b9788bf3cc9d73afd3476029137ae0a751017065f04463d5a26f8c9799 40889612 linuxmuster-linbo7_4.0.3-0_all.deb
+ ba7cdfed079dbcbb99bc826702a5a0c92311dd28a31db275f54e165945cff2c2 15844 linuxmuster-linbo7_4.0.3-0_amd64.buildinfo
+Files:
+ 921019d2614e361594c620a15a16e8b4 1344 admin extra linuxmuster-linbo7_4.0.3-0.dsc
+ 764ca9db8c697463ba777a36842bb0ed 1948361 admin extra linuxmuster-linbo7_4.0.3-0.tar.gz
+ 1dd609b0227a5895a0a14e7a49982a55 40889612 admin extra linuxmuster-linbo7_4.0.3-0_all.deb
+ 25cb4e18e616c83014e7980b70bba7f8 15844 admin extra linuxmuster-linbo7_4.0.3-0_amd64.buildinfo
