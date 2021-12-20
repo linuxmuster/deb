@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 20 Dec 2021 12:37:00 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.2-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.2-0) lmn71; urgency=low
+ .
+   * Fix #127: remove finally all deprecated docker, mail and opsi setup code.
+   * several further function & setup fixes.
+Checksums-Sha1:
+ 8cd311608f1a6c09647c6e63d99143af1b8197b0 579 linuxmuster-base7_7.1.2-0.dsc
+ b867d7387e124bb0dc1ef9b0f63f16818391173a 69542 linuxmuster-base7_7.1.2-0.tar.gz
+ 1cd87eedaa17761c7a89f53e584db76801db8cf9 52808 linuxmuster-base7_7.1.2-0_all.deb
+ 4788a30c2794ab8265f6b49dedead9536e7f8899 6666 linuxmuster-base7_7.1.2-0_amd64.buildinfo
+Checksums-Sha256:
+ 30de10a90c5f922ba3658a1bec5db9a0cb93222279ad1ccbbf01d0c97683ebf5 579 linuxmuster-base7_7.1.2-0.dsc
+ e6b8a8664aed17580cb32febcd799a5c08d3018f8893d837cda628f4ac5c3a86 69542 linuxmuster-base7_7.1.2-0.tar.gz
+ d69ba663d0c7aee852c9cc89be66aedad7117c3ae0f4fdea8441df19a5cc6d7d 52808 linuxmuster-base7_7.1.2-0_all.deb
+ 16cb25bc41f6aeb9744f15e72fef332259a9d9be3707d650960e9268e704fc82 6666 linuxmuster-base7_7.1.2-0_amd64.buildinfo
+Files:
+ b2de4c181b5811ea9b73c286794a9fe1 579 linuxmuster optional linuxmuster-base7_7.1.2-0.dsc
+ 7e22c264603c7e3eb213ed05e39094fe 69542 linuxmuster optional linuxmuster-base7_7.1.2-0.tar.gz
+ 7d10f2c7e4f09d6969077bad5165d6a9 52808 linuxmuster optional linuxmuster-base7_7.1.2-0_all.deb
+ 4c69aae79c97653ce12c6de10e806af4 6666 linuxmuster optional linuxmuster-base7_7.1.2-0_amd64.buildinfo
