@@ -1,7 +1,7 @@
 """ Build index from directory listing
 Inspired by: https://stackoverflow.com/questions/39048654/how-to-enable-directory-indexing-on-github-pages
 
-usage: python3 createStaticDirectoryListing.py [-h] [--indexPage INDEXPAGE] directory
+usage: python3 createStaticDirectoryListing.py [-h] [--indexPage INDEXPAGE] directorytest
 """
 
 DEFAULT_TEMPLATE = {
