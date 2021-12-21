@@ -9,5 +9,7 @@ jobs:
     steps:
       - name: delete branch
         uses: SvanBoxel/delete-merged-branch@main
+        with:
+          delete_closed_pr: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
