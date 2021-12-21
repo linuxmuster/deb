@@ -1,0 +1,4 @@
+exclude: 
+  - main
+  - deploy
+delete_closed_pr: true
