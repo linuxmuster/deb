@@ -61,3 +61,19 @@ Architectures: i386 amd64 source
 Components: main
 Description: lmn71 (bionic) stable
 SignWith: 4E8B8B667D752C32
+
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
+Codename: lmn71-testing
+Architectures: i386 amd64 source
+Components: main
+Description: lmn71-testing (bionic) stable
+SignWith: 4E8B8B667D752C32
+
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
+Codename: lmn72
+Architectures: i386 amd64 source
+Components: main
+Description: lmn72 (bionic) stable
+SignWith: 4E8B8B667D752C32
