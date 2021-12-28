@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 28 Dec 2021 11:30:26 +0000
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.3-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.3-0) lmn71; urgency=low
+ .
+   * Fix #130: secure admin password entered during setup.
+   * Fix lmn71-prepare invokation during setup.
+Checksums-Sha1:
+ d3aef8ce0c4a90ac4ad93372540d7faebc79fa1d 579 linuxmuster-base7_7.1.3-0.dsc
+ eb074f0797cd008c0de8fa00795dc0b1a88d8a3c 70147 linuxmuster-base7_7.1.3-0.tar.gz
+ f644368f7124b7c1b8415c2fd78a713d980b416f 53260 linuxmuster-base7_7.1.3-0_all.deb
+ ab0b2533a65310f52b93f74bf39b18976c9e502e 6666 linuxmuster-base7_7.1.3-0_amd64.buildinfo
+Checksums-Sha256:
+ 2ff85a3d56666d9817ee5f26c088d0c7e732e9634b0ad79df11b3a30129306d3 579 linuxmuster-base7_7.1.3-0.dsc
+ f9b8a59874fc121d78310a7a077f9a8be7bd6697cbbbef7b0ba999a01ed3e7a9 70147 linuxmuster-base7_7.1.3-0.tar.gz
+ 5b5900a0868828d121845ebdbc12ce96bf4fd76b2eb59626841c8bd7308b3e1d 53260 linuxmuster-base7_7.1.3-0_all.deb
+ 16d198dd83e986c2e44772807ee11ca663f107fcf9da783306602b23751296d2 6666 linuxmuster-base7_7.1.3-0_amd64.buildinfo
+Files:
+ 45761c401fa18e79dd4097c37d8970f4 579 linuxmuster optional linuxmuster-base7_7.1.3-0.dsc
+ 1a576d944439283e77687e52f4391b62 70147 linuxmuster optional linuxmuster-base7_7.1.3-0.tar.gz
+ 6e6a29a6bf9dc036cfd93a9a186b5c14 53260 linuxmuster optional linuxmuster-base7_7.1.3-0_all.deb
+ 1bbead5da8e5cc612efc43134d7bf755 6666 linuxmuster optional linuxmuster-base7_7.1.3-0_amd64.buildinfo
