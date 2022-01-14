@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 14 Jan 2022 17:04:18 +0000
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.6-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.6-0) lmn71; urgency=low
+ .
+   * Fix #44: Hyphen in hostname prevents loading the correct start.conf.
+   * Fix #46: Windows BSOD after image sync to nvme partition.
+   * Fix #47: get host data from ad instead of devices.csv.
+Checksums-Sha1:
+ 144647870188748a672a91c947192ddc6c818cbb 1344 linuxmuster-linbo7_4.0.6-0.dsc
+ c13f2ddce854df94859988b6189b6b5dead158e4 1948310 linuxmuster-linbo7_4.0.6-0.tar.gz
+ a08619ac453f7243462d081c1129bf4dc80cc2e6 40908190 linuxmuster-linbo7_4.0.6-0_all.deb
+ 83e150e6e61a8a1a296f34614629e8c1f8bb926b 15844 linuxmuster-linbo7_4.0.6-0_amd64.buildinfo
+Checksums-Sha256:
+ 623309a5d46c64632671a6f56dc9760ae727819691dcc8d585deb3fb0fb1d64f 1344 linuxmuster-linbo7_4.0.6-0.dsc
+ 0dd231dce2147d225eafbc18588a8627bdc7d9addde311dbbf203d4fceb4b950 1948310 linuxmuster-linbo7_4.0.6-0.tar.gz
+ 2351d69269cbde0e5741f33f7e70af709d518ca8e84fe5511c7d09f3e3588676 40908190 linuxmuster-linbo7_4.0.6-0_all.deb
+ 1c90579992d264533a2d6d7637214fdeeeca875d0f74f5fee9ea73e7a4f95782 15844 linuxmuster-linbo7_4.0.6-0_amd64.buildinfo
+Files:
+ 510baacad3001cd6e3f60c2e9056495d 1344 admin extra linuxmuster-linbo7_4.0.6-0.dsc
+ 6f31de105e438841a1ee6b6a0c342dc6 1948310 admin extra linuxmuster-linbo7_4.0.6-0.tar.gz
+ 62256c23e0c77cf4760e9ef30254ca72 40908190 admin extra linuxmuster-linbo7_4.0.6-0_all.deb
+ 6f87cf2b9444fe27afdd000537353b90 15844 admin extra linuxmuster-linbo7_4.0.6-0_amd64.buildinfo
