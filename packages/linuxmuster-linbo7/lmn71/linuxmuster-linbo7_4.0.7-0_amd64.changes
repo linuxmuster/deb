@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 18 Jan 2022 12:34:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.7-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.7-0) lmn71; urgency=low
+ .
+   * Fix #48: syntax error in hostname and mac address queries.
+Checksums-Sha1:
+ 7e8331b6025f83d6dd84fa5adaf2ca289d07b7d6 1344 linuxmuster-linbo7_4.0.7-0.dsc
+ 4e409045606ab534bb745cee4c014534ff4b02ba 1948318 linuxmuster-linbo7_4.0.7-0.tar.gz
+ b9a49f0f77dd414dbee8dfd3cca8dd35ffde3e2f 40908248 linuxmuster-linbo7_4.0.7-0_all.deb
+ 815d78643a4bd5b38632a3be3819e29732ebc46d 15844 linuxmuster-linbo7_4.0.7-0_amd64.buildinfo
+Checksums-Sha256:
+ 5706ee6227a2915fb7c031730b5b6afbb7181140799f44d78da170a7f3fa1383 1344 linuxmuster-linbo7_4.0.7-0.dsc
+ 6f68a3dd262d32ee681580d7893317790bdd8accb4f7311bfd79ba08db44c475 1948318 linuxmuster-linbo7_4.0.7-0.tar.gz
+ 974536a26213c0987f9f8620f31d34802df42c5fe53506ad9e77a87b74b8226d 40908248 linuxmuster-linbo7_4.0.7-0_all.deb
+ 9b99aa42a263c1c8bd8a0f996d1f67cb3efee74727b2592b8fb2c256ccacd183 15844 linuxmuster-linbo7_4.0.7-0_amd64.buildinfo
+Files:
+ a7467bbd8b67422fff2e952c0731d1be 1344 admin extra linuxmuster-linbo7_4.0.7-0.dsc
+ 7df19e0aa168b72a9040d9b7e0c9639c 1948318 admin extra linuxmuster-linbo7_4.0.7-0.tar.gz
+ 8f98ad1249e6c74c32d678bbb63fc8ec 40908248 admin extra linuxmuster-linbo7_4.0.7-0_all.deb
+ c895043c9bf3db799422bc5b8d7e333e 15844 admin extra linuxmuster-linbo7_4.0.7-0_amd64.buildinfo
