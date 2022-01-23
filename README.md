@@ -18,7 +18,7 @@ This repo currently contains the following packages:
 - [prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71)
 - [linbo7](https://github.com/linuxmuster/linuxmuster-linbo7) (lmn71)
 - [linbo-gui7](https://github.com/linuxmuster/linuxmuster-linbo-gui7) (lmn71)
-- [linuxclient7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71)
+- [linuxclient7](https://github.com/linuxmuster/linuxmuster-linuxclient7) (lmn71)
 - [sophomorix4](https://github.com/linuxmuster/sophomorix4) (lmn71)
 
 # Setup
