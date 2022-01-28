@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 28 Jan 2022 11:27:45 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.3
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.3) lmn71; urgency=medium
+ .
+   * Refactor angularjs components in lmn_common
+   * Better page for password change
+   * Fix delete of backup dir in linbo4
+   * Add '?' to possible char in password
+   * Login is no longer require in extrastudent
+   * Fix comments handling in devices
+   * Remove unecessary acls
+   * New directive for root warning
+Checksums-Sha1:
+ acff9dec59118ba1dd978f4da4f41245e21b37c7 564 linuxmuster-webui7_7.1.3.dsc
+ cb734b685b72efa9fd2d42a235fcb8330c1fbd58 20569358 linuxmuster-webui7_7.1.3.tar.gz
+ a6e99d3b1ee32525f8c6f4342ad7388e1ef15064 742036 linuxmuster-webui7_7.1.3_all.deb
+ ff3fcafc74912e88c5cdbea5336059b4f8296e51 6635 linuxmuster-webui7_7.1.3_amd64.buildinfo
+Checksums-Sha256:
+ a071ddeddd6cfda2d170ef77343d74d0c3515a654a51d9a8e881590dc4fab4fe 564 linuxmuster-webui7_7.1.3.dsc
+ 60b226db89d32fe89e209c7a8d3921c4924b9430075f2e39ff6b6fd09bd50eee 20569358 linuxmuster-webui7_7.1.3.tar.gz
+ fd76cda39b43e63c2bd85838fc9a5f4079c92253def0feea01a775476585d7d5 742036 linuxmuster-webui7_7.1.3_all.deb
+ d768d6b507d79a58063fa71c59fcc516fa1f5a0759d204a05efea005c11028cf 6635 linuxmuster-webui7_7.1.3_amd64.buildinfo
+Files:
+ b6713ee540f831e13a4842b279582d99 564 admin optional linuxmuster-webui7_7.1.3.dsc
+ fe7fbec6f6d92654d66e940e0a4bf718 20569358 admin optional linuxmuster-webui7_7.1.3.tar.gz
+ 8db1f1db9d613a0e27231d2606412cfe 742036 admin optional linuxmuster-webui7_7.1.3_all.deb
+ c4de981cd844a2a2f58bea6ea4cfc27b 6635 admin optional linuxmuster-webui7_7.1.3_amd64.buildinfo
