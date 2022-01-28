@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 28 Jan 2022 15:53:59 +0000
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.8-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.8-0) lmn71; urgency=low
+ .
+   * Fix #49: Group specific start.conf is not downloaded on linbo client with capitalized name.
+Checksums-Sha1:
+ 25b2bc52effb6cd93697bba7e55d766532fbf239 1344 linuxmuster-linbo7_4.0.8-0.dsc
+ ee95295de54774596905d900c6e09ab69857a66d 1948351 linuxmuster-linbo7_4.0.8-0.tar.gz
+ 20f7ad5aa92f9d88bddafb14ccaf4907b2eb7380 40898568 linuxmuster-linbo7_4.0.8-0_all.deb
+ 675f057e4fb99303faef2031117802faf46dd6d1 15844 linuxmuster-linbo7_4.0.8-0_amd64.buildinfo
+Checksums-Sha256:
+ b1c1059c17be5aa2ff7e67246ec1ec18f6d6f2f221968a67bf9eb86144dc2b7c 1344 linuxmuster-linbo7_4.0.8-0.dsc
+ 8861b3ae17eb5b0d4a810b1feb73b2d91d27875850acac6e5372b8bc1aee7c79 1948351 linuxmuster-linbo7_4.0.8-0.tar.gz
+ 632f7f43ac9b727c98ede48d09542867b4588bb075566c2a6bad13f297fdbec2 40898568 linuxmuster-linbo7_4.0.8-0_all.deb
+ 418f7c369b3b393298d4d54a0ffe8177ef1d8c2d66987b9adfdde3f1502d947d 15844 linuxmuster-linbo7_4.0.8-0_amd64.buildinfo
+Files:
+ de109f6cd521089f439c7088550c0f0e 1344 admin extra linuxmuster-linbo7_4.0.8-0.dsc
+ d470628aadbeb428deb13e2c8a16ed68 1948351 admin extra linuxmuster-linbo7_4.0.8-0.tar.gz
+ 4624822cad05285c819bea5d38269fa6 40898568 admin extra linuxmuster-linbo7_4.0.8-0_all.deb
+ f51463a4f885ec4d1bef95a84449377b 15844 admin extra linuxmuster-linbo7_4.0.8-0_amd64.buildinfo
