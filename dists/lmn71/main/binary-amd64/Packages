@@ -1,18 +1,18 @@
 Package: linuxmuster-base7
-Version: 7.1.4-0
+Version: 7.1.5-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
-Installed-Size: 251
+Installed-Size: 255
 Pre-Depends: python3
 Depends: coreutils, cups, printer-driver-cups-pdf, isc-dhcp-server, python3-bcrypt, python3-bs4, python3-lxml, python3-ipy, python3-reconfigure, python3-apt, python3-netifaces, python3-dialog, python3-ldap3, python3-netaddr, python3-paramiko, python3-requests, openssl, ntp, ntpdate, samba, samba-dsdb-modules, smbclient, ldb-tools, krb5-user, linuxmuster-webui7, linuxmuster-linbo7, screen, sophomorix-samba
 Conflicts: dnsmasq-base
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.1.4-0_all.deb
-Size: 53316
-SHA256: 3c1317e8ed4de2a712bf681d268758fdd186c13ca44585f72cdc283f5685251d
-SHA1: de5849b9adee8b183c50671cbac2117a0ffd4061
-MD5sum: 12b24959b6f2818097a5ff283ce90c9e
+Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.1.5-0_all.deb
+Size: 54004
+SHA256: 2822a98071bc4dcb0b6780f52cd21fa069254c806f720c235f4935bbc410b2ad
+SHA1: 4c5587e8a5151556e621bbf7ef931b7b748bda78
+MD5sum: 8bcbfe68a336981d844f1be281a5f063
 Description: linuxmuster.net configuration scripts
  This package provides configuration scripts for linuxmuster.net
 
