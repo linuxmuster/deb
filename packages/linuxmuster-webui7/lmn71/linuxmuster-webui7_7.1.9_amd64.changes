@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 19 Feb 2022 22:54:10 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.9
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.9) lmn71; urgency=medium
+ .
+   * Add pwReset provider
+Checksums-Sha1:
+ d514b9a1e0ac51260d82f26aa5fa62a9a1a2ac97 564 linuxmuster-webui7_7.1.9.dsc
+ 11de8db2ffcd255d5467c39a9021780b5ae9f33f 20578396 linuxmuster-webui7_7.1.9.tar.gz
+ 72d3f3cfaeb15134688f04755294d5684aadd280 747012 linuxmuster-webui7_7.1.9_all.deb
+ 32b5754a004e594d9dffd4a39535b9abf4c18f73 6637 linuxmuster-webui7_7.1.9_amd64.buildinfo
+Checksums-Sha256:
+ c1395d25585f164426512870760e71addeae003b3ea7dd5b6097c7ca7b2817f5 564 linuxmuster-webui7_7.1.9.dsc
+ 822b61298f5c50b0275b394bf881ad1f1b24d302b49eb0025962b56f8876ca1f 20578396 linuxmuster-webui7_7.1.9.tar.gz
+ ece30138c0e6b0d0e222f552906a01f511214d95a2c35d4efd7e58bfa8bc2a67 747012 linuxmuster-webui7_7.1.9_all.deb
+ fe6c55a8d6152839d828d48fce631aeef888620b4d4927774ae23d350e1f7e93 6637 linuxmuster-webui7_7.1.9_amd64.buildinfo
+Files:
+ 7e8c77d9afa78869d82bf4932792991d 564 admin optional linuxmuster-webui7_7.1.9.dsc
+ 9e17d84995039ee3e3d056a6fea507da 20578396 admin optional linuxmuster-webui7_7.1.9.tar.gz
+ 9f82e7cbedb72a272d70df71ded7f419 747012 admin optional linuxmuster-webui7_7.1.9_all.deb
+ fe84af36b9786e5d963814bc37944ac4 6637 admin optional linuxmuster-webui7_7.1.9_amd64.buildinfo
