@@ -5,3 +5,6 @@ Files in this directory:
 - 🗒 [linuxmuster-linbo7_4.0.8-0.dsc](linuxmuster-linbo7_4.0.8-0.dsc)
 - 🗒 [linuxmuster-linbo7_4.0.8-0.tar.gz](linuxmuster-linbo7_4.0.8-0.tar.gz)
 - 🗒 [linuxmuster-linbo7_4.0.8-0_all.deb](linuxmuster-linbo7_4.0.8-0_all.deb)
+- 🗒 [linuxmuster-linbo7_4.0.9-0.dsc](linuxmuster-linbo7_4.0.9-0.dsc)
+- 🗒 [linuxmuster-linbo7_4.0.9-0.tar.gz](linuxmuster-linbo7_4.0.9-0.tar.gz)
+- 🗒 [linuxmuster-linbo7_4.0.9-0_all.deb](linuxmuster-linbo7_4.0.9-0_all.deb)
