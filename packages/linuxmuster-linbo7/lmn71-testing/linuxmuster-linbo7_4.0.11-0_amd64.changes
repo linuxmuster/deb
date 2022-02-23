@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 23 Feb 2022 16:22:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.11-0
+Distribution: lmn71-testing
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.11-0) lmn71-testing; urgency=low
+ .
+   * Fix #56: Gui will not be downloaded after cache partition was formatted (final attempt).
+   * Reverted commits for #54.
+   * Refactored gui_ctl.
+Checksums-Sha1:
+ 5e95f39af3c006e3642fb54791a8641bbb76af0f 1233 linuxmuster-linbo7_4.0.11-0.dsc
+ 2f0fd49dbf7f78c752dcea0cb1b881f9b5170ac0 1949221 linuxmuster-linbo7_4.0.11-0.tar.gz
+ 87563feff5dc98138816d44616fa2f25e6081d09 41221060 linuxmuster-linbo7_4.0.11-0_all.deb
+ 117368d969143d12cbab537313e9e9d31a78d435 14119 linuxmuster-linbo7_4.0.11-0_amd64.buildinfo
+Checksums-Sha256:
+ 88d0df58e281e9c8d8946605b9a4a969d745d10c6cc729be0f01b02be77fc6e8 1233 linuxmuster-linbo7_4.0.11-0.dsc
+ 87640afa5f9c0120e05c044b1762ba3a3f515c80a5dcfc6a688a70e0b44d71ec 1949221 linuxmuster-linbo7_4.0.11-0.tar.gz
+ ab8eee02bbcdf60f073ce8f02cfd256e2396ebc998863df033f5a2e7a4542596 41221060 linuxmuster-linbo7_4.0.11-0_all.deb
+ 6f7b0990dda1cc852e853bb1f5a1d6cda8a052eadc08b75d9b1d717fb5a20f81 14119 linuxmuster-linbo7_4.0.11-0_amd64.buildinfo
+Files:
+ bb30f9177711d74f52270dbf673dee66 1233 admin extra linuxmuster-linbo7_4.0.11-0.dsc
+ d36ee71af1b29f258c43c65a93df2633 1949221 admin extra linuxmuster-linbo7_4.0.11-0.tar.gz
+ 7420faaec4dfe3734a26fc9e88900519 41221060 admin extra linuxmuster-linbo7_4.0.11-0_all.deb
+ a714eb0320f0ec5a23983ccf19408dee 14119 admin extra linuxmuster-linbo7_4.0.11-0_amd64.buildinfo
