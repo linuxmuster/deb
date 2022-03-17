@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 17 Mar 2022 11:26:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.14-0
+Distribution: lmn71-testing
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.14-0) lmn71-testing; urgency=low
+ .
+   * linbo_update_gui: improved cache handling (#58).
+   * Fix #61: make ctorrent options configurable (related also to #60).
+Checksums-Sha1:
+ eb9e753999535f8c967284188144c1f6a7265a88 1233 linuxmuster-linbo7_4.0.14-0.dsc
+ 188cf0c8a10c7d3d40d8a4801ae73241826ae16c 1948020 linuxmuster-linbo7_4.0.14-0.tar.gz
+ 910b0f4015868aceddaa8356f87a9c29cdb5e445 41232440 linuxmuster-linbo7_4.0.14-0_all.deb
+ bcbeaf6358a02adaba39733c67642be45e5f87f3 14119 linuxmuster-linbo7_4.0.14-0_amd64.buildinfo
+Checksums-Sha256:
+ e40d8533fc3f9ccb021c0456f14147316fe67790f0a58e600e7f800a796decb1 1233 linuxmuster-linbo7_4.0.14-0.dsc
+ ecd6649e078368c9e426a483c192811a70f7881fb8e3a1eeb5a6ff2ca1468fa6 1948020 linuxmuster-linbo7_4.0.14-0.tar.gz
+ a8586ee41709abfa1a82eeb00187a26ef2b4533e4e4db01b5c521eebca17a97f 41232440 linuxmuster-linbo7_4.0.14-0_all.deb
+ 18b4c138bd12ae3bbb45452b23dd387a78656cfb9b4fa6a8544e2b265d1c5339 14119 linuxmuster-linbo7_4.0.14-0_amd64.buildinfo
+Files:
+ c5d964af607423d43a87e928c263ae4c 1233 admin extra linuxmuster-linbo7_4.0.14-0.dsc
+ e0ae138b34a79325d2f3a76d7e459f40 1948020 admin extra linuxmuster-linbo7_4.0.14-0.tar.gz
+ 6a0f09be80afe4a06107eec6ebc3eccb 41232440 admin extra linuxmuster-linbo7_4.0.14-0_all.deb
+ 60337e31cfb748f1c784278d1b907f33 14119 admin extra linuxmuster-linbo7_4.0.14-0_amd64.buildinfo
