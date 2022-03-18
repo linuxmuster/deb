@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 18 Mar 2022 15:18:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.15-0
+Distribution: lmn71-testing
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.15-0) lmn71-testing; urgency=low
+ .
+   * linbo_patch_registry: fix ControlSet path in  script, further improvements (see #50).
+   * linbo_update_gui: improved network recognition (#57), fix cache handling regression (#58).
+Checksums-Sha1:
+ a75a3579a250958dfef590336c918492d5cae1a6 1233 linuxmuster-linbo7_4.0.15-0.dsc
+ a32bae88a7accd5e0c92801ba9a0930cab069dd2 1948204 linuxmuster-linbo7_4.0.15-0.tar.gz
+ 956660429aef21e894e4ac03002485a8a2b9726c 41232150 linuxmuster-linbo7_4.0.15-0_all.deb
+ 4b4683f75e10719680751a85b093e55abbf61660 14119 linuxmuster-linbo7_4.0.15-0_amd64.buildinfo
+Checksums-Sha256:
+ 7fce355ed5220547bed452b75bb470a65112902aa61242e192a3a31bcbfddf2a 1233 linuxmuster-linbo7_4.0.15-0.dsc
+ 83d6a7dbfd8ec0efcd0f086463355de53b6c067a719d25cb4b3d2e2906cea965 1948204 linuxmuster-linbo7_4.0.15-0.tar.gz
+ 39313d5f4a09ebea63b502a384d189af366e932a074dec5a661279be5fd0c855 41232150 linuxmuster-linbo7_4.0.15-0_all.deb
+ cec9f5ae6684bc8b5a7b05631b414552b6fb69e2184f17216396c739df92cf60 14119 linuxmuster-linbo7_4.0.15-0_amd64.buildinfo
+Files:
+ 94a1ab26c23680a4b28a43ae736dcefc 1233 admin extra linuxmuster-linbo7_4.0.15-0.dsc
+ 949fbda3955de3079e86b72ae70a7cf5 1948204 admin extra linuxmuster-linbo7_4.0.15-0.tar.gz
+ d6fea4d5cdb893611b41c36dc2adf052 41232150 admin extra linuxmuster-linbo7_4.0.15-0_all.deb
+ 11659abb3b5ce081ca031f80da6fd0fb 14119 admin extra linuxmuster-linbo7_4.0.15-0_amd64.buildinfo
