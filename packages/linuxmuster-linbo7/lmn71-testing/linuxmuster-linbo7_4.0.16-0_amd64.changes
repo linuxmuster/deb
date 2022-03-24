@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 24 Mar 2022 10:29:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.16-0
+Distribution: lmn71-testing
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.16-0) lmn71-testing; urgency=low
+ .
+   * linbo_patch_registry: fix case of several registry strings (see #50).
+Checksums-Sha1:
+ fe00f089976c48e9e213f81a8d5add99a8228b97 1233 linuxmuster-linbo7_4.0.16-0.dsc
+ d93cf05737240af24cae74bf79284bd4bd33d085 1948612 linuxmuster-linbo7_4.0.16-0.tar.gz
+ 5fbab3db7ebdbea81e0fe42975973ea1fdf2c1d1 41259002 linuxmuster-linbo7_4.0.16-0_all.deb
+ 734a801ba604445ee852e8c26c4d82e377d4a0fa 14119 linuxmuster-linbo7_4.0.16-0_amd64.buildinfo
+Checksums-Sha256:
+ 25c9f02d730d26847a00edcc8403c306554c09d652d84fe7ef8418d56fef6148 1233 linuxmuster-linbo7_4.0.16-0.dsc
+ 217dd25f119b579b4da8588ee14891ca46b21e88b65faee461c8ec3412d885ed 1948612 linuxmuster-linbo7_4.0.16-0.tar.gz
+ 1e17f84362fe12d1a7b82457e3e0bacb294d5c2a987cb43b10c309aedb33459e 41259002 linuxmuster-linbo7_4.0.16-0_all.deb
+ 61efdede995571a62dae948773ea1076624cb69f3295e0d08bbd826dcfed0e71 14119 linuxmuster-linbo7_4.0.16-0_amd64.buildinfo
+Files:
+ 7a9deaebb1438af9823abb3bdbb3ea9d 1233 admin extra linuxmuster-linbo7_4.0.16-0.dsc
+ 5c22e584e3a852b5f6c10de6e6e331b1 1948612 admin extra linuxmuster-linbo7_4.0.16-0.tar.gz
+ 1b9810834aa523f31f7df656638b2e4d 41259002 admin extra linuxmuster-linbo7_4.0.16-0_all.deb
+ 71ec9301b36e1dcd33f4d9227be66ba4 14119 admin extra linuxmuster-linbo7_4.0.16-0_amd64.buildinfo
