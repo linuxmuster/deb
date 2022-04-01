@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 1 Apr 2022 20:52:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.18-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.18-0) lmn71; urgency=low
+ .
+   * Fix recognition of "PXE IP4" uefi boot entry.
+Checksums-Sha1:
+ 2d57685a4ce8e8f7845b7596ce3144f503efa3d3 1233 linuxmuster-linbo7_4.0.18-0.dsc
+ 5a92b0606ac5a5de49db20ce7f2c842a082a7122 1948670 linuxmuster-linbo7_4.0.18-0.tar.gz
+ 83b9df87d80278b504ffaa9145d23399e0f47cdc 41257734 linuxmuster-linbo7_4.0.18-0_all.deb
+ 58070e8523e50ba24eb39e25217fc1bc9aa65bca 14123 linuxmuster-linbo7_4.0.18-0_amd64.buildinfo
+Checksums-Sha256:
+ 8ed2111665e5753ced50ea503ac6461f26bbbef7f8966362f602e75906393550 1233 linuxmuster-linbo7_4.0.18-0.dsc
+ a7b4f619ab6feeb665c23a0938067fb6155a50a6c62c2bd9a9bf22f8a101b844 1948670 linuxmuster-linbo7_4.0.18-0.tar.gz
+ a56dc4db83a4dea95229a9b1e85486b0b782446a4275510f6e62738f6379b6a7 41257734 linuxmuster-linbo7_4.0.18-0_all.deb
+ 7cbe044bf2470ce12ff2689e300322af5cb8ef896a48b1e1096d864673715e8f 14123 linuxmuster-linbo7_4.0.18-0_amd64.buildinfo
+Files:
+ 0434f05818a84c504967ccb0df69773f 1233 admin extra linuxmuster-linbo7_4.0.18-0.dsc
+ 5e598c925b087c6563ea1423c43bbfe3 1948670 admin extra linuxmuster-linbo7_4.0.18-0.tar.gz
+ d484225c716f61c68b6b090e14084d8b 41257734 admin extra linuxmuster-linbo7_4.0.18-0_all.deb
+ 3f4ff723def84df8e7aa2139cedbb94b 14123 admin extra linuxmuster-linbo7_4.0.18-0_amd64.buildinfo
