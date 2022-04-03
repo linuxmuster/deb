@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sun, 03 Apr 2022 22:07:40 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.12
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.12) lmn71; urgency=medium
+ .
+   * Add many hotkeys
+   * Limit crontab to user global-admin
+   * Remove deprecated lmn_linbo plugin
+   * Add level access tests and messages
+   * Load custom fields at auth
+   * Edit custom fields on landing page
+   * Add custom fields for school and global admins
+   * Add selector for custom fields in settings
+   * Possibility to display bind user password
+Checksums-Sha1:
+ 5edd8178dee9c72bdcc6145606c97dfd005cb85c 568 linuxmuster-webui7_7.1.12.dsc
+ 4306291bf872d61f4680ee42b64d3cff6316baf6 20538831 linuxmuster-webui7_7.1.12.tar.gz
+ 5ea39ab4f3c319f4625e97637d559c220931e97b 745812 linuxmuster-webui7_7.1.12_all.deb
+ 2a08bb3b8bf86ddf0ba50d7d5cc5c87fa19b1e11 6644 linuxmuster-webui7_7.1.12_amd64.buildinfo
+Checksums-Sha256:
+ 2d22200cf58e8d7203879d56d6f78844f8cf07394daa52958f57afdbd3e402a8 568 linuxmuster-webui7_7.1.12.dsc
+ 9c5e07496e73dc883972badec31cc6ae6f6d49568e4ab59e2ac625282bb6717e 20538831 linuxmuster-webui7_7.1.12.tar.gz
+ dff8211482a6f4ad87fcc133c4abe25ba433ff3b9c514fff9b02c526469b2e57 745812 linuxmuster-webui7_7.1.12_all.deb
+ 0a53d0c105c2fc6497884dc20843bfe237c8776c99776f04f1d994ca1b760e29 6644 linuxmuster-webui7_7.1.12_amd64.buildinfo
+Files:
+ 33269ce6d5ca7fe4a85c24506d3e8e92 568 admin optional linuxmuster-webui7_7.1.12.dsc
+ c817b12180be51615f5b0b7f850eba73 20538831 admin optional linuxmuster-webui7_7.1.12.tar.gz
+ 23bb7d38f6af03d364c8967fe0c2f5dd 745812 admin optional linuxmuster-webui7_7.1.12_all.deb
+ ddc91c248b91b4460c7b77ac28e9ad10 6644 admin optional linuxmuster-webui7_7.1.12_amd64.buildinfo
