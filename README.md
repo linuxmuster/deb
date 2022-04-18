@@ -28,7 +28,8 @@ To use the repository, please follow these steps:
 ## 1. Import key:
 
 ```bash
-sudo wget -q "https://deb.linuxmuster.net/pub.gpg" -O /etc/apt/trusted.gpg.d/linuxmuster.net.gpg```
+sudo wget -q "https://deb.linuxmuster.net/pub.gpg" -O /etc/apt/trusted.gpg.d/linuxmuster.net.gpg
+```
 
 ## 2. Add repo:
 
