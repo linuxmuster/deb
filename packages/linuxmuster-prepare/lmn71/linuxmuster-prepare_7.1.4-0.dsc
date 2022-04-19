@@ -2,15 +2,15 @@ Format: 1.0
 Source: linuxmuster-prepare
 Binary: linuxmuster-prepare
 Architecture: all
-Version: 7.1.3-0
+Version: 7.1.4-0
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Standards-Version: 5.0.0
 Build-Depends: debhelper (>= 5.0.0)
 Package-List:
  linuxmuster-prepare deb linuxmuster optional arch=all
 Checksums-Sha1:
- c9ec3cb1d8668035745664de84ce4e030eb0eff1 29886 linuxmuster-prepare_7.1.3-0.tar.gz
+ 664c2d4a64b45b6818810bb7f54bb66a54a99eb6 29851 linuxmuster-prepare_7.1.4-0.tar.gz
 Checksums-Sha256:
- 1e85dba2d47a06a642058f7f809a78b687f1f0be71ced2b20c92bf5e3b6a936d 29886 linuxmuster-prepare_7.1.3-0.tar.gz
+ 6def924d0dcd3ee3b2931bc5fa80f7fc53ff0ae3d6c70971e2e79cc924625040 29851 linuxmuster-prepare_7.1.4-0.tar.gz
 Files:
- 06ba50afd2aea9580c9f497c570a2a16 29886 linuxmuster-prepare_7.1.3-0.tar.gz
+ 4fee89feb2301f7c0f54effb2b9e2b2b 29851 linuxmuster-prepare_7.1.4-0.tar.gz
