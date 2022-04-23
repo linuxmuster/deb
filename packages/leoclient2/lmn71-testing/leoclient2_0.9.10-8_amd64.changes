@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Thu, 21 Apr 2022 00:08:31 +0200
+Source: leoclient2
+Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
+Architecture: source all
+Version: 0.9.10-8
+Distribution: lmn71-testing
+Urgency: medium
+Maintainer: Ruediger Beck <jeffbeck@web.de>
+Changed-By: bz <bz@adler>
+Description:
+ leoclient2-leovirtstarter-client - alternativ software to start VirtualBox
+ leoclient2-vm-printer - Watches a directory used for virtual machine printing.
+Changes:
+ leoclient2 (0.9.10-8) lmn71-testing; urgency=medium
+ .
+   *  first package built on github
+Checksums-Sha1:
+ 4ae1d8e2aef0846828774953ea17ad5ea7d2e40f 658 leoclient2_0.9.10-8.dsc
+ 16ad164ed70eb54705a922d8d3701e575eaa4d61 251452 leoclient2_0.9.10-8.tar.gz
+ cffd6e1bb905ed16fdbb8808c18f3ef627b1f8b0 41940 leoclient2-leovirtstarter-client_0.9.10-8_all.deb
+ 6f8fc1b78135878df84f0a2a42edb94dbe49297f 5888 leoclient2-vm-printer_0.9.10-8_all.deb
+ 08dea509414a951172dbe94296bc38020b8ef5f4 7131 leoclient2_0.9.10-8_amd64.buildinfo
+Checksums-Sha256:
+ f6dd187e28587f413ed2bb2c93f93f56a05ad594e4ffbffda90dfe16b11d4ae4 658 leoclient2_0.9.10-8.dsc
+ 8217c7616e1bd8779bd71f28ca063f1a7fe2f24246247d264e794b66744d3220 251452 leoclient2_0.9.10-8.tar.gz
+ b288c3a8722a02eca7725b85f5e590ef3aef7e3847f6b6d02a7d6d98040691ed 41940 leoclient2-leovirtstarter-client_0.9.10-8_all.deb
+ 50a339cf72118c6d53832b62d99ee33e7d39be1a6c14a6cb5582d4950169d71e 5888 leoclient2-vm-printer_0.9.10-8_all.deb
+ eea8812119db6b5df9a802a5303f43f395553529f3ac45c4c54501149e3ae32a 7131 leoclient2_0.9.10-8_amd64.buildinfo
+Files:
+ 90e77b4751a1bd3b39a11ef3764c8a42 658 admin optional leoclient2_0.9.10-8.dsc
+ 553ec301307b39c317dc04da40726edd 251452 admin optional leoclient2_0.9.10-8.tar.gz
+ 71a21d97aa7be2a67702139c91ddc8bc 41940 admin optional leoclient2-leovirtstarter-client_0.9.10-8_all.deb
+ 1b0d806f48d1f9f57c66ec67915c02cf 5888 admin optional leoclient2-vm-printer_0.9.10-8_all.deb
+ 2b0cde222d16e9d669d34b7d46e0bbef 7131 admin optional leoclient2_0.9.10-8_amd64.buildinfo
