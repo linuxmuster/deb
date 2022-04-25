@@ -2,22 +2,22 @@ Format: 1.0
 Source: leoclient2
 Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
 Architecture: all source
-Version: 0.9.10-8
+Version: 0.9.10-9
 Checksums-Md5:
- 90e77b4751a1bd3b39a11ef3764c8a42 658 leoclient2_0.9.10-8.dsc
- 71a21d97aa7be2a67702139c91ddc8bc 41940 leoclient2-leovirtstarter-client_0.9.10-8_all.deb
- 1b0d806f48d1f9f57c66ec67915c02cf 5888 leoclient2-vm-printer_0.9.10-8_all.deb
+ 6e61ddb6ff6a9ce3ec11c8d520afdd1f 658 leoclient2_0.9.10-9.dsc
+ 05c47cb063bab26c1045e14eaed5e933 42076 leoclient2-leovirtstarter-client_0.9.10-9_all.deb
+ 061e95baf587de74e8a569ea93ccf45d 5908 leoclient2-vm-printer_0.9.10-9_all.deb
 Checksums-Sha1:
- 4ae1d8e2aef0846828774953ea17ad5ea7d2e40f 658 leoclient2_0.9.10-8.dsc
- cffd6e1bb905ed16fdbb8808c18f3ef627b1f8b0 41940 leoclient2-leovirtstarter-client_0.9.10-8_all.deb
- 6f8fc1b78135878df84f0a2a42edb94dbe49297f 5888 leoclient2-vm-printer_0.9.10-8_all.deb
+ e8c73cd29761bcd5f5ac81196be070d91e7d5e54 658 leoclient2_0.9.10-9.dsc
+ 72276da7e32c35e5c58c79f7d6a9afd13632798e 42076 leoclient2-leovirtstarter-client_0.9.10-9_all.deb
+ cc0963bff3384b4c19307acdae50d5b1b5cd2672 5908 leoclient2-vm-printer_0.9.10-9_all.deb
 Checksums-Sha256:
- f6dd187e28587f413ed2bb2c93f93f56a05ad594e4ffbffda90dfe16b11d4ae4 658 leoclient2_0.9.10-8.dsc
- b288c3a8722a02eca7725b85f5e590ef3aef7e3847f6b6d02a7d6d98040691ed 41940 leoclient2-leovirtstarter-client_0.9.10-8_all.deb
- 50a339cf72118c6d53832b62d99ee33e7d39be1a6c14a6cb5582d4950169d71e 5888 leoclient2-vm-printer_0.9.10-8_all.deb
+ 731f1bb519a63ab2f04c103208430b827f31ff48e48ccdbc80131027d8429d8b 658 leoclient2_0.9.10-9.dsc
+ 168917a83fa94fc55498114b3a0f0fe6c51f6dac03ed0de3498edb6a5b9486da 42076 leoclient2-leovirtstarter-client_0.9.10-9_all.deb
+ 7dbb63e9c13978e42c59797749fac5f95fd78d80f9b16b9ea601c601cbbc1b62 5908 leoclient2-vm-printer_0.9.10-9_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 23 Apr 2022 12:09:46 +0000
+Build-Date: Mon, 25 Apr 2022 00:15:42 +0000
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
