@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 25 Apr 2022 14:10:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.24-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.24-0) lmn71; urgency=low
+ .
+   * Fix #70: Clean up invalid UEFI entries.
+   * dhcp client fix for mkgrubhostimg.py (d8c1e77).
+Checksums-Sha1:
+ 11fafe33a7fb5bf686ef9f3964992917e9aac103 1233 linuxmuster-linbo7_4.0.24-0.dsc
+ 8c9db064308be3abff1e26bdc92c9bf7c0897b60 1948942 linuxmuster-linbo7_4.0.24-0.tar.gz
+ 7665e24dcd69ecc9b27e246f4672264904d04be4 41243708 linuxmuster-linbo7_4.0.24-0_all.deb
+ 8c10b195b38afd59223a1b9599866d2b9e31f8c0 14134 linuxmuster-linbo7_4.0.24-0_amd64.buildinfo
+Checksums-Sha256:
+ 02c39185de8da1261e3ca28b9b159979943fc09ab61dcd52a664868e3fbd4694 1233 linuxmuster-linbo7_4.0.24-0.dsc
+ afc998fa379d445a4fc4a98b64add2a4e9f9ab57ca711d117b9a26900769f623 1948942 linuxmuster-linbo7_4.0.24-0.tar.gz
+ be213f735f18be3e36675d9f7b5778c46614040daf9e25ca1de698aefad7e583 41243708 linuxmuster-linbo7_4.0.24-0_all.deb
+ 45440d5c3998c30f7d29725d3f26070f6e89ec65a328e079ece1c3267b8a79be 14134 linuxmuster-linbo7_4.0.24-0_amd64.buildinfo
+Files:
+ 9923a3e71474937c19a9a2a9350f3ee3 1233 admin extra linuxmuster-linbo7_4.0.24-0.dsc
+ 95057a402046288f9c8075e9665d9a98 1948942 admin extra linuxmuster-linbo7_4.0.24-0.tar.gz
+ 8845537c80017300529d6326abaf37ee 41243708 admin extra linuxmuster-linbo7_4.0.24-0_all.deb
+ 4136196549d91a812972088f624492db 14134 admin extra linuxmuster-linbo7_4.0.24-0_amd64.buildinfo
