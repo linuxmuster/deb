@@ -2,22 +2,22 @@ Format: 1.0
 Source: leoclient2
 Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
 Architecture: all source
-Version: 0.9.10-9
+Version: 0.9.10-10
 Checksums-Md5:
- 6e61ddb6ff6a9ce3ec11c8d520afdd1f 658 leoclient2_0.9.10-9.dsc
- 05c47cb063bab26c1045e14eaed5e933 42076 leoclient2-leovirtstarter-client_0.9.10-9_all.deb
- 061e95baf587de74e8a569ea93ccf45d 5908 leoclient2-vm-printer_0.9.10-9_all.deb
+ 1e1bd6f73162367554454f3ebfa64eb4 662 leoclient2_0.9.10-10.dsc
+ 0228adf3b254dae09011f4c756a5d298 42096 leoclient2-leovirtstarter-client_0.9.10-10_all.deb
+ 525bf228f9187263cc9ccdeeb0dc42de 5912 leoclient2-vm-printer_0.9.10-10_all.deb
 Checksums-Sha1:
- e8c73cd29761bcd5f5ac81196be070d91e7d5e54 658 leoclient2_0.9.10-9.dsc
- 72276da7e32c35e5c58c79f7d6a9afd13632798e 42076 leoclient2-leovirtstarter-client_0.9.10-9_all.deb
- cc0963bff3384b4c19307acdae50d5b1b5cd2672 5908 leoclient2-vm-printer_0.9.10-9_all.deb
+ 33f6f9a178d0cb5eaad0165f659da9a8c894eca5 662 leoclient2_0.9.10-10.dsc
+ 60155c1606334f18c3adb7493bf540b95baf2820 42096 leoclient2-leovirtstarter-client_0.9.10-10_all.deb
+ ee6b4eed0a8b1e809b71b4d59114a7e0143144fa 5912 leoclient2-vm-printer_0.9.10-10_all.deb
 Checksums-Sha256:
- 731f1bb519a63ab2f04c103208430b827f31ff48e48ccdbc80131027d8429d8b 658 leoclient2_0.9.10-9.dsc
- 168917a83fa94fc55498114b3a0f0fe6c51f6dac03ed0de3498edb6a5b9486da 42076 leoclient2-leovirtstarter-client_0.9.10-9_all.deb
- 7dbb63e9c13978e42c59797749fac5f95fd78d80f9b16b9ea601c601cbbc1b62 5908 leoclient2-vm-printer_0.9.10-9_all.deb
+ f2519c7ca9f81c6d5137774017db4e88770ebdbb84fe76e1e6b8ca35f6757867 662 leoclient2_0.9.10-10.dsc
+ 8528693125c1aaa01f9e2299f6304ccb32bb516621c42bea40c8345f8b0af5d4 42096 leoclient2-leovirtstarter-client_0.9.10-10_all.deb
+ 4badeba348f6d0584ee721d5a41c7117c24193a967c378a5c5f702f75f60c056 5912 leoclient2-vm-printer_0.9.10-10_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 25 Apr 2022 00:15:42 +0000
+Build-Date: Mon, 25 Apr 2022 00:41:38 +0000
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
