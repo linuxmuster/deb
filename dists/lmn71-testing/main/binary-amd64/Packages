@@ -1,35 +1,35 @@
 Package: leoclient2-leovirtstarter-client
 Source: leoclient2
-Version: 0.9.10-8
+Version: 0.9.10-9
 Architecture: all
 Maintainer: Ruediger Beck <jeffbeck@web.de>
 Installed-Size: 159
-Depends: libfilesys-df-perl, liblog-log4perl-perl, zenity, libio-interface-perl, rsync, libglib-perl, libpango-perl, libgdk-pixbuf-2.0-0
+Depends: libfilesys-df-perl, liblog-log4perl-perl, zenity, libio-interface-perl, rsync, libglib-perl, libpango-perl, libgdk-pixbuf-2.0-0, libgtk2.0-dev, pkg-config, cpanminus
 Priority: optional
 Section: admin
-Filename: pool/main/l/leoclient2/leoclient2-leovirtstarter-client_0.9.10-8_all.deb
-Size: 41940
-SHA256: b288c3a8722a02eca7725b85f5e590ef3aef7e3847f6b6d02a7d6d98040691ed
-SHA1: cffd6e1bb905ed16fdbb8808c18f3ef627b1f8b0
-MD5sum: 71a21d97aa7be2a67702139c91ddc8bc
+Filename: pool/main/l/leoclient2/leoclient2-leovirtstarter-client_0.9.10-9_all.deb
+Size: 42076
+SHA256: 168917a83fa94fc55498114b3a0f0fe6c51f6dac03ed0de3498edb6a5b9486da
+SHA1: 72276da7e32c35e5c58c79f7d6a9afd13632798e
+MD5sum: 05c47cb063bab26c1045e14eaed5e933
 Description: alternativ software to start VirtualBox
  leovirtstarter2 copies and caches VirtualBox snapshots and starts
  them
 
 Package: leoclient2-vm-printer
 Source: leoclient2
-Version: 0.9.10-8
+Version: 0.9.10-9
 Architecture: all
 Maintainer: Ruediger Beck <jeffbeck@web.de>
 Installed-Size: 30
 Depends: liblinux-inotify2-perl, liblog-log4perl-perl
 Priority: optional
 Section: admin
-Filename: pool/main/l/leoclient2/leoclient2-vm-printer_0.9.10-8_all.deb
-Size: 5888
-SHA256: 50a339cf72118c6d53832b62d99ee33e7d39be1a6c14a6cb5582d4950169d71e
-SHA1: 6f8fc1b78135878df84f0a2a42edb94dbe49297f
-MD5sum: 1b0d806f48d1f9f57c66ec67915c02cf
+Filename: pool/main/l/leoclient2/leoclient2-vm-printer_0.9.10-9_all.deb
+Size: 5908
+SHA256: 7dbb63e9c13978e42c59797749fac5f95fd78d80f9b16b9ea601c601cbbc1b62
+SHA1: cc0963bff3384b4c19307acdae50d5b1b5cd2672
+MD5sum: 061e95baf587de74e8a569ea93ccf45d
 Description: Watches a directory used for virtual machine printing.
  Sends the created files to the default printer
 
