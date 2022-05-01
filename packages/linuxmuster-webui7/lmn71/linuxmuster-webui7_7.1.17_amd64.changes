@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Sun, 01 May 2022 11:32:34 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.17
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.17) lmn71; urgency=medium
+ .
+   * Update dpath lib for jammy
+   * Kerberos ticket for user at auth
+   * New backend plugin smbclient to handle communication with samba shares
+   * New plugin samba shares to display shares content
+   * New upload method directly in home
+   * New angular service for custom fields
+   * Fix structure for custom fields
+   * Fix custom fields in session plugin
+   * Fix links in linbo4 plugin
+   * Use concurrency to accelerate transfers in session plugin
+Checksums-Sha1:
+ 0794c57fa9427e8813f3f0076843cd303d440f76 568 linuxmuster-webui7_7.1.17.dsc
+ 45a1291afbe3f53ba690e533ad01cb9d3b00d8d4 20564882 linuxmuster-webui7_7.1.17.tar.gz
+ cdf5db98fe8fa2c6d5b4285486d9ff5c17c83334 763052 linuxmuster-webui7_7.1.17_all.deb
+ f9c7f5959ca96df081064d31e63006a434ec3f43 6664 linuxmuster-webui7_7.1.17_amd64.buildinfo
+Checksums-Sha256:
+ e312c4f6487214be44b1e0143fe43ab77ac84a2f096472c04694119417223905 568 linuxmuster-webui7_7.1.17.dsc
+ 56798e365829f11541026a7c2c1a7cd7af8c36a3bd21c2a2ef0262e7f7238769 20564882 linuxmuster-webui7_7.1.17.tar.gz
+ 853ff281321e17f2a9a24d2156a0adcc0cc519822d3dc16ee88c698e51deb945 763052 linuxmuster-webui7_7.1.17_all.deb
+ ab12d6de2d9ea5689a9688ae8c280585d7778838170e33c6abd3a51655a23054 6664 linuxmuster-webui7_7.1.17_amd64.buildinfo
+Files:
+ 2cc775bc8ca428157a6ed8d7b9d01421 568 admin optional linuxmuster-webui7_7.1.17.dsc
+ 6dcbf90b4843690ab0b6a0ac0d91f725 20564882 admin optional linuxmuster-webui7_7.1.17.tar.gz
+ 481a4257739559171705c10e26ce7a49 763052 admin optional linuxmuster-webui7_7.1.17_all.deb
+ be0db1e8526556a64f4be3d8eda8e425 6664 admin optional linuxmuster-webui7_7.1.17_amd64.buildinfo
