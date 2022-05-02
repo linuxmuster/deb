@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 02 May 2022 10:37:01 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.20
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.20) lmn71; urgency=medium
+ .
+   * Expand languages for regexp in pexpect
+   * Non blocking kerberos auth
+Checksums-Sha1:
+ ede9a587f1ad4fecd33bae3ad7fa96acf37b54c0 568 linuxmuster-webui7_7.1.20.dsc
+ 6dd6a7553dfc4a06903529886f54c8e81aad9734 20565030 linuxmuster-webui7_7.1.20.tar.gz
+ b319efb56323ebfc177b8a8e0747e5b8dbea1327 763336 linuxmuster-webui7_7.1.20_all.deb
+ de79f62ca243c1d7739b92f23c5478a4385055ef 6664 linuxmuster-webui7_7.1.20_amd64.buildinfo
+Checksums-Sha256:
+ 9fb9afef6195a10ff7a7e3bf273eed60b3102a1b54569c06e2254d64810a3f0f 568 linuxmuster-webui7_7.1.20.dsc
+ 1a568607a53b2f8037157288eed07da319f484f9695916f658672f0a0da381b4 20565030 linuxmuster-webui7_7.1.20.tar.gz
+ 6e3ede318c07b117fff51668513cfeae79c89ecfd887ff077f0de9e10396ffff 763336 linuxmuster-webui7_7.1.20_all.deb
+ 1dc8a297d85f1adb82c8a38844b7256db36f26adefd7686afed4bcdae10d1647 6664 linuxmuster-webui7_7.1.20_amd64.buildinfo
+Files:
+ 83d1688e2cde15c780e8e523e0e4f5e0 568 admin optional linuxmuster-webui7_7.1.20.dsc
+ 9b74c205627776e327708e00ef9e31d4 20565030 admin optional linuxmuster-webui7_7.1.20.tar.gz
+ 3984b0bc533ceceb630965f327044309 763336 admin optional linuxmuster-webui7_7.1.20_all.deb
+ 80604b513e02bc0f1da5e55eed984f46 6664 admin optional linuxmuster-webui7_7.1.20_amd64.buildinfo
