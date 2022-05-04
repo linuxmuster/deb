@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Wed, 4 May 2022 13:09:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.26-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.26-0) lmn71; urgency=low
+ .
+   * Revert "Fix restore of windows efi boot files (#70)",
+     reverts commit ac816c4592378f742458f77c7dbae635c186fe56.
+   * Revert "Further UEFI optimations (#70)",
+     reverts commit 9de4fec8a716a15e4d42875a3ca61ba4d58667f7.
+   * Revert "Improvement: Clean up invalid UEFI entries (#70)",
+     reverts commit 17921f3de8f7922b3a3c8ade7e44aea57e102735.
+   * Revert "Fix #70: Clean up invalid UEFI entries",
+     reverts commit 05193cca7aeb9a93a0648ae7830cd73b0c3f653e.
+   * UEFI fixes, increased verbosity, more english translations (#70).
+Checksums-Sha1:
+ 18eb454a6194bf43e5f16a89a2b7e4a8af7a578a 1233 linuxmuster-linbo7_4.0.26-0.dsc
+ df4d6959dfe0e7720d016a89071dc751256789b1 1950576 linuxmuster-linbo7_4.0.26-0.tar.gz
+ 6420dc3202056a146a675c140ac51504b4b744dc 41250454 linuxmuster-linbo7_4.0.26-0_all.deb
+ 8050574d3e17e60ec8e40000681a3c37ab62e122 14161 linuxmuster-linbo7_4.0.26-0_amd64.buildinfo
+Checksums-Sha256:
+ 69808cb52c7280adafd744d003f9b714730f2a40578483d30e8600a40fb14bc7 1233 linuxmuster-linbo7_4.0.26-0.dsc
+ c2bcd87bce65abfe1a2ab79e67b9366f0d6185e184c75106312c1e91e970791e 1950576 linuxmuster-linbo7_4.0.26-0.tar.gz
+ 48051f6e826c8e66f65a1b536993a6d147ded40ea48f8d00356c519c1e028af5 41250454 linuxmuster-linbo7_4.0.26-0_all.deb
+ f03b766aa3134b111305289945f5685fdf13b07633a9588f4fcaf8db82e9c769 14161 linuxmuster-linbo7_4.0.26-0_amd64.buildinfo
+Files:
+ ceeaf5bc5a55f6029d6394acb5c1722d 1233 admin extra linuxmuster-linbo7_4.0.26-0.dsc
+ 7272c454e1b4841b7e19b2c426b464ac 1950576 admin extra linuxmuster-linbo7_4.0.26-0.tar.gz
+ c0894e69204db46d699fbd5a5bde90a7 41250454 admin extra linuxmuster-linbo7_4.0.26-0_all.deb
+ d0704454d7769c7117b36d9a4a9a5fa5 14161 admin extra linuxmuster-linbo7_4.0.26-0_amd64.buildinfo
