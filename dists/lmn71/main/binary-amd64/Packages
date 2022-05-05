@@ -35,7 +35,7 @@ Description: Linuxmuster Linbo GUI
  (LINBO) boot/install/repair system.
 
 Package: linuxmuster-linbo7
-Version: 4.0.26-0
+Version: 4.0.27-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Installed-Size: 114552
@@ -45,11 +45,11 @@ Conflicts: atftpd, bittorrent, linuxmuster-linbo, linuxmuster-linbo-common, linu
 Breaks: linuxmuster-linbo-common7
 Priority: extra
 Section: admin
-Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.0.26-0_all.deb
-Size: 41250454
-SHA256: 48051f6e826c8e66f65a1b536993a6d147ded40ea48f8d00356c519c1e028af5
-SHA1: 6420dc3202056a146a675c140ac51504b4b744dc
-MD5sum: c0894e69204db46d699fbd5a5bde90a7
+Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.0.27-0_all.deb
+Size: 41248536
+SHA256: 00d32b9a2cd82a3655d40999eaa27e130e040210c92aa7d89caacdba10318206
+SHA1: a803bffc0e9e8b0979e295a2be15d1148f0ae635
+MD5sum: 168bd7c810d9a6bb312a03f55ffdc27c
 Description: linuxmuster-linbo7
  This package contains kernel, initrd, scripts and pxe boot configuration for the Linux-based Network Boot (LINBO) boot/install/repair system.
 
