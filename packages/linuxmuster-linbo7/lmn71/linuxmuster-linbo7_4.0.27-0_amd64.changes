@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 5 May 2022 10:15:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.27-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.27-0) lmn71; urgency=low
+ .
+   * Fix restore of windows efi boot files (#70).
+Checksums-Sha1:
+ fb56f54e4983264e5532a84f7869594dd2c18b30 1233 linuxmuster-linbo7_4.0.27-0.dsc
+ b778d9bb8b9ea461a3e270da4100e7849414be85 1950590 linuxmuster-linbo7_4.0.27-0.tar.gz
+ a803bffc0e9e8b0979e295a2be15d1148f0ae635 41248536 linuxmuster-linbo7_4.0.27-0_all.deb
+ b7df0209a55b0d80c735d786055efd1838758187 14161 linuxmuster-linbo7_4.0.27-0_amd64.buildinfo
+Checksums-Sha256:
+ 5bf6a42cf719088ffc6478924997b53d845de39aba2af9e70d4bd4d0af6a4371 1233 linuxmuster-linbo7_4.0.27-0.dsc
+ bbeb114cdf8f8491bdb2dd1f8e239a623b1962f9d482baed12c7a5034f8c5ae2 1950590 linuxmuster-linbo7_4.0.27-0.tar.gz
+ 00d32b9a2cd82a3655d40999eaa27e130e040210c92aa7d89caacdba10318206 41248536 linuxmuster-linbo7_4.0.27-0_all.deb
+ 56e2e6cb6c662e929de05220fa7cf6613ea4c9bb4ac0070a6c962ae70aa58ea6 14161 linuxmuster-linbo7_4.0.27-0_amd64.buildinfo
+Files:
+ f0a5d2830d3effbe5c8faafef92c4582 1233 admin extra linuxmuster-linbo7_4.0.27-0.dsc
+ 189b0c32e315142ed5ee266355dc1e8f 1950590 admin extra linuxmuster-linbo7_4.0.27-0.tar.gz
+ 168bd7c810d9a6bb312a03f55ffdc27c 41248536 admin extra linuxmuster-linbo7_4.0.27-0_all.deb
+ 33bc9816d0cfb94da280ca0c98f60cc9 14161 admin extra linuxmuster-linbo7_4.0.27-0_amd64.buildinfo
