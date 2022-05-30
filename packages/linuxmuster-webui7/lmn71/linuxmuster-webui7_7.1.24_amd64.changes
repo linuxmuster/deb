@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 30 May 2022 17:55:51 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.24
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.24) lmn71; urgency=medium
+ .
+   * Setup : Remove dollar from global-admin password
+   * Setup: Live feedback on password strength
+   * Users: Avoid filter error on empty user's list
+Checksums-Sha1:
+ 1bad93a088420b5aa7d1ae9da9f3db089913dc1a 568 linuxmuster-webui7_7.1.24.dsc
+ 6aedbbf6b982f54e2c5943615592aa89f19bf31a 20566935 linuxmuster-webui7_7.1.24.tar.gz
+ 01cb3f2f571da71258b055202b6db01ea06126a8 764460 linuxmuster-webui7_7.1.24_all.deb
+ e9fb35fbd9d8cfa7fc464d726a4989093f960f7e 6664 linuxmuster-webui7_7.1.24_amd64.buildinfo
+Checksums-Sha256:
+ 370f12d8bc10a4fb42d147ed6b3b6e527d6f4159b3c0b5502117493b15623cf0 568 linuxmuster-webui7_7.1.24.dsc
+ 5b77adbb53e560e6898d68c41e88523c388b6b7ca8391d4a78e2f0bba5cd45cf 20566935 linuxmuster-webui7_7.1.24.tar.gz
+ 56a5c2c10bf3ef851e1811865a8089230788ac7cacf7a8f6d4f8911650f8ea79 764460 linuxmuster-webui7_7.1.24_all.deb
+ 2b7e87ddc0083044f1506d010bdc4da3207b0b8e859ac1a673f14a99e68f4714 6664 linuxmuster-webui7_7.1.24_amd64.buildinfo
+Files:
+ 870d317a18671a089c82d4f63aa7c49e 568 admin optional linuxmuster-webui7_7.1.24.dsc
+ 2a985dc762f510b87b50c7b207e54c09 20566935 admin optional linuxmuster-webui7_7.1.24.tar.gz
+ d78d65b27b839bb47521a970bfea5fde 764460 admin optional linuxmuster-webui7_7.1.24_all.deb
+ 8259f20278f610beb74ac0d21542c093 6664 admin optional linuxmuster-webui7_7.1.24_amd64.buildinfo
