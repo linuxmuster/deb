@@ -33,9 +33,14 @@ sudo wget -q "https://deb.linuxmuster.net/pub.gpg" -O /etc/apt/trusted.gpg.d/lin
 
 ## 2. Add repo:
 
-### Linuxmuster 7.1 testing
+### Linuxmuster 7.1
 ```bash
 sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/sources.list.d/lmn71.list'
+```
+
+### Linuxmuster 7.2 testing
+```bash
+sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn72 main" > /etc/apt/sources.list.d/lmn72.list'
 ```
 
 ## 3. Apt update
