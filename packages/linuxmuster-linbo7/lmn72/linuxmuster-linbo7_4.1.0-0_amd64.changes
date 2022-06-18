@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Sat, 18 Jun 2022 17:52:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.0-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.0-0) lmn72; urgency=low
+ .
+   * merged differential imaging from branch diffimage (cc78fd7...8969db1).
+   * update kernel to 5.18.5 (3dc8fbd).
+   * added qdiff support to linbo-remote (f949a5d).
+   * Fix recognition of "PXE IP4" uefi boot entry (e7aa263).
+   * Fix #66: Issue parsing Running Torrent Trackers.
+   * ntfs3 mount & resize fix (0ad65f6).
+   * uefi boot improvements (713935a).
+   * rename domainname to sambadomain (422b7d9).
+   * unix2dos & sambadomain fix for windows regfiles in cache (57c61c7).
+   * linbo_warmstart: removed reboot in case of warmstart is not intended (2c65e93).
+   * linbo_cmd, mountpart: use remount instead of umount/mount (6eccd36).
+   * use linbo warmstart also for uefi systems (53c7a30).
+   * Fix #67: Linbo7 assumes wrong macct name (closes also #68).
+   * Add r8168 module (757d3d6, 3c7a6d9).
+   * implement differential imaging (e46cade).
+   * provide linbo environment in /.env (#72).
+   * refactor linbo_cmd (#72).
+Checksums-Sha1:
+ a4fe5d020e640b9baad80242c9d83a09536566b7 1229 linuxmuster-linbo7_4.1.0-0.dsc
+ 8f7cddb350ed43e2868e3aef0a73c87b6e5fecf7 1954585 linuxmuster-linbo7_4.1.0-0.tar.gz
+ 63f8923931a6eeb8112fcbbca59081b2e29844d4 47854328 linuxmuster-linbo7_4.1.0-0_all.deb
+ 50555bc6e75f0fb5e096ead47fabc215597e7337 13525 linuxmuster-linbo7_4.1.0-0_amd64.buildinfo
+Checksums-Sha256:
+ c91011e67dc281bc856e96ece73100b23d27aab466568bd560bc1477cfbda6e6 1229 linuxmuster-linbo7_4.1.0-0.dsc
+ a9c2c4c146273a9546e2506ce3f46cd5d33614a4b54b58bacddf0ae72e4bd119 1954585 linuxmuster-linbo7_4.1.0-0.tar.gz
+ d6dee47246fc3135097d1000fbac8e2a73f63c475563c03db94880d6dee10208 47854328 linuxmuster-linbo7_4.1.0-0_all.deb
+ 4055cd615ae0ab7ee8f6ea99b9665a1f817430307dff2f383913a23ee0dc3b26 13525 linuxmuster-linbo7_4.1.0-0_amd64.buildinfo
+Files:
+ ae0589cf431e5fca0cb59499f9670f9c 1229 admin extra linuxmuster-linbo7_4.1.0-0.dsc
+ 8eed4057d25615e613cd4ca5d74b702e 1954585 admin extra linuxmuster-linbo7_4.1.0-0.tar.gz
+ 5b217b0d8da4dff65d580add1e07bf30 47854328 admin extra linuxmuster-linbo7_4.1.0-0_all.deb
+ 07e7b25ede419ebedb55397f8bbea7fc 13525 admin extra linuxmuster-linbo7_4.1.0-0_amd64.buildinfo
