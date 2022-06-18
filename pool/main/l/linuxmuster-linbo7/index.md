@@ -8,3 +8,6 @@ Files in this directory:
 - 🗒 [linuxmuster-linbo7_4.0.28-0.dsc](linuxmuster-linbo7_4.0.28-0.dsc)
 - 🗒 [linuxmuster-linbo7_4.0.28-0.tar.gz](linuxmuster-linbo7_4.0.28-0.tar.gz)
 - 🗒 [linuxmuster-linbo7_4.0.28-0_all.deb](linuxmuster-linbo7_4.0.28-0_all.deb)
+- 🗒 [linuxmuster-linbo7_4.1.0-0.dsc](linuxmuster-linbo7_4.1.0-0.dsc)
+- 🗒 [linuxmuster-linbo7_4.1.0-0.tar.gz](linuxmuster-linbo7_4.1.0-0.tar.gz)
+- 🗒 [linuxmuster-linbo7_4.1.0-0_all.deb](linuxmuster-linbo7_4.1.0-0_all.deb)
