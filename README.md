@@ -14,12 +14,14 @@ This is the Linuxmuter.net archive. It is the place where you can get the latest
 
 # Packages
 This repo currently contains the following packages:
-- [webui7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71)
-- [prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71)
-- [linbo7](https://github.com/linuxmuster/linuxmuster-linbo7) (lmn71)
-- [linbo-gui7](https://github.com/linuxmuster/linuxmuster-linbo-gui7) (lmn71)
+- [leoclient2](https://github.com/linuxmuster/leoclient2) (lmn71-testing)
+- [base7](https://github.com/linuxmuster/linuxmuster-base7) (lmn71,lmn72)
+- [linbo-gui7](https://github.com/linuxmuster/linuxmuster-linbo-gui7) (lmn71,lmn72)
+- [linbo7](https://github.com/linuxmuster/linuxmuster-linbo7) (lmn71, lmn71-testing, lmn72)
 - [linuxclient7](https://github.com/linuxmuster/linuxmuster-linuxclient7) (lmn71)
-- [sophomorix4](https://github.com/linuxmuster/sophomorix4) (lmn71)
+- [prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71)
+- [webui7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71)
+- [sophomorix4](https://github.com/linuxmuster/sophomorix4) (lmn71, lmn71-testing)
 
 # Setup
 
