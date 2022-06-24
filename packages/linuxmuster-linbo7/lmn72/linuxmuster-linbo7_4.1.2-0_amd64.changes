@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 24 Mar 2022 19:09:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.2-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.2-0) lmn72; urgency=low
+ .
+   * Fix #74: Issue in umounting $efipart.
+   * Fix #76: Don't download control file from github.
+   * Fix #73: Make linbo_preregister print the result.
+Checksums-Sha1:
+ a94a1d749dbbf9087e5e6980efb1d72d2647ffae 1211 linuxmuster-linbo7_4.1.2-0.dsc
+ 1a6c82273016a0dee356e4b7e78d93ae97d3f272 1954658 linuxmuster-linbo7_4.1.2-0.tar.gz
+ fe96e560c0f5e561a67f90f8e1e0b41e62014ca2 47842296 linuxmuster-linbo7_4.1.2-0_all.deb
+ 6fdb8a3a7a8a38dca0beb8468ece3565d2304049 13392 linuxmuster-linbo7_4.1.2-0_amd64.buildinfo
+Checksums-Sha256:
+ 63ea99b39b884a4d5c1e05f7251a018b8058962925c4de3da4b3420e8473b2a2 1211 linuxmuster-linbo7_4.1.2-0.dsc
+ ff53a618582b078c738e68525d063497ef4057e06647a88b248943e604d1b9e9 1954658 linuxmuster-linbo7_4.1.2-0.tar.gz
+ dd89b104943d376b6e32cc9b7235d9171c82c34742838aaec53367b7959eb892 47842296 linuxmuster-linbo7_4.1.2-0_all.deb
+ 632d68a76aca0e99a8620ad349d748e224ead260069a9009413cc69973f356d2 13392 linuxmuster-linbo7_4.1.2-0_amd64.buildinfo
+Files:
+ df8316ff865456dc9bff9ab63ca0027d 1211 admin extra linuxmuster-linbo7_4.1.2-0.dsc
+ 65d08ab37242fafd0536357ca631f785 1954658 admin extra linuxmuster-linbo7_4.1.2-0.tar.gz
+ adb3ea774534ab9e11a6d6ddc97032c5 47842296 admin extra linuxmuster-linbo7_4.1.2-0_all.deb
+ fffdcba50b2206f229a978c8f1d820af 13392 admin extra linuxmuster-linbo7_4.1.2-0_amd64.buildinfo
