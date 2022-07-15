@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 15 Jul 2022 15:58:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.29-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.29-0) lmn71; urgency=low
+ .
+   * linbo-remote wake-on-lan fixes (see #77).
+   * removed libdevmapper-dev from build deps.
+Checksums-Sha1:
+ 6ab78a9d7c91f3ae7c01c36df5a9d7d0f36bcdfb 1215 linuxmuster-linbo7_4.0.29-0.dsc
+ 54f48d8637c58a96c91a0624a901eca3789397d3 1948857 linuxmuster-linbo7_4.0.29-0.tar.gz
+ 3e6b3ac23cb39a9f44e2975da2be8c4b4e0cefca 41370118 linuxmuster-linbo7_4.0.29-0_all.deb
+ 0496e35abbe798a0147fd34b2e1df007a4cf51ea 14031 linuxmuster-linbo7_4.0.29-0_amd64.buildinfo
+Checksums-Sha256:
+ d8a4e4c69eb87ced9ddae3d48bfda60eefcc286ea64f10495288adb5ce28fa66 1215 linuxmuster-linbo7_4.0.29-0.dsc
+ ca65819db9b766978fa4ef5585865dbdda586945ad5e09f2e78ab1fa3f142f8e 1948857 linuxmuster-linbo7_4.0.29-0.tar.gz
+ 790f682361a3da336ff899a88b72b7db05b7e0ed0b1d7a2383125c39f8e9fc56 41370118 linuxmuster-linbo7_4.0.29-0_all.deb
+ 90fc47551050838f24735dd067404c6a659807da19a771b704c1d6e37e316745 14031 linuxmuster-linbo7_4.0.29-0_amd64.buildinfo
+Files:
+ d314433652b1d5d316455239cc2c3004 1215 admin extra linuxmuster-linbo7_4.0.29-0.dsc
+ e24b538b0cf1f79c9007242551be4824 1948857 admin extra linuxmuster-linbo7_4.0.29-0.tar.gz
+ e0bd5a28ce5d3b92da93fdc6ab5e7fea 41370118 admin extra linuxmuster-linbo7_4.0.29-0_all.deb
+ cc065c207722960592bac0d4e008a524 14031 admin extra linuxmuster-linbo7_4.0.29-0_amd64.buildinfo
