@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.1.12-0
+Version: 7.1.13-0
 Checksums-Md5:
- 3f7ffc472f0f156fd65723c79dfae7ec 583 linuxmuster-base7_7.1.12-0.dsc
- 49dd8c01bb58476beddfc918ac9b9c80 55372 linuxmuster-base7_7.1.12-0_all.deb
+ 4c5d4119139b0bc493df47ec8ad0d6b1 583 linuxmuster-base7_7.1.13-0.dsc
+ 9ab818057f4983da45efbfdf7c720237 55444 linuxmuster-base7_7.1.13-0_all.deb
 Checksums-Sha1:
- 3b7161d915c4182dda7bc6460e918c0bcc64186e 583 linuxmuster-base7_7.1.12-0.dsc
- 4a9ee0e9df18feeed1dc9c6aab8b00d3f52a4173 55372 linuxmuster-base7_7.1.12-0_all.deb
+ b3716c21e9144a8ab71efd084484370d241b080c 583 linuxmuster-base7_7.1.13-0.dsc
+ 138ba66544c1577a1ecc2d5e2b28d851149e047a 55444 linuxmuster-base7_7.1.13-0_all.deb
 Checksums-Sha256:
- 47271efd62b1f9e6915486c5ee8a6d5075e23502b1fce552b67b490ac78959d6 583 linuxmuster-base7_7.1.12-0.dsc
- a0503ab7537c3a1f3c88f34178dc1bd4547206e2a5c330b41bfb7296c3d51a32 55372 linuxmuster-base7_7.1.12-0_all.deb
+ ad16eee28eeba4731f07fffe3baca408f75df6463082c33201135d4ef5909ce6 583 linuxmuster-base7_7.1.13-0.dsc
+ a0fbb6eff1c20aee9ae7e154f4894ada0832c5d3badb2be2d86ea04ac63e5a7c 55444 linuxmuster-base7_7.1.13-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 20 Jun 2022 18:43:05 +0000
+Build-Date: Sat, 30 Jul 2022 09:13:12 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -163,8 +163,8 @@ Installed-Build-Depends:
  libuuid1 (= 2.31.1-0.4ubuntu3.7),
  libxml2 (= 2.9.4+dfsg1-6.1ubuntu1.6),
  libzstd1 (= 1.3.3+dfsg-2ubuntu1.2),
- linux-libc-dev (= 4.15.0-184.194),
- login (= 1:4.5-1ubuntu2.2),
+ linux-libc-dev (= 4.15.0-189.200),
+ login (= 1:4.5-1ubuntu2.3),
  m4 (= 1.4.18-1),
  make (= 4.1-9.1ubuntu1),
  man-db (= 2.8.3-2ubuntu0.1),
@@ -187,4 +187,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1655750460"
+ SOURCE_DATE_EPOCH="1659171960"
