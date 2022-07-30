@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 30 Jul 2022 13:44:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0-rc1
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.0-rc1) lmn72; urgency=low
+ .
+   * Merge pull request #141 from PLanB2008/master (71d28e4).
+   * Merge pull request #142 from linuxmuster/nolog-sophpass (60f7f32).
+Checksums-Sha1:
+ a6388254428236789a79644e3d68d0d9df432cf9 587 linuxmuster-base7_7.2.0-rc1.dsc
+ 8c9c4a6c4a8360f8875171e2a636eb462358d679 76227 linuxmuster-base7_7.2.0-rc1.tar.gz
+ f29c01c63650da366cf310552e61c86f5f726074 57366 linuxmuster-base7_7.2.0-rc1_all.deb
+ df62a44294f93a60b974aadcee608d81bf5874a3 7356 linuxmuster-base7_7.2.0-rc1_amd64.buildinfo
+Checksums-Sha256:
+ be70cbfc455858fbdd12a7e603a8b6662e01eb7e98cf4129ca9b1f912c988954 587 linuxmuster-base7_7.2.0-rc1.dsc
+ d00b97a39e453633236f30545a508ed5e5fe498625d2eee3c6febe459a0518ad 76227 linuxmuster-base7_7.2.0-rc1.tar.gz
+ 5972817e1b131f2a7124e2f3299337eb00d6404acd0e6030f639210fc0170f0d 57366 linuxmuster-base7_7.2.0-rc1_all.deb
+ 616c35b9d72705fcdb807ac2998d0c3a8e41d287d2dede789e41a054a6bda2c7 7356 linuxmuster-base7_7.2.0-rc1_amd64.buildinfo
+Files:
+ baae1698f908be21e9021fdc247fbdbf 587 linuxmuster optional linuxmuster-base7_7.2.0-rc1.dsc
+ 36c828b8338f9fe76979be565d6cd4c3 76227 linuxmuster optional linuxmuster-base7_7.2.0-rc1.tar.gz
+ 32b68695cee3660871073327e0c0589e 57366 linuxmuster optional linuxmuster-base7_7.2.0-rc1_all.deb
+ cbc1f949533e6b3b6318f4ebab06ff56 7356 linuxmuster optional linuxmuster-base7_7.2.0-rc1_amd64.buildinfo
