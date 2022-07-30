@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 30 Jul 2022 13:55:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.15-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.15-0) lmn71; urgency=low
+ .
+   * Fix executability of linuxmuster-holiday-generate (e3d55b7).
+Checksums-Sha1:
+ 18dd16f76480de00019a114e99145ccb0f812951 583 linuxmuster-base7_7.1.15-0.dsc
+ 6ec94a8a58f35b2c9c47993f9a4d4fb3c779eac7 73862 linuxmuster-base7_7.1.15-0.tar.gz
+ bc85b55992e7f4a2623147f6737cfe09aa0c2c7a 56136 linuxmuster-base7_7.1.15-0_all.deb
+ 5cd705651658618f5a7c30576825d3a893887326 6695 linuxmuster-base7_7.1.15-0_amd64.buildinfo
+Checksums-Sha256:
+ 7164b4b67b6e42550f85b2f3e4d8e3f68f6251dc0da2f463c2b54898ba28fde0 583 linuxmuster-base7_7.1.15-0.dsc
+ 6c6ebca3550f017b77b559705b143b226a42f6006326abde2fd0c6840da0e89b 73862 linuxmuster-base7_7.1.15-0.tar.gz
+ 426e61811817de7c2eaa864574fccfe98d7c77f8bfbc092c84ce75a85623b7f5 56136 linuxmuster-base7_7.1.15-0_all.deb
+ acacc445efb33e8590206b2a0143bf6ec0ea87f1c6927e0796929b6958a83d14 6695 linuxmuster-base7_7.1.15-0_amd64.buildinfo
+Files:
+ 9df0187edd89522406fe2f8be842fdbb 583 linuxmuster optional linuxmuster-base7_7.1.15-0.dsc
+ fd4eb3f1e200251f945722d71126de5e 73862 linuxmuster optional linuxmuster-base7_7.1.15-0.tar.gz
+ 2ef619298a291336cacfbafe3ebc2eb8 56136 linuxmuster optional linuxmuster-base7_7.1.15-0_all.deb
+ b4d03633faf3ef4453b86b624c525128 6695 linuxmuster optional linuxmuster-base7_7.1.15-0_amd64.buildinfo
