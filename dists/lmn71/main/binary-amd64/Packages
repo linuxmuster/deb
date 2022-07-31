@@ -85,19 +85,19 @@ MD5sum: 4a1c064302b1867b1c1dca3e4890bf03
 Description: linuxmuster.net pre setup configuration scripts
 
 Package: linuxmuster-webui7
-Version: 7.1.30
+Version: 7.1.31
 Architecture: all
 Maintainer: Andreas Till <andreas.till@netzint.de>
-Installed-Size: 17161
+Installed-Size: 17181
 Depends: python3-pip, python3-dev, python3-lxml, libffi-dev, libssl-dev, libjpeg-dev, libpng-dev, uuid-dev, libkrb5-dev, gcc, python3-dbus, python3-augeas, python3-apt, ntpdate, libldap2-dev, libsasl2-dev, python3-ldap, sophomorix-samba (>= 3.80.0-1), nmap
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.1.30_all.deb
-Size: 774240
-SHA256: 41e7d58079985a08ef4cc23b6413eb048bfd648ef721239ce4db30064574193a
-SHA1: 5fc4353adc54d61febe406ab46dc4dc97e23f84d
-MD5sum: 29712690ed26922b91e7c0ddcdfe9b22
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.1.31_all.deb
+Size: 774696
+SHA256: a4820969219e3396c7aaf299ba707f50398435f94d344d96d17a6d792172dba1
+SHA1: c2b53b16494541af4ebb90512c0f758ba4a231fd
+MD5sum: 01925982d1976e1252b11adaf27da15c
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
 Package: sophomorix-belwue-mail
