@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 02 Aug 2022 15:24:35 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.33
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.33) lmn71; urgency=medium
+ .
+   * [linbo4] Test backups timestamp before loading backup
+   * Fix semi-colon comment problem with configobj
+Checksums-Sha1:
+ bb24199990577a9ff5aff4281cd4d98dd6a9f34b 568 linuxmuster-webui7_7.1.33.dsc
+ 5c3799e5125712410f66b94e19d39fd8c6cb119c 20585508 linuxmuster-webui7_7.1.33.tar.gz
+ f1bd4178dd108e5f8da635dfd3a22507cbb11099 774824 linuxmuster-webui7_7.1.33_all.deb
+ bcd6659847906f8925df736f4dcb765eff6c8af2 6664 linuxmuster-webui7_7.1.33_amd64.buildinfo
+Checksums-Sha256:
+ af836905a22817afddfc902263aa3787e7a4154aaf66d7708585e0acdbf2e181 568 linuxmuster-webui7_7.1.33.dsc
+ 380f1a07ad18502670748a89319561b3c4119b4e5203803247a44118f11b1df2 20585508 linuxmuster-webui7_7.1.33.tar.gz
+ 95e44b76902c592d4d408c7e6477e73a105c0169032db6d493153ea8796a9aa1 774824 linuxmuster-webui7_7.1.33_all.deb
+ f56c9180e32508e728620080832f9b435cbfb8808948d8f697461839c7f06d6b 6664 linuxmuster-webui7_7.1.33_amd64.buildinfo
+Files:
+ d7baf575b0931b1dde5658ef3b1404c8 568 admin optional linuxmuster-webui7_7.1.33.dsc
+ ac140dc4f52b3c765c4f2450fbbcd40f 20585508 admin optional linuxmuster-webui7_7.1.33.tar.gz
+ 97f44423b16e133d00d0b8b4d3b424e9 774824 admin optional linuxmuster-webui7_7.1.33_all.deb
+ 30887c4ad2a0814ec488b01dbc3d8817 6664 admin optional linuxmuster-webui7_7.1.33_amd64.buildinfo
