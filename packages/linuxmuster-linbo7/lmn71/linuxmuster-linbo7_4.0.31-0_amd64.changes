@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 3 Aug 2022 22:05:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.31-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.31-0) lmn71; urgency=low
+ .
+   * helperfunctions.sh: fixed broadcast address is not recognized as valid ip in some cases (2be903e).
+   * update kernel to 5.10.135 (xxxxxxx).
+Checksums-Sha1:
+ 874eac9a0fab282deaaa7046cedd9cd2b26a5913 1215 linuxmuster-linbo7_4.0.31-0.dsc
+ 028eb3b90fb3d89a1db41ddf9a815f02d4807682 1949136 linuxmuster-linbo7_4.0.31-0.tar.gz
+ c4788e6da68ef8a63dad2d54a2895d6895d9ab5e 42051458 linuxmuster-linbo7_4.0.31-0_all.deb
+ dd8f71df3831be83347d0de421f295a2154c4f87 14031 linuxmuster-linbo7_4.0.31-0_amd64.buildinfo
+Checksums-Sha256:
+ 7becd03a4b54783498196c73d836cdc663e279c3702b1adb6c27cea46f8481cc 1215 linuxmuster-linbo7_4.0.31-0.dsc
+ 5addf669cecea591f429630e93c1461b1839082355b4ad25a0be0656eab7840a 1949136 linuxmuster-linbo7_4.0.31-0.tar.gz
+ 3ee6684b675b1e1bd73ddf43a232396e1cc5b876dd781d9ea1f3ffadbc71a295 42051458 linuxmuster-linbo7_4.0.31-0_all.deb
+ bff063a0e85bb15a9fd5b3e052ff9726f2e4ae7152ccd86bee90f06be836ff40 14031 linuxmuster-linbo7_4.0.31-0_amd64.buildinfo
+Files:
+ 910646d20d2bab0d1caa3aa1be977b1c 1215 admin extra linuxmuster-linbo7_4.0.31-0.dsc
+ b594577cc08c3801b1c361dd4b59bba2 1949136 admin extra linuxmuster-linbo7_4.0.31-0.tar.gz
+ 608274c494f602be5c36ab23adbb10e9 42051458 admin extra linuxmuster-linbo7_4.0.31-0_all.deb
+ 584a99396c85f7b10ff27a63c6cfad0b 14031 admin extra linuxmuster-linbo7_4.0.31-0_amd64.buildinfo
