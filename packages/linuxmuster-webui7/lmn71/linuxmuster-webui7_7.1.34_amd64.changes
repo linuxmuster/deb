@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 04 Aug 2022 12:37:37 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.34
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.34) lmn71; urgency=medium
+ .
+   * [clients] Prepare config for drives.xml
+   * Fix ldap error ( controllers called twice )
+Checksums-Sha1:
+ 9ed3fd49cde1aecf451bb7184b6d85607d620e1e 568 linuxmuster-webui7_7.1.34.dsc
+ bf5b2a0b462597c7d474b88603edda792618ca6d 20586215 linuxmuster-webui7_7.1.34.tar.gz
+ 399f3b35df2c56d1d99a6dd3dc88c826f22db031 775952 linuxmuster-webui7_7.1.34_all.deb
+ 1a83fb5dc9b9c608eb5e3765ad3a01b688c7f5e1 6664 linuxmuster-webui7_7.1.34_amd64.buildinfo
+Checksums-Sha256:
+ 1e75e254dd71ed69b7591e347a594861c7f988464dc8c36e2e720012f7082ece 568 linuxmuster-webui7_7.1.34.dsc
+ f54b820bf7faf77dce7e79216d5d0438583b01ff1e69da847b3f50c02bccbc65 20586215 linuxmuster-webui7_7.1.34.tar.gz
+ ff24bad71814a2352cef6b2032c0c158d901f2f406dabf45cecfed28d0f2904f 775952 linuxmuster-webui7_7.1.34_all.deb
+ 7c3305b6ba72382061f2faecbf96e91e41f2c3eca8c05829e6eaa3050c39e918 6664 linuxmuster-webui7_7.1.34_amd64.buildinfo
+Files:
+ 301ec59b062ca2cb5677695eeea4fe27 568 admin optional linuxmuster-webui7_7.1.34.dsc
+ 5ba9a7fdfa81648b0c26d8e7b0bc3168 20586215 admin optional linuxmuster-webui7_7.1.34.tar.gz
+ bbae718cb3916b569313421162dacd35 775952 admin optional linuxmuster-webui7_7.1.34_all.deb
+ 8f820e0c572c3e01af50aeeb4e90fb09 6664 admin optional linuxmuster-webui7_7.1.34_amd64.buildinfo
