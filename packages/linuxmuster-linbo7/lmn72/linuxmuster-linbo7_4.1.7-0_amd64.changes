@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 4 Aug 2022 08:24:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.7-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.7-0) lmn72; urgency=low
+ .
+   * helperfunctions.sh: fixed broadcast address is not recognized as valid ip in some cases (11346aa).
+   * Update kernel to 5.18.16 (eaada2e).
+Checksums-Sha1:
+ 3a143a984cf5ed17a730b18b05332f3530c02f97 1211 linuxmuster-linbo7_4.1.7-0.dsc
+ 101ce73b68fe38fbe340b6f31c80939356352ff7 1957153 linuxmuster-linbo7_4.1.7-0.tar.gz
+ fd05814125701c691f3b7b743559477da16fd01a 48478668 linuxmuster-linbo7_4.1.7-0_all.deb
+ d1c46e6ccaca3c14bfaf7b51e183c8d3997cf2d2 13450 linuxmuster-linbo7_4.1.7-0_amd64.buildinfo
+Checksums-Sha256:
+ a43312adfe4ef74b663b4b3a85fab0e6f7833aae127f895ca1ce7b82f23f10f0 1211 linuxmuster-linbo7_4.1.7-0.dsc
+ 295ba303676ed9956bfee9d0d83525cb577bf142e0fd36dad283d856ac8dc6cd 1957153 linuxmuster-linbo7_4.1.7-0.tar.gz
+ 88e68d692ba0b660930f84954a68ddf6fa9308e96024a2b166c9130c0ab453d9 48478668 linuxmuster-linbo7_4.1.7-0_all.deb
+ ec2bf872e7efe1b63a1cb9b4325e2162a52cba8f57661853854c65f6d010c339 13450 linuxmuster-linbo7_4.1.7-0_amd64.buildinfo
+Files:
+ 2b0655970dfe313367edecbd445f0e64 1211 admin extra linuxmuster-linbo7_4.1.7-0.dsc
+ 7d319e38d15af64fd3d9332d55921528 1957153 admin extra linuxmuster-linbo7_4.1.7-0.tar.gz
+ 01723967c845b1a50a67055501dfdff5 48478668 admin extra linuxmuster-linbo7_4.1.7-0_all.deb
+ d242658ca351af60d9b7e4e89ed09a01 13450 admin extra linuxmuster-linbo7_4.1.7-0_amd64.buildinfo
