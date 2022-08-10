@@ -1,35 +1,35 @@
 Package: leoclient2-leovirtstarter-client
 Source: leoclient2
-Version: 0.9.10-11
+Version: 0.9.10-12
 Architecture: all
 Maintainer: Ruediger Beck <jeffbeck@web.de>
 Installed-Size: 159
 Depends: libfilesys-df-perl, liblog-log4perl-perl, zenity, libio-interface-perl, rsync, libglib-perl, libpango-perl, libgdk-pixbuf-2.0-0, libgtk2.0-dev, libcanberra-gtk-module, pkg-config, cpanminus
 Priority: optional
 Section: admin
-Filename: pool/main/l/leoclient2/leoclient2-leovirtstarter-client_0.9.10-11_all.deb
-Size: 42188
-SHA256: c840b4ef7656d1a9a034d65c40c174ceca1000c451d1e1168c516c4adcf2fa50
-SHA1: ff926022458aeb2710e9ad3242c732c68aecf208
-MD5sum: f3f8c5e45fbbc78e3cd12ab697986e25
+Filename: pool/main/l/leoclient2/leoclient2-leovirtstarter-client_0.9.10-12_all.deb
+Size: 42272
+SHA256: 55c81b20aee031869640c68b72655cb8cc3479b8a67e0595a4f21fbd590fe1e7
+SHA1: d359528297f2aaa2f448d2eb0394143f13f8d9f7
+MD5sum: 423bfa0ee1b8bc0e199925e97131d545
 Description: alternativ software to start VirtualBox
  leovirtstarter2 copies and caches VirtualBox snapshots and starts
  them
 
 Package: leoclient2-vm-printer
 Source: leoclient2
-Version: 0.9.10-11
+Version: 0.9.10-12
 Architecture: all
 Maintainer: Ruediger Beck <jeffbeck@web.de>
 Installed-Size: 30
 Depends: liblinux-inotify2-perl, liblog-log4perl-perl
 Priority: optional
 Section: admin
-Filename: pool/main/l/leoclient2/leoclient2-vm-printer_0.9.10-11_all.deb
-Size: 5948
-SHA256: c78a7c31fafd4e917f0d6ef2afad6770c8dc2e90faf592432dc2b425820ab702
-SHA1: 2101730e7ca3411f35f21c83c74ac02e5914dc80
-MD5sum: eb6d31416e68c4251673481c43742f01
+Filename: pool/main/l/leoclient2/leoclient2-vm-printer_0.9.10-12_all.deb
+Size: 5988
+SHA256: ec3f36271ca59b376f5074a63357f1532ffc1404ac04349f96059f2651b9ad1f
+SHA1: c49c2f6e5e3b9154a28d0af1f7436dff8d09e097
+MD5sum: 175bf4b8d790d0db5c5b3e0fd2c6f2fc
 Description: Watches a directory used for virtual machine printing.
  Sends the created files to the default printer
 
