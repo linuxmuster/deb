@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 10 Aug 2022 18:57:42 +0200
+Source: leoclient2
+Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
+Architecture: source all
+Version: 0.9.10-12
+Distribution: lmn71-testing
+Urgency: medium
+Maintainer: Ruediger Beck <jeffbeck@web.de>
+Changed-By: bz <bz@overpower>
+Description:
+ leoclient2-leovirtstarter-client - alternativ software to start VirtualBox
+ leoclient2-vm-printer - Watches a directory used for virtual machine printing.
+Changes:
+ leoclient2 (0.9.10-12) lmn71-testing; urgency=medium
+ .
+   * opening a different logfile when run as root
+Checksums-Sha1:
+ 67b472827f5d0c7c7a6c5852cf2c133fa897360a 662 leoclient2_0.9.10-12.dsc
+ 6f962fb12be4c4f37eb267359b0ff4e688e84323 252194 leoclient2_0.9.10-12.tar.gz
+ d359528297f2aaa2f448d2eb0394143f13f8d9f7 42272 leoclient2-leovirtstarter-client_0.9.10-12_all.deb
+ c49c2f6e5e3b9154a28d0af1f7436dff8d09e097 5988 leoclient2-vm-printer_0.9.10-12_all.deb
+ 5540fc906ef6d316244c1f8526f82e1c9790a1e9 7156 leoclient2_0.9.10-12_amd64.buildinfo
+Checksums-Sha256:
+ 96d15974dfe6bcf6784b9a3435e815e9bbe4f2eb4838784a946fcfc1ead72e44 662 leoclient2_0.9.10-12.dsc
+ e8d52bb535ea53d00d982298759f01cc217f722685e98ef99786dd115d417990 252194 leoclient2_0.9.10-12.tar.gz
+ 55c81b20aee031869640c68b72655cb8cc3479b8a67e0595a4f21fbd590fe1e7 42272 leoclient2-leovirtstarter-client_0.9.10-12_all.deb
+ ec3f36271ca59b376f5074a63357f1532ffc1404ac04349f96059f2651b9ad1f 5988 leoclient2-vm-printer_0.9.10-12_all.deb
+ c34402e14689b1f09034cd174f6bde89ffb3d0719af3c0aeb052bb59b8071277 7156 leoclient2_0.9.10-12_amd64.buildinfo
+Files:
+ 086b7188945c36e5c3d348c70f0d7c20 662 admin optional leoclient2_0.9.10-12.dsc
+ fb8aa1d94242db87d74345d5f7b2579d 252194 admin optional leoclient2_0.9.10-12.tar.gz
+ 423bfa0ee1b8bc0e199925e97131d545 42272 admin optional leoclient2-leovirtstarter-client_0.9.10-12_all.deb
+ 175bf4b8d790d0db5c5b3e0fd2c6f2fc 5988 admin optional leoclient2-vm-printer_0.9.10-12_all.deb
+ a1d86dbe7eca6fa19d2403a654d3a76c 7156 admin optional leoclient2_0.9.10-12_amd64.buildinfo
