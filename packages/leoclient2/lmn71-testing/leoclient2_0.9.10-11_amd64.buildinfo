@@ -2,22 +2,22 @@ Format: 1.0
 Source: leoclient2
 Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
 Architecture: all source
-Version: 0.9.10-10
+Version: 0.9.10-11
 Checksums-Md5:
- 1e1bd6f73162367554454f3ebfa64eb4 662 leoclient2_0.9.10-10.dsc
- 0228adf3b254dae09011f4c756a5d298 42096 leoclient2-leovirtstarter-client_0.9.10-10_all.deb
- 525bf228f9187263cc9ccdeeb0dc42de 5912 leoclient2-vm-printer_0.9.10-10_all.deb
+ d3c84b6658ad6d681ad5ad77c9f5e3c3 662 leoclient2_0.9.10-11.dsc
+ f3f8c5e45fbbc78e3cd12ab697986e25 42188 leoclient2-leovirtstarter-client_0.9.10-11_all.deb
+ eb6d31416e68c4251673481c43742f01 5948 leoclient2-vm-printer_0.9.10-11_all.deb
 Checksums-Sha1:
- 33f6f9a178d0cb5eaad0165f659da9a8c894eca5 662 leoclient2_0.9.10-10.dsc
- 60155c1606334f18c3adb7493bf540b95baf2820 42096 leoclient2-leovirtstarter-client_0.9.10-10_all.deb
- ee6b4eed0a8b1e809b71b4d59114a7e0143144fa 5912 leoclient2-vm-printer_0.9.10-10_all.deb
+ ffde00a691bfcb82247f857439a83f050ca908d9 662 leoclient2_0.9.10-11.dsc
+ ff926022458aeb2710e9ad3242c732c68aecf208 42188 leoclient2-leovirtstarter-client_0.9.10-11_all.deb
+ 2101730e7ca3411f35f21c83c74ac02e5914dc80 5948 leoclient2-vm-printer_0.9.10-11_all.deb
 Checksums-Sha256:
- f2519c7ca9f81c6d5137774017db4e88770ebdbb84fe76e1e6b8ca35f6757867 662 leoclient2_0.9.10-10.dsc
- 8528693125c1aaa01f9e2299f6304ccb32bb516621c42bea40c8345f8b0af5d4 42096 leoclient2-leovirtstarter-client_0.9.10-10_all.deb
- 4badeba348f6d0584ee721d5a41c7117c24193a967c378a5c5f702f75f60c056 5912 leoclient2-vm-printer_0.9.10-10_all.deb
+ 76175f94c3cf7bee2a5659706751624f79691017b70cce3ad634b0cc0caafb6c 662 leoclient2_0.9.10-11.dsc
+ c840b4ef7656d1a9a034d65c40c174ceca1000c451d1e1168c516c4adcf2fa50 42188 leoclient2-leovirtstarter-client_0.9.10-11_all.deb
+ c78a7c31fafd4e917f0d6ef2afad6770c8dc2e90faf592432dc2b425820ab702 5948 leoclient2-vm-printer_0.9.10-11_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 25 Apr 2022 00:41:38 +0000
+Build-Date: Wed, 10 Aug 2022 16:23:39 +0000
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
@@ -30,7 +30,7 @@ Installed-Build-Depends:
  autotools-dev (= 20180224.1),
  base-files (= 11ubuntu5.5),
  base-passwd (= 3.5.47),
- bash (= 5.0-6ubuntu1.1),
+ bash (= 5.0-6ubuntu1.2),
  binutils (= 2.34-6ubuntu1.3),
  binutils-common (= 2.34-6ubuntu1.3),
  binutils-x86-64-linux-gnu (= 2.34-6ubuntu1.3),
@@ -52,8 +52,8 @@ Installed-Build-Depends:
  dh-autoreconf (= 19),
  dh-strip-nondeterminism (= 1.7.0-1),
  diffutils (= 1:3.7-3),
- dpkg (= 1.19.7ubuntu3),
- dpkg-dev (= 1.19.7ubuntu3),
+ dpkg (= 1.19.7ubuntu3.2),
+ dpkg-dev (= 1.19.7ubuntu3.2),
  dwz (= 0.13-5),
  fakeroot (= 1.24-1),
  file (= 1:5.38-4),
@@ -71,7 +71,7 @@ Installed-Build-Depends:
  gettext-base (= 0.19.8.1-10build1),
  grep (= 3.4-1),
  groff-base (= 1.22.4-4build1),
- gzip (= 1.10-0ubuntu4),
+ gzip (= 1.10-0ubuntu4.1),
  hostname (= 3.23),
  init-system-helpers (= 1.57),
  install-info (= 6.7.0.dfsg.2-5),
@@ -90,11 +90,11 @@ Installed-Build-Depends:
  libblkid1 (= 2.34-0.1ubuntu9.3),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.7),
- libc-dev-bin (= 2.31-0ubuntu9.7),
- libc6 (= 2.31-0ubuntu9.7),
- libc6-dev (= 2.31-0ubuntu9.7),
- libc6-i386 (= 2.31-0ubuntu9.7),
+ libc-bin (= 2.31-0ubuntu9.9),
+ libc-dev-bin (= 2.31-0ubuntu9.9),
+ libc6 (= 2.31-0ubuntu9.9),
+ libc6-dev (= 2.31-0ubuntu9.9),
+ libc6-i386 (= 2.31-0ubuntu9.9),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.3.0-1ubuntu1~20.04),
  libclang-common-10-dev (= 1:10.0.0-4ubuntu1),
@@ -114,7 +114,7 @@ Installed-Build-Depends:
  libdb5.3 (= 5.3.28+dfsg1-0.6ubuntu2),
  libdebconfclient0 (= 0.251ubuntu1),
  libdebhelper-perl (= 12.10ubuntu1),
- libdpkg-perl (= 1.19.7ubuntu3),
+ libdpkg-perl (= 1.19.7ubuntu3.2),
  libedit2 (= 3.1-20191231-1),
  libelf1 (= 0.176-1.1build1),
  libfakeroot (= 1.24-1),
@@ -139,7 +139,7 @@ Installed-Build-Depends:
  libllvm12 (= 1:12.0.0-3ubuntu1~20.04.5),
  liblsan0 (= 10.3.0-1ubuntu1~20.04),
  liblz4-1 (= 1.9.2-2ubuntu0.20.04.1),
- liblzma5 (= 5.2.4-1ubuntu1),
+ liblzma5 (= 5.2.4-1ubuntu1.1),
  libmagic-mgc (= 1:5.38-4),
  libmagic1 (= 1:5.38-4),
  libmount1 (= 2.34-0.1ubuntu9.3),
@@ -151,8 +151,8 @@ Installed-Build-Depends:
  libpam-modules-bin (= 1.3.1-5ubuntu4.3),
  libpam-runtime (= 1.3.1-5ubuntu4.3),
  libpam0g (= 1.3.1-5ubuntu4.3),
- libpcre2-8-0 (= 10.39-3+ubuntu20.04.1+deb.sury.org+2),
- libpcre3 (= 2:8.39-12build1),
+ libpcre2-8-0 (= 10.40-1+ubuntu20.04.1+deb.sury.org+1),
+ libpcre3 (= 2:8.39-12ubuntu0.1),
  libperl5.30 (= 5.30.0-9ubuntu0.2),
  libpipeline1 (= 1.5.2-2build1),
  libquadmath0 (= 10.3.0-1ubuntu1~20.04),
@@ -164,20 +164,20 @@ Installed-Build-Depends:
  libstdc++-9-dev (= 9.4.0-1ubuntu1~20.04.1),
  libstdc++6 (= 10.3.0-1ubuntu1~20.04),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 245.4-4ubuntu3.15),
+ libsystemd0 (= 245.4-4ubuntu3.17),
  libtinfo6 (= 6.2-0ubuntu2),
  libtool (= 2.4.6-14),
  libtsan0 (= 10.3.0-1ubuntu1~20.04),
  libubsan1 (= 10.3.0-1ubuntu1~20.04),
  libuchardet0 (= 0.0.6-3build1),
- libudev1 (= 245.4-4ubuntu3.15),
+ libudev1 (= 245.4-4ubuntu3.17),
  libunistring2 (= 0.9.10-2),
  libuuid1 (= 2.34-0.1ubuntu9.3),
- libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.2),
+ libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.4),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-107.121),
+ linux-libc-dev (= 5.4.0-122.138),
  llvm-12-linker-tools (= 1:12.0.0-3ubuntu1~20.04.5),
- login (= 1:4.8.1-1ubuntu5.20.04.1),
+ login (= 1:4.8.1-1ubuntu5.20.04.2),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
  make (= 4.2.1-1.2),
@@ -197,10 +197,10 @@ Installed-Build-Depends:
  tar (= 1.30+dfsg-7ubuntu0.20.04.2),
  tzdata (= 2022a-0ubuntu0.20.04),
  util-linux (= 2.34-0.1ubuntu9.3),
- xz-utils (= 5.2.4-1ubuntu1),
+ xz-utils (= 5.2.4-1ubuntu1.1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu1.3)
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1650492511"
+ SOURCE_DATE_EPOCH="1660148364"
