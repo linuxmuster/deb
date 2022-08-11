@@ -2,31 +2,31 @@ Format: 1.0
 Source: sophomorix4
 Binary: sophomorix-samba sophomorix-developer sophomorix-vampire sophomorix-dump sophomorix-belwue-mail
 Architecture: all source
-Version: 3.90.4-1
+Version: 3.90.5-1
 Checksums-Md5:
- 92cb3395adb98f6c5d1ca06d9202e85a 845 sophomorix4_3.90.4-1.dsc
- a5b103020de4484f3dfec24ed61aa96a 19100 sophomorix-belwue-mail_3.90.4-1_all.deb
- 47737c311f917bd0d207738fd27466fb 86320 sophomorix-developer_3.90.4-1_all.deb
- 703b2855cd9980f39fcd25ef050fd0a1 12060 sophomorix-dump_3.90.4-1_all.deb
- 0b59561c846d192d6997cec499ad8114 248296 sophomorix-samba_3.90.4-1_all.deb
- f7f8852f264befe2d2e4da2fca907be0 21336 sophomorix-vampire_3.90.4-1_all.deb
+ cc0ef7d9b3068557b55ad8ee418fd77b 845 sophomorix4_3.90.5-1.dsc
+ c44b36e2bcefc315afe962b03d46ceb2 19188 sophomorix-belwue-mail_3.90.5-1_all.deb
+ 3f707399ecbb544c8fb6fee79c139ac8 86392 sophomorix-developer_3.90.5-1_all.deb
+ f6c65b1df0bbb6e98885e4e501dd7e21 12140 sophomorix-dump_3.90.5-1_all.deb
+ e3702bd604f5ce99c73ec9c41eb13a77 249264 sophomorix-samba_3.90.5-1_all.deb
+ a9512843074a2bd6c41175587935a75d 21424 sophomorix-vampire_3.90.5-1_all.deb
 Checksums-Sha1:
- f45ffaae347b7cc663be3b209d2db80a17ed7629 845 sophomorix4_3.90.4-1.dsc
- 62cb1154b4f88ebdfcb94836e285b58c59eeb396 19100 sophomorix-belwue-mail_3.90.4-1_all.deb
- 4a28691dc88ca9bcf635cda3f6ba43573116664f 86320 sophomorix-developer_3.90.4-1_all.deb
- a218b0b8cbd24c0c2f438acdfe6ac0528e17d063 12060 sophomorix-dump_3.90.4-1_all.deb
- 163cb719fe74e24ae69cfbcc8b84d2880eea9eda 248296 sophomorix-samba_3.90.4-1_all.deb
- e6b0315c3b63d136c3d55ea8ea0a13869eb942eb 21336 sophomorix-vampire_3.90.4-1_all.deb
+ 45707552052bdb7a4a6a3a258c26b76a3dcd4ea4 845 sophomorix4_3.90.5-1.dsc
+ 94eb406ada83b03f1c0a0225d21ae7aa57016abf 19188 sophomorix-belwue-mail_3.90.5-1_all.deb
+ 70f5567086dd79d3bf1e28fcf6c3c480098a77af 86392 sophomorix-developer_3.90.5-1_all.deb
+ 86d4c28923d7310a9af27dc6de2217a3a31a66db 12140 sophomorix-dump_3.90.5-1_all.deb
+ 74c44a60b488e9dd932267b68b2e5f1b932a3ccf 249264 sophomorix-samba_3.90.5-1_all.deb
+ aedafbaf027e058b0426c8376b78485f24e4da2b 21424 sophomorix-vampire_3.90.5-1_all.deb
 Checksums-Sha256:
- 9180ecd7a5d09185245e2135fcf11123b820e8ebce203e4227cac3618e4ed571 845 sophomorix4_3.90.4-1.dsc
- 615a2b0fa46b23d59ceb42883d6b8f0470ee3256c4f15f55a2c4dfc624c6e76b 19100 sophomorix-belwue-mail_3.90.4-1_all.deb
- fa96aef2cdf686d65f52049bfb2c6985d4d805c4c2c536580cea0dc8a8cb35aa 86320 sophomorix-developer_3.90.4-1_all.deb
- 3f6b013ef4f84b4bd9713b85c516eb7907511807a2b075d3795f2d70b7d96e82 12060 sophomorix-dump_3.90.4-1_all.deb
- 3ca191406bcd4aa56a4319528b6c71a56653572309d27d5bab0483e065562866 248296 sophomorix-samba_3.90.4-1_all.deb
- 13c89264aadeddf6f4f5d52650e7b31413501c184f7101f3dd4eb8d996081a3e 21336 sophomorix-vampire_3.90.4-1_all.deb
+ e19960c02c14099bc699ab29359286cba8ff2dd1e62f8507398f0abd2afe08e1 845 sophomorix4_3.90.5-1.dsc
+ 6929ed2c690b34876136dd04df72c04296df7f3502fde6a31a7175c9adb68478 19188 sophomorix-belwue-mail_3.90.5-1_all.deb
+ 5178dadfafd6a90d79e33f41409d404734c97a52350127eb3eeb37a0ac29088a 86392 sophomorix-developer_3.90.5-1_all.deb
+ a0bea3d247361b57b820c641eb5d59d71caa80147d63b57941ed851b87f1bb7e 12140 sophomorix-dump_3.90.5-1_all.deb
+ a703eef8e29ac0e38cb47ca7776e257746b9fa33dc6a86e0aa32c3b706a9a583 249264 sophomorix-samba_3.90.5-1_all.deb
+ b1517c1b6107232b041706c6ee1937e107445cfc12c43cb564bf8a2e13affbc7 21424 sophomorix-vampire_3.90.5-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 09 Apr 2022 17:41:22 +0000
+Build-Date: Thu, 11 Aug 2022 11:56:17 +0000
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
@@ -40,7 +40,7 @@ Installed-Build-Depends:
  autotools-dev (= 20180224.1),
  base-files (= 11ubuntu5.5),
  base-passwd (= 3.5.47),
- bash (= 5.0-6ubuntu1.1),
+ bash (= 5.0-6ubuntu1.2),
  binutils (= 2.34-6ubuntu1.3),
  binutils-common (= 2.34-6ubuntu1.3),
  binutils-x86-64-linux-gnu (= 2.34-6ubuntu1.3),
@@ -48,7 +48,7 @@ Installed-Build-Depends:
  bsdutils (= 1:2.34-0.1ubuntu9.3),
  build-essential (= 12.8ubuntu1.1),
  bzip2 (= 1.0.8-2),
- ca-certificates (= 20210119~20.04.2),
+ ca-certificates (= 20211016~20.04.1),
  clang-10 (= 1:10.0.0-4ubuntu1),
  clang-11 (= 1:11.0.0-2~ubuntu20.04.1),
  clang-12 (= 1:12.0.0-3ubuntu1~20.04.5),
@@ -64,9 +64,9 @@ Installed-Build-Depends:
  dh-autoreconf (= 19),
  dh-strip-nondeterminism (= 1.7.0-1),
  diffutils (= 1:3.7-3),
- dirmngr (= 2.2.19-3ubuntu2.1),
- dpkg (= 1.19.7ubuntu3),
- dpkg-dev (= 1.19.7ubuntu3),
+ dirmngr (= 2.2.19-3ubuntu2.2),
+ dpkg (= 1.19.7ubuntu3.2),
+ dpkg-dev (= 1.19.7ubuntu3.2),
  dwz (= 0.13-5),
  fakeroot (= 1.24-1),
  file (= 1:5.38-4),
@@ -82,20 +82,20 @@ Installed-Build-Depends:
  gcc-9-base (= 9.4.0-1ubuntu1~20.04.1),
  gettext (= 0.19.8.1-10build1),
  gettext-base (= 0.19.8.1-10build1),
- gnupg (= 2.2.19-3ubuntu2.1),
- gnupg-l10n (= 2.2.19-3ubuntu2.1),
- gnupg-utils (= 2.2.19-3ubuntu2.1),
- gnupg2 (= 2.2.19-3ubuntu2.1),
- gpg (= 2.2.19-3ubuntu2.1),
- gpg-agent (= 2.2.19-3ubuntu2.1),
- gpg-wks-client (= 2.2.19-3ubuntu2.1),
- gpg-wks-server (= 2.2.19-3ubuntu2.1),
- gpgconf (= 2.2.19-3ubuntu2.1),
- gpgsm (= 2.2.19-3ubuntu2.1),
- gpgv (= 2.2.19-3ubuntu2.1),
+ gnupg (= 2.2.19-3ubuntu2.2),
+ gnupg-l10n (= 2.2.19-3ubuntu2.2),
+ gnupg-utils (= 2.2.19-3ubuntu2.2),
+ gnupg2 (= 2.2.19-3ubuntu2.2),
+ gpg (= 2.2.19-3ubuntu2.2),
+ gpg-agent (= 2.2.19-3ubuntu2.2),
+ gpg-wks-client (= 2.2.19-3ubuntu2.2),
+ gpg-wks-server (= 2.2.19-3ubuntu2.2),
+ gpgconf (= 2.2.19-3ubuntu2.2),
+ gpgsm (= 2.2.19-3ubuntu2.2),
+ gpgv (= 2.2.19-3ubuntu2.2),
  grep (= 3.4-1),
  groff-base (= 1.22.4-4build1),
- gzip (= 1.10-0ubuntu4),
+ gzip (= 1.10-0ubuntu4.1),
  hostname (= 3.23),
  init-system-helpers (= 1.57),
  install-info (= 6.7.0.dfsg.2-5),
@@ -117,11 +117,11 @@ Installed-Build-Depends:
  libblkid1 (= 2.34-0.1ubuntu9.3),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.7),
- libc-dev-bin (= 2.31-0ubuntu9.7),
- libc6 (= 2.31-0ubuntu9.7),
- libc6-dev (= 2.31-0ubuntu9.7),
- libc6-i386 (= 2.31-0ubuntu9.7),
+ libc-bin (= 2.31-0ubuntu9.9),
+ libc-dev-bin (= 2.31-0ubuntu9.9),
+ libc6 (= 2.31-0ubuntu9.9),
+ libc6-dev (= 2.31-0ubuntu9.9),
+ libc6-i386 (= 2.31-0ubuntu9.9),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.3.0-1ubuntu1~20.04),
  libclang-common-10-dev (= 1:10.0.0-4ubuntu1),
@@ -134,7 +134,7 @@ Installed-Build-Depends:
  libclang1-11 (= 1:11.0.0-2~ubuntu20.04.1),
  libclang1-12 (= 1:12.0.0-3ubuntu1~20.04.5),
  libclass-method-modifiers-perl (= 2.13-1),
- libcom-err2 (= 1.45.5-2ubuntu1),
+ libcom-err2 (= 1.45.5-2ubuntu1.1),
  libcroco3 (= 0.6.13-1),
  libcrypt-dev (= 1:4.4.10-10ubuntu4),
  libcrypt1 (= 1:4.4.10-10ubuntu4),
@@ -144,7 +144,7 @@ Installed-Build-Depends:
  libdebconfclient0 (= 0.251ubuntu1),
  libdebhelper-perl (= 12.10ubuntu1),
  libdevel-callchecker-perl (= 0.008-1ubuntu1),
- libdpkg-perl (= 1.19.7ubuntu3),
+ libdpkg-perl (= 1.19.7ubuntu3.2),
  libdynaloader-functions-perl (= 0.003-1),
  libedit2 (= 3.1-20191231-1),
  libelf1 (= 0.176-1.1build1),
@@ -165,7 +165,7 @@ Installed-Build-Depends:
  libgdbm6 (= 1.18.1-5),
  libglib2.0-0 (= 2.64.6-1~ubuntu20.04.4),
  libgmp10 (= 2:6.2.0+dfsg-4),
- libgnutls30 (= 3.6.13-2ubuntu1.6),
+ libgnutls30 (= 3.6.13-2ubuntu1.7),
  libgomp1 (= 10.3.0-1ubuntu1~20.04),
  libgpg-error0 (= 1.37-1),
  libgssapi3-heimdal (= 7.7.0+dfsg-1ubuntu1),
@@ -192,8 +192,8 @@ Installed-Build-Depends:
  libitm1 (= 10.3.0-1ubuntu1~20.04),
  libkrb5-26-heimdal (= 7.7.0+dfsg-1ubuntu1),
  libksba8 (= 1.3.5-2),
- libldap-2.4-2 (= 2.4.49+dfsg-2ubuntu1.8),
- libldap-common (= 2.4.49+dfsg-2ubuntu1.8),
+ libldap-2.4-2 (= 2.4.49+dfsg-2ubuntu1.9),
+ libldap-common (= 2.4.49+dfsg-2ubuntu1.9),
  libllvm10 (= 1:10.0.0-4ubuntu1),
  libllvm11 (= 1:11.0.0-2~ubuntu20.04.1),
  libllvm12 (= 1:12.0.0-3ubuntu1~20.04.5),
@@ -201,7 +201,7 @@ Installed-Build-Depends:
  liblwp-mediatypes-perl (= 6.04-1),
  liblwp-protocol-https-perl (= 6.07-2ubuntu2),
  liblz4-1 (= 1.9.2-2ubuntu0.20.04.1),
- liblzma5 (= 5.2.4-1ubuntu1),
+ liblzma5 (= 5.2.4-1ubuntu1.1),
  libmagic-mgc (= 1:5.38-4),
  libmagic1 (= 1:5.38-4),
  libmodule-runtime-perl (= 0.016-1),
@@ -223,13 +223,13 @@ Installed-Build-Depends:
  libpam-runtime (= 1.3.1-5ubuntu4.3),
  libpam0g (= 1.3.1-5ubuntu4.3),
  libparams-classify-perl (= 0.015-1build2),
- libpcre2-8-0 (= 10.39-3+ubuntu20.04.1+deb.sury.org+2),
- libpcre3 (= 2:8.39-12build1),
+ libpcre2-8-0 (= 10.40-1+ubuntu20.04.1+deb.sury.org+1),
+ libpcre3 (= 2:8.39-12ubuntu0.1),
  libperl5.30 (= 5.30.0-9ubuntu0.2),
  libpipeline1 (= 1.5.2-2build1),
  libpython3-stdlib (= 3.8.2-0ubuntu2),
- libpython3.8-minimal (= 3.8.10-0ubuntu1~20.04.4),
- libpython3.8-stdlib (= 3.8.10-0ubuntu1~20.04.4),
+ libpython3.8-minimal (= 3.8.10-0ubuntu1~20.04.5),
+ libpython3.8-stdlib (= 3.8.10-0ubuntu1~20.04.5),
  libquadmath0 (= 10.3.0-1ubuntu1~20.04),
  libreadline8 (= 8.0-4),
  libroken18-heimdal (= 7.7.0+dfsg-1ubuntu1),
@@ -240,17 +240,17 @@ Installed-Build-Depends:
  libselinux1 (= 3.0-1build2),
  libsemanage-common (= 3.0-1build2),
  libsemanage1 (= 3.0-1build2),
- libsepol1 (= 3.0-1),
+ libsepol1 (= 3.0-1ubuntu0.1),
  libsigsegv2 (= 2.12-2),
  libsmartcols1 (= 2.34-0.1ubuntu9.3),
- libsqlite3-0 (= 3.31.1-4ubuntu0.2),
- libssl1.1 (= 1.1.1f-1ubuntu2.12),
+ libsqlite3-0 (= 3.31.1-4ubuntu0.3),
+ libssl1.1 (= 1.1.1f-1ubuntu2.16),
  libstdc++-9-dev (= 9.4.0-1ubuntu1~20.04.1),
  libstdc++6 (= 10.3.0-1ubuntu1~20.04),
  libstrictures-perl (= 2.000006-1),
  libsub-override-perl (= 0.09-2),
  libsub-quote-perl (= 2.006006-1),
- libsystemd0 (= 245.4-4ubuntu3.15),
+ libsystemd0 (= 245.4-4ubuntu3.17),
  libtasn1-6 (= 4.16.0-2),
  libtimedate-perl (= 2.3200-1),
  libtinfo6 (= 6.2-0ubuntu2),
@@ -259,18 +259,18 @@ Installed-Build-Depends:
  libtsan0 (= 10.3.0-1ubuntu1~20.04),
  libubsan1 (= 10.3.0-1ubuntu1~20.04),
  libuchardet0 (= 0.0.6-3build1),
- libudev1 (= 245.4-4ubuntu3.15),
+ libudev1 (= 245.4-4ubuntu3.17),
  libunistring2 (= 0.9.10-2),
  liburi-perl (= 1.76-2),
  libuuid1 (= 2.34-0.1ubuntu9.3),
  libwind0-heimdal (= 7.7.0+dfsg-1ubuntu1),
  libwww-perl (= 6.43-1),
  libwww-robotrules-perl (= 6.02-1),
- libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.2),
+ libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.4),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-107.121),
+ linux-libc-dev (= 5.4.0-122.138),
  llvm-12-linker-tools (= 1:12.0.0-3ubuntu1~20.04.5),
- login (= 1:4.8.1-1ubuntu5.20.04.1),
+ login (= 1:4.8.1-1ubuntu5.20.04.2),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
  make (= 4.2.1-1.2),
@@ -280,8 +280,8 @@ Installed-Build-Depends:
  ncurses-base (= 6.2-0ubuntu2),
  ncurses-bin (= 6.2-0ubuntu2),
  netbase (= 6.1),
- openssl (= 1.1.1f-1ubuntu2.12),
- passwd (= 1:4.8.1-1ubuntu5.20.04.1),
+ openssl (= 1.1.1f-1ubuntu2.16),
+ passwd (= 1:4.8.1-1ubuntu5.20.04.2),
  patch (= 2.7.6-6),
  patchutils (= 0.3.4-2),
  perl (= 5.30.0-9ubuntu0.2),
@@ -292,8 +292,8 @@ Installed-Build-Depends:
  po-debconf (= 1.0.21),
  python3 (= 3.8.2-0ubuntu2),
  python3-minimal (= 3.8.2-0ubuntu2),
- python3.8 (= 3.8.10-0ubuntu1~20.04.4),
- python3.8-minimal (= 3.8.10-0ubuntu1~20.04.4),
+ python3.8 (= 3.8.10-0ubuntu1~20.04.5),
+ python3.8-minimal (= 3.8.10-0ubuntu1~20.04.5),
  readline-common (= 8.0-4),
  sed (= 4.7-1),
  sensible-utils (= 0.0.12+nmu1),
@@ -302,10 +302,10 @@ Installed-Build-Depends:
  tzdata (= 2022a-0ubuntu0.20.04),
  util-linux (= 2.34-0.1ubuntu9.3),
  wdiff (= 1.2.2-2build1),
- xz-utils (= 5.2.4-1ubuntu1),
+ xz-utils (= 5.2.4-1ubuntu1.1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu1.3)
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1649524803"
+ SOURCE_DATE_EPOCH="1660218581"
