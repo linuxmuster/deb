@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 15 Aug 2022 14:03:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.9-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.9-0) lmn72; urgency=low
+ .
+   * Update kernel to 5.19.1 (b850801).
+Checksums-Sha1:
+ a793211186fdbbf5023010f89da3898e85cad75d 1211 linuxmuster-linbo7_4.1.9-0.dsc
+ 150bf1581a9486c62a482c26e649d3251fb6d221 1956302 linuxmuster-linbo7_4.1.9-0.tar.gz
+ 4561a7ea981d558eeed311f7c837be37f2683739 48622038 linuxmuster-linbo7_4.1.9-0_all.deb
+ 21cd57a1449699d337d935b8ba7c60965620426c 13454 linuxmuster-linbo7_4.1.9-0_amd64.buildinfo
+Checksums-Sha256:
+ 45ad220695c36d1288091cd066b14204e1988f9ff0a13e8ddb277c3d04cfb9a5 1211 linuxmuster-linbo7_4.1.9-0.dsc
+ cb20149251efbe8229209fdfea7447eb2ffea843fea2a394b74c51627e39b205 1956302 linuxmuster-linbo7_4.1.9-0.tar.gz
+ d75b7ffbd8c932f180df7c16c6967877d45ac2be527df41a42dc1c60b4bd8e85 48622038 linuxmuster-linbo7_4.1.9-0_all.deb
+ 40923a9e512f1b8510ae8d92f63a5a576860cacfa9a51a3a654d9fe192546df6 13454 linuxmuster-linbo7_4.1.9-0_amd64.buildinfo
+Files:
+ a1b055de02be51aa335b53441cc0830c 1211 admin extra linuxmuster-linbo7_4.1.9-0.dsc
+ 7b41153789be94584549501ea59b2acb 1956302 admin extra linuxmuster-linbo7_4.1.9-0.tar.gz
+ 220b7560721cd1fa76e04cb19bd766b6 48622038 admin extra linuxmuster-linbo7_4.1.9-0_all.deb
+ 31ab5031f0b9bd7e3d02235cb4a9805e 13454 admin extra linuxmuster-linbo7_4.1.9-0_amd64.buildinfo
