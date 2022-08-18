@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 18 Aug 2022 20:40:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.33-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.33-0) lmn71; urgency=low
+ .
+   * Fix download error with imagefilename containing dots (7f15ee4).
+   * update kernel to 5.10.136 (31b6a85).
+Checksums-Sha1:
+ ff151e25943bb03011957ad07284509311e14631 1215 linuxmuster-linbo7_4.0.33-0.dsc
+ 9d536d18c12e291e5db959ab4264dcb93b96d94d 1949153 linuxmuster-linbo7_4.0.33-0.tar.gz
+ bcf69f3360736f58918871437a9a3a6be1753263 42052466 linuxmuster-linbo7_4.0.33-0_all.deb
+ d09efcd8293db0950911d18adee9e61558d874dd 14031 linuxmuster-linbo7_4.0.33-0_amd64.buildinfo
+Checksums-Sha256:
+ 93971476db616f94a483127fc497687ff01c2097c1ff2fc70a79232cc6c89f1e 1215 linuxmuster-linbo7_4.0.33-0.dsc
+ 75846fbc9f0aabc05a6a3ad148cfe8153854fac988506cb6a8636c9af69ae491 1949153 linuxmuster-linbo7_4.0.33-0.tar.gz
+ 06f8753486315ff364730785e256ffd79a181d33d3f1c3c66941a39b2a2a2dcb 42052466 linuxmuster-linbo7_4.0.33-0_all.deb
+ 2c86746c51b5e29fc9b69896cd244e60f8ce447826b950630e37cd33c037b5da 14031 linuxmuster-linbo7_4.0.33-0_amd64.buildinfo
+Files:
+ efbe87d60d640010cbc8d5703d1ddc45 1215 admin extra linuxmuster-linbo7_4.0.33-0.dsc
+ e8da4a909a93212be7af20ae0cf39c90 1949153 admin extra linuxmuster-linbo7_4.0.33-0.tar.gz
+ 52be533834b7611b5cbf18b7fe2d624b 42052466 admin extra linuxmuster-linbo7_4.0.33-0_all.deb
+ 03b56c9bd2b44e85640e4248f58407ab 14031 admin extra linuxmuster-linbo7_4.0.33-0_amd64.buildinfo
