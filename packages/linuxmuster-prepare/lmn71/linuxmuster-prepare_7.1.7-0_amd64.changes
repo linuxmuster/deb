@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 22 Aug 2022 20:44:00 +0200
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Architecture: source all
+Version: 7.1.7-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.1.7-0) lmn71; urgency=low
+ .
+   * Disable cloud services (25c326b).
+Checksums-Sha1:
+ f10fa857b9e2ab91d4d4c97a012c19dd9396381b 591 linuxmuster-prepare_7.1.7-0.dsc
+ 99e442717a90c510ddeb7d11242843cc13479fff 30316 linuxmuster-prepare_7.1.7-0.tar.gz
+ 928c75124692673334f7fe53e2f5a8588c851309 15080 linuxmuster-prepare_7.1.7-0_all.deb
+ 670f6f4d633416d3b047d34b629cbdb4779830d4 6704 linuxmuster-prepare_7.1.7-0_amd64.buildinfo
+Checksums-Sha256:
+ 6e1969812146649acb52c104e6f3463317d5299330865a535e664c0c4ebd3c69 591 linuxmuster-prepare_7.1.7-0.dsc
+ b1895fb50e2b186131fc1bae2114a7ac08110eb4d1ab67181c5384c3115eb530 30316 linuxmuster-prepare_7.1.7-0.tar.gz
+ 8c49832097b23e744cba46897d26956a58c4da15d944c23048a4c9e5f3fa6b2a 15080 linuxmuster-prepare_7.1.7-0_all.deb
+ 6830f41262bbcafc00d0cd3f6ae919e27ab33daf1adc4dd1297714d16f23d6f5 6704 linuxmuster-prepare_7.1.7-0_amd64.buildinfo
+Files:
+ d4873789abc608c56c8ee8db75978a6a 591 linuxmuster optional linuxmuster-prepare_7.1.7-0.dsc
+ 69aefe5f939a69491e64cdf04830bb43 30316 linuxmuster optional linuxmuster-prepare_7.1.7-0.tar.gz
+ 0eeb6e443f9e2f3d30e6f1145ad59394 15080 linuxmuster optional linuxmuster-prepare_7.1.7-0_all.deb
+ c2348fc9917d993537285510e9585ecd 6704 linuxmuster optional linuxmuster-prepare_7.1.7-0_amd64.buildinfo
