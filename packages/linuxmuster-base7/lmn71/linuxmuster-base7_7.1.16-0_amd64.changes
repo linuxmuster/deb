@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 1 Sep 2022 12:29:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.16-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.16-0) lmn71; urgency=low
+ .
+   *  Merge pull request #143 from linuxmuster/fix-sudoers (286d391).
+Checksums-Sha1:
+ a9cc49179ff93553b5c7f23f3ddbd5be7c0a5676 583 linuxmuster-base7_7.1.16-0.dsc
+ f43457d93fc814a192cb24e3aace749a52623635 73898 linuxmuster-base7_7.1.16-0.tar.gz
+ d52d890c7a8bacbac4898f1f434cf94eebd3ca16 56176 linuxmuster-base7_7.1.16-0_all.deb
+ 6675ce7b107381955c5386be535fc371b636eb5b 6695 linuxmuster-base7_7.1.16-0_amd64.buildinfo
+Checksums-Sha256:
+ 7b5de2f63b3a083face7ecad99d012850332d88865242cd326cccd6a8926e063 583 linuxmuster-base7_7.1.16-0.dsc
+ 6dc596e474cb2f5310a5cd4782ea0b89d8c31bfb821437fbf7262ed3d7dc8804 73898 linuxmuster-base7_7.1.16-0.tar.gz
+ 0dc2344b51f16f9f096cc9cdd943ca6cfe9b62a8d9a89f308f0369ad87abf920 56176 linuxmuster-base7_7.1.16-0_all.deb
+ e78f924e44855ca8dea2f9f508e382b3174be88e281dc404d43604b87456f456 6695 linuxmuster-base7_7.1.16-0_amd64.buildinfo
+Files:
+ cc5118f48a878b0488ffc01575686385 583 linuxmuster optional linuxmuster-base7_7.1.16-0.dsc
+ f016265f6442f1b259502b359e115f2d 73898 linuxmuster optional linuxmuster-base7_7.1.16-0.tar.gz
+ 78abbed00f41dee3c4787e70c8450b4d 56176 linuxmuster optional linuxmuster-base7_7.1.16-0_all.deb
+ 8bcba53d5ff2415a62aef0cd97f54d93 6695 linuxmuster optional linuxmuster-base7_7.1.16-0_amd64.buildinfo
