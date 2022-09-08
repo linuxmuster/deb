@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 8 Sep 2022 19:04:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.35-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.35-0) lmn71; urgency=low
+ .
+   * Fix #82: .macct file doesnt get uploaded when imagename contains dots (c93c44c).
+   * Update kernel to 5.10.142 (7679afc).
+   * Fix multicast restart in rsync-post-upload.sh (bd7bc65).
+Checksums-Sha1:
+ 854e9dde4e07ae118d6a2adb4da4bd7298db883e 1215 linuxmuster-linbo7_4.0.35-0.dsc
+ 98085a3edb5dc756f5375d2a5a5d83591f05890f 1949232 linuxmuster-linbo7_4.0.35-0.tar.gz
+ 90ed61e6148af6ad0a3ba701745015b68056f43c 42054684 linuxmuster-linbo7_4.0.35-0_all.deb
+ 937644b1e320d0eba89f268f3d6aac4f3b3ad555 14031 linuxmuster-linbo7_4.0.35-0_amd64.buildinfo
+Checksums-Sha256:
+ 2964b8099bf341415d11ae658520ffe81c04e9311f93bb19e84ae6e7592e5434 1215 linuxmuster-linbo7_4.0.35-0.dsc
+ d50360229080e0721eb84e6090860ada44c170ae9873b2f1475dc39657bc68f9 1949232 linuxmuster-linbo7_4.0.35-0.tar.gz
+ aba4ff1474422075dcf172a8ce02fb1b88533236ff5adc5fc4612717ca58df4e 42054684 linuxmuster-linbo7_4.0.35-0_all.deb
+ db0e344e98d6f4d449c9ab99df6d8179149050a92ceefc762cb9a90f3f71a49b 14031 linuxmuster-linbo7_4.0.35-0_amd64.buildinfo
+Files:
+ a93c2b342abc42d658c6009a4c4532c9 1215 admin extra linuxmuster-linbo7_4.0.35-0.dsc
+ db782a4e00a83ec0b080ddd485561fde 1949232 admin extra linuxmuster-linbo7_4.0.35-0.tar.gz
+ 85337fe6f19f19b80e06242eb3c9c94b 42054684 admin extra linuxmuster-linbo7_4.0.35-0_all.deb
+ 9fc13799cddd303bc323a7062fa5abcc 14031 admin extra linuxmuster-linbo7_4.0.35-0_amd64.buildinfo
