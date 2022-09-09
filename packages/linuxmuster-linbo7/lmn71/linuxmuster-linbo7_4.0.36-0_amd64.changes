@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 9 Sep 2022 09:26:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.36-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.36-0) lmn71; urgency=low
+ .
+   * Fix image directory in rsync-pre-download.sh (#82).
+Checksums-Sha1:
+ dc90a924c1604220b130427ad572b003bebe2057 1215 linuxmuster-linbo7_4.0.36-0.dsc
+ 1e4434a6da93bdd9192c0dd12e8947ee280b1486 1949241 linuxmuster-linbo7_4.0.36-0.tar.gz
+ f4686bd8e97dce669d0cff5013132b6b112ead90 42054896 linuxmuster-linbo7_4.0.36-0_all.deb
+ ac947f2622696cc9cc1242b4baceaf091b09a6fd 14031 linuxmuster-linbo7_4.0.36-0_amd64.buildinfo
+Checksums-Sha256:
+ 57cd881ce81384213c4a632abc8ef2ce6212d75659f6d0c7e3d6c443e52e6d1e 1215 linuxmuster-linbo7_4.0.36-0.dsc
+ 3e6ee12a2e897fad79282f37551a5575e34945e57d1e52341c61007ce6c3ac90 1949241 linuxmuster-linbo7_4.0.36-0.tar.gz
+ af7a4c0ca27f87b621ddee27ba4c01d56f49c6002a46866bbf0ba8d6bf0da1f9 42054896 linuxmuster-linbo7_4.0.36-0_all.deb
+ a4f07648b8b9cb7773e88cf8e688a3fae62756b84a8accb21cf21e6fb89b5cf3 14031 linuxmuster-linbo7_4.0.36-0_amd64.buildinfo
+Files:
+ 02a03c0dbb454fe867191da8104f9d4a 1215 admin extra linuxmuster-linbo7_4.0.36-0.dsc
+ 3466b7a83bbeb14a1d313fb21e4d2327 1949241 admin extra linuxmuster-linbo7_4.0.36-0.tar.gz
+ 56ea6981f49b32c73ffdddd1b68e0a82 42054896 admin extra linuxmuster-linbo7_4.0.36-0_all.deb
+ 25b40aa0e12411200fa44c5e7bb17dc7 14031 admin extra linuxmuster-linbo7_4.0.36-0_amd64.buildinfo
