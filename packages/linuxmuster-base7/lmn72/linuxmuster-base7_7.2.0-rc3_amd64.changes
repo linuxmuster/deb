@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 10 Sep 2022 14:13:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0-rc3
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.0-rc3) lmn72; urgency=low
+ .
+   * Fix ntp socket directory (abddebf, 930a9da, 414cd02).
+   * Fix lmn-prepare invokation in setup (7d50c9e).
+Checksums-Sha1:
+ c0e1ca2ba7f2b935ed6979d8736a8184cdb97959 587 linuxmuster-base7_7.2.0-rc3.dsc
+ cc52e7b807b6a9b24c6733c4364d33c671d6297d 76383 linuxmuster-base7_7.2.0-rc3.tar.gz
+ 942e6d768c1621f6e3a69fd1d431a3ad9e14b98c 57490 linuxmuster-base7_7.2.0-rc3_all.deb
+ 702f209dba0884a7be1ad4c32a2ac4e9066db725 7387 linuxmuster-base7_7.2.0-rc3_amd64.buildinfo
+Checksums-Sha256:
+ 470b2424707e7569757930aa66a056b7b1b9f694131bb00acadfe8fcc01621ea 587 linuxmuster-base7_7.2.0-rc3.dsc
+ 572d59ad6be370bd2880e54cd17a23427313de529fe04c13c0c1b58a48479197 76383 linuxmuster-base7_7.2.0-rc3.tar.gz
+ 6bb975d41b8a96d66dddbc9e5f3f63feb3beafa67916ba62edc44b770fc08276 57490 linuxmuster-base7_7.2.0-rc3_all.deb
+ 79595536de9bc57a690d49bc364c86def58de01f9e8742c648c2bb193e754d31 7387 linuxmuster-base7_7.2.0-rc3_amd64.buildinfo
+Files:
+ 6c85d3f3cfcc796662925dba257449c3 587 linuxmuster optional linuxmuster-base7_7.2.0-rc3.dsc
+ 6c4e07101f3c66280e59e1b597e208db 76383 linuxmuster optional linuxmuster-base7_7.2.0-rc3.tar.gz
+ 21390ab546870bbc299973a773170b66 57490 linuxmuster optional linuxmuster-base7_7.2.0-rc3_all.deb
+ e9867027252109f9ce2dbf034b99935d 7387 linuxmuster optional linuxmuster-base7_7.2.0-rc3_amd64.buildinfo
