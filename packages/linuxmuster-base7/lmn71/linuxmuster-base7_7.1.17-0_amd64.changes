@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 10 Sep 2022 13:41:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.17-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.17-0) lmn71; urgency=low
+ .
+   * Fix lmn-prepare invokation in setup (76d6a36).
+   * Fix #144: /run/samba/ntp_signd/ directory: wrong permissions prevent time synchronisation.
+Checksums-Sha1:
+ 5da546bcdab9c3057ad202a5924f0971a8e37cb4 583 linuxmuster-base7_7.1.17-0.dsc
+ e233ec60b5f6aea795ef2033c14f8728a3c6e1a5 74030 linuxmuster-base7_7.1.17-0.tar.gz
+ ad9f4a48f5b47996e4c0cb21ceb618b365c4bc6b 56280 linuxmuster-base7_7.1.17-0_all.deb
+ a1087829e0224eb4c06f9051b804d55a43db0509 6695 linuxmuster-base7_7.1.17-0_amd64.buildinfo
+Checksums-Sha256:
+ 3c934ec841f1eb8b069371f3ec41aa6cc21c85230af6f0a80ed364fd4f993d6f 583 linuxmuster-base7_7.1.17-0.dsc
+ 7681ca45824cd77c9d67bf98750d2696db9fee0593a59e00a37b2560de5afca9 74030 linuxmuster-base7_7.1.17-0.tar.gz
+ 72457ba984a6055dd704c501ae300bf58bce7c35e5b244a30bfd5a18b26db409 56280 linuxmuster-base7_7.1.17-0_all.deb
+ 71bcdcbac60355c0422c618d1932e37ecf81e25d1ed7b4eb8d4b0096ca8bceb3 6695 linuxmuster-base7_7.1.17-0_amd64.buildinfo
+Files:
+ e61802563766d09a0da839bb751e03da 583 linuxmuster optional linuxmuster-base7_7.1.17-0.dsc
+ f89a59e20bbaecb9eb9b0c6f723f2c3c 74030 linuxmuster optional linuxmuster-base7_7.1.17-0.tar.gz
+ 42343fa974b8b4385b0a01fadbf1f524 56280 linuxmuster optional linuxmuster-base7_7.1.17-0_all.deb
+ 661853237ecf8870c30cb28136156d22 6695 linuxmuster optional linuxmuster-base7_7.1.17-0_amd64.buildinfo
