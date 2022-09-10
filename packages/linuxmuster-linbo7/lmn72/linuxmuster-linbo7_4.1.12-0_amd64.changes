@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 8 Sep 2022 20:33:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.12-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.12-0) lmn72; urgency=low
+ .
+   * Fixes for rsync scripts concerning to dots in image filenames and multicast service restart (dad0b4f).
+Checksums-Sha1:
+ 136c5d2a448c16d69d10947e26f5595398f6f41b 1215 linuxmuster-linbo7_4.1.12-0.dsc
+ 4bf6a5e6bfdef44acaf2ed30824dc62581874184 1956791 linuxmuster-linbo7_4.1.12-0.tar.gz
+ f4718e24725e89287487e752c6e789fffb358c80 48623834 linuxmuster-linbo7_4.1.12-0_all.deb
+ dc093e10b14b256c7862337878c50cd244f126b5 13482 linuxmuster-linbo7_4.1.12-0_amd64.buildinfo
+Checksums-Sha256:
+ 9bff960050fcd03372c0c7980ad7ea16c5a18684b5e0eb09c67bc8a671fa95a0 1215 linuxmuster-linbo7_4.1.12-0.dsc
+ 8dd46f8bc4a64020342ecf9b4500b0d170c0ce38a45a5ede302a94f7877cd3bf 1956791 linuxmuster-linbo7_4.1.12-0.tar.gz
+ 6b5b55c39ceb5b9b46a2b1ea30dcc07d42dd777d78e74bd5bc9a12e0f6a9c2cb 48623834 linuxmuster-linbo7_4.1.12-0_all.deb
+ 73993490b1f8fa6c997ace072a8637dc85a9712768262bf7356690efbd31912f 13482 linuxmuster-linbo7_4.1.12-0_amd64.buildinfo
+Files:
+ a4252349628a1ec8860a92b343a2636d 1215 admin extra linuxmuster-linbo7_4.1.12-0.dsc
+ e8e54d9239cf229f387bd5ba64e126c5 1956791 admin extra linuxmuster-linbo7_4.1.12-0.tar.gz
+ 65756d801d581234eb5c5077653fddb4 48623834 admin extra linuxmuster-linbo7_4.1.12-0_all.deb
+ 24139b35a0b0efee65ac484292f9a85f 13482 admin extra linuxmuster-linbo7_4.1.12-0_amd64.buildinfo
