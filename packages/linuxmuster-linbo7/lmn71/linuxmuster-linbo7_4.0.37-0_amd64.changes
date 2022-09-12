@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 12 Sep 2022 20:01:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.37-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.37-0) lmn71; urgency=low
+ .
+   * linbo_remote:
+     - reimplement -u option for use of broadcast address with wol (#77, b5b780c).
+     - remove obsolete commands from KNOWNCMDS (545dbc3).
+Checksums-Sha1:
+ 0de2491fcb0d3cfac27f1ec0d264e040849f7fe0 1215 linuxmuster-linbo7_4.0.37-0.dsc
+ df645734ddf75f15a59bdb750298a293dd38b5b0 1949401 linuxmuster-linbo7_4.0.37-0.tar.gz
+ 3dc69c9a48ccfc3eaf849ebaba4eca41273c1f6b 42054944 linuxmuster-linbo7_4.0.37-0_all.deb
+ b4aa863b936417e2b09df4f7d924d7a2dbb5e1f9 14031 linuxmuster-linbo7_4.0.37-0_amd64.buildinfo
+Checksums-Sha256:
+ 97872c0f3bdc490f6c36b7352d337822021e8b6069a3658d02b2aafcb703727e 1215 linuxmuster-linbo7_4.0.37-0.dsc
+ b288bd8b19c503ad452e71f89524d6ca8688b3ca8e5ca730ea650e625904195e 1949401 linuxmuster-linbo7_4.0.37-0.tar.gz
+ afbf2b5dcbe5836c2fc775ada96bc41794cd10c15df6a7cf61967bb769a830ba 42054944 linuxmuster-linbo7_4.0.37-0_all.deb
+ 17ee46022fcbec444704317e3f85c6abd695e113ed7f1dc0fead4e8b6968ec8b 14031 linuxmuster-linbo7_4.0.37-0_amd64.buildinfo
+Files:
+ 7a87511c4480492fef52ba51b8ca5376 1215 admin extra linuxmuster-linbo7_4.0.37-0.dsc
+ 643cc9debce1259e23c28c059d390142 1949401 admin extra linuxmuster-linbo7_4.0.37-0.tar.gz
+ a57c28d1583b8ced18d415e4d7c22a2f 42054944 admin extra linuxmuster-linbo7_4.0.37-0_all.deb
+ f17ee05b690fa7da1313912c6647df37 14031 admin extra linuxmuster-linbo7_4.0.37-0_amd64.buildinfo
