@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 12 Sep 2022 21:12:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.14-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.14-0) lmn72; urgency=low
+ .
+   * linbo_remote: reimplement -u option for use of broadcast address with wol (#77, 98f9459).
+   * Update kernel to 5.19.8 (344a9b1).
+Checksums-Sha1:
+ 80355ad47cae9a5f4cc7ca0254d1e462e77cc6d6 1215 linuxmuster-linbo7_4.1.14-0.dsc
+ 3652d8a5692d99d97fe1342f1017d72b160fb690 1956577 linuxmuster-linbo7_4.1.14-0.tar.gz
+ 6f8b03180c210067181fa12c733eb7c46535ad04 48624354 linuxmuster-linbo7_4.1.14-0_all.deb
+ 5c6636e855cdbd52965889aaf3d801497b47ccf7 13486 linuxmuster-linbo7_4.1.14-0_amd64.buildinfo
+Checksums-Sha256:
+ f547aa9aea0e3a1f4e78c23898b1c10a2a7d71be728b7e64e5e9ec15f6cb9c51 1215 linuxmuster-linbo7_4.1.14-0.dsc
+ 8ea116f760c00ac697ec9ce7e71c6bc5281fabb04cf3bb501b7a592a57f911a8 1956577 linuxmuster-linbo7_4.1.14-0.tar.gz
+ ec83d909b4928fd7b5d60ad526e9176ce2da5020ef3dcaa814cf2a7bacd49305 48624354 linuxmuster-linbo7_4.1.14-0_all.deb
+ 4bd8a2202435656f62d33a5231b6dca11bf39ac4914b1f0e239bb0a123a3eeaf 13486 linuxmuster-linbo7_4.1.14-0_amd64.buildinfo
+Files:
+ e1bb0bdf84b55c555dee95e766504602 1215 admin extra linuxmuster-linbo7_4.1.14-0.dsc
+ 9c15db190f1697930274ab57740bd57e 1956577 admin extra linuxmuster-linbo7_4.1.14-0.tar.gz
+ 1878047dddf5ec3bb9f9b33b489d34e3 48624354 admin extra linuxmuster-linbo7_4.1.14-0_all.deb
+ 34d6dc0cad558821710ba3d33282d5a0 13486 admin extra linuxmuster-linbo7_4.1.14-0_amd64.buildinfo
