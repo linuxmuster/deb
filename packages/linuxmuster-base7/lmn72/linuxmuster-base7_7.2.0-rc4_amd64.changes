@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 12 Sep 2022 19:22:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0-rc4
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.0-rc4) lmn72; urgency=low
+ .
+   *  add ntpd apparmor config template (#144).
+Checksums-Sha1:
+ c3ac8e07b679f2b5730b2426446d2188c806c677 587 linuxmuster-base7_7.2.0-rc4.dsc
+ d1757a5082c24972dcfb4b59f2d27724dfb68bb5 76342 linuxmuster-base7_7.2.0-rc4.tar.gz
+ c118104c5a595ba836474268c67c2fa9fecb98f4 57596 linuxmuster-base7_7.2.0-rc4_all.deb
+ c03431ec4e7bd7bf963b3cb2090eab7246d3de7a 7387 linuxmuster-base7_7.2.0-rc4_amd64.buildinfo
+Checksums-Sha256:
+ 2487c752a26981828699da311ef1aceb0de3ffaf24733d68730184be840baf53 587 linuxmuster-base7_7.2.0-rc4.dsc
+ c5cceb06bd44e5b6dcc39ab8233ef4fe793abf2297a77ecda3eaeb88c9f92e1a 76342 linuxmuster-base7_7.2.0-rc4.tar.gz
+ dff3b5ad31725cdf50834d17c7c38ca8cea157878f9fc860ab6554ad31cfd83b 57596 linuxmuster-base7_7.2.0-rc4_all.deb
+ f5d32276ea073af4bbcb43f8cf416d993aa11c73a088b5d1abc1c7f2963eeb52 7387 linuxmuster-base7_7.2.0-rc4_amd64.buildinfo
+Files:
+ e9a19d4b3adf12dde19c61a1d9991bd0 587 linuxmuster optional linuxmuster-base7_7.2.0-rc4.dsc
+ 66d7743c12e1a754f28a74f05587f8ef 76342 linuxmuster optional linuxmuster-base7_7.2.0-rc4.tar.gz
+ e0e2c7090c7972bd98d493a66e7bc9bb 57596 linuxmuster optional linuxmuster-base7_7.2.0-rc4_all.deb
+ 89863cf335d0e1b36766b99a17cea670 7387 linuxmuster optional linuxmuster-base7_7.2.0-rc4_amd64.buildinfo
