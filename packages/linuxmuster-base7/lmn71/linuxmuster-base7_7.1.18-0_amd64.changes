@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 12 Sep 2022 15:47:25 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.18-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.18-0) lmn71; urgency=low
+ .
+   * Provide ntp_signd directory patch script (#144).
+   * add ntpd apparmor config template (#144).
+Checksums-Sha1:
+ 65068246a58104d0f799c19eae2afa71f5f97876 583 linuxmuster-base7_7.1.18-0.dsc
+ e74d9821bc724fbcb93a78ad1512e478ab8b9dfe 74649 linuxmuster-base7_7.1.18-0.tar.gz
+ 14aaf2c11acdb1183dc625987d55d58fd9f769d9 56832 linuxmuster-base7_7.1.18-0_all.deb
+ 0932ca096fc9cb7c72f311b9f15579974b218d5b 6695 linuxmuster-base7_7.1.18-0_amd64.buildinfo
+Checksums-Sha256:
+ 21e3f1e46ecad3902b370e9a38173a33874e809ceec71761db971ad924dfe636 583 linuxmuster-base7_7.1.18-0.dsc
+ 220909e876208992e38ed4c05061c820ecee51bbdfcc1e62fef901324149b325 74649 linuxmuster-base7_7.1.18-0.tar.gz
+ 2b8949b0b7511286339654d28356e5653612650ad92e98e905653fbe298179e1 56832 linuxmuster-base7_7.1.18-0_all.deb
+ 8195a829c41c883a70f8db5edf4bb72fc002384ee3546e50a5eca1c4396d81a9 6695 linuxmuster-base7_7.1.18-0_amd64.buildinfo
+Files:
+ 110aa044ba05c2422e437461c2acac20 583 linuxmuster optional linuxmuster-base7_7.1.18-0.dsc
+ 3782d54f6fd17e0f4f32d7fc9ec74992 74649 linuxmuster optional linuxmuster-base7_7.1.18-0.tar.gz
+ add71922d61214980566d7652759c85a 56832 linuxmuster optional linuxmuster-base7_7.1.18-0_all.deb
+ c36a07962c8c40d43afe1bda64caf2cc 6695 linuxmuster optional linuxmuster-base7_7.1.18-0_amd64.buildinfo
