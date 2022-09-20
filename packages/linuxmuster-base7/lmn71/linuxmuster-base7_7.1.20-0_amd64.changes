@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 20 Sep 2022 18:13:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.20-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.20-0) lmn71; urgency=low
+ .
+   * Fix NTPSOCKDIR permissions in setup (#144).
+Checksums-Sha1:
+ 55d8c6bd32b4d7451289002ca6464b86967af642 583 linuxmuster-base7_7.1.20-0.dsc
+ 5ee19fe03b8bce2852e3bcac3bda359b0c655029 74705 linuxmuster-base7_7.1.20-0.tar.gz
+ 3911179c690099df687eedb399c13fbab95dd468 56876 linuxmuster-base7_7.1.20-0_all.deb
+ d1909ec7fe3896f7fdb9ceef203c6d6f378a3afa 6695 linuxmuster-base7_7.1.20-0_amd64.buildinfo
+Checksums-Sha256:
+ 522ac551a60619b321b3acc7ddcfaef161e69fde290c2ab5916899edebdc9dc1 583 linuxmuster-base7_7.1.20-0.dsc
+ fed9724b91a466dccbe19f78a381ea97e438eab0330af8805221cd8b051e9ec0 74705 linuxmuster-base7_7.1.20-0.tar.gz
+ 3ba363532d2a5a28064b09416f098804d7d3bfa278b5275b297613cf876af382 56876 linuxmuster-base7_7.1.20-0_all.deb
+ 74642a7655b6780f740f0d12c2c70b15788faa6035699c3848d99c9c6bc2f4aa 6695 linuxmuster-base7_7.1.20-0_amd64.buildinfo
+Files:
+ 0c867a4385fbde8e57979f5a577106d3 583 linuxmuster optional linuxmuster-base7_7.1.20-0.dsc
+ 56c737b5aee592190843379684a8f1c7 74705 linuxmuster optional linuxmuster-base7_7.1.20-0.tar.gz
+ 354f30fc3e7a8d7f43968de5e393e7fe 56876 linuxmuster optional linuxmuster-base7_7.1.20-0_all.deb
+ 2dd941aeda540a881ce7fafe60ef4f65 6695 linuxmuster optional linuxmuster-base7_7.1.20-0_amd64.buildinfo
