@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 20 Sep 2022 18:55:00 +0200
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Architecture: source all
+Version: 7.1.9-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.1.9-0) lmn71; urgency=low
+ .
+   * New parameter -v|--volumes for custom lvm volume creation (ca26c71).
+Checksums-Sha1:
+ 6806d724b6be248c43881c6e3c0eea1932a681f4 591 linuxmuster-prepare_7.1.9-0.dsc
+ 878a5aa10adf86ce215220b654e9173ae5b7ddbf 31221 linuxmuster-prepare_7.1.9-0.tar.gz
+ 1e6c27136cc6acb6d81169749de6091cacfebc65 15856 linuxmuster-prepare_7.1.9-0_all.deb
+ d4e735eee02ffce5a475b3fc0b2f16090d42e3fd 6704 linuxmuster-prepare_7.1.9-0_amd64.buildinfo
+Checksums-Sha256:
+ 796741789388886ca84d493d2cc1b59ef5fc492e45e8511d689f6d2d4ed8865a 591 linuxmuster-prepare_7.1.9-0.dsc
+ 3a8454854e99ba97e9aea21e0ef952936a48727aa7b745452fa86cb7ed7fe729 31221 linuxmuster-prepare_7.1.9-0.tar.gz
+ 9a95b83c72d5e821a80ef17f7546ca04a4f9280bc4590deebb3bee5a2d2231e7 15856 linuxmuster-prepare_7.1.9-0_all.deb
+ 8c61285dda9224cbac64d5e303a3e1e229669d159d16c275a00d119e1239d89e 6704 linuxmuster-prepare_7.1.9-0_amd64.buildinfo
+Files:
+ b89e83e6e8a8d819f492d4a289130827 591 linuxmuster optional linuxmuster-prepare_7.1.9-0.dsc
+ 480fe2aeb1b5a30a5a061625db188442 31221 linuxmuster optional linuxmuster-prepare_7.1.9-0.tar.gz
+ dc9f41a5ef584efe1952af4a671d547d 15856 linuxmuster optional linuxmuster-prepare_7.1.9-0_all.deb
+ be7ee73491c1afc649032ec315d6e1bc 6704 linuxmuster optional linuxmuster-prepare_7.1.9-0_amd64.buildinfo
