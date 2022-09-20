@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Tue, 20 Sep 2022 13:06:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.15-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.15-0) lmn72; urgency=low
+ .
+   * linbo_start(): return 1 if os cannot be startet with reboot (a82d108).
+   * Update kernel to 5.19.9 (ee85177).
+Checksums-Sha1:
+ a917b58b5928f629a0e51c559afc0a0949ddaa64 1215 linuxmuster-linbo7_4.1.15-0.dsc
+ 16c9c1c028365bd38cadd141aa67637b76023f30 1957274 linuxmuster-linbo7_4.1.15-0.tar.gz
+ 328c2c921241b5139bb92b61744336a69ae75b2a 48627928 linuxmuster-linbo7_4.1.15-0_all.deb
+ d1532db11da4d2b2d056a61b4bbcdaa06584415b 13520 linuxmuster-linbo7_4.1.15-0_amd64.buildinfo
+Checksums-Sha256:
+ 8338d41419346adfb3e6fc7f2d4cae179bb9f593749d56e7ef95a0b72df6ce7c 1215 linuxmuster-linbo7_4.1.15-0.dsc
+ 6455c53ee6f3dfea605adb959c7d0ed6648eae39972467ba84fa078642d27527 1957274 linuxmuster-linbo7_4.1.15-0.tar.gz
+ 845369e10464876583a8e5fcdfb91dc4c2b18556cf43c3a46d1282a85b67ba68 48627928 linuxmuster-linbo7_4.1.15-0_all.deb
+ 66c3621db3193ee317a84da9877c3307999887fd00eb2ad9085c7e2f91aae8d8 13520 linuxmuster-linbo7_4.1.15-0_amd64.buildinfo
+Files:
+ 656a25e31e0e0dcd33e5a70fb0a20973 1215 admin extra linuxmuster-linbo7_4.1.15-0.dsc
+ db6bd7b3be8aec4d6a780bd00f462ec4 1957274 admin extra linuxmuster-linbo7_4.1.15-0.tar.gz
+ 7e95f0396a12eb211be6421458823a65 48627928 admin extra linuxmuster-linbo7_4.1.15-0_all.deb
+ fe26d8498690bd2affcc019d5c637519 13520 admin extra linuxmuster-linbo7_4.1.15-0_amd64.buildinfo
