@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 20 Sep 2022 15:36:22 +0100
+Source: linuxmuster-linbo-gui7
+Binary: linuxmuster-linbo-gui7
+Architecture: source all
+Version: 7.0.6
+Distribution: lmn71
+Urgency: medium
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linbo-gui7 - Linuxmuster Linbo GUI
+Changes:
+ linuxmuster-linbo-gui7 (7.0.6) lmn71; urgency=medium
+ .
+   * Fix: qcow2 images not displayed in upload dialog
+Checksums-Sha1:
+ 715387eed409b0c7d73e1d6c3ee11d4e4b01472e 660 linuxmuster-linbo-gui7_7.0.6.dsc
+ 017bb16e807a5e3216307e831fc79f35ed945421 3557861 linuxmuster-linbo-gui7_7.0.6.tar.gz
+ bed72a349ab122936c271a949802824e2e575de8 16896212 linuxmuster-linbo-gui7_7.0.6_all.deb
+ a0eb2758a6a6bcf0f45ff45872827148c37bc373 6620 linuxmuster-linbo-gui7_7.0.6_amd64.buildinfo
+Checksums-Sha256:
+ 2f2783dff48c5a080722380c077c6817a636e4e846a5ef185c63128258cedaf2 660 linuxmuster-linbo-gui7_7.0.6.dsc
+ a5bd2733152cd8028a3c694d2018ad5493b0e4d44a7316d37e09c3c1e83f1e14 3557861 linuxmuster-linbo-gui7_7.0.6.tar.gz
+ f5f37e4c233f1cd9a94f32dce948e6d9a91d69cd8dd5bb726561e28e82697e2a 16896212 linuxmuster-linbo-gui7_7.0.6_all.deb
+ 19c366ee82fb3e23ed5087938fc797c1914a0deda3cbe24174ca69620f98b693 6620 linuxmuster-linbo-gui7_7.0.6_amd64.buildinfo
+Files:
+ daaddded31a57091cf2d7350ffef3696 660 admin extra linuxmuster-linbo-gui7_7.0.6.dsc
+ fd0647e0605b76e76004d65b67599b0c 3557861 admin extra linuxmuster-linbo-gui7_7.0.6.tar.gz
+ 2907eaa476ec2cc55db3f29970c9b267 16896212 admin extra linuxmuster-linbo-gui7_7.0.6_all.deb
+ 79e50b7d6d1a63d9f33daf3b4eec2c87 6620 admin extra linuxmuster-linbo-gui7_7.0.6_amd64.buildinfo
