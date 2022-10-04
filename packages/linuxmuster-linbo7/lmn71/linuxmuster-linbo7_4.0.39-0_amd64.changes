@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 4 Oct 2022 16:13:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.39-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.39-0) lmn71; urgency=low
+ .
+   * Fix linbo_gui theming update in linbo_cmd (4afe1e4).
+   * Update kernel to 5.10.146 (a7b88ff).
+Checksums-Sha1:
+ bce3501264b223b1a3cd134de5830e90934f4dad 1215 linuxmuster-linbo7_4.0.39-0.dsc
+ 2e24f603bd6898daf963fb5be6f010e00d1fed07 1949601 linuxmuster-linbo7_4.0.39-0.tar.gz
+ 94f02a6f32a5f0683d62023489ef03432488ca5a 42058658 linuxmuster-linbo7_4.0.39-0_all.deb
+ 369d81fdf7248bdfe5fdd5fbd4a1dde548545104 14031 linuxmuster-linbo7_4.0.39-0_amd64.buildinfo
+Checksums-Sha256:
+ 04efc30b8a7d473ef921b56b693dd3a762c58421fe0b32aadc40c6acb4e32a27 1215 linuxmuster-linbo7_4.0.39-0.dsc
+ 8f1b06af703a54523ee566231f4d304a588c0f365ef1585bfea9a81100f22344 1949601 linuxmuster-linbo7_4.0.39-0.tar.gz
+ 238abb82c51bdbbfc0c3c70d1d3765f21fcdc462a2fbe620ef36a7578c62807a 42058658 linuxmuster-linbo7_4.0.39-0_all.deb
+ 41f495206b7fa9ecd81dff29ff1226b3a809b15d0f175fca406eb47f979f984a 14031 linuxmuster-linbo7_4.0.39-0_amd64.buildinfo
+Files:
+ 6bc98a87e020621621cafcbd2e3a0dd5 1215 admin extra linuxmuster-linbo7_4.0.39-0.dsc
+ 68ccfd49ea9ff9167a2a2840b2ffcc90 1949601 admin extra linuxmuster-linbo7_4.0.39-0.tar.gz
+ ae38998c52e5e11bbe02f5c0d9f6d025 42058658 admin extra linuxmuster-linbo7_4.0.39-0_all.deb
+ 6d80311c80b4b39632ad4fb62da79ba4 14031 admin extra linuxmuster-linbo7_4.0.39-0_amd64.buildinfo
