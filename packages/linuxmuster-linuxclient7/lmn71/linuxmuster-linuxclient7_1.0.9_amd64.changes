@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 9 Oct 2022 16:58:05 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Architecture: source all
+Version: 1.0.9
+Distribution: lmn71
+Urgency: medium
+Maintainer: Dorian Zedler <dorian@itsblue.de>, Andreas Till <andreas.till@netzint.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.0.9) lmn71; urgency=medium
+ .
+   - add missing dependency to libsss-sudo
+Checksums-Sha1:
+ 4d22e19decbdc3655c2319e178a3f83630ce272e 647 linuxmuster-linuxclient7_1.0.9.dsc
+ 8cfefa59e4594b398ce7af17b4fbd5f5c877713f 64965 linuxmuster-linuxclient7_1.0.9.tar.gz
+ 8933c40efad2e7d53aee620f8bd368a56299d692 30108 linuxmuster-linuxclient7_1.0.9_all.deb
+ ff96e39c92e9b3dd568ed81562667750294d8438 6641 linuxmuster-linuxclient7_1.0.9_amd64.buildinfo
+Checksums-Sha256:
+ 4670c2327567d960bca03ae4aae06ab466a879353f9e0f06829ac4b21171b0d1 647 linuxmuster-linuxclient7_1.0.9.dsc
+ d904393f6d6f383fd06b520c81a33d109641f82cbe5bb718d37643e5844186ba 64965 linuxmuster-linuxclient7_1.0.9.tar.gz
+ b15e7638bfd8d1d5c81132dd50f5f8ee33e488a8ddca5d7d77fac89a5f76e4b8 30108 linuxmuster-linuxclient7_1.0.9_all.deb
+ ae753d02cd2f472c3ebb2118356650ca22911e072a27a5d1681c31f0dd460758 6641 linuxmuster-linuxclient7_1.0.9_amd64.buildinfo
+Files:
+ fea84f5aec7409227dfc3681a350e2e1 647 linuxmuster optional linuxmuster-linuxclient7_1.0.9.dsc
+ 1416a58be5f08c81076032835da7bc5a 64965 linuxmuster optional linuxmuster-linuxclient7_1.0.9.tar.gz
+ d91899abef4de5d2949d8f0e296cd936 30108 linuxmuster optional linuxmuster-linuxclient7_1.0.9_all.deb
+ a0ec10a4fcdd909be0dcee63190cb175 6641 linuxmuster optional linuxmuster-linuxclient7_1.0.9_amd64.buildinfo
