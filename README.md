@@ -30,19 +30,19 @@ To use the repository, please follow these steps:
 ## 1. Import key:
 
 ```bash
-sudo wget -q "https://deb.linuxmuster.net/pub.gpg" -O /etc/apt/trusted.gpg.d/linuxmuster.net.gpg
+sudo wget -qO- "https://deb.linuxmuster.net/pub.gpg" | gpg --dearmour -o /usr/share/keyrings/linuxmuster.net.gpg
 ```
 
 ## 2. Add repo:
 
 ### Linuxmuster 7.1
 ```bash
-sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/sources.list.d/lmn71.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/linuxmuster.net.gpg] https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/sources.list.d/lmn71.list'
 ```
 
 ### Linuxmuster 7.2 testing
 ```bash
-sudo sh -c 'echo "deb https://deb.linuxmuster.net/ lmn72 main" > /etc/apt/sources.list.d/lmn72.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/linuxmuster.net.gpg] https://deb.linuxmuster.net/ lmn72 main" > /etc/apt/sources.list.d/lmn72.list'
 ```
 
 ## 3. Apt update
