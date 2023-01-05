@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 04 Jan 2023 12:36:40 +0100
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Architecture: source all
+Version: 7.2.0-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.2.0-0) lmn71; urgency=low
+ .
+   * Fix #24: lvm default value for volume not set in action (d0d36bd).
+   * lmn-prepare refactor.
+Checksums-Sha1:
+ 799b755757f45be6a99d6008cf23027595603b9f 591 linuxmuster-prepare_7.2.0-0.dsc
+ 0d4937e89a0f072808e6f6d776b01d5354ae667e 31899 linuxmuster-prepare_7.2.0-0.tar.gz
+ eff3eee053d826f01139100bf6e13d447070a75a 16160 linuxmuster-prepare_7.2.0-0_all.deb
+ bc6933dfdb44f5bd991955a7024b2ff056ec2684 6713 linuxmuster-prepare_7.2.0-0_amd64.buildinfo
+Checksums-Sha256:
+ bdb5cc7e7681c25f463a88c6b5b99b0fa2983364f1e72a71364c3ab1188475f9 591 linuxmuster-prepare_7.2.0-0.dsc
+ 48f523ff76fb6a8f5cbe84779fd03f5b2db87e04db7b88ec0ffedc212868ead0 31899 linuxmuster-prepare_7.2.0-0.tar.gz
+ c773046a1c2776be13735609dabb8995a19c4a0489634e41720e310216364e7b 16160 linuxmuster-prepare_7.2.0-0_all.deb
+ 20fb29b509c27b8ced85edd9dff8012cd379cf1789967d7b698683b24ad26248 6713 linuxmuster-prepare_7.2.0-0_amd64.buildinfo
+Files:
+ 0a58a6c436f63cbe0d32bcc63c8cad09 591 linuxmuster optional linuxmuster-prepare_7.2.0-0.dsc
+ 1f64866b292d8df73666a95a465b5277 31899 linuxmuster optional linuxmuster-prepare_7.2.0-0.tar.gz
+ 1acf3b882fd5e1461d4a9b2155899eba 16160 linuxmuster optional linuxmuster-prepare_7.2.0-0_all.deb
+ 4df12602ec31f6c6771c32acaf760add 6713 linuxmuster optional linuxmuster-prepare_7.2.0-0_amd64.buildinfo
