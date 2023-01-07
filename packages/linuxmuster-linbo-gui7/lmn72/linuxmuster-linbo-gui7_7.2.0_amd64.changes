@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 07 Jan 2022 09:36:22 +0100
+Source: linuxmuster-linbo-gui7
+Binary: linuxmuster-linbo-gui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linbo-gui7 - Linuxmuster Linbo GUI
+Changes:
+ linuxmuster-linbo-gui7 (7.2.0) lmn72; urgency=low
+ .
+   * Support differential imaging
+Checksums-Sha1:
+ 95561a2c42624dc30a3a2eaf4a59874510da8f55 711 linuxmuster-linbo-gui7_7.2.0.dsc
+ f53b738a298822d4e77523852cf67c7595f0b880 3577922 linuxmuster-linbo-gui7_7.2.0.tar.gz
+ f3d6b324c8c36d106248e7236f6f0da37d069de1 9108652 linuxmuster-linbo-gui7_7.2.0_all.deb
+ ed6a30c4d1659ebc9d5ff6b36d4c1511a106ff70 7854 linuxmuster-linbo-gui7_7.2.0_amd64.buildinfo
+Checksums-Sha256:
+ b87cdc4b52f758ef66a3feb97758f1ddadc4e8be5ecc5b0f63f61d70b804b898 711 linuxmuster-linbo-gui7_7.2.0.dsc
+ 7607f258321ee0ba82b1cd1a5b5cfc22495c6db4cc840c31f5e37bc527c58ec4 3577922 linuxmuster-linbo-gui7_7.2.0.tar.gz
+ 0cfa4428348c6830ae8f4d5345b7573e9403837f9c656c32e5794176a31bc9b7 9108652 linuxmuster-linbo-gui7_7.2.0_all.deb
+ ae6efa929dc36e81c4b065535ee780d9c8a9c8cd91b2d6ffbea73c136da95bd5 7854 linuxmuster-linbo-gui7_7.2.0_amd64.buildinfo
+Files:
+ 0435f70c6c0583dc9eda63619f10c67d 711 admin extra linuxmuster-linbo-gui7_7.2.0.dsc
+ 5a0fe97fef6b579f5300c788f1441ff0 3577922 admin extra linuxmuster-linbo-gui7_7.2.0.tar.gz
+ ccc9d22ea0453dc13cf67eaa85a3d3cf 9108652 admin extra linuxmuster-linbo-gui7_7.2.0_all.deb
+ ddf460f87e3eb38c6725e74e09fb5413 7854 admin extra linuxmuster-linbo-gui7_7.2.0_amd64.buildinfo
