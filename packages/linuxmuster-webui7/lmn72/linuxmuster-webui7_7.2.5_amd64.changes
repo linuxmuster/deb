@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 07 Jan 2023 17:08:36 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.5
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.5) lmn72; urgency=medium
+ .
+   * [Smbclient] Use directory names instead of label names for GPO.
+Checksums-Sha1:
+ 2bdf499f21cb542e52d1591b858c2bb13bb14185 564 linuxmuster-webui7_7.2.5.dsc
+ d7bc7684a05f2394c456ee036dffe1aa17cbe591 20801552 linuxmuster-webui7_7.2.5.tar.gz
+ 802dae162785baa00cc47ebcf986899666f90a3e 841804 linuxmuster-webui7_7.2.5_all.deb
+ afc158b9d54f091fa82d5ee59f2bbf5687320dda 7665 linuxmuster-webui7_7.2.5_amd64.buildinfo
+Checksums-Sha256:
+ 51bfff30b9e7bd5efb71873da4219b237a76841eff00fcd9bf5fdcc7948ab948 564 linuxmuster-webui7_7.2.5.dsc
+ d7dc88e33a45652ab637f4d2af7f8e89c7f5a2e89347a2246a3e22164044c858 20801552 linuxmuster-webui7_7.2.5.tar.gz
+ cef2c21e000378856408fbac4d2925c2eb49b4c704ced62b842e182de9c4af6f 841804 linuxmuster-webui7_7.2.5_all.deb
+ 8c502d419c46787ec8c19f5af1641883fcbe01a948f4357a6dc4a3e72e86699b 7665 linuxmuster-webui7_7.2.5_amd64.buildinfo
+Files:
+ 3eabf503af5b7435db4c6a161e5127bf 564 admin optional linuxmuster-webui7_7.2.5.dsc
+ f92efc78057780c8bde7aadf34881224 20801552 admin optional linuxmuster-webui7_7.2.5.tar.gz
+ e86dea2b422c59ce49a6c66720e66759 841804 admin optional linuxmuster-webui7_7.2.5_all.deb
+ 0d916a273de6ab8a6f01934b4f5ef5bc 7665 admin optional linuxmuster-webui7_7.2.5_amd64.buildinfo
