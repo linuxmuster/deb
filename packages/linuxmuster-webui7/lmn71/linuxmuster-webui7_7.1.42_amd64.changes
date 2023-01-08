@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 08 Jan 2023 14:38:11 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.42
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.42) lmn71; urgency=medium
+ .
+   * [Settings] Fix typo in saving smtp config.
+Checksums-Sha1:
+ de5385af3ac840fb98b963a341e3d127d7289b75 568 linuxmuster-webui7_7.1.42.dsc
+ 6d3ae71d5ae75fd119fb92dc01aaf0fb01ad43a2 20679544 linuxmuster-webui7_7.1.42.tar.gz
+ aa96aafc893d04360c79e65a1471565379801801 832992 linuxmuster-webui7_7.1.42_all.deb
+ b2b30c5381185796f94447fb9ca5850ef9bc7150 6673 linuxmuster-webui7_7.1.42_amd64.buildinfo
+Checksums-Sha256:
+ 53792cb50c527d452644ee1a90a973b310d19fe774949ed9a711be5be270cc32 568 linuxmuster-webui7_7.1.42.dsc
+ 737309a894c4d69f550718937b5fe1bdc46ce712b561e31e6b1b72d8d86344af 20679544 linuxmuster-webui7_7.1.42.tar.gz
+ 8abd7f77432104a1112a6ceb90d7a6448aece5a3ab0b15bfe1ab6e8f2d8431cd 832992 linuxmuster-webui7_7.1.42_all.deb
+ 28a8870e719111b14573b96ae276b97735670db280dc2e4954509ddaf252d874 6673 linuxmuster-webui7_7.1.42_amd64.buildinfo
+Files:
+ 11e97f6ac20032018ff5c294170a929a 568 admin optional linuxmuster-webui7_7.1.42.dsc
+ 81983fd8616be7be7b76c1957f17a15a 20679544 admin optional linuxmuster-webui7_7.1.42.tar.gz
+ abc1619801a3bc28a10765d9d5b89f54 832992 admin optional linuxmuster-webui7_7.1.42_all.deb
+ 5fc945687b862111c796d162fed5aca7 6673 admin optional linuxmuster-webui7_7.1.42_amd64.buildinfo
