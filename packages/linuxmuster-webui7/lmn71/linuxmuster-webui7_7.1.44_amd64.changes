@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 14:57:57 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.44
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.44) lmn71; urgency=medium
+ .
+   * [Users] Fix pdf passwords generation.
+Checksums-Sha1:
+ 8944e24f99ad8ee578dba188b1aabdefcfb1bf1b 568 linuxmuster-webui7_7.1.44.dsc
+ 1a980a93a14fac6bdfe829fa16ca4031aca75681 20677518 linuxmuster-webui7_7.1.44.tar.gz
+ 6e3669d17d80525a7cb6ddf5e5fd6e6d00b5a19d 833036 linuxmuster-webui7_7.1.44_all.deb
+ 3db8022178799d903005173de60eeed17cdb26c0 6673 linuxmuster-webui7_7.1.44_amd64.buildinfo
+Checksums-Sha256:
+ 7599e495c4c647aae189125444aae8c321684c31903845c83dcf20d68650578d 568 linuxmuster-webui7_7.1.44.dsc
+ 95f048575315cc82f300f534b544d0261594eabd9bdcca27f3c6019e314996b0 20677518 linuxmuster-webui7_7.1.44.tar.gz
+ aab6e694925b75bf76cf08aef5b5dea1ca8029c3a1dc65b76c240df67e234614 833036 linuxmuster-webui7_7.1.44_all.deb
+ b2046e6384ef0e04ba71372a4e4e29ee6bcc74c70d31f0e2977231a51f735f5e 6673 linuxmuster-webui7_7.1.44_amd64.buildinfo
+Files:
+ 20ef0117fa5b302292747606bc48fa58 568 admin optional linuxmuster-webui7_7.1.44.dsc
+ 6fb28cfb03cdd7af1fcc9cbf633d0a97 20677518 admin optional linuxmuster-webui7_7.1.44.tar.gz
+ 5fd72b6d3bab33151dc926d6b4766c1d 833036 admin optional linuxmuster-webui7_7.1.44_all.deb
+ 1eb78d0ec61294596cf35aa594c42601 6673 admin optional linuxmuster-webui7_7.1.44_amd64.buildinfo
