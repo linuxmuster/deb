@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 11 Jan 2023 12:55:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Architecture: source all
+Version: 7.1.21-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.1.21-0) lmn71; urgency=low
+ .
+   * Merge pull request #147 from linuxmuster/sophomorix-custom: Add sophomorix-user-custom for students
+Checksums-Sha1:
+ c210d9e5edc3e1922c64815122313eca03d0dc8c 583 linuxmuster-base7_7.1.21-0.dsc
+ 57cbfdd811b7fd1d3c6cca1e14af21f02011a9e3 74744 linuxmuster-base7_7.1.21-0.tar.gz
+ 82f0ea2438d9ae7314bc7a88f2d7f08cbdae7440 56932 linuxmuster-base7_7.1.21-0_all.deb
+ ad5ddff50fa1eb2f4667958a3022de8fae35b593 6704 linuxmuster-base7_7.1.21-0_amd64.buildinfo
+Checksums-Sha256:
+ 213fe6931ebb0082bca22d120b497ee33823796a051dff8506940b501d889ee4 583 linuxmuster-base7_7.1.21-0.dsc
+ 8fd224b8dfc903bfacd0f761e18b9da031e3ddf0c3717998046bc7db60c733e0 74744 linuxmuster-base7_7.1.21-0.tar.gz
+ 880f3705548469f3b66aa0feee8dedb90f2e009afb8f1eaebcc478f8668efa60 56932 linuxmuster-base7_7.1.21-0_all.deb
+ ec9d6a3b143185524e27d226ab35f47eb7f7ffbb8da2ee0c801a1a523891babb 6704 linuxmuster-base7_7.1.21-0_amd64.buildinfo
+Files:
+ c07921a0ac00937c71d3bdd3d077197c 583 linuxmuster optional linuxmuster-base7_7.1.21-0.dsc
+ 84c8ab3905a789cd5c2505ce026cda0d 74744 linuxmuster optional linuxmuster-base7_7.1.21-0.tar.gz
+ c4b55e49c6e5435c621921fa3a8b8997 56932 linuxmuster optional linuxmuster-base7_7.1.21-0_all.deb
+ 08a24dc2944acdd54ce77c3ea1038cb0 6704 linuxmuster optional linuxmuster-base7_7.1.21-0_amd64.buildinfo
