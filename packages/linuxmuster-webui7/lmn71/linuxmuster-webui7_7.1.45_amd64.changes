@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 12 Jan 2023 20:19:34 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.45
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.45) lmn71; urgency=medium
+ .
+   * [Session] Fix session for actual room.
+Checksums-Sha1:
+ 2423d794fb502cadfeabdc657dd87b81c3599ba4 568 linuxmuster-webui7_7.1.45.dsc
+ ffa51ea617be3f07e60c55bbaa5dd1b529b5a521 20677573 linuxmuster-webui7_7.1.45.tar.gz
+ 0b6c0bf2e4f220f507f7456343964e5dc8c3230c 832884 linuxmuster-webui7_7.1.45_all.deb
+ 143efbfbe20228123377678e96ec569eab439b8e 6673 linuxmuster-webui7_7.1.45_amd64.buildinfo
+Checksums-Sha256:
+ 2e807de830e3b9180abf7c5b7f14e85d8df47f53f78f01ab3d2245c5e9c300b4 568 linuxmuster-webui7_7.1.45.dsc
+ c7f08603fe24528b03d6de1f9b358d9095ae87f5887fcc15ab000213d5965672 20677573 linuxmuster-webui7_7.1.45.tar.gz
+ 92ffc3f1a30c4f69fd3e9f523afcbd7e1f1b83099b0b97fe3a2f68aafd714c5f 832884 linuxmuster-webui7_7.1.45_all.deb
+ 21266bb506d0474cd14ebf0f96d9dc042484f9689e6365aabfc4c1ea9ed4f6ed 6673 linuxmuster-webui7_7.1.45_amd64.buildinfo
+Files:
+ 862a045267bf32a7b0a7f964e46770fd 568 admin optional linuxmuster-webui7_7.1.45.dsc
+ 262a90ac75162de4a8a02a9480f3e367 20677573 admin optional linuxmuster-webui7_7.1.45.tar.gz
+ 25ee5887e2b244d9db03b4a3c797e189 832884 admin optional linuxmuster-webui7_7.1.45_all.deb
+ af4d406d3d4693b72526189ee3d86d79 6673 admin optional linuxmuster-webui7_7.1.45_amd64.buildinfo
