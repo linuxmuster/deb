@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 15:02:20 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.8
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.8) lmn72; urgency=medium
+ .
+   * [Users] Fix pdf passwords generation.
+Checksums-Sha1:
+ b4b0c2aaadcfb36dbe65d6dda69e490ef3d94ae8 564 linuxmuster-webui7_7.2.8.dsc
+ 862c84dfd8fee278fd37cbd70c161af25b0f4db9 20804178 linuxmuster-webui7_7.2.8.tar.gz
+ b82f90a5eb7fe0364a8605ba52d21476327e18e0 841966 linuxmuster-webui7_7.2.8_all.deb
+ c2857bbad29f40a5019f44232c49a89552d0bf9f 7665 linuxmuster-webui7_7.2.8_amd64.buildinfo
+Checksums-Sha256:
+ 719c4c8405b6fb351d0a73f3410f6a0f6e1a62d23fbcaf4277bd06e79db46dc8 564 linuxmuster-webui7_7.2.8.dsc
+ b95eb0c6f47ac60eb4c78903bcc3edf5af8c76056b50f2162cafa4fee43486fe 20804178 linuxmuster-webui7_7.2.8.tar.gz
+ 712c1493832510a071a730522097e32c35194e11cd5aa4a7b691dd205433f720 841966 linuxmuster-webui7_7.2.8_all.deb
+ 9d434472489c14810fd77dc4e7b157c22e0b9d0e0d3ed970569e85977e9e0bc7 7665 linuxmuster-webui7_7.2.8_amd64.buildinfo
+Files:
+ c7b62041592be1964fd2d5b17d509555 564 admin optional linuxmuster-webui7_7.2.8.dsc
+ a3b70faadb5a5d5d40529d160869fd66 20804178 admin optional linuxmuster-webui7_7.2.8.tar.gz
+ dcd688bb63154436030a3b1a4aee05b7 841966 admin optional linuxmuster-webui7_7.2.8_all.deb
+ c326ac90e909f19a9c995f70650e80a2 7665 admin optional linuxmuster-webui7_7.2.8_amd64.buildinfo
