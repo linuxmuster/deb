@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 13 Jan 2023 15:46:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.17-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.17-0) lmn72; urgency=low
+ .
+   * Update kernel to 6.1.4 (b995528).
+   * r8168: add kernel patch for 6.1 series (309e02d).
+   * Replaced screen with tmux in linbo-multicast (889446e).
+   * Merge #88 (21bc5de):
+     - added dhcp client asking for nisdomain, fixed start.conf path on server.
+     - Use serverid instead of linbo_server in invoke_macct.
+Checksums-Sha1:
+ 06d74249dcbb40c099a007a889130c1fdae99143 1215 linuxmuster-linbo7_4.1.17-0.dsc
+ af2319e35d3b498efae3937d265ccf49e7c77c15 1957180 linuxmuster-linbo7_4.1.17-0.tar.gz
+ a529d479512f7653d0fa7c2ea11cdbcd8e84d655 49049658 linuxmuster-linbo7_4.1.17-0_all.deb
+ b00966d7b74ce3b72cfb00a778d06733e2ec5f57 13930 linuxmuster-linbo7_4.1.17-0_amd64.buildinfo
+Checksums-Sha256:
+ 0fc6089573cd6c2bcaa0f29e972dd3880854a246a6be92e103d48bf45ec34650 1215 linuxmuster-linbo7_4.1.17-0.dsc
+ 86738d487dd422cb03e813828bafa880a702bfe4b452d0e84f03da231c031c8d 1957180 linuxmuster-linbo7_4.1.17-0.tar.gz
+ 5d03753c3dfa80a2543670b56e416ccce01f0cc228615603c90cdb1558681e78 49049658 linuxmuster-linbo7_4.1.17-0_all.deb
+ c23ae8c2f3e83c7a820e3f7c5463d0a943014f0eabd5e98747dee3db41a7d8b2 13930 linuxmuster-linbo7_4.1.17-0_amd64.buildinfo
+Files:
+ 283527f1e43591bb932429c032d841ac 1215 admin extra linuxmuster-linbo7_4.1.17-0.dsc
+ a3f51784ecb00a817d00729502d7a1bc 1957180 admin extra linuxmuster-linbo7_4.1.17-0.tar.gz
+ 478d1643318b235b2c6beda270b63513 49049658 admin extra linuxmuster-linbo7_4.1.17-0_all.deb
+ 35e9588151ff399aa03026ab03984fe2 13930 admin extra linuxmuster-linbo7_4.1.17-0_amd64.buildinfo
