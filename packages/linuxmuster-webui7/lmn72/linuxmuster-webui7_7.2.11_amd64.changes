@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 14 Jan 2023 10:42:10 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.11
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.11) lmn72; urgency=medium
+ .
+   * [Users] Fix adding teachers in empty list.
+Checksums-Sha1:
+ 1d15c334ef0bd0f502f2670a47889e3a50156017 568 linuxmuster-webui7_7.2.11.dsc
+ be0f846eed68b0d7e667b878e7d89ea2ccd5cc1f 20802671 linuxmuster-webui7_7.2.11.tar.gz
+ 3ecc43a1d30b8e3d34e121d71c07cb986804f738 841940 linuxmuster-webui7_7.2.11_all.deb
+ 47bf1aa78672704ea69e6c9712b6f75406d8d550 7672 linuxmuster-webui7_7.2.11_amd64.buildinfo
+Checksums-Sha256:
+ 8d456f969be06268c646760ae42512cbe578c3004ef3abda6007218cbe5ade36 568 linuxmuster-webui7_7.2.11.dsc
+ f16f8136c8793e0be3ef415be8e6ece5212a1a97228bdfef195093b22bd1c94a 20802671 linuxmuster-webui7_7.2.11.tar.gz
+ 8e532bcf6fd2b7e6a2ceb956b8110889a16aed67d785ca0c93b40a3f18cd48e4 841940 linuxmuster-webui7_7.2.11_all.deb
+ cd42c3cbef16d09d7bbcf08e9d437e4afce3408a2adea0a924cb2246bf8cd6c8 7672 linuxmuster-webui7_7.2.11_amd64.buildinfo
+Files:
+ 3726a5c786c9485dc171647554dfce54 568 admin optional linuxmuster-webui7_7.2.11.dsc
+ 3e347c2e30e0018db791deb8ee5d8ce4 20802671 admin optional linuxmuster-webui7_7.2.11.tar.gz
+ 95a5e646e0f39f96dfd70186c643eec1 841940 admin optional linuxmuster-webui7_7.2.11_all.deb
+ 8a17b6f2b80e674ae476b6f59f76d68f 7672 admin optional linuxmuster-webui7_7.2.11_amd64.buildinfo
