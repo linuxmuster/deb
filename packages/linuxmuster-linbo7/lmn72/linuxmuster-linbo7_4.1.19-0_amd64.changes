@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 1 Feb 2023 19:42:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.19-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.19-0) lmn72; urgency=low
+ .
+   * Fix #90: Add salt to password hash (48c7724).
+Checksums-Sha1:
+ ebd4de275819a95fb1ea88c2840ed6513639bec4 1212 linuxmuster-linbo7_4.1.19-0.dsc
+ df8bd62243044664f3948e30e9cd73496a8d434a 1960952 linuxmuster-linbo7_4.1.19-0.tar.gz
+ e5c7cf2c1a850921dca56efa206d57d0bf457353 50095834 linuxmuster-linbo7_4.1.19-0_all.deb
+ f4e079890242c7370305e420f5a26462009429ab 14020 linuxmuster-linbo7_4.1.19-0_amd64.buildinfo
+Checksums-Sha256:
+ 82ffbf000ad6038e35258a1ddb6a54188e49bf9fad52389b8a61ccdd5474da2f 1212 linuxmuster-linbo7_4.1.19-0.dsc
+ 678d1b2f2b7e3b3c382a25fc329981a58e4fedf2ca258068ee7ecb85fedcc090 1960952 linuxmuster-linbo7_4.1.19-0.tar.gz
+ 5c1f9062da61c4cf15cf3a5fd222693ce09b430e97be4b429f0a13c942bf6c95 50095834 linuxmuster-linbo7_4.1.19-0_all.deb
+ a0bd31fd98c06d672b60abdaf973d5ed272239c6fc5c7c8f7e2ca5365139b149 14020 linuxmuster-linbo7_4.1.19-0_amd64.buildinfo
+Files:
+ 6020ca1d6d8e6b3565f2883e1f66f6b1 1212 admin extra linuxmuster-linbo7_4.1.19-0.dsc
+ 9de2007ab71dcb2d12023836108e94cc 1960952 admin extra linuxmuster-linbo7_4.1.19-0.tar.gz
+ fa8e503e892632c2038a3ec513b7497f 50095834 admin extra linuxmuster-linbo7_4.1.19-0_all.deb
+ c0dd4629c708eb684e63730ada13990b 14020 admin extra linuxmuster-linbo7_4.1.19-0_amd64.buildinfo
