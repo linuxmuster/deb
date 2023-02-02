@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 13:17:22 +0100
+Source: linuxmuster-linbo-gui7
+Binary: linuxmuster-linbo-gui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.1
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linbo-gui7 - Linuxmuster Linbo GUI
+Changes:
+ linuxmuster-linbo-gui7 (7.2.1) lmn72; urgency=low
+ .
+   * remove backgroundcolor start.conf option
+   * support new theming structure
+Checksums-Sha1:
+ 45c56247ee722217c8297fe090651db237c22a72 711 linuxmuster-linbo-gui7_7.2.1.dsc
+ 6fc6bc4f74982ad2dbd2cf5b3670570f2ecfa0c1 3577534 linuxmuster-linbo-gui7_7.2.1.tar.gz
+ 662dfef055390ca7d7c64b5d7bc8510f6b412660 9111924 linuxmuster-linbo-gui7_7.2.1_all.deb
+ 6cdcea78f772551cd5411c72564601496bf8dffd 7898 linuxmuster-linbo-gui7_7.2.1_amd64.buildinfo
+Checksums-Sha256:
+ 13ed13125fb7c07dc208b1d1356ad4d4e61b71a4bc68ca1a2ed3d5236759ab1e 711 linuxmuster-linbo-gui7_7.2.1.dsc
+ b258b3277a183863fcf6107336db097b62103f08beab7f9ead6bd025f1e8ef1b 3577534 linuxmuster-linbo-gui7_7.2.1.tar.gz
+ 3e94950df98b66611f267f7d7aaa1898f68a1d33b681b99a191665f62de4cce4 9111924 linuxmuster-linbo-gui7_7.2.1_all.deb
+ 2bb1f1b592cd511c03fd185c7917f4492abf67d51b5b74555200ca8e2554475a 7898 linuxmuster-linbo-gui7_7.2.1_amd64.buildinfo
+Files:
+ 6b643b18cba607cfb0e4d765e90a7339 711 admin extra linuxmuster-linbo-gui7_7.2.1.dsc
+ 84dae8c585bd452603a2e3a5a39e0590 3577534 admin extra linuxmuster-linbo-gui7_7.2.1.tar.gz
+ 3ecdaaacfb594298a1ac3ae66d0e0320 9111924 admin extra linuxmuster-linbo-gui7_7.2.1_all.deb
+ b9727ce4eb37df819fb5b02e9d1ee8af 7898 admin extra linuxmuster-linbo-gui7_7.2.1_amd64.buildinfo
