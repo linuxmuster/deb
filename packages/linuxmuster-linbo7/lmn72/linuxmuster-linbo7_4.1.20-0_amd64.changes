@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 7 Feb 2023 09:51:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.20-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.20-0) lmn72; urgency=low
+ .
+   * Improved evaluation of kernel cmdline (61af8c2).
+   * Fixed evaluation of start.conf values which contain an equal sign (c292b43).
+   * Update kernel to 6.1.10, activates some Thinkpad drivers (d41d31a, 91f6609).
+   * shell_functions fixes (3f89a95, c88c1ef, 14650c6).
+   * linbo_mountcache: Use cache parameter if it is given (9983c5c).
+   * improve offline mode (43185ef).
+Checksums-Sha1:
+ 52561651704488a2b0f466463362bf5f584bd02a 1212 linuxmuster-linbo7_4.1.20-0.dsc
+ a1e962772c49a02f75a56d850b19743cd27c29a1 1960889 linuxmuster-linbo7_4.1.20-0.tar.gz
+ 8cd42e360b43add3814a42e48d25ed4543ee023e 50249554 linuxmuster-linbo7_4.1.20-0_all.deb
+ 3d5f9609fc9cf3db2a22d0e106958d65d823f5a2 14020 linuxmuster-linbo7_4.1.20-0_amd64.buildinfo
+Checksums-Sha256:
+ 5815acfda2c91136ab3b5afda75a2c5175ba39d1a76ec1d196585385702eed2d 1212 linuxmuster-linbo7_4.1.20-0.dsc
+ 7d0f16d3bcc322bbbab3bc880baf20f19b04ee63421e6fc5f470494abf1ed6f4 1960889 linuxmuster-linbo7_4.1.20-0.tar.gz
+ fec7165452d5a6ee1b7e00a08a77ac06740a335cd48b3d0ee462414cc35c3319 50249554 linuxmuster-linbo7_4.1.20-0_all.deb
+ 1304f5b321a789cafd4a0eb3b8ebcbdc3c13b53b9f70cb5698f40266f07d0b9d 14020 linuxmuster-linbo7_4.1.20-0_amd64.buildinfo
+Files:
+ 2f2b5854f3487ab8952cda8a2104e621 1212 admin extra linuxmuster-linbo7_4.1.20-0.dsc
+ 48d6a08920a41285a235da96e7282839 1960889 admin extra linuxmuster-linbo7_4.1.20-0.tar.gz
+ 1c8e031ef7c1e0bc539c205c2d827550 50249554 admin extra linuxmuster-linbo7_4.1.20-0_all.deb
+ c26a665421bd569a10b9d0e25dabb9fa 14020 admin extra linuxmuster-linbo7_4.1.20-0_amd64.buildinfo
