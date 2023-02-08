@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 8 Feb 2023 20:00:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.21-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.21-0) lmn72; urgency=low
+ .
+   * Fix linbo_wrapper format command (1a96625).
+Checksums-Sha1:
+ 7e0a4e211bcb278b8a9ac403ed47189d8c021159 1212 linuxmuster-linbo7_4.1.21-0.dsc
+ 3ffaacc2d7f25187c9df000292ab0a7d5db43b71 1961358 linuxmuster-linbo7_4.1.21-0.tar.gz
+ 5e2c9a72f7610caf793624ad8c50b673131e0d83 50256700 linuxmuster-linbo7_4.1.21-0_all.deb
+ 2b6a38917b5dbd072ab6d8fe0996dd01fd3832bb 14020 linuxmuster-linbo7_4.1.21-0_amd64.buildinfo
+Checksums-Sha256:
+ 9b9c990b5b1dcaa964431709f1fe79c8b6c7306b824a155d5722a87824d9d51c 1212 linuxmuster-linbo7_4.1.21-0.dsc
+ 0ff7e7cd903a75fbd2c3cbb923cd6bb8a01f0f550873583469b16dc20b8a3085 1961358 linuxmuster-linbo7_4.1.21-0.tar.gz
+ aedc08088dd933c78c0300dd00c90f989cfc979b92e6dc6cb770c75346e59633 50256700 linuxmuster-linbo7_4.1.21-0_all.deb
+ d5f9592efcbce72e986863650211077b6ebdb6250468e352f813125566047cf6 14020 linuxmuster-linbo7_4.1.21-0_amd64.buildinfo
+Files:
+ 62d4010a1a8dcdfeedd672550db93373 1212 admin extra linuxmuster-linbo7_4.1.21-0.dsc
+ ccfcd3f9d3f26838229c3118d36d3c06 1961358 admin extra linuxmuster-linbo7_4.1.21-0.tar.gz
+ daa34f62303e610005765a54aef8907f 50256700 admin extra linuxmuster-linbo7_4.1.21-0_all.deb
+ 114ad5ef7946c5eeaf7608224da94666 14020 admin extra linuxmuster-linbo7_4.1.21-0_amd64.buildinfo
