@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 10 Feb 2023 22:18:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.23-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.23-0) lmn72; urgency=low
+ .
+   * Fix wrong password verification (b51d484).
+   * Skip non alphanumeric variable names on environment creation (6ba78d2).
+Checksums-Sha1:
+ 05ac42af6df84861c0999e921fd810ef647d6cc9 1212 linuxmuster-linbo7_4.1.23-0.dsc
+ e11f22df78faa098ed89e5f5d659e1b79e6a9403 1961050 linuxmuster-linbo7_4.1.23-0.tar.gz
+ 8a254a1404b2289e900d5203fd769e909d56a716 50257306 linuxmuster-linbo7_4.1.23-0_all.deb
+ 3b6b94914c18a4a209db9d033f851378e1d7a13b 14020 linuxmuster-linbo7_4.1.23-0_amd64.buildinfo
+Checksums-Sha256:
+ 495cd9b2517bd6640042ad3b5f7721a5a2ee47b75abc4afbde53046b489db4f2 1212 linuxmuster-linbo7_4.1.23-0.dsc
+ 4e88ddcd3b0b14f185bbb3927e7446863656e8acc34ec12732a3111eb4a4f5d6 1961050 linuxmuster-linbo7_4.1.23-0.tar.gz
+ 60544b4e2529a958f81f3a550b305511a473da13a07a1c394add047e7a136629 50257306 linuxmuster-linbo7_4.1.23-0_all.deb
+ a5a4e759dcd8ea85a80bee83fcf0421954e1581bbe675b15037ee67d6a7f58a8 14020 linuxmuster-linbo7_4.1.23-0_amd64.buildinfo
+Files:
+ 9c1b1ab28fea135a9b195365de45e88c 1212 admin extra linuxmuster-linbo7_4.1.23-0.dsc
+ 723d965aa17dc915eab8879f24b5c464 1961050 admin extra linuxmuster-linbo7_4.1.23-0.tar.gz
+ e9a16ab232e25957a179c20747697ebf 50257306 admin extra linuxmuster-linbo7_4.1.23-0_all.deb
+ e0dbc4475562070cd87ed836da5f490b 14020 admin extra linuxmuster-linbo7_4.1.23-0_amd64.buildinfo
