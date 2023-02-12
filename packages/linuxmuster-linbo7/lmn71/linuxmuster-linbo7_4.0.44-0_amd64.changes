@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 12 Feb 2023 20:10:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.44-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.44-0) lmn71; urgency=low
+ .
+   * Initiate reboot if warmstart is disabled  (c0ff8a4).
+Checksums-Sha1:
+ c8cf9baaa9902e56bbc00bcee0951d32683c4a2e 1215 linuxmuster-linbo7_4.0.44-0.dsc
+ 775ca531a9f5a36da9b52e56837341fb8105b2bd 1949402 linuxmuster-linbo7_4.0.44-0.tar.gz
+ 94645f2f76d4d2ff523c465749c1cadf75f37998 42143200 linuxmuster-linbo7_4.0.44-0_all.deb
+ ff2b5589a1564af4479b76cc65fa7a715d647b53 14150 linuxmuster-linbo7_4.0.44-0_amd64.buildinfo
+Checksums-Sha256:
+ f1f8fcdbeff7c7ebb3abbdc5d303a9161c6b6a00cb85b4071cfd52a690ee8d02 1215 linuxmuster-linbo7_4.0.44-0.dsc
+ 2d053824ae129238e278071fd63bc29c15f11de2aa87339432f5303a6cf25d5b 1949402 linuxmuster-linbo7_4.0.44-0.tar.gz
+ bbeb553ae9cb265426c0e46351a887da987829dfedb13544525d7a509748da4b 42143200 linuxmuster-linbo7_4.0.44-0_all.deb
+ dd2149dc8d420b291c2918bc38d5ac5374327ab2039b43964b8022f7d02d548b 14150 linuxmuster-linbo7_4.0.44-0_amd64.buildinfo
+Files:
+ 2c19e2168deef7398362cb168e13464a 1215 admin extra linuxmuster-linbo7_4.0.44-0.dsc
+ e54a30eac78e797e358bebb5f79e4ab2 1949402 admin extra linuxmuster-linbo7_4.0.44-0.tar.gz
+ 063fd33f5930dfd3f8d8da3ef6428adc 42143200 admin extra linuxmuster-linbo7_4.0.44-0_all.deb
+ 8491c54232aa3bfb74caea70834b8ae4 14150 admin extra linuxmuster-linbo7_4.0.44-0_amd64.buildinfo
