@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 11 Feb 2023 14:33:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.24-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.24-0) lmn72; urgency=low
+ .
+   * Update to kernel 4.1.11 (01957e6).
+   * Fix linbo ssh_config (00188ea).
+   * Initiate warmstart|reboot if grub configuration has changed (f91318c, 115a5f0).
+   * Initiate reboot if warmstart is disabled (4b31a4).
+   * Initiate warmstart|reboot only if linbo has been booted locally from cache (4c181a7).
+Checksums-Sha1:
+ 3e6151405ddeedfa431cf142afc6c1230b2c2482 1212 linuxmuster-linbo7_4.1.24-0.dsc
+ 88d164192177dfcc9bd12185271330955028b79a 1961784 linuxmuster-linbo7_4.1.24-0.tar.gz
+ 4f27c9418d7bb964d5ebde55398f593c229eb320 50261034 linuxmuster-linbo7_4.1.24-0_all.deb
+ 4d394d1312e36a322ff197b742191e341e9be910 14020 linuxmuster-linbo7_4.1.24-0_amd64.buildinfo
+Checksums-Sha256:
+ 584534bd9fc298eb44cc95900ef988c82851ec97046c2f1d8a98a9dabb5150b2 1212 linuxmuster-linbo7_4.1.24-0.dsc
+ 5538b0935f431e6b5d58b91c0862f33ddf798d71dfc5aae1793d0a7b313fd915 1961784 linuxmuster-linbo7_4.1.24-0.tar.gz
+ 502c41e88deec2c5cc147122b548b0b25cd40b6af11101981cca27546852c462 50261034 linuxmuster-linbo7_4.1.24-0_all.deb
+ 090e1f00772139e91c9974b3cabca5c4a3185012817341d9ce5b749728a1ea9a 14020 linuxmuster-linbo7_4.1.24-0_amd64.buildinfo
+Files:
+ e889b39f54fd6005ef7e66b4abdcdcfc 1212 admin extra linuxmuster-linbo7_4.1.24-0.dsc
+ 6b76aa1568b11b3ea56d8eb87a99deae 1961784 admin extra linuxmuster-linbo7_4.1.24-0.tar.gz
+ 1de00451057f59d31ed6f449f2cc5654 50261034 admin extra linuxmuster-linbo7_4.1.24-0_all.deb
+ 583c46e6afc81f6ef9f2e9a8505c66bb 14020 admin extra linuxmuster-linbo7_4.1.24-0_amd64.buildinfo
