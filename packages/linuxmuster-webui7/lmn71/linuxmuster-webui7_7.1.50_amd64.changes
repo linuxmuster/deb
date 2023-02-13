@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 22:36:10 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.50
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.50) lmn71; urgency=medium
+ .
+   * Add missing dependency pytz.
+Checksums-Sha1:
+ 65729ef417816005945f50597dba23f17c5ed3a2 568 linuxmuster-webui7_7.1.50.dsc
+ 5ff6c24388cce8240eecf41faca6cbc6efdc0a8a 20683405 linuxmuster-webui7_7.1.50.tar.gz
+ c4a1d31a6c9cbb4d9b6476ba3aad58738a3d3a87 836192 linuxmuster-webui7_7.1.50_all.deb
+ 3c3d17e0699bfab13b64f2e8925b62c7d00a6683 6673 linuxmuster-webui7_7.1.50_amd64.buildinfo
+Checksums-Sha256:
+ f9b7ed19fa4d07edafb169892b37d3243f5212cf6c639e1419659f7dd3aa9136 568 linuxmuster-webui7_7.1.50.dsc
+ 554cd0b93b00c9754b76c045c01a5c4e929a756cbb88f7e6ef5cccef91ccd3ee 20683405 linuxmuster-webui7_7.1.50.tar.gz
+ c2dc8f2080d9f4a4234eaf8bb0a30e5a9675866110f535d50709e994631f2803 836192 linuxmuster-webui7_7.1.50_all.deb
+ 5bc1faf6386b6ce37ce161c719a56518e44d6ce1d0272b8dd494868bc5aca515 6673 linuxmuster-webui7_7.1.50_amd64.buildinfo
+Files:
+ dc947dd84c8cb0f5e4ced0d26cd33550 568 admin optional linuxmuster-webui7_7.1.50.dsc
+ f03ab876d58fa8a70e02c5a6e970ca7a 20683405 admin optional linuxmuster-webui7_7.1.50.tar.gz
+ c8c2498b92a5b89365ae03376a3aa529 836192 admin optional linuxmuster-webui7_7.1.50_all.deb
+ 0e369b9a1f8ee947fe7f77b5f1296f1f 6673 admin optional linuxmuster-webui7_7.1.50_amd64.buildinfo
