@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 21:37:07 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Architecture: source all
+Version: 7.1.49
+Distribution: lmn71
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.1.49) lmn71; urgency=medium
+ .
+   * Upgrade Ajenti 2.2.4
+   * Fix wrong dependency on dateutil.
+Checksums-Sha1:
+ 790fe1d0131f9e0569e81a0d0412a09a05a4b538 568 linuxmuster-webui7_7.1.49.dsc
+ 9d7bb86356c974dd42a49a84ac1445e7d3722d51 20682221 linuxmuster-webui7_7.1.49.tar.gz
+ 4b33a3082cdf4aac191282bdda215f0697ca2cb3 836176 linuxmuster-webui7_7.1.49_all.deb
+ 214f631ba53833179eb2cd76301447efbb9c9da0 6673 linuxmuster-webui7_7.1.49_amd64.buildinfo
+Checksums-Sha256:
+ 0643e54c3a7c4caf5efc2b76788f3a7a0f316ae0fa1866f8c64c86c2c4805185 568 linuxmuster-webui7_7.1.49.dsc
+ e9e481647b366dd2e15ec751c8e026a2d2ef4d87f108296be719641abe250ba3 20682221 linuxmuster-webui7_7.1.49.tar.gz
+ 8de6e69c30ea3b80804c5ef98ce19b09e3a20b2c2e71f2f121947694411dd2e8 836176 linuxmuster-webui7_7.1.49_all.deb
+ c0e6f86ff2fe2d7a4ef3daf3e2e2833cc4d3ee7c6bb39fd72f0986017e2f7f6c 6673 linuxmuster-webui7_7.1.49_amd64.buildinfo
+Files:
+ 0016d95223b775e352f8a26bf84eff9f 568 admin optional linuxmuster-webui7_7.1.49.dsc
+ 5e0d1e4be27eb64e638692aed14cf700 20682221 admin optional linuxmuster-webui7_7.1.49.tar.gz
+ a2201f5845d1b400a18c1d064ed384a4 836176 admin optional linuxmuster-webui7_7.1.49_all.deb
+ 2624dcda4365b808596d9686cbd7b4b1 6673 admin optional linuxmuster-webui7_7.1.49_amd64.buildinfo
