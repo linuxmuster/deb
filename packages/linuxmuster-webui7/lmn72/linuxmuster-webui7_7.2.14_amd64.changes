@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 22:37:47 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.14
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.14) lmn72; urgency=medium
+ .
+   * Add missing dependency pytz.
+Checksums-Sha1:
+ b22f7a2971b062fb7ea8afa906c3cbb6816db15d 568 linuxmuster-webui7_7.2.14.dsc
+ 17f3db93892937fc4540d44606f0f4ed8ba467e2 20806663 linuxmuster-webui7_7.2.14.tar.gz
+ 0b17db974f9e3226b760538213f45c3108fde38c 844778 linuxmuster-webui7_7.2.14_all.deb
+ de27831775a5bfec12cb7baae7d56a768414f5a5 7716 linuxmuster-webui7_7.2.14_amd64.buildinfo
+Checksums-Sha256:
+ 37827f564d62d22fd6944f192f085da43e7fbbc526f75eaaacfd9c27c4905583 568 linuxmuster-webui7_7.2.14.dsc
+ cd6c0b16cd85fe9541e9029cc0da0e9a2b39b48f3d42ea23e65f81b123d0764a 20806663 linuxmuster-webui7_7.2.14.tar.gz
+ 80639b6db84f5541748836a98a673f4eef9fe60cd60551420d6cdca9d774961a 844778 linuxmuster-webui7_7.2.14_all.deb
+ 0f29e942bcede3603f32187e69ede8cf83d586e74508dc01b33aaace7257c91c 7716 linuxmuster-webui7_7.2.14_amd64.buildinfo
+Files:
+ af955c5a482076b470fe59907eaa54f3 568 admin optional linuxmuster-webui7_7.2.14.dsc
+ 0a49c403eefd7f5d8831ed75bab32e7f 20806663 admin optional linuxmuster-webui7_7.2.14.tar.gz
+ 1b59664b58a2c9a17646c9e6a140edcc 844778 admin optional linuxmuster-webui7_7.2.14_all.deb
+ 39d89d0b8de808d2dfb4a4bc829906d9 7716 admin optional linuxmuster-webui7_7.2.14_amd64.buildinfo
