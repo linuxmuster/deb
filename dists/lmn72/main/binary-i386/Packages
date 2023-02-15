@@ -17,7 +17,7 @@ Description: linuxmuster.net configuration scripts
  This package provides configuration scripts for linuxmuster.net
 
 Package: linuxmuster-linbo-gui7
-Version: 7.2.1
+Version: 7.2.2
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
 Installed-Size: 8959
@@ -25,11 +25,11 @@ Depends: linuxmuster-linbo7 (>= 4.1.0)
 Homepage: https://github.com/linuxmuster/linuxmuster-linbo-gui
 Priority: extra
 Section: admin
-Filename: pool/main/l/linuxmuster-linbo-gui7/linuxmuster-linbo-gui7_7.2.1_all.deb
-Size: 9111924
-SHA256: 3e94950df98b66611f267f7d7aaa1898f68a1d33b681b99a191665f62de4cce4
-SHA1: 662dfef055390ca7d7c64b5d7bc8510f6b412660
-MD5sum: 3ecdaaacfb594298a1ac3ae66d0e0320
+Filename: pool/main/l/linuxmuster-linbo-gui7/linuxmuster-linbo-gui7_7.2.2_all.deb
+Size: 9112628
+SHA256: f5abd0c98920f0b9c315fed31c4e07fb751cc42e54f8e2c54bb47eddfea9571f
+SHA1: b99d15a845db3f00070f1531822a7de3b95e1840
+MD5sum: 7bbbb575c63a52694f1738c9b572cba2
 Description: Linuxmuster Linbo GUI
  This package contains the GUI for the Linux-based Network Boot
  (LINBO) boot/install/repair system.
