@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sat, 18 Feb 2023 14:18:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.25-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.25-0) lmn72; urgency=low
+ .
+   * Improved error handling on diffimage creation (75cae3a).
+   * Example updates (7fe721e, d6d90c7, fc216e3, d56b191, d56b191).
+   * Update kernel to 6.1.12 (1e30e2d).
+   * Update nfs cache mount options (9752ea7).
+Checksums-Sha1:
+ 800ce2f9074f2af179952c37e3b9ba42cb763625 1212 linuxmuster-linbo7_4.1.25-0.dsc
+ a2092714a00f844d569e8333576885bc3a74e6c6 1959502 linuxmuster-linbo7_4.1.25-0.tar.gz
+ 119fc944c332aea4ff66467b00a9c006db0f83a8 50265220 linuxmuster-linbo7_4.1.25-0_all.deb
+ b02cfb0c3074e47413fd6e5f35b1074ac60f9a6c 14022 linuxmuster-linbo7_4.1.25-0_amd64.buildinfo
+Checksums-Sha256:
+ 7356827e2c7cf532df49fa295c2f079e51f9a4985ff8cde91b824408e6988dc3 1212 linuxmuster-linbo7_4.1.25-0.dsc
+ dc2f1744c2cbf569a6f9388da8998629b26812d332a02ae9c72ddf351d0ff92c 1959502 linuxmuster-linbo7_4.1.25-0.tar.gz
+ 54935c42f6312ee0687226151bcf5bd90786a64e02e97af8e571ae4602846dfa 50265220 linuxmuster-linbo7_4.1.25-0_all.deb
+ 43858720010a0fd052f05f78f596f9f3772d3d3bcd4a5f1dda0f075ab98d9b12 14022 linuxmuster-linbo7_4.1.25-0_amd64.buildinfo
+Files:
+ e1603ea9282495c30dfa5dfd28b35413 1212 admin extra linuxmuster-linbo7_4.1.25-0.dsc
+ 0d54a1b8ccb33a7a73735c27c3166a3e 1959502 admin extra linuxmuster-linbo7_4.1.25-0.tar.gz
+ b2799f4ba60f47607a67b0ce8d18bf47 50265220 admin extra linuxmuster-linbo7_4.1.25-0_all.deb
+ bc8faf735c868358eb97d8ff3607de2a 14022 admin extra linuxmuster-linbo7_4.1.25-0_amd64.buildinfo
