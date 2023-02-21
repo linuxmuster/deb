@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Tue, 21 Feb 2023 17:26:22 +0100
+Source: leoclient2
+Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
+Architecture: source all
+Version: 0.9.12-1
+Distribution: lmn71-testing
+Urgency: medium
+Maintainer: Ruediger Beck <jeffbeck@web.de>
+Changed-By: bz <bz@adler>
+Description:
+ leoclient2-leovirtstarter-client - alternativ software to start VirtualBox
+ leoclient2-vm-printer - Watches a directory used for virtual machine printing.
+Changes:
+ leoclient2 (0.9.12-1) lmn71-testing; urgency=medium
+ .
+   * syntax error fixed, keep pdf with fonts, delete pdf without fonts
+Checksums-Sha1:
+ 03c5ed8dd017747baf6a28ab77f617be054931a6 658 leoclient2_0.9.12-1.dsc
+ a2304e33bfdc2233062daf9a5dd5b3db24a87dc0 252642 leoclient2_0.9.12-1.tar.gz
+ 4d1604236969b12c5e31598e56bdb7353e7d2855 42404 leoclient2-leovirtstarter-client_0.9.12-1_all.deb
+ 535f6af83c78ae9382224e9eda56653f7cb1318c 6252 leoclient2-vm-printer_0.9.12-1_all.deb
+ a345a006da48d87101c760cdc4b789a845aeef6e 7157 leoclient2_0.9.12-1_amd64.buildinfo
+Checksums-Sha256:
+ 93cfeff678d70d572a0f7494e800969b22823fc967bf20e61fa0d7d4e58f5c0f 658 leoclient2_0.9.12-1.dsc
+ 40bacf9327b296b2ad2aefddbecf96711dfb8da31fdc30f32456222905489198 252642 leoclient2_0.9.12-1.tar.gz
+ d5712123ddd4f6c04aebd289d103518ebd4e19a88709c34f0e584f33256a30bb 42404 leoclient2-leovirtstarter-client_0.9.12-1_all.deb
+ fc282baae1fa27d0385f0d5f80b3338ba4e4a18ba0591560ddacc33edd123ee9 6252 leoclient2-vm-printer_0.9.12-1_all.deb
+ 1ead43524329942152cc76ddf4c3bb468d15a172961570937986ac1078cc5b95 7157 leoclient2_0.9.12-1_amd64.buildinfo
+Files:
+ eb8b4e171d92e02970f97ce23c235e8f 658 admin optional leoclient2_0.9.12-1.dsc
+ ad27c19dc4a59a504a02c209007d98ba 252642 admin optional leoclient2_0.9.12-1.tar.gz
+ dbd8b8115aa2acead4ce529fb62f5361 42404 admin optional leoclient2-leovirtstarter-client_0.9.12-1_all.deb
+ bc7371153522f4d221b1cb225d967d1e 6252 admin optional leoclient2-vm-printer_0.9.12-1_all.deb
+ 082522303e9499fd9c5c3332275636b5 7157 admin optional leoclient2_0.9.12-1_amd64.buildinfo
