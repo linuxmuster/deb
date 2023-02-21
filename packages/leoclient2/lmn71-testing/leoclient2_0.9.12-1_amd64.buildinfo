@@ -2,22 +2,22 @@ Format: 1.0
 Source: leoclient2
 Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
 Architecture: all source
-Version: 0.9.11-1
+Version: 0.9.12-1
 Checksums-Md5:
- 8b02b5786207163a8502250c405ccbf4 658 leoclient2_0.9.11-1.dsc
- c057e9b508ef88f9be31116fde6a6ca0 42336 leoclient2-leovirtstarter-client_0.9.11-1_all.deb
- c98f9741258d2d26dfd3d0a491608622 6156 leoclient2-vm-printer_0.9.11-1_all.deb
+ eb8b4e171d92e02970f97ce23c235e8f 658 leoclient2_0.9.12-1.dsc
+ dbd8b8115aa2acead4ce529fb62f5361 42404 leoclient2-leovirtstarter-client_0.9.12-1_all.deb
+ bc7371153522f4d221b1cb225d967d1e 6252 leoclient2-vm-printer_0.9.12-1_all.deb
 Checksums-Sha1:
- e6801125e40054e2d80f411b57a82c2f42870e78 658 leoclient2_0.9.11-1.dsc
- 541d04795bea2cb1dcc270bd42c424f505f6c442 42336 leoclient2-leovirtstarter-client_0.9.11-1_all.deb
- 8bfc9693367d2880381dc643cc9904bc11459c30 6156 leoclient2-vm-printer_0.9.11-1_all.deb
+ 03c5ed8dd017747baf6a28ab77f617be054931a6 658 leoclient2_0.9.12-1.dsc
+ 4d1604236969b12c5e31598e56bdb7353e7d2855 42404 leoclient2-leovirtstarter-client_0.9.12-1_all.deb
+ 535f6af83c78ae9382224e9eda56653f7cb1318c 6252 leoclient2-vm-printer_0.9.12-1_all.deb
 Checksums-Sha256:
- 8df8aba5de8207a255151d87c5aa9352de963a25005ab7703c182106203f121e 658 leoclient2_0.9.11-1.dsc
- 9b42ecf11776a610e62f9d5e976c04def49f7adda304c94758e8c5d0a44ca1cf 42336 leoclient2-leovirtstarter-client_0.9.11-1_all.deb
- c479b9e0a69091199660458b0b79e57777b80f1405c2694606990768fd736053 6156 leoclient2-vm-printer_0.9.11-1_all.deb
+ 93cfeff678d70d572a0f7494e800969b22823fc967bf20e61fa0d7d4e58f5c0f 658 leoclient2_0.9.12-1.dsc
+ d5712123ddd4f6c04aebd289d103518ebd4e19a88709c34f0e584f33256a30bb 42404 leoclient2-leovirtstarter-client_0.9.12-1_all.deb
+ fc282baae1fa27d0385f0d5f80b3338ba4e4a18ba0591560ddacc33edd123ee9 6252 leoclient2-vm-printer_0.9.12-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 21 Feb 2023 14:05:45 +0000
+Build-Date: Tue, 21 Feb 2023 16:30:58 +0000
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
@@ -203,4 +203,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1676987933"
+ SOURCE_DATE_EPOCH="1676996782"
