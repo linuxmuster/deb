@@ -2,7 +2,7 @@ Format: 1.0
 Source: leoclient2
 Binary: leoclient2-leovirtstarter-client, leoclient2-vm-printer
 Architecture: all
-Version: 0.9.11-1
+Version: 0.9.12-1
 Maintainer: Ruediger Beck <jeffbeck@web.de>
 Standards-Version: 3.5.2
 Build-Depends: debhelper, perl-base, fakeroot
@@ -10,8 +10,8 @@ Package-List:
  leoclient2-leovirtstarter-client deb admin optional arch=all
  leoclient2-vm-printer deb admin optional arch=all
 Checksums-Sha1:
- 4cb55c3870323393828f11e7592b1fda7ff8636d 252493 leoclient2_0.9.11-1.tar.gz
+ a2304e33bfdc2233062daf9a5dd5b3db24a87dc0 252642 leoclient2_0.9.12-1.tar.gz
 Checksums-Sha256:
- 2c260e68411912f55830d807f6e375ad0b8769f80c800b303b46f9266d2becc5 252493 leoclient2_0.9.11-1.tar.gz
+ 40bacf9327b296b2ad2aefddbecf96711dfb8da31fdc30f32456222905489198 252642 leoclient2_0.9.12-1.tar.gz
 Files:
- a6c3d164339d76a72ca4cd64ec6b50c5 252493 leoclient2_0.9.11-1.tar.gz
+ ad27c19dc4a59a504a02c209007d98ba 252642 leoclient2_0.9.12-1.tar.gz
