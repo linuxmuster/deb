@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Tue, 21 Feb 2023 14:58:53 +0100
+Source: leoclient2
+Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
+Architecture: source all
+Version: 0.9.11-1
+Distribution: lmn71-testing
+Urgency: medium
+Maintainer: Ruediger Beck <jeffbeck@web.de>
+Changed-By: bz <bz@adler>
+Description:
+ leoclient2-leovirtstarter-client - alternativ software to start VirtualBox
+ leoclient2-vm-printer - Watches a directory used for virtual machine printing.
+Changes:
+ leoclient2 (0.9.11-1) lmn71-testing; urgency=medium
+ .
+   * use ghostscript to embed fonts before printing
+Checksums-Sha1:
+ e6801125e40054e2d80f411b57a82c2f42870e78 658 leoclient2_0.9.11-1.dsc
+ 4cb55c3870323393828f11e7592b1fda7ff8636d 252493 leoclient2_0.9.11-1.tar.gz
+ 541d04795bea2cb1dcc270bd42c424f505f6c442 42336 leoclient2-leovirtstarter-client_0.9.11-1_all.deb
+ 8bfc9693367d2880381dc643cc9904bc11459c30 6156 leoclient2-vm-printer_0.9.11-1_all.deb
+ 1ac305416c75ffa8d84d4060903ce3b95d64d9eb 7157 leoclient2_0.9.11-1_amd64.buildinfo
+Checksums-Sha256:
+ 8df8aba5de8207a255151d87c5aa9352de963a25005ab7703c182106203f121e 658 leoclient2_0.9.11-1.dsc
+ 2c260e68411912f55830d807f6e375ad0b8769f80c800b303b46f9266d2becc5 252493 leoclient2_0.9.11-1.tar.gz
+ 9b42ecf11776a610e62f9d5e976c04def49f7adda304c94758e8c5d0a44ca1cf 42336 leoclient2-leovirtstarter-client_0.9.11-1_all.deb
+ c479b9e0a69091199660458b0b79e57777b80f1405c2694606990768fd736053 6156 leoclient2-vm-printer_0.9.11-1_all.deb
+ ab1394932d0eb2d59adc03cd17764b9902fff91350f902a44636f4bb9a5f5db7 7157 leoclient2_0.9.11-1_amd64.buildinfo
+Files:
+ 8b02b5786207163a8502250c405ccbf4 658 admin optional leoclient2_0.9.11-1.dsc
+ a6c3d164339d76a72ca4cd64ec6b50c5 252493 admin optional leoclient2_0.9.11-1.tar.gz
+ c057e9b508ef88f9be31116fde6a6ca0 42336 admin optional leoclient2-leovirtstarter-client_0.9.11-1_all.deb
+ c98f9741258d2d26dfd3d0a491608622 6156 admin optional leoclient2-vm-printer_0.9.11-1_all.deb
+ 9746bdf5858cb9ea3338d3ebcbb12e69 7157 admin optional leoclient2_0.9.11-1_amd64.buildinfo
