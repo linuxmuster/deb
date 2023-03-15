@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 15 Mar 2023 20:19:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.27-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.27-0) lmn72; urgency=low
+ .
+   * Update kernel to 6.2.6, filesystem optimations (5d4bf03).
+   * Added rtl_nic firmware (ed99b93).
+Checksums-Sha1:
+ 6a0ce8a62c19dab52bc78d0f4735b68e39cb941d 1212 linuxmuster-linbo7_4.1.27-0.dsc
+ 8a50fbc46aabc2e7b23f46eefe748455e9bf6fba 1962028 linuxmuster-linbo7_4.1.27-0.tar.gz
+ 3d9202d3709c037dfa7c1ea97648683459d98ab6 53933856 linuxmuster-linbo7_4.1.27-0_all.deb
+ b6e8f4a4ce2dd4d18e3b4ad2a73f077885b1e2f4 12497 linuxmuster-linbo7_4.1.27-0_amd64.buildinfo
+Checksums-Sha256:
+ 17d37ea6bed11e7b48fa294e85a1ead511e3bb539b67c73c9df97cf08f140773 1212 linuxmuster-linbo7_4.1.27-0.dsc
+ a0d63abc628dcc95edc191b1db6cf724aa9bdc477c6b6f23451db51fdf2c29da 1962028 linuxmuster-linbo7_4.1.27-0.tar.gz
+ 4131d675d98ada30a324656546f4cb63b0fed8f233b7aec280fabea362d07f17 53933856 linuxmuster-linbo7_4.1.27-0_all.deb
+ 3b45fd609075e4338bdf8470b98a5929fb9a1b49c6317211340c5562747a591b 12497 linuxmuster-linbo7_4.1.27-0_amd64.buildinfo
+Files:
+ 16e507fea2b7cb1d3e5875761909c1ac 1212 admin extra linuxmuster-linbo7_4.1.27-0.dsc
+ 2e6ac4ea2eedd29a21cccbbe6ac2ebe3 1962028 admin extra linuxmuster-linbo7_4.1.27-0.tar.gz
+ 583fab2e74ad8211a5b4805d88b23271 53933856 admin extra linuxmuster-linbo7_4.1.27-0_all.deb
+ c8b9d2651ec89f3b04848e4550b808f9 12497 admin extra linuxmuster-linbo7_4.1.27-0_amd64.buildinfo
