@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 23 Mar 2023 11:37:05 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.15
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.15) lmn72; urgency=medium
+ .
+   * Upgrade some libraries for Python 3.10
+   * A lot of pre-work on new session plugin, currently disabled
+   * Add config entry for host in smbclient
+   * Test script for smbclient will now test all common hosts
+   * [smbclient] Load GPOS directly from samba
+   * [smbclient] Use homepath in LDAP
+   * [smbclient] Cut, copy, move, delete can now handle directories
+   * [smbclient] Fix download with special chars
+   * [users] Avoid conflict between extrastudent login and schoolclass
+   * [users] Fix missing config for custom fields display
+   * [groupmembership] Add schoolclass size
+   * [groupmembership] Add option to kill an empty schoolclass
+   * [vdi] Diverses fixs on run commands
+   * [linbo4] Hide configs from other schools in multischool env
+   * [webdav] Move directories
+   * [webdav] Fix diverse encoding issues
+   * [webdav] Better status codes for created entries
+   * [webdav] Allow cut, copy, delete on directories
+Checksums-Sha1:
+ 6939573fffcc9c01e47bc6eb37e28875ce11720d 568 linuxmuster-webui7_7.2.15.dsc
+ 36eb0b824e9036b6a3d6f071fcb220fbef512f6e 20912567 linuxmuster-webui7_7.2.15.tar.gz
+ d060a9b1a2d82f030ce40b8477dcf93ca30e23ab 858228 linuxmuster-webui7_7.2.15_all.deb
+ 361175d30a30b522fcb0e75c5db8f3630b7b1259 7727 linuxmuster-webui7_7.2.15_amd64.buildinfo
+Checksums-Sha256:
+ 118a3e1f4cb327460fbf86b7ade972cc2be1842010f4cc7f22ecdb373e055051 568 linuxmuster-webui7_7.2.15.dsc
+ c07ebeb041a1278e57b02587bb14a263f37debfdd04b0ced9319e80953f6bdc3 20912567 linuxmuster-webui7_7.2.15.tar.gz
+ a126d23c44048a5ccbac805614ddc36caad1ccdc0da3e38aa656c0265b857a4a 858228 linuxmuster-webui7_7.2.15_all.deb
+ 0c9ba7f12705d12aca57d81f45aa95ea06a31f695d80a159a8647e1b0a2e09ef 7727 linuxmuster-webui7_7.2.15_amd64.buildinfo
+Files:
+ 7b7d7bef89c5c5d1e353098b0ff092c0 568 admin optional linuxmuster-webui7_7.2.15.dsc
+ 5f33e024e4627f1dcd5191b4e2e23566 20912567 admin optional linuxmuster-webui7_7.2.15.tar.gz
+ 0e02d96442fa5642c5ec159397cb4363 858228 admin optional linuxmuster-webui7_7.2.15_all.deb
+ cc848727ea16390db4da9c968f873bdc 7727 admin optional linuxmuster-webui7_7.2.15_amd64.buildinfo
