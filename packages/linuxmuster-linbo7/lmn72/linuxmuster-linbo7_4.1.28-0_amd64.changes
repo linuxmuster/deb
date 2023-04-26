@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 26 Apr 2023 16:51:00 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.28-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.28-0) lmn72; urgency=low
+ .
+   * Update kernel to 6.2.12 (a872491).
+   * Fix postsync and reg files download after partitioning (6eaab88).
+   * Remove chrooted update-grub invokation on linux efi systems after sync (9958c5f).
+Checksums-Sha1:
+ e32e968f06c8a5188f1ca071b8f2003204c2d91f 1212 linuxmuster-linbo7_4.1.28-0.dsc
+ 77c5c10f07b93e7fa9c42a86ed214aba8a8880ac 1961955 linuxmuster-linbo7_4.1.28-0.tar.gz
+ b39ed0be450d6173975ade55470ce7cd23de01ba 53899440 linuxmuster-linbo7_4.1.28-0_all.deb
+ 8c273753c75449e809a1d7f893e1c420618333f5 12497 linuxmuster-linbo7_4.1.28-0_amd64.buildinfo
+Checksums-Sha256:
+ 288fb63ce3f2efb75408b3da913c0b36288d7ce7789a4ccaee63e0640597c2a6 1212 linuxmuster-linbo7_4.1.28-0.dsc
+ 7ad7fae7ca2b49880676313d77058879a75fc045252d1d95b24eb47bb75ff76d 1961955 linuxmuster-linbo7_4.1.28-0.tar.gz
+ a6034c6eaf62a5e17ceca281f3e7f203a22dbe5f474ffffd3ac77866bc8c8d65 53899440 linuxmuster-linbo7_4.1.28-0_all.deb
+ 3b5a072264652bb92d05f72a692a976ac417a21d577210a213f4a074fef8470d 12497 linuxmuster-linbo7_4.1.28-0_amd64.buildinfo
+Files:
+ 136d8c7bb525ba5edea7eff60e80f186 1212 admin extra linuxmuster-linbo7_4.1.28-0.dsc
+ cc4631ea8a50408a29d14348ca7de9e4 1961955 admin extra linuxmuster-linbo7_4.1.28-0.tar.gz
+ c0fea2be35ac7e1bfd30bf8aa71ea9a4 53899440 admin extra linuxmuster-linbo7_4.1.28-0_all.deb
+ 3f22b18711b16268f66abf00d193ffb6 12497 admin extra linuxmuster-linbo7_4.1.28-0_amd64.buildinfo
