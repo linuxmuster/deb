@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 11 May 2023 19:08:13 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0-rc7
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.0-rc7) lmn72; urgency=low
+ .
+   * Changed codename to beta-release (8741a6d).
+   * Add activation of opentracker service to setup (7faae82).
+Checksums-Sha1:
+ d734ed7fb25f6381aca3f7c5bf1ec6b158bb31f8 587 linuxmuster-base7_7.2.0-rc7.dsc
+ d3d617378facff5324fb2e28e143d6de2d48c5ea 76102 linuxmuster-base7_7.2.0-rc7.tar.gz
+ efeec6d8383c8742f2cf5650534e90aec77d6cf6 57784 linuxmuster-base7_7.2.0-rc7_all.deb
+ 91455c4f03aef74f000f19ebe41a43b9273328c6 7765 linuxmuster-base7_7.2.0-rc7_amd64.buildinfo
+Checksums-Sha256:
+ ba33e4518492fb2264d71f3f8ef4321174ef6d6cbb1d18e3c5d2c484e20fe8b5 587 linuxmuster-base7_7.2.0-rc7.dsc
+ 5d2967f47da4885d3a7585e90cfe1766b90274eff2cb6889285decd8d3b3b17e 76102 linuxmuster-base7_7.2.0-rc7.tar.gz
+ d4d6637a534e7daddfed7824f4e89b5b66d2ea7c986c7dffef420352f6051baa 57784 linuxmuster-base7_7.2.0-rc7_all.deb
+ 72297e4f425ce7328996fff6921c2fa7e9396b05bb0e5675bc70e62276fc53da 7765 linuxmuster-base7_7.2.0-rc7_amd64.buildinfo
+Files:
+ 87411657ec8bcd56f96f6192fee46deb 587 linuxmuster optional linuxmuster-base7_7.2.0-rc7.dsc
+ 93cdaf20fb7a61a24a7ca2d225fbb4c1 76102 linuxmuster optional linuxmuster-base7_7.2.0-rc7.tar.gz
+ aab908d7d4726c7abc2edb6e819394fc 57784 linuxmuster optional linuxmuster-base7_7.2.0-rc7_all.deb
+ 835bde7f431c565e8b9ea5160add55ed 7765 linuxmuster optional linuxmuster-base7_7.2.0-rc7_amd64.buildinfo
