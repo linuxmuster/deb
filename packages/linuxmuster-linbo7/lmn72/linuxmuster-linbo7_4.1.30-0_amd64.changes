@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 26 May 2023 15:29:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.30-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.30-0) lmn72; urgency=low
+ .
+   * Update kernel to 6.3.4 (60964bb).
+   * Don't build r8168 module if it exists already from previous run (e3b8260).
+   * linbo-remote: introducing command "new" (e0ff077).
+Checksums-Sha1:
+ d3de665c881507ff0c6630c4f58d2d315b690e97 1212 linuxmuster-linbo7_4.1.30-0.dsc
+ e020693deaac689e926a18df024fe1aeb5b7ba62 1963051 linuxmuster-linbo7_4.1.30-0.tar.gz
+ a4e1148078dad6924886c16ed1b9ba309d109e26 53980596 linuxmuster-linbo7_4.1.30-0_all.deb
+ de78edf2f615ca4021883347d2105195d6362e84 12497 linuxmuster-linbo7_4.1.30-0_amd64.buildinfo
+Checksums-Sha256:
+ f38ce159c0c736508c7f23d3bcdc751c008540c024688c41aeb843bbbfedf7cf 1212 linuxmuster-linbo7_4.1.30-0.dsc
+ caa59f9309172b90038d8787e5ff7493dd6b3b8e9afc27075d0a66c47bd65fdd 1963051 linuxmuster-linbo7_4.1.30-0.tar.gz
+ 54d32c79813e9ac087b1bf1cb42f8bcf5cddbbf317c40b0f6634b5fcd9b498bf 53980596 linuxmuster-linbo7_4.1.30-0_all.deb
+ 3f46d566f787969e0809fe15bd898c5983a068c915fc4115ba0337fa6e558cf5 12497 linuxmuster-linbo7_4.1.30-0_amd64.buildinfo
+Files:
+ 5e65ca677ebf82ec12b8f3f7e29cf529 1212 admin extra linuxmuster-linbo7_4.1.30-0.dsc
+ 70bf4bad9d128d90b766f4a51967db68 1963051 admin extra linuxmuster-linbo7_4.1.30-0.tar.gz
+ 1fb28517602e5422e02dae7b10e1ad27 53980596 admin extra linuxmuster-linbo7_4.1.30-0_all.deb
+ f4cc0f873839498f8c70acafd709592e 12497 admin extra linuxmuster-linbo7_4.1.30-0_amd64.buildinfo
