@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 11 Jul 2023 08:58:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.45-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.45-0) lmn71; urgency=low
+ .
+   * Removed correction of registry key paths from regpatcher, adjusted reg file examples accordingly (6fdeb7a).
+Checksums-Sha1:
+ a97d794b1213fa3bb150543054cd40d497168c08 1215 linuxmuster-linbo7_4.0.45-0.dsc
+ a5627b0895e10561ce18fa3ee45c5dca1ed7ae25 1951270 linuxmuster-linbo7_4.0.45-0.tar.gz
+ 77ab8332cbe1a4701dbfbe255b4bf3aa4c03161d 41893644 linuxmuster-linbo7_4.0.45-0_all.deb
+ 6849a01c790b68affcfb5bb540a0ff9535b3cc68 12785 linuxmuster-linbo7_4.0.45-0_amd64.buildinfo
+Checksums-Sha256:
+ 91464e96c48a3a3befaeaf805e065cf43cdd535045aa18b4eb6568633a903ff8 1215 linuxmuster-linbo7_4.0.45-0.dsc
+ 12d9b646a4d2c7dda3db328f230d8ad5fc661206f8d7dc392e088dfae8fbe24d 1951270 linuxmuster-linbo7_4.0.45-0.tar.gz
+ 4eea14979771052b627f3078a5973283e90b219e72839fe51cef3f3ef7b96195 41893644 linuxmuster-linbo7_4.0.45-0_all.deb
+ 4891633928100f0c9277326750570159fe4a4360eab5766704d9d9e836c03950 12785 linuxmuster-linbo7_4.0.45-0_amd64.buildinfo
+Files:
+ c2d0d6a99a36ee74b11729732d35f538 1215 admin extra linuxmuster-linbo7_4.0.45-0.dsc
+ d27a590375aaddd30a8012a4ade84fc0 1951270 admin extra linuxmuster-linbo7_4.0.45-0.tar.gz
+ a61a66530813c0dd816a8b315ff5c56f 41893644 admin extra linuxmuster-linbo7_4.0.45-0_all.deb
+ 865e378bf28a10a039e066622acb9b94 12785 admin extra linuxmuster-linbo7_4.0.45-0_amd64.buildinfo
