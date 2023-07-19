@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 19 Jul 2023 12:56:00 +0200
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.2-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.2.2-0) lmn72; urgency=low
+ .
+   * lmn72 rebuild.
+Checksums-Sha1:
+ 3453c350e79da3343a6345aeafa24afb71170ee6 591 linuxmuster-prepare_7.2.2-0.dsc
+ f373b11a6c4b99550a2bd0c122f915b6228486bd 32829 linuxmuster-prepare_7.2.2-0.tar.gz
+ a4ac184fcca11287904f76c20004827ec9e0db5e 16596 linuxmuster-prepare_7.2.2-0_all.deb
+ e67d5549bbea519f265c0b1db84e9cac7802d75b 7862 linuxmuster-prepare_7.2.2-0_amd64.buildinfo
+Checksums-Sha256:
+ a50f35dfd6ea0fa8edcb7052cd0bf61e004924fe344a5103eb176a37a442cd1d 591 linuxmuster-prepare_7.2.2-0.dsc
+ 3a5748d184add1013c92a58324c881949382a627ead5ab0a26845a75d5d93b3c 32829 linuxmuster-prepare_7.2.2-0.tar.gz
+ 93a6564d884c94911c89b2e2446bd72e02ba5056cbc54172f6c47c277d1302a6 16596 linuxmuster-prepare_7.2.2-0_all.deb
+ b1401721fa6a7f81468409e2a0ae7e7ef7bd7dfcbd80edd7f8b53af59551cc27 7862 linuxmuster-prepare_7.2.2-0_amd64.buildinfo
+Files:
+ 6c462f09959fb8b011211928979bad45 591 linuxmuster optional linuxmuster-prepare_7.2.2-0.dsc
+ 177cc06999af1bba13120285081e9b03 32829 linuxmuster optional linuxmuster-prepare_7.2.2-0.tar.gz
+ 93783ef08a2b307444c92f54fb6406b4 16596 linuxmuster optional linuxmuster-prepare_7.2.2-0_all.deb
+ 1dd3f98ac3d4173372c53a593250e906 7862 linuxmuster optional linuxmuster-prepare_7.2.2-0_amd64.buildinfo
