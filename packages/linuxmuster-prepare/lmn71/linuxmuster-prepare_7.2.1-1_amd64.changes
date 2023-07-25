@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 25 Jul 2023 20:51:00 +0200
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Architecture: source all
+Version: 7.2.1-1
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.2.1-1) lmn71; urgency=low
+ .
+   * Revert pull request #25 from linuxmuster/remove-gateway4 (3c75dda).
+Checksums-Sha1:
+ 51467dd74cbdac6370f8f224196111f678c3f883 591 linuxmuster-prepare_7.2.1-1.dsc
+ dfc70a0570b105f26f79e1921d94626966ddc113 32289 linuxmuster-prepare_7.2.1-1.tar.gz
+ ca582c5bf16e28322ca13248a269875becc6db1f 16252 linuxmuster-prepare_7.2.1-1_all.deb
+ 6b67011c677a5d7678f3c4a6b540b868c55c0ffa 6886 linuxmuster-prepare_7.2.1-1_amd64.buildinfo
+Checksums-Sha256:
+ e3c376d756914a46301e2180f3d7834bbdb528f83ca5c7526b75f6deb2055c4e 591 linuxmuster-prepare_7.2.1-1.dsc
+ eb83048cdc6eb03e6000f37abc61f3ce90856dfba81833a28127781445389ba7 32289 linuxmuster-prepare_7.2.1-1.tar.gz
+ eb03c98a8163ae90189bf2a67a3b45218f7becb9ea9abaf0d1a49bf3391d79c6 16252 linuxmuster-prepare_7.2.1-1_all.deb
+ bd093405e544f9abf7797379aabb6df35a30e390f19ab044da417a5bd7e73a78 6886 linuxmuster-prepare_7.2.1-1_amd64.buildinfo
+Files:
+ 314ca7d2eb7c608f62bcde6d8f25c0b6 591 linuxmuster optional linuxmuster-prepare_7.2.1-1.dsc
+ 2152a6b0f7c489c5fb459b6e52431470 32289 linuxmuster optional linuxmuster-prepare_7.2.1-1.tar.gz
+ 073977ba9d8de14b1af8ebf61f09fc3f 16252 linuxmuster optional linuxmuster-prepare_7.2.1-1_all.deb
+ a804c6eeddb7d8450fd8bd1bebae7856 6886 linuxmuster optional linuxmuster-prepare_7.2.1-1_amd64.buildinfo
