@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 25 Jul 2023 22:56:21 +0200
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.3-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.2.3-0) lmn72; urgency=low
+ .
+   * Fix default route in netplan cfg (0e7eac5).
+Checksums-Sha1:
+ afb8dee0bf3501de03fcd7a8459b104458748930 591 linuxmuster-prepare_7.2.3-0.dsc
+ 83a347b796b5cf44ebc7b069ef929b5874d295bf 33248 linuxmuster-prepare_7.2.3-0.tar.gz
+ ea4e1bb02fa12888ed0a02b01cc24f9d8ad0ea0f 17008 linuxmuster-prepare_7.2.3-0_all.deb
+ eedceeceb2f5bdf4be2cfa70ac1c8befc4b759a3 7862 linuxmuster-prepare_7.2.3-0_amd64.buildinfo
+Checksums-Sha256:
+ cb7af645f6f90ef4d89e54a9dd07569d7d443ae4015454f0cf6f3104f4244bb0 591 linuxmuster-prepare_7.2.3-0.dsc
+ a5280f4663e1b41dc4a7e84f8517e8cfa6b39df166916d228ef82369f6735082 33248 linuxmuster-prepare_7.2.3-0.tar.gz
+ 336ecde06d7a408a8d5163255bfb9aee1cdc8273c8e91fafcd85d00904771c27 17008 linuxmuster-prepare_7.2.3-0_all.deb
+ ca72bf7889e12a75402d4f973f1bdeb0ec7bc8907f6329d22326f2675e07784d 7862 linuxmuster-prepare_7.2.3-0_amd64.buildinfo
+Files:
+ 4160bbfe9ec5b695e6960ff897eaded6 591 linuxmuster optional linuxmuster-prepare_7.2.3-0.dsc
+ 32bb85e29169a942d50ce67760c56839 33248 linuxmuster optional linuxmuster-prepare_7.2.3-0.tar.gz
+ c48370dc121c86ff04afa287012fb2b6 17008 linuxmuster optional linuxmuster-prepare_7.2.3-0_all.deb
+ 5a7abc3a88eba6118d8b4db3cd450c4e 7862 linuxmuster optional linuxmuster-prepare_7.2.3-0_amd64.buildinfo
