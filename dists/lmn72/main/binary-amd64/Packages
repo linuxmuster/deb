@@ -54,18 +54,18 @@ Description: linuxmuster-linbo7
  This package contains kernel, initrd, scripts and pxe boot configuration for the Linux-based Network Boot (LINBO) boot/install/repair system.
 
 Package: linuxmuster-prepare
-Version: 7.2.2-0
+Version: 7.2.3-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
-Installed-Size: 63
+Installed-Size: 64
 Depends: net-tools, python3-ipy, python3-netifaces, python3-pip, quota, rsync, ssh, vim, bash-completion, netplan.io, lvm2
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-prepare/linuxmuster-prepare_7.2.2-0_all.deb
-Size: 16596
-SHA256: 93a6564d884c94911c89b2e2446bd72e02ba5056cbc54172f6c47c277d1302a6
-SHA1: a4ac184fcca11287904f76c20004827ec9e0db5e
-MD5sum: 93783ef08a2b307444c92f54fb6406b4
+Filename: pool/main/l/linuxmuster-prepare/linuxmuster-prepare_7.2.3-0_all.deb
+Size: 17008
+SHA256: 336ecde06d7a408a8d5163255bfb9aee1cdc8273c8e91fafcd85d00904771c27
+SHA1: ea4e1bb02fa12888ed0a02b01cc24f9d8ad0ea0f
+MD5sum: c48370dc121c86ff04afa287012fb2b6
 Description: linuxmuster.net pre setup configuration scripts
 
 Package: linuxmuster-webui7
