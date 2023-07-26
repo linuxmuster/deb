@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 26 Jul 2023 15:12:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Architecture: source all
+Version: 4.0.46-0
+Distribution: lmn71
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.0.46-0) lmn71; urgency=low
+ .
+   * Fix CurrentControlSet with regpatcher (9d6734b).
+Checksums-Sha1:
+ 2f31118686c348c30620fff7d9ed5e12fcf12bc2 1215 linuxmuster-linbo7_4.0.46-0.dsc
+ aa572d382ce7a8c1bb4cf4b38dea94b584e152ab 1951288 linuxmuster-linbo7_4.0.46-0.tar.gz
+ bd3aed17a1ec3c5f12c16f406ce7344b5f88dedb 41893872 linuxmuster-linbo7_4.0.46-0_all.deb
+ 2f8c2a479138d84a5e3472105f7fa7a21f1747d3 12785 linuxmuster-linbo7_4.0.46-0_amd64.buildinfo
+Checksums-Sha256:
+ 3b79be6bc20bd13a905c6196caa77d315d9cc20b244ca709311f839d75c948a3 1215 linuxmuster-linbo7_4.0.46-0.dsc
+ 703e0be27fade6aae936b7ec8c82e0074d0d586a1f010524b4596302d5204d7c 1951288 linuxmuster-linbo7_4.0.46-0.tar.gz
+ 2dcb8e03b098a31ede7def6695b198d046d895f37bd08e5509bf62c1d432bd58 41893872 linuxmuster-linbo7_4.0.46-0_all.deb
+ 15e45695e0e193ffe1d0b1cd4ff88fe0bf55e6620dc17e09983dffb6231a8223 12785 linuxmuster-linbo7_4.0.46-0_amd64.buildinfo
+Files:
+ ca9394f818cf901416a98a5d8cb7792e 1215 admin extra linuxmuster-linbo7_4.0.46-0.dsc
+ 8355a7cb043630e6fb8196d1cab16f50 1951288 admin extra linuxmuster-linbo7_4.0.46-0.tar.gz
+ f160a30880d4708f20970ad64582d837 41893872 admin extra linuxmuster-linbo7_4.0.46-0_all.deb
+ 6aafb8eb789749902c4176a3366af620 12785 admin extra linuxmuster-linbo7_4.0.46-0_amd64.buildinfo
