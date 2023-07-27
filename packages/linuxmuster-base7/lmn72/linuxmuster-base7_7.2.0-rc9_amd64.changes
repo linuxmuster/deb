@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 27 Jul 2023 13:11:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0-rc9
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.0-rc9) lmn72; urgency=low
+ .
+   * revert netplan fix (b50a4ed).
+Checksums-Sha1:
+ 94abc72607fb1f0d2a793ac1355c1617599903d7 587 linuxmuster-base7_7.2.0-rc9.dsc
+ 222cbd1369d49b00e050446d00106992c106dc91 76481 linuxmuster-base7_7.2.0-rc9.tar.gz
+ 5ad7303266e53d487eceb9ece0f31641a98f9e1e 57860 linuxmuster-base7_7.2.0-rc9_all.deb
+ 3d2fbc124b37a9c228c61313b99d1fa66249e11b 7860 linuxmuster-base7_7.2.0-rc9_amd64.buildinfo
+Checksums-Sha256:
+ 83235d079b610a6609bcc1c76ba8d310031d70d89a2f443206e3bad770d5f2e3 587 linuxmuster-base7_7.2.0-rc9.dsc
+ 021db2f23125b32b8926d3c5dec79511ccc6dcd3537b4110721a4ea1f8359e1c 76481 linuxmuster-base7_7.2.0-rc9.tar.gz
+ c46bdc92ba94d392a640a054537fb72d003145833d8cf71ca5097276c75b5922 57860 linuxmuster-base7_7.2.0-rc9_all.deb
+ 017645a1165e9dd06ed1841c0eb28a6d0d05f7a2325925750f593c7c90d1a03e 7860 linuxmuster-base7_7.2.0-rc9_amd64.buildinfo
+Files:
+ e40e50006536bfa997c368c823e47f02 587 linuxmuster optional linuxmuster-base7_7.2.0-rc9.dsc
+ 8eaeb6720af1017c3b02f413fc80a3dc 76481 linuxmuster optional linuxmuster-base7_7.2.0-rc9.tar.gz
+ 6c45d9b65a333b9d23e1e0ba98d147b2 57860 linuxmuster optional linuxmuster-base7_7.2.0-rc9_all.deb
+ 41dbd4911b5c78bbc7a8a7eecd009176 7860 linuxmuster optional linuxmuster-base7_7.2.0-rc9_amd64.buildinfo
