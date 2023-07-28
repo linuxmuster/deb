@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.2.0-rc9
+Version: 7.2.0-rc10
 Checksums-Md5:
- e40e50006536bfa997c368c823e47f02 587 linuxmuster-base7_7.2.0-rc9.dsc
- 6c45d9b65a333b9d23e1e0ba98d147b2 57860 linuxmuster-base7_7.2.0-rc9_all.deb
+ 9a89b9039b4cee1ee4b3797643bf26b4 591 linuxmuster-base7_7.2.0-rc10.dsc
+ abd878cefe8ae7ba9fbd92dc506ab5f2 58070 linuxmuster-base7_7.2.0-rc10_all.deb
 Checksums-Sha1:
- 94abc72607fb1f0d2a793ac1355c1617599903d7 587 linuxmuster-base7_7.2.0-rc9.dsc
- 5ad7303266e53d487eceb9ece0f31641a98f9e1e 57860 linuxmuster-base7_7.2.0-rc9_all.deb
+ cc7a453c5e53e4a83a7349b844b6f9b102eb64ef 591 linuxmuster-base7_7.2.0-rc10.dsc
+ 366957b7c008f39a42984a852e967a5a50c95169 58070 linuxmuster-base7_7.2.0-rc10_all.deb
 Checksums-Sha256:
- 83235d079b610a6609bcc1c76ba8d310031d70d89a2f443206e3bad770d5f2e3 587 linuxmuster-base7_7.2.0-rc9.dsc
- c46bdc92ba94d392a640a054537fb72d003145833d8cf71ca5097276c75b5922 57860 linuxmuster-base7_7.2.0-rc9_all.deb
+ 9ff7e040e144a366c9ac88493a2b6836fd89b73f65a1a3bb42928767ffa6df35 591 linuxmuster-base7_7.2.0-rc10.dsc
+ 64b6cbcadef83142a82933bf2b748745ea8f6c173a175733c0beb94c258152a6 58070 linuxmuster-base7_7.2.0-rc10_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 27 Jul 2023 11:12:36 +0000
+Build-Date: Fri, 28 Jul 2023 16:49:34 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -226,4 +226,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1690456260"
+ SOURCE_DATE_EPOCH="1690562869"

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 28 Jul 2023 18:47:49 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0-rc10
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.0-rc10) lmn72; urgency=low
+ .
+   * added netplan gateway fix to linuxmuster-import-subnets (a206eac).
+Checksums-Sha1:
+ cc7a453c5e53e4a83a7349b844b6f9b102eb64ef 591 linuxmuster-base7_7.2.0-rc10.dsc
+ 09b4ad5ae003e5884658fcffe9bb1aa0f00272f4 76834 linuxmuster-base7_7.2.0-rc10.tar.gz
+ 366957b7c008f39a42984a852e967a5a50c95169 58070 linuxmuster-base7_7.2.0-rc10_all.deb
+ d6a14a440dd29eb08315176bc6a47d56b4d96c79 7867 linuxmuster-base7_7.2.0-rc10_amd64.buildinfo
+Checksums-Sha256:
+ 9ff7e040e144a366c9ac88493a2b6836fd89b73f65a1a3bb42928767ffa6df35 591 linuxmuster-base7_7.2.0-rc10.dsc
+ 35eafd6fdd5c73a80d98b653b6b542732a2317c05118c856ea04e3d8d5f2f772 76834 linuxmuster-base7_7.2.0-rc10.tar.gz
+ 64b6cbcadef83142a82933bf2b748745ea8f6c173a175733c0beb94c258152a6 58070 linuxmuster-base7_7.2.0-rc10_all.deb
+ 02613f7d5bf45b96bae65fd33824849261c6d11d5b459fe8b7a888adc5882b8d 7867 linuxmuster-base7_7.2.0-rc10_amd64.buildinfo
+Files:
+ 9a89b9039b4cee1ee4b3797643bf26b4 591 linuxmuster optional linuxmuster-base7_7.2.0-rc10.dsc
+ 35136ea429a584f60817e0f5ca3e6a3e 76834 linuxmuster optional linuxmuster-base7_7.2.0-rc10.tar.gz
+ abd878cefe8ae7ba9fbd92dc506ab5f2 58070 linuxmuster optional linuxmuster-base7_7.2.0-rc10_all.deb
+ 3eac752a9c210381027d1841e865b3d1 7867 linuxmuster optional linuxmuster-base7_7.2.0-rc10_amd64.buildinfo
