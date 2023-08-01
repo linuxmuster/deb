@@ -69,18 +69,18 @@ MD5sum: bf01b2872a94422b31e379c0a662266f
 Description: linuxmuster.net pre setup configuration scripts
 
 Package: linuxmuster-webui7
-Version: 7.2.20
+Version: 7.2.21
 Architecture: all
 Maintainer: Andreas Till <andreas.till@netzint.de>
-Installed-Size: 18152
+Installed-Size: 18153
 Depends: python3-pip, python3-dev, python3-jinja2, python3-lxml, libffi-dev, libssl-dev, libjpeg-dev, libpng-dev, uuid-dev, libkrb5-dev, gcc, python3-dbus, python3-augeas, python3-apt, ntpdate, libldap2-dev, libsasl2-dev, python3-ldap, sophomorix-samba (>= 3.90.0-2), nmap
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.20_all.deb
-Size: 1006578
-SHA256: 9d7aa59dc0dc809b15fe751a3923b9efd2669f0cbfc58e702223a66aa05f1d33
-SHA1: 7d9c2d2771790019fecc84318a7a10ca0d01285f
-MD5sum: 11248ed63fbcb75bb86c50a763eb2438
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.21_all.deb
+Size: 1006766
+SHA256: 1a61520aa0906a0ec17bf13c26010b2114d7ab8cad2923f5db011f1dfa4fd248
+SHA1: 841047c0bb3e0cceddb2b531f7adf81fb649298b
+MD5sum: c06cc0a6f887046f1858b9b286a7c787
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
