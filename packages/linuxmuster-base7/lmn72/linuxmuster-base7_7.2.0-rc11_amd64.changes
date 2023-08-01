@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Tue, 01 Aug 2023 11:11:55 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0-rc11
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.0-rc11) lmn72; urgency=low
+ .
+   * postinst: fix permissions of samba's ntp socket directory (f84835a).
+   * linuxmuster-import-subnets: use gateway ip from setup.ini rather than firewall ip (fa83151).
+   * change codename to "release candidate" (8b86c6d).
+Checksums-Sha1:
+ 7ccdf7bee5a8f30ddf927b6cc2ba8a635cd88aeb 591 linuxmuster-base7_7.2.0-rc11.dsc
+ 23e7e9d9fc57d73b71776a494f1e52778fddacd2 77020 linuxmuster-base7_7.2.0-rc11.tar.gz
+ fb59bdf2753b00625873d017130163ec8bb46b00 58246 linuxmuster-base7_7.2.0-rc11_all.deb
+ 59fc4d77da4ccf22270659cdeca835122985df8c 7867 linuxmuster-base7_7.2.0-rc11_amd64.buildinfo
+Checksums-Sha256:
+ e18f4b9692fd29acf784f3dc0549581946c3fce11828a957e78d3e88572af1ff 591 linuxmuster-base7_7.2.0-rc11.dsc
+ 1f510714557761843fac21fd58617fc821321688e4dfb5a2ae143e528c7adb88 77020 linuxmuster-base7_7.2.0-rc11.tar.gz
+ 52e7d77721ddc952f46d6c19f42c555b381d01879be730267f815f02e26b4efe 58246 linuxmuster-base7_7.2.0-rc11_all.deb
+ 1e6d8f27b88ffc00055f6d82b8ba0aa6bda7f140622e00416de4cd25c12d8db0 7867 linuxmuster-base7_7.2.0-rc11_amd64.buildinfo
+Files:
+ d636cf9cb1641f52404178a0e74ed330 591 linuxmuster optional linuxmuster-base7_7.2.0-rc11.dsc
+ 1db5c4db0320d2a150480d1f61dfb0c8 77020 linuxmuster optional linuxmuster-base7_7.2.0-rc11.tar.gz
+ cd88c0f7e848ef75850fd70b47adb506 58246 linuxmuster optional linuxmuster-base7_7.2.0-rc11_all.deb
+ 5c507456c74a7dfea257438097b22fe9 7867 linuxmuster optional linuxmuster-base7_7.2.0-rc11_amd64.buildinfo
