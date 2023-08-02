@@ -69,7 +69,7 @@ MD5sum: bf01b2872a94422b31e379c0a662266f
 Description: linuxmuster.net pre setup configuration scripts
 
 Package: linuxmuster-webui7
-Version: 7.2.21
+Version: 7.2.22
 Architecture: all
 Maintainer: Andreas Till <andreas.till@netzint.de>
 Installed-Size: 18153
@@ -77,10 +77,10 @@ Depends: python3-pip, python3-dev, python3-jinja2, python3-lxml, libffi-dev, lib
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.21_all.deb
-Size: 1006766
-SHA256: 1a61520aa0906a0ec17bf13c26010b2114d7ab8cad2923f5db011f1dfa4fd248
-SHA1: 841047c0bb3e0cceddb2b531f7adf81fb649298b
-MD5sum: c06cc0a6f887046f1858b9b286a7c787
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.22_all.deb
+Size: 1006780
+SHA256: 10f6c9d34fd770e6f779e5c6fdf6010df6b87f23bc5cc95233a217a86bc3e28a
+SHA1: 97e286eee24a51accabbc9dd97be23f429e0d7ae
+MD5sum: fb8b51ca50447b4da7146807d1d42be2
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
