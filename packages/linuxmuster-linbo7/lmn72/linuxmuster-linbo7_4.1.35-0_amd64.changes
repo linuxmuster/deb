@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sat, 25 Aug 2023 14:09:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.35-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.35-0) lmn72; urgency=low
+ .
+   * linbo-configure.sh: refactor dropbear ssh key creation (7b62add).
+   * rsync-post-upload.sh: remove last remnants of opsi (1868db1).
+   * fix providing rtl8168 firmware (312cc3d).
+   * add r8168 patches (0dc0d45).
+   * refactor r8168 build (e768b1a).
+   * update kernel to 6.4.12 (dba4f3e).
+Checksums-Sha1:
+ 2f57d96242c4d0a3b5d409a9486ff7a2a68a68e6 1212 linuxmuster-linbo7_4.1.35-0.dsc
+ e9b1d8e8ab11d4a78c6cd7b8e4f349fe2c8d7dad 1965010 linuxmuster-linbo7_4.1.35-0.tar.gz
+ d7d6fc3b30fefb01e8b9b741fa1a4b21482c64fe 53656072 linuxmuster-linbo7_4.1.35-0_all.deb
+ 66779f0225b5f27973fa95c3775a28f1845d6fae 12497 linuxmuster-linbo7_4.1.35-0_amd64.buildinfo
+Checksums-Sha256:
+ 9d3ee99cc7369e93ea8a92ca7492ade692d4e56b2c31e05af5182dfb00f779cf 1212 linuxmuster-linbo7_4.1.35-0.dsc
+ fbaf54be71857277d7049940f704c6e3f75b3124bfad0a5f0320219ea9ba81fb 1965010 linuxmuster-linbo7_4.1.35-0.tar.gz
+ e0d66320429496407f92e15ac5abfb477a081fa551637c8d44fef57f4ad8766f 53656072 linuxmuster-linbo7_4.1.35-0_all.deb
+ 3cc70170394dbc77fe5eb0d3370beea1d7960f17072e36a1e13f5baa59689eff 12497 linuxmuster-linbo7_4.1.35-0_amd64.buildinfo
+Files:
+ ab51df9946e03892f9b42951a045e524 1212 admin extra linuxmuster-linbo7_4.1.35-0.dsc
+ fad7d9a5ff85194755690e4c989acaaf 1965010 admin extra linuxmuster-linbo7_4.1.35-0.tar.gz
+ eac03ee3314cef806476ecd5313c7e9e 53656072 admin extra linuxmuster-linbo7_4.1.35-0_all.deb
+ 71dcf3b9bdfdeda7afec8b90da8fa9b1 12497 admin extra linuxmuster-linbo7_4.1.35-0_amd64.buildinfo
