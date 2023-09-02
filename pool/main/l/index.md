@@ -8,4 +8,5 @@ Files in this directory:
 - 📁 [linuxmuster-linbo7/](linuxmuster-linbo7)
 - 📁 [linuxmuster-linuxclient7/](linuxmuster-linuxclient7)
 - 📁 [linuxmuster-prepare/](linuxmuster-prepare)
+- 📁 [linuxmuster-tools7/](linuxmuster-tools7)
 - 📁 [linuxmuster-webui7/](linuxmuster-webui7)
