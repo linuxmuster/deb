@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Tue, 05 Sep 2023 08:55:45 +0200
+Source: sophomorix4
+Binary: sophomorix-belwue-mail sophomorix-developer sophomorix-dump sophomorix-samba sophomorix-vampire
+Architecture: source all
+Version: 3.92.1-3
+Distribution: lmn72
+Urgency: medium
+Maintainer: Rüdiger Beck <jeffbeck@web.de>
+Changed-By: bz <bz@adler>
+Description:
+ sophomorix-belwue-mail - Reading external Mail data at Belwue and suggest actions
+ sophomorix-developer - Test suite for sophomorix-samba
+ sophomorix-dump - Migration dump script
+ sophomorix-samba - Sophomorix for Samba 4
+ sophomorix-vampire - Migration vampire script
+Changes:
+ sophomorix4 (3.92.1-3) lmn72; urgency=medium
+ .
+   * package ONLY for jammy samba, (stat -> allinfo, -mNT1 deprecated)
+Checksums-Sha1:
+ deca7dbf322527ac1d2e124f39d7ffbc1bd00b18 845 sophomorix4_3.92.1-3.dsc
+ 2e6c9652a2a38294a1d9ab37bb529084088b5b60 750652 sophomorix4_3.92.1-3.tar.xz
+ 20f534b6f3acc4f1c97fe692d80d64214431f545 19544 sophomorix-belwue-mail_3.92.1-3_all.deb
+ 70785ca8086e46b03c6de14a5eea911abbde2d11 86808 sophomorix-developer_3.92.1-3_all.deb
+ 60033f2ad58efb2cd45d25d3cedcd95c45c1fce0 12500 sophomorix-dump_3.92.1-3_all.deb
+ 81ec85084d73e5cc682230119288e2a43bd238b5 251288 sophomorix-samba_3.92.1-3_all.deb
+ 702a3629b636bacd465f54a8cfd2d8c4d6c34eb7 21784 sophomorix-vampire_3.92.1-3_all.deb
+ 4eff27db2aabdc59207cf42ebe7934390cb566f4 11439 sophomorix4_3.92.1-3_amd64.buildinfo
+Checksums-Sha256:
+ e09f00658865be49976accc097f172a3ccdbcb3eb196be67938e103336e41022 845 sophomorix4_3.92.1-3.dsc
+ ac74a67dfd86d0951a14f78a5b7af65fabc8fa924c482be9237d8d35c3b2514d 750652 sophomorix4_3.92.1-3.tar.xz
+ f42d5bfca50784058c1fccfb57d5b52542e79e86020b64ac2117f95415ef18c0 19544 sophomorix-belwue-mail_3.92.1-3_all.deb
+ 1b58fc4cb4981b636b17841bfc6e4f8104c7d85daa094f6720d3b5723c4c2d7a 86808 sophomorix-developer_3.92.1-3_all.deb
+ ff339adecab4b24937da749ff8dfc0a1b4afd88189efd0e74152445480826a3f 12500 sophomorix-dump_3.92.1-3_all.deb
+ 9a6616cb736d445e627b3cc86728d87f697ec6cfd6bd44df747556f036eb85e3 251288 sophomorix-samba_3.92.1-3_all.deb
+ b1284f2c9b7ca2bfd4c364aa9f8ac45c8f61ec8b15803b7bdfd38f880d5aa8f9 21784 sophomorix-vampire_3.92.1-3_all.deb
+ 98fdce1aace03476027cec9d4d5936b5776827354a829b110d5f50229bc3104e 11439 sophomorix4_3.92.1-3_amd64.buildinfo
+Files:
+ e5d3b58b9b2511d8aa9283893260da9a 845 admin optional sophomorix4_3.92.1-3.dsc
+ 9f4b674976f910be414f7b34048b48fb 750652 admin optional sophomorix4_3.92.1-3.tar.xz
+ d8d8de31b0dd84b51cae57a37ef7920c 19544 admin optional sophomorix-belwue-mail_3.92.1-3_all.deb
+ b1d5590892b58fc9c920e4e93cf2954b 86808 admin optional sophomorix-developer_3.92.1-3_all.deb
+ 596d3230e611c84ac4e063fc9d74a4bb 12500 admin optional sophomorix-dump_3.92.1-3_all.deb
+ ef16d0f165ad69dbc2419b27e35500e6 251288 admin optional sophomorix-samba_3.92.1-3_all.deb
+ bd4fa350dbfab37cb6aa077177cd0c4f 21784 admin optional sophomorix-vampire_3.92.1-3_all.deb
+ b3a1f783729c86fb29339e89475a7196 11439 admin optional sophomorix4_3.92.1-3_amd64.buildinfo
