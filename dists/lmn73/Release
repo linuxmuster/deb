@@ -1,37 +1,37 @@
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
-Codename: bionic-testing
+Codename: lmn73
 Date: Thu, 07 Sep 2023 07:32:01 UTC
 Architectures: i386 amd64
 Components: main
-Description: bionic testing
+Description: lmn73 (jammy) stable
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
- 3ebaf5be7f34456ffc1a8e84c3366ea3 118 main/binary-i386/Release
+ 7ca3541563c4ea8dc9bea7c511b8425e 124 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
- f57c20344c8dca17b80c17c7028c6a7b 119 main/binary-amd64/Release
+ ea8710f6d100af1f5cf83efb01b7a8db 125 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
- ed6ce238350a9a61c99f41fa11a063ed 120 main/source/Release
+ d2519de81fb5c3a7010203ac8518c890 126 main/source/Release
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
- 91624568ab79be04def3d593952969fba370ae97 118 main/binary-i386/Release
+ 6be9a9d2b594510d912731f641c774e85ec4c3f6 124 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
- 905007d2e9f9c40d973fd28efe32c03dc86d3607 119 main/binary-amd64/Release
+ 8be52f5ca88034b03899c525e2e3a97862ce97dd 125 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
- 9283e26271396fd0df40698075636787914cb1db 120 main/source/Release
+ 9e75a1e8d0cfc8ba493a8587893ab0f9145025bd 126 main/source/Release
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
- 6e10ca6acb77aa7fa69169737b33baa8202a8ca67b62ee026770299385fbdaac 118 main/binary-i386/Release
+ 2437c17d25e8a7cd7e36a90cd6b8728d0d2c8eb6a8e1ad2d0e1308361c5f713e 124 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
- 3dc10182d01a25c08ad3598548114ad9b68927a069564352fbbcbbac85a6cc82 119 main/binary-amd64/Release
+ 3838f5f9af7701f35b6671a6dcb12103a33bbe20f1edcd1a7dd4d0deb8583912 125 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
- e00b8147766d2ff261666ff1f91d8696c859a18821e7b487afb3af983e89d544 120 main/source/Release
+ 2fb9001b2aeae5d7a223ba0fd9094ee2336e7101ec21fb5e9a46020fa62c4964 126 main/source/Release
