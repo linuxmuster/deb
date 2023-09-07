@@ -22,7 +22,8 @@ This repo currently contains the following packages:
 - [prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71)
 - [webui7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71, lmn72)
 - [sophomorix4](https://github.com/linuxmuster/sophomorix4) (lmn71, lmn71-testing)
-
+- [tools](https://github.com/linuxmuster/linuxmuster-tools) (lmn72)
+  
 # Setup
 
 To use the repository, please follow these steps:
