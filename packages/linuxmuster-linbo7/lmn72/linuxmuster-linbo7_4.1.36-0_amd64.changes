@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 18 Sep 2023 18:33:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.1.36-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.1.36-0) lmn72; urgency=low
+ .
+   * Update kernel to 6.5.3 (a3ad8b7).
+   * Fix #101: images with a qcow2-size of ca 52 GB and bigger cannot be
+     distributed via torrent because of an invalid metainfo file. (30d83f8).
+Checksums-Sha1:
+ 8bee5c7b80087fe282cf769316bc3fca5689a215 1212 linuxmuster-linbo7_4.1.36-0.dsc
+ 0881b948d7aecd9a6bdc0a7cd906fe45cb83aa79 1965613 linuxmuster-linbo7_4.1.36-0.tar.gz
+ e27a77fd136cee8e19e0af9aec1177ac811dad8c 53883788 linuxmuster-linbo7_4.1.36-0_all.deb
+ 6b98b3a663b2c68d14804b059fe9d79c1f5afc55 12497 linuxmuster-linbo7_4.1.36-0_amd64.buildinfo
+Checksums-Sha256:
+ ce05d9e11886c5fb2dfd8c8134f59afff26ced8cff8279c1219870fe8ed47f6b 1212 linuxmuster-linbo7_4.1.36-0.dsc
+ dd67f65af670b11c9824743f283e2099fadf53c29cb0b484a49989105864d27d 1965613 linuxmuster-linbo7_4.1.36-0.tar.gz
+ 7b43cc57178c6b48b80567a35192782638050dfa3f3bf784726d5475d635baf6 53883788 linuxmuster-linbo7_4.1.36-0_all.deb
+ 9790b47faad6b62362fe8d8c1011d4b26fc568d3052b3ef19d7913f0480f52b7 12497 linuxmuster-linbo7_4.1.36-0_amd64.buildinfo
+Files:
+ 9b73d721d251df43ca190623d434b547 1212 admin extra linuxmuster-linbo7_4.1.36-0.dsc
+ ea19714f84fbe13b6c328120e69cae4c 1965613 admin extra linuxmuster-linbo7_4.1.36-0.tar.gz
+ 04e396f808a9239dddee12c73a96d5c3 53883788 admin extra linuxmuster-linbo7_4.1.36-0_all.deb
+ 6551c1744242c727617ae648eea06aec 12497 admin extra linuxmuster-linbo7_4.1.36-0_amd64.buildinfo
