@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 23 Sep 2023 09:33:17 +0100
+Source: linuxmuster-linbo-gui7
+Binary: linuxmuster-linbo-gui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.3
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linbo-gui7 - Linuxmuster Linbo GUI
+Changes:
+ linuxmuster-linbo-gui7 (7.2.3) lmn72; urgency=low
+ .
+   * fix: show correct os icon (#90)
+   * feat: skip autostart delay if os button is pressed (#62)
+Checksums-Sha1:
+ c46b6b3f8dad47fb79cea1f2d270af20817bee44 711 linuxmuster-linbo-gui7_7.2.3.dsc
+ b64bc6e4fa78f50a188572045b4bef2df2366546 3577815 linuxmuster-linbo-gui7_7.2.3.tar.gz
+ 39f0a88208c22ca3f3da3ea3ebe79d1ea414cff3 9363686 linuxmuster-linbo-gui7_7.2.3_all.deb
+ c01f0420be31898023277cd6dd4f0985c1c9e463 8539 linuxmuster-linbo-gui7_7.2.3_amd64.buildinfo
+Checksums-Sha256:
+ cb964901fcedb99179d2cc5ce66601eb240ee4ef4345fc2ee3faeb259b78e93f 711 linuxmuster-linbo-gui7_7.2.3.dsc
+ 06c4e3c585f56865c4087e76a2a9bbadfbae9f5c404c56d9cc1197f3823d4398 3577815 linuxmuster-linbo-gui7_7.2.3.tar.gz
+ ffc6211724c63c34a08bba924f65cf9c58ecd7ddcd324c6ac366437df7b3f624 9363686 linuxmuster-linbo-gui7_7.2.3_all.deb
+ be34ce35feb9934622e1bdec63f3970238f70ecefacfa733e98b85a98759c064 8539 linuxmuster-linbo-gui7_7.2.3_amd64.buildinfo
+Files:
+ 78e388d87c9ccd87f8e981cc0d010703 711 admin extra linuxmuster-linbo-gui7_7.2.3.dsc
+ 1c7b576fd8714fc6b33eea029f7a0c2f 3577815 admin extra linuxmuster-linbo-gui7_7.2.3.tar.gz
+ d794492f27fc9e01246fe43e40ab8173 9363686 admin extra linuxmuster-linbo-gui7_7.2.3_all.deb
+ b3ccfe7e9a201fbfd3176bfdbb019ac1 8539 admin extra linuxmuster-linbo-gui7_7.2.3_amd64.buildinfo
