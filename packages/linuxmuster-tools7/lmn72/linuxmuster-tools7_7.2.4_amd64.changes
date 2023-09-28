@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Thu, 28 Sep 2023 15:57:21 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.4
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.4) lmn72; urgency=medium
+ .
+   * [ldapreader] Asdict method for projects
+   * [ldapreader] Add admins and members count in projects
+   * [ldapreader] Add printers to user model
+   * [ldapreader] Add members to group model
+   * [ldapreader] Add isAdmin bool to user model
+   * [samba-tool] Use drive dataclass model and drivemanager
+   * [samba-tool] Export drives as list
+   * [samba-tool] Parse filters in policy
+   * [samba-tool] Catch path errors
+Checksums-Sha1:
+ ade4b2f9c1f84952c96b8b892aedd00579abcdd8 576 linuxmuster-tools7_7.2.4.dsc
+ f35070a62e5344aef8a40103109bc66772303f36 36857 linuxmuster-tools7_7.2.4.tar.gz
+ 730c7c47ab33c3a63e55f1dc07be976e5ca258e5 20856 linuxmuster-tools7_7.2.4_all.deb
+ 9b3dfc4d5205f17fa632903431da90516e32e98e 7819 linuxmuster-tools7_7.2.4_amd64.buildinfo
+Checksums-Sha256:
+ c6b3cae64299a7feca0264ce5489e540e14f67d834e83dac4dc1840c40af8e1a 576 linuxmuster-tools7_7.2.4.dsc
+ 69068b1fb341eeadd4da7a64e485b1dfa99a087711d02764e8a7e93da42102ba 36857 linuxmuster-tools7_7.2.4.tar.gz
+ 5154d55d2ad7a703758510f06f0cb68576abd0e7cf89a3fadbc376e83b9fa835 20856 linuxmuster-tools7_7.2.4_all.deb
+ 3b80b7db929ae785cc815fc9f1a10e914f7a81f6919254fb59eb3a0c91bfc974 7819 linuxmuster-tools7_7.2.4_amd64.buildinfo
+Files:
+ a8119e8ba6bdd9c4a1b034df6e35aef9 576 linuxmuster optional linuxmuster-tools7_7.2.4.dsc
+ 1ab97f63ac3660e2192eeefc05bf87d0 36857 linuxmuster optional linuxmuster-tools7_7.2.4.tar.gz
+ 8f5b184c4b696b56f2d1f4126672b590 20856 linuxmuster optional linuxmuster-tools7_7.2.4_all.deb
+ be6bc0e268342bc9e78b00c2de196238 7819 linuxmuster optional linuxmuster-tools7_7.2.4_amd64.buildinfo
