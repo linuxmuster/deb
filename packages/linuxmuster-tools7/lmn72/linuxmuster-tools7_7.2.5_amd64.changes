@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sat, 14 Oct 2023 10:45:50 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.5
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.5) lmn72; urgency=medium
+ .
+   * [ldapreader] Add GSSAPI support
+   * [ldapreader] Requests for exam users
+   * [samba-tool] Better files organisation
+Checksums-Sha1:
+ 05c6c8c9612d247f2c131ae6adfacdcbad56005e 576 linuxmuster-tools7_7.2.5.dsc
+ 3bda6b2c2a7c73bd9caee81c2ca733f393021688 38095 linuxmuster-tools7_7.2.5.tar.gz
+ 04289c9a4d7f32710ce14a365360f8925111253f 21452 linuxmuster-tools7_7.2.5_all.deb
+ 55701301579b76b00f0f83f4ac2db1ec432c3bae 7819 linuxmuster-tools7_7.2.5_amd64.buildinfo
+Checksums-Sha256:
+ 018fa7d7356a3bf6738496303fb14158ccc0ff8bedb3a4fddef188009076ac2d 576 linuxmuster-tools7_7.2.5.dsc
+ 9494cf9ad64d909d0e4a222ebadce7460ed1100ae5607d7ccd485ba885f8def9 38095 linuxmuster-tools7_7.2.5.tar.gz
+ 9235107b973601f9f96df121efa4b80aa57dcf473514bd36f56a6382e7bc19bb 21452 linuxmuster-tools7_7.2.5_all.deb
+ aceb1e67998f33fbc51f824310284d34686fee4d76223a74387966a4dfc41db0 7819 linuxmuster-tools7_7.2.5_amd64.buildinfo
+Files:
+ 5b1298e7ed680b33b95d8018685e452a 576 linuxmuster optional linuxmuster-tools7_7.2.5.dsc
+ 7f160127fa596c73d6e36073f1685ae0 38095 linuxmuster optional linuxmuster-tools7_7.2.5.tar.gz
+ a7799371ec5ea0fb14a37948011eb126 21452 linuxmuster optional linuxmuster-tools7_7.2.5_all.deb
+ bb76fcb4fd4a97f31cc8f4951ad5de55 7819 linuxmuster optional linuxmuster-tools7_7.2.5_amd64.buildinfo
