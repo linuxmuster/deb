@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.2.5
+Version: 7.2.6
 Checksums-Md5:
- 5b1298e7ed680b33b95d8018685e452a 576 linuxmuster-tools7_7.2.5.dsc
- a7799371ec5ea0fb14a37948011eb126 21452 linuxmuster-tools7_7.2.5_all.deb
+ 4baa3e7bc624bca4ba3b593b303f826e 576 linuxmuster-tools7_7.2.6.dsc
+ ffc6747002eb2ec11af6277fa3abbb14 21504 linuxmuster-tools7_7.2.6_all.deb
 Checksums-Sha1:
- 05c6c8c9612d247f2c131ae6adfacdcbad56005e 576 linuxmuster-tools7_7.2.5.dsc
- 04289c9a4d7f32710ce14a365360f8925111253f 21452 linuxmuster-tools7_7.2.5_all.deb
+ 7dbf3f401fe1d086bf8c5d4dd5d16aff61709ce9 576 linuxmuster-tools7_7.2.6.dsc
+ 810a315cbf481010fbf477c684685b2fc5761ea1 21504 linuxmuster-tools7_7.2.6_all.deb
 Checksums-Sha256:
- 018fa7d7356a3bf6738496303fb14158ccc0ff8bedb3a4fddef188009076ac2d 576 linuxmuster-tools7_7.2.5.dsc
- 9235107b973601f9f96df121efa4b80aa57dcf473514bd36f56a6382e7bc19bb 21452 linuxmuster-tools7_7.2.5_all.deb
+ d3b21e088a82715a44f78cdc8d4fd933ee42d06a529d3ca25b585c8c4eb02d6d 576 linuxmuster-tools7_7.2.6.dsc
+ d48cb2bd4845ca2793fde0a05999f4cf6c12e94453b1ed42ff5aca20e44db436 21504 linuxmuster-tools7_7.2.6_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 14 Oct 2023 08:48:48 +0000
+Build-Date: Fri, 20 Oct 2023 07:09:35 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -94,11 +94,11 @@ Installed-Build-Depends:
  libblkid1 (= 2.37.2-4ubuntu3),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
- libc-bin (= 2.35-0ubuntu3.3),
- libc-dev-bin (= 2.35-0ubuntu3.3),
- libc6 (= 2.35-0ubuntu3.3),
- libc6-dev (= 2.35-0ubuntu3.3),
- libc6-i386 (= 2.35-0ubuntu3.3),
+ libc-bin (= 2.35-0ubuntu3.4),
+ libc-dev-bin (= 2.35-0ubuntu3.4),
+ libc6 (= 2.35-0ubuntu3.4),
+ libc6-dev (= 2.35-0ubuntu3.4),
+ libc6-i386 (= 2.35-0ubuntu3.4),
  libcap-ng0 (= 0.7.9-2.2build3),
  libcap2 (= 1:2.44-1ubuntu0.22.04.1),
  libcc1-0 (= 12.3.0-1ubuntu1~22.04),
@@ -194,7 +194,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.3),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-84.93),
+ linux-libc-dev (= 5.15.0-86.96),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -226,4 +226,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1697273150"
+ SOURCE_DATE_EPOCH="1697785696"
