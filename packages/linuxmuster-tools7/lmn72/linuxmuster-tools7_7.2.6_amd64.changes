@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 20 Oct 2023 09:08:16 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.6
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.6) lmn72; urgency=medium
+ .
+   * [ldapreader] Possibly fix ldap interrupted calls
+Checksums-Sha1:
+ 7dbf3f401fe1d086bf8c5d4dd5d16aff61709ce9 576 linuxmuster-tools7_7.2.6.dsc
+ 8c1bfb84fd24e7854fabb4ac1dca8af0513057ee 37906 linuxmuster-tools7_7.2.6.tar.gz
+ 810a315cbf481010fbf477c684685b2fc5761ea1 21504 linuxmuster-tools7_7.2.6_all.deb
+ d623bc1460b53f060ec96396a97751b2e792a7b7 7819 linuxmuster-tools7_7.2.6_amd64.buildinfo
+Checksums-Sha256:
+ d3b21e088a82715a44f78cdc8d4fd933ee42d06a529d3ca25b585c8c4eb02d6d 576 linuxmuster-tools7_7.2.6.dsc
+ 5838a9e0c093d81fbfc1424fe9fb856bb64c74eddeabd948a8e066e04a1fa2f9 37906 linuxmuster-tools7_7.2.6.tar.gz
+ d48cb2bd4845ca2793fde0a05999f4cf6c12e94453b1ed42ff5aca20e44db436 21504 linuxmuster-tools7_7.2.6_all.deb
+ 14c43b3261c9fdab36211d2db57e97b30e06c7fbc2d9a9c682811b1c4cb3dae0 7819 linuxmuster-tools7_7.2.6_amd64.buildinfo
+Files:
+ 4baa3e7bc624bca4ba3b593b303f826e 576 linuxmuster optional linuxmuster-tools7_7.2.6.dsc
+ e86e9d72cc1fe1149a0d7179037faed5 37906 linuxmuster optional linuxmuster-tools7_7.2.6.tar.gz
+ ffc6747002eb2ec11af6277fa3abbb14 21504 linuxmuster optional linuxmuster-tools7_7.2.6_all.deb
+ 90e3146827e0db6c4c3f7a0381353fac 7819 linuxmuster optional linuxmuster-tools7_7.2.6_amd64.buildinfo
