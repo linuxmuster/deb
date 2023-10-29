@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 14 Oct 2023 12:32:13 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.0-rc13
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.0-rc13) lmn72; urgency=low
+ .
+   * introducing new environment variables LINBOSYSDIR and LINBOVARDIR (7687b40).
+Checksums-Sha1:
+ e2b6e8baae7f77fd21997fc8a74b38e273c2d6d7 591 linuxmuster-base7_7.2.0-rc13.dsc
+ dad95a70dc2ef650030692b5ec6a263d138834e0 77154 linuxmuster-base7_7.2.0-rc13.tar.gz
+ 0c683beef457360a494448f012e393f9047245f0 58342 linuxmuster-base7_7.2.0-rc13_all.deb
+ 1714ef9fad31e6897253c42f21a7c27c2f9065b6 8086 linuxmuster-base7_7.2.0-rc13_amd64.buildinfo
+Checksums-Sha256:
+ 4f9426c2aaee55a680aa3f14becd0a06f216c618b99d5b3f147e50afe4a8aaa6 591 linuxmuster-base7_7.2.0-rc13.dsc
+ 1dfca8c8fbf40ec97818fc48dca6c4fcbcf6e07b9e245375fd3f5d6cf8d6ebce 77154 linuxmuster-base7_7.2.0-rc13.tar.gz
+ 7777c4cc65702fc2744c27d1578e1d019e03cf4d5d6f9bb5778b8bf8fd2731eb 58342 linuxmuster-base7_7.2.0-rc13_all.deb
+ 163dd5f63a58aaade5d6e67c9a73904fc5d013d03010923f628f4475d2586ec6 8086 linuxmuster-base7_7.2.0-rc13_amd64.buildinfo
+Files:
+ 46c47686eaa3a932060d10b90ca8ccb6 591 linuxmuster optional linuxmuster-base7_7.2.0-rc13.dsc
+ af850659c2f6b6119b3bc0a6ad411621 77154 linuxmuster optional linuxmuster-base7_7.2.0-rc13.tar.gz
+ bea8c742320eaff9d5bd34658e24f0ea 58342 linuxmuster optional linuxmuster-base7_7.2.0-rc13_all.deb
+ 735b73733066762472b9b097088182e9 8086 linuxmuster optional linuxmuster-base7_7.2.0-rc13_amd64.buildinfo
