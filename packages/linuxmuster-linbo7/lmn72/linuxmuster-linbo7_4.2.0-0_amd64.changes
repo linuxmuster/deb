@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sun, 29 Oct 2023 11:18:25 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.2.0-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.2.0-0) lmn72; urgency=low
+ .
+   * Wifi support #103:
+     - Add wpa_supplicant to linbofs (d9c4d93).
+     - Add rtl8812au usb wifi driver (f59b36c).
+     - Update package dependencies (67271a3).
+   * Update kernel to 6.5.9 (37436af).
+   * Make firmware configurable, use new environment variables LINBOSYSDIR and LINBOVARDIR (6e0423d).
+   * Refactor external modules build (53d3952).
+   * Use new environment variables LINBOSYSDIR and LINBOVARDIR (20f8e92).
+   * Suppress console output of linbo_mountcache (2bf5d9b).
+   * Add quiet mode to linbo_split_startconf (18ec94c).
+Checksums-Sha1:
+ 7dfdb8981f85d23029b3c71aa204962c772fbbac 1235 linuxmuster-linbo7_4.2.0-0.dsc
+ 0694d466a56af0fe300f3c63fc60263504520c09 1968122 linuxmuster-linbo7_4.2.0-0.tar.gz
+ 443d040ce5a53d75bf49a478a175edfd6bb57436 64369300 linuxmuster-linbo7_4.2.0-0_all.deb
+ eb607afe5d6ff50ce9ccced58d3da66a508fd9ed 12855 linuxmuster-linbo7_4.2.0-0_amd64.buildinfo
+Checksums-Sha256:
+ f5a47cc9daf2a945de11da73342c56bdab3ce8ba8d988872e4427a5bf056f088 1235 linuxmuster-linbo7_4.2.0-0.dsc
+ 56036a18219eb0d0f7e2188e1040be13946ab095747de133d86101eb1dd8fbd0 1968122 linuxmuster-linbo7_4.2.0-0.tar.gz
+ 40a1f060a06f5b3c1666e830a1735fdccadc8fdc966c105f66b2694df678fbc6 64369300 linuxmuster-linbo7_4.2.0-0_all.deb
+ c3033e0d73b103feb703b0b8f4a2b21eaa7cd67dd39e8490e88f994e69bd3ae6 12855 linuxmuster-linbo7_4.2.0-0_amd64.buildinfo
+Files:
+ b6f777ac02dcd79a4b0cf5a97b7de2ed 1235 admin extra linuxmuster-linbo7_4.2.0-0.dsc
+ d13684d7659ee796ad11f354f867a2b3 1968122 admin extra linuxmuster-linbo7_4.2.0-0.tar.gz
+ 284265056628483b9202e6390f385967 64369300 admin extra linuxmuster-linbo7_4.2.0-0_all.deb
+ 3b8efd6abaa64a406d9f15c6b5e605c6 12855 admin extra linuxmuster-linbo7_4.2.0-0_amd64.buildinfo
