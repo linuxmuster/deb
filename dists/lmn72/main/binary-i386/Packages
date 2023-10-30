@@ -35,23 +35,24 @@ Description: Linuxmuster Linbo GUI
  (LINBO) boot/install/repair system.
 
 Package: linuxmuster-linbo7
-Version: 4.1.36-0
+Version: 4.2.0-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
-Installed-Size: 163726
-Depends: argon2, coreutils, dropbear-bin, rsync (>= 3), ctorrent, isolinux (>= 6.03), syslinux-common (>= 6.03), syslinux-utils (>= 6.03), ssh, sed, tmux, xorriso (>= 1.4.2), dosfstools, udpcast, xz-utils, zip, mbr, wakeonlan, linuxmuster-base7, python3, linuxmuster-linbo-gui7, grub-common, grub-ipxe, grub-pc-bin, grub-efi-amd64-bin, shim-signed, tftpd-hpa (>= 5.2+20150808-1ubuntu1fifopatch), qemu-utils, libowfat0
+Installed-Size: 201597
+Depends: argon2, coreutils, ctorrent, dosfstools, dropbear-bin, grub-common, grub-efi-amd64-bin, grub-ipxe, grub-pc-bin, isolinux, libowfat0, linux-firmware, linuxmuster-base7, linuxmuster-linbo-gui7, mbr, python3, qemu-utils, rsync, sed, shim-signed, ssh, syslinux-common, syslinux-utils, tftpd-hpa, tmux, udpcast, wakeonlan, xorriso, xz-utils, zip
 Suggests: isc-dhcp-server | dhcp3-server
 Conflicts: atftpd, bittorrent, linuxmuster-linbo, linuxmuster-linbo-common, linuxmuster-linbo-common7
 Breaks: linuxmuster-linbo-common7
 Priority: extra
 Section: admin
-Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.1.36-0_all.deb
-Size: 53883788
-SHA256: 7b43cc57178c6b48b80567a35192782638050dfa3f3bf784726d5475d635baf6
-SHA1: e27a77fd136cee8e19e0af9aec1177ac811dad8c
-MD5sum: 04e396f808a9239dddee12c73a96d5c3
+Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.2.0-0_all.deb
+Size: 64369300
+SHA256: 40a1f060a06f5b3c1666e830a1735fdccadc8fdc966c105f66b2694df678fbc6
+SHA1: 443d040ce5a53d75bf49a478a175edfd6bb57436
+MD5sum: 284265056628483b9202e6390f385967
 Description: linuxmuster-linbo7
- This package contains kernel, initrd, scripts and pxe boot configuration for the Linux-based Network Boot (LINBO) boot/install/repair system.
+  This package contains kernel, initrd, scripts and pxe boot configuration for
+  the Linux-based Network Boot (LINBO) boot/install/repair system.
 
 Package: linuxmuster-prepare
 Version: 7.2.6-0
