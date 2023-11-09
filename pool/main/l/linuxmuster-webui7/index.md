@@ -14,3 +14,6 @@ Files in this directory:
 - 🗒 [linuxmuster-webui7_7.2.23.dsc](linuxmuster-webui7_7.2.23.dsc)
 - 🗒 [linuxmuster-webui7_7.2.23.tar.gz](linuxmuster-webui7_7.2.23.tar.gz)
 - 🗒 [linuxmuster-webui7_7.2.23_all.deb](linuxmuster-webui7_7.2.23_all.deb)
+- 🗒 [linuxmuster-webui7_7.2.24-testing.dsc](linuxmuster-webui7_7.2.24-testing.dsc)
+- 🗒 [linuxmuster-webui7_7.2.24-testing.tar.gz](linuxmuster-webui7_7.2.24-testing.tar.gz)
+- 🗒 [linuxmuster-webui7_7.2.24-testing_all.deb](linuxmuster-webui7_7.2.24-testing_all.deb)
