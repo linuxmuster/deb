@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Thu, 09 Nov 2023 14:43:26 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.24-testing
+Distribution: lmn72-testing
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.24-testing) lmn72-testing; urgency=medium
+ .
+   * Partially moving to linuxmuster-tools (new dependency)
+   * A lot of fix and view improvements
+   * [landingpage] Option to hide webdav box
+   * [session_new] Exam mode, share, collect, upload, list files
+   * [linbo4] Format with partition command
+   * [linbo4] Fix backup restore error
+   * [quota] Quota check per user
+   * [samba_shares] Fix missing projects and iso shares
+Checksums-Sha1:
+ 187c57904a30d5d1aeebd6abf9b0a46f500bd624 597 linuxmuster-webui7_7.2.24-testing.dsc
+ 250d8e87166f4bef219d9347e763d3a60b17ba8b 1753375 linuxmuster-webui7_7.2.24-testing.tar.gz
+ 74a172d0669c0fa79b8dc3aeab7f40237af61bfc 1012018 linuxmuster-webui7_7.2.24-testing_all.deb
+ 3ba72ca80aea24f846fd0b8d2e0be2d4c438a70b 8100 linuxmuster-webui7_7.2.24-testing_amd64.buildinfo
+Checksums-Sha256:
+ c4029275fd1314f6d8a1bf1e00c9a6e2ecf50f62cc35282748f3a444520439bd 597 linuxmuster-webui7_7.2.24-testing.dsc
+ 03fa111bd335399e137ada16e356b06c5c883caa6ac2227dbbc3106b114603ef 1753375 linuxmuster-webui7_7.2.24-testing.tar.gz
+ 3594f6f9b2297382f50912739480d9b6df960893ea6ad41c9795d3ed40737b24 1012018 linuxmuster-webui7_7.2.24-testing_all.deb
+ 0ff4ea8fd4365258baa1f51e2147539cf982b431493d9a4ebce73316f9b75836 8100 linuxmuster-webui7_7.2.24-testing_amd64.buildinfo
+Files:
+ e0be6d58a9a20eb2d8fe3a26c843cdd1 597 admin optional linuxmuster-webui7_7.2.24-testing.dsc
+ 070de12e56d34b71dca7155f3cb6beb8 1753375 admin optional linuxmuster-webui7_7.2.24-testing.tar.gz
+ b3ba068cda5ac913e93039efcae4c82a 1012018 admin optional linuxmuster-webui7_7.2.24-testing_all.deb
+ 74d37c59a53d2e93bb399a786e74c222 8100 admin optional linuxmuster-webui7_7.2.24-testing_amd64.buildinfo
