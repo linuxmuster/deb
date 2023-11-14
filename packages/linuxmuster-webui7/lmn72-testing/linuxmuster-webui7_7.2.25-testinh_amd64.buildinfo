@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.2.24-testing
+Version: 7.2.25-testinh
 Checksums-Md5:
- e0be6d58a9a20eb2d8fe3a26c843cdd1 597 linuxmuster-webui7_7.2.24-testing.dsc
- b3ba068cda5ac913e93039efcae4c82a 1012018 linuxmuster-webui7_7.2.24-testing_all.deb
+ 562666b333d7dca66741a6cbc3029f50 597 linuxmuster-webui7_7.2.25-testinh.dsc
+ d4fdcf5178cb5e6d8d31f6b550239eb0 1012446 linuxmuster-webui7_7.2.25-testinh_all.deb
 Checksums-Sha1:
- 187c57904a30d5d1aeebd6abf9b0a46f500bd624 597 linuxmuster-webui7_7.2.24-testing.dsc
- 74a172d0669c0fa79b8dc3aeab7f40237af61bfc 1012018 linuxmuster-webui7_7.2.24-testing_all.deb
+ 9eeced2d5780d576c28ed0df2c4e0f1546dac9ca 597 linuxmuster-webui7_7.2.25-testinh.dsc
+ 82ad375e54939dfc2a122176231f9764dbcf330e 1012446 linuxmuster-webui7_7.2.25-testinh_all.deb
 Checksums-Sha256:
- c4029275fd1314f6d8a1bf1e00c9a6e2ecf50f62cc35282748f3a444520439bd 597 linuxmuster-webui7_7.2.24-testing.dsc
- 3594f6f9b2297382f50912739480d9b6df960893ea6ad41c9795d3ed40737b24 1012018 linuxmuster-webui7_7.2.24-testing_all.deb
+ bfa5eb484e29c88b64a0a0a3b7e2eb868e798bac0c4b4ba3a777016d6a8e1ad0 597 linuxmuster-webui7_7.2.25-testinh.dsc
+ ec0b84b98f8073ddc4290c0aa027aa53235a3dacac1ae5f9f4719fadf7610da7 1012446 linuxmuster-webui7_7.2.25-testinh_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 09 Nov 2023 14:03:23 +0000
+Build-Date: Tue, 14 Nov 2023 14:40:45 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -228,8 +228,8 @@ Installed-Build-Depends:
  xz-utils (= 5.2.5-2ubuntu1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu9.2)
 Environment:
- DEB_BUILD_OPTIONS="parallel=2"
+ DEB_BUILD_OPTIONS="parallel=4"
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1699537406"
+ SOURCE_DATE_EPOCH="1699972486"
