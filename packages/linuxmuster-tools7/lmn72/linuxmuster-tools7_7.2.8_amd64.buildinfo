@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.2.7
+Version: 7.2.8
 Checksums-Md5:
- 1c4aea049eb5eee9f6863b8ca0ca4f28 576 linuxmuster-tools7_7.2.7.dsc
- 6ec35ea37ef1356a15369bdbdbfbc4de 23182 linuxmuster-tools7_7.2.7_all.deb
+ 68a42cc350abc1216f983714bbf17482 576 linuxmuster-tools7_7.2.8.dsc
+ cf92ab461d75ab87715c2a3bc765d2fe 23760 linuxmuster-tools7_7.2.8_all.deb
 Checksums-Sha1:
- b0813a249cd02b840a967f92f95a612c86b7d894 576 linuxmuster-tools7_7.2.7.dsc
- 7742fe37ab3355e4e9f5aa52e55490861fbfa7b6 23182 linuxmuster-tools7_7.2.7_all.deb
+ 51d3c76978113b617c81c0e97830c8bcf7c17c6e 576 linuxmuster-tools7_7.2.8.dsc
+ c5ca2ed472c605056fc2a462aeb76879eb18e6be 23760 linuxmuster-tools7_7.2.8_all.deb
 Checksums-Sha256:
- 63dd5465c38e6f038b0d4d58ed2390757459c34aabe58b8dfeb064a08c41467a 576 linuxmuster-tools7_7.2.7.dsc
- a6e94cbcb3a6465c19fa80fefdf22afcc272e6187369fe74a556ad2361cdfc60 23182 linuxmuster-tools7_7.2.7_all.deb
+ 232ed7bcc080a8a8f139bbbf80d653805707eb12d3ceae801e8856656cf21ecd 576 linuxmuster-tools7_7.2.8.dsc
+ 42bb0d5e8251c72a7d972818c3d1242ed6d6a44ed06957b4c0ee580d40da8939 23760 linuxmuster-tools7_7.2.8_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 26 Oct 2023 08:29:06 +0000
+Build-Date: Thu, 16 Nov 2023 15:52:54 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -179,11 +179,11 @@ Installed-Build-Depends:
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
  libsmartcols1 (= 2.37.2-4ubuntu3),
- libssl3 (= 3.0.2-0ubuntu1.10),
+ libssl3 (= 3.0.2-0ubuntu1.12),
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 13.1.0-8ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 249.11-0ubuntu3.10),
+ libsystemd0 (= 249.11-0ubuntu3.11),
  libtinfo6 (= 6.3-2ubuntu0.1),
  libtirpc-common (= 1.3.2-2ubuntu0.1),
  libtirpc-dev (= 1.3.2-2ubuntu0.1),
@@ -193,7 +193,7 @@ Installed-Build-Depends:
  libtsan2 (= 13.1.0-8ubuntu1~22.04),
  libubsan1 (= 13.1.0-8ubuntu1~22.04),
  libuchardet0 (= 0.0.7-1build2),
- libudev1 (= 249.11-0ubuntu3.10),
+ libudev1 (= 249.11-0ubuntu3.11),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.3),
@@ -226,8 +226,8 @@ Installed-Build-Depends:
  xz-utils (= 5.2.5-2ubuntu1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu9.2)
 Environment:
- DEB_BUILD_OPTIONS="parallel=2"
+ DEB_BUILD_OPTIONS="parallel=4"
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1698308741"
+ SOURCE_DATE_EPOCH="1700149804"

@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 16 Nov 2023 16:50:04 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.8
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.8) lmn72; urgency=medium
+ .
+   * Add devices manager
+   * Add Upchecker to check if clients are online
+   * [ldapreader] Allow hyphen and underscore in schoolclasses names
+Checksums-Sha1:
+ 51d3c76978113b617c81c0e97830c8bcf7c17c6e 576 linuxmuster-tools7_7.2.8.dsc
+ c34c9040a39b46d0b1c943d4a73414fac7fc8ad8 41513 linuxmuster-tools7_7.2.8.tar.gz
+ c5ca2ed472c605056fc2a462aeb76879eb18e6be 23760 linuxmuster-tools7_7.2.8_all.deb
+ aa3897414e654d279fe3837961f5be8568b1ee8c 7970 linuxmuster-tools7_7.2.8_amd64.buildinfo
+Checksums-Sha256:
+ 232ed7bcc080a8a8f139bbbf80d653805707eb12d3ceae801e8856656cf21ecd 576 linuxmuster-tools7_7.2.8.dsc
+ ceba75f221cc0c7102442d61f7212d2dd3643ee4bb0ea96d8f7fa5dad11de789 41513 linuxmuster-tools7_7.2.8.tar.gz
+ 42bb0d5e8251c72a7d972818c3d1242ed6d6a44ed06957b4c0ee580d40da8939 23760 linuxmuster-tools7_7.2.8_all.deb
+ 2c8beee309f167b8e5643c159917d24cec5f9980b0aabf25dfd31f48cecb690d 7970 linuxmuster-tools7_7.2.8_amd64.buildinfo
+Files:
+ 68a42cc350abc1216f983714bbf17482 576 linuxmuster optional linuxmuster-tools7_7.2.8.dsc
+ 098592e46ba463d3f0a21f67e121304f 41513 linuxmuster optional linuxmuster-tools7_7.2.8.tar.gz
+ cf92ab461d75ab87715c2a3bc765d2fe 23760 linuxmuster optional linuxmuster-tools7_7.2.8_all.deb
+ ff5e276fa5a7b7ea2bb8173d14f03cb6 7970 linuxmuster optional linuxmuster-tools7_7.2.8_amd64.buildinfo
