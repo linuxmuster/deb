@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 18 Nov 2023 22:42:39 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.26-testing
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.26-testing) lmn72; urgency=medium
+ .
+   * Widescreen as default display.
+   * [session-new] Fix some errors and design issues.
+Checksums-Sha1:
+ 5230221a56ed8266f179e0614c0f6809f283bef5 597 linuxmuster-webui7_7.2.26-testing.dsc
+ e001c36308c1583757ff3e4ea3b6cedf509bb002 1754633 linuxmuster-webui7_7.2.26-testing.tar.gz
+ 2a6b1d0743f3a6f5025069f6e3ba27a2f329ba77 1012942 linuxmuster-webui7_7.2.26-testing_all.deb
+ fe44db8e408c2172ddb8b528003bd8d88010a4e8 8100 linuxmuster-webui7_7.2.26-testing_amd64.buildinfo
+Checksums-Sha256:
+ 349802ff6c9f84275b06b043e938049b38daa53577081444af557b21efcacc50 597 linuxmuster-webui7_7.2.26-testing.dsc
+ 60687ad0b0dd88de01bbecbc7486cdaba24292b04df88cd043c3e04215acb91f 1754633 linuxmuster-webui7_7.2.26-testing.tar.gz
+ d6e04efc5ab19239ae11757935a6fc15a295d1dbdfe70b94bb35ded777efdcc8 1012942 linuxmuster-webui7_7.2.26-testing_all.deb
+ 29f4dd3b14a1124668aea5ad8e127ca868fc00ca4c4ea4d8cc9004321f2a3e4c 8100 linuxmuster-webui7_7.2.26-testing_amd64.buildinfo
+Files:
+ 3f5b410662d968d0d15790869df73e13 597 admin optional linuxmuster-webui7_7.2.26-testing.dsc
+ 637e965eef58cd0e180f04f820870e02 1754633 admin optional linuxmuster-webui7_7.2.26-testing.tar.gz
+ ed2329c0e840a068f9967615c652a2d7 1012942 admin optional linuxmuster-webui7_7.2.26-testing_all.deb
+ a3f80124ad20a1446be9a7d6c9809f25 8100 admin optional linuxmuster-webui7_7.2.26-testing_amd64.buildinfo
