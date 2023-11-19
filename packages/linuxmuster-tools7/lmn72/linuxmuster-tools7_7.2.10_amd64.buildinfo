@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.2.9
+Version: 7.2.10
 Checksums-Md5:
- a9118df9cf6525f24c6576691c41794e 576 linuxmuster-tools7_7.2.9.dsc
- 780ca9006149f45f7302b3195ed2e6fb 23816 linuxmuster-tools7_7.2.9_all.deb
+ 6e47e601fd6f9fc560cf038fcd6010a1 580 linuxmuster-tools7_7.2.10.dsc
+ 94021612bafeffeb6c59922895ff2126 23848 linuxmuster-tools7_7.2.10_all.deb
 Checksums-Sha1:
- a11a0fa208159a0389d401c1d43ed4a8fbe9eb8c 576 linuxmuster-tools7_7.2.9.dsc
- 432744f59ece672697357db71a6dee4ee07ac0da 23816 linuxmuster-tools7_7.2.9_all.deb
+ 302a47b96d0e7d59fcb53073f775b26e69e533d6 580 linuxmuster-tools7_7.2.10.dsc
+ 170e5fe7b507caba939ae1b55385d4f2a1243e60 23848 linuxmuster-tools7_7.2.10_all.deb
 Checksums-Sha256:
- 0a02b95583e024c367ad85d39a36bead186efe1cc715d874390a4db1ee5c9fc5 576 linuxmuster-tools7_7.2.9.dsc
- f6428fc50ab4a508c5380a5ada83f4632728576d197918bac967880fad01469a 23816 linuxmuster-tools7_7.2.9_all.deb
+ 9ee77205d34aef30dd4ac0e943fb90adb059888562bd293becff4bf75edb7108 580 linuxmuster-tools7_7.2.10.dsc
+ cfc5cfde94ea4270db60c5ead98a8553aaa40ca891cc23336661ff1c07485ae3 23848 linuxmuster-tools7_7.2.10_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 19 Nov 2023 14:15:55 +0000
+Build-Date: Sun, 19 Nov 2023 17:38:01 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -140,15 +140,15 @@ Installed-Build-Depends:
  libgmp10 (= 2:6.2.1+dfsg-3ubuntu1),
  libgomp1 (= 13.1.0-8ubuntu1~22.04),
  libgpg-error0 (= 1.43-3),
- libgssapi-krb5-2 (= 1.19.2-2ubuntu0.2),
+ libgssapi-krb5-2 (= 1.19.2-2ubuntu0.3),
  libhwasan0 (= 13.1.0-8ubuntu1~22.04),
  libicu70 (= 70.1-2),
  libisl23 (= 0.24-2build1),
  libitm1 (= 13.1.0-8ubuntu1~22.04),
- libk5crypto3 (= 1.19.2-2ubuntu0.2),
+ libk5crypto3 (= 1.19.2-2ubuntu0.3),
  libkeyutils1 (= 1.6.1-2ubuntu3),
- libkrb5-3 (= 1.19.2-2ubuntu0.2),
- libkrb5support0 (= 1.19.2-2ubuntu0.2),
+ libkrb5-3 (= 1.19.2-2ubuntu0.3),
+ libkrb5support0 (= 1.19.2-2ubuntu0.3),
  libllvm13 (= 1:13.0.1-2ubuntu2.2),
  libllvm14 (= 1:14.0.0-1ubuntu1.1),
  libllvm15 (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -198,7 +198,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.3),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-87.97),
+ linux-libc-dev (= 5.15.0-88.98),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -230,4 +230,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1700403089"
+ SOURCE_DATE_EPOCH="1700415387"

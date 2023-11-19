@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 19 Nov 2023 18:36:27 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.10
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.10) lmn72; urgency=medium
+ .
+   * Allow uppercases in projects names
+Checksums-Sha1:
+ 302a47b96d0e7d59fcb53073f775b26e69e533d6 580 linuxmuster-tools7_7.2.10.dsc
+ 60432bb4d34619c2d6db4cc7c526cd2d5f8c91f4 41577 linuxmuster-tools7_7.2.10.tar.gz
+ 170e5fe7b507caba939ae1b55385d4f2a1243e60 23848 linuxmuster-tools7_7.2.10_all.deb
+ d99f2089417d3048aa26737cbe3ee44cda0623fa 7977 linuxmuster-tools7_7.2.10_amd64.buildinfo
+Checksums-Sha256:
+ 9ee77205d34aef30dd4ac0e943fb90adb059888562bd293becff4bf75edb7108 580 linuxmuster-tools7_7.2.10.dsc
+ c4f1aed747c73f84cbeec368d13277bbd889153ef25900d0c5ba132775b8c6de 41577 linuxmuster-tools7_7.2.10.tar.gz
+ cfc5cfde94ea4270db60c5ead98a8553aaa40ca891cc23336661ff1c07485ae3 23848 linuxmuster-tools7_7.2.10_all.deb
+ 07ee74485355351c5498da58fb1a9e424de8edd287f7ee778e3d8f2a64c31ce6 7977 linuxmuster-tools7_7.2.10_amd64.buildinfo
+Files:
+ 6e47e601fd6f9fc560cf038fcd6010a1 580 linuxmuster optional linuxmuster-tools7_7.2.10.dsc
+ 7ec1b4d81cffef88bc5e65cfe54881d6 41577 linuxmuster optional linuxmuster-tools7_7.2.10.tar.gz
+ 94021612bafeffeb6c59922895ff2126 23848 linuxmuster optional linuxmuster-tools7_7.2.10_all.deb
+ c973d390974e1d02c7fcc25a1a1df370 7977 linuxmuster optional linuxmuster-tools7_7.2.10_amd64.buildinfo
