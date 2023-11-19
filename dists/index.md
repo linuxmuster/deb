@@ -13,5 +13,4 @@ Files in this directory:
 - 📁 [lmn71-testing/](lmn71-testing)
 - 📁 [lmn72/](lmn72)
 - 📁 [lmn72-testing/](lmn72-testing)
-- 📁 [lmn73/](lmn73)
 - 📁 [lmn80/](lmn80)
