@@ -88,14 +88,6 @@ SignWith: 4E8B8B667D752C32
 
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
-Codename: lmn73
-Architectures: i386 amd64 source
-Components: main
-Description: lmn73 (jammy) stable
-SignWith: 4E8B8B667D752C32
-
-Origin: deb.linuxmuster.net
-Label: deb.linuxmuster.net
 Codename: lmn80
 Architectures: i386 amd64 source
 Components: main
