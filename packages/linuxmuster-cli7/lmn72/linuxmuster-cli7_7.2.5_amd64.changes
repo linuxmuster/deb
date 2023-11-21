@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Tue, 21 Nov 2023 18:40:16 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.5
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.2.5) lmn72; urgency=medium
+ .
+   * Fix school option
+   * Command up to check online clients
+   * Command user to get details from one user
+   * Better entrypoint for Python (thanks @jolly-jump)
+Checksums-Sha1:
+ 1b73b7bff8ed465f0048a4d51a66e227fe6e663e 564 linuxmuster-cli7_7.2.5.dsc
+ c3959310ff91939ed390d07b5640e94ea53c3db0 19485 linuxmuster-cli7_7.2.5.tar.gz
+ c4c6bae53f8e891fb6efe7b5a457cad895a65371 6978 linuxmuster-cli7_7.2.5_all.deb
+ e87eba7d3a502d417b0913936b80f58f0d6acb42 7951 linuxmuster-cli7_7.2.5_amd64.buildinfo
+Checksums-Sha256:
+ 35f1200582e6f9c694a2de9c4aa667d325d39a26b5991c65f69879ebb0326ede 564 linuxmuster-cli7_7.2.5.dsc
+ 2826d8d565e9f0ab6243c754e606f3eddd3b225def34ea6efb1a66488c81adbb 19485 linuxmuster-cli7_7.2.5.tar.gz
+ bfb679354d2a2cad53b856d7ec5e1cbc8b0d96e77a6c3df6d0b78eb5a457ac65 6978 linuxmuster-cli7_7.2.5_all.deb
+ dea13cb5432c47047551f55b4de12f14b43cee9aec22d2a84b54c9bab89c6dc9 7951 linuxmuster-cli7_7.2.5_amd64.buildinfo
+Files:
+ 27c075dfb67c0522c57cf5538398d066 564 linuxmuster optional linuxmuster-cli7_7.2.5.dsc
+ bb5eb49703cc9d007ca0139e4ef7cac0 19485 linuxmuster optional linuxmuster-cli7_7.2.5.tar.gz
+ ab2e07c9f759c717c2959a52aff8e4dd 6978 linuxmuster optional linuxmuster-cli7_7.2.5_all.deb
+ 8c410089f24c72e108d396ab7a30a7a1 7951 linuxmuster optional linuxmuster-cli7_7.2.5_amd64.buildinfo
