@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 24 Nov 2023 07:30:21 +0000
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.2.10-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.2.10-0) lmn72; urgency=low
+ .
+   * make nomodeset kernel parameter default (7a80e76).
+   * clean up remnants of 32bit linbo (#106).
+   * remove deprecated kernel signing stuff (1835659, a453cb0).
+   * change kernel and linbofs compression to xz (#109).
+   * change filename of linbofs64.lz to linbofs64 (9e42a3d, f8fffbb).
+   * fix network device order (b717732).
+   * fix linbo_gui on iso boot (4692beb).
+   * update stable kernel to 6.6.2 (a5e6449).
+   * update longterm kernel to 6.1.63 (82d0259).
+   * update legacy kernel to 5.15.139 (a431b2f).
+Checksums-Sha1:
+ 83503d904d398b6448405f62ca53fe9d42009382 1948 linuxmuster-linbo7_4.2.10-0.dsc
+ fd31071619c013390a986b6b97a6c6354ab419f3 2070330 linuxmuster-linbo7_4.2.10-0.tar.gz
+ 335e74bfa0e726423d158d44486549614c4380af 80025314 linuxmuster-linbo7_4.2.10-0_all.deb
+ fa2f0bb83892e562817f77881837bf54631ad38c 13571 linuxmuster-linbo7_4.2.10-0_amd64.buildinfo
+Checksums-Sha256:
+ 67e372e8d80e68f7a8660c6189c0a8ae776d8b74e38b6ccbc78487cd50455680 1948 linuxmuster-linbo7_4.2.10-0.dsc
+ 4e98962ac40f61e99a5198526e84aaf328d545538a8618e17da321d08a923d07 2070330 linuxmuster-linbo7_4.2.10-0.tar.gz
+ 43400babe1296963f19aa320029a7339998a4fd517db1abf35fcddebe1ab4961 80025314 linuxmuster-linbo7_4.2.10-0_all.deb
+ 363adbdca0d8ba74ebf347f98c771f600de65ef11bfaf0e20a6d7f4be3eb45d3 13571 linuxmuster-linbo7_4.2.10-0_amd64.buildinfo
+Files:
+ f05dfe9f9007054b9c3f7dea720e1d0f 1948 admin extra linuxmuster-linbo7_4.2.10-0.dsc
+ 0e6299ac44bc68acc69b8f794e0c5514 2070330 admin extra linuxmuster-linbo7_4.2.10-0.tar.gz
+ 98231e3b6ddf89c1c038f399c04eb056 80025314 admin extra linuxmuster-linbo7_4.2.10-0_all.deb
+ 570aa3b561469f411c80eb2cb185d163 13571 admin extra linuxmuster-linbo7_4.2.10-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmVgUUsACgkQJstRT/0L
+RLJE5wv9EycL1UOrimSasOKdsJdPkuBo+A+vSDwNFgfLeswnEyMwVTevYaudmDfV
+kXahl/1iwMTPeyQOyiLfGYwBOMEOB3IgbdJYk1lk1wQDhz0NARiljevLhAtH8Kch
+uQpFq+0IiQUGmLLf8ZWkKQDzpqBxAswTXHsiJdRy26KR74BRMfUU6FNrTUaON7iK
+DLNmqAWrhJ9D3b4Bj/ejeS6tOUcHM4bq8VwZf19Ivcr/F8wgaCgFejaxdSDJ+3C9
+3QM9mr0f4W08RGVu5bBQxFhE5QETxsvw05+DCYWRIp5RwbfEYKVNEubSoXhYjH/J
+ri9bO1JrPne0bSs5FUKF+J2yL7YlSHWIDXHjy6hZ1+wL5LigPfxvd7v+iYkYcCPn
+T/5JZIfkUmOXSoMVMNWasdcvhFX+GL27e+kgwiWx70ywhcEuzWtXvNT9MB14ohbw
+s52/VJrJlPbC2+kuKYG9mGkF0rfEG/jd6WGFZlsBWJe640ePbDvnUrSH42K6hTrr
+naFUSlVA
+=aa3n
+-----END PGP SIGNATURE-----
