@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-cli7
 Binary: linuxmuster-cli7
 Architecture: all source
-Version: 7.2.5
+Version: 7.2.6
 Checksums-Md5:
- 27c075dfb67c0522c57cf5538398d066 564 linuxmuster-cli7_7.2.5.dsc
- ab2e07c9f759c717c2959a52aff8e4dd 6978 linuxmuster-cli7_7.2.5_all.deb
+ 897f751d813874b0f1120fa41e4c0dd5 564 linuxmuster-cli7_7.2.6.dsc
+ 07aa3ce1d9f4938584c4ef3cd1570dcd 7824 linuxmuster-cli7_7.2.6_all.deb
 Checksums-Sha1:
- 1b73b7bff8ed465f0048a4d51a66e227fe6e663e 564 linuxmuster-cli7_7.2.5.dsc
- c4c6bae53f8e891fb6efe7b5a457cad895a65371 6978 linuxmuster-cli7_7.2.5_all.deb
+ 6fac6c39d9b0af4bcb9386e50262b112379e6df5 564 linuxmuster-cli7_7.2.6.dsc
+ 3eede2e3f9029a1d28898062c8f05a8ed7c915bc 7824 linuxmuster-cli7_7.2.6_all.deb
 Checksums-Sha256:
- 35f1200582e6f9c694a2de9c4aa667d325d39a26b5991c65f69879ebb0326ede 564 linuxmuster-cli7_7.2.5.dsc
- bfb679354d2a2cad53b856d7ec5e1cbc8b0d96e77a6c3df6d0b78eb5a457ac65 6978 linuxmuster-cli7_7.2.5_all.deb
+ ae98363ae21c080e4a84af1d22890fab6ec8aae7b074780aeb1c8dd313a1eb99 564 linuxmuster-cli7_7.2.6.dsc
+ f941d28b3ae193ee92ef0ef1b4224ab9c50b13ebb7a8a3121a9a4e03dfd9eb75 7824 linuxmuster-cli7_7.2.6_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 21 Nov 2023 17:44:07 +0000
+Build-Date: Sun, 26 Nov 2023 15:19:36 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -230,4 +230,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1700588416"
+ SOURCE_DATE_EPOCH="1701011785"

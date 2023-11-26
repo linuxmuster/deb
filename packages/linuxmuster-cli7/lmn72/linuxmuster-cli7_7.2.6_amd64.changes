@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 26 Nov 2023 16:16:25 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.6
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.2.6) lmn72; urgency=medium
+ .
+   * [devices] Add group to output
+   * [linbo] Add lastsync command
+   * [samba] Add samba dns command with root and sub option
+   * [user] Fix output of user when user is not found
+   * [users] Add support for exam users
+Checksums-Sha1:
+ 6fac6c39d9b0af4bcb9386e50262b112379e6df5 564 linuxmuster-cli7_7.2.6.dsc
+ 83b6e3f78452fba096e5ea285016131c99e0824b 20147 linuxmuster-cli7_7.2.6.tar.gz
+ 3eede2e3f9029a1d28898062c8f05a8ed7c915bc 7824 linuxmuster-cli7_7.2.6_all.deb
+ e1d66bcfbdd90be32f010c7c3971feaf292c29ab 7951 linuxmuster-cli7_7.2.6_amd64.buildinfo
+Checksums-Sha256:
+ ae98363ae21c080e4a84af1d22890fab6ec8aae7b074780aeb1c8dd313a1eb99 564 linuxmuster-cli7_7.2.6.dsc
+ 58f8fac67f954286ea25caae531f335f012d677e327d4043cc665c96c5b0b086 20147 linuxmuster-cli7_7.2.6.tar.gz
+ f941d28b3ae193ee92ef0ef1b4224ab9c50b13ebb7a8a3121a9a4e03dfd9eb75 7824 linuxmuster-cli7_7.2.6_all.deb
+ 4d301a87e61211e7e3898ea57eb3ec1da7d1a812036bb682ce19bb89194b6904 7951 linuxmuster-cli7_7.2.6_amd64.buildinfo
+Files:
+ 897f751d813874b0f1120fa41e4c0dd5 564 linuxmuster optional linuxmuster-cli7_7.2.6.dsc
+ e02b7a121f1ee3d75036cce541797bf1 20147 linuxmuster optional linuxmuster-cli7_7.2.6.tar.gz
+ 07aa3ce1d9f4938584c4ef3cd1570dcd 7824 linuxmuster optional linuxmuster-cli7_7.2.6_all.deb
+ 9fbd55f90fdafb3ef6fe5fbe5f3cd1f1 7951 linuxmuster optional linuxmuster-cli7_7.2.6_amd64.buildinfo
