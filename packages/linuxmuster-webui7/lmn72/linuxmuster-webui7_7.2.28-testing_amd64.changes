@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 26 Nov 2023 16:27:35 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.28-testing
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.28-testing) lmn72; urgency=medium
+ .
+   * New plugin device manager (thanks hermanntoast!)
+   * [groupmembership] Fix sophomorixType (thanks hermanntoast!)
+   * [groupmembership] Question about kerberos renew more visible
+   * [session_new] Fix collected path
+   * [session_new] Recognize own students in exam mode
+   * [session_new] Custom menu for passwords. Change password in exam mode.
+Checksums-Sha1:
+ 4c14b5514ac6c87149fbe5a80c5c94c2c64b184b 597 linuxmuster-webui7_7.2.28-testing.dsc
+ 7b60b6c979dcd5995e2dc355e73b1be9173a2207 4391010 linuxmuster-webui7_7.2.28-testing.tar.gz
+ 160da9d1d4f4de585fc2843da01293582169ace7 1668042 linuxmuster-webui7_7.2.28-testing_all.deb
+ 78be87f103e42ecb661d99782bf4c2c8bb3c0381 8100 linuxmuster-webui7_7.2.28-testing_amd64.buildinfo
+Checksums-Sha256:
+ 6cc4ede48052c28804edc8765f7cb350d48fbad9777c1cd7e917a1ed5c40cbc3 597 linuxmuster-webui7_7.2.28-testing.dsc
+ 5745caebf85504df5ba8540c899f0ced36a51e720cdac9e6edb7bd74a491f2e6 4391010 linuxmuster-webui7_7.2.28-testing.tar.gz
+ 6aaa9bf40aa5bd5b94f09a8e0b04863cad15d7e7c759b9de665ff9f16d3a6fe5 1668042 linuxmuster-webui7_7.2.28-testing_all.deb
+ 2d723d569f7a64b6abd699b6389dbfe90fba106d6d66f97dbf71c1beb004a38e 8100 linuxmuster-webui7_7.2.28-testing_amd64.buildinfo
+Files:
+ 522f0751bb5718f7ad2121c2b6cfc93b 597 admin optional linuxmuster-webui7_7.2.28-testing.dsc
+ 178acfb518c88d6c07cf7564ce8da22c 4391010 admin optional linuxmuster-webui7_7.2.28-testing.tar.gz
+ 360714a123c1f6928ee9602d0cd8ffe4 1668042 admin optional linuxmuster-webui7_7.2.28-testing_all.deb
+ 3646c795e2ea8b0c5fde2e3f46dea3bf 8100 admin optional linuxmuster-webui7_7.2.28-testing_amd64.buildinfo
