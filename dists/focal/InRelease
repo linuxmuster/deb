@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: focal
-Date: Sun, 26 Nov 2023 15:24:41 UTC
+Date: Sun, 26 Nov 2023 17:35:23 UTC
 Architectures: i386 amd64
 Components: main
 Description: focal stable
@@ -40,17 +40,17 @@ SHA256:
  e22eddc850131e827f17a5cdb9764b2e803294644e8615062ce0f7d5803fe57e 118 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmVjYzkACgkQTouLZn11
-LDJpjQ/+NhNGlOQGwElu1utvJKphEcO4oDnEw9dbC7IPbA2zAWd6MGQZoqc/GhT9
-UqVgOWSt6a/1uUOgY1dYnPz7+6LiiQwzDJ82Ra8ovexWOj/FEzbntaN5Cu69Zs8b
-qKzbcrfL4A4K65am3iIHXPlxfCX6ZJKujeqhvbIIGUCMXCc3alR6TfRJM77ApaUW
-YLN4iglVY6QhhuVXQ8A4Q/txwDGjQG6X7/hmymOuq8FRv0qjTjqbHs42j1Dndo91
-r/o/Bo9G5Ovm4M8a6cxnEz0gg0lEV1sfDROvuVrsDe4rEwLd4QfgRqJAVOc3TyZO
-fWe2+mylsghGNRSDacJ+7ru7p4PRLh2Mje6pZPZLx0gi7fOifzUfFNm2h5TYttEG
-RmEEHPSA9BizDjtM5w2vgxlPM5wLCpQ5bjR4rWERIEK07TgWR6zfVWG/k7+Mkjqs
-AiGm68YCwE3dynx7XtAnogAUopXvNChRoCL8h6j4L15A1KeJMp4vvuXJYXhB34lI
-hkNGLvP6rd++ohcDi3g8ITzRXOoTFO6/J2fXURucDQL9uzDTUQFTVCt64laE1OPH
-kvq46drwEvdCUBOQArWm2w4hh+X4OK0mZHthkbgbUALHaCTZvxtapKYqj6pZr7zr
-LuhNuM7vrfjhbuBMtUIhFKnih8zs37uy2YG1FgxPzX+4D/HmJJM=
-=NOiQ
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmVjgdsACgkQTouLZn11
+LDKzkRAAlJ7iGIUVqi7HbA6OuBe76c0UwSG0wVHYzQwpP7+sry1KLTP+yRkATQFo
+cWUs+INzEclyTzbJgXs3dB/GUU/rKs6yynTpR5ZaVcceCMpSK+4pkBVNFLi8eiGn
+DCE+4AOi7untb78o+znzhNuWm8l256ac9zou/UADd5C0A75NMlsTbOwxOwQlBkpG
+S41ONs/dqd3Xb/hg6jqL8COkkTtBpZY59JFYGaGfYt6vq03/6JG6sy/ZuSDJT6RC
+ijFWaFYLdiZatp1/KJ6dKLI89QQ9WMdpH4uxzi8eSZvJRm5wNcpD/Eoc2cG/THFA
+LLLCpJTDrviFmbMK9qsu/TxMXMVxFRbXtDgcspRdLNs0kgG2N5AUa+/KdY3gyVbC
+tUb5wyQkXQY4XQ60tx8JuHcftLFhzrAJUFlsHuBfEVooth/gaxlXfblp79rbeIAi
+XqYRHUMxhBa6Zdl09W6TXUj4XF9qMFEBTmWtAI0ZtweiqEa/0ZAan259ehv/T75Q
+/I9P+hw7IfnGno1TT/p8EY+opRdT7CrMWaXylcQczSjGaD5S3w0vRSpolmlbr4wf
+MduN0cX6qeDOJIDXTshyCgVcDwn3TgJs4ntfOxPyp1vs+d7R2CxwR75EFFkaOwcb
+peUiDH6Y+GwPu2BGIi/zb479A2KKdBYGch/89iGIMWBPYXT9vgc=
+=GCXX
 -----END PGP SIGNATURE-----
