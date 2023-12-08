@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 08 Dec 2023 10:02:41 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.29-testing
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.29-testing) lmn72; urgency=medium
+ .
+   * Update translations (thanks @cibomato)
+   * [common] Fix undefined samba var
+   * [linbo_sync] Read qdiff last synchronisation date
+   * [session_new] Diverses fixs for passwords and exams
+Checksums-Sha1:
+ fb4ba7697695b628825c212dd4f6eaecbbe56e90 597 linuxmuster-webui7_7.2.29-testing.dsc
+ 087723d492d05d345ab554484e593377c6873be1 4399248 linuxmuster-webui7_7.2.29-testing.tar.gz
+ 35230c1569b13346ed198f04eb5ba400bf3277cf 1671616 linuxmuster-webui7_7.2.29-testing_all.deb
+ a1ec6ea678c35c41aeaac6bc0b115baada0d2b6b 8100 linuxmuster-webui7_7.2.29-testing_amd64.buildinfo
+Checksums-Sha256:
+ bcb413e1e224304f89e40183396f1ad837bf6e69b65ce38647cff89be34aaff1 597 linuxmuster-webui7_7.2.29-testing.dsc
+ a37c11968fb0d1fe678ffb7c731cda27028f44b50c4ce8efd3e089e157333e9e 4399248 linuxmuster-webui7_7.2.29-testing.tar.gz
+ 51baf18c22ed750fe7192b0796506f289a61904ad1545bedff9e4ada8ff9f409 1671616 linuxmuster-webui7_7.2.29-testing_all.deb
+ 7a60bc4b526b55841000db94e1082a665a18b8156095134dd90de09c7b9a9cff 8100 linuxmuster-webui7_7.2.29-testing_amd64.buildinfo
+Files:
+ 7beec289f542f215597b48cb35a3af23 597 admin optional linuxmuster-webui7_7.2.29-testing.dsc
+ bfbd4b8af53daa7fe445d949b7cb5c31 4399248 admin optional linuxmuster-webui7_7.2.29-testing.tar.gz
+ a551f81a257e9d1c6b9d0a0fcee7ea19 1671616 admin optional linuxmuster-webui7_7.2.29-testing_all.deb
+ e3a81e251d804cd6ea73d7e9aa913d49 8100 admin optional linuxmuster-webui7_7.2.29-testing_amd64.buildinfo
