@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-cli7
 Binary: linuxmuster-cli7
 Architecture: all source
-Version: 7.2.6
+Version: 7.2.7
 Checksums-Md5:
- 897f751d813874b0f1120fa41e4c0dd5 564 linuxmuster-cli7_7.2.6.dsc
- 07aa3ce1d9f4938584c4ef3cd1570dcd 7824 linuxmuster-cli7_7.2.6_all.deb
+ 493287e1ab514a81b143f5a2db26cc7d 564 linuxmuster-cli7_7.2.7.dsc
+ d78aa5adfa51b216ec3d69708e7a471d 7862 linuxmuster-cli7_7.2.7_all.deb
 Checksums-Sha1:
- 6fac6c39d9b0af4bcb9386e50262b112379e6df5 564 linuxmuster-cli7_7.2.6.dsc
- 3eede2e3f9029a1d28898062c8f05a8ed7c915bc 7824 linuxmuster-cli7_7.2.6_all.deb
+ 0e798416bbbf335063dfc872ed09daa70bade4ea 564 linuxmuster-cli7_7.2.7.dsc
+ 2cf7fb5f708566c7a82be84b6b3ab0a9c860033b 7862 linuxmuster-cli7_7.2.7_all.deb
 Checksums-Sha256:
- ae98363ae21c080e4a84af1d22890fab6ec8aae7b074780aeb1c8dd313a1eb99 564 linuxmuster-cli7_7.2.6.dsc
- f941d28b3ae193ee92ef0ef1b4224ab9c50b13ebb7a8a3121a9a4e03dfd9eb75 7824 linuxmuster-cli7_7.2.6_all.deb
+ f33e41fe654e29cafa5b95252027439c01b5a2090fb577635810740afc4c5fa9 564 linuxmuster-cli7_7.2.7.dsc
+ cc43aec4c382a2b4de36edf9e9b753bf97fb89480898c338c6d3b9f259fafa86 7862 linuxmuster-cli7_7.2.7_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 26 Nov 2023 15:19:36 +0000
+Build-Date: Mon, 01 Jan 2024 22:02:06 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -28,9 +28,9 @@ Installed-Build-Depends:
  base-files (= 12ubuntu4.4),
  base-passwd (= 3.5.52build1),
  bash (= 5.1-6ubuntu1),
- binutils (= 2.38-4ubuntu2.3),
- binutils-common (= 2.38-4ubuntu2.3),
- binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.3),
+ binutils (= 2.38-4ubuntu2.4),
+ binutils-common (= 2.38-4ubuntu2.4),
+ binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.4),
  bsdextrautils (= 2.37.2-4ubuntu3),
  bsdutils (= 1:2.37.2-4ubuntu3),
  build-essential (= 12.9ubuntu3),
@@ -92,15 +92,15 @@ Installed-Build-Depends:
  libattr1 (= 1:2.5.1-1build1),
  libaudit-common (= 1:3.0.7-1build1),
  libaudit1 (= 1:3.0.7-1build1),
- libbinutils (= 2.38-4ubuntu2.3),
+ libbinutils (= 2.38-4ubuntu2.4),
  libblkid1 (= 2.37.2-4ubuntu3),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
- libc-bin (= 2.35-0ubuntu3.4),
- libc-dev-bin (= 2.35-0ubuntu3.4),
- libc6 (= 2.35-0ubuntu3.4),
- libc6-dev (= 2.35-0ubuntu3.4),
- libc6-i386 (= 2.35-0ubuntu3.4),
+ libc-bin (= 2.35-0ubuntu3.5),
+ libc-dev-bin (= 2.35-0ubuntu3.5),
+ libc6 (= 2.35-0ubuntu3.5),
+ libc6-dev (= 2.35-0ubuntu3.5),
+ libc6-i386 (= 2.35-0ubuntu3.5),
  libcap-ng0 (= 0.7.9-2.2build3),
  libcap2 (= 1:2.44-1ubuntu0.22.04.1),
  libcc1-0 (= 13.1.0-8ubuntu1~22.04),
@@ -116,8 +116,8 @@ Installed-Build-Depends:
  libcom-err2 (= 1.46.5-2ubuntu1.1),
  libcrypt-dev (= 1:4.4.27-1),
  libcrypt1 (= 1:4.4.27-1),
- libctf-nobfd0 (= 2.38-4ubuntu2.3),
- libctf0 (= 2.38-4ubuntu2.3),
+ libctf-nobfd0 (= 2.38-4ubuntu2.4),
+ libctf0 (= 2.38-4ubuntu2.4),
  libdb5.3 (= 5.3.28+dfsg1-0.8ubuntu3),
  libdebconfclient0 (= 0.261ubuntu1),
  libdebhelper-perl (= 13.6ubuntu1),
@@ -171,7 +171,7 @@ Installed-Build-Depends:
  libpam0g (= 1.4.0-11ubuntu2.3),
  libpcre2-8-0 (= 10.39-3ubuntu0.1),
  libpcre3 (= 2:8.39-13ubuntu0.22.04.1),
- libperl5.34 (= 5.34.0-3ubuntu1.2),
+ libperl5.34 (= 5.34.0-3ubuntu1.3),
  libpipeline1 (= 1.5.5-1),
  libquadmath0 (= 13.1.0-8ubuntu1~22.04),
  libreadline8 (= 8.1.2-1),
@@ -198,7 +198,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.3),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-88.98),
+ linux-libc-dev (= 5.15.0-91.101),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -212,16 +212,16 @@ Installed-Build-Depends:
  ncurses-base (= 6.3-2ubuntu0.1),
  ncurses-bin (= 6.3-2ubuntu0.1),
  patch (= 2.7.6-7build2),
- perl (= 5.34.0-3ubuntu1.2),
- perl-base (= 5.34.0-3ubuntu1.2),
- perl-modules-5.34 (= 5.34.0-3ubuntu1.2),
+ perl (= 5.34.0-3ubuntu1.3),
+ perl-base (= 5.34.0-3ubuntu1.3),
+ perl-modules-5.34 (= 5.34.0-3ubuntu1.3),
  po-debconf (= 1.0.21+nmu1),
  readline-common (= 8.1.2-1),
  rpcsvc-proto (= 1.4.2-0ubuntu6),
  sed (= 4.8-1ubuntu2),
  sensible-utils (= 0.0.17),
  sysvinit-utils (= 3.01-1ubuntu1),
- tar (= 1.34+dfsg-1ubuntu0.1.22.04.1),
+ tar (= 1.34+dfsg-1ubuntu0.1.22.04.2),
  util-linux (= 2.37.2-4ubuntu3),
  xz-utils (= 5.2.5-2ubuntu1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu9.2)
@@ -230,4 +230,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1701011785"
+ SOURCE_DATE_EPOCH="1704146414"
