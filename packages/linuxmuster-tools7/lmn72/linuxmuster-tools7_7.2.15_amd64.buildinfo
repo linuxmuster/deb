@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.2.14
+Version: 7.2.15
 Checksums-Md5:
- e6e7fb1d4d6e4fdfcd58cb30c666aa9b 580 linuxmuster-tools7_7.2.14.dsc
- 1a533f521c52d30d324207019389d514 27234 linuxmuster-tools7_7.2.14_all.deb
+ 0e417b844d56fc4274c6410f0b1f6e74 580 linuxmuster-tools7_7.2.15.dsc
+ 583db7d0aa395ef5f94e72dc737b7033 28934 linuxmuster-tools7_7.2.15_all.deb
 Checksums-Sha1:
- 61ec0c5d9c5a830987e649a904ba88d26e5fad24 580 linuxmuster-tools7_7.2.14.dsc
- 8a8620f133a5f3c1b5edcc8b07d9e719894e4c92 27234 linuxmuster-tools7_7.2.14_all.deb
+ f8f88e426eb3d7bda0b80e8af89f69bea24d44a4 580 linuxmuster-tools7_7.2.15.dsc
+ 3e5ce8087900171352a1dde266fc2cd01f2ab53a 28934 linuxmuster-tools7_7.2.15_all.deb
 Checksums-Sha256:
- d25b86ec0997585cb94cf87f20bf7cb6c46dd1d32c34e84503cfca1098d2d160 580 linuxmuster-tools7_7.2.14.dsc
- 90bb3c41d475f5403beb9954664d7ec4b01867896eac5e93f4291bec14389454 27234 linuxmuster-tools7_7.2.14_all.deb
+ b31d13942d6981ee46a840fe0a78a9b4140e9eb8de505fcb312bc43ecd3f00f7 580 linuxmuster-tools7_7.2.15.dsc
+ 2ffda639c6d6202fc51f7b52d713198d50b98c3153b3da9553bdc3bb8ee9494a 28934 linuxmuster-tools7_7.2.15_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 19 Dec 2023 15:10:52 +0000
+Build-Date: Mon, 01 Jan 2024 21:04:04 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -28,9 +28,9 @@ Installed-Build-Depends:
  base-files (= 12ubuntu4.4),
  base-passwd (= 3.5.52build1),
  bash (= 5.1-6ubuntu1),
- binutils (= 2.38-4ubuntu2.3),
- binutils-common (= 2.38-4ubuntu2.3),
- binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.3),
+ binutils (= 2.38-4ubuntu2.4),
+ binutils-common (= 2.38-4ubuntu2.4),
+ binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.4),
  bsdextrautils (= 2.37.2-4ubuntu3),
  bsdutils (= 1:2.37.2-4ubuntu3),
  build-essential (= 12.9ubuntu3),
@@ -92,7 +92,7 @@ Installed-Build-Depends:
  libattr1 (= 1:2.5.1-1build1),
  libaudit-common (= 1:3.0.7-1build1),
  libaudit1 (= 1:3.0.7-1build1),
- libbinutils (= 2.38-4ubuntu2.3),
+ libbinutils (= 2.38-4ubuntu2.4),
  libblkid1 (= 2.37.2-4ubuntu3),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
@@ -116,8 +116,8 @@ Installed-Build-Depends:
  libcom-err2 (= 1.46.5-2ubuntu1.1),
  libcrypt-dev (= 1:4.4.27-1),
  libcrypt1 (= 1:4.4.27-1),
- libctf-nobfd0 (= 2.38-4ubuntu2.3),
- libctf0 (= 2.38-4ubuntu2.3),
+ libctf-nobfd0 (= 2.38-4ubuntu2.4),
+ libctf0 (= 2.38-4ubuntu2.4),
  libdb5.3 (= 5.3.28+dfsg1-0.8ubuntu3),
  libdebconfclient0 (= 0.261ubuntu1),
  libdebhelper-perl (= 13.6ubuntu1),
@@ -230,4 +230,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1702998574"
+ SOURCE_DATE_EPOCH="1704142668"
