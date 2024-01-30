@@ -1,3 +1,18 @@
+Package: linuxmuster-api8
+Version: 8.0.2
+Architecture: all
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Installed-Size: 43
+Depends: openssl, linuxmuster-tools8, python3
+Priority: optional
+Section: linuxmuster
+Filename: pool/main/l/linuxmuster-api8/linuxmuster-api8_8.0.2_all.deb
+Size: 7770
+SHA256: 434af6091f7e9a9167aa23a555e24bf5e5a93f1883bbfae1ce4fd6a222b09511
+SHA1: 3a2895ae34d51dfc0fc2cc2eabdc555b6dde4fc8
+MD5sum: b81527bf5d41725c809f3f2f73b86639
+Description: Api for the linuxmuster.net 8 server.
+
 Package: linuxmuster-tools8
 Version: 8.0.2
 Architecture: all
