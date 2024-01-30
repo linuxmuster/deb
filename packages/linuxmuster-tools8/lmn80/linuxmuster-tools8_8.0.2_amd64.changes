@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 30 Jan 2024 18:05:55 +0100
+Source: linuxmuster-tools8
+Binary: linuxmuster-tools8
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 8.0.2
+Distribution: lmn80
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools8 - Tools for the linuxmuster.net 8 server.
+Changes:
+ linuxmuster-tools8 (8.0.2) lmn80; urgency=medium
+ .
+   * Add ldap writer
+   * [ldapreader] Move to administrator account
+   * [ldapreader] Add getval wrapper
+   * [ldapreader] Get passwords list
+   * [ldapreader] Get user quota
+   * [ldapreader] Global ldap search
+Checksums-Sha1:
+ 9a0be426cacfee0a57b4e3a1babf6052a3f458f9 576 linuxmuster-tools8_8.0.2.dsc
+ a2bb0d7a5f21a0d429373e190956e9cd92571454 49904 linuxmuster-tools8_8.0.2.tar.gz
+ 87f1b0a770867d2a5a20bf75f824eecd6644f4d8 30892 linuxmuster-tools8_8.0.2_all.deb
+ 00c0322633402851df4a3956a96444ad30ae8936 7971 linuxmuster-tools8_8.0.2_amd64.buildinfo
+Checksums-Sha256:
+ 9283c11f4a5122956560caa50be664c7f83c19d3bf8985fba5c2312878f35c77 576 linuxmuster-tools8_8.0.2.dsc
+ 3eafe79cfeb9479fdf098657028fdfbd1beb23b958300e1083b658c62273ba40 49904 linuxmuster-tools8_8.0.2.tar.gz
+ dd3a33269917569f049cadfd4e6ac53e332a5a4900c95c83ba6a18b01faca7d0 30892 linuxmuster-tools8_8.0.2_all.deb
+ 53201d849187f2aec10a7bd7dcdfaacef9cb19e610ca00c5958a4b54dcacabfe 7971 linuxmuster-tools8_8.0.2_amd64.buildinfo
+Files:
+ 0e7a898f850bed507497d4b89d2678bd 576 linuxmuster optional linuxmuster-tools8_8.0.2.dsc
+ 1ddc6b45c22495973b66f85427b99239 49904 linuxmuster optional linuxmuster-tools8_8.0.2.tar.gz
+ 5c49fca6a0d05c90448cbe7340cd31e5 30892 linuxmuster optional linuxmuster-tools8_8.0.2_all.deb
+ de4506fc9a1a965965039dcac76b01f7 7971 linuxmuster optional linuxmuster-tools8_8.0.2_amd64.buildinfo
