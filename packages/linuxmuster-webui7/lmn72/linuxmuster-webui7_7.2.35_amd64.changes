@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 08 Feb 2024 13:16:34 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.35
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.35) lmn72; urgency=medium
+ .
+   * [session] Use group manager
+   * [smbclient] Add some delay and attempts
+Checksums-Sha1:
+ 82b48a901871cf8e379bc41221aabce0c27652ea 565 linuxmuster-webui7_7.2.35.dsc
+ fcaec72720c7e2b0e2c3899c08899687db5ac248 4409524 linuxmuster-webui7_7.2.35.tar.gz
+ d8d93035dbccdb404da154eadb8b062fef30e178 1677076 linuxmuster-webui7_7.2.35_all.deb
+ dce573704741dc7d3d1d4cd5d39e5cd623be315b 8045 linuxmuster-webui7_7.2.35_amd64.buildinfo
+Checksums-Sha256:
+ 6f2810845503b3543a1bcfb25d1ab20097a079b05753c39f1be9324b4312a4ff 565 linuxmuster-webui7_7.2.35.dsc
+ 1df81e70f1869c64c81232789dde3d56f699f5a0d2fb104152b2d754c3634feb 4409524 linuxmuster-webui7_7.2.35.tar.gz
+ b44ce6a51847fdff5195b0e0b6d2cc36c3be777979df2d771b9ec52e2db39e20 1677076 linuxmuster-webui7_7.2.35_all.deb
+ 3d973b9cfb0293ca959bb5cb48fff36c6604e2d1d76251a429b50eb8f18252d0 8045 linuxmuster-webui7_7.2.35_amd64.buildinfo
+Files:
+ a45682010fda0c1c58d61f98ab66f80d 565 admin optional linuxmuster-webui7_7.2.35.dsc
+ 6b09d538bc555a82ecebcad6caeb1899 4409524 admin optional linuxmuster-webui7_7.2.35.tar.gz
+ 5284b1d91bf56ecf19273f0d3513f810 1677076 admin optional linuxmuster-webui7_7.2.35_all.deb
+ 0ab0a7d6d286e58f19377a1f77f3c0c1 8045 admin optional linuxmuster-webui7_7.2.35_amd64.buildinfo
