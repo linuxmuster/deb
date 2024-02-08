@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 08 Feb 2024 13:13:23 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.16
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.16) lmn72; urgency=medium
+ .
+   * [samba] Add group manager
+Checksums-Sha1:
+ 4290925bc2cb686ea0aedb492e9c45036f314b51 580 linuxmuster-tools7_7.2.16.dsc
+ a62d3f2f8fbc16b87d10c8dd4c22971f6cbdd5e9 48552 linuxmuster-tools7_7.2.16.tar.gz
+ 04161cb94b5ffac47c5bb1e950fc076d81dd7835 29856 linuxmuster-tools7_7.2.16_all.deb
+ 4bd6b629d45995ac0d477c4856dd9b7ac7848599 7978 linuxmuster-tools7_7.2.16_amd64.buildinfo
+Checksums-Sha256:
+ 3d46854bb3b031df52760303934356fd8fbbbee93cb04f677e10c5ef6f7d08e6 580 linuxmuster-tools7_7.2.16.dsc
+ 685a4121fb766ea5a62b68811009431665daedb5bd3458a9c2aabaf0a6678f5b 48552 linuxmuster-tools7_7.2.16.tar.gz
+ 5ff3f0a1a0515cd660a9e943f9fc71815975f8ec25e7c18ec48d0f4704fbe9ef 29856 linuxmuster-tools7_7.2.16_all.deb
+ a787b4d66ee00b9c627fe3e21c61aafc18d5222dc405eb68d83d8301d969c1c4 7978 linuxmuster-tools7_7.2.16_amd64.buildinfo
+Files:
+ aef9cb1c5fcbc5b9e6485ecef75d2418 580 linuxmuster optional linuxmuster-tools7_7.2.16.dsc
+ 38c455ac66cd1be497bc66d3c5bbbf7b 48552 linuxmuster optional linuxmuster-tools7_7.2.16.tar.gz
+ b059c753182ae8b77775aea7e1d6ddac 29856 linuxmuster optional linuxmuster-tools7_7.2.16_all.deb
+ b6bd78bfc302a8845fbfce1c33dbe952 7978 linuxmuster optional linuxmuster-tools7_7.2.16_amd64.buildinfo
