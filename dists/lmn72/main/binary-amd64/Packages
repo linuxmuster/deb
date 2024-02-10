@@ -1,5 +1,5 @@
 Package: linuxmuster-base7
-Version: 7.2.0-rc13
+Version: 7.2.1-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Installed-Size: 264
@@ -8,11 +8,11 @@ Depends: coreutils, cups, printer-driver-cups-pdf, isc-dhcp-server, python3-bcry
 Conflicts: dnsmasq-base
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.2.0-rc13_all.deb
-Size: 58342
-SHA256: 7777c4cc65702fc2744c27d1578e1d019e03cf4d5d6f9bb5778b8bf8fd2731eb
-SHA1: 0c683beef457360a494448f012e393f9047245f0
-MD5sum: bea8c742320eaff9d5bd34658e24f0ea
+Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.2.1-0_all.deb
+Size: 58456
+SHA256: 48e01e34e98e4cf1d7a431f6a3c34e810b600ce3a69eccf27b01c887c16425d4
+SHA1: d297e94119f44722f6047d019ec3e75f1aaa52dc
+MD5sum: 10f1430d82e26f8af873133f8c2bcbd6
 Description: linuxmuster.net configuration scripts
  This package provides configuration scripts for linuxmuster.net
 
