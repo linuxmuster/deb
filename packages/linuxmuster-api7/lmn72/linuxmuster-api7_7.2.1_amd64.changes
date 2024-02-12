@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 12 Feb 2024 10:35:55 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.1
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.2.1) lmn72; urgency=medium
+ .
+   * First test package. Do NOT use it in production.
+Checksums-Sha1:
+ cc528b50c9ed53aa3ff8baaa7cec6c235246fafb 564 linuxmuster-api7_7.2.1.dsc
+ 73473047097a2d658fa092a2ea6f85df899f4ec8 20352 linuxmuster-api7_7.2.1.tar.gz
+ f052861e02c7154f6bdc7dfa954e3fc8fc5a9ca4 8124 linuxmuster-api7_7.2.1_all.deb
+ 4c7b26f0b51c048e75538aad6d6de6d01339bb32 7952 linuxmuster-api7_7.2.1_amd64.buildinfo
+Checksums-Sha256:
+ 053b6b6f68325ff7c48fe9c17f95abd0199f218985aa7b2e0afd6c1b01782332 564 linuxmuster-api7_7.2.1.dsc
+ 654238e2a298184aa06d9dbfc8873c3b53653d49168936bc936c2cef5dc8a184 20352 linuxmuster-api7_7.2.1.tar.gz
+ 8dc50efc49a6ca208b792f8ee5eecfb7e76262131895027ffa58ad466160fbcb 8124 linuxmuster-api7_7.2.1_all.deb
+ 45bf8820104d1479569d85924aad6b5c189aa4128bfcb56e5206525b21e5f54e 7952 linuxmuster-api7_7.2.1_amd64.buildinfo
+Files:
+ 5f1020fe23faeb9b33ca8852bc86d87a 564 linuxmuster optional linuxmuster-api7_7.2.1.dsc
+ 34f946b6dce2e44d8ff9f6184304b5a6 20352 linuxmuster optional linuxmuster-api7_7.2.1.tar.gz
+ be3fbb62bd26314723b681654b67774a 8124 linuxmuster optional linuxmuster-api7_7.2.1_all.deb
+ 5c8598780f4401a83beb1459719f1ec2 7952 linuxmuster optional linuxmuster-api7_7.2.1_amd64.buildinfo
