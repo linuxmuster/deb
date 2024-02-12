@@ -13,18 +13,3 @@ SHA1: 3a2895ae34d51dfc0fc2cc2eabdc555b6dde4fc8
 MD5sum: b81527bf5d41725c809f3f2f73b86639
 Description: Api for the linuxmuster.net 8 server.
 
-Package: linuxmuster-tools8
-Version: 8.0.2
-Architecture: all
-Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 171
-Depends: python3, nmap
-Priority: optional
-Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools8/linuxmuster-tools8_8.0.2_all.deb
-Size: 30892
-SHA256: dd3a33269917569f049cadfd4e6ac53e332a5a4900c95c83ba6a18b01faca7d0
-SHA1: 87f1b0a770867d2a5a20bf75f824eecd6644f4d8
-MD5sum: 5c49fca6a0d05c90448cbe7340cd31e5
-Description: Tools for the linuxmuster.net 8 server.
-
