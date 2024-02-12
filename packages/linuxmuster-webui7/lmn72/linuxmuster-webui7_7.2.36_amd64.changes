@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 12 Feb 2024 10:12:06 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.36
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.36) lmn72; urgency=medium
+ .
+   * [session] Fix lmntools-managementgroup path
+   * [webdav] Fix samba netbios path
+   * [webdav] Remove deprecated projects share.
+Checksums-Sha1:
+ 76730ce180f629d55e76436831de7b6ff55e6edf 565 linuxmuster-webui7_7.2.36.dsc
+ 8885dad4fae236c2c3b8378aaafacb4175d9dd58 4409904 linuxmuster-webui7_7.2.36.tar.gz
+ cfa1b5983abd9cdff4daf2fc928ba0b924fbf9d3 1677446 linuxmuster-webui7_7.2.36_all.deb
+ ea220fb7c27c946964f1a5bed18844dc122112ab 8045 linuxmuster-webui7_7.2.36_amd64.buildinfo
+Checksums-Sha256:
+ 810476302021c72cc4bc41540d82b3e932799e034c2a6d3dbfeacdf198c5a969 565 linuxmuster-webui7_7.2.36.dsc
+ 8d1ba62071ec2058551b56262441f2cc58642f4a1f369727ab5a71f1db30ddb4 4409904 linuxmuster-webui7_7.2.36.tar.gz
+ 9c39880e9373a27290bfee40370c7794d69d9add8bb8860f5e2ff58d15a2a1d5 1677446 linuxmuster-webui7_7.2.36_all.deb
+ eb4e50444e57927dc7970c66accd1776df9954ec96327bd00874b03e03f93cf9 8045 linuxmuster-webui7_7.2.36_amd64.buildinfo
+Files:
+ a52470e4548fb568ee844644973c8a09 565 admin optional linuxmuster-webui7_7.2.36.dsc
+ 866d4fdea6020a73eaaa92a04ced7707 4409904 admin optional linuxmuster-webui7_7.2.36.tar.gz
+ a5ea09354d60a8746fcdfd27cc0cb2e1 1677446 admin optional linuxmuster-webui7_7.2.36_all.deb
+ 4e9870f5c42453138f38d378dd2a5e31 8045 admin optional linuxmuster-webui7_7.2.36_amd64.buildinfo
