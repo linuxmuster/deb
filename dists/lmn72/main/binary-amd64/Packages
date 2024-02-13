@@ -100,22 +100,22 @@ MD5sum: bf01b2872a94422b31e379c0a662266f
 Description: linuxmuster.net pre setup configuration scripts
 
 Package: linuxmuster-tools7
-Version: 7.2.17
+Version: 7.2.18
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 178
 Depends: python3, nmap
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.2.17_all.deb
-Size: 31948
-SHA256: a82ebeaf931644546f3cba697d198110cff3fcf9de83d559fa54b1297f9dd82f
-SHA1: 8d4803db99cdc3b0606742621a45ae4e75e813ec
-MD5sum: 03bc8c0719e9c1fd6007b2aa4665e1a1
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.2.18_all.deb
+Size: 32042
+SHA256: 4ae6739802448bae60854d536a98933b396a19e670c671128bd227b1d8be1e90
+SHA1: 2c9c004b88ad6bf1b3b5c7c9c5deefd0b1a399e6
+MD5sum: 7160fcad8b8f6a29b29d5ea0fe6e5c1a
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
-Version: 7.2.36
+Version: 7.2.37
 Architecture: all
 Maintainer: Andreas Till <andreas.till@netzint.de>
 Installed-Size: 34786
@@ -123,11 +123,11 @@ Depends: python3-pip, python3-dev, python3-jinja2, python3-lxml, libffi-dev, lib
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.36_all.deb
-Size: 1677446
-SHA256: 9c39880e9373a27290bfee40370c7794d69d9add8bb8860f5e2ff58d15a2a1d5
-SHA1: cfa1b5983abd9cdff4daf2fc928ba0b924fbf9d3
-MD5sum: a5ea09354d60a8746fcdfd27cc0cb2e1
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.37_all.deb
+Size: 1677396
+SHA256: 6a7533fe6e8a23fde8c4c4fcb5d5bb3513d5fb7282b8dfccecf0186b6f7cccc3
+SHA1: f4fba3d88a53881d6e35ff7a82d68a252eddc765
+MD5sum: b5bc14e4d3da57b29a81f13909839183
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
 Package: sophomorix-belwue-mail
