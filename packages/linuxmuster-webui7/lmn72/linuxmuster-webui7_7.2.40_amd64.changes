@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 14 Feb 2024 14:00:59 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.40
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.40) lmn72; urgency=medium
+ .
+   * Avoid setting ACLs on webuiUpload folder when not configured
+Checksums-Sha1:
+ a18cca95331c23879416a6a17de1e59aa9e29058 565 linuxmuster-webui7_7.2.40.dsc
+ d9d77f461176bed0f89d0ceb16349ea4bae11bd0 4410971 linuxmuster-webui7_7.2.40.tar.gz
+ 6e0431c534034b3527da0fc68178296aa4e3c286 1678012 linuxmuster-webui7_7.2.40_all.deb
+ b30a4a8596c00f08efaf624ab140dade735ef64b 8045 linuxmuster-webui7_7.2.40_amd64.buildinfo
+Checksums-Sha256:
+ 1ac6c1d1733c904ae9ed142b26b8a01977f140fb076cd159d22a5fa1c16d4373 565 linuxmuster-webui7_7.2.40.dsc
+ fa677c1d8e5a1505f07baf2da709a10530ecbb453edd51c746fd7b68a6a619a1 4410971 linuxmuster-webui7_7.2.40.tar.gz
+ f97fa1ae069015652d3ee602364529fe178041b53eb1cfb8cdc33a7d166b7cd3 1678012 linuxmuster-webui7_7.2.40_all.deb
+ 2375403cbea3fdc7539a4248dd6b642ac2656f53f98441b2a0cec670dde6ca7d 8045 linuxmuster-webui7_7.2.40_amd64.buildinfo
+Files:
+ 38bb0b3d19cd8ad5731bfe56c79ab4d6 565 admin optional linuxmuster-webui7_7.2.40.dsc
+ 8b676b2a32a7d44e6ec6cb8874bad2c7 4410971 admin optional linuxmuster-webui7_7.2.40.tar.gz
+ 9e3cf006b27969f6b0d9e0ba90531db7 1678012 admin optional linuxmuster-webui7_7.2.40_all.deb
+ a4cb7dec285e1e06d1c82f8e287d12bf 8045 admin optional linuxmuster-webui7_7.2.40_amd64.buildinfo
