@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.2.1-0
+Version: 7.2.2-0
 Checksums-Md5:
- 9abecdfa0f44099d65184c88604b60b5 579 linuxmuster-base7_7.2.1-0.dsc
- 10f1430d82e26f8af873133f8c2bcbd6 58456 linuxmuster-base7_7.2.1-0_all.deb
+ fa0be07632a33383290cd00ebe494d70 579 linuxmuster-base7_7.2.2-0.dsc
+ d5fec5feae3f92fe3296b205ebde5a65 59146 linuxmuster-base7_7.2.2-0_all.deb
 Checksums-Sha1:
- 3db2be69bfdc2e881cdb5094fe0ecf573f98c9ec 579 linuxmuster-base7_7.2.1-0.dsc
- d297e94119f44722f6047d019ec3e75f1aaa52dc 58456 linuxmuster-base7_7.2.1-0_all.deb
+ a3a1e4473409b81b5c97489128ace879a946ba1b 579 linuxmuster-base7_7.2.2-0.dsc
+ 9d139e97b453440fad7bd112c5c1df307e0ced2f 59146 linuxmuster-base7_7.2.2-0_all.deb
 Checksums-Sha256:
- 1846bf87e14929c3997f2dfc91df5410bcad3d6c15ae0f44f0e99ec3c6b31918 579 linuxmuster-base7_7.2.1-0.dsc
- 48e01e34e98e4cf1d7a431f6a3c34e810b600ce3a69eccf27b01c887c16425d4 58456 linuxmuster-base7_7.2.1-0_all.deb
+ 6a44baada8d9698df1b60539b3abe7196ceb8653a624d9adae4ce72c58680871 579 linuxmuster-base7_7.2.2-0.dsc
+ d5fcbf6d2f7ef968a00c1886e81d033132b664d639b41dea7c491cdfbec627f8 59146 linuxmuster-base7_7.2.2-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 10 Feb 2024 14:21:53 +0000
+Build-Date: Mon, 19 Feb 2024 17:33:59 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -179,7 +179,7 @@ Installed-Build-Depends:
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
  libsmartcols1 (= 2.37.2-4ubuntu3),
- libssl3 (= 3.0.2-0ubuntu1.13),
+ libssl3 (= 3.0.2-0ubuntu1.14),
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 13.1.0-8ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
@@ -198,7 +198,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.3),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-92.102),
+ linux-libc-dev (= 5.15.0-94.104),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -230,4 +230,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1707574177"
+ SOURCE_DATE_EPOCH="1708363803"
