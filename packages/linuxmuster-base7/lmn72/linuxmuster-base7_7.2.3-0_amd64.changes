@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 21 Feb 2024 11:52:36 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.3-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.3-0) lmn72; urgency=low
+ .
+   * Fix #150: Update ignores skipfw = True, remove deprecated postinst code (203f4fc).
+   * change initial opnsense unbound configuration to use system nameservers per default (cfeecc9).
+Checksums-Sha1:
+ c9fca46f08bcbaa64707d247a97c713d0108ab2a 579 linuxmuster-base7_7.2.3-0.dsc
+ 3e8797e0fb0158eb2a339b0ca9ef74a6a4b858a1 77128 linuxmuster-base7_7.2.3-0.tar.gz
+ 35e4d4bbe2737e14f6b34b1fb707d24577dd08f6 58120 linuxmuster-base7_7.2.3-0_all.deb
+ ab0de21aebdef0cea49fdd95fa970bdd6ca182d6 8068 linuxmuster-base7_7.2.3-0_amd64.buildinfo
+Checksums-Sha256:
+ e0b3608caef14af991dd6970c726c4e1c5cd6e8d31bf844ea4895930d6864e53 579 linuxmuster-base7_7.2.3-0.dsc
+ 8b0e9bdd9ff5860a569792b1a38c90789877d71d4016777b168b961edbf3a01f 77128 linuxmuster-base7_7.2.3-0.tar.gz
+ badd86b95e943d5c528592b093cf253bafa03b4b4c0dede127600522c97be75e 58120 linuxmuster-base7_7.2.3-0_all.deb
+ 6b37c02525e35fa5e52b5d4efcd873facae69202bff49c09ebe309369ae3156b 8068 linuxmuster-base7_7.2.3-0_amd64.buildinfo
+Files:
+ aad3cb22968a72a6090bc7f404cdd968 579 linuxmuster optional linuxmuster-base7_7.2.3-0.dsc
+ e58c127dc251186d800586b422b42b38 77128 linuxmuster optional linuxmuster-base7_7.2.3-0.tar.gz
+ e21a7f66f7e723206caf14436f2db4e5 58120 linuxmuster optional linuxmuster-base7_7.2.3-0_all.deb
+ 19d6bad6c8a9dc19b5a14ba048004152 8068 linuxmuster optional linuxmuster-base7_7.2.3-0_amd64.buildinfo
