@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-api7
 Binary: linuxmuster-api7
 Architecture: all source
-Version: 7.2.1
+Version: 7.2.2
 Checksums-Md5:
- 5f1020fe23faeb9b33ca8852bc86d87a 564 linuxmuster-api7_7.2.1.dsc
- be3fbb62bd26314723b681654b67774a 8124 linuxmuster-api7_7.2.1_all.deb
+ b973f332fbf79486d26b0d2f21c3185b 564 linuxmuster-api7_7.2.2.dsc
+ 287f36b966df231703e84a88144adad2 9804 linuxmuster-api7_7.2.2_all.deb
 Checksums-Sha1:
- cc528b50c9ed53aa3ff8baaa7cec6c235246fafb 564 linuxmuster-api7_7.2.1.dsc
- f052861e02c7154f6bdc7dfa954e3fc8fc5a9ca4 8124 linuxmuster-api7_7.2.1_all.deb
+ 5efd25d5783bb13c2c12197ff7bb63bfbf0c6c41 564 linuxmuster-api7_7.2.2.dsc
+ 5be5595fa84392ade40deb1de557d8370abd87b9 9804 linuxmuster-api7_7.2.2_all.deb
 Checksums-Sha256:
- 053b6b6f68325ff7c48fe9c17f95abd0199f218985aa7b2e0afd6c1b01782332 564 linuxmuster-api7_7.2.1.dsc
- 8dc50efc49a6ca208b792f8ee5eecfb7e76262131895027ffa58ad466160fbcb 8124 linuxmuster-api7_7.2.1_all.deb
+ 0bda97ce3052a8a6febdc2fc96c8eae9fbf6b466fee14dbefd8db1f01852d45a 564 linuxmuster-api7_7.2.2.dsc
+ 65c40e6e71fd062cce694d9b3a503a41d7f348941f118e4bc2269f116c7a61c2 9804 linuxmuster-api7_7.2.2_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 12 Feb 2024 10:06:41 +0000
+Build-Date: Wed, 20 Mar 2024 15:38:54 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -25,12 +25,12 @@ Installed-Build-Depends:
  automake (= 1:1.16.5-1.3),
  autopoint (= 0.21-4ubuntu4),
  autotools-dev (= 20220109.1),
- base-files (= 12ubuntu4.5),
+ base-files (= 12ubuntu4.6),
  base-passwd (= 3.5.52build1),
  bash (= 5.1-6ubuntu1),
- binutils (= 2.38-4ubuntu2.5),
- binutils-common (= 2.38-4ubuntu2.5),
- binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.5),
+ binutils (= 2.38-4ubuntu2.6),
+ binutils-common (= 2.38-4ubuntu2.6),
+ binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.6),
  bsdextrautils (= 2.37.2-4ubuntu3),
  bsdutils (= 1:2.37.2-4ubuntu3),
  build-essential (= 12.9ubuntu3),
@@ -38,7 +38,7 @@ Installed-Build-Depends:
  clang-13 (= 1:13.0.1-2ubuntu2.2),
  clang-14 (= 1:14.0.0-1ubuntu1.1),
  clang-15 (= 1:15.0.7-0ubuntu0.22.04.3),
- coreutils (= 8.32-4.1ubuntu1),
+ coreutils (= 8.32-4.1ubuntu1.1),
  cpp (= 4:11.2.0-1ubuntu1),
  cpp-10 (= 10.5.0-1ubuntu1~22.04),
  cpp-11 (= 11.4.0-1ubuntu1~22.04),
@@ -53,8 +53,8 @@ Installed-Build-Depends:
  dh-autoreconf (= 20),
  dh-strip-nondeterminism (= 1.13.0-1),
  diffutils (= 1:3.8-0ubuntu2),
- dpkg (= 1.21.1ubuntu2.2),
- dpkg-dev (= 1.21.1ubuntu2.2),
+ dpkg (= 1.21.1ubuntu2.3),
+ dpkg-dev (= 1.21.1ubuntu2.3),
  dwz (= 0.14-1build2),
  file (= 1:5.41-3ubuntu0.1),
  findutils (= 4.8.0-1ubuntu3),
@@ -92,7 +92,7 @@ Installed-Build-Depends:
  libattr1 (= 1:2.5.1-1build1),
  libaudit-common (= 1:3.0.7-1build1),
  libaudit1 (= 1:3.0.7-1build1),
- libbinutils (= 2.38-4ubuntu2.5),
+ libbinutils (= 2.38-4ubuntu2.6),
  libblkid1 (= 2.37.2-4ubuntu3),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
@@ -116,12 +116,12 @@ Installed-Build-Depends:
  libcom-err2 (= 1.46.5-2ubuntu1.1),
  libcrypt-dev (= 1:4.4.27-1),
  libcrypt1 (= 1:4.4.27-1),
- libctf-nobfd0 (= 2.38-4ubuntu2.5),
- libctf0 (= 2.38-4ubuntu2.5),
+ libctf-nobfd0 (= 2.38-4ubuntu2.6),
+ libctf0 (= 2.38-4ubuntu2.6),
  libdb5.3 (= 5.3.28+dfsg1-0.8ubuntu3),
  libdebconfclient0 (= 0.261ubuntu1),
  libdebhelper-perl (= 13.6ubuntu1),
- libdpkg-perl (= 1.21.1ubuntu2.2),
+ libdpkg-perl (= 1.21.1ubuntu2.3),
  libdw1 (= 0.186-1build1),
  libedit2 (= 3.1-20210910-1build1),
  libelf1 (= 0.186-1build1),
@@ -179,7 +179,7 @@ Installed-Build-Depends:
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
  libsmartcols1 (= 2.37.2-4ubuntu3),
- libssl3 (= 3.0.2-0ubuntu1.13),
+ libssl3 (= 3.0.2-0ubuntu1.15),
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 13.1.0-8ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
@@ -196,13 +196,13 @@ Installed-Build-Depends:
  libudev1 (= 249.11-0ubuntu3.12),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3),
- libxml2 (= 2.9.13+dfsg-1ubuntu0.3),
+ libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-92.102),
+ linux-libc-dev (= 5.15.0-100.110),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
- login (= 1:4.8.1-2ubuntu2.1),
+ login (= 1:4.8.1-2ubuntu2.2),
  lsb-base (= 11.1.0ubuntu4),
  lto-disabled-list (= 24),
  m4 (= 1.4.18-5ubuntu2),
@@ -230,4 +230,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1707730555"
+ SOURCE_DATE_EPOCH="1710948936"
