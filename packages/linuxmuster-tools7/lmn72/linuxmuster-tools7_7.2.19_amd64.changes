@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Thu, 21 Mar 2024 08:56:32 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.19
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.19) lmn72; urgency=medium
+ .
+   * Case insensitive hostnames
+   * User manager to handle passwords
+   * Fix crash on LDAP server down
+   * Add school parameter for group management
+Checksums-Sha1:
+ 4b36e836f9496a2a1a3cb979efa387ea4f541a80 580 linuxmuster-tools7_7.2.19.dsc
+ 55fea2483f515a01e5abfed0c1dc6043675f9a4e 51786 linuxmuster-tools7_7.2.19.tar.gz
+ 7b2f7c4111a04d81f099a258e33f13d4156dac25 32618 linuxmuster-tools7_7.2.19_all.deb
+ 2e47381559794838b8768eb40201c371f96ef883 7981 linuxmuster-tools7_7.2.19_amd64.buildinfo
+Checksums-Sha256:
+ ac2f2ef1e5024a5a7b5ec3c306081ba22d0ca972db924efae305d83d18043f58 580 linuxmuster-tools7_7.2.19.dsc
+ 0580af152b50534a220d27595b934df2f39576e9b171bf0416d20b6d4ef12c64 51786 linuxmuster-tools7_7.2.19.tar.gz
+ 6ade4050c6401325644c23c3eccae39b8a8641470a8beb6cb58b25cbf166dfa9 32618 linuxmuster-tools7_7.2.19_all.deb
+ 5fc002b209db81054214329c7f78d209f2afa9762c522d992e8ff0a4117980db 7981 linuxmuster-tools7_7.2.19_amd64.buildinfo
+Files:
+ 58b64f1a70e4b960adbc2cff9f36859e 580 linuxmuster optional linuxmuster-tools7_7.2.19.dsc
+ c194973c20ed31702664dadf14c6513d 51786 linuxmuster optional linuxmuster-tools7_7.2.19.tar.gz
+ 191493ae8a513867ec560c326bc5f356 32618 linuxmuster optional linuxmuster-tools7_7.2.19_all.deb
+ c09f874ca7fc38f062dd729089d33731 7981 linuxmuster optional linuxmuster-tools7_7.2.19_amd64.buildinfo
