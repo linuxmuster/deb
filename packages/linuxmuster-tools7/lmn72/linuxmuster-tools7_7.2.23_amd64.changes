@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 01 May 2024 23:34:25 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.23
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.23) lmn72; urgency=medium
+ .
+   * Add string checker fot LMN objects names
+   * [ldapreader] Export session as string
+   * [ldapreader] Ignore global school parameter
+   * [ldapreader] Get all management groups
+   * [ldapwriter] Flag add=True to only add an entry
+Checksums-Sha1:
+ f3b15920144ceea29296c9ffb0ce125c751a8f2b 580 linuxmuster-tools7_7.2.23.dsc
+ e7d71a0e64dc110126277312801ebd7d122436c4 54297 linuxmuster-tools7_7.2.23.tar.gz
+ d898cbffa23572b1d165613a1d94c0d7739b4a15 34936 linuxmuster-tools7_7.2.23_all.deb
+ 211251e2930acd52c325f9dbca64ebb0f48fc85e 7997 linuxmuster-tools7_7.2.23_amd64.buildinfo
+Checksums-Sha256:
+ 1338db6fbdc14238a57cec85e2aa3a269cc0ffbdd51278b25452c99a6010de78 580 linuxmuster-tools7_7.2.23.dsc
+ 83b3eb2e82c6d07a23af3d8cc031055033ad4d297d0a18873866d942c47b90e9 54297 linuxmuster-tools7_7.2.23.tar.gz
+ a8a589bfe5b11033e2fe722476fc6b50bcc26c1adb12ea331ddff3586cf6e909 34936 linuxmuster-tools7_7.2.23_all.deb
+ 176447ffdecff997538eb504cc263b9e3e7af5f821fb6c51ed9aa6e9f7c9b75e 7997 linuxmuster-tools7_7.2.23_amd64.buildinfo
+Files:
+ d077a454f3a2e47d735170d9efa5a7c4 580 linuxmuster optional linuxmuster-tools7_7.2.23.dsc
+ 82b6e7cad40ac0975f96325e076de2b3 54297 linuxmuster optional linuxmuster-tools7_7.2.23.tar.gz
+ f1d9911846927e93cd9c53485f51ff77 34936 linuxmuster optional linuxmuster-tools7_7.2.23_all.deb
+ beeb5f547ee589fdc31d8567d4c40c56 7997 linuxmuster optional linuxmuster-tools7_7.2.23_amd64.buildinfo
