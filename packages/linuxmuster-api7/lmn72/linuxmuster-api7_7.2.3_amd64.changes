@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 01 May 2024 23:39:22 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.3
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.2.3) lmn72; urgency=medium
+ .
+   * Move to ldapreader
+   * Add school to JWT data
+   * Handle sessions (create, delete, members, ...)
+   * Handle management groups (list, members, ...)
+   * Handle projects (list, create, delete, members, ...)
+   * Logging into file /var/log/linumuster/api/lmnapi.log
+Checksums-Sha1:
+ 864eb3a7c1ef21a76f91cc25af20979568b4e2b9 564 linuxmuster-api7_7.2.3.dsc
+ 4ccf2d7802a2de286b2cb79ecf78a3e4ce113618 24710 linuxmuster-api7_7.2.3.tar.gz
+ 07f86a709ec41017fa4e32b6646c1a18a3e8e685 11536 linuxmuster-api7_7.2.3_all.deb
+ dc83660af9cccc74255ea7586a080661039f65e3 7974 linuxmuster-api7_7.2.3_amd64.buildinfo
+Checksums-Sha256:
+ 6d385ab7005d3a5b494185427de49446f8917835b6abe516d72d29cb3999e9e2 564 linuxmuster-api7_7.2.3.dsc
+ 07d790e278292308495327b111cfdbe462289d6e0db94b77c6461d39fd2ddb37 24710 linuxmuster-api7_7.2.3.tar.gz
+ dbb5dc6891c4b285ebe5b178a460a1af6fa04a6cfa7fa2d82093c258c12ee4c5 11536 linuxmuster-api7_7.2.3_all.deb
+ de17558d43cc19226c5df212d704425759030680dbfafa10d55bb47c95f688fe 7974 linuxmuster-api7_7.2.3_amd64.buildinfo
+Files:
+ df45ee83ccc991c80fdf8f89c95bba38 564 linuxmuster optional linuxmuster-api7_7.2.3.dsc
+ 2ad569728288d44af1b3b4cc45d77e3c 24710 linuxmuster optional linuxmuster-api7_7.2.3.tar.gz
+ 9de13501eedab1e6f676e7155fcde8d3 11536 linuxmuster optional linuxmuster-api7_7.2.3_all.deb
+ 69269cf2ddfe9ee269a8c70f31b02ebd 7974 linuxmuster optional linuxmuster-api7_7.2.3_amd64.buildinfo
