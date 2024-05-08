@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 08 May 2024 15:13:19 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.24
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.24) lmn72; urgency=medium
+ .
+   * [ldapreader] Check if linuxmuster is configured.
+Checksums-Sha1:
+ 8e8fb9c40897967840ed44204541d122773c8e58 580 linuxmuster-tools7_7.2.24.dsc
+ e8fc4971eeae7d446d1f3bec20981158b2d054a7 54402 linuxmuster-tools7_7.2.24.tar.gz
+ f181017b46e04a58df99c994362a1617e296a9d2 35000 linuxmuster-tools7_7.2.24_all.deb
+ 83dd1f0ff635c958ea83af910c23c3272ea4a7e0 7997 linuxmuster-tools7_7.2.24_amd64.buildinfo
+Checksums-Sha256:
+ 189da5284de6f3e55200828a50c3d5cfae11307f79f35d5cd02b24fbe80dd0b0 580 linuxmuster-tools7_7.2.24.dsc
+ 3afd9c56cfa85c07b35d0aead9118936411008c69fb410ce78a1e44f98fee196 54402 linuxmuster-tools7_7.2.24.tar.gz
+ a5330e82f9c730c0f9beac02db05bd83802ece553b3dd8024983434a44b711b4 35000 linuxmuster-tools7_7.2.24_all.deb
+ 64e0feacc7ee9717a2bb35f84fd2f4c5624260e21a69ec29062b71a458f44350 7997 linuxmuster-tools7_7.2.24_amd64.buildinfo
+Files:
+ c3fd81b619e766c5f86d687aee188062 580 linuxmuster optional linuxmuster-tools7_7.2.24.dsc
+ 41a88c71da3e1135cd5178422c4454c6 54402 linuxmuster optional linuxmuster-tools7_7.2.24.tar.gz
+ 4f1a65c48b826345c8b65a50b26ae417 35000 linuxmuster optional linuxmuster-tools7_7.2.24_all.deb
+ 778acee37b9f00d3247b3407e20975c4 7997 linuxmuster optional linuxmuster-tools7_7.2.24_amd64.buildinfo
