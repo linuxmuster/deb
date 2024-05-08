@@ -100,18 +100,18 @@ MD5sum: bf01b2872a94422b31e379c0a662266f
 Description: linuxmuster.net pre setup configuration scripts
 
 Package: linuxmuster-tools7
-Version: 7.2.23
+Version: 7.2.24
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 191
 Depends: python3, nmap
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.2.23_all.deb
-Size: 34936
-SHA256: a8a589bfe5b11033e2fe722476fc6b50bcc26c1adb12ea331ddff3586cf6e909
-SHA1: d898cbffa23572b1d165613a1d94c0d7739b4a15
-MD5sum: f1d9911846927e93cd9c53485f51ff77
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.2.24_all.deb
+Size: 35000
+SHA256: a5330e82f9c730c0f9beac02db05bd83802ece553b3dd8024983434a44b711b4
+SHA1: f181017b46e04a58df99c994362a1617e296a9d2
+MD5sum: 4f1a65c48b826345c8b65a50b26ae417
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
