@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 03 Jun 2024 17:28:14 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.54
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.54) lmn72; urgency=medium
+ .
+   * [common] Fix homepath in multischool env.
+   * [linbo] Update vdi configurator (thanks @hermanntoast)
+Checksums-Sha1:
+ 65ae3c61cd1afa26d5e86cb4ab49f8726abcee9f 565 linuxmuster-webui7_7.2.54.dsc
+ 87011d750061b6300d2a466cd07fc6c352ee626c 4424071 linuxmuster-webui7_7.2.54.tar.gz
+ 5361862d90b5c675b1b8614a64e098ba7255638c 1691786 linuxmuster-webui7_7.2.54_all.deb
+ 2ea7e07f90240b6180722c022ed283632a4ea773 7873 linuxmuster-webui7_7.2.54_amd64.buildinfo
+Checksums-Sha256:
+ cd036e12a549d04ce0666cd29c3dd032cd209f8cff2e2fdd4a353a02f26d87b2 565 linuxmuster-webui7_7.2.54.dsc
+ bfb9f00301836d528c7421a8feddbbcd14ae4b39f055d31156b2c2e1e4ca5dd7 4424071 linuxmuster-webui7_7.2.54.tar.gz
+ 4a708a397a91d78dea26d85cb4c89ef52c68826fc1febbb3eaca582dced0e5c5 1691786 linuxmuster-webui7_7.2.54_all.deb
+ 11dd9be18dbbada427ff29b1bafe4b05192e4dcfe031de253fd0ab18beec607f 7873 linuxmuster-webui7_7.2.54_amd64.buildinfo
+Files:
+ d38c51950ba61765ec33a39c65307130 565 admin optional linuxmuster-webui7_7.2.54.dsc
+ 381f5187df84d27fd696566d06114ee5 4424071 admin optional linuxmuster-webui7_7.2.54.tar.gz
+ 889ed58f8d80cd6e21429a50d8de0187 1691786 admin optional linuxmuster-webui7_7.2.54_all.deb
+ ff75616e0e1e47f4711d7dc5439db28a 7873 admin optional linuxmuster-webui7_7.2.54_amd64.buildinfo
