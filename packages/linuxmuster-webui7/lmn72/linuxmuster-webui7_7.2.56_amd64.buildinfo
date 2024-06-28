@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.2.55
+Version: 7.2.56
 Checksums-Md5:
- 253052d409a5534944a8f9efb5bfb9fc 565 linuxmuster-webui7_7.2.55.dsc
- 4b0dada798eed4a0bdf26981e6d05c3b 824088 linuxmuster-webui7_7.2.55_all.deb
+ 25183c7d7a10915f4a18554391d1663f 565 linuxmuster-webui7_7.2.56.dsc
+ 991ab2e9e7edf131262a936108844909 824720 linuxmuster-webui7_7.2.56_all.deb
 Checksums-Sha1:
- 5e4c6d008d971f1429e4cfe5ab131f080d2ec1b7 565 linuxmuster-webui7_7.2.55.dsc
- 659a7281ef7c53b1edb991483bc272ba385ee16f 824088 linuxmuster-webui7_7.2.55_all.deb
+ 2cc496d8b080f6239af128033ccccf52caad2f3c 565 linuxmuster-webui7_7.2.56.dsc
+ bc20151153d71cef77fe9ec36731e038abe71473 824720 linuxmuster-webui7_7.2.56_all.deb
 Checksums-Sha256:
- 3c9ce98bfdabb4762dcaacbe25167c87eb42cd96d562c485e8017539259bd6c4 565 linuxmuster-webui7_7.2.55.dsc
- a460aa4cb2843284d8042823bdd09421f395cbe0822ccfecbeaff4c32f48603d 824088 linuxmuster-webui7_7.2.55_all.deb
+ 3c7492e43409bef12a18be620cad5c3ae64dbc7e950da2042314e47ae3b43d21 565 linuxmuster-webui7_7.2.56.dsc
+ 7e47383de7fcd80f426e6d3a46e773b6432ec8134e7c34b24df87f67ea5ab816 824720 linuxmuster-webui7_7.2.56_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 11 Jun 2024 13:58:32 +0000
+Build-Date: Fri, 28 Jun 2024 07:26:01 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -94,7 +94,7 @@ Installed-Build-Depends:
  libblkid1 (= 2.37.2-4ubuntu3.4),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
- libc-bin (= 2.35-0ubuntu3.7),
+ libc-bin (= 2.35-0ubuntu3.8),
  libc-dev-bin (= 2.35-0ubuntu3.8),
  libc6 (= 2.35-0ubuntu3.8),
  libc6-dev (= 2.35-0ubuntu3.8),
@@ -195,7 +195,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-107.117),
+ linux-libc-dev (= 5.15.0-112.122),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -227,4 +227,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1718114181"
+ SOURCE_DATE_EPOCH="1719559118"
