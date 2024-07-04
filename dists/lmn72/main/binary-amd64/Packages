@@ -47,19 +47,19 @@ MD5sum: d78aa5adfa51b216ec3d69708e7a471d
 Description: Tools and CLI for the linuxmuster.net 7 server.
 
 Package: linuxmuster-linbo-gui7
-Version: 7.2.4
+Version: 7.2.5
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
-Installed-Size: 9205
-Depends: linuxmuster-linbo7 (>= 4.1.0)
+Installed-Size: 9213
+Depends: linuxmuster-linbo7 (>= 4.1.0) | linuxmuster-cachingserver-linbo7
 Homepage: https://github.com/linuxmuster/linuxmuster-linbo-gui
 Priority: extra
 Section: admin
-Filename: pool/main/l/linuxmuster-linbo-gui7/linuxmuster-linbo-gui7_7.2.4_all.deb
-Size: 9363352
-SHA256: 0e0ce93691faebb4962acda0f42e3505ed1afc679dbb0e74e50db9bcd14c5987
-SHA1: f17f01725041361bd141567439ddc6fd0b09b656
-MD5sum: fd1bcccd1c17311f7e2e34ef0eeebdd9
+Filename: pool/main/l/linuxmuster-linbo-gui7/linuxmuster-linbo-gui7_7.2.5_all.deb
+Size: 9370968
+SHA256: 525529b222024c928fc3cb245b7e7f5a9200b4da6601fba06780ee6cb8d87ee3
+SHA1: 190ffa4f564e418ebc87709d7a72bf6ab82506d9
+MD5sum: 30e0d456730aa5dcd1b2f35ea9d5dcab
 Description: Linuxmuster Linbo GUI
  This package contains the GUI for the Linux-based Network Boot
  (LINBO) boot/install/repair system.
