@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.2.25
+Version: 7.2.26
 Checksums-Md5:
- 4fd0b9dc7d96b358d0b05bea7a735a14 580 linuxmuster-tools7_7.2.25.dsc
- aa29262223c60348a05f7a16530da916 35014 linuxmuster-tools7_7.2.25_all.deb
+ 24f32a297111c0101011bc58ca10c532 580 linuxmuster-tools7_7.2.26.dsc
+ 5780740448516715fe0349aa4c70f0f7 35338 linuxmuster-tools7_7.2.26_all.deb
 Checksums-Sha1:
- 5d6f585d34bdac6c55a4ecdf9c9b24a3c3feb06e 580 linuxmuster-tools7_7.2.25.dsc
- 6ea09129f9f2b4e3722dec53131b7aa3e0e5d70a 35014 linuxmuster-tools7_7.2.25_all.deb
+ a260a405f69cabd2f87e4e80abce846c983288b3 580 linuxmuster-tools7_7.2.26.dsc
+ 23bd88b4136d3a6fbc2814401a4478054daf05a8 35338 linuxmuster-tools7_7.2.26_all.deb
 Checksums-Sha256:
- d5b1a243313ea443a414e479764ae45db33f267bb35c5dee5f1be8403cf3d1f4 580 linuxmuster-tools7_7.2.25.dsc
- b2d64c23527e0c9a4c51550945e6658b06446295bcf806b4e90e05ad8b090655 35014 linuxmuster-tools7_7.2.25_all.deb
+ e76d26fde3a934463c7201152af032f993a59133901c603e225925dc51f665fb 580 linuxmuster-tools7_7.2.26.dsc
+ a0428bd76d433fc4fc47105798f6b52c446b00c30bfe6eff107cc04e8812165d 35338 linuxmuster-tools7_7.2.26_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 13 May 2024 07:40:27 +0000
+Build-Date: Tue, 09 Jul 2024 10:32:05 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -43,7 +43,6 @@ Installed-Build-Depends:
  cpp-10 (= 10.5.0-1ubuntu1~22.04),
  cpp-11 (= 11.4.0-1ubuntu1~22.04),
  cpp-12 (= 12.3.0-1ubuntu1~22.04),
- cpp-13 (= 13.1.0-8ubuntu1~22.04),
  cpp-9 (= 9.5.0-1ubuntu1~22.04),
  dash (= 0.5.11+git20210903+057cd650a4ed-3build1),
  debconf (= 1.5.79ubuntu1),
@@ -68,8 +67,6 @@ Installed-Build-Depends:
  gcc-11-base (= 11.4.0-1ubuntu1~22.04),
  gcc-12 (= 12.3.0-1ubuntu1~22.04),
  gcc-12-base (= 12.3.0-1ubuntu1~22.04),
- gcc-13 (= 13.1.0-8ubuntu1~22.04),
- gcc-13-base (= 13.1.0-8ubuntu1~22.04),
  gcc-9 (= 9.5.0-1ubuntu1~22.04),
  gcc-9-base (= 9.5.0-1ubuntu1~22.04),
  gettext (= 0.21-4ubuntu4),
@@ -87,8 +84,8 @@ Installed-Build-Depends:
  libarchive-zip-perl (= 1.68-1),
  libasan5 (= 9.5.0-1ubuntu1~22.04),
  libasan6 (= 11.4.0-1ubuntu1~22.04),
- libasan8 (= 13.1.0-8ubuntu1~22.04),
- libatomic1 (= 13.1.0-8ubuntu1~22.04),
+ libasan8 (= 12.3.0-1ubuntu1~22.04),
+ libatomic1 (= 12.3.0-1ubuntu1~22.04),
  libattr1 (= 1:2.5.1-1build1),
  libaudit-common (= 1:3.0.7-1build1),
  libaudit1 (= 1:3.0.7-1build1),
@@ -96,14 +93,14 @@ Installed-Build-Depends:
  libblkid1 (= 2.37.2-4ubuntu3.4),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
- libc-bin (= 2.35-0ubuntu3.7),
- libc-dev-bin (= 2.35-0ubuntu3.7),
- libc6 (= 2.35-0ubuntu3.7),
- libc6-dev (= 2.35-0ubuntu3.7),
- libc6-i386 (= 2.35-0ubuntu3.7),
+ libc-bin (= 2.35-0ubuntu3.8),
+ libc-dev-bin (= 2.35-0ubuntu3.8),
+ libc6 (= 2.35-0ubuntu3.8),
+ libc6-dev (= 2.35-0ubuntu3.8),
+ libc6-i386 (= 2.35-0ubuntu3.8),
  libcap-ng0 (= 0.7.9-2.2build3),
  libcap2 (= 1:2.44-1ubuntu0.22.04.1),
- libcc1-0 (= 13.1.0-8ubuntu1~22.04),
+ libcc1-0 (= 12.3.0-1ubuntu1~22.04),
  libclang-common-13-dev (= 1:13.0.1-2ubuntu2.2),
  libclang-common-14-dev (= 1:14.0.0-1ubuntu1.1),
  libclang-common-15-dev (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -131,20 +128,18 @@ Installed-Build-Depends:
  libgcc-10-dev (= 10.5.0-1ubuntu1~22.04),
  libgcc-11-dev (= 11.4.0-1ubuntu1~22.04),
  libgcc-12-dev (= 12.3.0-1ubuntu1~22.04),
- libgcc-13-dev (= 13.1.0-8ubuntu1~22.04),
  libgcc-9-dev (= 9.5.0-1ubuntu1~22.04),
- libgcc-s1 (= 13.1.0-8ubuntu1~22.04),
+ libgcc-s1 (= 12.3.0-1ubuntu1~22.04),
  libgcrypt20 (= 1.9.4-3ubuntu3),
  libgdbm-compat4 (= 1.23-1),
  libgdbm6 (= 1.23-1),
  libgmp10 (= 2:6.2.1+dfsg-3ubuntu1),
- libgomp1 (= 13.1.0-8ubuntu1~22.04),
+ libgomp1 (= 12.3.0-1ubuntu1~22.04),
  libgpg-error0 (= 1.43-3),
  libgssapi-krb5-2 (= 1.19.2-2ubuntu0.3),
- libhwasan0 (= 13.1.0-8ubuntu1~22.04),
  libicu70 (= 70.1-2),
  libisl23 (= 0.24-2build1),
- libitm1 (= 13.1.0-8ubuntu1~22.04),
+ libitm1 (= 12.3.0-1ubuntu1~22.04),
  libk5crypto3 (= 1.19.2-2ubuntu0.3),
  libkeyutils1 (= 1.6.1-2ubuntu3),
  libkrb5-3 (= 1.19.2-2ubuntu0.3),
@@ -152,7 +147,7 @@ Installed-Build-Depends:
  libllvm13 (= 1:13.0.1-2ubuntu2.2),
  libllvm14 (= 1:14.0.0-1ubuntu1.1),
  libllvm15 (= 1:15.0.7-0ubuntu0.22.04.3),
- liblsan0 (= 13.1.0-8ubuntu1~22.04),
+ liblsan0 (= 12.3.0-1ubuntu1~22.04),
  liblz4-1 (= 1.9.3-2build2),
  liblzma5 (= 5.2.5-2ubuntu1),
  libmagic-mgc (= 1:5.41-3ubuntu0.1),
@@ -173,15 +168,15 @@ Installed-Build-Depends:
  libpcre3 (= 2:8.39-13ubuntu0.22.04.1),
  libperl5.34 (= 5.34.0-3ubuntu1.3),
  libpipeline1 (= 1.5.5-1),
- libquadmath0 (= 13.1.0-8ubuntu1~22.04),
+ libquadmath0 (= 12.3.0-1ubuntu1~22.04),
  libreadline8 (= 8.1.2-1),
  libseccomp2 (= 2.5.3-2ubuntu2),
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
  libsmartcols1 (= 2.37.2-4ubuntu3.4),
- libssl3 (= 3.0.2-0ubuntu1.15),
+ libssl3 (= 3.0.2-0ubuntu1.16),
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
- libstdc++6 (= 13.1.0-8ubuntu1~22.04),
+ libstdc++6 (= 12.3.0-1ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
  libsystemd0 (= 249.11-0ubuntu3.12),
  libtinfo6 (= 6.3-2ubuntu0.1),
@@ -190,15 +185,15 @@ Installed-Build-Depends:
  libtirpc3 (= 1.3.2-2ubuntu0.1),
  libtool (= 2.4.6-15build2),
  libtsan0 (= 11.4.0-1ubuntu1~22.04),
- libtsan2 (= 13.1.0-8ubuntu1~22.04),
- libubsan1 (= 13.1.0-8ubuntu1~22.04),
+ libtsan2 (= 12.3.0-1ubuntu1~22.04),
+ libubsan1 (= 12.3.0-1ubuntu1~22.04),
  libuchardet0 (= 0.0.7-1build2),
  libudev1 (= 249.11-0ubuntu3.12),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-105.115),
+ linux-libc-dev (= 5.15.0-113.123),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -230,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1715585949"
+ SOURCE_DATE_EPOCH="1720520949"
