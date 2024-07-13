@@ -1,37 +1,37 @@
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: lmn72
-Date: Tue, 09 Jul 2024 10:45:01 UTC
+Date: Sat, 13 Jul 2024 11:45:36 UTC
 Architectures: i386 amd64
 Components: main
 Description: lmn72 (bionic) stable
 MD5Sum:
- ab7073050b2ad71e068be7cc1ee06f06 9109 main/binary-i386/Packages
- 3be012cc59c7df1b423de7b0067ea535 3241 main/binary-i386/Packages.gz
+ 596cd1d529dc4f8149431994284f3a31 9109 main/binary-i386/Packages
+ deca9b234070ff50873d83e5c9e98d9d 3238 main/binary-i386/Packages.gz
  4deb1bf68543f08fa6fca8b44298c7e9 125 main/binary-i386/Release
- ab7073050b2ad71e068be7cc1ee06f06 9109 main/binary-amd64/Packages
- 3be012cc59c7df1b423de7b0067ea535 3241 main/binary-amd64/Packages.gz
+ 596cd1d529dc4f8149431994284f3a31 9109 main/binary-amd64/Packages
+ deca9b234070ff50873d83e5c9e98d9d 3238 main/binary-amd64/Packages.gz
  304fbce94069023f30dbf8e4b8bb58ce 126 main/binary-amd64/Release
- b5815ef98bdf062dbbed4a376eda3dad 9171 main/source/Sources
- 63971fb303670a8d3c2e9428ec6d8ccc 3016 main/source/Sources.gz
+ df1dfbfbdb7cee8c38e2c3c3166fd7f4 9186 main/source/Sources
+ 53c527cbcf1c85c505e5f2d6c95d5620 3020 main/source/Sources.gz
  28a1cf3ba1596880dd37bada9ac610d1 127 main/source/Release
 SHA1:
- 5d818bc771d8f35f17fca19261c08458fa7b8354 9109 main/binary-i386/Packages
- 23bce152f955163b41b955e95cc957ed55daf9a0 3241 main/binary-i386/Packages.gz
+ 765e347e92c860b0ec1a123277cd1f28b72f6ffe 9109 main/binary-i386/Packages
+ d03e713b3097fe9f961da580beada26d7ae4ec5e 3238 main/binary-i386/Packages.gz
  fc816e22c0cfde1bb8bf1a7f8da68db1293dbba9 125 main/binary-i386/Release
- 5d818bc771d8f35f17fca19261c08458fa7b8354 9109 main/binary-amd64/Packages
- 23bce152f955163b41b955e95cc957ed55daf9a0 3241 main/binary-amd64/Packages.gz
+ 765e347e92c860b0ec1a123277cd1f28b72f6ffe 9109 main/binary-amd64/Packages
+ d03e713b3097fe9f961da580beada26d7ae4ec5e 3238 main/binary-amd64/Packages.gz
  46b87d6611cda20103b6ec640958aacea0616865 126 main/binary-amd64/Release
- 914dc571b48be92750282d1486e9a117776632b9 9171 main/source/Sources
- dab5719436b1a9693729758e5b0b449005980dbe 3016 main/source/Sources.gz
+ 26cd1736fc6c5fbba60c2cbf99352cd81213b4bd 9186 main/source/Sources
+ d20d8886e066783fb71581fc3233811b9bfc8f7a 3020 main/source/Sources.gz
  98feab0197e5570851da320335ff99afc939e868 127 main/source/Release
 SHA256:
- 3e742fc6773589c2fe5d990d63879e104a9379caf4d54055d6327eb34196de02 9109 main/binary-i386/Packages
- 43514dd8d2f2662d0561cb609d3ac5c9f0775927ecf415a0216d946bd92881c2 3241 main/binary-i386/Packages.gz
+ ed71216cd3cdb3ee2ee6acf50f9c3ee299c416b1716e89f9681d8acfa760ea16 9109 main/binary-i386/Packages
+ 4f264450018dedac5aa207414bf72d526c6670286029963398479372b428dfa0 3238 main/binary-i386/Packages.gz
  634bcbb814155e0d5d8d8aad370f20984d6f0f4548986e3def6e705b0b52b08b 125 main/binary-i386/Release
- 3e742fc6773589c2fe5d990d63879e104a9379caf4d54055d6327eb34196de02 9109 main/binary-amd64/Packages
- 43514dd8d2f2662d0561cb609d3ac5c9f0775927ecf415a0216d946bd92881c2 3241 main/binary-amd64/Packages.gz
+ ed71216cd3cdb3ee2ee6acf50f9c3ee299c416b1716e89f9681d8acfa760ea16 9109 main/binary-amd64/Packages
+ 4f264450018dedac5aa207414bf72d526c6670286029963398479372b428dfa0 3238 main/binary-amd64/Packages.gz
  2723b9942c0392314119b513cf12b61500012d3a64d7b809eb99706a5510b121 126 main/binary-amd64/Release
- adcb36378fe62b012d11a855a1b1372e7d7e49fbc141a627609fe50c8e0b0334 9171 main/source/Sources
- 06445abbdbedad8c9e962b71678c231f6b61fb7ef6885feb23f62943ca473e26 3016 main/source/Sources.gz
+ c2072359be9e3837c586b3abb043ba817608e29e7a3e43462f7503f60a26a23a 9186 main/source/Sources
+ 1b2dfaa2259d98050d9f21cb3a280328f5a55849d279c7587a543dcea5d9ce2d 3020 main/source/Sources.gz
  5917dc58f34fbe3acc751d62f31701fd10e3ec740cc2a2e8cbb31666f4f9f0ec 127 main/source/Release
