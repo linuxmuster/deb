@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 24 Jul 2024 17:29:05 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.33
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.33) lmn72; urgency=medium
+ .
+   * [ldapreader] Add proxyAddresses und IntrinsicMulti1 to groups and projects.
+   * [ldapreader] Differenciate AD group.
+   * [ldapreader] Search for displayName too.
+   * [ldapreader] Add management group to ldap_writer.
+Checksums-Sha1:
+ ba9e9ec5c68b654b2ab8daca69ed0fad8b07c326 580 linuxmuster-tools7_7.2.33.dsc
+ 990ba8191fea65f810b5eacd66d5c00e23f7cf53 56324 linuxmuster-tools7_7.2.33.tar.gz
+ 4435a70add4a8f50b5003a8e308640279bfd2612 36446 linuxmuster-tools7_7.2.33_all.deb
+ b4e274b939853027279a6c355568ccc363a88cf1 7806 linuxmuster-tools7_7.2.33_amd64.buildinfo
+Checksums-Sha256:
+ 4c99b4bce97b7740494f7c8a2fb685ec320deebae2e0e7dbfa3c27b0efd73b13 580 linuxmuster-tools7_7.2.33.dsc
+ abfda08d25365c96db2227648c3fb2a9cd9c25227782315ba5798c0da7b84425 56324 linuxmuster-tools7_7.2.33.tar.gz
+ af00d36feaf30ac6b84448f481b12fa0c044118fcb1d14d7e51a6560d029c537 36446 linuxmuster-tools7_7.2.33_all.deb
+ 1e81b1b2b94dc2101c0c6f2ef597301ee423fe3fb1668e58e7ea53d73729e39c 7806 linuxmuster-tools7_7.2.33_amd64.buildinfo
+Files:
+ 239ece9eb98f08b6e0cf7f94bb6ff41c 580 linuxmuster optional linuxmuster-tools7_7.2.33.dsc
+ 1cec171dc574299424a273f6f3abe968 56324 linuxmuster optional linuxmuster-tools7_7.2.33.tar.gz
+ a697fa4e6a5df9aa48cfa69879b41795 36446 linuxmuster optional linuxmuster-tools7_7.2.33_all.deb
+ 44a1cbb977862425bcca1fe4b40b8099 7806 linuxmuster optional linuxmuster-tools7_7.2.33_amd64.buildinfo
