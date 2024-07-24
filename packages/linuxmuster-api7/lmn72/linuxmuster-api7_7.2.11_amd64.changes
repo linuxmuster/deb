@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 24 Jul 2024 17:31:14 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.11
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.2.11) lmn72; urgency=medium
+ .
+   * Add members details.
+   * Get common name.
+   * Students as dict.
+   * Members as list.
+   * Add UserInRoom endpoint.
+   * Catch bad requests.
+   * Set proxyAddresses in projects.
+   * Search for displayName too.
+   * Wrong object type.
+Checksums-Sha1:
+ c40004664f756730486a41b84484e97486e2bafa 568 linuxmuster-api7_7.2.11.dsc
+ 3d19b137b8bbaa269e1a23f18d13ce549b8f461b 47794 linuxmuster-api7_7.2.11.tar.gz
+ 81e865ade50d2f9f4628952ad26807ba26726749 34146 linuxmuster-api7_7.2.11_all.deb
+ 381e9aeec4264e993528f2a7901ea2fb2ebe1917 7790 linuxmuster-api7_7.2.11_amd64.buildinfo
+Checksums-Sha256:
+ c1d333c08f7852f132da020afa9f7f5f203afe672e9f735d1b264ead9807601b 568 linuxmuster-api7_7.2.11.dsc
+ 08ace67271d82bf4f29fb934675230f3d98f1ff4211907e095eeb7c54963e1f3 47794 linuxmuster-api7_7.2.11.tar.gz
+ d395c5c4ad9152a0edff2dd2fb70b3f570c39ca28fe535a4474f2b212f69a150 34146 linuxmuster-api7_7.2.11_all.deb
+ 223faa5a941a46780e6717e0f99bacdab03e37e13b321d837cb14574741608f6 7790 linuxmuster-api7_7.2.11_amd64.buildinfo
+Files:
+ 72d1dcfaf652cfdb35ac031317018761 568 linuxmuster optional linuxmuster-api7_7.2.11.dsc
+ 024b1a46b60fc38e6a934390e3e8e930 47794 linuxmuster optional linuxmuster-api7_7.2.11.tar.gz
+ 2447a1938e0d60df0663a66538b756ee 34146 linuxmuster optional linuxmuster-api7_7.2.11_all.deb
+ 6a464c8067bb69564cbe5632aa03370c 7790 linuxmuster optional linuxmuster-api7_7.2.11_amd64.buildinfo
