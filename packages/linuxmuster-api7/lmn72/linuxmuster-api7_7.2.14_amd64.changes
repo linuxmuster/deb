@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Thu, 01 Aug 2024 23:00:21 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.14
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.2.14) lmn72; urgency=medium
+ .
+   * Fix variable collsion in projects
+   * Add authenticated user as project admin when created
+   * List printers and get details
+   * Endpotins to join/quit a printer group
+   * Endpoints to join/quit a project
+   * Endpoints to join/quit a schoolclass
+   * Add checks for projects, schoolclasses and printers
+Checksums-Sha1:
+ 0cfbd3b8c45ccc4eaa21e258e9cbe88cc0e60330 568 linuxmuster-api7_7.2.14.dsc
+ 3dfcea7132d10f1ad1270bc6e2abd9f26297e22d 50102 linuxmuster-api7_7.2.14.tar.gz
+ 4cf8a84d343273119902982a8d11475037fc9dad 36064 linuxmuster-api7_7.2.14_all.deb
+ f21ca9331fdfd25c2b8b6461d1346d31a62aba5a 7790 linuxmuster-api7_7.2.14_amd64.buildinfo
+Checksums-Sha256:
+ 9d72be8930d7cb71a4a298ee7682f190e01cdfd74dd1fa40b0389b3ba7273b70 568 linuxmuster-api7_7.2.14.dsc
+ eb26010ab7de2bc89e54a4f8802cd9afcfe03c8319812c491cca7698df806e23 50102 linuxmuster-api7_7.2.14.tar.gz
+ e123dd015bd995d9574eeacdf61c2e3ddcf77c77cc609c37e105eebe3be17273 36064 linuxmuster-api7_7.2.14_all.deb
+ 4b1b502f3ab5c623f3faebadcaf95784b3f727ef977e6cdfdda40da6ebcfac60 7790 linuxmuster-api7_7.2.14_amd64.buildinfo
+Files:
+ 23686218ccbb9b97e27865a509accd72 568 linuxmuster optional linuxmuster-api7_7.2.14.dsc
+ c647d3b6d2132c9f38323d1075a981d2 50102 linuxmuster optional linuxmuster-api7_7.2.14.tar.gz
+ 3f98cd5e9c571fdd0d823e8cf46ba8ee 36064 linuxmuster optional linuxmuster-api7_7.2.14_all.deb
+ 9a0e96f1904fbbd0f51401bb50ce1ad8 7790 linuxmuster optional linuxmuster-api7_7.2.14_amd64.buildinfo
