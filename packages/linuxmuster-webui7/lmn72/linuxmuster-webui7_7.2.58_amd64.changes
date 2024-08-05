@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 05 Aug 2024 10:25:52 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.58
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.58) lmn72; urgency=medium
+ .
+   * [samba_share] Sequential delete (samba credits problem)
+Checksums-Sha1:
+ 6cc222bdfc4c2fa4f6c9b11fc05eaa685933f037 565 linuxmuster-webui7_7.2.58.dsc
+ 4b936299c9d6c131f676ad8767e237a218142c59 1414212 linuxmuster-webui7_7.2.58.tar.gz
+ 713706890a0168168927c19ac8b1db6493056f9d 824896 linuxmuster-webui7_7.2.58_all.deb
+ a44d54db56c6c7967d4ff05f84d7cbd75f8c29f9 7870 linuxmuster-webui7_7.2.58_amd64.buildinfo
+Checksums-Sha256:
+ 1f9626277b570c539d47700dc290631ee1d6b6bc35c2065c9572a1a043e78b25 565 linuxmuster-webui7_7.2.58.dsc
+ 9b87a0b58b66471c682f648f2a9ec7fc7c8379a3848af2370835e14e191b96f0 1414212 linuxmuster-webui7_7.2.58.tar.gz
+ 9b17c560be7ee97711d9a1c586b9d46c2ee87a62093a18a4f7568a1ad1f9637a 824896 linuxmuster-webui7_7.2.58_all.deb
+ f43511569e16fc94fba962dd5debcaaab83789807bb618821fdd8cb1e1b270f2 7870 linuxmuster-webui7_7.2.58_amd64.buildinfo
+Files:
+ 08388065ebd2ab0590b2e61fbd29120e 565 admin optional linuxmuster-webui7_7.2.58.dsc
+ 63896db2698d7599465be4a3e2033c8a 1414212 admin optional linuxmuster-webui7_7.2.58.tar.gz
+ 39a19c075a9e04e622f767acf4e6e66b 824896 admin optional linuxmuster-webui7_7.2.58_all.deb
+ 8ed920934c452edac4388ef6ac3a2bf0 7870 admin optional linuxmuster-webui7_7.2.58_amd64.buildinfo
