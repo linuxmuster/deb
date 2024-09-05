@@ -2,15 +2,15 @@ Format: 1.0
 Source: linuxmuster-api7
 Binary: linuxmuster-api7
 Architecture: all
-Version: 7.2.14
+Version: 7.2.15
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Standards-Version: 5.0.0
 Build-Depends: debhelper (>= 5.0.0)
 Package-List:
  linuxmuster-api7 deb linuxmuster optional arch=all
 Checksums-Sha1:
- 3dfcea7132d10f1ad1270bc6e2abd9f26297e22d 50102 linuxmuster-api7_7.2.14.tar.gz
+ a81dedf2ada0a395175e529ad974fcdd7394d7fe 50963 linuxmuster-api7_7.2.15.tar.gz
 Checksums-Sha256:
- eb26010ab7de2bc89e54a4f8802cd9afcfe03c8319812c491cca7698df806e23 50102 linuxmuster-api7_7.2.14.tar.gz
+ 3d8c785c903721e8fe54ffc521afbada0af79e267c41e85b8a3427756f248000 50963 linuxmuster-api7_7.2.15.tar.gz
 Files:
- c647d3b6d2132c9f38323d1075a981d2 50102 linuxmuster-api7_7.2.14.tar.gz
+ a0d38094c532472da7b8f47982ef1696 50963 linuxmuster-api7_7.2.15.tar.gz
