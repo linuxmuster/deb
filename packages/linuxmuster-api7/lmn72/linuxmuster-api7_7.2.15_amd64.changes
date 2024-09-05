@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 05 Sep 2024 21:22:33 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.15
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.2.15) lmn72; urgency=medium
+ .
+   * Check if first password is still set
+   * Fix missing school parameter
+   * Get users from cn list
+   * Set displayname for projects
+   * Patch printers (join, hide, members, ...)
+   * Query parameter all_members for printers
+Checksums-Sha1:
+ 9434f6ba04210ad4e017e1f1b0cbc0608387d913 568 linuxmuster-api7_7.2.15.dsc
+ a81dedf2ada0a395175e529ad974fcdd7394d7fe 50963 linuxmuster-api7_7.2.15.tar.gz
+ 2d168e2a93a18ceed3abf9cdbe111c05278bab8a 36774 linuxmuster-api7_7.2.15_all.deb
+ 1497983f0f2965f9a59666cb88fbc0d7279329fe 7790 linuxmuster-api7_7.2.15_amd64.buildinfo
+Checksums-Sha256:
+ f608c5ef6b9bd976dead859e4e6bd1c40e40ed26e8f1e6021dbf335b71270134 568 linuxmuster-api7_7.2.15.dsc
+ 3d8c785c903721e8fe54ffc521afbada0af79e267c41e85b8a3427756f248000 50963 linuxmuster-api7_7.2.15.tar.gz
+ 439233fce5a90abdfa1b13299734a972fabed851788f6056432fb4cf21f95d0d 36774 linuxmuster-api7_7.2.15_all.deb
+ bcfb0308d1377f1ebec2981b34e685c736fff1fe8bda9c25344170779eb16712 7790 linuxmuster-api7_7.2.15_amd64.buildinfo
+Files:
+ f0c5d04dfbec2843bf8ca8656db3c3bc 568 linuxmuster optional linuxmuster-api7_7.2.15.dsc
+ a0d38094c532472da7b8f47982ef1696 50963 linuxmuster optional linuxmuster-api7_7.2.15.tar.gz
+ 2d635b86e41851111015d04f1810b395 36774 linuxmuster optional linuxmuster-api7_7.2.15_all.deb
+ 462033127be2848280fcc085a543d941 7790 linuxmuster optional linuxmuster-api7_7.2.15_amd64.buildinfo
