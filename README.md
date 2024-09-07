@@ -24,6 +24,7 @@ This repo currently contains the following packages:
 - [sophomorix4](https://github.com/linuxmuster/sophomorix4) (lmn71, lmn71-testing)
 - [tools](https://github.com/linuxmuster/linuxmuster-tools) (lmn72)
 - [cli](https://github.com/linuxmuster/linuxmuster-cli) (lmn72)
+- [api](https://github.com/linuxmuster/linuxmuster-api) (lmn72)
  
 # Setup
 
