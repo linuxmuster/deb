@@ -1,3 +1,23 @@
+Package: linuxmuster-linbo7
+Version: 4.3.0-0
+Architecture: all
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Installed-Size: 84391
+Depends: argon2, coreutils, ctorrent, dosfstools, dropbear-bin, grub-common, grub-efi-amd64-bin, grub-ipxe, grub-pc-bin, isolinux, libowfat0, linux-firmware, linuxmuster-base7, linuxmuster-linbo-gui7, mbr, python3, qemu-utils, rsync, sed, ssh, syslinux-common, syslinux-utils, tftpd-hpa, tmux, udpcast, wakeonlan, xorriso, xz-utils, zip
+Suggests: isc-dhcp-server | dhcp3-server
+Conflicts: atftpd, bittorrent, linuxmuster-linbo, linuxmuster-linbo-common, linuxmuster-linbo-common7
+Breaks: linuxmuster-linbo-common7
+Priority: extra
+Section: admin
+Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.3.0-0_all.deb
+Size: 83851240
+SHA256: 28b8cad6a4b1125ab598d8a03dd734abd1b976d0800fc888b5ea6f5c8999c911
+SHA1: 2a9688d27b110459b0cca3604ce3db4b4d022855
+MD5sum: ac04b18e3aee87136e5e51dfbf79dfe7
+Description: linuxmuster-linbo7
+  This package contains kernel, initrd, scripts and pxe boot configuration for
+  the Linux-based Network Boot (LINBO) boot/install/repair system.
+
 Package: linuxmuster-webui7
 Version: 7.2.25-testinh
 Architecture: all
