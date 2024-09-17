@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Sep 2024 13:09:58 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.0-0
+Distribution: lmn72-testing
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.0-0) lmn72-testing; urgency=low
+ .
+   * change release name to "Psycho Killer" (b317edd).
+   * add a framebuffer vncserver to the linbo client (#104).
+   * update legacy kernel to 5.15.167 (d4428cb).
+   * update longterm kernel to 6.1.110 (8d9cfd4).
+   * update stable kernel to 6.10.10 (d606c1c).
+   * add nopw option to linbo_vnc (10a40ef, #104).
+   * add hwinfo to linbo client (#117).
+   * fix scraping kernel versions (d773bb8).
+   * add rfkill to linbofs (5513eb3).
+   * update github package upload (d31ae19).
+   * improve linbo client logging (3b468fa...aab2b33, 1ef6c08, f5a9d1b).
+   * fix differential image creation (#119).
+   * linbo_size commands for disk and cache partition (#121).
+Checksums-Sha1:
+ 40bb4f0df519d88ae0a2bd6f3db386b7095fe880 2007 linuxmuster-linbo7_4.3.0-0.dsc
+ 13eff620f964b51855abd586555afbf30797b93e 2042893 linuxmuster-linbo7_4.3.0-0.tar.gz
+ 2a9688d27b110459b0cca3604ce3db4b4d022855 83851240 linuxmuster-linbo7_4.3.0-0_all.deb
+ a59ca62f1f2aed03c444743298cc056be9684aad 14496 linuxmuster-linbo7_4.3.0-0_amd64.buildinfo
+Checksums-Sha256:
+ 33867a5935bafaf9d7db6dc6665bdc3a1e115f1fe7fcbef931deb03862236fe5 2007 linuxmuster-linbo7_4.3.0-0.dsc
+ c0f603be7f75ddb0a3a4554ff6f213974e495d000f015b4f0ea0d554ef37536b 2042893 linuxmuster-linbo7_4.3.0-0.tar.gz
+ 28b8cad6a4b1125ab598d8a03dd734abd1b976d0800fc888b5ea6f5c8999c911 83851240 linuxmuster-linbo7_4.3.0-0_all.deb
+ 8ca5ed8259869c716e5211111c92709ce71893e678bf165dc39987e7ccf24455 14496 linuxmuster-linbo7_4.3.0-0_amd64.buildinfo
+Files:
+ f333c7e97f15ce9ca3924e3ece6b5b1b 2007 admin extra linuxmuster-linbo7_4.3.0-0.dsc
+ 0bcab576831ad50d29402ae78f88a48f 2042893 admin extra linuxmuster-linbo7_4.3.0-0.tar.gz
+ ac04b18e3aee87136e5e51dfbf79dfe7 83851240 admin extra linuxmuster-linbo7_4.3.0-0_all.deb
+ aec7e9e1931670d07b1dc9541fa1bbe5 14496 admin extra linuxmuster-linbo7_4.3.0-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmbpY6cXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLKOEwv8DivPASH0JO1k3Gek4v746KAe
+hbzrMF4hBHPDDbHSXjReKIKs1Jz4wlv3D8Ra1Kf2dxG7kZyHHLGrjO/z/GftVUuc
+d9aF/hUTjiuSFy4GOisDZdw2Ymr1Tx2FCVi7bS0dtLZa9bLRmWyxVvnPZKzJnAqS
+fkqYB4GSRQ9xMw5JirF+XpzebcuVeBJ8AF3Zllgrs/MpjTPlExxdcnwnA1oBfuRb
+840b9GlYLZB5iCFgJCmaQ2NrwxemMEDu6iE6pYRIcJAGPV0VXImF9d1kgUvutgFk
+pd7iMf12mCSWTlqQCEmah0BvsUb2KZ1cBGwNJEM1jDoK3VZx4dZ7nOgoTCH+lH1M
+yFDzgriMNhWyt8Cj/HBM1huzSuDcKZ9XFqyKGg06qdXLgypGQC4SDsVx0u+qH6nG
+XIxbfE649sOJsOdFz/nJRuI1rxuaK8qjsFubVy8AZMSQDvanbBUUsmt3AY9WZoY5
+PGJntMhSkbhA/4FDY8jBDbzk5+OmcILJd2XZVIdt
+=pM+x
+-----END PGP SIGNATURE-----
