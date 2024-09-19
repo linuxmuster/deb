@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 19 Sep 2024 19:17:26 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.2-0
+Distribution: lmn72-testing
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.2-0) lmn72-testing; urgency=low
+ .
+   * add r8125 driver for Realtek 2.5G Ethernet adapter (ae4187e).
+   * fix module path for r8168 (72f3a8b).
+   * update longterm kernel to 6.1.111 (8c14f8f).
+   * update stable kernel to 6.10.11 (89f9eea).
+   * additionally log client's firmware info (d7e53c0).
+Checksums-Sha1:
+ decdf587e3036f4fa8aae4e4b542abc1e817c573 2007 linuxmuster-linbo7_4.3.2-0.dsc
+ c71fd50f0321f2dcd6a1ca782982573cdf8a032b 2043981 linuxmuster-linbo7_4.3.2-0.tar.gz
+ 4e848cae9a16c8301e332e2a695e4ef77c9450ba 84381618 linuxmuster-linbo7_4.3.2-0_all.deb
+ b160535318088dad2c87ffa8c82603235e5fa0f7 14496 linuxmuster-linbo7_4.3.2-0_amd64.buildinfo
+Checksums-Sha256:
+ 30eaa73f9985b4473c2fe33f991e150a63c6b8325820f89e992f5698dd890db7 2007 linuxmuster-linbo7_4.3.2-0.dsc
+ 7a380f06f88e6dc10c5ec34a28bb7854ccf1386538762f20e040917480297dc0 2043981 linuxmuster-linbo7_4.3.2-0.tar.gz
+ 88414137067d2ae2e9b4ef816c384a821a7416849d72b50aaa5a21f558287016 84381618 linuxmuster-linbo7_4.3.2-0_all.deb
+ eca05c06c2b21e530a4d79d3b68a6fe184ea964ea78001024cb3d58a92edceb7 14496 linuxmuster-linbo7_4.3.2-0_amd64.buildinfo
+Files:
+ 6d026bfc75c1a8d8c1b1e0cb3f4f21a5 2007 admin extra linuxmuster-linbo7_4.3.2-0.dsc
+ f697bf34de652c43e3141f5f2d15d44d 2043981 admin extra linuxmuster-linbo7_4.3.2-0.tar.gz
+ fed604eb05a3cb275bfb73d3e3795307 84381618 admin extra linuxmuster-linbo7_4.3.2-0_all.deb
+ de08aa97122d5fa3fbf1ae99304ea595 14496 admin extra linuxmuster-linbo7_4.3.2-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmbsXMYXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLLcxwv/RyTxdVjgmVZRx4lVS5PQNnrh
+ocmdXIim0Xzx2CkiP0A3BPM+JP+do4dXS7ku/hVAE19eQpVFoj7KQwNP8zUW6/tP
+sArst+nhe+iT8eAdQBNX5ed1svC15gYIIrvCATpCK2/HqrjU9HMuOL6diRelqMBP
+D5TJh6a+MO5m3HrS3i3LEVBh2D3x97xhSiwzl4L8daUWfcWuULWNTbVhOyxTa5qF
+4F63NOsfB5izxq6FD7UdN+S9Tuje68I9SmJzeQ5PyYWpQdVEKiQuJ1RxBI6drP3l
+s1xLimzqWx60JMtzMaDmeHZ8LoY8OpNs5DJKh1QtLK1q1tKLwCJhFhWAkyooDeJ9
+7VSJ4SzHpmieo36CQPWSLIvnwBcN6/ygqRnlFVWTAi3XnmnibSOENXpVjruSfIRv
+lU5Re4MSSavN/srmzgNS2CQD8eSFkUIZB8SB5Ftp5HHGmdbuzAqPJgbSv3ZowwVr
+c5gvHKimx0VCNlMPB9bfmHx6z8Pp4OWJNFg0gAE4
+=OGAF
+-----END PGP SIGNATURE-----
