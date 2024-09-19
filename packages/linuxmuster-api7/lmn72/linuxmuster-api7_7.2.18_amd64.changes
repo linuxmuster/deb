@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 19 Sep 2024 18:32:49 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.18
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.2.18) lmn72; urgency=medium
+ .
+   * Patch user's data.
+   * Use new setattr and delattr methods from linuxmustertools.
+Checksums-Sha1:
+ e7955d9af37cd151dc90a88d19225f2f05211a1e 568 linuxmuster-api7_7.2.18.dsc
+ b0319b9d0003b53fa86ee7bb2bef2a5ee32c9e2c 51998 linuxmuster-api7_7.2.18.tar.gz
+ e0b18d1aa5be89a654961b5d4b1894faa81f9e0b 37530 linuxmuster-api7_7.2.18_all.deb
+ 1d3d58b3a2afff8434c933472bfea7224ac1d346 7790 linuxmuster-api7_7.2.18_amd64.buildinfo
+Checksums-Sha256:
+ f0b27725406e0179ee49d9b54fb6d11b2f5fd815278b56b0c114322818dd13df 568 linuxmuster-api7_7.2.18.dsc
+ d87ca09e90050ab577a683284851d0ba5cc28ecb5ea9fb0eeb7ddfb7270102d3 51998 linuxmuster-api7_7.2.18.tar.gz
+ 2e57e7487fe064778af11905d85cb879c6cca7ca74368031ef7f0d38eb7a8c51 37530 linuxmuster-api7_7.2.18_all.deb
+ d352a27ad80dd91ef426aa775e90f121b0e628caa18bc4475360a21738e5fd45 7790 linuxmuster-api7_7.2.18_amd64.buildinfo
+Files:
+ ebbbabbde5d8afb69eb60746443bedcc 568 linuxmuster optional linuxmuster-api7_7.2.18.dsc
+ 1022693f2059fab79396eadd569bc6f1 51998 linuxmuster optional linuxmuster-api7_7.2.18.tar.gz
+ c3e537ca520d10ba33e80f17da297820 37530 linuxmuster optional linuxmuster-api7_7.2.18_all.deb
+ 029aa35dcdf8f88ce690a2833be4ff88 7790 linuxmuster optional linuxmuster-api7_7.2.18_amd64.buildinfo
