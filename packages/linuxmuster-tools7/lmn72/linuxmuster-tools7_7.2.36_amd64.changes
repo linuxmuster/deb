@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 19 Sep 2024 18:28:33 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.36
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.36) lmn72; urgency=medium
+ .
+   * [ldapreader] Get object from dn.
+   * [ldapreader] Add common object model.
+   * [ldapreader] Real ldap_reader and ldapconnector objects.
+   * [ldapwriter] Add ldap entry, group or OU.
+   * [ldapwriter] Delete entry.
+   * [ldapwriter] Separate del and set methods for each model.
+Checksums-Sha1:
+ d7e47e1d636ea1053722ff0e8065c9e5199256e5 580 linuxmuster-tools7_7.2.36.dsc
+ 0c1216c6a84ff76d887da88b5335cbafe1159e7b 58543 linuxmuster-tools7_7.2.36.tar.gz
+ 84449cf7ad864aa81cf7861b4b5b050ea52ad66c 37932 linuxmuster-tools7_7.2.36_all.deb
+ 3963fb6345fe1565c4477969fa5269a515f7e8a8 7806 linuxmuster-tools7_7.2.36_amd64.buildinfo
+Checksums-Sha256:
+ 0018ceaa275586694bea9e8c198e759c061894ee0fe9be525d7978ce072f65e3 580 linuxmuster-tools7_7.2.36.dsc
+ 7c107c88ae245124ccab4dda8bdbd0350247ff8f0e3150194084ffc2d2f4a2f4 58543 linuxmuster-tools7_7.2.36.tar.gz
+ 6cbc5a6ecd070fd8f3459dd7a880d9ddccea7576f12f8117d66bee54e45c2244 37932 linuxmuster-tools7_7.2.36_all.deb
+ f35dc00242a74cb71be77c876c3ee4a90483020af7c3443b40c9fae0e8db11cd 7806 linuxmuster-tools7_7.2.36_amd64.buildinfo
+Files:
+ 0bbb14152c05849957b48a8441e09f2b 580 linuxmuster optional linuxmuster-tools7_7.2.36.dsc
+ 346c0ee12ef08159d4511ebf62fb128c 58543 linuxmuster optional linuxmuster-tools7_7.2.36.tar.gz
+ e2eb1793a5f9646d2f0317d04893d098 37932 linuxmuster optional linuxmuster-tools7_7.2.36_all.deb
+ 4b99eb53cadbc7aaedd139506b9c0e9a 7806 linuxmuster optional linuxmuster-tools7_7.2.36_amd64.buildinfo

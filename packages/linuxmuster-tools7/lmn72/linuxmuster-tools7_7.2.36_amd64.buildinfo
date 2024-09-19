@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.2.35
+Version: 7.2.36
 Checksums-Md5:
- 4461b3ab9b070486422b7d2775f905a3 580 linuxmuster-tools7_7.2.35.dsc
- 175b2f98d3c53e1a640ce52a3aaec8e2 37048 linuxmuster-tools7_7.2.35_all.deb
+ 0bbb14152c05849957b48a8441e09f2b 580 linuxmuster-tools7_7.2.36.dsc
+ e2eb1793a5f9646d2f0317d04893d098 37932 linuxmuster-tools7_7.2.36_all.deb
 Checksums-Sha1:
- 150a573d140f0d988efd232631058ca75ad8a29e 580 linuxmuster-tools7_7.2.35.dsc
- 00bc580e9cb4e14a4b21b8ea19709e0d142e55e0 37048 linuxmuster-tools7_7.2.35_all.deb
+ d7e47e1d636ea1053722ff0e8065c9e5199256e5 580 linuxmuster-tools7_7.2.36.dsc
+ 84449cf7ad864aa81cf7861b4b5b050ea52ad66c 37932 linuxmuster-tools7_7.2.36_all.deb
 Checksums-Sha256:
- 55421d7be1f94c17863a3d9db0af6a751ac71437fc11d83c33466d056983f3eb 580 linuxmuster-tools7_7.2.35.dsc
- d248989b9e79744a9932c8c59f0ad474c2702681470e6fd1de5e134a0c8109b5 37048 linuxmuster-tools7_7.2.35_all.deb
+ 0018ceaa275586694bea9e8c198e759c061894ee0fe9be525d7978ce072f65e3 580 linuxmuster-tools7_7.2.36.dsc
+ 6cbc5a6ecd070fd8f3459dd7a880d9ddccea7576f12f8117d66bee54e45c2244 37932 linuxmuster-tools7_7.2.36_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 07 Sep 2024 15:26:02 +0000
+Build-Date: Thu, 19 Sep 2024 16:33:07 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -25,7 +25,7 @@ Installed-Build-Depends:
  automake (= 1:1.16.5-1.3),
  autopoint (= 0.21-4ubuntu4),
  autotools-dev (= 20220109.1),
- base-files (= 12ubuntu4.6),
+ base-files (= 12ubuntu4.7),
  base-passwd (= 3.5.52build1),
  bash (= 5.1-6ubuntu1.1),
  binutils (= 2.38-4ubuntu2.6),
@@ -174,7 +174,7 @@ Installed-Build-Depends:
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
  libsmartcols1 (= 2.37.2-4ubuntu3.4),
- libssl3 (= 3.0.2-0ubuntu1.17),
+ libssl3 (= 3.0.2-0ubuntu1.18),
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 12.3.0-1ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
@@ -193,7 +193,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-119.129),
+ linux-libc-dev (= 5.15.0-121.131),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1725722658"
+ SOURCE_DATE_EPOCH="1726763313"
