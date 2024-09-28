@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sat, 28 Sep 2024 10:42:30 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.37
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.37) lmn72; urgency=medium
+ .
+   * [ldapreader] Add dn filter and refactor url decorators
+   * [ldapreader] Custom fields object as user attribute
+   * [quotas] Better handle quotas errors
+Checksums-Sha1:
+ fe206418cbfaaf287e478d1b28f1befff9da1af3 580 linuxmuster-tools7_7.2.37.dsc
+ 20030e100b68612381b85e4260c8350a32ea91a2 58578 linuxmuster-tools7_7.2.37.tar.gz
+ 51fc23a75cf7d327721b8d3235e69633626b5f8c 38282 linuxmuster-tools7_7.2.37_all.deb
+ 3fcebc89fffcf2ded9f4babe81aef6f0e3835b62 7806 linuxmuster-tools7_7.2.37_amd64.buildinfo
+Checksums-Sha256:
+ 21c6f0952b3df107108d74b32144bdeedc2e258079d17eced54152bdcf46f6f2 580 linuxmuster-tools7_7.2.37.dsc
+ 631ea579daa5f18132b61564698903345a1b78bac9b28be3185d61627c637187 58578 linuxmuster-tools7_7.2.37.tar.gz
+ aa3159dd8002aa6b790def119d38b97701dffd60fe00acb3ddabb309cfdd237d 38282 linuxmuster-tools7_7.2.37_all.deb
+ 776ad02906e96099936a818aceb3543de59a938bd161cf2a7bb5266cce2d27bd 7806 linuxmuster-tools7_7.2.37_amd64.buildinfo
+Files:
+ 557c34d195383a7b1284222d633db0c0 580 linuxmuster optional linuxmuster-tools7_7.2.37.dsc
+ da4feb1ee2c0cda253432c978239adfc 58578 linuxmuster optional linuxmuster-tools7_7.2.37.tar.gz
+ 838b53472afc4358b82a7fc05653f436 38282 linuxmuster optional linuxmuster-tools7_7.2.37_all.deb
+ 4bdb5e5b354d1a6b582e42c9fdf332d4 7806 linuxmuster optional linuxmuster-tools7_7.2.37_amd64.buildinfo
