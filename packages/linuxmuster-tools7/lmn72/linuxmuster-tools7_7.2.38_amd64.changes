@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 28 Sep 2024 12:59:32 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.38
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.38) lmn72; urgency=medium
+ .
+   * [ldapreader] Ignore SCHOOLMARKER for globaladmins.
+   * [ldapwriter] Fix delete attribute.
+Checksums-Sha1:
+ 3f62fc278247c8f6f93c99967697dec87480cb37 580 linuxmuster-tools7_7.2.38.dsc
+ 267ca1d10212d7d3278ee22a816b03e8296c4c8c 58833 linuxmuster-tools7_7.2.38.tar.gz
+ e56391b8da88d96325b141cffb1ffb9ed47bdaeb 38374 linuxmuster-tools7_7.2.38_all.deb
+ 885a43783b0e8e578bbe00aaaae54a4d16ded493 7806 linuxmuster-tools7_7.2.38_amd64.buildinfo
+Checksums-Sha256:
+ 3a59a4c7354245404747039223dc63704c1cdb3d5803771a3d02502959fb8f4c 580 linuxmuster-tools7_7.2.38.dsc
+ 326ad0d1374677daa980e4699570a4756aa4a5e777c2dea38255fbe7f41bdb6d 58833 linuxmuster-tools7_7.2.38.tar.gz
+ 95a99c7474600e70f0cd3fd176fec6da85cdb40e13418b38af2f4a1b2f0c0183 38374 linuxmuster-tools7_7.2.38_all.deb
+ e91deb4e64255fbc8c7da10b1d638a129b784ccc602debfa4af57409c0c5bb65 7806 linuxmuster-tools7_7.2.38_amd64.buildinfo
+Files:
+ 82251dd5203b87b36584e57c01a27ea8 580 linuxmuster optional linuxmuster-tools7_7.2.38.dsc
+ 250fb9ca183e0f245f5a6faa9a957973 58833 linuxmuster optional linuxmuster-tools7_7.2.38.tar.gz
+ 2a4efe0c8559dae411b9d326eac8dfe1 38374 linuxmuster optional linuxmuster-tools7_7.2.38_all.deb
+ c98fd4073b7d1f5de3432c22f9d2d84e 7806 linuxmuster optional linuxmuster-tools7_7.2.38_amd64.buildinfo
