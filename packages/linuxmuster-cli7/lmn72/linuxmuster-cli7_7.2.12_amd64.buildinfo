@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-cli7
 Binary: linuxmuster-cli7
 Architecture: all source
-Version: 7.2.11
+Version: 7.2.12
 Checksums-Md5:
- cb43c7ea86e813851ad87ac83c6c2e74 568 linuxmuster-cli7_7.2.11.dsc
- b0b14fcacc0cf75b4163fd5da373d526 8440 linuxmuster-cli7_7.2.11_all.deb
+ 85cfc36fa460fad60c603692024e72b0 568 linuxmuster-cli7_7.2.12.dsc
+ 97ae91a860615b35e23a677ea2d5fbd2 8496 linuxmuster-cli7_7.2.12_all.deb
 Checksums-Sha1:
- cfe4cf0eabdd524414496d529d91962c81ba4fdd 568 linuxmuster-cli7_7.2.11.dsc
- ad0a430f6261aaa271c7b0cbcc1ca793179420ce 8440 linuxmuster-cli7_7.2.11_all.deb
+ 9f008f7b72491ce2b552f14adc4656873f3f6b7e 568 linuxmuster-cli7_7.2.12.dsc
+ 59d099dba7ac799cdc03709572d7c4ebffda2a73 8496 linuxmuster-cli7_7.2.12_all.deb
 Checksums-Sha256:
- 8b4fc8ae0addda409505fa891c5efa3a4d3550750df49406cc5d4d9964f56b8a 568 linuxmuster-cli7_7.2.11.dsc
- 7cc0b1605f7c7c0bb3f0097a8584c20e4d9ad5f024a1b9ef03489a92a9238033 8440 linuxmuster-cli7_7.2.11_all.deb
+ 6c2a0adf7fea34a5e7cedd400e4a25a4a41181e43113b204e4a613e594864bc9 568 linuxmuster-cli7_7.2.12.dsc
+ 85d3b3daf820e313b01b37a6ff431604fa4cc1dbed424acb2f8ecb933ebfef80 8496 linuxmuster-cli7_7.2.12_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 22 Jul 2024 16:30:42 +0000
+Build-Date: Tue, 29 Oct 2024 09:37:08 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -25,7 +25,7 @@ Installed-Build-Depends:
  automake (= 1:1.16.5-1.3),
  autopoint (= 0.21-4ubuntu4),
  autotools-dev (= 20220109.1),
- base-files (= 12ubuntu4.6),
+ base-files (= 12ubuntu4.7),
  base-passwd (= 3.5.52build1),
  bash (= 5.1-6ubuntu1.1),
  binutils (= 2.38-4ubuntu2.6),
@@ -110,7 +110,7 @@ Installed-Build-Depends:
  libclang1-13 (= 1:13.0.1-2ubuntu2.2),
  libclang1-14 (= 1:14.0.0-1ubuntu1.1),
  libclang1-15 (= 1:15.0.7-0ubuntu0.22.04.3),
- libcom-err2 (= 1.46.5-2ubuntu1.1),
+ libcom-err2 (= 1.46.5-2ubuntu1.2),
  libcrypt-dev (= 1:4.4.27-1),
  libcrypt1 (= 1:4.4.27-1),
  libctf-nobfd0 (= 2.38-4ubuntu2.6),
@@ -136,14 +136,14 @@ Installed-Build-Depends:
  libgmp10 (= 2:6.2.1+dfsg-3ubuntu1),
  libgomp1 (= 12.3.0-1ubuntu1~22.04),
  libgpg-error0 (= 1.43-3),
- libgssapi-krb5-2 (= 1.19.2-2ubuntu0.3),
+ libgssapi-krb5-2 (= 1.19.2-2ubuntu0.4),
  libicu70 (= 70.1-2),
  libisl23 (= 0.24-2build1),
  libitm1 (= 12.3.0-1ubuntu1~22.04),
- libk5crypto3 (= 1.19.2-2ubuntu0.3),
+ libk5crypto3 (= 1.19.2-2ubuntu0.4),
  libkeyutils1 (= 1.6.1-2ubuntu3),
- libkrb5-3 (= 1.19.2-2ubuntu0.3),
- libkrb5support0 (= 1.19.2-2ubuntu0.3),
+ libkrb5-3 (= 1.19.2-2ubuntu0.4),
+ libkrb5support0 (= 1.19.2-2ubuntu0.4),
  libllvm13 (= 1:13.0.1-2ubuntu2.2),
  libllvm14 (= 1:14.0.0-1ubuntu1.1),
  libllvm15 (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -174,7 +174,7 @@ Installed-Build-Depends:
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
  libsmartcols1 (= 2.37.2-4ubuntu3.4),
- libssl3 (= 3.0.2-0ubuntu1.16),
+ libssl3 (= 3.0.2-0ubuntu1.18),
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 12.3.0-1ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
@@ -193,7 +193,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-113.123),
+ linux-libc-dev (= 5.15.0-124.134),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1721665790"
+ SOURCE_DATE_EPOCH="1730194467"
