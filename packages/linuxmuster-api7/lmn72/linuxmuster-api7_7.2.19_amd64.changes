@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sun, 03 Nov 2024 11:03:04 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.19
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.2.19) lmn72; urgency=medium
+ .
+   * Permissions check when printing passwords
+   * Print passwords for projects
+   * Print passwords from cn list
+   * Fix some school specific requests
+   * Fix prefix for projects in multischool
+   * Forbid teachers to change admins in mgmt groups
+   * Set teachers as admins in schoolclasses
+   * Documentation for quotas
+   * Remove user from project as admin too
+   * New endpoint to list schools
+Checksums-Sha1:
+ ac344fc70abef27e2aa017a79cd2929994c90fe2 568 linuxmuster-api7_7.2.19.dsc
+ eeb0bea5d94b3fb3174eced6465353c7734de9ba 52836 linuxmuster-api7_7.2.19.tar.gz
+ 09f42b9c79c887b3918528f48fc528d47261c8a5 38290 linuxmuster-api7_7.2.19_all.deb
+ cc2a4408cc2d6a1987c10e6a23224f97e6a8c3e3 7790 linuxmuster-api7_7.2.19_amd64.buildinfo
+Checksums-Sha256:
+ 830c41febce1ab00c81fec44ad38f5970022536ce0cb2ad80d441c8f96a9a8aa 568 linuxmuster-api7_7.2.19.dsc
+ ac8ad92120940615792330d8bef8cd97b9645ca224516f42984d5d8f490b59f3 52836 linuxmuster-api7_7.2.19.tar.gz
+ 4ec672135daa8a9874db025079bab323cfb2d788b1e6dca45d55aa504b9e3b7d 38290 linuxmuster-api7_7.2.19_all.deb
+ 4b0ff3ad73a6c3780f61ba86924e45d7fa6dea17c5de5e7319e55321c394e39a 7790 linuxmuster-api7_7.2.19_amd64.buildinfo
+Files:
+ 9587185a909349bd0ca06a62b8442d82 568 linuxmuster optional linuxmuster-api7_7.2.19.dsc
+ 4ec74d091edab1fa43d4b3ccdb43a4c6 52836 linuxmuster optional linuxmuster-api7_7.2.19.tar.gz
+ 55daaa16ea65e6cfac29789ed2ff738a 38290 linuxmuster optional linuxmuster-api7_7.2.19_all.deb
+ dfd87b35f8b33ce5022963ed90ed89f5 7790 linuxmuster optional linuxmuster-api7_7.2.19_amd64.buildinfo
