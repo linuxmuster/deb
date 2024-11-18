@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-api7
 Binary: linuxmuster-api7
 Architecture: all source
-Version: 7.2.19
+Version: 7.2.20
 Checksums-Md5:
- 9587185a909349bd0ca06a62b8442d82 568 linuxmuster-api7_7.2.19.dsc
- 55daaa16ea65e6cfac29789ed2ff738a 38290 linuxmuster-api7_7.2.19_all.deb
+ 3d942c38725414b9290f3053a71961f7 568 linuxmuster-api7_7.2.20.dsc
+ 6fc8a2a253d123892ba541d90760dc93 38456 linuxmuster-api7_7.2.20_all.deb
 Checksums-Sha1:
- ac344fc70abef27e2aa017a79cd2929994c90fe2 568 linuxmuster-api7_7.2.19.dsc
- 09f42b9c79c887b3918528f48fc528d47261c8a5 38290 linuxmuster-api7_7.2.19_all.deb
+ 47d94ca9db515d1ba3ae210fc9d093fcb683718a 568 linuxmuster-api7_7.2.20.dsc
+ c1aa15312cda9d62dd9f5da9b3e631d04e68034e 38456 linuxmuster-api7_7.2.20_all.deb
 Checksums-Sha256:
- 830c41febce1ab00c81fec44ad38f5970022536ce0cb2ad80d441c8f96a9a8aa 568 linuxmuster-api7_7.2.19.dsc
- 4ec672135daa8a9874db025079bab323cfb2d788b1e6dca45d55aa504b9e3b7d 38290 linuxmuster-api7_7.2.19_all.deb
+ 953baf340e9ea091e59ab492d6d3a8d2dd65e3cbb0f5507c0bf21815046786b0 568 linuxmuster-api7_7.2.20.dsc
+ 0646cb3673c6537d5fcf3a71429faa7a9ee8caa6c9c9dff3442443b616d6fdf9 38456 linuxmuster-api7_7.2.20_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 03 Nov 2024 10:11:14 +0000
+Build-Date: Mon, 18 Nov 2024 17:20:25 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -193,7 +193,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-124.134),
+ linux-libc-dev (= 5.15.0-125.135),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1730628184"
+ SOURCE_DATE_EPOCH="1731950206"
