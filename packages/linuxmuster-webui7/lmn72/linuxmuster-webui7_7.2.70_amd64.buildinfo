@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.2.69
+Version: 7.2.70
 Checksums-Md5:
- 8ddfde1f8b411b821ba88c953e0d358b 565 linuxmuster-webui7_7.2.69.dsc
- 6fd568dbdf5fe3877afd63bdcd8da8d7 832466 linuxmuster-webui7_7.2.69_all.deb
+ c34685af52a25abf38c4b6a6f493d09f 565 linuxmuster-webui7_7.2.70.dsc
+ 0b1e710df5cf080e4a156d9daebf62a4 832474 linuxmuster-webui7_7.2.70_all.deb
 Checksums-Sha1:
- 7857dd92b4173d2958627933c4c9a91e0abc38fc 565 linuxmuster-webui7_7.2.69.dsc
- baab1ec7260d1bb63f7a0071ca4bbb1fd9674a6c 832466 linuxmuster-webui7_7.2.69_all.deb
+ fcbd67c108a20598c72c8494932ebbfdc3251c4c 565 linuxmuster-webui7_7.2.70.dsc
+ d578818420aa820a76dd3ca839dba7ead6cc1f16 832474 linuxmuster-webui7_7.2.70_all.deb
 Checksums-Sha256:
- 35fe9671440933a4e7ef822fb44457578946620cd0e72b493198597edba10618 565 linuxmuster-webui7_7.2.69.dsc
- 764e1dd1786a32eb71bfca02eb9ba74080c3871796c9cbc94bd65cedd7bca875 832466 linuxmuster-webui7_7.2.69_all.deb
+ 7018607279985f36f97d6d107d847608cfddb52e55767250c7fccd18203da6e2 565 linuxmuster-webui7_7.2.70.dsc
+ 401b2d794a8dc7b78624835ea27851f828600d3aa5e31cf9cec5e224e7a3f24e 832474 linuxmuster-webui7_7.2.70_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 19 Nov 2024 13:36:38 +0000
+Build-Date: Sun, 08 Dec 2024 13:37:03 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -195,7 +195,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-125.135),
+ linux-libc-dev (= 5.15.0-126.136),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -227,4 +227,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1732023318"
+ SOURCE_DATE_EPOCH="1733664949"
