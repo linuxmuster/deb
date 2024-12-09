@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 09 Dec 2024 16:46:40 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.44
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.44) lmn72; urgency=medium
+ .
+   * [common] Convert sophomorix time as human readable
+   * [common] Check user's status in attic
+   * [ldapreader] Get all rooms and a specific room
+   * [ldapreader] Fix subtree search in groups requests
+   * [ldapwriter] Check devices hostnames
+   * [ldapwriter] Add OU and CN in Ldap
+   * [lmnconfig] Add samba, sophomorix and setup config
+   * [lmnconfig] Add LDAP_CONTEXT and SAMBA_TLD
+Checksums-Sha1:
+ 2dbac9d0dc602b72d4a188206cbd80af0c037dc7 580 linuxmuster-tools7_7.2.44.dsc
+ a8d147cf55457e755a2c17ede8e3a0dd0661242c 63699 linuxmuster-tools7_7.2.44.tar.gz
+ 7f177b090ceb5435188671f187382d270008cda5 42814 linuxmuster-tools7_7.2.44_all.deb
+ ba4607020622833f83b9782f92655d5dd2367aa5 7806 linuxmuster-tools7_7.2.44_amd64.buildinfo
+Checksums-Sha256:
+ a76a421c965721db361b524c12493b7e8a5bdd2e158d2d0d8e180c9911fffb7e 580 linuxmuster-tools7_7.2.44.dsc
+ 7b7b07739ec614ff6941f0007be585b8e99298492b272452971a32daa2bcd70c 63699 linuxmuster-tools7_7.2.44.tar.gz
+ 91306e5fcfa1114804244e912fbf03e7ce7b7b5b1911ba4ad81aee5ae7551fbe 42814 linuxmuster-tools7_7.2.44_all.deb
+ 67d41bc0f4478e0bbcf56f55bea9986080e08c47af052fa39f00d2fea93c58ac 7806 linuxmuster-tools7_7.2.44_amd64.buildinfo
+Files:
+ d1eb0042a9e3e0111a9e8a7ccff19bce 580 linuxmuster optional linuxmuster-tools7_7.2.44.dsc
+ 9588f30dfcc5a662cf4a2fae8cfbc32b 63699 linuxmuster optional linuxmuster-tools7_7.2.44.tar.gz
+ 918d22a65dadf0211aa13fa1376fe89b 42814 linuxmuster optional linuxmuster-tools7_7.2.44_all.deb
+ b45b82f7e64384a480831304f7b44647 7806 linuxmuster optional linuxmuster-tools7_7.2.44_amd64.buildinfo
