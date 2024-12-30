@@ -18,6 +18,21 @@ Description: linuxmuster-linbo7
   This package contains kernel, initrd, scripts and pxe boot configuration for
   the Linux-based Network Boot (LINBO) boot/install/repair system.
 
+Package: linuxmuster-tools7
+Version: 7.2.45
+Architecture: all
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Installed-Size: 257
+Depends: python3, nmap
+Priority: optional
+Section: linuxmuster
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.2.45_all.deb
+Size: 44562
+SHA256: fac188dae9016ad08c18ea0f9c449b062decf2eaf6c619c03aa809834903d985
+SHA1: a7722d1cdf2255950474f4124d6573af924f1eea
+MD5sum: f9b9ac107a5bb876546d89dc98d209a7
+Description: Tools for the linuxmuster.net 7 server.
+
 Package: linuxmuster-webui7
 Version: 7.2.75
 Architecture: all
