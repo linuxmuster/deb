@@ -34,7 +34,7 @@ MD5sum: f9b9ac107a5bb876546d89dc98d209a7
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
-Version: 7.2.75
+Version: 7.2.76
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 17554
@@ -42,10 +42,10 @@ Depends: python3-pip, python3-dev, python3-jinja2, python3-lxml, python3-venv, l
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.75_all.deb
-Size: 832884
-SHA256: 4baccff2ad754965dd9cde79356eb03b63e7bc82d4900539412804209658b5ad
-SHA1: 86f81a0bd8e815cffe11c0b64c8ce5656c3e9df9
-MD5sum: bfeea54d33c6dd81ae12301467e404ee
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.76_all.deb
+Size: 833114
+SHA256: 9d11bd566a4487dcc5374affea92fbf49b1d696887ea1fe8161576e820be5bc3
+SHA1: 21d2b09e2cbc6f89ee6f94753d13795087c9fc00
+MD5sum: 3640e4f12476a4d3587018fa80e54fe2
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
