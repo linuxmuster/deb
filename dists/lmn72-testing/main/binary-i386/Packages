@@ -19,7 +19,7 @@ Description: linuxmuster-linbo7
   the Linux-based Network Boot (LINBO) boot/install/repair system.
 
 Package: linuxmuster-webui7
-Version: 7.2.74
+Version: 7.2.75
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 17554
@@ -27,10 +27,10 @@ Depends: python3-pip, python3-dev, python3-jinja2, python3-lxml, python3-venv, l
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.74_all.deb
-Size: 832888
-SHA256: e8b69e3e4c2cf95b628c5832e140efe60e31c23bb86258713c088eadb911aab2
-SHA1: e9d5c6abfc12ba9f54ac908f556a68999c48a5be
-MD5sum: fee5333d8b636c01294acf8e7c3da8eb
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.2.75_all.deb
+Size: 832884
+SHA256: 4baccff2ad754965dd9cde79356eb03b63e7bc82d4900539412804209658b5ad
+SHA1: 86f81a0bd8e815cffe11c0b64c8ce5656c3e9df9
+MD5sum: bfeea54d33c6dd81ae12301467e404ee
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
