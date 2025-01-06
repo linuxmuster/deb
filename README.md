@@ -1,9 +1,9 @@
 <p align="center">
-   <img src="https://raw.githubusercontent.com/linuxmuster/archive/master/.github/media/lmn-logo.svg" alt="LMN logo" width="70%" />
+   <img src="https://raw.githubusercontent.com/linuxmuster/deb/master/.github/media/lmn-logo.svg" alt="LMN logo" width="70%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/linuxmuster/archive/actions/workflows/build-and-deploy.yml"><img src="https://github.com/linuxmuster/archive/actions/workflows/build-and-deploy.yml/badge.svg" /></a>
+  <a href="https://github.com/linuxmuster/deb/actions/workflows/build-and-deploy.yml"><img src="https://github.com/linuxmuster/deb/actions/workflows/build-and-deploy.yml/badge.svg" /></a>
   <a href="https://ask.linuxmuster.net"><img src="https://img.shields.io/discourse/users?logo=discourse&logoColor=white&server=https%3A%2F%2Fask.linuxmuster.net" alt="Community Forum"/></a>
   <a href="https://www.gnu.org/licenses/agpl-3.0" ><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" /></a>
 </p>
@@ -53,3 +53,11 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/linuxmuster.net.
 ```bash
 sudo apt update
 ```
+
+# Linuxmuster.net packages interaction
+
+A quick view over the interaction between all packages when installed on the server:
+
+<p align="center">
+   <img src="https://raw.githubusercontent.com/linuxmuster/deb/master/.github/media/Linuxmuster.drawio.png" alt="LMN Structure" width="100%" />
+</p>
