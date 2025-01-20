@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.2.44
+Version: 7.2.47
 Checksums-Md5:
- d1eb0042a9e3e0111a9e8a7ccff19bce 580 linuxmuster-tools7_7.2.44.dsc
- 918d22a65dadf0211aa13fa1376fe89b 42814 linuxmuster-tools7_7.2.44_all.deb
+ 6c49286529429b00d298b1b7f6d8ed56 580 linuxmuster-tools7_7.2.47.dsc
+ 29ca8adcf23f76f3677fa2eda8e812ca 44880 linuxmuster-tools7_7.2.47_all.deb
 Checksums-Sha1:
- 2dbac9d0dc602b72d4a188206cbd80af0c037dc7 580 linuxmuster-tools7_7.2.44.dsc
- 7f177b090ceb5435188671f187382d270008cda5 42814 linuxmuster-tools7_7.2.44_all.deb
+ a238e9745669b86a0c91a231d01499243524ccdc 580 linuxmuster-tools7_7.2.47.dsc
+ 9284111bb09e0006425de3ab493416508aafe9d5 44880 linuxmuster-tools7_7.2.47_all.deb
 Checksums-Sha256:
- a76a421c965721db361b524c12493b7e8a5bdd2e158d2d0d8e180c9911fffb7e 580 linuxmuster-tools7_7.2.44.dsc
- 91306e5fcfa1114804244e912fbf03e7ce7b7b5b1911ba4ad81aee5ae7551fbe 42814 linuxmuster-tools7_7.2.44_all.deb
+ 2adfd3f3123d95672085363fc7194474de8d600d6eba3d9e1621e4af9d86f76b 580 linuxmuster-tools7_7.2.47.dsc
+ 2bfc458abd8ecbced9943227992ead87bdd8bc9473625061b4df7c9be5f97f94 44880 linuxmuster-tools7_7.2.47_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 09 Dec 2024 15:53:17 +0000
+Build-Date: Mon, 20 Jan 2025 11:31:52 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -193,7 +193,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-126.136),
+ linux-libc-dev (= 5.15.0-130.140),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1733759200"
+ SOURCE_DATE_EPOCH="1737372544"
