@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-cli7
 Binary: linuxmuster-cli7
 Architecture: all source
-Version: 7.2.13
+Version: 7.2.14
 Checksums-Md5:
- 81323bfd9c744345ceb8f9567c524591 568 linuxmuster-cli7_7.2.13.dsc
- 7de587263a01cc783fcd260f87dd68c7 9378 linuxmuster-cli7_7.2.13_all.deb
+ f1d14b3513ad3f38595674b06bbdd5be 568 linuxmuster-cli7_7.2.14.dsc
+ fe8565e98a0cfae14bf4cdf20e747e3a 10612 linuxmuster-cli7_7.2.14_all.deb
 Checksums-Sha1:
- a74e949fcb4889e721add4de9a9263bf369a1d8e 568 linuxmuster-cli7_7.2.13.dsc
- 1130db8d47197be88bea59a242498213914d075d 9378 linuxmuster-cli7_7.2.13_all.deb
+ 4136535cd10065da3b4a28f7d263829fff74491a 568 linuxmuster-cli7_7.2.14.dsc
+ f5a9e00bde46a1149af7403b47ca3e18cb8ccf02 10612 linuxmuster-cli7_7.2.14_all.deb
 Checksums-Sha256:
- c5724839439493dcca790f13158bf88b7b88ef8de93c8149302ec3e6111e9dac 568 linuxmuster-cli7_7.2.13.dsc
- b6ba6526ec78a2b45c2005f21a2bafc722e306255bae4d01ea73a2b6b57db577 9378 linuxmuster-cli7_7.2.13_all.deb
+ bacb4749f3fe6f723e7eb028756ca16baa50978853c6b5c771df579f23c65788 568 linuxmuster-cli7_7.2.14.dsc
+ dc4e103c3e58b11b499aa2c95b17405baacb14080b43311403ed7b7539d77d00 10612 linuxmuster-cli7_7.2.14_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 09 Dec 2024 15:55:09 +0000
+Build-Date: Mon, 20 Jan 2025 11:36:40 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -193,7 +193,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-126.136),
+ linux-libc-dev (= 5.15.0-130.140),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1733759639"
+ SOURCE_DATE_EPOCH="1737372717"

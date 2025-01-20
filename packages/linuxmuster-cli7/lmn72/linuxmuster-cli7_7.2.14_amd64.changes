@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Mon, 20 Jan 2025 12:31:57 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.14
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.2.14) lmn72; urgency=medium
+ .
+   * Remove completion
+   * Add global CSV and RAW output formats
+   * Add -h shortcut for help
+   * Fix log level for linuxmusterTools
+   * [devices] Filter by IP too
+   * [devices] Add sophomorixRole
+   * [samba] Fix search pattern
+Checksums-Sha1:
+ 4136535cd10065da3b4a28f7d263829fff74491a 568 linuxmuster-cli7_7.2.14.dsc
+ f0c247e5c764218aee4b5f3689a83871922a1109 23509 linuxmuster-cli7_7.2.14.tar.gz
+ f5a9e00bde46a1149af7403b47ca3e18cb8ccf02 10612 linuxmuster-cli7_7.2.14_all.deb
+ c58f76c2644fabf8210990a1a73ca67ef18e29ac 7790 linuxmuster-cli7_7.2.14_amd64.buildinfo
+Checksums-Sha256:
+ bacb4749f3fe6f723e7eb028756ca16baa50978853c6b5c771df579f23c65788 568 linuxmuster-cli7_7.2.14.dsc
+ dfe23f7e7a9b667a1de7570dde56bcdf7025526239faa1843bf5dc7a8eae01d6 23509 linuxmuster-cli7_7.2.14.tar.gz
+ dc4e103c3e58b11b499aa2c95b17405baacb14080b43311403ed7b7539d77d00 10612 linuxmuster-cli7_7.2.14_all.deb
+ 94ffa5d3de3fa53ddef99b911302cf04dd3e4ef1dc99b53e06ba4ecfb969ee34 7790 linuxmuster-cli7_7.2.14_amd64.buildinfo
+Files:
+ f1d14b3513ad3f38595674b06bbdd5be 568 linuxmuster optional linuxmuster-cli7_7.2.14.dsc
+ 9315cf9cf3565178ae86fad8a2d67e65 23509 linuxmuster optional linuxmuster-cli7_7.2.14.tar.gz
+ fe8565e98a0cfae14bf4cdf20e747e3a 10612 linuxmuster optional linuxmuster-cli7_7.2.14_all.deb
+ 24bf5afb42ca3d9676e3e37124c2c3c6 7790 linuxmuster optional linuxmuster-cli7_7.2.14_amd64.buildinfo
