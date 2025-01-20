@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Mon, 20 Jan 2025 12:36:56 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.21
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.2.21) lmn72; urgency=medium
+ .
+   * Fix missing school for teachers requests
+   * Add thumbnailPhoto for users
+   * Avoid school bug in projects
+   * More checks and exceptions catching
+   * Fix logging
+Checksums-Sha1:
+ 7e5109f1751bb66c23e061b5b575aa28dd25c97e 568 linuxmuster-api7_7.2.21.dsc
+ 5ca7a89bfbf1e6d6b332e12c544f7faf6db94a21 53446 linuxmuster-api7_7.2.21.tar.gz
+ 71147f32c1e7a68cb1be1a3e621bb1f6d6c1b21f 38516 linuxmuster-api7_7.2.21_all.deb
+ 70229119b0683cf948cdacdde5d9787a2d3b69ee 7790 linuxmuster-api7_7.2.21_amd64.buildinfo
+Checksums-Sha256:
+ 1593c83e04844bf59dd9fd84e8d6166fa027c5cef9b1552d3ea52947c743312b 568 linuxmuster-api7_7.2.21.dsc
+ 538d76df361c88b40a0e006d728bc3c5da5be536fb2656ba9474539fe51779c0 53446 linuxmuster-api7_7.2.21.tar.gz
+ c9efd7922521a5703153e60bd1eed504698d5dffc32b17a9a67878e73d1a9582 38516 linuxmuster-api7_7.2.21_all.deb
+ d84facf70db48c285aecb052aaa5edcb4491f72a83d2da269f543339f4d983df 7790 linuxmuster-api7_7.2.21_amd64.buildinfo
+Files:
+ 51c512b13f0a7d546e4a9bc4287e8aef 568 linuxmuster optional linuxmuster-api7_7.2.21.dsc
+ 65aca0b4100779fc7fdb30f9bcecea49 53446 linuxmuster optional linuxmuster-api7_7.2.21.tar.gz
+ 78a34f81bc0b89b2246360d1c8662ff4 38516 linuxmuster optional linuxmuster-api7_7.2.21_all.deb
+ 0a08846424d6847b6655364aa2de4098 7790 linuxmuster optional linuxmuster-api7_7.2.21_amd64.buildinfo
