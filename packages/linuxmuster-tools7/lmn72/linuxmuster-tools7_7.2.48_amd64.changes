@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 27 Jan 2025 11:44:18 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.48
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.48) lmn72; urgency=medium
+ .
+   * [lmnconfig] Fix LDAP_CONTEXT
+Checksums-Sha1:
+ 108cf4e444398d4c9c8b56d766cb846166dfea5d 580 linuxmuster-tools7_7.2.48.dsc
+ 5c16570d2a212fdc5dff36ede2f6cdcce6bf0ea5 67418 linuxmuster-tools7_7.2.48.tar.gz
+ 4bbaa375adb87e1ddd4e60fe91aa91655c5f0e84 44926 linuxmuster-tools7_7.2.48_all.deb
+ 66ecf5d4be370bd8fdda1876ac98afecd7540354 7806 linuxmuster-tools7_7.2.48_amd64.buildinfo
+Checksums-Sha256:
+ e096a747c29c06873be8b41ae5c1d24226c841a68ca7bf6999a58e675c553d50 580 linuxmuster-tools7_7.2.48.dsc
+ b02cdc909f758ed527072069453dae7319fe1483e4d96d0f44913be5de3ca3c4 67418 linuxmuster-tools7_7.2.48.tar.gz
+ 35c575c12c50de54f4bc8fa7ea3b70eb1e72587e2e5bf9c1b37650a10516a7e6 44926 linuxmuster-tools7_7.2.48_all.deb
+ 720040c4b59f93fec7001b9e8f79c59c11721cdf6ff0a30c18de4bc0c6a70098 7806 linuxmuster-tools7_7.2.48_amd64.buildinfo
+Files:
+ 41205bd5c91ca595b011a56a80afb90c 580 linuxmuster optional linuxmuster-tools7_7.2.48.dsc
+ a9fbf2f17f7c2fa0bdec68f67d4356ff 67418 linuxmuster optional linuxmuster-tools7_7.2.48.tar.gz
+ d81b6001240988d127c71029c9a046bf 44926 linuxmuster optional linuxmuster-tools7_7.2.48_all.deb
+ e0e31fe4aa28f08f7936fba1a26696bf 7806 linuxmuster optional linuxmuster-tools7_7.2.48_amd64.buildinfo
