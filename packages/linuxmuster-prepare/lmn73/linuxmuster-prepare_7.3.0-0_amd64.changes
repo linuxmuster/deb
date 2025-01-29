@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 15:44:05 +0100
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.0-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.3.0-0) lmn73; urgency=low
+ .
+   * implement ubuntu server 24.04 installation.
+Checksums-Sha1:
+ f1293e9d0da0c74cf8d2111f47a853ee725ff417 591 linuxmuster-prepare_7.3.0-0.dsc
+ 96cecfc9abd45f4bd03c35b997500c12ad838442 32880 linuxmuster-prepare_7.3.0-0.tar.gz
+ 2b4db8a0ec3805f4a284352fba176db2b6636e36 15596 linuxmuster-prepare_7.3.0-0_all.deb
+ 68c797a3f7517725b135022f50796cbf3a1805c0 7676 linuxmuster-prepare_7.3.0-0_amd64.buildinfo
+Checksums-Sha256:
+ 53857abc812faeed70be7da5ac7533412ea19c8008366cceddf0e964d6e8fefe 591 linuxmuster-prepare_7.3.0-0.dsc
+ f8c42d47ec6a9af610ee65912f10184aab9e042f7022cf543bce94793008b08a 32880 linuxmuster-prepare_7.3.0-0.tar.gz
+ 9457eca47a4647c380466edb8edb17b8a369fe54df0521cf75027a70ab906fc7 15596 linuxmuster-prepare_7.3.0-0_all.deb
+ 3af8993e57c28d79addb1d15785b5f1037dcfe31edaffcd559394f9f29e12042 7676 linuxmuster-prepare_7.3.0-0_amd64.buildinfo
+Files:
+ 8321607cd3c49280991dec0e1115b29e 591 linuxmuster optional linuxmuster-prepare_7.3.0-0.dsc
+ 01a62ca84636eeabe12ec0c0984dfa7a 32880 linuxmuster optional linuxmuster-prepare_7.3.0-0.tar.gz
+ fc4b5d2680926ea9a4ac66db36c568cb 15596 linuxmuster optional linuxmuster-prepare_7.3.0-0_all.deb
+ 405b87675dc394bd3781c6e590cd8b4c 7676 linuxmuster optional linuxmuster-prepare_7.3.0-0_amd64.buildinfo
