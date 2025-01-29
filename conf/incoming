@@ -1,5 +1,5 @@
 Name: default
 IncomingDir: incoming
 TempDir: tmp
-Allow: focal focal-testing bionic bionic-testing lmn7 lmn7-testing lmn70 lmn71 lmn72 lmn71-testing lmn72-testing lmn80
+Allow: focal focal-testing bionic bionic-testing lmn7 lmn7-testing lmn70 lmn71 lmn72 lmn71-testing lmn72-testing lmn73 lmn80
 Cleanup:
