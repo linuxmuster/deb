@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 30 Jan 2025 19:48:17 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.0-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.0-0) lmn72; urgency=low
+ .
+   * create compatibility to ubuntu server 24.04 (e339f56).
+Checksums-Sha1:
+ 33b43af9045b28f37556881f839fa5d26eed2029 579 linuxmuster-base7_7.3.0-0.dsc
+ 8b13adba85f933ff7ab1ec2a3000ae42d469e4db 78205 linuxmuster-base7_7.3.0-0.tar.gz
+ 65225478be6d6ec3f4fe737f8ee36da124c00dd4 54114 linuxmuster-base7_7.3.0-0_all.deb
+ 508af0a627e67ed7e23a1af5e422ba99b962ded8 7660 linuxmuster-base7_7.3.0-0_amd64.buildinfo
+Checksums-Sha256:
+ 367752fe62afe1fc880d3d92c22c4654ab0c2d1f6ffb62cbfe9242da1005d096 579 linuxmuster-base7_7.3.0-0.dsc
+ fdcaba29838616ab7de912ae7c021bf278e0391e42f35adffff257b5b0969c0c 78205 linuxmuster-base7_7.3.0-0.tar.gz
+ 58e7ee81c40f3468a64259a355b04c24c453e808f4f2bbbacb87766acdecab2f 54114 linuxmuster-base7_7.3.0-0_all.deb
+ 1a7323bc423f4c060c217d198ceba33d03f43af97f817d43b9269de542c806eb 7660 linuxmuster-base7_7.3.0-0_amd64.buildinfo
+Files:
+ 58f2368d4abcd6461f11c27b40951c2a 579 linuxmuster optional linuxmuster-base7_7.3.0-0.dsc
+ 5a2a15eab76a7240b059ddd01667d06b 78205 linuxmuster optional linuxmuster-base7_7.3.0-0.tar.gz
+ cfbc795d0467dba31cbb9d6e21715ede 54114 linuxmuster optional linuxmuster-base7_7.3.0-0_all.deb
+ 7776faca3a7c8330b1937f603f28809b 7660 linuxmuster optional linuxmuster-base7_7.3.0-0_amd64.buildinfo
