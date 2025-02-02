@@ -8,3 +8,6 @@ Files in this directory:
 - 🗒 [linuxmuster-tools7_7.2.48.dsc](linuxmuster-tools7_7.2.48.dsc)
 - 🗒 [linuxmuster-tools7_7.2.48.tar.gz](linuxmuster-tools7_7.2.48.tar.gz)
 - 🗒 [linuxmuster-tools7_7.2.48_all.deb](linuxmuster-tools7_7.2.48_all.deb)
+- 🗒 [linuxmuster-tools7_7.3.2.dsc](linuxmuster-tools7_7.3.2.dsc)
+- 🗒 [linuxmuster-tools7_7.3.2.tar.gz](linuxmuster-tools7_7.3.2.tar.gz)
+- 🗒 [linuxmuster-tools7_7.3.2_all.deb](linuxmuster-tools7_7.3.2_all.deb)
