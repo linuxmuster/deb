@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 02 Feb 2025 15:07:30 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.2
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.3.2) lmn73; urgency=medium
+ .
+   * Update artifact to v4
+Checksums-Sha1:
+ 6c0f3bb55542c739c876110a560e4277456a1fab 564 linuxmuster-cli7_7.3.2.dsc
+ fd4ffa48b4e720036f3f9f5b20d6c12a1b506f10 23880 linuxmuster-cli7_7.3.2.tar.gz
+ 1804729ca8c47c763d2a03b80e5d3268b33d12bd 10692 linuxmuster-cli7_7.3.2_all.deb
+ 0ab0757051d2da6d33fd66cbbfeaae87196437ff 7549 linuxmuster-cli7_7.3.2_amd64.buildinfo
+Checksums-Sha256:
+ c1345c3b00d8de528b450b9965249030a9017afe74c0da4ff3f6c230155453b7 564 linuxmuster-cli7_7.3.2.dsc
+ dd39f379b1ff28a0f2c9c839899ce36c33d2dba6fe74f40789102c94adf0cf07 23880 linuxmuster-cli7_7.3.2.tar.gz
+ 20a3efabaa26658a0a35c0f13580ce73dc21846f7a511c2200bb0b6f9e7b4946 10692 linuxmuster-cli7_7.3.2_all.deb
+ 6c9d92656b763e9e0950db5797e9be0592f61c7037e118a5f83430d5463878ba 7549 linuxmuster-cli7_7.3.2_amd64.buildinfo
+Files:
+ 7935f87ea3e93e1bc94d4550e89dba5d 564 linuxmuster optional linuxmuster-cli7_7.3.2.dsc
+ 1cfffd2831bcca861d1529f0dbd4cc87 23880 linuxmuster optional linuxmuster-cli7_7.3.2.tar.gz
+ 02d946e3e67958a0220e2764382804b4 10692 linuxmuster optional linuxmuster-cli7_7.3.2_all.deb
+ 2c5ac9e612e1616759f3a0028db8f470 7549 linuxmuster optional linuxmuster-cli7_7.3.2_amd64.buildinfo
