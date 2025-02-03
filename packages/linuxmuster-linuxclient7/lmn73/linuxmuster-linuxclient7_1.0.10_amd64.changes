@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 03 Feb 2025 12:28:41 +0100
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.0.10
+Distribution: lmn73
+Urgency: medium
+Maintainer: Dorian Zedler <dorian@itsblue.de>, Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.0.10) lmn73; urgency=medium
+ .
+   * New package for lmn 7.3
+Checksums-Sha1:
+ 6986c08ae3607c59e37421dd2a51235ecbead591 651 linuxmuster-linuxclient7_1.0.10.dsc
+ 5a2f0e4f6949fc538a518d64d459de444ed6716a 65684 linuxmuster-linuxclient7_1.0.10.tar.gz
+ 2fe074c2de8d413857a1f97fb3711e92ab6f987c 30406 linuxmuster-linuxclient7_1.0.10_all.deb
+ 55d292cb1e0c8cf6f764ed27383f06f81e1f956c 7620 linuxmuster-linuxclient7_1.0.10_amd64.buildinfo
+Checksums-Sha256:
+ 3b74a394a9e3e1ac73d35bf7155188719db688a3b0a4342d0499586619481875 651 linuxmuster-linuxclient7_1.0.10.dsc
+ 8a3c5868b7d5dcb4e7c89f4e3fa6b2879c4ef13bd4ba2d298abbb5408dbc9fb6 65684 linuxmuster-linuxclient7_1.0.10.tar.gz
+ 9a8e22777d5ffe912f82df641c03e371004dfc4e085ad93627e0068f8c62ca25 30406 linuxmuster-linuxclient7_1.0.10_all.deb
+ 1c2fe33b412b907b2a7ac211bfb468ec8b8d0404dc1cd9afb295d4a54d409858 7620 linuxmuster-linuxclient7_1.0.10_amd64.buildinfo
+Files:
+ 28aa226205f3ab951e7ae8a4950fcb64 651 linuxmuster optional linuxmuster-linuxclient7_1.0.10.dsc
+ 9561b92f721b99322053de79e346e5ea 65684 linuxmuster optional linuxmuster-linuxclient7_1.0.10.tar.gz
+ bb13370011a4f31dd5d0ec70dfb87d20 30406 linuxmuster optional linuxmuster-linuxclient7_1.0.10_all.deb
+ 5c0a3164042f6aec6860015f174bb901 7620 linuxmuster optional linuxmuster-linuxclient7_1.0.10_amd64.buildinfo
