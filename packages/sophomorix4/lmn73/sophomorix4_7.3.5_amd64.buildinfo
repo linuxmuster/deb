@@ -2,31 +2,31 @@ Format: 1.0
 Source: sophomorix4
 Binary: sophomorix-belwue-mail sophomorix-developer sophomorix-dump sophomorix-samba sophomorix-vampire
 Architecture: all source
-Version: 7.3.4
+Version: 7.3.5
 Checksums-Md5:
- 85a8874c6a0c63e302c7d01b01da7499 833 sophomorix4_7.3.4.dsc
- ace40704e13bb8823420250cffc755b1 14920 sophomorix-belwue-mail_7.3.4_all.deb
- 99b2de660eb4b089aa9beed5dc665615 80630 sophomorix-developer_7.3.4_all.deb
- 352806a9ed111cd1be52616dc359ad7e 7802 sophomorix-dump_7.3.4_all.deb
- d7da5126138d7cd39f7db83b00e7360e 252258 sophomorix-samba_7.3.4_all.deb
- c8945c8fefe67c785f4b14dae15cf445 17264 sophomorix-vampire_7.3.4_all.deb
+ 661983274502e70307b1fecf3cd8994e 833 sophomorix4_7.3.5.dsc
+ f1006bbe6ea36513d5ae0fdb96a92eb0 14934 sophomorix-belwue-mail_7.3.5_all.deb
+ aa62dc34d95137d67d8a815c977616ab 80732 sophomorix-developer_7.3.5_all.deb
+ e985215c299545964a070432aa67efec 7822 sophomorix-dump_7.3.5_all.deb
+ f4ca53b4b2f2e23eba031cecf4f0cce3 252294 sophomorix-samba_7.3.5_all.deb
+ c98e02bb22304ef6c6ae8b4f22e2c742 17274 sophomorix-vampire_7.3.5_all.deb
 Checksums-Sha1:
- 08d5b0a1c4a843f50ff3bc52d4dc02182153b92c 833 sophomorix4_7.3.4.dsc
- b90cbe517e47206909598e6b2d00a6cd49f7f54a 14920 sophomorix-belwue-mail_7.3.4_all.deb
- ef129b1974a572a1c80f82341dcb43f638568caa 80630 sophomorix-developer_7.3.4_all.deb
- 23ecc6c0c80d6470081200293c76ae168a5071fe 7802 sophomorix-dump_7.3.4_all.deb
- 24b413dfb9384038e64ee85d9667922868ceb8cf 252258 sophomorix-samba_7.3.4_all.deb
- f80c44d31ad9dab69b1156e4872f7eaa71a8838d 17264 sophomorix-vampire_7.3.4_all.deb
+ 360224e3394bdeb6ad2df4598fe0bc5075bdfa5d 833 sophomorix4_7.3.5.dsc
+ 1be31a3413a35f347883fea96b5081faacda0342 14934 sophomorix-belwue-mail_7.3.5_all.deb
+ d7dc9636699d9e48dd50ec3ee28b19a53c65dfb7 80732 sophomorix-developer_7.3.5_all.deb
+ 9b923e3f147c8f05fd9e216452e503c250c50a9f 7822 sophomorix-dump_7.3.5_all.deb
+ cde49e2f0759e5a0ef62af2184617eac2dc76543 252294 sophomorix-samba_7.3.5_all.deb
+ cd723fd03e5239b6334854a927d949e983167b85 17274 sophomorix-vampire_7.3.5_all.deb
 Checksums-Sha256:
- 73fd6e0fbd5a0743bf8edbb1b51d7088de456a44366b46bd35ad9397fc299a6a 833 sophomorix4_7.3.4.dsc
- 314cb554f9c63b1bb45a9eb76e81f97133ed0131f5290558b81d88ac376c42be 14920 sophomorix-belwue-mail_7.3.4_all.deb
- 9dc7f046a92b4c23d818c1ffc7ae5ddc71eb992520a0f46faac8b81d495201c8 80630 sophomorix-developer_7.3.4_all.deb
- 0e0302aeeb756564d1e8cbad350aaac4ee5a8fdc7c1f65050f9e77afe1a36c38 7802 sophomorix-dump_7.3.4_all.deb
- 1f8eeb767a44738de25a8804349b6742a79a0b149205c0254ba1a86a6304760c 252258 sophomorix-samba_7.3.4_all.deb
- 566bec5f0ea8eb64f8ea4622189de0cbe7aaeb6b062a636e0096cd46eea5e9e7 17264 sophomorix-vampire_7.3.4_all.deb
+ d87c7e1c8cc9a32145e920fec6a4cf3cc17ec56f85e2b501f86016336908f24a 833 sophomorix4_7.3.5.dsc
+ fa500a33dd9a85043eacc38b78f2fe86ebefecb6dbe2fbae238096af0f5f46ee 14934 sophomorix-belwue-mail_7.3.5_all.deb
+ 65511149f5dcd1c0c54100c7f607cbd52159d5ba2865aa64cf8a8671f6702b73 80732 sophomorix-developer_7.3.5_all.deb
+ 23bed0e41024997f06f7ea507e39742e3e099d81ff57461403d4cd8139194eb9 7822 sophomorix-dump_7.3.5_all.deb
+ 6fdbfef82be6d1a4cd19538f63a03dd73efd83b71b4a0eb77cc473aec2ccc1f5 252294 sophomorix-samba_7.3.5_all.deb
+ 0409a6b959856e4b4997eca0886833a47a8c3254e3de26c2aa0d563b78a1b09e 17274 sophomorix-vampire_7.3.5_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 11 Mar 2025 12:37:03 +0000
+Build-Date: Sun, 16 Mar 2025 14:39:12 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -311,4 +311,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1741696395"
+ SOURCE_DATE_EPOCH="1742135867"
