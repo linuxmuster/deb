@@ -1,19 +1,20 @@
 Package: linuxmuster-linbo7
-Version: 4.3.2-0
+Version: 4.3.3-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
-Installed-Size: 84909
-Depends: argon2, coreutils, ctorrent, dosfstools, dropbear-bin, grub-common, grub-efi-amd64-bin, grub-ipxe, grub-pc-bin, isolinux, libowfat0, linux-firmware, linuxmuster-base7, linuxmuster-linbo-gui7, mbr, python3, qemu-utils, rsync, sed, ssh, syslinux-common, syslinux-utils, tftpd-hpa, tmux, udpcast, wakeonlan, xorriso, xz-utils, zip
+Installed-Size: 88988
+Depends: argon2, coreutils, cpio, ctorrent, dosfstools, dropbear-bin, grub-common, grub-efi-amd64-bin, grub-ipxe, grub-pc-bin, isolinux, libowfat0t64, linux-firmware, linuxmuster-linbo-gui7, mbr, python3, qemu-utils, rsync, sed, ssh, syslinux-common, syslinux-utils, tftpd-hpa, tmux, udpcast, wakeonlan, xorriso, xz-utils, zip, zlib1g
+Recommends: linuxmuster-base7
 Suggests: isc-dhcp-server | dhcp3-server
-Conflicts: atftpd, bittorrent, linuxmuster-linbo, linuxmuster-linbo-common, linuxmuster-linbo-common7
+Conflicts: atftpd, bittorrent, linuxmuster-linbo, linuxmuster-linbo-common, linuxmuster-linbo-common7, opentracker
 Breaks: linuxmuster-linbo-common7
 Priority: extra
 Section: admin
-Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.3.2-0_all.deb
-Size: 84381618
-SHA256: 88414137067d2ae2e9b4ef816c384a821a7416849d72b50aaa5a21f558287016
-SHA1: 4e848cae9a16c8301e332e2a695e4ef77c9450ba
-MD5sum: fed604eb05a3cb275bfb73d3e3795307
+Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.3.3-0_all.deb
+Size: 88551022
+SHA256: 85fe9eae743786d58775377994db339d91b9fc7ec19e17da463d6f929b1b1bd0
+SHA1: 116336ffdcdf799f58cb6cb232496197638c9944
+MD5sum: 55887afbb94b7f1b9ea4e497419a3ae6
 Description: linuxmuster-linbo7
   This package contains kernel, initrd, scripts and pxe boot configuration for
   the Linux-based Network Boot (LINBO) boot/install/repair system.
