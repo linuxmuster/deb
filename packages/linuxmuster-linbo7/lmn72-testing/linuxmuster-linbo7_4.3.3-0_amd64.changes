@@ -1,0 +1,60 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 22 Mar 2025 11:42:53 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.3-0
+Distribution: lmn72-testing
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.3-0) lmn72-testing; urgency=low
+ .
+   * do not build r8125 module if modules archive already exists (e172416).
+   * gui_ctl fixes (c211e63).
+   * add nosplit option to gui_ctl (547ee62).
+   * kernel updates (708324b, 8f29c81).
+   * fix missing dependency on cpio (#124).
+   * improve linbo client logging (#123).
+   * add lsblk to linbofs (#126).
+   * Merge pull request #128 from hermanntoast/add-no-svram,
+   * switch to ubuntu 24.04 buld environment (#129).
+   * remove obsolete linbo remote cache definition from build config (7f70cfd).
+   * update busybox to 1.37.0 (6109c37).
+Checksums-Sha1:
+ 9cd1bd272818a749c6f0f0e2141dd120aaec607b 2010 linuxmuster-linbo7_4.3.3-0.dsc
+ c7e9fee9b1e654511d0f5f51d7f7e800b2da7605 2046371 linuxmuster-linbo7_4.3.3-0.tar.gz
+ 116336ffdcdf799f58cb6cb232496197638c9944 88551022 linuxmuster-linbo7_4.3.3-0_all.deb
+ e8a185d9ef83768fe6734b7f8c8ea93b9e425226 15732 linuxmuster-linbo7_4.3.3-0_amd64.buildinfo
+Checksums-Sha256:
+ f256c86fe709eba7022b7fbc6f7932182c958b84f1f17373c976cd9c447e7652 2010 linuxmuster-linbo7_4.3.3-0.dsc
+ e844a551fbd1a4f73347f967a486614104d93caa6014e92edce667f8dc535afd 2046371 linuxmuster-linbo7_4.3.3-0.tar.gz
+ 85fe9eae743786d58775377994db339d91b9fc7ec19e17da463d6f929b1b1bd0 88551022 linuxmuster-linbo7_4.3.3-0_all.deb
+ 1688d7baaf97bb106e914189575fdb6d8814a6dc02a9f8bbf4ff96aa1a689f2d 15732 linuxmuster-linbo7_4.3.3-0_amd64.buildinfo
+Files:
+ 27fc0fdde615bd1aba51a33d49571fdc 2010 admin extra linuxmuster-linbo7_4.3.3-0.dsc
+ 4fdbc164913dafdeebe15548398c8cc7 2046371 admin extra linuxmuster-linbo7_4.3.3-0.tar.gz
+ 55887afbb94b7f1b9ea4e497419a3ae6 88551022 admin extra linuxmuster-linbo7_4.3.3-0_all.deb
+ 908f5193955b34f018e9239d4eec75a2 15732 admin extra linuxmuster-linbo7_4.3.3-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmfelFEXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLI3PQv9EqFIltDreILquBRgydO2TJr+
+qmuQ88zQK6BDfaMjACPAa12sYzkM5BdOH+Hbi4C/ZY9bdNpWAUnY/7PySUFiCcHJ
+NNyths89QIm28W6/TrusnmMUbHyhu1ntApi8Q8RBSoagtynM5s9jIxh/ZFS1tzBu
+1cnVdTOS+f1pi530oSIlBs2CY5dLdqH6J/h2vYYOG2VHmHEN5XG7U53HhjXm0SWN
+yDJ5T7o+ivGTqZwW2sPD0T00a2jfWoFLk8/FMaOlLZyMujmoT9Tldeh+k77CFuvT
+G444BRX7UuRIUxoWjYaLNEjBkgXeFr5KKOZIVx2E61vX45FesEyh4QpQLiWTaUco
+F7RoWD8fhT42GvWyDxrcPBfJaMRRkRL25HRHWU0APlynH8tWhYG4cTj8B25FgbI2
+GnAXndZE6XOHkJJMTJSx+dwwvYDISxod+k+r7dY3Gq+4rACKi95He/zlbpX9jbR+
+bgRQErY3Qm/3dEn8vh4BIjlWm0AffNXPDxTh4gs5
+=+Gkz
+-----END PGP SIGNATURE-----
