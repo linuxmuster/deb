@@ -14,3 +14,6 @@ Files in this directory:
 - 🗒 [linuxmuster-linbo7_4.3.3-0.dsc](linuxmuster-linbo7_4.3.3-0.dsc)
 - 🗒 [linuxmuster-linbo7_4.3.3-0.tar.gz](linuxmuster-linbo7_4.3.3-0.tar.gz)
 - 🗒 [linuxmuster-linbo7_4.3.3-0_all.deb](linuxmuster-linbo7_4.3.3-0_all.deb)
+- 🗒 [linuxmuster-linbo7_4.3.3-1.dsc](linuxmuster-linbo7_4.3.3-1.dsc)
+- 🗒 [linuxmuster-linbo7_4.3.3-1.tar.gz](linuxmuster-linbo7_4.3.3-1.tar.gz)
+- 🗒 [linuxmuster-linbo7_4.3.3-1_all.deb](linuxmuster-linbo7_4.3.3-1_all.deb)
