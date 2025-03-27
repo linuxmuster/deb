@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 27 Mar 2025 11:34:42 +0100
+Source: linuxmuster-common
+Binary: linuxmuster-common
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.0-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-common - linuxmuster.net common files
+Changes:
+ linuxmuster-common (7.3.0-0) lmn73; urgency=low
+ .
+   * initial package.
+Checksums-Sha1:
+ a1dc54bd2fbec523dca33886a6645353436803dc 585 linuxmuster-common_7.3.0-0.dsc
+ 62ec96b9c0374f937755c4ff1574178a2f743a83 17923 linuxmuster-common_7.3.0-0.tar.gz
+ cddab0c7b046bd796778ba8660d882d4ebf21778 4986 linuxmuster-common_7.3.0-0_all.deb
+ 2c576c1a93926a278b747d9b6814673b97f97d1f 7703 linuxmuster-common_7.3.0-0_amd64.buildinfo
+Checksums-Sha256:
+ 5c23db2e17652d7792a708ee35881d6aefa2654eff64865b20a07a6d81bff7da 585 linuxmuster-common_7.3.0-0.dsc
+ 6caadc7528ea3f4e692d52aea749e13acd93eaba15b2b889456ed0908b5491e2 17923 linuxmuster-common_7.3.0-0.tar.gz
+ c10d8b706306eefc95214f335b1eda3c6803d3d1c38a43566f619f9c27256ae0 4986 linuxmuster-common_7.3.0-0_all.deb
+ 23db01c55e6d08ba8d41cfe5aec5ae660a17108958646395d0e177958cc08131 7703 linuxmuster-common_7.3.0-0_amd64.buildinfo
+Files:
+ 90abf5a4a2f6d427bf2bce50822d0d5b 585 linuxmuster optional linuxmuster-common_7.3.0-0.dsc
+ 2bde0ed30627069869cd7feee4b4d610 17923 linuxmuster optional linuxmuster-common_7.3.0-0.tar.gz
+ b1e152348cc00ad1f82c2f7bd9c15a5c 4986 linuxmuster optional linuxmuster-common_7.3.0-0_all.deb
+ b69c228b5ee46d10656ace4c2a8c8a3e 7703 linuxmuster optional linuxmuster-common_7.3.0-0_amd64.buildinfo
