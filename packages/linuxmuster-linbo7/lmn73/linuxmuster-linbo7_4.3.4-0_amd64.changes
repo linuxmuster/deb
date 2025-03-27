@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 27 Mar 2025 15:22:05 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.4-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.4-0) lmn73; urgency=low
+ .
+   * kernel updates: stable to 6.13.8, longterm to 6.6.84 (569a948).
+   * move helperfunctions.sh to linuxmuster-common package (#156).
+   * fix all references to moved common files (#156).
+Checksums-Sha1:
+ f7612c3eceb122bf1b411b0d9848f8817d6035e3 2010 linuxmuster-linbo7_4.3.4-0.dsc
+ 6d007139b46947fa493ddd95b1811791e18112b0 2045534 linuxmuster-linbo7_4.3.4-0.tar.gz
+ db010df3d7cb758a9268257e7670082e01e0009c 88523506 linuxmuster-linbo7_4.3.4-0_all.deb
+ e83c2ee95e8151d9ba9400cb14c57da5f5ecf42a 15732 linuxmuster-linbo7_4.3.4-0_amd64.buildinfo
+Checksums-Sha256:
+ 611bf035f4aa8582e391c213d438ce3e9eda791d0970a4492cdb075aa1114564 2010 linuxmuster-linbo7_4.3.4-0.dsc
+ 1b2ca181a390bbb0495f6e72f5786ad9ea13470840a4603547850cf74dabf89b 2045534 linuxmuster-linbo7_4.3.4-0.tar.gz
+ 3011a887453ee569a2a9c645c6ed83e95c1c82b10973ecd75378a6f37204da6f 88523506 linuxmuster-linbo7_4.3.4-0_all.deb
+ 96a24166c49a4e297aac270108b7ce29c5ab1b581acb869b921b46cf4a3d3eb3 15732 linuxmuster-linbo7_4.3.4-0_amd64.buildinfo
+Files:
+ 48cec751b9a6b12e40b0dae1e6886221 2010 admin extra linuxmuster-linbo7_4.3.4-0.dsc
+ f8bff79234afadcd5640d5a656a68004 2045534 admin extra linuxmuster-linbo7_4.3.4-0.tar.gz
+ 988a958d23d99767fc259f51250d02f9 88523506 admin extra linuxmuster-linbo7_4.3.4-0_all.deb
+ a635c3f54de375fd5ec5e0d21135a247 15732 admin extra linuxmuster-linbo7_4.3.4-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmflXzEXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLK6Ogv/SB/chKSTyKnmubNS28DZkxsV
+kgLDWw6lTJ1ptXH5yxSkVeU8quLuPoyeQRpHAVbN9IXktoIQX1id4mCmgytT9VYT
+NEocWsEBPR4qrAalsC9tELhN90e26/fOhc367yrOvJgVhMtcMR3CD/dAJEPOcA5j
+4UX3I3rf3PkqvneqgKRY0zUxPvAs92erfBf4NAhOyAw/+KN/cIjvYj9qt262yOC9
+Vq8NLg4iDvfkrcdYRJ+drnBvfbVXNr/D6T0N/bA3slr9FpW6v0AhzGfMjyApKA6+
+xH73zuNvtcK3vNitZQHTTo3Nif56JCTdG+2jIieCjGXcANWN0DtTNfK6OSVelkAB
+NQ4lfXDnHPUqoKx3qVrgmJTluJQilLbYJloqL9b6k0Go5vBI+JR9wigWyESHB/YV
+VJ924/9Oa32lAJnEDsgbHYtXqJOX1Oea3Iaq74NW7aJcjzlYppJF9y/IJRJYweTo
+DNMrLnML74+gUEbCsagVMbuVsXGCy3/AE4dXv/jl
+=PePA
+-----END PGP SIGNATURE-----
