@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 27 Mar 2025 15:11:55 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.4-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.4-0) lmn73; urgency=low
+ .
+   * fix #156: move common files to own package linuxmuster-common.
+   * fix all references to moved common files (#156).
+   * add dependency to linuxmuster-common (#156).
+Checksums-Sha1:
+ d4b1469bfa182f0a8afd33006e44c09b4c33aa05 579 linuxmuster-base7_7.3.4-0.dsc
+ f23aac037a28210817c2f33b74642ef9f5ef6685 76975 linuxmuster-base7_7.3.4-0.tar.gz
+ f4d03af92c2242b29076cea523d9b027649f74d5 53266 linuxmuster-base7_7.3.4-0_all.deb
+ 96f08a6c6d68b1e11f9f11d2e8540aeea4afae59 7698 linuxmuster-base7_7.3.4-0_amd64.buildinfo
+Checksums-Sha256:
+ 33594ae7f89c6d1a9c3f2be4f93d2187002c9db4545aece3d7f4b2e80e3dc480 579 linuxmuster-base7_7.3.4-0.dsc
+ 88809dedc6c3112b4518b8d04d4d28b8c8b2cee7595c2bcb165ccc2bf674ccc7 76975 linuxmuster-base7_7.3.4-0.tar.gz
+ 3754e8d2de2fce44132cce97757c21cf17bc02a5da3454471e086b5b72143932 53266 linuxmuster-base7_7.3.4-0_all.deb
+ 9b6b1d82f24d717398fce15bdeaf9bf6c503a652c38f080a1eb97ced7bf77c3f 7698 linuxmuster-base7_7.3.4-0_amd64.buildinfo
+Files:
+ 454d00bdddf94772358595e8ba1bbf17 579 linuxmuster optional linuxmuster-base7_7.3.4-0.dsc
+ e5073ff77a8021c4901bb029f02e0a5a 76975 linuxmuster optional linuxmuster-base7_7.3.4-0.tar.gz
+ e72ff9e02b3712f66bcba8d89c76699c 53266 linuxmuster optional linuxmuster-base7_7.3.4-0_all.deb
+ 59ff10642750d26a86afa3a34da95f19 7698 linuxmuster optional linuxmuster-base7_7.3.4-0_amd64.buildinfo
