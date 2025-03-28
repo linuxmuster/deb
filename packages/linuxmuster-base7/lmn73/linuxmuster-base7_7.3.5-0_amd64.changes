@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 28 Mar 2025 19:56:49 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.5-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.5-0) lmn73; urgency=low
+ .
+   * fix local apparmor configs for dhcpd and ntpd (a116c0e).
+Checksums-Sha1:
+ b7676e9d0a2d3b06bbb015784eb705002563e88c 579 linuxmuster-base7_7.3.5-0.dsc
+ 4d6bb014a08c3981d7bf6ac79123630eed6dfb96 77107 linuxmuster-base7_7.3.5-0.tar.gz
+ 6d85d2bf83c504e23ac76beb0716d4f0ebc7a570 53452 linuxmuster-base7_7.3.5-0_all.deb
+ ac516424224bf2d0c3c9456e11c2f117af746afd 7698 linuxmuster-base7_7.3.5-0_amd64.buildinfo
+Checksums-Sha256:
+ 9c08e536bec5f3e52d1b05110914b26d68a2656cfcd1910b28fea96886089bf4 579 linuxmuster-base7_7.3.5-0.dsc
+ bf92c19fee89313daa65383e7fd55cf408d5ff54918ebdd33328f045bd16cb25 77107 linuxmuster-base7_7.3.5-0.tar.gz
+ 7b13135310ffd92304f7fe231362e6effbada0ef96308ef28ec37e44592021d5 53452 linuxmuster-base7_7.3.5-0_all.deb
+ c79aa3608930974715b5a1e4974be1c1b34d94e0ca4d8286555c4d7b38954343 7698 linuxmuster-base7_7.3.5-0_amd64.buildinfo
+Files:
+ 5d91ba686af63c480cbdac51aeb466e1 579 linuxmuster optional linuxmuster-base7_7.3.5-0.dsc
+ f925044836a87d7aa4e805aca8c93b23 77107 linuxmuster optional linuxmuster-base7_7.3.5-0.tar.gz
+ b08b1e28f45074b5f9bd97372ff05756 53452 linuxmuster optional linuxmuster-base7_7.3.5-0_all.deb
+ 341bf55a94adf242315e22f3eda58920 7698 linuxmuster optional linuxmuster-base7_7.3.5-0_amd64.buildinfo
