@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 30 Mar 2025 21:40:29 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.7-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.7-0) lmn73; urgency=low
+ .
+   * reimplement certificates renewal script with python (d04ff0f, aa1ed4a).
+   * add python function catFiles (56d97c7).
+Checksums-Sha1:
+ a47acf1c49fd07368f9d3649e8853f866f2e2f5f 579 linuxmuster-base7_7.3.7-0.dsc
+ 293c36b6d4269d7c20f5d56c9ab20c9df1ddd930 78815 linuxmuster-base7_7.3.7-0.tar.gz
+ eee4fb3b5f643619dd0d89a7b1c2878bec48f31e 54604 linuxmuster-base7_7.3.7-0_all.deb
+ 010a1ecc7b9e914a7c93b68950e5aff77b6467bf 7698 linuxmuster-base7_7.3.7-0_amd64.buildinfo
+Checksums-Sha256:
+ 574eecee4466a6bf1dd1ca0aa80383623fecd3d0f35f9d2784d702e6e99bb38e 579 linuxmuster-base7_7.3.7-0.dsc
+ a1173e1f507fadc7deea02419b6248e1274a1c0579f205e73ca9565078d445cd 78815 linuxmuster-base7_7.3.7-0.tar.gz
+ b6166635e6e488c398bec44b4176f83218b6835bd664a5ccc50cf2c5eb0d734b 54604 linuxmuster-base7_7.3.7-0_all.deb
+ ae8e6a26e1ea69665c7128803c7218ba60a36b8d1f1da8fa9453d15de90773a8 7698 linuxmuster-base7_7.3.7-0_amd64.buildinfo
+Files:
+ 8416772af805dd8b1f04fcbd7158debb 579 linuxmuster optional linuxmuster-base7_7.3.7-0.dsc
+ 1866c293cf2ad310e740e9de6ee527f7 78815 linuxmuster optional linuxmuster-base7_7.3.7-0.tar.gz
+ a5d3c4c0234b9b4517a55b57df9118f0 54604 linuxmuster optional linuxmuster-base7_7.3.7-0_all.deb
+ e8872dd0e1ecf3132cb58c2d28e23d1c 7698 linuxmuster optional linuxmuster-base7_7.3.7-0_amd64.buildinfo
