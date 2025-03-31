@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 31 Mar 2025 21:56:42 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.4
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.4) lmn73; urgency=medium
+ .
+   * [ldapwriter] Add parent utilities (rename, move, add, del  )
+   * [common] Checks for parents groups
+   * [common] Get last update log
+Checksums-Sha1:
+ 811a97f7a6ebb04aa85516c51de5450b8c64d531 576 linuxmuster-tools7_7.3.4.dsc
+ 8235b3f9adb5e09bce90ef319e60cf820226ddea 71901 linuxmuster-tools7_7.3.4.tar.gz
+ 3e6aeb8c1fac701b97f10e51ae1fde2edfa0c888 48602 linuxmuster-tools7_7.3.4_all.deb
+ 557841e2afc19cc855e94b0e4aea862f85d53abb 7603 linuxmuster-tools7_7.3.4_amd64.buildinfo
+Checksums-Sha256:
+ 65d85e7ec853f5e96c926268159ec6c7944b20931091be1b50a9585140ab02ce 576 linuxmuster-tools7_7.3.4.dsc
+ 2ca856d0a6bfe0750594044307734a0fe09c8a5e6c5b5aa426d532ce98973648 71901 linuxmuster-tools7_7.3.4.tar.gz
+ 3b38c5fcb76d72eca07a49cca435874dd97e7b39bb8b4d227cbf60693b1ea152 48602 linuxmuster-tools7_7.3.4_all.deb
+ 0912d4ebbc993b791aa9fc795cf969de8da6ec69bb7c09a9513b95e395cf4993 7603 linuxmuster-tools7_7.3.4_amd64.buildinfo
+Files:
+ 8d5738f0ae2be8fd1a0fab4a81dee75f 576 linuxmuster optional linuxmuster-tools7_7.3.4.dsc
+ 6024fd9eeae6160689bf3637510009d5 71901 linuxmuster optional linuxmuster-tools7_7.3.4.tar.gz
+ 0ef7132621321124e2a9feedfbf23734 48602 linuxmuster optional linuxmuster-tools7_7.3.4_all.deb
+ e55d5599f89e1299c97ebdb447c9e39c 7603 linuxmuster optional linuxmuster-tools7_7.3.4_amd64.buildinfo
