@@ -60,6 +60,22 @@ SHA1: cddab0c7b046bd796778ba8660d882d4ebf21778
 MD5sum: b1e152348cc00ad1f82c2f7bd9c15a5c
 Description: linuxmuster.net common files
 
+Package: linuxmuster-fileserver
+Version: 7.3.0-0
+Architecture: all
+Maintainer: Lukas Spitznagel <lukas.spitznagel@netzint.de>
+Installed-Size: 31
+Depends: samba, krb5-user, krb5-config, winbind, libpam-winbind, libnss-winbind, ntp, acl, quota
+Homepage: www.netzint.de
+Priority: optional
+Section: admin
+Filename: pool/main/l/linuxmuster-fileserver/linuxmuster-fileserver_7.3.0-0_all.deb
+Size: 5806
+SHA256: 61ad89bcd4f8a2afa72bab56dead9616f038cc66e9edaa8fef48d34b734eceb9
+SHA1: 5311fae28d452f84a159e07d8ea12e80aa3eabd4
+MD5sum: e38b0bbdeb722753c6bbbc0608935e09
+Description: Linuxmuster Fileserver
+
 Package: linuxmuster-linbo7
 Version: 4.3.5-0
 Architecture: all

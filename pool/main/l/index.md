@@ -7,6 +7,7 @@ Files in this directory:
 - 📁 [linuxmuster-base7/](linuxmuster-base7)
 - 📁 [linuxmuster-cli7/](linuxmuster-cli7)
 - 📁 [linuxmuster-common/](linuxmuster-common)
+- 📁 [linuxmuster-fileserver/](linuxmuster-fileserver)
 - 📁 [linuxmuster-linbo-gui7/](linuxmuster-linbo-gui7)
 - 📁 [linuxmuster-linbo7/](linuxmuster-linbo7)
 - 📁 [linuxmuster-linuxclient7/](linuxmuster-linuxclient7)
