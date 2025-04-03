@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 02 April 2025 13:28:00 +0200
+Source: linuxmuster-fileserver
+Binary: linuxmuster-fileserver
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.0-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Lukas Spitznagel <lukas.spitznagel@netzint.de>
+Changed-By: Lukas Spitznagel <lukas.spitznagel@netzint.de>
+Description:
+ linuxmuster-fileserver - Linuxmuster Fileserver
+Changes:
+ linuxmuster-fileserver (7.3.0-0) lmn73; urgency=low
+ .
+   * Initial release on linuxmuster repository
+Checksums-Sha1:
+ ffd40449f5c7ba40e548fcb42597861827b935a5 592 linuxmuster-fileserver_7.3.0-0.dsc
+ 559beb1f3d5efdd3da55756e2fa2a6c6c34af94e 9577 linuxmuster-fileserver_7.3.0-0.tar.gz
+ 5311fae28d452f84a159e07d8ea12e80aa3eabd4 5806 linuxmuster-fileserver_7.3.0-0_all.deb
+ 5a30361d2e4d7a94da2018754dbcdc91fa51310a 7693 linuxmuster-fileserver_7.3.0-0_amd64.buildinfo
+Checksums-Sha256:
+ 63f1bf5b8fd37690db42677562a50715bb5982e1821e579f907e91a9ff727d98 592 linuxmuster-fileserver_7.3.0-0.dsc
+ 928663f3f5cddc2593b0d70d4fc6be8991b7b45c7b565f2250e021938c73390e 9577 linuxmuster-fileserver_7.3.0-0.tar.gz
+ 61ad89bcd4f8a2afa72bab56dead9616f038cc66e9edaa8fef48d34b734eceb9 5806 linuxmuster-fileserver_7.3.0-0_all.deb
+ 65db4312f6a2a9465037f29cc994d763ae42e5e2cc760134237bde65fabb6a9a 7693 linuxmuster-fileserver_7.3.0-0_amd64.buildinfo
+Files:
+ 1302d2ecce58e827dcda01008c2e685b 592 admin optional linuxmuster-fileserver_7.3.0-0.dsc
+ aabde408b41534666c5cd1afba4a3c66 9577 admin optional linuxmuster-fileserver_7.3.0-0.tar.gz
+ e38b0bbdeb722753c6bbbc0608935e09 5806 admin optional linuxmuster-fileserver_7.3.0-0_all.deb
+ 9959b397d5806040f0d214a7da899065 7693 admin optional linuxmuster-fileserver_7.3.0-0_amd64.buildinfo
