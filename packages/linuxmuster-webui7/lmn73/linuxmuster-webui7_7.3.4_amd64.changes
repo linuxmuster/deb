@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 04 Apr 2025 21:02:01 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.4
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.4) lmn73; urgency=medium
+ .
+   * Add wireguard plugin (@hermanntoast)
+   * [linbo] Fix boot flag for cache partition
+Checksums-Sha1:
+ 368be205b45ca00dee3ac0bd423a94d36503724d 561 linuxmuster-webui7_7.3.4.dsc
+ 7e55f0b3e83e63c2723346d39c2b21d29507adb6 1456728 linuxmuster-webui7_7.3.4.tar.gz
+ 6aa794c73908d39e513fe61791bfb6f1331c1a83 837934 linuxmuster-webui7_7.3.4_all.deb
+ c6faa4c7cfbb7a414ef47afa7c71a36d3a95296b 7653 linuxmuster-webui7_7.3.4_amd64.buildinfo
+Checksums-Sha256:
+ 38bf52383f19087f916d6d65eeb1c5c54398f82548dfbae172d2fb84326141eb 561 linuxmuster-webui7_7.3.4.dsc
+ 9cc56d71b89305655607646135fb7d1cb872423e3254840583501aa5547bb61c 1456728 linuxmuster-webui7_7.3.4.tar.gz
+ 443111d6a49d90db107198e668bb6330657c23d8ccd8d60763d34253210be57b 837934 linuxmuster-webui7_7.3.4_all.deb
+ 8fc67696c96a05e5441f90886684b121e968c288ac66efb8cc463d704ab6c987 7653 linuxmuster-webui7_7.3.4_amd64.buildinfo
+Files:
+ a824eecc78812f7d7c4aebb038cf8f49 561 admin optional linuxmuster-webui7_7.3.4.dsc
+ c9419d89ca1dbf4ae7144b64bff18746 1456728 admin optional linuxmuster-webui7_7.3.4.tar.gz
+ 8c719d70dd4821541210e100132e8540 837934 admin optional linuxmuster-webui7_7.3.4_all.deb
+ e00f6e752b39aabbd6916c6c4e649c4f 7653 admin optional linuxmuster-webui7_7.3.4_amd64.buildinfo
