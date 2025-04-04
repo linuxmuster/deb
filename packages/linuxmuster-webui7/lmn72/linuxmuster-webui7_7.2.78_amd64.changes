@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 04 Apr 2025 20:58:20 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.78
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.78) lmn72; urgency=medium
+ .
+   * Fix boot flag for cache partition.
+Checksums-Sha1:
+ 7d5482edce76e4a933027215ce801ee2822dd092 565 linuxmuster-webui7_7.2.78.dsc
+ a5a095fed8b8073b672f4d8ff84ef238917cd0dd 1447062 linuxmuster-webui7_7.2.78.tar.gz
+ 977a520cb3186b999b9975feee55cbf18cd47b99 832624 linuxmuster-webui7_7.2.78_all.deb
+ 69b33e2f94e9b2482e451c02b58ddaace13d0e0b 7878 linuxmuster-webui7_7.2.78_amd64.buildinfo
+Checksums-Sha256:
+ 6c70266f6f1a7e3ae906b3f7550b7d879555fd99295adad7638ae1c7fd43accc 565 linuxmuster-webui7_7.2.78.dsc
+ 3eee674c7cf239484e35da4d7cc93a956f35c3a8ec96fea5bf002e08d31b46e9 1447062 linuxmuster-webui7_7.2.78.tar.gz
+ c524fb1554b5e2d909bdd339b8ca4088625365617575d2957fddf712572849f1 832624 linuxmuster-webui7_7.2.78_all.deb
+ eb0c15995e0655b68dc6704647510053e098a83adf699a68a957e4a541faf652 7878 linuxmuster-webui7_7.2.78_amd64.buildinfo
+Files:
+ a4d5ae74397220ac0f99088599ebe45b 565 admin optional linuxmuster-webui7_7.2.78.dsc
+ 4fe903ced315f7f2f13622d6918f7c03 1447062 admin optional linuxmuster-webui7_7.2.78.tar.gz
+ bc133c09da9064a07d34b7bf1ead12d4 832624 admin optional linuxmuster-webui7_7.2.78_all.deb
+ f816f2398f7ec6f2e2f0036b2f32a46e 7878 admin optional linuxmuster-webui7_7.2.78_amd64.buildinfo
