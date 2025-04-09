@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Wed, 09 Apr 2025 17:13:43 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.9-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.9-0) lmn73; urgency=low
+ .
+   * remove obsolete sophomorix version patch (f18a205).
+   * optimize base64 certificate conversion (#158, d0dc8c1).
+   * add subjectAltName to certificate creation config (#158, 3be7cc6).
+   * fix return code of boolean setup values (d7bfe07).
+   * postinst fix (#158, 2982cf7).
+   * refactor certificates renewal script to allow ca, server and firewall
+     certs to be renewed separately (#158, fbb08ac).
+Checksums-Sha1:
+ 59ba0d653132b6af5c651e0692338a834be6a450 579 linuxmuster-base7_7.3.9-0.dsc
+ 1a9ac1a542d3d5306f0366a97d9de5f46a07e875 79914 linuxmuster-base7_7.3.9-0.tar.gz
+ 24e62479ff84cb88e04af28fc7c3e334d54c28c2 55430 linuxmuster-base7_7.3.9-0_all.deb
+ 9d7a914e0cd26de7d840041f3461da478ba4d201 7700 linuxmuster-base7_7.3.9-0_amd64.buildinfo
+Checksums-Sha256:
+ febef7407726b45f871291b418ae4df5ff72558f7eec4b4bc99f449e10c3c032 579 linuxmuster-base7_7.3.9-0.dsc
+ 446030804579321585d51dda8c62c3a5b3fb60008408207c73ad1720916c361c 79914 linuxmuster-base7_7.3.9-0.tar.gz
+ 06273b44e7adec134302b4da4877e35fa8af517564b457b6d8a63351b612c351 55430 linuxmuster-base7_7.3.9-0_all.deb
+ 881ecaaaccd0b2cfbcccf9129ba29d88340308c8287c3a6f1e4bfdd008dde0f3 7700 linuxmuster-base7_7.3.9-0_amd64.buildinfo
+Files:
+ c0139411662d691793b4d5c6a88f7ec8 579 linuxmuster optional linuxmuster-base7_7.3.9-0.dsc
+ d401e8fa6a12a062c7f3b60453a3bace 79914 linuxmuster optional linuxmuster-base7_7.3.9-0.tar.gz
+ 998d77682cac6018ab38dd266251866d 55430 linuxmuster optional linuxmuster-base7_7.3.9-0_all.deb
+ 8d4fd935f1680de1a96e4529a5bd3a30 7700 linuxmuster optional linuxmuster-base7_7.3.9-0_amd64.buildinfo
