@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 09 Apr 2025 17:10:46 +0200
+Source: linuxmuster-common
+Binary: linuxmuster-common
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.1-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-common - linuxmuster.net common files
+Changes:
+ linuxmuster-common (7.3.1-0) lmn73; urgency=low
+ .
+   * environment update: removed SSLCNF & FWFULLCHAIN,
+     added SRVSSLCNF & FWSSLCNF (#158, d15773c).
+Checksums-Sha1:
+ 6aa5a28e9db553d9903a37203da4f7dc909fb066 585 linuxmuster-common_7.3.1-0.dsc
+ 45b8a4f16f27d57b2ee49092d04529774df437e0 18000 linuxmuster-common_7.3.1-0.tar.gz
+ a52156ec5ffbf0bc7815718a53fe16e7f6fea63d 5108 linuxmuster-common_7.3.1-0_all.deb
+ 06e87552cf924060627d31be28dfec7717e038ef 7703 linuxmuster-common_7.3.1-0_amd64.buildinfo
+Checksums-Sha256:
+ 1087be76b40bf240efb2dbcfbe31bc074bd26c220f3e29ca914159132fe156d1 585 linuxmuster-common_7.3.1-0.dsc
+ 4418fcf38a45655c39a92809e0bc04177a7002f713e4e6a5fd297ab27fedb508 18000 linuxmuster-common_7.3.1-0.tar.gz
+ 67f9f9ee3bbca899bd69f89485585b16e152f00c077ef07ef6ad09beccc21f61 5108 linuxmuster-common_7.3.1-0_all.deb
+ 970ec183d5fdb4af2fae1d0083e7178b3d787d386f98b41771d0ae2950ee97e7 7703 linuxmuster-common_7.3.1-0_amd64.buildinfo
+Files:
+ e7db2f019045d5f5abb07097f323ed1f 585 linuxmuster optional linuxmuster-common_7.3.1-0.dsc
+ d8051e6dd725c548eaec51debefa8f39 18000 linuxmuster optional linuxmuster-common_7.3.1-0.tar.gz
+ 3112426101c464e152355f6f831a0490 5108 linuxmuster optional linuxmuster-common_7.3.1-0_all.deb
+ 182726e5ca8d72b19fc86727e41902d5 7703 linuxmuster optional linuxmuster-common_7.3.1-0_amd64.buildinfo
