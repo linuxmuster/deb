@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.2.10-0
+Version: 7.2.11-0
 Checksums-Md5:
- 2018174d4aa023c1b093e2d0e0fc6232 583 linuxmuster-base7_7.2.10-0.dsc
- 4cd7e3e40224328d0af9c153e93b9de0 60764 linuxmuster-base7_7.2.10-0_all.deb
+ 29cde271a532f5a70ffe7d2637a471b3 583 linuxmuster-base7_7.2.11-0.dsc
+ 71e3cd83920a6151f0a82daf302bd68e 61620 linuxmuster-base7_7.2.11-0_all.deb
 Checksums-Sha1:
- 285725ee834d066a99a62170d63f2c12d2752cf9 583 linuxmuster-base7_7.2.10-0.dsc
- 84b2182434a944e9c10ff815af4eabb7d463efb2 60764 linuxmuster-base7_7.2.10-0_all.deb
+ 3bcbcb57b11aef78f43c5f3bbdcdd281ce71c484 583 linuxmuster-base7_7.2.11-0.dsc
+ 7759dfddab96429d15babf3625c0ad1183d7a2d1 61620 linuxmuster-base7_7.2.11-0_all.deb
 Checksums-Sha256:
- c8e0219c55369c2888afcf57084502ea56f7fd9adf4c302c577b86df5f48a610 583 linuxmuster-base7_7.2.10-0.dsc
- fd86aec9a477ad262c7288b619e166ff5d5032c3ec063beda320ea6e27856fce 60764 linuxmuster-base7_7.2.10-0_all.deb
+ c2fabdac1627e63b2652f9c43ae63b90874e549c938be59f56e2a61fa33b3568 583 linuxmuster-base7_7.2.11-0.dsc
+ 612194115ba5c6c90c2ac889bae3fea44b71915337f644870a9f10991186dc0f 61620 linuxmuster-base7_7.2.11-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 31 Mar 2025 17:53:50 +0000
+Build-Date: Wed, 09 Apr 2025 17:54:01 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -119,9 +119,9 @@ Installed-Build-Depends:
  libdebconfclient0 (= 0.261ubuntu1),
  libdebhelper-perl (= 13.6ubuntu1),
  libdpkg-perl (= 1.21.1ubuntu2.3),
- libdw1 (= 0.186-1build1),
+ libdw1 (= 0.186-1ubuntu0.1),
  libedit2 (= 3.1-20210910-1build1),
- libelf1 (= 0.186-1build1),
+ libelf1 (= 0.186-1ubuntu0.1),
  libffi8 (= 3.4.2-4),
  libfile-stripnondeterminism-perl (= 1.13.0-1),
  libgc1 (= 1:8.0.6-1.1build1),
@@ -136,14 +136,14 @@ Installed-Build-Depends:
  libgmp10 (= 2:6.2.1+dfsg-3ubuntu1),
  libgomp1 (= 12.3.0-1ubuntu1~22.04),
  libgpg-error0 (= 1.43-3),
- libgssapi-krb5-2 (= 1.19.2-2ubuntu0.5),
+ libgssapi-krb5-2 (= 1.19.2-2ubuntu0.6),
  libicu70 (= 70.1-2),
  libisl23 (= 0.24-2build1),
  libitm1 (= 12.3.0-1ubuntu1~22.04),
- libk5crypto3 (= 1.19.2-2ubuntu0.5),
+ libk5crypto3 (= 1.19.2-2ubuntu0.6),
  libkeyutils1 (= 1.6.1-2ubuntu3),
- libkrb5-3 (= 1.19.2-2ubuntu0.5),
- libkrb5support0 (= 1.19.2-2ubuntu0.5),
+ libkrb5-3 (= 1.19.2-2ubuntu0.6),
+ libkrb5support0 (= 1.19.2-2ubuntu0.6),
  libllvm13 (= 1:13.0.1-2ubuntu2.2),
  libllvm14 (= 1:14.0.0-1ubuntu1.1),
  libllvm15 (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -178,7 +178,7 @@ Installed-Build-Depends:
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 12.3.0-1ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 249.11-0ubuntu3.12),
+ libsystemd0 (= 249.11-0ubuntu3.15),
  libtinfo6 (= 6.3-2ubuntu0.1),
  libtirpc-common (= 1.3.2-2ubuntu0.1),
  libtirpc-dev (= 1.3.2-2ubuntu0.1),
@@ -188,12 +188,12 @@ Installed-Build-Depends:
  libtsan2 (= 12.3.0-1ubuntu1~22.04),
  libubsan1 (= 12.3.0-1ubuntu1~22.04),
  libuchardet0 (= 0.0.7-1build2),
- libudev1 (= 249.11-0ubuntu3.12),
+ libudev1 (= 249.11-0ubuntu3.15),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.6),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-134.145),
+ linux-libc-dev (= 5.15.0-136.147),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1743443520"
+ SOURCE_DATE_EPOCH="1744221056"
