@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 13 Apr 2025 10:58:02 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.79
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.79) lmn72; urgency=medium
+ .
+   * [session] Fix double exam users.
+Checksums-Sha1:
+ 5c39fe2b6c02775b6a89b7e0358ddbb2b33fc159 565 linuxmuster-webui7_7.2.79.dsc
+ 8d72790d75730babe82f60950265b2fb0cb28b0d 1448034 linuxmuster-webui7_7.2.79.tar.gz
+ d5760b12b5c2aceb6f17b46a684ca46b4df0aec9 832678 linuxmuster-webui7_7.2.79_all.deb
+ 8fd4fcecb545605979c6274b2dd4682c3a72094a 7884 linuxmuster-webui7_7.2.79_amd64.buildinfo
+Checksums-Sha256:
+ 81cefb4edfd5dd0e377b4c608c78a8bba0048c235798e4bc374a2a0608e6e315 565 linuxmuster-webui7_7.2.79.dsc
+ 4b3f020596eb50449d3ae634f9a450fbf26fffacfbdc92fcae2410dcef113ace 1448034 linuxmuster-webui7_7.2.79.tar.gz
+ 6ef25d3d88f6b11ba4d9940a54d0679edb9484a82030d24645b4166e01a0751a 832678 linuxmuster-webui7_7.2.79_all.deb
+ ee6b8f0b8afa747822f1c4c2f922ea105f77456563d72235d4e2cc9ee55d2512 7884 linuxmuster-webui7_7.2.79_amd64.buildinfo
+Files:
+ a5d7a409fd6b41bc72f2f04453dd845d 565 admin optional linuxmuster-webui7_7.2.79.dsc
+ 06914087ed78153fd8c995b7a67b85bc 1448034 admin optional linuxmuster-webui7_7.2.79.tar.gz
+ d19ef5c4961937ee458acf259d3447c4 832678 admin optional linuxmuster-webui7_7.2.79_all.deb
+ cbf068bb75d11d265ff5335a7ef9a8b8 7884 admin optional linuxmuster-webui7_7.2.79_amd64.buildinfo
