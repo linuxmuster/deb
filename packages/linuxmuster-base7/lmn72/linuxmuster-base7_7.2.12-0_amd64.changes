@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 16 Apr 2025 15:38:39 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.12-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.12-0) lmn72; urgency=low
+ .
+   * fix invalid days variable during ssl setup (#160).
+Checksums-Sha1:
+ 8cd6ee78f96aadfbd0f0affdd81f7010f7f1e216 583 linuxmuster-base7_7.2.12-0.dsc
+ 49f43e03ec47ae49c7f4df5ec1de372fec852b55 81731 linuxmuster-base7_7.2.12-0.tar.gz
+ 56b0a107ff96d7beead016f20689602eb2a65f2e 61668 linuxmuster-base7_7.2.12-0_all.deb
+ a3f244821a90d6210d53f2588ea831a8fc73a55d 7915 linuxmuster-base7_7.2.12-0_amd64.buildinfo
+Checksums-Sha256:
+ eff089a7f8ee753e52df650104d614de060fa0fb49d44f7fa6b849f7975a4075 583 linuxmuster-base7_7.2.12-0.dsc
+ 2eccc4283880792d4371f49d8239638285a14339039f5f232ad539718c8f16ad 81731 linuxmuster-base7_7.2.12-0.tar.gz
+ 7276ed3e89c61036d3949ba0b1bb7026398b80354cdecb2faeae292249aee3d2 61668 linuxmuster-base7_7.2.12-0_all.deb
+ 8c75ce13ddd834c02f606c94dc9bc6e36ca5309716a0db6cdc9063096a861264 7915 linuxmuster-base7_7.2.12-0_amd64.buildinfo
+Files:
+ 77ac43483390123a5ad6039f01eca0b1 583 linuxmuster optional linuxmuster-base7_7.2.12-0.dsc
+ 69bb34fec76874c064426b83dd240ea2 81731 linuxmuster optional linuxmuster-base7_7.2.12-0.tar.gz
+ 7a7ab0d09c1979df3f96e689901c8934 61668 linuxmuster optional linuxmuster-base7_7.2.12-0_all.deb
+ b56786fd745e2d9afad6e14772b0f8e9 7915 linuxmuster optional linuxmuster-base7_7.2.12-0_amd64.buildinfo
