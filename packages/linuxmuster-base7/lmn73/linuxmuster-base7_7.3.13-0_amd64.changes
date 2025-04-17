@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 17 Apr 2025 19:15:01 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.13-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.13-0) lmn73; urgency=low
+ .
+   * fix skip firewall setup (6ecd16b).
+Checksums-Sha1:
+ 13de076472f34d19765aec26b38bdb9b031743eb 583 linuxmuster-base7_7.3.13-0.dsc
+ 69845930af3901c4296951b965ab46e1d45af5f8 79761 linuxmuster-base7_7.3.13-0.tar.gz
+ 3003ef4d81039dc4fc0e0b59f8b0327764b51c5f 55104 linuxmuster-base7_7.3.13-0_all.deb
+ c5585df59c90a3752c9fe9fd7a6867a9fdb9634b 7707 linuxmuster-base7_7.3.13-0_amd64.buildinfo
+Checksums-Sha256:
+ 204ec88dc37e1d91ea916b8336b8e62f05ea32c31b7522f1d93341bd748839b9 583 linuxmuster-base7_7.3.13-0.dsc
+ 7e124b0a70a03b21e5269d7b97ec6846eb7a4166be005eee3c4a21ae16ad050e 79761 linuxmuster-base7_7.3.13-0.tar.gz
+ 0d7e904f69cb76a080542b9c97a041f7265bf3bc2d4539c654615d96467cc07f 55104 linuxmuster-base7_7.3.13-0_all.deb
+ 3c9a1c7b4183dc01c6ac8b19bebafee30b5cc44444d20686125645eedbc8071b 7707 linuxmuster-base7_7.3.13-0_amd64.buildinfo
+Files:
+ d0656b2200a8dafa5df2b44afb872c35 583 linuxmuster optional linuxmuster-base7_7.3.13-0.dsc
+ 3bf5ce3ee4876f3e3f8d84b4f1190139 79761 linuxmuster optional linuxmuster-base7_7.3.13-0.tar.gz
+ 797b0487aef5b953209bba725597840c 55104 linuxmuster optional linuxmuster-base7_7.3.13-0_all.deb
+ c7d717f6425a1719d83340a14d13f671 7707 linuxmuster optional linuxmuster-base7_7.3.13-0_amd64.buildinfo
