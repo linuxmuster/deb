@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 15:12:44 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.14-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.14-0) lmn73; urgency=low
+ .
+   * fix boolean in ast cause subnetting import to fail (#161).
+Checksums-Sha1:
+ 22971e62b1c1f51e4bded9dfd8d5dbc9d5b98cb8 583 linuxmuster-base7_7.3.14-0.dsc
+ ceaa45bc7ab50be7196a28768b2237848a25aa20 79764 linuxmuster-base7_7.3.14-0.tar.gz
+ cbabc42855bbd4e91772813b066f1f3a5f7058a5 55148 linuxmuster-base7_7.3.14-0_all.deb
+ 699bd56a44a55b20ba5c5c4196fbe02edbe6fdb2 7707 linuxmuster-base7_7.3.14-0_amd64.buildinfo
+Checksums-Sha256:
+ 673b270a6a2a92cfc1eac7460990824c6af283a6da9def4155e7f3abf3844ff4 583 linuxmuster-base7_7.3.14-0.dsc
+ b685b571d4ad3eb8d0c5945d434d87382020150722797b5faee75f014c8ba69e 79764 linuxmuster-base7_7.3.14-0.tar.gz
+ 891da86c6eac2367ff40a647b584658bd30502645c9bd17fe75490d79aae7009 55148 linuxmuster-base7_7.3.14-0_all.deb
+ 2938a2e28bdbb1fed8c71e3f38093d74b0d24af29e7662fd491dbd79b5ae55ac 7707 linuxmuster-base7_7.3.14-0_amd64.buildinfo
+Files:
+ 2fed665a907c10e2d66571f29987871b 583 linuxmuster optional linuxmuster-base7_7.3.14-0.dsc
+ 4ea86a0fa7ceb509f23e2c359e5d9da7 79764 linuxmuster optional linuxmuster-base7_7.3.14-0.tar.gz
+ 9190fc6cb89a58a91138b2f251f47c8b 55148 linuxmuster optional linuxmuster-base7_7.3.14-0_all.deb
+ 06ea21199477b4a5b0ad1b807bf22afe 7707 linuxmuster optional linuxmuster-base7_7.3.14-0_amd64.buildinfo
