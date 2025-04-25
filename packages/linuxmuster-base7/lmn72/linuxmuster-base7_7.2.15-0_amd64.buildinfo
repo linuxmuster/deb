@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.2.14-0
+Version: 7.2.15-0
 Checksums-Md5:
- ee7a66de7f67f8bc96cd203cbac6f0df 583 linuxmuster-base7_7.2.14-0.dsc
- a631bebe461f6e174647a0c8a86837a7 61678 linuxmuster-base7_7.2.14-0_all.deb
+ d9b8b87bcf801a5adf062669db02cc83 583 linuxmuster-base7_7.2.15-0.dsc
+ d3d039f9462aff694efa1e700821bcef 61772 linuxmuster-base7_7.2.15-0_all.deb
 Checksums-Sha1:
- d0354c1b34b927a0af783a49ce6a39a3023dc244 583 linuxmuster-base7_7.2.14-0.dsc
- 6ada4e4664a4fb1abf89dffdb9e86824d538d722 61678 linuxmuster-base7_7.2.14-0_all.deb
+ 314a07529341591b93e114dfd7e288b22d4a842d 583 linuxmuster-base7_7.2.15-0.dsc
+ 31014c721de621d8dffc11b0fd31e5515cb98b2a 61772 linuxmuster-base7_7.2.15-0_all.deb
 Checksums-Sha256:
- f04d3fc90ea62974155f9f61a5c041767746391a86c0262bcfb992233bae8428 583 linuxmuster-base7_7.2.14-0.dsc
- cd61d6454649aae254c360efaad986e0cc6c1865db72c1cd8237a8a9d43aeb68 61678 linuxmuster-base7_7.2.14-0_all.deb
+ 279c40deb96f2186f1f5de16fdce07233ac67876bc10bde29b38d54b333b1d46 583 linuxmuster-base7_7.2.15-0.dsc
+ e5d56ad0137eca9ab0db7a00638f72769a3094807ea2543c0ca139b70476f32c 61772 linuxmuster-base7_7.2.15-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 22 Apr 2025 12:13:33 +0000
+Build-Date: Fri, 25 Apr 2025 09:47:25 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -193,7 +193,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.6),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-136.147),
+ linux-libc-dev (= 5.15.0-138.148),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1745323559"
+ SOURCE_DATE_EPOCH="1745573981"

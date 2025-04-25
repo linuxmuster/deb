@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 11:39:41 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.15-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.15-0) lmn72; urgency=low
+ .
+   * fix cert bundle renewal (#158).
+Checksums-Sha1:
+ 314a07529341591b93e114dfd7e288b22d4a842d 583 linuxmuster-base7_7.2.15-0.dsc
+ 0841d785edd42c1dd205d2d918eccd581a9eac27 81875 linuxmuster-base7_7.2.15-0.tar.gz
+ 31014c721de621d8dffc11b0fd31e5515cb98b2a 61772 linuxmuster-base7_7.2.15-0_all.deb
+ a5257c94c7a72e33fd89aa0af9d9480c3bbeb52e 7915 linuxmuster-base7_7.2.15-0_amd64.buildinfo
+Checksums-Sha256:
+ 279c40deb96f2186f1f5de16fdce07233ac67876bc10bde29b38d54b333b1d46 583 linuxmuster-base7_7.2.15-0.dsc
+ 3e439806bdcf405999f8afc0ededd71a40d84a8eea1d9849ce6cdc3b749e7f66 81875 linuxmuster-base7_7.2.15-0.tar.gz
+ e5d56ad0137eca9ab0db7a00638f72769a3094807ea2543c0ca139b70476f32c 61772 linuxmuster-base7_7.2.15-0_all.deb
+ b64de2f55b031994128b6aec7d07c38e6520891c17198c331e22b41aa9587ce1 7915 linuxmuster-base7_7.2.15-0_amd64.buildinfo
+Files:
+ d9b8b87bcf801a5adf062669db02cc83 583 linuxmuster optional linuxmuster-base7_7.2.15-0.dsc
+ f2032d869badf5ba85ea065625a93da4 81875 linuxmuster optional linuxmuster-base7_7.2.15-0.tar.gz
+ d3d039f9462aff694efa1e700821bcef 61772 linuxmuster optional linuxmuster-base7_7.2.15-0_all.deb
+ c73b7e4ea6c025083c3568843c770150 7915 linuxmuster optional linuxmuster-base7_7.2.15-0_amd64.buildinfo
