@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 13:19:00 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.49
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.2.49) lmn72; urgency=medium
+ .
+   * [samba] Catch parse errors in GPOs
+Checksums-Sha1:
+ 9bc270ff31680ad1feeddd6dcb9de5b74f05646d 580 linuxmuster-tools7_7.2.49.dsc
+ 3d9499ab3548c3923210bb615a193e63a50d3a0f 67402 linuxmuster-tools7_7.2.49.tar.gz
+ 55fde26bd39b11d9df943f59ae16880e37a3e9b7 45042 linuxmuster-tools7_7.2.49_all.deb
+ 54ea167a5e7bdde2e2231d706ee7d614cfaeb221 7614 linuxmuster-tools7_7.2.49_amd64.buildinfo
+Checksums-Sha256:
+ 62617f5159b1d71602679836fb5d8a2f0d51581745f280713ca5c7fdccbca2ea 580 linuxmuster-tools7_7.2.49.dsc
+ 851eb96eae4c533622f2e82adf842e6f85b933408eb09469b262ec0c5913d558 67402 linuxmuster-tools7_7.2.49.tar.gz
+ 43a9a8f144f616ff59e596d2fedbae8d64c410c31956bb123c6403a3b8d88369 45042 linuxmuster-tools7_7.2.49_all.deb
+ 4089fb09e760b020251155b673e17c52ff231d164bf26ece00240b8ebd10d30f 7614 linuxmuster-tools7_7.2.49_amd64.buildinfo
+Files:
+ 9e6ae5c184a78e75977fb23b34002de9 580 linuxmuster optional linuxmuster-tools7_7.2.49.dsc
+ 3e48336fcf1d6cbf35a0fb32e49ad511 67402 linuxmuster optional linuxmuster-tools7_7.2.49.tar.gz
+ 846c7e349f5ee56c17753cf6545b2f83 45042 linuxmuster optional linuxmuster-tools7_7.2.49_all.deb
+ 7e176f82616c1195fcaeec5bb6d8aaa9 7614 linuxmuster optional linuxmuster-tools7_7.2.49_amd64.buildinfo
