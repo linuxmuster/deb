@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 27 Apr 2025 19:28:05 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.10-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.10-0) lmn73; urgency=low
+ .
+   * improve linbo client logging (#123).
+   * fix missing gdisk in linbofs (23b2dfc).
+Checksums-Sha1:
+ 77af766218555cb27b8501094d163075f1940988 2050 linuxmuster-linbo7_4.3.10-0.dsc
+ ec955e0d01882cbde1fc4d346a97fd23d7d669cb 2046954 linuxmuster-linbo7_4.3.10-0.tar.gz
+ 7e2793a8709298d2f6539d2c88fe8dc1b1e428fc 90662584 linuxmuster-linbo7_4.3.10-0_all.deb
+ 51956d8976363f2765ad1ea85a5259cae4e8c663 15839 linuxmuster-linbo7_4.3.10-0_amd64.buildinfo
+Checksums-Sha256:
+ 503a98bc2dcae20490e7c6d717c60cde0bd2ba059a341a9bb2770aa8d23ce3ae 2050 linuxmuster-linbo7_4.3.10-0.dsc
+ 96c532e7480be947eba2f2475431635c3bdf8562707f6d28dd011465e6b4f54b 2046954 linuxmuster-linbo7_4.3.10-0.tar.gz
+ f6b20a8c2173c3456a6d9a1ae15f17ba3b3e610599d39cf97df1635c82f8b66e 90662584 linuxmuster-linbo7_4.3.10-0_all.deb
+ dd0620d30d97e018399cc6c38b1ace09e823f274c056feb33e488241f6182714 15839 linuxmuster-linbo7_4.3.10-0_amd64.buildinfo
+Files:
+ 2e1e6b079841d5345f04fb7a98766aeb 2050 admin extra linuxmuster-linbo7_4.3.10-0.dsc
+ 79bfb22d4722cac26426148ad7e20612 2046954 admin extra linuxmuster-linbo7_4.3.10-0.tar.gz
+ 39b8695ce8d272fc0a30b16cd3ab1bb4 90662584 admin extra linuxmuster-linbo7_4.3.10-0_all.deb
+ 1e2cd080ac557aeb3e8f9cca9328b90d 15839 admin extra linuxmuster-linbo7_4.3.10-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmgOaToXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLJ+xQwAkWTikCiiYxdSogNg7yLktBuj
+waI8eo51X2S8y0GlX1cYZQxAVivkkDcin8o3BFGPQTqYlnHevb49g4fueXcFsanP
+jhkNXszfiy+LnOy9tbsWKNXEI/FmBbIwjInLsddoY8X/9nJ3AzveFPjsTup5Cbxe
+46CghxjZlHtyLZSbsUefU3P07VqWvQMgnPbU+xsGc7E1tYJEtrXU4+O0NDrpc0Qr
+Pf8eq9lO1wK0H+r605U5qBF4t3ws94Be0oKAhT+x6GM9/NFYLWosoMOCcBjZB17I
+9SzWDB4O4bH8Nptk1rEnAPODWly0lJMPfLG9QCR2PtRfw8vq6iIBNJvaqdN6jkf/
+SdbNjWZGweC4TZzg/flomiDNUkfLpXp5KgEpbpL00N15wRdrbUhblKUM7o++rl1L
+V184QJT9pSU5VpNZIk3S0rBfUDJTkliG46mqRmDXX4cDGk1Rn8LdFMetu5c6zlzg
+bTvsTGwASKPWiLazWcbqeh1pwMdlv/FKlvQXT7s/
+=ksqc
+-----END PGP SIGNATURE-----
