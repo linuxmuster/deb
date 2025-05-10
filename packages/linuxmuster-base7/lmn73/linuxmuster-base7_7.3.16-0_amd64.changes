@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 03 May 2025 13:39:40 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.16-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.16-0) lmn73; urgency=low
+ .
+   * remove obsolete references to functions (0fc4236).
+   * implement liveboot from isofile (834a8d2).
+Checksums-Sha1:
+ bea169e538d1dd6daaf1e0a650be251aa4ce6d8a 583 linuxmuster-base7_7.3.16-0.dsc
+ d23616655f3b1195979bf4a5a55ff19632461b85 79925 linuxmuster-base7_7.3.16-0.tar.gz
+ 02f837f479d69dff2fa8e1d15ded795b49572af7 55436 linuxmuster-base7_7.3.16-0_all.deb
+ d8c5bb314adc37ae7290609b15bb5ee3f918ca77 7713 linuxmuster-base7_7.3.16-0_amd64.buildinfo
+Checksums-Sha256:
+ f67a6fae41f2f49fff88e2b7169e23074dc75e43b62da50360342b48de33c693 583 linuxmuster-base7_7.3.16-0.dsc
+ ac0d61f0ad4c42dc2b0c620f19b18dec4694fd55d27909393a2e5ccb756755a9 79925 linuxmuster-base7_7.3.16-0.tar.gz
+ 2295c88d23e729208a3b967910b5e992bed2f19cddd064b490023cfcc08a2201 55436 linuxmuster-base7_7.3.16-0_all.deb
+ e3a19ff6429d0df03987861f438bb2af80c647a5ccc9cb41ebc1c89dd1bb7f27 7713 linuxmuster-base7_7.3.16-0_amd64.buildinfo
+Files:
+ ad1928a3c1ebbc2bda853262fd9c2bb1 583 linuxmuster optional linuxmuster-base7_7.3.16-0.dsc
+ 6b4243ccf54b19c0ff53a69e53242921 79925 linuxmuster optional linuxmuster-base7_7.3.16-0.tar.gz
+ fcd4ed16a6816ddbe15bb6a77d9c6e9a 55436 linuxmuster optional linuxmuster-base7_7.3.16-0_all.deb
+ 9eac3f1b6f7d7529801e807947ecae30 7713 linuxmuster optional linuxmuster-base7_7.3.16-0_amd64.buildinfo
