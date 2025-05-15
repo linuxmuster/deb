@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Thu, 15 May 2025 21:16:22 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.6
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.6) lmn73; urgency=medium
+ .
+   * [ldapreader] Add support for staff members
+   * [ldapreader] Allow space in schoolclass names
+   * [ldapreader] Add more attributes support in models
+   * [ldapwriter] Completely rewrite the Ldap writers for more flexibility
+   * [ldapwriter] Automatically create subgroups for schoolclasses
+     (7a-teachers, ...)
+   * [ldapwriter] Handle memberships of groups
+   * [lmnfile] Fieldnames for staff.csv
+Checksums-Sha1:
+ 6c377d49bf5573dba19d3f52c42f2fd59e20c7e5 576 linuxmuster-tools7_7.3.6.dsc
+ 3196142c2039e29a7956321c001571379b1e446f 77587 linuxmuster-tools7_7.3.6.tar.gz
+ 82d518a83452e00bc820430748d6f750ecdc0e97 53028 linuxmuster-tools7_7.3.6_all.deb
+ e5a4065ee1bad829452496663824523213c97356 7607 linuxmuster-tools7_7.3.6_amd64.buildinfo
+Checksums-Sha256:
+ 48100e360d90fd36816c505e97285feb1361548ba3064549bf10767555289c32 576 linuxmuster-tools7_7.3.6.dsc
+ 6c9d8351cbf9b0d1de9a0e9b8372ffd1772e5e4aa3fca2055a9ca05c84f91012 77587 linuxmuster-tools7_7.3.6.tar.gz
+ 45cd67814709983d4f8c957678ce5b80eaca4ed3f6193d0637fd210ef32744c3 53028 linuxmuster-tools7_7.3.6_all.deb
+ d4afed46e8e1a792d3c1c80271eee52a72dd1590c4a8205d136c115235d08642 7607 linuxmuster-tools7_7.3.6_amd64.buildinfo
+Files:
+ 8524c595ad2fcb6e9e12274d7af1c574 576 linuxmuster optional linuxmuster-tools7_7.3.6.dsc
+ b40e2b28f3cfec18b5687b9378d7b96c 77587 linuxmuster optional linuxmuster-tools7_7.3.6.tar.gz
+ fe11a1a491d1f70195d5b7adb49131a0 53028 linuxmuster optional linuxmuster-tools7_7.3.6_all.deb
+ e8c748ca306cae73c1b011b6a6bd0c50 7607 linuxmuster optional linuxmuster-tools7_7.3.6_amd64.buildinfo
