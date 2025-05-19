@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 19 May 2025 18:38:09 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.16-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.16-0) lmn72; urgency=low
+ .
+   * disable isc-dhcp-server6 during release upgrade (39a5ea2).
+Checksums-Sha1:
+ 3d7da6305424f385932bdc2d6bfa39ca8d826513 583 linuxmuster-base7_7.2.16-0.dsc
+ 859b693ca2a5d744fd4ee38d09c27618991b4dbe 81760 linuxmuster-base7_7.2.16-0.tar.gz
+ 79033d22db4d50caac318fadd1b1f7419859536e 61872 linuxmuster-base7_7.2.16-0_all.deb
+ 082a4dde0b7229e5bb9762f6e354eb2b36413b97 7915 linuxmuster-base7_7.2.16-0_amd64.buildinfo
+Checksums-Sha256:
+ 5aa7f671ccab1c1547ade02a3a657e423c4c1a6d58a7935674a47b8f884b9a69 583 linuxmuster-base7_7.2.16-0.dsc
+ 5cc8c785d27c30b1c0060b4d73841d9eff12610ada7a3473bcdd99ad05d8a4c5 81760 linuxmuster-base7_7.2.16-0.tar.gz
+ b931aaaa5c698db508289e16210a2c1001f3300446bd957fd4a07e232aa45904 61872 linuxmuster-base7_7.2.16-0_all.deb
+ b19b251f44066b8f853c4c7beaa187bae469bdcb53424dc1bb8c88687e9e07e7 7915 linuxmuster-base7_7.2.16-0_amd64.buildinfo
+Files:
+ abae3a1e2928cf635a8f94da31b6a56d 583 linuxmuster optional linuxmuster-base7_7.2.16-0.dsc
+ bc310465c0bac77b54d1a4751454b081 81760 linuxmuster optional linuxmuster-base7_7.2.16-0.tar.gz
+ bf5765f812f65f6f52c55425e58aecee 61872 linuxmuster optional linuxmuster-base7_7.2.16-0_all.deb
+ afb118f13a8fc8ec4c701e1d5e6aa829 7915 linuxmuster optional linuxmuster-base7_7.2.16-0_amd64.buildinfo
