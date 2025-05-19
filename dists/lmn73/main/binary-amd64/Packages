@@ -95,10 +95,10 @@ Description: Linuxmuster Linbo GUI
  (LINBO) boot/install/repair system.
 
 Package: linuxmuster-linbo7
-Version: 4.3.11-0
+Version: 4.3.12-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
-Installed-Size: 91004
+Installed-Size: 91013
 Pre-Depends: linuxmuster-common
 Depends: argon2, coreutils, cpio, ctorrent, dosfstools, dropbear-bin, grub-common, grub-efi-amd64-bin, grub-ipxe, grub-pc-bin, isolinux, libowfat0t64, linux-firmware, linuxmuster-linbo-gui7, mbr, python3, qemu-utils, rsync, sed, ssh, syslinux-common, syslinux-utils, tftpd-hpa, tmux, udpcast, wakeonlan, xorriso, xz-utils, zip, zlib1g
 Recommends: linuxmuster-base7
@@ -107,11 +107,11 @@ Conflicts: atftpd, bittorrent, linuxmuster-linbo, linuxmuster-linbo-common, linu
 Breaks: linuxmuster-linbo-common7
 Priority: extra
 Section: admin
-Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.3.11-0_all.deb
-Size: 90622348
-SHA256: 03fa584bbfa7129b8eddaf04018e68a75820db7cd2560737f6f61b3c123714a7
-SHA1: 2bd6614a73fd98c0a4fdf574f4a11a195ab6dc7e
-MD5sum: 30e4be5ba3f54066c18cba268969e77c
+Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.3.12-0_all.deb
+Size: 90628796
+SHA256: dbb9a3b4d5350199af6aa82eca0dec3031a60ac1a324452f332518376e5ef97a
+SHA1: ee6ba7430ebba917a37b171789c106612ad04eea
+MD5sum: deb8d5fb3d107ade393871ba0671610b
 Description: linuxmuster-linbo7
   This package contains kernel, initrd, scripts and pxe boot configuration for
   the Linux-based Network Boot (LINBO) boot/install/repair system.
