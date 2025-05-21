@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-api7
 Binary: linuxmuster-api7
 Architecture: all source
-Version: 7.3.4
+Version: 7.3.5
 Checksums-Md5:
- f361acbed4205aa2d72e6d4597024acd 564 linuxmuster-api7_7.3.4.dsc
- 95cf8710fdbe145b37ec6e5cd097db42 38754 linuxmuster-api7_7.3.4_all.deb
+ c3bdf2437dc3c2a32805bc19ad3f8c20 564 linuxmuster-api7_7.3.5.dsc
+ 83ad25f89e65469041e4dbde7ca31434 38834 linuxmuster-api7_7.3.5_all.deb
 Checksums-Sha1:
- 0b7919d280521c83cb8e49aaa6ab5cab6d3433c3 564 linuxmuster-api7_7.3.4.dsc
- 611fbac92d2dacd71c30164d9616564a36995856 38754 linuxmuster-api7_7.3.4_all.deb
+ 8487c3a0cba97ca7e2b1f6d36213467f5004b51a 564 linuxmuster-api7_7.3.5.dsc
+ 50314cc2c8cb74c14433fc94cad114749ea3401b 38834 linuxmuster-api7_7.3.5_all.deb
 Checksums-Sha256:
- 3ee0f6a5e443ed6ee12aa599b9678696aae3e18e257e155dc5af0467cca4e214 564 linuxmuster-api7_7.3.4.dsc
- fdee454b5e91b405ed7b3f7456b724ee84bd1d21003fc3e48d06db8a29f1ee08 38754 linuxmuster-api7_7.3.4_all.deb
+ c5786022d4009721bbb5de4a0616e18d55ef237e3f5b75ecbd45e4d9f6e19e88 564 linuxmuster-api7_7.3.5.dsc
+ f111379ac0d5aed75f6993dd39c90a3ff630acbff2697d016c95c2d0488f0258 38834 linuxmuster-api7_7.3.5_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 18 May 2025 19:01:44 +0000
+Build-Date: Wed, 21 May 2025 16:31:38 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -214,4 +214,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1747594821"
+ SOURCE_DATE_EPOCH="1747844992"
