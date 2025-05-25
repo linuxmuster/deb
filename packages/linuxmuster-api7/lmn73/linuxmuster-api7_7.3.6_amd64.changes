@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 25 May 2025 12:15:25 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.6
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.6) lmn73; urgency=medium
+ .
+   * Migrate to venv.
+Checksums-Sha1:
+ 0d561d64a3ae2d39d3218a289be26a8b59d6ddea 564 linuxmuster-api7_7.3.6.dsc
+ 5895d9412cbf7495b228e55a07d922615775ab47 54142 linuxmuster-api7_7.3.6.tar.gz
+ 753b87f4bbe08c694ff96a7127f4fad31fb10464 39064 linuxmuster-api7_7.3.6_all.deb
+ 0a193834034a3293f1796a909a79181cefea6d37 7595 linuxmuster-api7_7.3.6_amd64.buildinfo
+Checksums-Sha256:
+ 00c9a87c092b24653865bc8a8501817d79f09712720da9f8e3058bf9be4c6560 564 linuxmuster-api7_7.3.6.dsc
+ 0e059dcd2e31d54aaa13ac64ba108349684e411cf3d34ddcb8c8e20173218f03 54142 linuxmuster-api7_7.3.6.tar.gz
+ c7b8d7e643defdd3aaeb22253e495058e2df8be1c0e71c6797c297a9da345547 39064 linuxmuster-api7_7.3.6_all.deb
+ a2d1650ee3528a5dc19c403cd8f580e92068de8d3427cfb080f24803ddf6e4e7 7595 linuxmuster-api7_7.3.6_amd64.buildinfo
+Files:
+ 45526c5510ae005b3bd3ee67e8ba2013 564 linuxmuster optional linuxmuster-api7_7.3.6.dsc
+ 2dfce86e26abe6058410e5638faf2404 54142 linuxmuster optional linuxmuster-api7_7.3.6.tar.gz
+ d31c10c687370481aa76949cd723f5f9 39064 linuxmuster optional linuxmuster-api7_7.3.6_all.deb
+ 9d7a48799466fcf4141e340e6d27f479 7595 linuxmuster optional linuxmuster-api7_7.3.6_amd64.buildinfo
