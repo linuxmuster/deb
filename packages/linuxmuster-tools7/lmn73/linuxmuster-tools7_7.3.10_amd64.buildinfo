@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.3.9
+Version: 7.3.10
 Checksums-Md5:
- 52b6c26b8b0e1c7b14f059ac2d8576cb 576 linuxmuster-tools7_7.3.9.dsc
- c0053fe2360b47a8738bf65c6ab590c5 53404 linuxmuster-tools7_7.3.9_all.deb
+ 3af98ad05fbe3a20f83c45200e31319c 580 linuxmuster-tools7_7.3.10.dsc
+ c096a181f8a87d5dae0493141b49a085 54464 linuxmuster-tools7_7.3.10_all.deb
 Checksums-Sha1:
- 126510ffbdca096eaa737b84f970b1e1eebd9c77 576 linuxmuster-tools7_7.3.9.dsc
- 09c742c1d70f06e9d1b2237d41bb8dd06c2b1064 53404 linuxmuster-tools7_7.3.9_all.deb
+ 3ecd64234fbc259b31f6c01ab47160296c92b302 580 linuxmuster-tools7_7.3.10.dsc
+ c7550a60ebc3618f983d49b02d1d592e52d1b33f 54464 linuxmuster-tools7_7.3.10_all.deb
 Checksums-Sha256:
- f5030a61fc253f699d026d6e7b86ae6c144fbcd42b12cb77869a0b77ce7ab82f 576 linuxmuster-tools7_7.3.9.dsc
- 38a5369d70cdbc368661d81c07481411dc06957bd08fe73ad27410d1d4b87997 53404 linuxmuster-tools7_7.3.9_all.deb
+ ba0043ac826d25c9ffd8b78bb22a71aaeb0b75587171472cab74113b83118d99 580 linuxmuster-tools7_7.3.10.dsc
+ 3a8a64c7ae6f74baf799194466f9f4e41224e4bf646e40379de2e9c19a9d4f40 54464 linuxmuster-tools7_7.3.10_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 25 May 2025 10:57:59 +0000
+Build-Date: Fri, 06 Jun 2025 07:17:46 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -214,4 +214,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1748170558"
+ SOURCE_DATE_EPOCH="1749193988"
