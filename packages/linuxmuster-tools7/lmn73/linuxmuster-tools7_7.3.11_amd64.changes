@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 08 Jun 2025 12:38:08 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.11
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.11) lmn73; urgency=medium
+ .
+   * Ignore LDAP checks for new installation
+   * Add dependency to sophomorix
+Checksums-Sha1:
+ 45b6ae2dc2df69b0db646c82571218c982a08ae4 580 linuxmuster-tools7_7.3.11.dsc
+ b37f511601780ce87b770427c363fa27342fcb9a 79078 linuxmuster-tools7_7.3.11.tar.gz
+ 8a9a429a7e6f1a89fa704473b98e9e463071310e 54590 linuxmuster-tools7_7.3.11_all.deb
+ d3d5ebc6d4ebc707eee0171f5a704b87b6060424 7618 linuxmuster-tools7_7.3.11_amd64.buildinfo
+Checksums-Sha256:
+ 3ccee07e4b9d6ece4c78dc886dfd8a8697510d9625a8897d73284794a9f25e35 580 linuxmuster-tools7_7.3.11.dsc
+ b8d7a9d3e8400e4a1c8fe5b3b787fcaf50a399df9cc02b4bb943790f2f736a52 79078 linuxmuster-tools7_7.3.11.tar.gz
+ d6dad03bbe485b15d463749c7602ee9ccdec5824db63b1678d25ebbba8b5c9f5 54590 linuxmuster-tools7_7.3.11_all.deb
+ 626073633e7d57d2c37f2cef75f54ee89db3e590b8087b6aef33f0199596e9ec 7618 linuxmuster-tools7_7.3.11_amd64.buildinfo
+Files:
+ c978df0f509abba54b9fca77e9c5a8fd 580 linuxmuster optional linuxmuster-tools7_7.3.11.dsc
+ ed14942e49f0e89ad5ac5ab6a31be98d 79078 linuxmuster optional linuxmuster-tools7_7.3.11.tar.gz
+ b6771dc5a30c0f79b8f0afc13cad2c6e 54590 linuxmuster optional linuxmuster-tools7_7.3.11_all.deb
+ 5d572218f9d5adec90ec7eceedca5232 7618 linuxmuster optional linuxmuster-tools7_7.3.11_amd64.buildinfo
