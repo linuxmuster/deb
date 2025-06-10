@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 10 Jun 2025 20:07:03 +0000
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.2.16-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.2.16-0) lmn72; urgency=low
+ .
+   * fix #119: differential imaging fails.
+   * fix opentracker build (8645cce).
+   * kernel updates (#134, 0b935f5).
+Checksums-Sha1:
+ ffadfdc0d553353fc2f1a3c4f2a59f65a5a14320 1995 linuxmuster-linbo7_4.2.16-0.dsc
+ 230ad81327ebc42d24a1f5a53c8689445c666030 2039816 linuxmuster-linbo7_4.2.16-0.tar.gz
+ 989fba6ed394e5ee94e70050ec53aa883a66150b 82511284 linuxmuster-linbo7_4.2.16-0_all.deb
+ 11ef688e34d4cad54170b3b6d1750386895e34af 13703 linuxmuster-linbo7_4.2.16-0_amd64.buildinfo
+Checksums-Sha256:
+ 6895ddafa7b2e11128efce4acb0889b1876e0c4df8094cede77d836387f6e405 1995 linuxmuster-linbo7_4.2.16-0.dsc
+ d0c3386de30ce076030255b2ef921177c5d305247f1bb0894bb74297631ac10c 2039816 linuxmuster-linbo7_4.2.16-0.tar.gz
+ fec74e63b8f8de92a02bfe82c3c48906a142be1d39c72d4af4711aab718271b8 82511284 linuxmuster-linbo7_4.2.16-0_all.deb
+ b04d1584514815d3315271b5693937c4f3947dca936748d4a4ff7b153c21a7d0 13703 linuxmuster-linbo7_4.2.16-0_amd64.buildinfo
+Files:
+ 2e6b002b2458a75d06b3db101c6b5e7a 1995 admin extra linuxmuster-linbo7_4.2.16-0.dsc
+ 28add81780be4b4955c01bf0024a247e 2039816 admin extra linuxmuster-linbo7_4.2.16-0.tar.gz
+ 11e09f011b77d7f778f847c175960d92 82511284 admin extra linuxmuster-linbo7_4.2.16-0_all.deb
+ 96cd3894af0381b682fd1e4104f12e7c 13703 admin extra linuxmuster-linbo7_4.2.16-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmhIkH0XHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLJJ+gv/ag29xpqD4wh4ojwjcu1/zgJo
+Di1QMbJNbBuUfiNooD7sf39Wfuid+k2miKjrCSTdcvjH5UiE2jk3pch72u51zPr4
+wrl9GI95juMyFlPcBVuc5PNm8kbCU0FR1xnlYCQf+XdLEvBphu30BKnAsR+Exs9x
+Rp7C5dnW+8lo2HaR8SaWgKcKJZ10xKJIRTMWlaiBQl7QzVApURltfNGE6/s9IuGR
+Sm1ugUhbV/fij3lMSiXheuLwuxxMwH1g7D9qQU3IrbE2f7EpmbWdwzHmCeLZKrQ4
+xNW9AdzD3eMf0ph7NLZMPYZPfvrApwqfezsPIAlJqfPnJbOqX1Q/GQim+xdzC0Mw
+QX6WIz+oaTjtblHLjP+9KCWaCj7pILwvy2YDW0EXDyx7LvwzUy1QTj6nIsRcpv/k
+iECZC5tA9wOMwXPDgIcQrFWWkn40Ba2BZSEK6gHyilQGu+sD9fakbM8Iymf5xI7r
+eQibRXVFuYwZspFogb3iJbxSURM9LJ1bxTO6qiKc
+=xsgj
+-----END PGP SIGNATURE-----
