@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 16 Jun 2025 09:22:33 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.19-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.19-0) lmn73; urgency=low
+ .
+   * fix #166: linuxmuster-import-subnets - problem with skipfw setup value.
+Checksums-Sha1:
+ 9df1d80fcd43f4c9038b30094a9fd756282428a6 583 linuxmuster-base7_7.3.19-0.dsc
+ 15063c367d6cbc1e7246d63d5295f56ae1ffda96 87354 linuxmuster-base7_7.3.19-0.tar.gz
+ 2d897aa0a5d4f36ceaaaf9c6a68a08883e7bc0a6 58818 linuxmuster-base7_7.3.19-0_all.deb
+ e78877f703f2bb57f4fea3ed99be8cd726ebc0d7 7713 linuxmuster-base7_7.3.19-0_amd64.buildinfo
+Checksums-Sha256:
+ 53b1c22ba3f72a94fb13e4be0400def17f2e7a1b7f3eb381680c7a2c32fa02af 583 linuxmuster-base7_7.3.19-0.dsc
+ 741186161fa9dfd98ebd0f5f32f90aef4ada9a9bb522971f113fbfb7532216c5 87354 linuxmuster-base7_7.3.19-0.tar.gz
+ a6b6f3b17c54a498b220006bd25e5216e29c1f8d7420c82b017142a640e6268b 58818 linuxmuster-base7_7.3.19-0_all.deb
+ 0eca17dcfe4d35e0b09d58655a6b8e06a73a273e194c4c2f8bcc11c076ef0bb9 7713 linuxmuster-base7_7.3.19-0_amd64.buildinfo
+Files:
+ 30a012ee48fab8841d135d3a736ec741 583 linuxmuster optional linuxmuster-base7_7.3.19-0.dsc
+ aea4cf8b633a71e3681be387c7f43a17 87354 linuxmuster optional linuxmuster-base7_7.3.19-0.tar.gz
+ c707d4b2cfac2707aae214bde8d22930 58818 linuxmuster optional linuxmuster-base7_7.3.19-0_all.deb
+ fc0f89818af5abde5a85a65dab0c55f8 7713 linuxmuster optional linuxmuster-base7_7.3.19-0_amd64.buildinfo
