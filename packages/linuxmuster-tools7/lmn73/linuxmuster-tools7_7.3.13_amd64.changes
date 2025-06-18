@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 18 Jun 2025 12:49:12 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.13
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.13) lmn73; urgency=medium
+ .
+   * Fix typo in postinst-script.
+Checksums-Sha1:
+ d61d243a1173b76e7a8480bb4e19e3a760872537 580 linuxmuster-tools7_7.3.13.dsc
+ 6b148d9b58ae7c857da1fb123e609ea285726087 79169 linuxmuster-tools7_7.3.13.tar.gz
+ 666326277921beb3e75ee211b3ad0b8535a93b8e 54718 linuxmuster-tools7_7.3.13_all.deb
+ 1d4719c82d1b05bb27f1b8cb6ce5ad5a2e5e1eba 7618 linuxmuster-tools7_7.3.13_amd64.buildinfo
+Checksums-Sha256:
+ dded7a6fcd957ac42fcb07510f597416e1f14871fd4e0001eda6ff8c55fe0c55 580 linuxmuster-tools7_7.3.13.dsc
+ bb75894d3f5bc6b18a395eb5d706866f4ace2962ef50c61a7ec380c363205902 79169 linuxmuster-tools7_7.3.13.tar.gz
+ 6c578998eb24cab0ec8882f68ec5a3104134b347337043ce5f2b1ebdb808a5a9 54718 linuxmuster-tools7_7.3.13_all.deb
+ 2d7e6a897b2cba1c02788227bd37b9da9d8843cb0295e371e7c4f09d3a2242a6 7618 linuxmuster-tools7_7.3.13_amd64.buildinfo
+Files:
+ 95238d0bc913863fb8393e5cb9601d59 580 linuxmuster optional linuxmuster-tools7_7.3.13.dsc
+ 4b6171260860783f4d8691acd29bcfec 79169 linuxmuster optional linuxmuster-tools7_7.3.13.tar.gz
+ a10af499a626d72c605a0965c8534ec9 54718 linuxmuster optional linuxmuster-tools7_7.3.13_all.deb
+ 5f3971f6d0bb92dd239d22a9e26041fa 7618 linuxmuster optional linuxmuster-tools7_7.3.13_amd64.buildinfo
