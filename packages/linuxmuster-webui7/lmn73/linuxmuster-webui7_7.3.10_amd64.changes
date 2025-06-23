@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 23 Jun 2025 11:45:07 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.10
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.10) lmn73; urgency=medium
+ .
+   * Fix aj conflicts in postinst
+   * [setup] Right message when skipping firewall setup
+   * [user] Check for BOM by CSV import
+   * [webdav] Consolidate responses codes
+Checksums-Sha1:
+ f04eb99844209a8f1b7d7b448233b022f893613c 565 linuxmuster-webui7_7.3.10.dsc
+ be4f274e9d4878a9060a44ae440aceef15811ba7 1452605 linuxmuster-webui7_7.3.10.tar.gz
+ ba728c509cdea11539c92e237d95a9ce4bde2b18 819968 linuxmuster-webui7_7.3.10_all.deb
+ 88b0d25ff85bf899652a45bab573b8ecb62d2032 7668 linuxmuster-webui7_7.3.10_amd64.buildinfo
+Checksums-Sha256:
+ cc61a2f4716cf7d748af55b2fedaf4770234f973e7ee3451cc40242ab76447ec 565 linuxmuster-webui7_7.3.10.dsc
+ 1b1ca737766d1fb1302c1462c8ce273aa506e69babaf499de3a141d3fc8091b6 1452605 linuxmuster-webui7_7.3.10.tar.gz
+ dbd7035680fcf11ea36379895794a93ab9fa70e1fc901b3692760d177801e04f 819968 linuxmuster-webui7_7.3.10_all.deb
+ 6eb360f68b9189633c8eade657bbfa1a3767950aa130d428ce0e0248b5354cef 7668 linuxmuster-webui7_7.3.10_amd64.buildinfo
+Files:
+ 6c23a2d876270d95f83d14b8ef08445c 565 admin optional linuxmuster-webui7_7.3.10.dsc
+ 5622a8f0e2914ff533c16c8c9e8bd185 1452605 admin optional linuxmuster-webui7_7.3.10.tar.gz
+ 514434753ae1af45fb80128ec55921bc 819968 admin optional linuxmuster-webui7_7.3.10_all.deb
+ 1a7af3c0f7da18cd761a40c31f857976 7668 admin optional linuxmuster-webui7_7.3.10_amd64.buildinfo
