@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.2.17-0
+Version: 7.2.18-0
 Checksums-Md5:
- 0e016628a7c44358f26e8df6d2bbde60 583 linuxmuster-base7_7.2.17-0.dsc
- cb29b46553fa85399e174ec26fdf01d7 61926 linuxmuster-base7_7.2.17-0_all.deb
+ a15ead62466345edd382db805c85965b 583 linuxmuster-base7_7.2.18-0.dsc
+ 499acc348e9ffdd99aa100984ada7026 61946 linuxmuster-base7_7.2.18-0_all.deb
 Checksums-Sha1:
- 99a2dfea061c674d5dbba1dcef3c895963544c9d 583 linuxmuster-base7_7.2.17-0.dsc
- 3ba6a31266bd1b0b961f46eea397c267e0f3b1fc 61926 linuxmuster-base7_7.2.17-0_all.deb
+ aff35b26cdd29e2ce4bcc0978947e693403727dc 583 linuxmuster-base7_7.2.18-0.dsc
+ 4ff316ae5ac4929c2bf28cd662ee352e965e2265 61946 linuxmuster-base7_7.2.18-0_all.deb
 Checksums-Sha256:
- eb013f798507616596bdf0e4b8a2dae4047d14155fd0f5e9f21e13105f39c7aa 583 linuxmuster-base7_7.2.17-0.dsc
- 3c2045ce01f78e20c894eeb0ed5dd715fe64334d13b514da4574bdd9d5086f2a 61926 linuxmuster-base7_7.2.17-0_all.deb
+ 80bdf204a5bba75603c79c641f7b5bcb8c08079f37ae727a29419219a1337904 583 linuxmuster-base7_7.2.18-0.dsc
+ 6127effdd2ed9cd2157af87a301338bbfa5f2f340134c8afd524c9baff12b2be 61946 linuxmuster-base7_7.2.18-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 31 May 2025 13:24:16 +0000
+Build-Date: Wed, 25 Jun 2025 08:31:13 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -94,10 +94,10 @@ Installed-Build-Depends:
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
  libc-bin (= 2.35-0ubuntu3.9),
- libc-dev-bin (= 2.35-0ubuntu3.9),
- libc6 (= 2.35-0ubuntu3.9),
- libc6-dev (= 2.35-0ubuntu3.9),
- libc6-i386 (= 2.35-0ubuntu3.9),
+ libc-dev-bin (= 2.35-0ubuntu3.10),
+ libc6 (= 2.35-0ubuntu3.10),
+ libc6-dev (= 2.35-0ubuntu3.10),
+ libc6-i386 (= 2.35-0ubuntu3.10),
  libcap-ng0 (= 0.7.9-2.2build3),
  libcap2 (= 1:2.44-1ubuntu0.22.04.2),
  libcc1-0 (= 12.3.0-1ubuntu1~22.04),
@@ -193,7 +193,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.7),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-139.149),
+ linux-libc-dev (= 5.15.0-141.151),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1748697751"
+ SOURCE_DATE_EPOCH="1750840161"
