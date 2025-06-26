@@ -14,7 +14,7 @@ MD5sum: d57887c608a8b84e7d5f7dfe07e13ec0
 Description: Api for the linuxmuster.net 7 server.
 
 Package: linuxmuster-base7
-Version: 7.3.19-0
+Version: 7.3.20-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Installed-Size: 286
@@ -23,11 +23,11 @@ Depends: coreutils, cups, printer-driver-cups-pdf, isc-dhcp-server, python3-bcry
 Conflicts: dnsmasq-base
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.3.19-0_all.deb
-Size: 58818
-SHA256: a6b6f3b17c54a498b220006bd25e5216e29c1f8d7420c82b017142a640e6268b
-SHA1: 2d897aa0a5d4f36ceaaaf9c6a68a08883e7bc0a6
-MD5sum: c707d4b2cfac2707aae214bde8d22930
+Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.3.20-0_all.deb
+Size: 58858
+SHA256: 87a51ae0f19fba0051bbf7e20bde1e5b934ecf4717f80c2df2973e80b16929ad
+SHA1: c63aafec2b08a802d819549047fc3b1c7cdeed62
+MD5sum: 6f27f78cf562e0c2c8ae78db5f6a32a7
 Description: linuxmuster.net configuration scripts
  This package provides configuration scripts for linuxmuster.net
 
