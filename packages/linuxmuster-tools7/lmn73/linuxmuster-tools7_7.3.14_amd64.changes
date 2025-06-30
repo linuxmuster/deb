@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 30 Jun 2025 21:06:21 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.14
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.14) lmn73; urgency=medium
+ .
+   * [sophomorix-hooks] Support for multischool
+   * Add script lmntools-class to check schoolclasses groups memberships
+   * Add script lmntools-student to handle student's parents (get, add, remove)
+Checksums-Sha1:
+ bb06db6727b3eb6cf53d9d388eeece081f1c415e 580 linuxmuster-tools7_7.3.14.dsc
+ 09663b988e4366df0bc043dd6a353aacfb142314 80941 linuxmuster-tools7_7.3.14.tar.gz
+ 903346db1e0085b5b9717422d35708629469d01d 55826 linuxmuster-tools7_7.3.14_all.deb
+ 433c560b7416de76ce9f3092c6a31044aeb09134 7618 linuxmuster-tools7_7.3.14_amd64.buildinfo
+Checksums-Sha256:
+ d2b7173746a6e0bc6f7b549be3f2a33ddb5a706feb6d8b3ec04494dcfb922383 580 linuxmuster-tools7_7.3.14.dsc
+ d002191b013868ad1cf9947d11431ab5c78f1333bed63f2ba02127bda2469f6a 80941 linuxmuster-tools7_7.3.14.tar.gz
+ 081189421e69d7ec496ad5f5d85a83f104b89f8e8283f20e3818dedd3cb60ffd 55826 linuxmuster-tools7_7.3.14_all.deb
+ f1a579f2bb8e37c767fe5d3d88f464a17dca49e0e04ce423e868c0493a2e2208 7618 linuxmuster-tools7_7.3.14_amd64.buildinfo
+Files:
+ cc1f089e1190eb9d656e1d6a3a1616c6 580 linuxmuster optional linuxmuster-tools7_7.3.14.dsc
+ e25b1afcbcd024567a892f55ea0f8e99 80941 linuxmuster optional linuxmuster-tools7_7.3.14.tar.gz
+ ccc6ba17fdc2996af51028e702ab41c7 55826 linuxmuster optional linuxmuster-tools7_7.3.14_all.deb
+ 861bb8ee661afd0967764f3578eb6eb9 7618 linuxmuster optional linuxmuster-tools7_7.3.14_amd64.buildinfo
