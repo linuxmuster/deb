@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sun, 06 Jul 2025 14:06:38 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.83
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.83) lmn72; urgency=medium
+ .
+   * [groupmembership] Asynchron requests for projects members
+   * [landingpage] Fix display of custom fields
+   * [linbo] Fix LinboManager permissions for restricted session
+   * [linbo_sync] Always display prestart
+   * [linbo_sync] Fix sync+new logic
+   * [setup] Right message when skipping firewall setup
+   * [user] Check BOM for imported CSV
+   * [webdav] Consolidate some Webdav responses
+Checksums-Sha1:
+ 744621b47708265b0ad77cc812878ffd7361b066 565 linuxmuster-webui7_7.2.83.dsc
+ c2e2740aa9dcd874b65f847ebd4fb16303b07989 1449280 linuxmuster-webui7_7.2.83.tar.gz
+ 4557ba53bfb3479c55462da4d4b7d382f9f52426 833542 linuxmuster-webui7_7.2.83_all.deb
+ ab17590646d712fdc1298e474a2bd72bfe85c5a8 7889 linuxmuster-webui7_7.2.83_amd64.buildinfo
+Checksums-Sha256:
+ dc6f5b16b9dea75f52b0fec0e1f1d6de836769980c57257c6be48f75ce6ed73c 565 linuxmuster-webui7_7.2.83.dsc
+ 232990a6a2360f03168ad084a75840feaae414344fc16fcc8fd9170c6a1478f2 1449280 linuxmuster-webui7_7.2.83.tar.gz
+ 72a6ec3181394b2f72b9b92a495c7c36f89871edcbc81215f94b3c0025294e42 833542 linuxmuster-webui7_7.2.83_all.deb
+ 6fe5556b81a4a16434bea77554ef7f1b2ad71bb26d25414058ec06aaed78b6bd 7889 linuxmuster-webui7_7.2.83_amd64.buildinfo
+Files:
+ d3cbc415fb4b614e8cd3ad6ca434c827 565 admin optional linuxmuster-webui7_7.2.83.dsc
+ a5f09217caa8664e916d4863f291a5bf 1449280 admin optional linuxmuster-webui7_7.2.83.tar.gz
+ 7a18577d36524800c8280f2d4743a279 833542 admin optional linuxmuster-webui7_7.2.83_all.deb
+ 1fee5414d573265264824c0c0b71e230 7889 admin optional linuxmuster-webui7_7.2.83_amd64.buildinfo
