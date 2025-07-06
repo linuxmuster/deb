@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.2.82
+Version: 7.2.83
 Checksums-Md5:
- a62fd63f74a755ecd9f03cbc0835af04 565 linuxmuster-webui7_7.2.82.dsc
- 8962ade61a698b3328f67e4dd6d581e8 832968 linuxmuster-webui7_7.2.82_all.deb
+ d3cbc415fb4b614e8cd3ad6ca434c827 565 linuxmuster-webui7_7.2.83.dsc
+ 7a18577d36524800c8280f2d4743a279 833542 linuxmuster-webui7_7.2.83_all.deb
 Checksums-Sha1:
- aff76545081654fc468c6ca11054ad2cc7697f79 565 linuxmuster-webui7_7.2.82.dsc
- 8df65bb3aa6df7ec12e8c19d713ad643ddc20b55 832968 linuxmuster-webui7_7.2.82_all.deb
+ 744621b47708265b0ad77cc812878ffd7361b066 565 linuxmuster-webui7_7.2.83.dsc
+ 4557ba53bfb3479c55462da4d4b7d382f9f52426 833542 linuxmuster-webui7_7.2.83_all.deb
 Checksums-Sha256:
- 2d4c13d1b3aec710c62d41e80219990d8d184e9c76c010a129129fc1fb213aa9 565 linuxmuster-webui7_7.2.82.dsc
- 1ed2121e82d5f125feee9dbdce4b0d5f335540cec7f36a1903019468a1e9b9f3 832968 linuxmuster-webui7_7.2.82_all.deb
+ dc6f5b16b9dea75f52b0fec0e1f1d6de836769980c57257c6be48f75ce6ed73c 565 linuxmuster-webui7_7.2.83.dsc
+ 72a6ec3181394b2f72b9b92a495c7c36f89871edcbc81215f94b3c0025294e42 833542 linuxmuster-webui7_7.2.83_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 24 May 2025 20:48:51 +0000
+Build-Date: Sun, 06 Jul 2025 12:11:57 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -94,11 +94,11 @@ Installed-Build-Depends:
  libblkid1 (= 2.37.2-4ubuntu3.4),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
- libc-bin (= 2.35-0ubuntu3.9),
- libc-dev-bin (= 2.35-0ubuntu3.9),
- libc6 (= 2.35-0ubuntu3.9),
- libc6-dev (= 2.35-0ubuntu3.9),
- libc6-i386 (= 2.35-0ubuntu3.9),
+ libc-bin (= 2.35-0ubuntu3.10),
+ libc-dev-bin (= 2.35-0ubuntu3.10),
+ libc6 (= 2.35-0ubuntu3.10),
+ libc6-dev (= 2.35-0ubuntu3.10),
+ libc6-i386 (= 2.35-0ubuntu3.10),
  libcap-ng0 (= 0.7.9-2.2build3),
  libcap2 (= 1:2.44-1ubuntu0.22.04.2),
  libcc1-0 (= 12.3.0-1ubuntu1~22.04),
@@ -138,14 +138,14 @@ Installed-Build-Depends:
  libgmp10 (= 2:6.2.1+dfsg-3ubuntu1),
  libgomp1 (= 12.3.0-1ubuntu1~22.04),
  libgpg-error0 (= 1.43-3),
- libgssapi-krb5-2 (= 1.19.2-2ubuntu0.6),
+ libgssapi-krb5-2 (= 1.19.2-2ubuntu0.7),
  libicu70 (= 70.1-2),
  libisl23 (= 0.24-2build1),
  libitm1 (= 12.3.0-1ubuntu1~22.04),
- libk5crypto3 (= 1.19.2-2ubuntu0.6),
+ libk5crypto3 (= 1.19.2-2ubuntu0.7),
  libkeyutils1 (= 1.6.1-2ubuntu3),
- libkrb5-3 (= 1.19.2-2ubuntu0.6),
- libkrb5support0 (= 1.19.2-2ubuntu0.6),
+ libkrb5-3 (= 1.19.2-2ubuntu0.7),
+ libkrb5support0 (= 1.19.2-2ubuntu0.7),
  libllvm13 (= 1:13.0.1-2ubuntu2.2),
  libllvm14 (= 1:14.0.0-1ubuntu1.1),
  libllvm15 (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -180,7 +180,7 @@ Installed-Build-Depends:
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 12.3.0-1ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 249.11-0ubuntu3.15),
+ libsystemd0 (= 249.11-0ubuntu3.16),
  libtinfo6 (= 6.3-2ubuntu0.1),
  libtirpc-common (= 1.3.2-2ubuntu0.1),
  libtirpc-dev (= 1.3.2-2ubuntu0.1),
@@ -190,12 +190,12 @@ Installed-Build-Depends:
  libtsan2 (= 12.3.0-1ubuntu1~22.04),
  libubsan1 (= 12.3.0-1ubuntu1~22.04),
  libuchardet0 (= 0.0.7-1build2),
- libudev1 (= 249.11-0ubuntu3.15),
+ libudev1 (= 249.11-0ubuntu3.16),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.7),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-139.149),
+ linux-libc-dev (= 5.15.0-142.152),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -227,4 +227,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1748119502"
+ SOURCE_DATE_EPOCH="1751803598"
