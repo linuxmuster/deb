@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Mon, 14 Jul 2025 21:07:12 +0200
+Source: sophomorix4
+Binary: sophomorix-belwue-mail sophomorix-developer sophomorix-dump sophomorix-samba sophomorix-vampire
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.10
+Distribution: lmn73
+Urgency: medium
+Maintainer: Rüdiger Beck <jeffbeck@web.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ sophomorix-belwue-mail - Reading external Mail data at Belwue and suggest actions
+ sophomorix-developer - Test suite for sophomorix-samba
+ sophomorix-dump - Migration dump script
+ sophomorix-samba - Sophomorix for Samba 4
+ sophomorix-vampire - Migration vampire script
+Changes:
+ sophomorix4 (7.3.10) lmn73; urgency=medium
+ .
+   * Use lmncli instead of lmntools.
+Checksums-Sha1:
+ b8f060c6ce1f687efcd4bf32db6203985b943eb1 837 sophomorix4_7.3.10.dsc
+ 29b116dceaa09c59aedc8720d282319b1b6a65ba 752956 sophomorix4_7.3.10.tar.xz
+ 4e797097552734c087711b558c051d9fcdadeddc 15204 sophomorix-belwue-mail_7.3.10_all.deb
+ 431b342cf468f1d309d36a11e576b0344c911811 80940 sophomorix-developer_7.3.10_all.deb
+ 9c111788f9d91f6cce32736dc2b0ff816fe4861c 8112 sophomorix-dump_7.3.10_all.deb
+ adc8f062d6692445ed31fc1c2704e2da4a492da6 253192 sophomorix-samba_7.3.10_all.deb
+ 66dcd177bd856ddbad95c23d6a98e3eabfed200a 17540 sophomorix-vampire_7.3.10_all.deb
+ 07fa118050783175367192eb1b0269db9dd632f9 11683 sophomorix4_7.3.10_amd64.buildinfo
+Checksums-Sha256:
+ fcd2090e024f9bc0696966a91770bd5ce03e6d44ac16740cf158742f784cee66 837 sophomorix4_7.3.10.dsc
+ b7c20dc6422bbb37ae85463c77a06e91e6dc6018a20a6d0f9684e696a0f01446 752956 sophomorix4_7.3.10.tar.xz
+ 6c8908e331f9bb1f2c4bb5990e95a864262910903cb8e6f41368b21e6d391e8c 15204 sophomorix-belwue-mail_7.3.10_all.deb
+ ed6fa759b94704b123b60c3dd4b0fbc1f3a547d13586c0cd0ff8dc0e21493591 80940 sophomorix-developer_7.3.10_all.deb
+ ca62815bedf093e246c55ccec8278b382c0a204d8001757e3f07a29bae862107 8112 sophomorix-dump_7.3.10_all.deb
+ 33f5957b3f3a270c5ed3d7f25ebf76f58da7a5a66b73309bb2e4ce9a204505f3 253192 sophomorix-samba_7.3.10_all.deb
+ 7f3dfd5ad721b0e0d7ec21569cfa14de2a5c6f1a9f2659c68f7ac7dafc40d89d 17540 sophomorix-vampire_7.3.10_all.deb
+ abef972c50c1d90faa56187057318497fe277ab78522ec4d87b95956e0efd5c3 11683 sophomorix4_7.3.10_amd64.buildinfo
+Files:
+ 7a92f53a8cfbbc85eea45b26f5e56a4e 837 admin optional sophomorix4_7.3.10.dsc
+ 71e8d21b8b6bfeb4bb6924ace8c9ac9f 752956 admin optional sophomorix4_7.3.10.tar.xz
+ bc97837a91af1e5c95e06c644949e2ca 15204 admin optional sophomorix-belwue-mail_7.3.10_all.deb
+ 0ad6d334fe1ad8ba12c3b0c812a649cc 80940 admin optional sophomorix-developer_7.3.10_all.deb
+ 82d0e83e0729f62cc217eff0a7db7deb 8112 admin optional sophomorix-dump_7.3.10_all.deb
+ 044cbca1ca4e5ed43db9227db8c54339 253192 admin optional sophomorix-samba_7.3.10_all.deb
+ e83ebb8599ebb40b2da4bc1d6c9e3477 17540 admin optional sophomorix-vampire_7.3.10_all.deb
+ 5c8553ae1f2f60f107d2d37054f89cc5 11683 admin optional sophomorix4_7.3.10_amd64.buildinfo
