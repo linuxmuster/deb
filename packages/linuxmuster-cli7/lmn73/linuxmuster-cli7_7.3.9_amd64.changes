@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 14 Jul 2025 21:05:33 +0200
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.9
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.3.9) lmn73; urgency=medium
+ .
+   * Add schoolclass commands
+   * Add student commands
+   * Add mgmtgroup commands
+Checksums-Sha1:
+ 53bfe2b1aac8b834a0adea125be45e9293d5eeb7 564 linuxmuster-cli7_7.3.9.dsc
+ b3646568ed60d7eb3ab4825b4ccbfb02f9077229 27790 linuxmuster-cli7_7.3.9.tar.gz
+ 77048066b283bd2d3400522434c8f8bcd0ded6e6 14212 linuxmuster-cli7_7.3.9_all.deb
+ 409b6a0f46d0f4fccc4fdcce1ab9004ac142c442 7597 linuxmuster-cli7_7.3.9_amd64.buildinfo
+Checksums-Sha256:
+ 7efc935694fb93a91ccd09dbcacbab31ccc092e66a972266368a397018eff6a8 564 linuxmuster-cli7_7.3.9.dsc
+ 5c531f981cd3faff0ea04c47ef0cb74cee8fb37386981f25fb7bf06f27ae235c 27790 linuxmuster-cli7_7.3.9.tar.gz
+ 7af8e815890ccd8c227fd006c1366e4023b5135daef63fef878d0713ef697c43 14212 linuxmuster-cli7_7.3.9_all.deb
+ 6dbcc51f5ab5b333f797055378bc846991a037f98997a0c18aba1b7c8cb90990 7597 linuxmuster-cli7_7.3.9_amd64.buildinfo
+Files:
+ 212e1facc3d2f441498b007e944048d4 564 linuxmuster optional linuxmuster-cli7_7.3.9.dsc
+ 67e8d06c3eed02f5152729414a8de039 27790 linuxmuster optional linuxmuster-cli7_7.3.9.tar.gz
+ 4565fbda6c9fab2e8ca2fd16bbe802e8 14212 linuxmuster optional linuxmuster-cli7_7.3.9_all.deb
+ 5e44cbefd60714f0697756eff2d5ded6 7597 linuxmuster optional linuxmuster-cli7_7.3.9_amd64.buildinfo
