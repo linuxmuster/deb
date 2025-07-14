@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 14 Jul 2025 21:03:56 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.15
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.15) lmn73; urgency=medium
+ .
+   * Move lmntools scripts to lmncli
+   * [ldapreader] Use secure connection
+   * [ldapreader] Get parents of student
+Checksums-Sha1:
+ e580e6a252796081818301678cd3100277334085 580 linuxmuster-tools7_7.3.15.dsc
+ de4cfef6f7f62161d82b360d43987d9918cb4daf 80421 linuxmuster-tools7_7.3.15.tar.gz
+ 060ec5ff0231ff252ab878a54a528b3e79a20201 55480 linuxmuster-tools7_7.3.15_all.deb
+ d3c980761da92505128b4707109cd9c3dcfdb717 7620 linuxmuster-tools7_7.3.15_amd64.buildinfo
+Checksums-Sha256:
+ e74d7adaf6d8ee54ff3286d59681008d14d87092b96ba9a67544ae1f7d5c9a6e 580 linuxmuster-tools7_7.3.15.dsc
+ 0ad9645dcd1255f862ffd7956c577a48a0bc7abf206ad8f67bb30f981092b2db 80421 linuxmuster-tools7_7.3.15.tar.gz
+ 4e54e916b60cea4a8043d26b06b02be2edd54b13314d279325321d18abdaf7a4 55480 linuxmuster-tools7_7.3.15_all.deb
+ c0cf0539fc90c43e57bb9d26d16895ca007e631bbc39721e309ebcf7d31ab6dc 7620 linuxmuster-tools7_7.3.15_amd64.buildinfo
+Files:
+ f841148d7cc00dbcf8893c23d5ff7b1f 580 linuxmuster optional linuxmuster-tools7_7.3.15.dsc
+ 80bcc5811666282fc5878643b92d67db 80421 linuxmuster optional linuxmuster-tools7_7.3.15.tar.gz
+ 2c76f56e2dca619ee54b45ccbe9ee4f2 55480 linuxmuster optional linuxmuster-tools7_7.3.15_all.deb
+ 54ee7761cf28a18a6921c1d758a5e966 7620 linuxmuster optional linuxmuster-tools7_7.3.15_amd64.buildinfo
