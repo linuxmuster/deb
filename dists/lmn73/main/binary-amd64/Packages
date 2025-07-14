@@ -32,18 +32,18 @@ Description: linuxmuster.net configuration scripts
  This package provides configuration scripts for linuxmuster.net
 
 Package: linuxmuster-cli7
-Version: 7.3.8
+Version: 7.3.9
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 69
+Installed-Size: 78
 Depends: python3, linuxmuster-tools7
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-cli7/linuxmuster-cli7_7.3.8_all.deb
-Size: 12920
-SHA256: bbb5921594bac29c02f01c31e14e2df09e7c6b90d4a5fb41786bff71727253f2
-SHA1: 9b1bbd4e83a95c2feacaea66ab6c54e64426e0bf
-MD5sum: 067e52390a35e43790f895b2e93b380d
+Filename: pool/main/l/linuxmuster-cli7/linuxmuster-cli7_7.3.9_all.deb
+Size: 14212
+SHA256: 7af8e815890ccd8c227fd006c1366e4023b5135daef63fef878d0713ef697c43
+SHA1: 77048066b283bd2d3400522434c8f8bcd0ded6e6
+MD5sum: 4565fbda6c9fab2e8ca2fd16bbe802e8
 Description: Tools and CLI for the linuxmuster.net 7 server.
 
 Package: linuxmuster-common
@@ -163,7 +163,7 @@ MD5sum: 2c76f56e2dca619ee54b45ccbe9ee4f2
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
-Version: 7.3.12
+Version: 7.3.13
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 17387
@@ -171,11 +171,11 @@ Depends: python3-pip, python3-dev, python3-jinja2, python3-lxml, python3-venv, l
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.3.12_all.deb
-Size: 820834
-SHA256: badc24e50fc9bbfff21caab9d39dc32dcc42c84af0caa358215581512a11dc12
-SHA1: f2d008fa408fdbd38f3c668ec56f5de947c85c49
-MD5sum: 3e405d138d62104f83c7748b11fd1448
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.3.13_all.deb
+Size: 820848
+SHA256: af46b517089c43d58169f3ea906849e56ba8ce205d435a8dfdf6a80bc0ea0f27
+SHA1: 2fc16daa103c08ce75fb1e1267c448ed0cee9068
+MD5sum: 69d9d827c5aecf307506493471ef3cf4
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
 Package: sophomorix-belwue-mail
