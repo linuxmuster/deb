@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.3.21-0
+Version: 7.3.22-0
 Checksums-Md5:
- c6a5904e5a003d97646558a7c04be53e 583 linuxmuster-base7_7.3.21-0.dsc
- de834157398fba92e2391f4e01face08 58952 linuxmuster-base7_7.3.21-0_all.deb
+ feb34c0a2f72b3d9cd41a87778afc9a3 583 linuxmuster-base7_7.3.22-0.dsc
+ 5194c620656b1bfa3aa3f884e90667f7 58928 linuxmuster-base7_7.3.22-0_all.deb
 Checksums-Sha1:
- 898b87dddfda7cf6d3edd5ca4a872110fcb3d637 583 linuxmuster-base7_7.3.21-0.dsc
- fbe046499ecc018df02f05962c3d6b1a24d195e1 58952 linuxmuster-base7_7.3.21-0_all.deb
+ fda831dd3968d30c9cdb5825681efe5ab17dcaac 583 linuxmuster-base7_7.3.22-0.dsc
+ b1b20d0cf1851b011d0366e82265a3d91c2d26ed 58928 linuxmuster-base7_7.3.22-0_all.deb
 Checksums-Sha256:
- 1a084552177c41906212b53b9f2aa01f8a2686c3cd671c07eeb00103959dbb76 583 linuxmuster-base7_7.3.21-0.dsc
- 2883e3596e41eca02887d8f776c2c9cec47e1de62d1276d9ecf54ae038336771 58952 linuxmuster-base7_7.3.21-0_all.deb
+ 00bbde9f511d6c0d9aa31ab822d2954ec7796a01f0e91e10b5a91d19c8114391 583 linuxmuster-base7_7.3.22-0.dsc
+ ed5dbb6c6cd38496199fd9b672353889c73aebde4b234f5d347a027073a9197e 58928 linuxmuster-base7_7.3.22-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 08 Jul 2025 06:51:01 +0000
+Build-Date: Fri, 18 Jul 2025 12:08:18 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -31,8 +31,8 @@ Installed-Build-Depends:
  binutils (= 2.42-4ubuntu2.5),
  binutils-common (= 2.42-4ubuntu2.5),
  binutils-x86-64-linux-gnu (= 2.42-4ubuntu2.5),
- bsdextrautils (= 2.39.3-9ubuntu6.2),
- bsdutils (= 1:2.39.3-9ubuntu6.2),
+ bsdextrautils (= 2.39.3-9ubuntu6.3),
+ bsdutils (= 1:2.39.3-9ubuntu6.3),
  build-essential (= 12.10ubuntu1),
  bzip2 (= 1.0.8-5.1build0.1),
  clang-16 (= 1:16.0.6-23ubuntu4),
@@ -78,7 +78,7 @@ Installed-Build-Depends:
  gettext-base (= 0.21-14ubuntu2),
  grep (= 3.11-4build1),
  groff-base (= 1.23.0-3build2),
- gzip (= 1.12-1ubuntu3),
+ gzip (= 1.12-1ubuntu3.1),
  hostname (= 3.23+nmu2ubuntu2),
  init-system-helpers (= 1.66ubuntu1),
  install-info (= 7.1-3build2),
@@ -91,7 +91,7 @@ Installed-Build-Depends:
  libaudit-common (= 1:3.1.2-2.1build1.1),
  libaudit1 (= 1:3.1.2-2.1build1.1),
  libbinutils (= 2.42-4ubuntu2.5),
- libblkid1 (= 2.39.3-9ubuntu6.2),
+ libblkid1 (= 2.39.3-9ubuntu6.3),
  libbsd0 (= 0.12.1-1build1.1),
  libbz2-1.0 (= 1.0.8-5.1build0.1),
  libc-bin (= 2.39-0ubuntu8.4),
@@ -149,15 +149,15 @@ Installed-Build-Depends:
  libmagic-mgc (= 1:5.45-3build1),
  libmagic1t64 (= 1:5.45-3build1),
  libmd0 (= 1.1.0-2build1.1),
- libmount1 (= 2.39.3-9ubuntu6.2),
+ libmount1 (= 2.39.3-9ubuntu6.3),
  libmpc3 (= 1.3.1-1build1.1),
  libmpfr6 (= 4.2.1-1build1.1),
  libobjc-13-dev (= 13.3.0-6ubuntu2~24.04),
  libobjc4 (= 14.2.0-4ubuntu2~24.04),
- libpam-modules (= 1.5.3-5ubuntu5.1),
- libpam-modules-bin (= 1.5.3-5ubuntu5.1),
- libpam-runtime (= 1.5.3-5ubuntu5.1),
- libpam0g (= 1.5.3-5ubuntu5.1),
+ libpam-modules (= 1.5.3-5ubuntu5.4),
+ libpam-modules-bin (= 1.5.3-5ubuntu5.4),
+ libpam-runtime (= 1.5.3-5ubuntu5.4),
+ libpam0g (= 1.5.3-5ubuntu5.4),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
  libperl5.38t64 (= 5.38.2-3.2ubuntu0.1),
  libpipeline1 (= 1.5.7-2),
@@ -167,7 +167,7 @@ Installed-Build-Depends:
  libselinux1 (= 3.5-2ubuntu2.1),
  libsframe1 (= 2.42-4ubuntu2.5),
  libsigsegv2 (= 2.14-1ubuntu2),
- libsmartcols1 (= 2.39.3-9ubuntu6.2),
+ libsmartcols1 (= 2.39.3-9ubuntu6.3),
  libssl3t64 (= 3.0.13-0ubuntu3.5),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04),
@@ -180,10 +180,10 @@ Installed-Build-Depends:
  libuchardet0 (= 0.0.8-1build1),
  libudev1 (= 255.4-1ubuntu8.8),
  libunistring5 (= 1.1-2build1.1),
- libuuid1 (= 2.39.3-9ubuntu6.2),
+ libuuid1 (= 2.39.3-9ubuntu6.3),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.3),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-62.65),
+ linux-libc-dev (= 6.8.0-63.66),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -206,7 +206,7 @@ Installed-Build-Depends:
  sensible-utils (= 0.0.22),
  sysvinit-utils (= 3.08-6ubuntu3),
  tar (= 1.35+dfsg-3build1),
- util-linux (= 2.39.3-9ubuntu6.2),
+ util-linux (= 2.39.3-9ubuntu6.3),
  xz-utils (= 5.6.1+really5.4.5-1ubuntu0.2),
  zlib1g (= 1:1.3.dfsg-3.1ubuntu2.1)
 Environment:
@@ -214,4 +214,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1751957371"
+ SOURCE_DATE_EPOCH="1752840049"
