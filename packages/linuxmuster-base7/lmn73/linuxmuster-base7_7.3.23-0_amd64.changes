@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 21 Jul 2025 15:58:25 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.23-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.23-0) lmn73; urgency=low
+ .
+   * linuxmuster-import-subnets: Prefer subprocess over os.system (#121).
+   * add subnet restrictions to ntp.conf (#168).
+   * add ntpsec to package depends (#168).
+Checksums-Sha1:
+ 8958c1c420b8b2f021fbb666714bffdb7f31a2d2 583 linuxmuster-base7_7.3.23-0.dsc
+ 4c37d72d2f4a0dafa0ced14c16356670f759dd9f 88766 linuxmuster-base7_7.3.23-0.tar.gz
+ ab6cf26a89a6b9cb204f7546a5e9b5084f3e5868 59326 linuxmuster-base7_7.3.23-0_all.deb
+ fadc10d8bbaa952ac42aefe48df58a73910e91e5 7715 linuxmuster-base7_7.3.23-0_amd64.buildinfo
+Checksums-Sha256:
+ f088fc021884c4f7e0c26aa7504a647b99726ad27b0f55a798572a505bc13128 583 linuxmuster-base7_7.3.23-0.dsc
+ 1edba0a661c61aa2e4a47106345c535243e448aba98b6b8d378095f8742c1ecb 88766 linuxmuster-base7_7.3.23-0.tar.gz
+ 4da8e5160d802e2c5ac7d223f82b90e855421687ea6488e7291018111595de90 59326 linuxmuster-base7_7.3.23-0_all.deb
+ 89d91e7bae153f28de8a12c52ce9d2b74ec1e6d546955691b8f56c6a10fc31f1 7715 linuxmuster-base7_7.3.23-0_amd64.buildinfo
+Files:
+ 4ff2907733732324596ef7a6a967be01 583 linuxmuster optional linuxmuster-base7_7.3.23-0.dsc
+ 6595aa432a57f456953a33bf53513dc4 88766 linuxmuster optional linuxmuster-base7_7.3.23-0.tar.gz
+ 08760672a07623398992cd26a3de665f 59326 linuxmuster optional linuxmuster-base7_7.3.23-0_all.deb
+ eb04e61c7f37c7f5896d166aa9e7dd00 7715 linuxmuster optional linuxmuster-base7_7.3.23-0_amd64.buildinfo
