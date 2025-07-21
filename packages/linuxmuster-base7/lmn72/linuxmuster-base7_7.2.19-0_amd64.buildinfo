@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.2.18-0
+Version: 7.2.19-0
 Checksums-Md5:
- a15ead62466345edd382db805c85965b 583 linuxmuster-base7_7.2.18-0.dsc
- 499acc348e9ffdd99aa100984ada7026 61946 linuxmuster-base7_7.2.18-0_all.deb
+ cb0fcf101cbd13c74ab26410135f5ab0 583 linuxmuster-base7_7.2.19-0.dsc
+ 321ff3d17def4f23792e80e4ef66a56b 62008 linuxmuster-base7_7.2.19-0_all.deb
 Checksums-Sha1:
- aff35b26cdd29e2ce4bcc0978947e693403727dc 583 linuxmuster-base7_7.2.18-0.dsc
- 4ff316ae5ac4929c2bf28cd662ee352e965e2265 61946 linuxmuster-base7_7.2.18-0_all.deb
+ e5829287bc3d259dbc804e66466f10fabe5aaa4e 583 linuxmuster-base7_7.2.19-0.dsc
+ 64dc46c8c576026899f8dfc4e068f73f33a156a6 62008 linuxmuster-base7_7.2.19-0_all.deb
 Checksums-Sha256:
- 80bdf204a5bba75603c79c641f7b5bcb8c08079f37ae727a29419219a1337904 583 linuxmuster-base7_7.2.18-0.dsc
- 6127effdd2ed9cd2157af87a301338bbfa5f2f340134c8afd524c9baff12b2be 61946 linuxmuster-base7_7.2.18-0_all.deb
+ fbafef365c8c1faf9d02c0c38794308027e23e25bd1af4c5c1f32b6609a204ab 583 linuxmuster-base7_7.2.19-0.dsc
+ 2a7f5fb69db973fec15c7781863a78aebafd40872d7c35b47f27adaea5725ecd 62008 linuxmuster-base7_7.2.19-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 25 Jun 2025 08:31:13 +0000
+Build-Date: Mon, 21 Jul 2025 14:02:11 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -93,7 +93,7 @@ Installed-Build-Depends:
  libblkid1 (= 2.37.2-4ubuntu3.4),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
- libc-bin (= 2.35-0ubuntu3.9),
+ libc-bin (= 2.35-0ubuntu3.10),
  libc-dev-bin (= 2.35-0ubuntu3.10),
  libc6 (= 2.35-0ubuntu3.10),
  libc6-dev (= 2.35-0ubuntu3.10),
@@ -136,14 +136,14 @@ Installed-Build-Depends:
  libgmp10 (= 2:6.2.1+dfsg-3ubuntu1),
  libgomp1 (= 12.3.0-1ubuntu1~22.04),
  libgpg-error0 (= 1.43-3),
- libgssapi-krb5-2 (= 1.19.2-2ubuntu0.6),
+ libgssapi-krb5-2 (= 1.19.2-2ubuntu0.7),
  libicu70 (= 70.1-2),
  libisl23 (= 0.24-2build1),
  libitm1 (= 12.3.0-1ubuntu1~22.04),
- libk5crypto3 (= 1.19.2-2ubuntu0.6),
+ libk5crypto3 (= 1.19.2-2ubuntu0.7),
  libkeyutils1 (= 1.6.1-2ubuntu3),
- libkrb5-3 (= 1.19.2-2ubuntu0.6),
- libkrb5support0 (= 1.19.2-2ubuntu0.6),
+ libkrb5-3 (= 1.19.2-2ubuntu0.7),
+ libkrb5support0 (= 1.19.2-2ubuntu0.7),
  libllvm13 (= 1:13.0.1-2ubuntu2.2),
  libllvm14 (= 1:14.0.0-1ubuntu1.1),
  libllvm15 (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -160,10 +160,10 @@ Installed-Build-Depends:
  libnsl2 (= 1.3.0-2build2),
  libobjc-11-dev (= 11.4.0-1ubuntu1~22.04),
  libobjc4 (= 12.3.0-1ubuntu1~22.04),
- libpam-modules (= 1.4.0-11ubuntu2.5),
- libpam-modules-bin (= 1.4.0-11ubuntu2.5),
- libpam-runtime (= 1.4.0-11ubuntu2.5),
- libpam0g (= 1.4.0-11ubuntu2.5),
+ libpam-modules (= 1.4.0-11ubuntu2.6),
+ libpam-modules-bin (= 1.4.0-11ubuntu2.6),
+ libpam-runtime (= 1.4.0-11ubuntu2.6),
+ libpam0g (= 1.4.0-11ubuntu2.6),
  libpcre2-8-0 (= 10.39-3ubuntu0.1),
  libpcre3 (= 2:8.39-13ubuntu0.22.04.1),
  libperl5.34 (= 5.34.0-3ubuntu1.4),
@@ -178,7 +178,7 @@ Installed-Build-Depends:
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 12.3.0-1ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 249.11-0ubuntu3.15),
+ libsystemd0 (= 249.11-0ubuntu3.16),
  libtinfo6 (= 6.3-2ubuntu0.1),
  libtirpc-common (= 1.3.2-2ubuntu0.1),
  libtirpc-dev (= 1.3.2-2ubuntu0.1),
@@ -188,12 +188,12 @@ Installed-Build-Depends:
  libtsan2 (= 12.3.0-1ubuntu1~22.04),
  libubsan1 (= 12.3.0-1ubuntu1~22.04),
  libuchardet0 (= 0.0.7-1build2),
- libudev1 (= 249.11-0ubuntu3.15),
+ libudev1 (= 249.11-0ubuntu3.16),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.7),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-141.151),
+ linux-libc-dev (= 5.15.0-143.153),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1750840161"
+ SOURCE_DATE_EPOCH="1753106462"
