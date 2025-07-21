@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 21 Jul 2025 19:07:41 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.20-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.20-0) lmn72; urgency=low
+ .
+   * intercept release upgrade failures (0dc9855).
+Checksums-Sha1:
+ f16e6761fc3c9b485a40ec5c921b8223079cc7ef 583 linuxmuster-base7_7.2.20-0.dsc
+ f52da14d324ce7611d0184b1c91e1d9f627a6783 82380 linuxmuster-base7_7.2.20-0.tar.gz
+ 6a204d559c10feca7cdf27fde031a4869c3fe1f3 62094 linuxmuster-base7_7.2.20-0_all.deb
+ 8694a50fa9ed6a278f22bd1585dc0b85f3280b90 7920 linuxmuster-base7_7.2.20-0_amd64.buildinfo
+Checksums-Sha256:
+ 5776ef5ecfe4e08d59b809878d27686a5192edb915a350037f4f6ea8e19b0701 583 linuxmuster-base7_7.2.20-0.dsc
+ b7616dedf7b97f59c4def9e8cc7a8c8cdfca46a2774ffc66c338fa5eb7a09a07 82380 linuxmuster-base7_7.2.20-0.tar.gz
+ 64159c36bda96441e81288e815ca7e1e8b73c0595a6880e7a342ac84615ca93b 62094 linuxmuster-base7_7.2.20-0_all.deb
+ 35436e3efa06632cd01d3b565d2829568723c9ccfa95c5762192dff2cad92fe5 7920 linuxmuster-base7_7.2.20-0_amd64.buildinfo
+Files:
+ 78d45c85d2f6beaf75c9ac567fee433e 583 linuxmuster optional linuxmuster-base7_7.2.20-0.dsc
+ a43bc6c3d81eb05ebde68aeb669372ad 82380 linuxmuster optional linuxmuster-base7_7.2.20-0.tar.gz
+ d3a043fc4664685d9b7a8ce95aa8d393 62094 linuxmuster optional linuxmuster-base7_7.2.20-0_all.deb
+ a53b06531379fd2290706337d3873717 7920 linuxmuster optional linuxmuster-base7_7.2.20-0_amd64.buildinfo
