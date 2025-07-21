@@ -2,15 +2,15 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all
-Version: 7.3.22-0
+Version: 7.3.23-0
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Standards-Version: 5.0.0
 Build-Depends: debhelper (>= 5.0.0)
 Package-List:
  linuxmuster-base7 deb linuxmuster optional arch=all
 Checksums-Sha1:
- ffdc0d0881bb82f807e49b44340ca05054a5ca96 88279 linuxmuster-base7_7.3.22-0.tar.gz
+ 4c37d72d2f4a0dafa0ced14c16356670f759dd9f 88766 linuxmuster-base7_7.3.23-0.tar.gz
 Checksums-Sha256:
- 04ad367e21f7d2a02f70862859d3206798c44e33cb24faf1d0ce990677704f72 88279 linuxmuster-base7_7.3.22-0.tar.gz
+ 1edba0a661c61aa2e4a47106345c535243e448aba98b6b8d378095f8742c1ecb 88766 linuxmuster-base7_7.3.23-0.tar.gz
 Files:
- 57bc0886bc169cd00357614b64f76f0a 88279 linuxmuster-base7_7.3.22-0.tar.gz
+ 6595aa432a57f456953a33bf53513dc4 88766 linuxmuster-base7_7.3.23-0.tar.gz
