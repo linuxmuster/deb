@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 23 Jul 2025 19:27:02 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.8
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.8) lmn73; urgency=medium
+ .
+   * Add sample config file
+   * Consolidate host authentication
+   * Add config parameter to enable or disable host authentication
+   * Add parents to students responses
+   * Ensure config file permissions
+Checksums-Sha1:
+ 89ef33f61b2ca40001e78bbee0a9a418e1c62ded 564 linuxmuster-api7_7.3.8.dsc
+ d5348ca4040f79cf6c0cb7f33de62a46884058b2 54889 linuxmuster-api7_7.3.8.tar.gz
+ a68e7429a940cab9240dab80f0dd154961557cce 39388 linuxmuster-api7_7.3.8_all.deb
+ cb653010bddb5af00c95ae27e7b90141844899b2 7597 linuxmuster-api7_7.3.8_amd64.buildinfo
+Checksums-Sha256:
+ ef76706631fc65a42d5223e96a71896fef645834536fbacc2cfb38bed177afac 564 linuxmuster-api7_7.3.8.dsc
+ e6dd7254b6fe1ad9fb6062073f3fe41cad53cd779656eaae913d43017dce323c 54889 linuxmuster-api7_7.3.8.tar.gz
+ c138022d71f1a035c377002b7b9d85f04d91f1122891136848da12d18e5e61fe 39388 linuxmuster-api7_7.3.8_all.deb
+ 2928cbdb4d5af0f48b0fc53eea66c722f5e3c937a168facbf0c46cabff04f513 7597 linuxmuster-api7_7.3.8_amd64.buildinfo
+Files:
+ 66457e0730a24fbd0ab2599bfee817d0 564 linuxmuster optional linuxmuster-api7_7.3.8.dsc
+ 825e8adda31d5c52d271721000b68cbe 54889 linuxmuster optional linuxmuster-api7_7.3.8.tar.gz
+ 49f01a5de892ed77043f0f0681a53e2f 39388 linuxmuster optional linuxmuster-api7_7.3.8_all.deb
+ 1a65d0afcc7a00e54934d79e8a10070f 7597 linuxmuster optional linuxmuster-api7_7.3.8_amd64.buildinfo
