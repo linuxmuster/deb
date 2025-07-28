@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.3.15
+Version: 7.3.16
 Checksums-Md5:
- 5058c9e1e0ac07803dc3da568e69ec3a 565 linuxmuster-webui7_7.3.15.dsc
- 6dd9001cc39ebbbd788507a95d833992 828376 linuxmuster-webui7_7.3.15_all.deb
+ 2c1c8bd452c545549333e8938e48aa3c 565 linuxmuster-webui7_7.3.16.dsc
+ e1c1d641e19239b7b844a3eae01190f6 828620 linuxmuster-webui7_7.3.16_all.deb
 Checksums-Sha1:
- 4a79b1c94dd421f695b691391bed9a106412bdb1 565 linuxmuster-webui7_7.3.15.dsc
- d248e0081f42702d3efb27c77ad961b9a493d009 828376 linuxmuster-webui7_7.3.15_all.deb
+ b643fdd629f024ddea6a6792c9020cd875eb2717 565 linuxmuster-webui7_7.3.16.dsc
+ 02f721aa51c78d7ffdc0c39290c1e210d1ec4e94 828620 linuxmuster-webui7_7.3.16_all.deb
 Checksums-Sha256:
- 67f93d4fb9e1ffe8e7fc63f9c22b9c8f57999319c3f38269732cedaece3c1628 565 linuxmuster-webui7_7.3.15.dsc
- c214a09b35e742bd5c39eed962f01ab87a7a3f01ec0a8ae0ef1306776a4c702a 828376 linuxmuster-webui7_7.3.15_all.deb
+ 501bea43a0a362df56a5938975c020c1a1d7bd7e33b6eaa994f81dd31593ac3f 565 linuxmuster-webui7_7.3.16.dsc
+ 9e05f3c4090482990697f534a09e070f3052aae84751c5d50a2bbedbe3ae7dd1 828620 linuxmuster-webui7_7.3.16_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 23 Jul 2025 17:28:38 +0000
+Build-Date: Mon, 28 Jul 2025 16:51:31 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -95,10 +95,10 @@ Installed-Build-Depends:
  libblkid1 (= 2.39.3-9ubuntu6.3),
  libbsd0 (= 0.12.1-1build1.1),
  libbz2-1.0 (= 1.0.8-5.1build0.1),
- libc-bin (= 2.39-0ubuntu8.4),
- libc-dev-bin (= 2.39-0ubuntu8.4),
- libc6 (= 2.39-0ubuntu8.4),
- libc6-dev (= 2.39-0ubuntu8.4),
+ libc-bin (= 2.39-0ubuntu8.5),
+ libc-dev-bin (= 2.39-0ubuntu8.5),
+ libc6 (= 2.39-0ubuntu8.5),
+ libc6-dev (= 2.39-0ubuntu8.5),
  libcap-ng0 (= 0.8.4-2build2),
  libcap2 (= 1:2.66-5ubuntu2.2),
  libcc1-0 (= 14.2.0-4ubuntu2~24.04),
@@ -174,18 +174,18 @@ Installed-Build-Depends:
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04),
  libsub-override-perl (= 0.10-1),
- libsystemd0 (= 255.4-1ubuntu8.8),
+ libsystemd0 (= 255.4-1ubuntu8.10),
  libtinfo6 (= 6.4+20240113-1ubuntu2),
  libtool (= 2.4.7-7build1),
  libtsan2 (= 14.2.0-4ubuntu2~24.04),
  libubsan1 (= 14.2.0-4ubuntu2~24.04),
  libuchardet0 (= 0.0.8-1build1),
- libudev1 (= 255.4-1ubuntu8.8),
+ libudev1 (= 255.4-1ubuntu8.10),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.3),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.3),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-63.66),
+ linux-libc-dev (= 6.8.0-64.67),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -216,4 +216,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1753291081"
+ SOURCE_DATE_EPOCH="1753721368"
