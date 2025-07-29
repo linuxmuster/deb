@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Tue, 29 Jul 2025 17:40:43 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.17
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.17) lmn73; urgency=medium
+ .
+   * Upgrade to Ajenti 2.2.11
+   * [settings] Tab to list and delete 2FA keys
+Checksums-Sha1:
+ f26a9c9b4d4d6ab7b57cd87276644650e08e3baa 565 linuxmuster-webui7_7.3.17.dsc
+ 28806562d4dc6cc10a43164f04d8c385252cb474 1587229 linuxmuster-webui7_7.3.17.tar.gz
+ 8d2b8f575ad2bb3de8cff8d1994d596a957aa640 828432 linuxmuster-webui7_7.3.17_all.deb
+ 968b3b84c9feee04f6b6a4d93660f7dac7e18116 7672 linuxmuster-webui7_7.3.17_amd64.buildinfo
+Checksums-Sha256:
+ 8dcbd6e5625a44ca0e6576110613d2b7bbb89a6e21d47d95609ec50c84faab8e 565 linuxmuster-webui7_7.3.17.dsc
+ 658df02eb89515b285627fd665899f5407272a8872b0cc08e7d28d5df3abbeee 1587229 linuxmuster-webui7_7.3.17.tar.gz
+ 566a0c9c57e51db8448e1cde18f66d84d55d3edec937ca661b3b364659e1c7fd 828432 linuxmuster-webui7_7.3.17_all.deb
+ 767627e679617d2de18c8d9befda2bd924026a60e77db0bf840d4917606fde0a 7672 linuxmuster-webui7_7.3.17_amd64.buildinfo
+Files:
+ f8e7c16458d9b95e7250e0b2cb040e66 565 admin optional linuxmuster-webui7_7.3.17.dsc
+ 35d190bc25aaf71c51394e6518f8bfda 1587229 admin optional linuxmuster-webui7_7.3.17.tar.gz
+ 861813a2a69659a2a8a294327d1142f1 828432 admin optional linuxmuster-webui7_7.3.17_all.deb
+ b6df2f19c4842ac0311ffe39a61a131a 7672 admin optional linuxmuster-webui7_7.3.17_amd64.buildinfo
