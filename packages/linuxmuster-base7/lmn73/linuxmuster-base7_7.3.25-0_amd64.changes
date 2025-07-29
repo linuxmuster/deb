@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 29 Jul 2025 22:04:55 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.25-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.25-0) lmn73; urgency=low
+ .
+   * fix "#" and allow "@" in passwords (ccc14a3).
+Checksums-Sha1:
+ 2a533135b6341ae1deb0dd326f4605f274831c63 583 linuxmuster-base7_7.3.25-0.dsc
+ ca8db419a7bcf2349b56c5b6c6e2ab6ab6d4e579 88729 linuxmuster-base7_7.3.25-0.tar.gz
+ ee6e59729eff0de1e6355fde0f766e2752beef12 59334 linuxmuster-base7_7.3.25-0_all.deb
+ eaf68785c6d004dae0543d77ebb9ea0653515dc3 7717 linuxmuster-base7_7.3.25-0_amd64.buildinfo
+Checksums-Sha256:
+ 67826ea53e131f203ec98a571ffe15ff7738e7d35756b36a130d59e879108945 583 linuxmuster-base7_7.3.25-0.dsc
+ 9a11b19b5735b35e265fab93ef59c0badaa43e0f61d753d88673ec99b7711a31 88729 linuxmuster-base7_7.3.25-0.tar.gz
+ ed8de9a6bc1d21a29b2b082ba9a56a5a9f6af1373e3e756751d444bb4f4c9bae 59334 linuxmuster-base7_7.3.25-0_all.deb
+ 2efa45db1ecc2d590ffe7fa31bee146c043d7c7c784e9beabb93e88b4a1a3697 7717 linuxmuster-base7_7.3.25-0_amd64.buildinfo
+Files:
+ 1208d489491f746d39be6cd781a7626e 583 linuxmuster optional linuxmuster-base7_7.3.25-0.dsc
+ 39c720340ab8d8b1baad01c4e6066634 88729 linuxmuster optional linuxmuster-base7_7.3.25-0.tar.gz
+ 7cfc139e8ca56940dcd78fbc1afb22d5 59334 linuxmuster optional linuxmuster-base7_7.3.25-0_all.deb
+ 0c16ef8cd85fbfdd7839459dd679ffdc 7717 linuxmuster optional linuxmuster-base7_7.3.25-0_amd64.buildinfo
