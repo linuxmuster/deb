@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 08 Aug 2025 22:21:08 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.20-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.20-0) lmn73; urgency=low
+ .
+   * improve uniform device names replacement in downloaded start.conf (#126).
+   * remove deprecated grub module linuxefi from config (5bd6a63).
+   * efiboot fixes and improvements (19ffe74):
+     - fix efiboot entry for linux systems.
+     - rename linbo efiboot entry from grub to LINBO.
+     - add efipxe kernel parameter to force efi bootorder to boot pxe first.
+Checksums-Sha1:
+ 1b423563843fd937d0ea44bbef262273ee88b90b 2050 linuxmuster-linbo7_4.3.20-0.dsc
+ 0f4dfe2d625fc0a3c68ac541b6280a731bf69fef 2050417 linuxmuster-linbo7_4.3.20-0.tar.gz
+ ee8a3089ef1edcc05b0d002df1373ab7e11d9b19 92336220 linuxmuster-linbo7_4.3.20-0_all.deb
+ 5c777da9978edc5c06c7c4c05796aa03923430d1 15839 linuxmuster-linbo7_4.3.20-0_amd64.buildinfo
+Checksums-Sha256:
+ 270839cf04a02214a27388287c82dac2bf25d28f51fa1ca68e8fa184cf8264ee 2050 linuxmuster-linbo7_4.3.20-0.dsc
+ 0b9604636a9c491840c013dc9117eee5c9de9e9ec590401092bbce6d18448b08 2050417 linuxmuster-linbo7_4.3.20-0.tar.gz
+ 9bef605a3759ee26281e8b48fa25f6df8ca2b27ce49e01de6a2e595c9a39dc54 92336220 linuxmuster-linbo7_4.3.20-0_all.deb
+ 0899f7b52ca68570c0d61ec57ee34aa8d493beefc3f892522b1c2d6c902c2019 15839 linuxmuster-linbo7_4.3.20-0_amd64.buildinfo
+Files:
+ 92e7453f4feae2df5ca1168bb2c3e78c 2050 admin extra linuxmuster-linbo7_4.3.20-0.dsc
+ a56d3f2849e4497c53db2b1796d34509 2050417 admin extra linuxmuster-linbo7_4.3.20-0.tar.gz
+ 22fe373a7ec9178628dce4f4b55791d8 92336220 admin extra linuxmuster-linbo7_4.3.20-0_all.deb
+ 84ef2d34972a657b5ed18deeb54248c8 15839 admin extra linuxmuster-linbo7_4.3.20-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmiWXEIXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLK07Av7BkAbK3Bl/2g5+r9TkgSUgcAR
+4yUiCxm3QrnQaZ9/sF/stje5JDoy80GHplATXzTJrkGw7UiJ7YSKaUBAmh8Ja8cO
+kXRv+tp+zut4LVRMULaTltLa/7wLd34beLlgH3eFbmVNRE0YvWieSQPib/96uhfV
++ngbF8TsIIqvJtJ/iP9AV24quzRJt42P82PEjPisHibYSIz5qB34CWykWVZXvQBZ
+HZR42zPz/igYVEzVe4etZF5RNwePk8Vdo3hypM/e2D9IDe49wd6ypnXPUo34pap8
+MNUZL7VHvNmqoke62Gou+H2slYn/1d069D606NjFAvwt3lE12vBFzBmqyuYz3RD1
+SnmVOnO5svee/CixzIohquk1zpzZkHdIhKOc0s93PO6nURsDdAp1wC5/7jxInvhB
+zxeIxZA5YZfG8FbfrLXTJBkvdklwn4buBXQJwSs1oxii6FKCGSzrzwKCgRzfxekH
+macZTYjsXNYfL9LgSf/wGKFbXiUhr2xCNyBgW+ui
+=mKsS
+-----END PGP SIGNATURE-----
