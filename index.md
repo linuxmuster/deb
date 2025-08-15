@@ -15,16 +15,16 @@ This is the Linuxmuter.net archive. It is the place where you can get the latest
 # Packages
 This repo currently contains the following packages:
 - [leoclient2](https://github.com/linuxmuster/leoclient2) (lmn71-testing)
-- [base7](https://github.com/linuxmuster/linuxmuster-base7) (lmn71,lmn72)
-- [linbo-gui7](https://github.com/linuxmuster/linuxmuster-linbo-gui7) (lmn71,lmn72)
-- [linbo7](https://github.com/linuxmuster/linuxmuster-linbo7) (lmn71, lmn71-testing, lmn72)
-- [linuxclient7](https://github.com/linuxmuster/linuxmuster-linuxclient7) (lmn71)
-- [prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71)
-- [webui7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71, lmn72)
-- [sophomorix4](https://github.com/linuxmuster/sophomorix4) (lmn71, lmn71-testing)
-- [tools](https://github.com/linuxmuster/linuxmuster-tools) (lmn72)
-- [cli](https://github.com/linuxmuster/linuxmuster-cli) (lmn72)
-- [api](https://github.com/linuxmuster/linuxmuster-api) (lmn72)
+- [base7](https://github.com/linuxmuster/linuxmuster-base7) (lmn71,lmn72,lmn73)
+- [linbo-gui7](https://github.com/linuxmuster/linuxmuster-linbo-gui7) (lmn71,lmn72,lmn73)
+- [linbo7](https://github.com/linuxmuster/linuxmuster-linbo7) (lmn71, lmn71-testing,lmn72,lmn73)
+- [linuxclient7](https://github.com/linuxmuster/linuxmuster-linuxclient7) (lmn71,lmn72,lmn73)
+- [prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71,lmn72,lmn73)
+- [webui7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71, lmn72,lmn73)
+- [sophomorix-samba](https://github.com/linuxmuster/sophomorix-samba) (lmn72,lmn73)
+- [tools](https://github.com/linuxmuster/linuxmuster-tools) (lmn72,lmn73)
+- [cli](https://github.com/linuxmuster/linuxmuster-cli) (lmn72,lmn73)
+- [api](https://github.com/linuxmuster/linuxmuster-api) (lmn72,lmn73)
  
 # Setup
 
@@ -43,9 +43,9 @@ sudo wget -qO- "https://deb.linuxmuster.net/pub.gpg" | gpg --dearmour -o /usr/sh
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/linuxmuster.net.gpg] https://deb.linuxmuster.net/ lmn71 main" > /etc/apt/sources.list.d/lmn71.list'
 ```
 
-### Linuxmuster 7.2 testing
+### Linuxmuster 7.3
 ```bash
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/linuxmuster.net.gpg] https://deb.linuxmuster.net/ lmn72 main" > /etc/apt/sources.list.d/lmn72.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/linuxmuster.net.gpg] https://deb.linuxmuster.net/ lmn73 main" > /etc/apt/sources.list.d/lmn73.list'
 ```
 
 ## 3. Apt update
