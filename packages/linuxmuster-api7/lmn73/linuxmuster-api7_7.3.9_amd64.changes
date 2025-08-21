@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 21 Aug 2025 11:30:51 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.9
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.9) lmn73; urgency=medium
+ .
+   * Optional flag members_details for session members
+Checksums-Sha1:
+ da5808c06e58b490cc03bac5b06e1b6037c1daaf 564 linuxmuster-api7_7.3.9.dsc
+ 2d435f3dcc80ab940f850caf2d466ffdb900f02d 54900 linuxmuster-api7_7.3.9.tar.gz
+ 3692cb1d7675e5dfcbc0ab319062dd67ef6b2055 39436 linuxmuster-api7_7.3.9_all.deb
+ d7ad387969f787bcd3f9759f489186886974a77d 7599 linuxmuster-api7_7.3.9_amd64.buildinfo
+Checksums-Sha256:
+ ea64a613f60eeb1a25406837b9345019123c206b99ee1ee327b135222acdf873 564 linuxmuster-api7_7.3.9.dsc
+ a1249ba236f0b54eda16af642cd7cc7f91480862dab1625605555047e7324443 54900 linuxmuster-api7_7.3.9.tar.gz
+ cf081cfe39e075adfc22a43ff378eb2e0f6cbb2718eae5e93a9ceed1dec9fcac 39436 linuxmuster-api7_7.3.9_all.deb
+ c42d7310d695463f9c1776c5473c42c91348edde97b21f0447a1c244e88d7c95 7599 linuxmuster-api7_7.3.9_amd64.buildinfo
+Files:
+ 6823ed4b999a6641cfd98d55049f3475 564 linuxmuster optional linuxmuster-api7_7.3.9.dsc
+ 13992eb3495bfe4b7dde1b5dc26483b8 54900 linuxmuster optional linuxmuster-api7_7.3.9.tar.gz
+ e5d78da35a534b3e5c403433e44ce420 39436 linuxmuster optional linuxmuster-api7_7.3.9_all.deb
+ 4d97e1f77931364abe02496becac95ae 7599 linuxmuster optional linuxmuster-api7_7.3.9_amd64.buildinfo
