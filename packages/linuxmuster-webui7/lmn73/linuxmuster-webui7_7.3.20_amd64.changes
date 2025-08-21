@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 21 Aug 2025 11:17:43 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.20
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.20) lmn73; urgency=medium
+ .
+   * Fix creation of Ajenti config dir
+   * [users] Fix print all users als CSV
+Checksums-Sha1:
+ 94406935621501d66aafb59b96565d5597016c92 565 linuxmuster-webui7_7.3.20.dsc
+ a364e87e408ed59db985a767fcd94cc6d0734f59 1588430 linuxmuster-webui7_7.3.20.tar.gz
+ 056361e1f032287158365d8e7d84ac3c494a6912 828684 linuxmuster-webui7_7.3.20_all.deb
+ a1d223e7ee8ca8ea7a306cc7c56bdb4df19af929 7672 linuxmuster-webui7_7.3.20_amd64.buildinfo
+Checksums-Sha256:
+ a8b6995883460baa931cd43dd1c5e9992a69f4de513190b9cf4c2cb2de9f1e30 565 linuxmuster-webui7_7.3.20.dsc
+ 12ad3c0e5788732f33dc5654071a7ceec2ec189f88afa1ae7cfcd2b2af945d64 1588430 linuxmuster-webui7_7.3.20.tar.gz
+ efa448964cf8eaddbd2ba5a6f411618c5eb8394e7b423dae16acf231b485cec5 828684 linuxmuster-webui7_7.3.20_all.deb
+ 1194a899d6e344e6e6d359d46a9595b7a5b6deb24d1dc69b9f00ac1e578859cf 7672 linuxmuster-webui7_7.3.20_amd64.buildinfo
+Files:
+ 6e8407dfe6e92660e44a6ffe6d0d126d 565 admin optional linuxmuster-webui7_7.3.20.dsc
+ a9b45449663e45450b7f9398689b8ef6 1588430 admin optional linuxmuster-webui7_7.3.20.tar.gz
+ 584260b02bb3a68b8e57f98ca81716f8 828684 admin optional linuxmuster-webui7_7.3.20_all.deb
+ 61f73a9aefcee203629a0fa142ff98c1 7672 admin optional linuxmuster-webui7_7.3.20_amd64.buildinfo
