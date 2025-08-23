@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 23 Aug 2025 22:43:01 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.21
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.21) lmn73; urgency=medium
+ .
+   * [linbo4] Fix typo
+Checksums-Sha1:
+ 45442775557e9fee141701a79af6a0a39cba789b 565 linuxmuster-webui7_7.3.21.dsc
+ f872b71d116ae9b4c3dbdca8b3d49f418b348401 1588374 linuxmuster-webui7_7.3.21.tar.gz
+ 5856333e8a0aee9e45086486f2f7a7219c01f2a8 828696 linuxmuster-webui7_7.3.21_all.deb
+ f50f4c5e846bcdb073647c1f3d57ad5083984ad6 7672 linuxmuster-webui7_7.3.21_amd64.buildinfo
+Checksums-Sha256:
+ 6e303c120ebd3c104e27a825540f0deb8f2fa57b01ba9659bc1c08d88d5e76bf 565 linuxmuster-webui7_7.3.21.dsc
+ 2b0673e3cf653b86cbccc43c0f7219470439a4fded20e40625336aee0ac09699 1588374 linuxmuster-webui7_7.3.21.tar.gz
+ 8bdf72fe3db239072e2b224ab9e8ec2101c3343884ed5547c1a0daf1938243d3 828696 linuxmuster-webui7_7.3.21_all.deb
+ f18cb9fdc816b759579dc418c223a3dd466b847979b876b8545426f0636ce662 7672 linuxmuster-webui7_7.3.21_amd64.buildinfo
+Files:
+ 41bc7ec4e77cf84ecf404755c92cbf2c 565 admin optional linuxmuster-webui7_7.3.21.dsc
+ ab296257aa9d61adf14e929ba915e852 1588374 admin optional linuxmuster-webui7_7.3.21.tar.gz
+ 1e0af2f4768dddcde394c052caf29db2 828696 admin optional linuxmuster-webui7_7.3.21_all.deb
+ a20e4d7b6a6226294d25eddce170390f 7672 admin optional linuxmuster-webui7_7.3.21_amd64.buildinfo
