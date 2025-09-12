@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 10 Sep 2025 14:57:42 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.26-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.26-0) lmn73; urgency=low
+ .
+   * change codename to "production" (43a80f1).
+   * fix #169: Add Subject Alternative Name (SAN) in default linuxmuster server certificate.
+Checksums-Sha1:
+ eee7205f71ac0537ab3c92023721f9d57979af79 583 linuxmuster-base7_7.3.26-0.dsc
+ 2a2bc59716c2f9048cc032a636b598b68796a9b0 88925 linuxmuster-base7_7.3.26-0.tar.gz
+ 3b729aa3b2e55801cb8963fd8593b43b63f6d2eb 59562 linuxmuster-base7_7.3.26-0_all.deb
+ 8dc7239fe33f2775761c7ffe9d3c5526dce4f1fc 7737 linuxmuster-base7_7.3.26-0_amd64.buildinfo
+Checksums-Sha256:
+ f650508282617bb57e640e8d72d7a0fc357f2b4a8baaf7c8bf21e9efe7ada1a5 583 linuxmuster-base7_7.3.26-0.dsc
+ 4a290d7cd6e118ceab421ef10d4244c93fb5eb019601acd1417c023986733734 88925 linuxmuster-base7_7.3.26-0.tar.gz
+ 33320c8311a0f505c55bde0ffef51f60f27cf2a28bffba331b1163dff8c15f9b 59562 linuxmuster-base7_7.3.26-0_all.deb
+ 875f3d21c358159cd8713b95189601876d15121eca4e2209b94acd3ce983e582 7737 linuxmuster-base7_7.3.26-0_amd64.buildinfo
+Files:
+ 79ef2e427bdd2dabd0f72539795a5b6b 583 linuxmuster optional linuxmuster-base7_7.3.26-0.dsc
+ 011836172f53b0edeeedd2e7bec5bc8d 88925 linuxmuster optional linuxmuster-base7_7.3.26-0.tar.gz
+ a00543c0c8a586980c9d546327ccdc42 59562 linuxmuster optional linuxmuster-base7_7.3.26-0_all.deb
+ 4c033e60cec9a4dd8efd7de443d2dcd9 7737 linuxmuster optional linuxmuster-base7_7.3.26-0_amd64.buildinfo
