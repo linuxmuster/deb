@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 13 Sep 2025 11:33:49 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.23
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.23) lmn73; urgency=medium
+ .
+   * Fix import error with zope.event
+   * [settings] Add useful hints about templates
+Checksums-Sha1:
+ 1c1f1a9e3b7b3b11444342e626cd56355fba5c66 565 linuxmuster-webui7_7.3.23.dsc
+ ddbd7da68d294facd5cea628c7782614d2f66b0f 1606440 linuxmuster-webui7_7.3.23.tar.gz
+ 379db4cbd43816b29c9b6ce07f8b1f2dc86cfe62 828862 linuxmuster-webui7_7.3.23_all.deb
+ 34faf703aa2398079a50bc3fcc94e6fc88c2a287 7692 linuxmuster-webui7_7.3.23_amd64.buildinfo
+Checksums-Sha256:
+ 8e684ff5342e76725b013011230295e02bf85369d301c5cd42f2267b804faaae 565 linuxmuster-webui7_7.3.23.dsc
+ 1980e9f823fc39d7785245c981b5f2763f35f5fdfa8d9ccbdde4f7d9a1db0c8c 1606440 linuxmuster-webui7_7.3.23.tar.gz
+ ada05f43241332aec2bef554fa4bab28acbe080c20aded8db50c69ad04663b76 828862 linuxmuster-webui7_7.3.23_all.deb
+ f5c9b0f90cd87b7f197dd6027ca9a16b62d426910ce05e57c91166dafb645441 7692 linuxmuster-webui7_7.3.23_amd64.buildinfo
+Files:
+ a7fdb0003b07dbd004ec037158ba6780 565 admin optional linuxmuster-webui7_7.3.23.dsc
+ d9cd76e29e747f9f4b0cb7989dc14557 1606440 admin optional linuxmuster-webui7_7.3.23.tar.gz
+ 9477d6a15ea3f0ea9669ca887c16a73e 828862 admin optional linuxmuster-webui7_7.3.23_all.deb
+ 4b33d2812cb216aa00e55b39b6aefa03 7692 admin optional linuxmuster-webui7_7.3.23_amd64.buildinfo
