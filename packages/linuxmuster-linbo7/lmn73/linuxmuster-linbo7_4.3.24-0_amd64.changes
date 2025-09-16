@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 16 Sep 2025 20:10:03 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.24-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.24-0) lmn73; urgency=low
+ .
+   * nogui mode improvements (372ef5d, 978c57d, 98f2161).
+   * add tmux to linbofs (ba2ebef).
+   * linbo_readfile: improved error handling (6582e4f).
+   * better linbofs locale support (f40fbf4).
+   * update win11.global.reg (bf0b4a5, 0841de2).
+   * harvest-app.sh: avoid archving of libs which are already in linbofs (f623f16).
+Checksums-Sha1:
+ 8f7abcb62d9c6b8ebc417673a6c55927f2592cc4 2056 linuxmuster-linbo7_4.3.24-0.dsc
+ 4fa9917162604bf48fc7aadb5e353417b2f9d5a7 2051795 linuxmuster-linbo7_4.3.24-0.tar.gz
+ f02e1320eb74da3688f6159ef024409b913eb318 93014458 linuxmuster-linbo7_4.3.24-0_all.deb
+ 8c3dd79fe7aa6bbaf308eed2211c18f3b14c2afb 15960 linuxmuster-linbo7_4.3.24-0_amd64.buildinfo
+Checksums-Sha256:
+ 86f158378ba5a9f7dc5ac648ddc01545b5089b3b6921c403d3e6c74c6037f5db 2056 linuxmuster-linbo7_4.3.24-0.dsc
+ 7db5ede9795ae465dc2ad125dd110e97930a64b9a639bc7fab8d70e070cea69b 2051795 linuxmuster-linbo7_4.3.24-0.tar.gz
+ 61d35f9a4d6a4ae46465fc2956175d673b345b61f8c3eb157badc631c27f3c8e 93014458 linuxmuster-linbo7_4.3.24-0_all.deb
+ db77dafabbf51c6715331da35060c2a9cabc3c10738033513d758ae9b7e5e7c1 15960 linuxmuster-linbo7_4.3.24-0_amd64.buildinfo
+Files:
+ 7f7e6d2ff7f53aa1194297975d7d1511 2056 admin extra linuxmuster-linbo7_4.3.24-0.dsc
+ 7489b3c8b2b6bf812ffe9fdbe0b71890 2051795 admin extra linuxmuster-linbo7_4.3.24-0.tar.gz
+ beeff3a6a788219eb31c5912b6b2b49c 93014458 admin extra linuxmuster-linbo7_4.3.24-0_all.deb
+ 0524752640da61a978199d2d5ebb9a58 15960 admin extra linuxmuster-linbo7_4.3.24-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmjJqAkXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLLmtwwAmy4/AA5N7lr4w0uXIHn3/aIH
+VXQjzyAauS3nJSJOuVlXSSFKy3fWjJfaCYNhBhK0zb7lmUMX+U+0hhF/7qF2ACEE
+Zf2GIMCmNIWr/YVx1e8VsSUedxVSuqFA1GeOzohmQFv5f3UO2iL6IJRZkiZmawXG
+vWPDy5O0pP+xaFFxJ8Dd8/nTQHIiyBmiXXqzNt1m8tWtf8R3boDugVF7F5aPlNVp
+FoO49sU1c618QcjrbgNdQ/KZT+iPtzjUqDf0ZCsbCbUUH/CTDLCLPqGlM8ygCgda
+RvkioKpz6NSdcIc0eNAyWCrwbB2xLsXDfJ5h9PaZRkLi2V2gaUKnMuOEIGPK9Sf8
+GP9y8dn3g4y07MBLXvFxizdU8tgPzLnaoY2q2sm5peWKP5XIeBEGpc9c+Da+WHkw
+GHHtbPu+orAbNNWuaT5M2RpfguLH0bJruksFtZuld6OVwezVLniV4eCHQWV9M4NO
+HSFALXHhbIplGDfS0XW/csz7WDqkySKaf92YdJo1
+=NN35
+-----END PGP SIGNATURE-----
