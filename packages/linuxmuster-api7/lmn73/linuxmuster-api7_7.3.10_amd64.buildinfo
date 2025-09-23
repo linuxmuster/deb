@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-api7
 Binary: linuxmuster-api7
 Architecture: all source
-Version: 7.3.9
+Version: 7.3.10
 Checksums-Md5:
- 6823ed4b999a6641cfd98d55049f3475 564 linuxmuster-api7_7.3.9.dsc
- e5d78da35a534b3e5c403433e44ce420 39436 linuxmuster-api7_7.3.9_all.deb
+ 621ca43ebdbadfbd4921102f72d6b75f 568 linuxmuster-api7_7.3.10.dsc
+ 431ff229d21e2d488f578d81a4667665 39470 linuxmuster-api7_7.3.10_all.deb
 Checksums-Sha1:
- da5808c06e58b490cc03bac5b06e1b6037c1daaf 564 linuxmuster-api7_7.3.9.dsc
- 3692cb1d7675e5dfcbc0ab319062dd67ef6b2055 39436 linuxmuster-api7_7.3.9_all.deb
+ 73d05a0c8f25892417fa142d6897535eccc53076 568 linuxmuster-api7_7.3.10.dsc
+ e9ae210c85ab36274faa578a5535c60bbcc7f6e1 39470 linuxmuster-api7_7.3.10_all.deb
 Checksums-Sha256:
- ea64a613f60eeb1a25406837b9345019123c206b99ee1ee327b135222acdf873 564 linuxmuster-api7_7.3.9.dsc
- cf081cfe39e075adfc22a43ff378eb2e0f6cbb2718eae5e93a9ceed1dec9fcac 39436 linuxmuster-api7_7.3.9_all.deb
+ e444afd000add2b0d5a02c062fb854ad94b1f6d0a5323cb425ce47492790190d 568 linuxmuster-api7_7.3.10.dsc
+ 7d242ae7e2fa9a184b7776a41af07f704606de8169bf4f95f7ebfc4110f8fa35 39470 linuxmuster-api7_7.3.10_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 21 Aug 2025 09:32:26 +0000
+Build-Date: Tue, 23 Sep 2025 15:42:58 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -25,7 +25,7 @@ Installed-Build-Depends:
  automake (= 1:1.16.5-1.3ubuntu1),
  autopoint (= 0.21-14ubuntu2),
  autotools-dev (= 20220109.1),
- base-files (= 13ubuntu10.2),
+ base-files (= 13ubuntu10.3),
  base-passwd (= 3.6.3build1),
  bash (= 5.2.21-2ubuntu4),
  binutils (= 2.42-4ubuntu2.5),
@@ -40,7 +40,7 @@ Installed-Build-Depends:
  clang-18 (= 1:18.1.3-1ubuntu1),
  coreutils (= 9.4-3ubuntu6),
  cpp (= 4:13.2.0-7ubuntu1),
- cpp-12 (= 12.3.0-17ubuntu1),
+ cpp-12 (= 12.4.0-2ubuntu1~24.04),
  cpp-13 (= 13.3.0-6ubuntu2~24.04),
  cpp-13-x86-64-linux-gnu (= 13.3.0-6ubuntu2~24.04),
  cpp-14 (= 14.2.0-4ubuntu2~24.04),
@@ -65,8 +65,8 @@ Installed-Build-Depends:
  g++-x86-64-linux-gnu (= 4:13.2.0-7ubuntu1),
  gawk (= 1:5.2.1-2build3),
  gcc (= 4:13.2.0-7ubuntu1),
- gcc-12 (= 12.3.0-17ubuntu1),
- gcc-12-base (= 12.3.0-17ubuntu1),
+ gcc-12 (= 12.4.0-2ubuntu1~24.04),
+ gcc-12-base (= 12.4.0-2ubuntu1~24.04),
  gcc-13 (= 13.3.0-6ubuntu2~24.04),
  gcc-13-base (= 13.3.0-6ubuntu2~24.04),
  gcc-13-x86-64-linux-gnu (= 13.3.0-6ubuntu2~24.04),
@@ -124,7 +124,7 @@ Installed-Build-Depends:
  libffi8 (= 3.4.6-1build1),
  libfile-stripnondeterminism-perl (= 1.13.1-1),
  libgc1 (= 1:8.2.6-1build1),
- libgcc-12-dev (= 12.3.0-17ubuntu1),
+ libgcc-12-dev (= 12.4.0-2ubuntu1~24.04),
  libgcc-13-dev (= 13.3.0-6ubuntu2~24.04),
  libgcc-14-dev (= 14.2.0-4ubuntu2~24.04),
  libgcc-s1 (= 14.2.0-4ubuntu2~24.04),
@@ -181,9 +181,9 @@ Installed-Build-Depends:
  libudev1 (= 255.4-1ubuntu8.10),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.3),
- libxml2 (= 2.9.14+dfsg-1.3ubuntu3.3),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3.4),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-78.78),
+ linux-libc-dev (= 6.8.0-79.79),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -214,4 +214,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1755768651"
+ SOURCE_DATE_EPOCH="1758642043"
