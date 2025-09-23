@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.3.15
+Version: 7.3.16
 Checksums-Md5:
- f841148d7cc00dbcf8893c23d5ff7b1f 580 linuxmuster-tools7_7.3.15.dsc
- 2c76f56e2dca619ee54b45ccbe9ee4f2 55480 linuxmuster-tools7_7.3.15_all.deb
+ 3a09a1f3d9f9d6fe9e9ea9466118cb3f 580 linuxmuster-tools7_7.3.16.dsc
+ 8787f765c0cc3a8f13a4909f3a5279ad 55620 linuxmuster-tools7_7.3.16_all.deb
 Checksums-Sha1:
- e580e6a252796081818301678cd3100277334085 580 linuxmuster-tools7_7.3.15.dsc
- 060ec5ff0231ff252ab878a54a528b3e79a20201 55480 linuxmuster-tools7_7.3.15_all.deb
+ 2f5175fcdcdba34c7db41948e897158e3aaecd88 580 linuxmuster-tools7_7.3.16.dsc
+ fcec76a4eb4b0e70b8078ee5722a63feeba7c4d7 55620 linuxmuster-tools7_7.3.16_all.deb
 Checksums-Sha256:
- e74d7adaf6d8ee54ff3286d59681008d14d87092b96ba9a67544ae1f7d5c9a6e 580 linuxmuster-tools7_7.3.15.dsc
- 4e54e916b60cea4a8043d26b06b02be2edd54b13314d279325321d18abdaf7a4 55480 linuxmuster-tools7_7.3.15_all.deb
+ c6837f6ab2eb00610cf30044f59cd7a0038fc0cfc96c338abb0819e5aa408c86 580 linuxmuster-tools7_7.3.16.dsc
+ 235cad1aec3d0711960c981ca182629fe52aa34beb00d8511c76591d199fb99d 55620 linuxmuster-tools7_7.3.16_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 14 Jul 2025 19:05:45 +0000
+Build-Date: Tue, 23 Sep 2025 15:40:33 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -25,7 +25,7 @@ Installed-Build-Depends:
  automake (= 1:1.16.5-1.3ubuntu1),
  autopoint (= 0.21-14ubuntu2),
  autotools-dev (= 20220109.1),
- base-files (= 13ubuntu10.2),
+ base-files (= 13ubuntu10.3),
  base-passwd (= 3.6.3build1),
  bash (= 5.2.21-2ubuntu4),
  binutils (= 2.42-4ubuntu2.5),
@@ -40,7 +40,7 @@ Installed-Build-Depends:
  clang-18 (= 1:18.1.3-1ubuntu1),
  coreutils (= 9.4-3ubuntu6),
  cpp (= 4:13.2.0-7ubuntu1),
- cpp-12 (= 12.3.0-17ubuntu1),
+ cpp-12 (= 12.4.0-2ubuntu1~24.04),
  cpp-13 (= 13.3.0-6ubuntu2~24.04),
  cpp-13-x86-64-linux-gnu (= 13.3.0-6ubuntu2~24.04),
  cpp-14 (= 14.2.0-4ubuntu2~24.04),
@@ -65,8 +65,8 @@ Installed-Build-Depends:
  g++-x86-64-linux-gnu (= 4:13.2.0-7ubuntu1),
  gawk (= 1:5.2.1-2build3),
  gcc (= 4:13.2.0-7ubuntu1),
- gcc-12 (= 12.3.0-17ubuntu1),
- gcc-12-base (= 12.3.0-17ubuntu1),
+ gcc-12 (= 12.4.0-2ubuntu1~24.04),
+ gcc-12-base (= 12.4.0-2ubuntu1~24.04),
  gcc-13 (= 13.3.0-6ubuntu2~24.04),
  gcc-13-base (= 13.3.0-6ubuntu2~24.04),
  gcc-13-x86-64-linux-gnu (= 13.3.0-6ubuntu2~24.04),
@@ -94,10 +94,10 @@ Installed-Build-Depends:
  libblkid1 (= 2.39.3-9ubuntu6.3),
  libbsd0 (= 0.12.1-1build1.1),
  libbz2-1.0 (= 1.0.8-5.1build0.1),
- libc-bin (= 2.39-0ubuntu8.4),
- libc-dev-bin (= 2.39-0ubuntu8.4),
- libc6 (= 2.39-0ubuntu8.4),
- libc6-dev (= 2.39-0ubuntu8.4),
+ libc-bin (= 2.39-0ubuntu8.5),
+ libc-dev-bin (= 2.39-0ubuntu8.5),
+ libc6 (= 2.39-0ubuntu8.5),
+ libc6-dev (= 2.39-0ubuntu8.5),
  libcap-ng0 (= 0.8.4-2build2),
  libcap2 (= 1:2.66-5ubuntu2.2),
  libcc1-0 (= 14.2.0-4ubuntu2~24.04),
@@ -124,7 +124,7 @@ Installed-Build-Depends:
  libffi8 (= 3.4.6-1build1),
  libfile-stripnondeterminism-perl (= 1.13.1-1),
  libgc1 (= 1:8.2.6-1build1),
- libgcc-12-dev (= 12.3.0-17ubuntu1),
+ libgcc-12-dev (= 12.4.0-2ubuntu1~24.04),
  libgcc-13-dev (= 13.3.0-6ubuntu2~24.04),
  libgcc-14-dev (= 14.2.0-4ubuntu2~24.04),
  libgcc-s1 (= 14.2.0-4ubuntu2~24.04),
@@ -159,7 +159,7 @@ Installed-Build-Depends:
  libpam-runtime (= 1.5.3-5ubuntu5.4),
  libpam0g (= 1.5.3-5ubuntu5.4),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.1),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.2),
  libpipeline1 (= 1.5.7-2),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04),
  libreadline8t64 (= 8.2-4build1),
@@ -172,18 +172,18 @@ Installed-Build-Depends:
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04),
  libsub-override-perl (= 0.10-1),
- libsystemd0 (= 255.4-1ubuntu8.8),
+ libsystemd0 (= 255.4-1ubuntu8.10),
  libtinfo6 (= 6.4+20240113-1ubuntu2),
  libtool (= 2.4.7-7build1),
  libtsan2 (= 14.2.0-4ubuntu2~24.04),
  libubsan1 (= 14.2.0-4ubuntu2~24.04),
  libuchardet0 (= 0.0.8-1build1),
- libudev1 (= 255.4-1ubuntu8.8),
+ libudev1 (= 255.4-1ubuntu8.10),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.3),
- libxml2 (= 2.9.14+dfsg-1.3ubuntu3.3),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3.4),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-63.66),
+ linux-libc-dev (= 6.8.0-79.79),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -196,9 +196,9 @@ Installed-Build-Depends:
  ncurses-base (= 6.4+20240113-1ubuntu2),
  ncurses-bin (= 6.4+20240113-1ubuntu2),
  patch (= 2.7.6-7build3),
- perl (= 5.38.2-3.2ubuntu0.1),
- perl-base (= 5.38.2-3.2ubuntu0.1),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.1),
+ perl (= 5.38.2-3.2ubuntu0.2),
+ perl-base (= 5.38.2-3.2ubuntu0.2),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.2),
  po-debconf (= 1.0.21+nmu1),
  readline-common (= 8.2-4build1),
  rpcsvc-proto (= 1.4.2-0ubuntu7),
@@ -214,4 +214,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1752519836"
+ SOURCE_DATE_EPOCH="1758641881"
