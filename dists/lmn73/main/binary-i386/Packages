@@ -1,16 +1,16 @@
 Package: linuxmuster-api7
-Version: 7.3.9
+Version: 7.3.10
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 167
 Depends: openssl, linuxmuster-tools7 (>= 7.2.36), python3
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-api7/linuxmuster-api7_7.3.9_all.deb
-Size: 39436
-SHA256: cf081cfe39e075adfc22a43ff378eb2e0f6cbb2718eae5e93a9ceed1dec9fcac
-SHA1: 3692cb1d7675e5dfcbc0ab319062dd67ef6b2055
-MD5sum: e5d78da35a534b3e5c403433e44ce420
+Filename: pool/main/l/linuxmuster-api7/linuxmuster-api7_7.3.10_all.deb
+Size: 39470
+SHA256: 7d242ae7e2fa9a184b7776a41af07f704606de8169bf4f95f7ebfc4110f8fa35
+SHA1: e9ae210c85ab36274faa578a5535c60bbcc7f6e1
+MD5sum: 431ff229d21e2d488f578d81a4667665
 Description: Api for the linuxmuster.net 7 server.
 
 Package: linuxmuster-base7
@@ -148,18 +148,18 @@ MD5sum: c9dd9f91b4ced2d5021ef431ded4f58c
 Description: linuxmuster.net pre setup configuration scripts
 
 Package: linuxmuster-tools7
-Version: 7.3.15
+Version: 7.3.16
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 320
 Depends: python3, nmap, sophomorix-samba
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.3.15_all.deb
-Size: 55480
-SHA256: 4e54e916b60cea4a8043d26b06b02be2edd54b13314d279325321d18abdaf7a4
-SHA1: 060ec5ff0231ff252ab878a54a528b3e79a20201
-MD5sum: 2c76f56e2dca619ee54b45ccbe9ee4f2
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.3.16_all.deb
+Size: 55620
+SHA256: 235cad1aec3d0711960c981ca182629fe52aa34beb00d8511c76591d199fb99d
+SHA1: fcec76a4eb4b0e70b8078ee5722a63feeba7c4d7
+MD5sum: 8787f765c0cc3a8f13a4909f3a5279ad
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
