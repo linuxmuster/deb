@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 24 Sep 2025 11:49:50 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.17
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.17) lmn73; urgency=medium
+ .
+   * [ldapconnector] Allow self-signed certificates (@hermanntoast)
+Checksums-Sha1:
+ 0d2df6afabff27ffed21a854e14770fb85fe0e3a 580 linuxmuster-tools7_7.3.17.dsc
+ c60511afff6b1d6836bafe65be468965726f56f8 80608 linuxmuster-tools7_7.3.17.tar.gz
+ 27e9304fde2e19c53c2ec5cb17e664035b3c5534 55752 linuxmuster-tools7_7.3.17_all.deb
+ 125c0893ca6492195cc6abb2171b05dd40263fd1 7642 linuxmuster-tools7_7.3.17_amd64.buildinfo
+Checksums-Sha256:
+ 0e9e4e4129a080ca9cd04f93f4851073a1cdc8667623fc5485ee1b2ab6220232 580 linuxmuster-tools7_7.3.17.dsc
+ 42d2e3e488e5088d605635e4a25c7b7093c7b4e8a78b9f819234de29bd624644 80608 linuxmuster-tools7_7.3.17.tar.gz
+ 5c9c9cbd5aaea6b2cfef23e3861f1d004338f7b95467d762e93a2285d3c4b39d 55752 linuxmuster-tools7_7.3.17_all.deb
+ 063dda2341634898c6457b5ea892a11803c9754711b453524cee14f448c29ed9 7642 linuxmuster-tools7_7.3.17_amd64.buildinfo
+Files:
+ 213537176b61635155119edb7dec376c 580 linuxmuster optional linuxmuster-tools7_7.3.17.dsc
+ 22b970028a754dd21e905d727b84e849 80608 linuxmuster optional linuxmuster-tools7_7.3.17.tar.gz
+ 61f6c26758232132b382433b3351266e 55752 linuxmuster optional linuxmuster-tools7_7.3.17_all.deb
+ 2c26f4d577ed0cb236c5a3339d730fc5 7642 linuxmuster optional linuxmuster-tools7_7.3.17_amd64.buildinfo
