@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 04 Oct 2025 13:40:23 +0100
+Source: linuxmuster-linbo-gui7
+Binary: linuxmuster-linbo-gui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.3
+Distribution: lmn73
+Urgency: medium
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linbo-gui7 - Linuxmuster Linbo GUI
+Changes:
+ linuxmuster-linbo-gui7 (7.3.3) lmn73; urgency=medium
+ .
+   * fix: hdd and cache size in edge cases (#95)
+Checksums-Sha1:
+ c4dc70201442567efbe098de590b61494aed3998 711 linuxmuster-linbo-gui7_7.3.3.dsc
+ 948ad19d2ae4b211d4c2786c9d95da0c8a4b2f4b 3578099 linuxmuster-linbo-gui7_7.3.3.tar.gz
+ b36d280c3171faf79271456540ec66c5e7fddd00 9361484 linuxmuster-linbo-gui7_7.3.3_all.deb
+ 638c2a4c439d2de5f902835409a0b2b71f6473f5 8090 linuxmuster-linbo-gui7_7.3.3_amd64.buildinfo
+Checksums-Sha256:
+ 7e4a98d78d488c423a24f5b337dc8ee474883f829b502118df6f9018d9fa8ea9 711 linuxmuster-linbo-gui7_7.3.3.dsc
+ f0a440c68a5317febc6ec983bae384a9a69750283984f0ff08ded0c7f66c7ad3 3578099 linuxmuster-linbo-gui7_7.3.3.tar.gz
+ 3dc9a435963727f4074808cff21635a4aaab5183b81e52c7c460ded464bf09b9 9361484 linuxmuster-linbo-gui7_7.3.3_all.deb
+ e47f01262918a1d849616a9a0a0d0a538dc77a6e365b163dfdf55af46470b6c8 8090 linuxmuster-linbo-gui7_7.3.3_amd64.buildinfo
+Files:
+ 19fb2a11e37a0626a71701d9c96d382d 711 admin extra linuxmuster-linbo-gui7_7.3.3.dsc
+ 03fc47687b1048814235380ea8151fc7 3578099 admin extra linuxmuster-linbo-gui7_7.3.3.tar.gz
+ 0669ccb95533c2524a09a7593b7f1fb7 9361484 admin extra linuxmuster-linbo-gui7_7.3.3_all.deb
+ 9a167e045a5c518a8f4e4dcbd90cc8a2 8090 admin extra linuxmuster-linbo-gui7_7.3.3_amd64.buildinfo
