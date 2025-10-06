@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 06 Oct 2025 19:08:39 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.27-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.27-0) lmn73; urgency=low
+ .
+   * fix missing samba spool directory /var/spool/samba (f1117db).
+Checksums-Sha1:
+ f5b45983facb05daf2f26b48c1e303a23cb077b4 583 linuxmuster-base7_7.3.27-0.dsc
+ fa9a042db19bf74419e0d1ab682ac248d737b3ba 89324 linuxmuster-base7_7.3.27-0.tar.gz
+ c322359e577bceb1536d36bc4626994b5c7da0fa 59638 linuxmuster-base7_7.3.27-0_all.deb
+ 562b6097aaa659aa46908a82c4119548c98efd17 7739 linuxmuster-base7_7.3.27-0_amd64.buildinfo
+Checksums-Sha256:
+ c4248ec459c28f7014c16172c5c31f385efbc84e07ed66a5aeba050650e07f45 583 linuxmuster-base7_7.3.27-0.dsc
+ 79e6a13bf7320d5300c16d55114514b454422e26dd270f0be9405526780ecf8e 89324 linuxmuster-base7_7.3.27-0.tar.gz
+ 0524fcbc9190b95ad7d279859a318c1a52009766493261a453bdc9f97aeb3285 59638 linuxmuster-base7_7.3.27-0_all.deb
+ 6234227f4f31b83ed4e3609d38d6d417b4f0b0eabec6c20058fe645c8bd4a418 7739 linuxmuster-base7_7.3.27-0_amd64.buildinfo
+Files:
+ 5aad46981fc1bce3e345ccdfdb815b25 583 linuxmuster optional linuxmuster-base7_7.3.27-0.dsc
+ a886349631df4b08360691efb4ebdb6a 89324 linuxmuster optional linuxmuster-base7_7.3.27-0.tar.gz
+ 1b2863302d18acd345c366802c2e2307 59638 linuxmuster optional linuxmuster-base7_7.3.27-0_all.deb
+ a96774261ae0a0726ccf907142b973c6 7739 linuxmuster optional linuxmuster-base7_7.3.27-0_amd64.buildinfo
