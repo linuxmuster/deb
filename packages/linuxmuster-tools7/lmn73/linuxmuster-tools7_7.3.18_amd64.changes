@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Sun, 12 Oct 2025 21:08:34 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.18
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.18) lmn73; urgency=medium
+ .
+   * [ldapreader] Get empty schoolclasses
+   * [ldapreader] Get students list as CSV
+   * [ldapreader] Get empty rooms
+   * [ldapreader] Improvements for OU requests and devices checks
+   * [ldapwriter] Writer for devices objects
+   * [ldapwriter] Aliases for all teachers, all students, etc ...
+   * More examples
+Checksums-Sha1:
+ c211f513c674b7f56c3839f9453d1e244144657d 580 linuxmuster-tools7_7.3.18.dsc
+ 9dfcf5021c12f21a4b327d689623a445a6a39cfc 82462 linuxmuster-tools7_7.3.18.tar.gz
+ 2d6c0f72a8de5b7d341d380cd3aac0ae6d3df723 56806 linuxmuster-tools7_7.3.18_all.deb
+ 0660786e558bd57f06d50a72216860410ead3717 7644 linuxmuster-tools7_7.3.18_amd64.buildinfo
+Checksums-Sha256:
+ 7705a3bc05f176f04ffbfcf9b57b639ae918ce7dfebce70576ead2efeb381786 580 linuxmuster-tools7_7.3.18.dsc
+ e55e5828f50c60e695aba0c1daf4a6464ef9b67020904a1193e74930efe783d1 82462 linuxmuster-tools7_7.3.18.tar.gz
+ 9e967af208153eba9654d3fef2980061de053e82a56e72ab66539a3b3dc9fc81 56806 linuxmuster-tools7_7.3.18_all.deb
+ 1d3d541de6d9060e1a2b988ba7aa06505fa249caa333bf1d103ac5adb71009f6 7644 linuxmuster-tools7_7.3.18_amd64.buildinfo
+Files:
+ 759c241f0e74f45a35aae08722d527aa 580 linuxmuster optional linuxmuster-tools7_7.3.18.dsc
+ 54bb1ea619da1a431c0493d3a0bc0062 82462 linuxmuster optional linuxmuster-tools7_7.3.18.tar.gz
+ 3870a3694667d8fe0355de98e5edd619 56806 linuxmuster optional linuxmuster-tools7_7.3.18_all.deb
+ 534134a666ef0381de9461f53c758257 7644 linuxmuster optional linuxmuster-tools7_7.3.18_amd64.buildinfo
