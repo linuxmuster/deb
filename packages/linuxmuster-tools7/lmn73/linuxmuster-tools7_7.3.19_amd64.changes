@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 15 Oct 2025 22:37:47 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.19
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.19) lmn73; urgency=medium
+ .
+   * [lmnfile] Autofix BOM in csv files
+Checksums-Sha1:
+ 07cb31177867eae4e100f15bfd7b75b86eda86d8 580 linuxmuster-tools7_7.3.19.dsc
+ bc4a9c689c3b0bb41518fb66b9b4a03ce352a907 82322 linuxmuster-tools7_7.3.19.tar.gz
+ 13935b82e2b16b87b4276d238abe67fb3dd495b7 57008 linuxmuster-tools7_7.3.19_all.deb
+ 7057186476e3922969a9bc7a9fd8e400e8e492ca 7644 linuxmuster-tools7_7.3.19_amd64.buildinfo
+Checksums-Sha256:
+ 5badb726b72ea55f5fd953c44e9ee8892cc7213b597d3517b74e842d480d66d1 580 linuxmuster-tools7_7.3.19.dsc
+ 2e5e8066e83c453c601b05a0c0158ca8500e22670ad4c49d37dad0d63e6c8779 82322 linuxmuster-tools7_7.3.19.tar.gz
+ 7a3f12a1d86933f313128a58fbb2cadef17c675b50469c4fbdb0121a229016cf 57008 linuxmuster-tools7_7.3.19_all.deb
+ 717e0507e29a798149c5ad2ad8f24f9803b00a788d153f9fa4cb576190c93a65 7644 linuxmuster-tools7_7.3.19_amd64.buildinfo
+Files:
+ 90faa426879166e7ff56fbd16fa86107 580 linuxmuster optional linuxmuster-tools7_7.3.19.dsc
+ 4e1017abf073ec870122062982afa2b1 82322 linuxmuster optional linuxmuster-tools7_7.3.19.tar.gz
+ 2c11bf74c1cef836181290bd27aee760 57008 linuxmuster optional linuxmuster-tools7_7.3.19_all.deb
+ 91fb07065eb318b739485a4ee5e732f7 7644 linuxmuster optional linuxmuster-tools7_7.3.19_amd64.buildinfo
