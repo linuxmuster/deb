@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.3.24
+Version: 7.3.25
 Checksums-Md5:
- 14ee0dd511257a09412d07463d373df6 565 linuxmuster-webui7_7.3.24.dsc
- 5908e38d7eed17663e783b4becbecf1d 829636 linuxmuster-webui7_7.3.24_all.deb
+ 659e357957b72a5d9c0e6837fb26ef6e 565 linuxmuster-webui7_7.3.25.dsc
+ 889e157521c4160f514d13b99c487fa0 829332 linuxmuster-webui7_7.3.25_all.deb
 Checksums-Sha1:
- 87cca36e59da595a92e3152d8b66b97e5200d0c5 565 linuxmuster-webui7_7.3.24.dsc
- c2bb2e51ba3405bf8ae3de43f5d060b1eac083f5 829636 linuxmuster-webui7_7.3.24_all.deb
+ 25d6f8f508034a759fe0e78e09fa751bf2eacbb6 565 linuxmuster-webui7_7.3.25.dsc
+ bcdef2757a42ed69f692a53ba46c58c6ae90279d 829332 linuxmuster-webui7_7.3.25_all.deb
 Checksums-Sha256:
- a011e60aceecec9a7a109f8a9d7ccde624dee1cc3c01aead15c79053f6b3ec1a 565 linuxmuster-webui7_7.3.24.dsc
- 8931cc7a4f484b96354fbf0375fdba1f1346d34c62a9432241bc87284b142cc0 829636 linuxmuster-webui7_7.3.24_all.deb
+ d78d6ac66ef3a69ab2927b472dea833012cb8d92786591e6de12b4e9328373b9 565 linuxmuster-webui7_7.3.25.dsc
+ 2be34d789298d8d6fd360d013fa77e208e510221c57f58fa840153a105dae745 829332 linuxmuster-webui7_7.3.25_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 23 Sep 2025 15:51:36 +0000
+Build-Date: Wed, 15 Oct 2025 10:45:34 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -38,7 +38,7 @@ Installed-Build-Depends:
  clang-16 (= 1:16.0.6-23ubuntu4),
  clang-17 (= 1:17.0.6-9ubuntu1),
  clang-18 (= 1:18.1.3-1ubuntu1),
- coreutils (= 9.4-3ubuntu6),
+ coreutils (= 9.4-3ubuntu6.1),
  cpp (= 4:13.2.0-7ubuntu1),
  cpp-12 (= 12.4.0-2ubuntu1~24.04),
  cpp-13 (= 13.3.0-6ubuntu2~24.04),
@@ -54,8 +54,8 @@ Installed-Build-Depends:
  dh-autoreconf (= 20),
  dh-strip-nondeterminism (= 1.13.1-1),
  diffutils (= 1:3.10-1build1),
- dpkg (= 1.22.6ubuntu6.1),
- dpkg-dev (= 1.22.6ubuntu6.1),
+ dpkg (= 1.22.6ubuntu6.5),
+ dpkg-dev (= 1.22.6ubuntu6.5),
  dwz (= 0.15-1build6),
  fakeroot (= 1.33-1),
  file (= 1:5.45-3build1),
@@ -95,10 +95,10 @@ Installed-Build-Depends:
  libblkid1 (= 2.39.3-9ubuntu6.3),
  libbsd0 (= 0.12.1-1build1.1),
  libbz2-1.0 (= 1.0.8-5.1build0.1),
- libc-bin (= 2.39-0ubuntu8.5),
- libc-dev-bin (= 2.39-0ubuntu8.5),
- libc6 (= 2.39-0ubuntu8.5),
- libc6-dev (= 2.39-0ubuntu8.5),
+ libc-bin (= 2.39-0ubuntu8.6),
+ libc-dev-bin (= 2.39-0ubuntu8.6),
+ libc6 (= 2.39-0ubuntu8.6),
+ libc6-dev (= 2.39-0ubuntu8.6),
  libcap-ng0 (= 0.8.4-2build2),
  libcap2 (= 1:2.66-5ubuntu2.2),
  libcc1-0 (= 14.2.0-4ubuntu2~24.04),
@@ -118,7 +118,7 @@ Installed-Build-Depends:
  libdb5.3t64 (= 5.3.28+dfsg2-7),
  libdebconfclient0 (= 0.271ubuntu3),
  libdebhelper-perl (= 13.14.1ubuntu5),
- libdpkg-perl (= 1.22.6ubuntu6.1),
+ libdpkg-perl (= 1.22.6ubuntu6.5),
  libdw1t64 (= 0.190-1.1ubuntu0.1),
  libedit2 (= 3.1-20230828-1build1),
  libelf1t64 (= 0.190-1.1ubuntu0.1),
@@ -183,9 +183,9 @@ Installed-Build-Depends:
  libudev1 (= 255.4-1ubuntu8.10),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.3),
- libxml2 (= 2.9.14+dfsg-1.3ubuntu3.4),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3.5),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-79.79),
+ linux-libc-dev (= 6.8.0-84.84),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -216,4 +216,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1758642212"
+ SOURCE_DATE_EPOCH="1760524904"
