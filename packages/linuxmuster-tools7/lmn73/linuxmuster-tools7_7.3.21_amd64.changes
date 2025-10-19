@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Sun, 19 Oct 2025 16:01:36 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.21
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.21) lmn73; urgency=medium
+ .
+   * More examples of use of ldapwriter
+   * Restarting API and Webui after each update
+   * [common] Fix spinner and add progress parameter
+   * [ldapwriter] Many shortcuts to manipulate multiple objects
+   * [ldapwriter] Update groups types
+   * [lmnconfig] Add server hostname and ip
+   * [samba_util] Ignore connections with local server ip in smbstatus
+Checksums-Sha1:
+ 55427c52f42013e390f19eb9add62c53e5b5a6eb 580 linuxmuster-tools7_7.3.21.dsc
+ 213a3cdf66cfde34821417844e91332114294186 83970 linuxmuster-tools7_7.3.21.tar.gz
+ 0e64f58cbdff50b8ac60577ff4459121fb66f23d 58048 linuxmuster-tools7_7.3.21_all.deb
+ 343bc77ee73b478250161345b9a8e9aeeb68fcf4 7644 linuxmuster-tools7_7.3.21_amd64.buildinfo
+Checksums-Sha256:
+ 3aca22451d239e48a9dadf51174659ff9bac364adac6354f775c921e5ae8ba39 580 linuxmuster-tools7_7.3.21.dsc
+ fa145ec37322de46be056a0541409259d6d559b1c936e71b9d729f5c7dbaa215 83970 linuxmuster-tools7_7.3.21.tar.gz
+ 82a6c6f0a26bd7b8ce06aed363de4b02939e28e277c63ef61c23e9837595be70 58048 linuxmuster-tools7_7.3.21_all.deb
+ d17ba43583b76063dbf25680b86e174b47510a553d448e5f69a441e36c059250 7644 linuxmuster-tools7_7.3.21_amd64.buildinfo
+Files:
+ c61e4f2b4ed80d863a0c0fed9cdc1dab 580 linuxmuster optional linuxmuster-tools7_7.3.21.dsc
+ ef1d6e1c3de7768796510c72c9329e71 83970 linuxmuster optional linuxmuster-tools7_7.3.21.tar.gz
+ 76d532e55bd0a4edf08b008d1aa4883f 58048 linuxmuster optional linuxmuster-tools7_7.3.21_all.deb
+ a0c691d2d6ac3fc214903b3bc1277f39 7644 linuxmuster optional linuxmuster-tools7_7.3.21_amd64.buildinfo
