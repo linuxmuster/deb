@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 19 Oct 2025 17:24:07 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.13
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.13) lmn73; urgency=medium
+ .
+   * Fix Swagger UI authentication
+Checksums-Sha1:
+ d7b8fb179696de3d16241156b1c491d64fa3199c 568 linuxmuster-api7_7.3.13.dsc
+ f45cd420199a3a128e5098ac2ada353bfad0d461 56190 linuxmuster-api7_7.3.13.tar.gz
+ 3287b69fd6e3eaf82d65cf94ebd93ab204ea09de 40276 linuxmuster-api7_7.3.13_all.deb
+ 7a2664127b0565382525f55c3bb768d3708db0e9 7628 linuxmuster-api7_7.3.13_amd64.buildinfo
+Checksums-Sha256:
+ f1bafb71b6755ae3476550e4d2593698bd72f7f839ec9895e89112babcca6fc4 568 linuxmuster-api7_7.3.13.dsc
+ 8be1da38bc46942e8bd55fb541e37c4a54b65cadfb2e0853b5eb22db53e32a15 56190 linuxmuster-api7_7.3.13.tar.gz
+ b3caf7594242880e7239a9c3100024e5f8dfbc2cc275b1fde34bc887c5e58733 40276 linuxmuster-api7_7.3.13_all.deb
+ d78c11c6464651890a5a2b63e6fa92b8311dffc6ea981aef304200f12fb49eab 7628 linuxmuster-api7_7.3.13_amd64.buildinfo
+Files:
+ 502f57f7d81d90fb49e9f6f52bbc8d37 568 linuxmuster optional linuxmuster-api7_7.3.13.dsc
+ 71db2b653d4e3936491ca8ef2d74fd6f 56190 linuxmuster optional linuxmuster-api7_7.3.13.tar.gz
+ c5b6d134283b88375f2c23e60478ec96 40276 linuxmuster optional linuxmuster-api7_7.3.13_all.deb
+ cb6452c4dffe7d4a81ed47e48fd4ee8a 7628 linuxmuster optional linuxmuster-api7_7.3.13_amd64.buildinfo
