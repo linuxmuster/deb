@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: sophomorix4
 Binary: sophomorix-samba, sophomorix-developer, sophomorix-vampire, sophomorix-dump, sophomorix-belwue-mail
 Architecture: all
-Version: 7.3.11
+Version: 7.3.12
 Maintainer: Rüdiger Beck <jeffbeck@web.de>
 Standards-Version: 3.9.4
 Build-Depends: debhelper (>= 8.0.0), devscripts
@@ -13,8 +13,8 @@ Package-List:
  sophomorix-samba deb admin optional arch=all
  sophomorix-vampire deb admin optional arch=all
 Checksums-Sha1:
- af10df9aa54b72bc41b0b193686675fb58b106e0 753140 sophomorix4_7.3.11.tar.xz
+ aea768dd3f850603d182604c230bbeb45bf29f58 753364 sophomorix4_7.3.12.tar.xz
 Checksums-Sha256:
- 7631aed04e5d05e015c70c54e57e4bebeede775d289f234b6aff9b5cd8522b8b 753140 sophomorix4_7.3.11.tar.xz
+ 28d97f9c6ef1ad8d4803f9124e334d5122cc0430e9863f2364d2e6107fe275fe 753364 sophomorix4_7.3.12.tar.xz
 Files:
- 357748aad0dd2b6d9e058633110cf9d5 753140 sophomorix4_7.3.11.tar.xz
+ a77a62bbd183753f08f4e30cdf7bf845 753364 sophomorix4_7.3.12.tar.xz
