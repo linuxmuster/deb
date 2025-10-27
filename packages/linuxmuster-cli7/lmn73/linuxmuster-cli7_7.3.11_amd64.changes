@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 27 Oct 2025 22:44:07 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.11
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.3.11) lmn73; urgency=medium
+ .
+   * Check first password with option -c
+Checksums-Sha1:
+ 04ef3531a53b50cf0b79d2d1028f00008c07d13b 568 linuxmuster-cli7_7.3.11.dsc
+ 444f6c9050da8d1a7aa2636b3df1705e32597bf5 28572 linuxmuster-cli7_7.3.11.tar.gz
+ 3ab8a85966fec2f5bf01f45da97aabefc7bea467 15430 linuxmuster-cli7_7.3.11_all.deb
+ 47eabcd6017cd1a4ab809027d3043e5b02b1feed 7628 linuxmuster-cli7_7.3.11_amd64.buildinfo
+Checksums-Sha256:
+ 2eff87b322de535dba40a0d35b2b0901157752378d237882899a90df94f3537d 568 linuxmuster-cli7_7.3.11.dsc
+ 72a9d0e674e8567cf89741fd466cb7d17fb4120dda04cf5227e3b4b398852db2 28572 linuxmuster-cli7_7.3.11.tar.gz
+ 7a0c6c15aaee844fd997159cdb817b0d00482cb37646bcb8d4338a73e77b8fd9 15430 linuxmuster-cli7_7.3.11_all.deb
+ 2b22c1b2a8dbd02310e2277126ac42640d1daadba51e15af7388eb030f8d5444 7628 linuxmuster-cli7_7.3.11_amd64.buildinfo
+Files:
+ 95871093083df50f1a4b38aa81f31f48 568 linuxmuster optional linuxmuster-cli7_7.3.11.dsc
+ 4adc7a46bdcbcbeaf0388e02dd94eea2 28572 linuxmuster optional linuxmuster-cli7_7.3.11.tar.gz
+ e5181e51c0abd54ab1c85f5fc5e27d2b 15430 linuxmuster optional linuxmuster-cli7_7.3.11_all.deb
+ 13b98c9db6de9e67cf26c85ae041c64e 7628 linuxmuster optional linuxmuster-cli7_7.3.11_amd64.buildinfo
