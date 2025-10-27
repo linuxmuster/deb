@@ -180,87 +180,87 @@ Description: Next generation web-based management tool for linuxmuster.net v7.x
 
 Package: sophomorix-belwue-mail
 Source: sophomorix4
-Version: 7.3.11
+Version: 7.3.12
 Architecture: all
 Maintainer: Rüdiger Beck <jeffbeck@web.de>
 Installed-Size: 67
 Depends: sophomorix-samba (>= 3.92.1), libhtml-tableextract-perl
 Priority: optional
 Section: admin
-Filename: pool/main/s/sophomorix4/sophomorix-belwue-mail_7.3.11_all.deb
-Size: 15304
-SHA256: f9254a8e9058f3b6cd5345d83b165e38550a22723d51faac1af5c7514abe3312
-SHA1: 0e310b89cb243281a52ef3ed85b11d052dbd5d89
-MD5sum: 4abe7aa5e9d65bad3191d9c2ddffd51a
+Filename: pool/main/s/sophomorix4/sophomorix-belwue-mail_7.3.12_all.deb
+Size: 15368
+SHA256: e330e5f6396703de473e003bc1c3ecadc47e3f6f1933a9c6b358377ed8cf153d
+SHA1: 6dbb776d7d8831f5847a32abe4425affb6fd072c
+MD5sum: ae277a1ce7d8050e3e2d891bff7f20d5
 Description: Reading external Mail data at Belwue and suggest actions
 
 Package: sophomorix-developer
 Source: sophomorix4
-Version: 7.3.11
+Version: 7.3.12
 Architecture: all
 Maintainer: Rüdiger Beck <jeffbeck@web.de>
 Installed-Size: 3372
 Depends: sophomorix-samba (>= 3.92.1), ldap-utils, cloc, make
 Priority: optional
 Section: admin
-Filename: pool/main/s/sophomorix4/sophomorix-developer_7.3.11_all.deb
-Size: 81040
-SHA256: ad7e6bc3e07035decebd044596af6798bc4f03ae250ac325bb8c20141a178cd4
-SHA1: 637db61333197858d1d2990fd92616fad9d6e9a3
-MD5sum: 9aa1b05e8383eb093e9246bada53d1cc
+Filename: pool/main/s/sophomorix4/sophomorix-developer_7.3.12_all.deb
+Size: 81112
+SHA256: 28a58e3d945418faabc03916d6c78a28c3cff20a149c8c6a5d2d93c17203016f
+SHA1: aec9eef279cd3b7d6907b92d0eabd298e4d9e398
+MD5sum: b40ee8f84aa821ee17dc559213b06665
 Description: Test suite for sophomorix-samba
  Scripts to test sophomorix-samba  on a runnig system. These scripts can
  screw up your server!
 
 Package: sophomorix-dump
 Source: sophomorix4
-Version: 7.3.11
+Version: 7.3.12
 Architecture: all
 Maintainer: Rüdiger Beck <jeffbeck@web.de>
 Installed-Size: 25
 Priority: optional
 Section: admin
-Filename: pool/main/s/sophomorix4/sophomorix-dump_7.3.11_all.deb
-Size: 8210
-SHA256: 403fbdf025e1c07b8eb8b90b29c8c9544bee573e4b0732559fe9a105752c2693
-SHA1: 13056856f14d47945033d89b95ed7065eb906bf2
-MD5sum: 7ac20fbc0aad6aa417a9112756f7611a
+Filename: pool/main/s/sophomorix4/sophomorix-dump_7.3.12_all.deb
+Size: 8266
+SHA256: d041f9e9a04a48ef7cdbe3ed221754547ba7c3616c917af2b03c495e6f493acf
+SHA1: 93b392884ce1910ba4cea32e2027096fe41cb8f1
+MD5sum: 2fe98eaada627ea9e447114694f5bba1
 Description: Migration dump script
  Script to dump users, classes, projects a nd workstations from
  linuxmusternet6 server
 
 Package: sophomorix-samba
 Source: sophomorix4
-Version: 7.3.11
+Version: 7.3.12
 Architecture: all
 Maintainer: Rüdiger Beck <jeffbeck@web.de>
-Installed-Size: 2080
+Installed-Size: 2081
 Pre-Depends: ldb-tools, libconfig-inifiles-perl, libnet-dns-perl, libnet-ldap-perl
 Depends: libnss-winbind, libunicode-map8-perl, libnet-mac-perl, libnet-ldap-sid-perl, libdate-calc-perl, liblist-moreutils-perl, libstring-approx-perl, libjson-perl, libmath-round-perl, libfilesys-smbclient-perl, libhtml-tableextract-perl, liblatex-encode-perl, libterm-readkey-perl, libparallel-forkmanager-perl, cifs-utils, texlive-latex-base, texlive-fonts-recommended, texlive-lang-german
 Priority: optional
 Section: admin
-Filename: pool/main/s/sophomorix4/sophomorix-samba_7.3.11_all.deb
-Size: 254178
-SHA256: abef557368ae94a8080b2ec31c074fbfa12a2b3e3cd23d452f6f84b6f9ea225e
-SHA1: 4e8c211e753fa28b290d07604c569fd0f57fce23
-MD5sum: f774688c9ba80300791bf56372af7922
+Filename: pool/main/s/sophomorix4/sophomorix-samba_7.3.12_all.deb
+Size: 254368
+SHA256: 86ef6c5ced30a0fbf39d40e224225a1f96465bd75424ccc8ae330428c1bd26a6
+SHA1: 4a4533fc9420dc134eb3688dff44347472ff74ac
+MD5sum: 46401899a6a3a1ef631fcb400001e1c7
 Description: Sophomorix for Samba 4
  sophomorix-samba is a user management tool for Samba 4
 
 Package: sophomorix-vampire
 Source: sophomorix4
-Version: 7.3.11
+Version: 7.3.12
 Architecture: all
 Maintainer: Rüdiger Beck <jeffbeck@web.de>
 Installed-Size: 83
 Depends: sophomorix-samba (>= 3.92.1), ldap-utils
 Priority: optional
 Section: admin
-Filename: pool/main/s/sophomorix4/sophomorix-vampire_7.3.11_all.deb
-Size: 17642
-SHA256: d042fa4340fab9a796a330a36ab09d00bb6ab2e98ae5e0a2486827bd6db04a2e
-SHA1: 99e8623340afecefe2a1c0964a6b15af60e39139
-MD5sum: 5d5de7d038b1c0ef12fec062c4af3178
+Filename: pool/main/s/sophomorix4/sophomorix-vampire_7.3.12_all.deb
+Size: 17708
+SHA256: 8cdefa948a1edfe00ba3e8b055a77ecc6157a0391e8c6e6dcb34f6fb71da1881
+SHA1: 6117303e0ce20fa0005af21ec47db263ae3c4aa6
+MD5sum: 4e938b4bea33406a3904c5e1a8594cef
 Description: Migration vampire script
  Script to such users, classes, projects and workstations from a dump
  with sophomorix-dump
