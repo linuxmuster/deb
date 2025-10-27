@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 27 Oct 2025 21:57:44 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.26
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.26) lmn73; urgency=medium
+ .
+   * Fix tmp data.
+Checksums-Sha1:
+ 4f4fca59ca8da80523afac50d374288fea398c99 580 linuxmuster-tools7_7.3.26.dsc
+ be0edc48e7c91fe9fd9839cc8d478991e7ad8769 85211 linuxmuster-tools7_7.3.26.tar.gz
+ ea6801571685eabf124514bb8f25d3e223784eaa 58242 linuxmuster-tools7_7.3.26_all.deb
+ 84806f3aae3d91ee1f0f9b3a9264b55f2914f266 7644 linuxmuster-tools7_7.3.26_amd64.buildinfo
+Checksums-Sha256:
+ 264d6b55f6bc1cb33898eeb16e42f6d2a25350a078e3cfebac7ab2edde9f0b56 580 linuxmuster-tools7_7.3.26.dsc
+ c2877cdaeee970580afeb71cc5b6f6cb8bb6074c21e779d6eaaccdd80f54ed65 85211 linuxmuster-tools7_7.3.26.tar.gz
+ dedcd8f50deb439a3549aa2c28cabf1f63438dd602053d82a8185859a8731852 58242 linuxmuster-tools7_7.3.26_all.deb
+ 9b4efbef16059342e4b53ba021d04fbf197724a40ab42feba7ef1247f762fe58 7644 linuxmuster-tools7_7.3.26_amd64.buildinfo
+Files:
+ 1e63f906e1ba8f45f8ba0523dc5d8144 580 linuxmuster optional linuxmuster-tools7_7.3.26.dsc
+ e61bafa13c08229c3bb55ba2fc79100b 85211 linuxmuster optional linuxmuster-tools7_7.3.26.tar.gz
+ d7be58ec05c5cde787cf9c9247571b5e 58242 linuxmuster optional linuxmuster-tools7_7.3.26_all.deb
+ cbf3439c90d9b2ee6cd06ef64d368638 7644 linuxmuster optional linuxmuster-tools7_7.3.26_amd64.buildinfo
