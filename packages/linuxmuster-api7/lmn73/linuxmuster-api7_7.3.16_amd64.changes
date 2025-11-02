@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 02 Nov 2025 21:52:19 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.16
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.16) lmn73; urgency=medium
+ .
+   * No prefix for delete requests in projects
+   * Centralize vars
+   * Handle staff and parents permissions
+   * Add endpoints for teachers and parents from a schoolclass
+   * More checks about multischool
+Checksums-Sha1:
+ 20765b7cc37fa5f41d423c6d2cec15a361d8fb2d 568 linuxmuster-api7_7.3.16.dsc
+ b9a5ef5ffb63da332f4c664fbb44c348b587d03f 57911 linuxmuster-api7_7.3.16.tar.gz
+ 01445a04a9cfb01dbe3c5628af1adc6ed40fe279 41000 linuxmuster-api7_7.3.16_all.deb
+ fa1b1d1552f5c7ea34234ed0a6206a212278b6e7 7628 linuxmuster-api7_7.3.16_amd64.buildinfo
+Checksums-Sha256:
+ 9692e342a4a638a49ec263833f79878c1769ddf5c85d8e2a7f225af72b89c05d 568 linuxmuster-api7_7.3.16.dsc
+ 15352195290facd3561441d31bc0bc93d563cbeff2a8ca81de7f3d82d56a1ee0 57911 linuxmuster-api7_7.3.16.tar.gz
+ 1dd7d8b061e3459f28197db6c42eb027001fce4038076fbde34875fe491d553f 41000 linuxmuster-api7_7.3.16_all.deb
+ 43be85ae9d659bc4749a0683186e720bb9bed83eae4d1cd8d247acf8d773787e 7628 linuxmuster-api7_7.3.16_amd64.buildinfo
+Files:
+ ba6d4eea39bc371659366ef3066f51ff 568 linuxmuster optional linuxmuster-api7_7.3.16.dsc
+ 802eab5e8ce0c99ecbad949037afe46a 57911 linuxmuster optional linuxmuster-api7_7.3.16.tar.gz
+ 9e14076fbc077656492f933a80f3d3a0 41000 linuxmuster optional linuxmuster-api7_7.3.16_all.deb
+ 5da81243928e20c0d88e4dd2900af7e3 7628 linuxmuster optional linuxmuster-api7_7.3.16_amd64.buildinfo
