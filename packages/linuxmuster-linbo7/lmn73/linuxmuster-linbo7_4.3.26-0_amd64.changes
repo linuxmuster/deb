@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 08 Nov 2025 16:52:32 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.26-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.26-0) lmn73; urgency=low
+ .
+   * kernel updates: 6.1.158, 6.12.57 & 6.17.7 (#134).
+   * fix rw qemu-nbd connection to image file (0e75b6c).
+   * add hostname to hosts file when syncing a linux system (4b23872).
+   * minor code refactor in rsync scripts (9648d69).
+   * fix rsync options for extended attributes (143d961).
+Checksums-Sha1:
+ 8f31cb2cc699ef1d59e48d1fe5b128146b804e24 2056 linuxmuster-linbo7_4.3.26-0.dsc
+ 6896cabbec784a371ff8d6cf5202f17acb8d84a5 2058082 linuxmuster-linbo7_4.3.26-0.tar.gz
+ 635b689e0e8056dea948fc29c14d53fa435642a5 93058422 linuxmuster-linbo7_4.3.26-0_all.deb
+ 8b41836edf3a578d5ee314c85222b1a509b327a3 15960 linuxmuster-linbo7_4.3.26-0_amd64.buildinfo
+Checksums-Sha256:
+ 517fe6cd27515e88568e62efcdcbf0e56f953bc152feb125992f8e4f5eb7856c 2056 linuxmuster-linbo7_4.3.26-0.dsc
+ e1f0f4a47534ecd0a03d67887b600b8b25e9d021824a51d7d9d238c3a459e193 2058082 linuxmuster-linbo7_4.3.26-0.tar.gz
+ 8c3d55e8f4930435fcc660fe64aed30cac3b43579ad40e92aaff9a5d9cbcf2d8 93058422 linuxmuster-linbo7_4.3.26-0_all.deb
+ dc5d5c6e587c71eccbd77b9248a1ce85d2c5bb6bcc34bfb64c561067d277fdf9 15960 linuxmuster-linbo7_4.3.26-0_amd64.buildinfo
+Files:
+ fac224a9ce70e3a9912f3ab9c53b69ee 2056 admin extra linuxmuster-linbo7_4.3.26-0.dsc
+ 5bffcbaf1eb1ed5f1e5fc24f3edbca1c 2058082 admin extra linuxmuster-linbo7_4.3.26-0.tar.gz
+ c48646b0eda64d7cbd6bb154c296c4c5 93058422 admin extra linuxmuster-linbo7_4.3.26-0_all.deb
+ 18928eab3c239b330c133c3ef9840abb 15960 admin extra linuxmuster-linbo7_4.3.26-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmkPZ08XHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLKzpwv/TGEN9ctDwUJurs1m5P5ExGjq
+mNKYLJHYBCSKUP/+muePNuKN0UMv1KmTLxr6n3ZJZ4ZZ2t6VQcMzxj/fzROQh0Ye
+NEwyqwoISZ+XG4oyUhU8Lz2Fogu7dkiIW6Usz4jEw12v3+D2tx/8pGGquTT2YtXJ
+PXaHE24M6y0Ln32Er9SxyMeGEicxS94z4Jj50sJZ79b8EtybewyQcb5Z+eR1JdZH
+eAHLf0mxy58yEMkuWG+8U7xeytgiwifjl3H/ztNX+yZn5OjjYWxnP2Izn9P44t5M
+8aT/+zcBdPw7fKRoi3vgXu0z47uTcyXfyrj2w3DVU38FJ4dDE/gXWToU0omJxKPG
+0044o/VqbvG46//VDCvHMzDQ3jSRWS0KXhppCmdKIGTOpf/QrALFlEV1sTBybRo9
+SXMdwjmX6REjLTIASm76K6DDi/2C/8iqIGjXecVZIWd/X1iI/W/HbxSfgEqx+/vy
+Tls8HutWo+QjTgsJBxMS9GMUkuon60o1kLt1tb73
+=KHUj
+-----END PGP SIGNATURE-----
