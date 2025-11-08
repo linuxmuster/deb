@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 08 Nov 2025 14:49:29 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.26-0
+Distribution: lmn73-testing
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.26-0) lmn73-testing; urgency=low
+ .
+   * kernel updates: 6.1.158, 6.12.57 & 6.17.7 (#134).
+   * fix rw qemu-nbd connection to image file (0e75b6c).
+   * add hostname to hosts file when syncing a linux system (4b23872).
+   * minor code refactor in rsync scripts (58528d4).
+   * Handle the KVNO problem with krb5 client authentication against samba ad (#142).
+Checksums-Sha1:
+ 24e461a947bfb7807d003d9ab3874da3db41bfbb 2056 linuxmuster-linbo7_4.3.26-0.dsc
+ 959cb9f29465644c88ac677111770c233dbc626b 2060168 linuxmuster-linbo7_4.3.26-0.tar.gz
+ 30bd631e9867468531e04e74281bb394c867ce8a 93063122 linuxmuster-linbo7_4.3.26-0_all.deb
+ 91ebf7358322550463d5dfc9f27f612e4e65dde6 15960 linuxmuster-linbo7_4.3.26-0_amd64.buildinfo
+Checksums-Sha256:
+ d9aefb2f72168ab43365beae4a0e3651efc2d635fab386cf475e17cf48f675de 2056 linuxmuster-linbo7_4.3.26-0.dsc
+ f5fa3f915daf58a4ca8751ee13ed16054c0411038b6e8ea6361b17b260d047d5 2060168 linuxmuster-linbo7_4.3.26-0.tar.gz
+ ed3048f5d06cb85d9bc530261571a56f8652d73da7051da76551bdde70c9d6a7 93063122 linuxmuster-linbo7_4.3.26-0_all.deb
+ 6096c8f42c4aad3d061b6a5414f1dd4e98e59441ac544b19f7a703356af777b3 15960 linuxmuster-linbo7_4.3.26-0_amd64.buildinfo
+Files:
+ 7a939aa929f61e43fb3d135039c85707 2056 admin extra linuxmuster-linbo7_4.3.26-0.dsc
+ dc8c4d7977df74a08e13211299bb43c0 2060168 admin extra linuxmuster-linbo7_4.3.26-0.tar.gz
+ 847cf91d14f0a0c91ddea1d1b6aa2359 93063122 admin extra linuxmuster-linbo7_4.3.26-0_all.deb
+ 47353882b16b209a686188cbc22163ae 15960 admin extra linuxmuster-linbo7_4.3.26-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmkPSnkXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLI2uAv+LSeJSteJSHg3+pI0yW3xEYRW
+gt9WOV02LiZuQkOldlTgJc9/fntFigZ/o0grwKSM+swGSz+ic2iEtstbmtbp874Y
+euNTJl/eNPPB6YjU8tStXGH9CHnHecpJ200jzuGEz6RbcynqeJR7B1JYAGt+JPdu
+SUfRTbRKcNZFgc8dzm8MmKsvTmPqewsU0LeQfAXdDlvr0IM5GoOg4e898YLk2jKu
+nT/y8d0bgkBOSQVbXXSXwLA4Hr3/Sdss++obvGLetGkvErrPeMqAwUzPMqPVXect
+i97TgWbze5561wwZXxDzd2TdOhl9UiB7CHRiwi4FUVddVyURYY/IcsmpXHEThH0S
+v9cD9r9C/QScxI1IkLVr1lsb5xBlA+6bo+4tCl00nW0krmAaIS0/CMJ/lVh3Gxon
+Fc/6NMCbnlZ/3eAkvsIFVUxrPsB7gwBvM9dBDgigc0hg5EsWVOvTOypNw5806NaX
+4T3t0lW9yOC5mCfyc0bXdZe1dLsm3+zUl1a1XBX9
+=ocQI
+-----END PGP SIGNATURE-----
