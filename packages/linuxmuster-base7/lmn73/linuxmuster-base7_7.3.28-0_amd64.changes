@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 10 Nov 2025 15:07:24 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.28-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.28-0) lmn73; urgency=low
+ .
+   * fix missing missing wan gateway in opnsense after setup if static wan interface was configured (1bd2359).
+Checksums-Sha1:
+ 287f3e5288d2d4da1c04b46fffd251c80e230082 583 linuxmuster-base7_7.3.28-0.dsc
+ fb1bbee5e1ed2eaf13fdf143fd9b8f5444c39437 89366 linuxmuster-base7_7.3.28-0.tar.gz
+ ce7aa1ed1538444fe0fd6c7cced3728f4b04a5a4 59546 linuxmuster-base7_7.3.28-0_all.deb
+ d1eef913984fd303e4a215753d0a1c2a39da4f4f 7739 linuxmuster-base7_7.3.28-0_amd64.buildinfo
+Checksums-Sha256:
+ 4f512121ceb5d80a1dbaa0af9c7064209b40b36a0998ab3cff454dad2e792b79 583 linuxmuster-base7_7.3.28-0.dsc
+ 613cc5ee40b95031624d91c17c405bc68d5b5f8cf5ae3b040b8734c0fdaadc74 89366 linuxmuster-base7_7.3.28-0.tar.gz
+ 8d72c886c52c995097856e7f9a74fa9de1758d2a003d07dc0f12101ba695a8f7 59546 linuxmuster-base7_7.3.28-0_all.deb
+ 52a97e519484f6aa8e5bbc379b92a842252b1c6fb0672607c4bfd7c9cb9745c9 7739 linuxmuster-base7_7.3.28-0_amd64.buildinfo
+Files:
+ 729391fab43e793e2fdf05dc8e44ef40 583 linuxmuster optional linuxmuster-base7_7.3.28-0.dsc
+ 3c949222b4763165bd7350921db4ff4c 89366 linuxmuster optional linuxmuster-base7_7.3.28-0.tar.gz
+ bc0cf8f44c6b52bc6b1900d036845dbb 59546 linuxmuster optional linuxmuster-base7_7.3.28-0_all.deb
+ 06c8a64364005a92605f2bd740ccbfa5 7739 linuxmuster optional linuxmuster-base7_7.3.28-0_amd64.buildinfo
