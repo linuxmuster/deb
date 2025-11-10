@@ -7,17 +7,17 @@ Binary: linuxmuster-linbo7
 Architecture: all source
 Version: 4.3.28-0
 Checksums-Md5:
- 81323a98731b542fc95f109186c73e89 2056 linuxmuster-linbo7_4.3.28-0.dsc
- f52c2615fffa017f4010f6edb787e29e 93057928 linuxmuster-linbo7_4.3.28-0_all.deb
+ 6fb5fc303c2a674e50b711ad66fe137b 2056 linuxmuster-linbo7_4.3.28-0.dsc
+ 0dce24a38b57761103b42a7585b50ff4 93041794 linuxmuster-linbo7_4.3.28-0_all.deb
 Checksums-Sha1:
- 1aaaf79ecab05d5dafa7a040ef4392c3e75517fa 2056 linuxmuster-linbo7_4.3.28-0.dsc
- b65e5020c014604d89ba1d2b059a5459eee9179f 93057928 linuxmuster-linbo7_4.3.28-0_all.deb
+ 85db9b3d6434c7d5d2d6204104d2cb9b8c737c10 2056 linuxmuster-linbo7_4.3.28-0.dsc
+ 944f5cada6d5bff2aa825a43490dd8a5f4bb39a1 93041794 linuxmuster-linbo7_4.3.28-0_all.deb
 Checksums-Sha256:
- ea7e686c6e6f4b4e21fd3b08a730ebcc33b4cdf2f826aa3aebda5cd186bd2875 2056 linuxmuster-linbo7_4.3.28-0.dsc
- 59147ffcf5de33e8c731b67dda2857fa2e5305653d57b81f7e10db43f7c0dbea 93057928 linuxmuster-linbo7_4.3.28-0_all.deb
+ 69f7781deed913759e8b318321e3e828616fd1c184e9fa46bfdeb5d17c1a0a41 2056 linuxmuster-linbo7_4.3.28-0.dsc
+ 939c562395cf60c00f34d954486343db315630e8f512052a675ace6f1fd17fd2 93041794 linuxmuster-linbo7_4.3.28-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 10 Nov 2025 15:44:13 +0100
+Build-Date: Mon, 10 Nov 2025 16:08:59 +0100
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -433,19 +433,19 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=16"
  DEB_BUILD_PROFILES="noudeb"
- SOURCE_DATE_EPOCH="1762785838"
+ SOURCE_DATE_EPOCH="1762787324"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmkR+j4XHHRob21hc0Bs
-aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLINFwwAmn/66sdz2SuZXXtXyUGmgnGr
-QSJz+ekkP5MzecjGY8KWJ0uJoA788IRP6oAuf9q3ilB9faJo83+J7QJjSQenyXbe
-jGrY02XtUhdYyKgThA2WVonWwdi7WgGQ5V5bNyS9KHh6hpWkUG0ej27zrkR/QIEv
-5PfrFngPeezkqJ93WU9fsYw7hD+WddSag8AcEDWp5FjVEX6SKz2WNg+8UTaIBET4
-LsklzcUNx0ubdL52puvtRDmPSi/hfEzlGKcbkN1JyNIDFQsRVuzjkQHzKKgd1GrQ
-Fns1OqbN9L2w65gu9VLyv47utl9Wch5yPdkSr+7S+azWTQeFZE38UhiPJnF3xPWL
-jOQtRrxWCZOw9S8XeZbOg+v6yCteVOBh5UqYDUpVsUAwBl32DoMWibSe8BA/7dOS
-ClX3TCe/5vfQ7nSgIcNJ81EhqZnMsKXjfhD48QSkyja6iH80Yp4bBf4TOm4bWOzL
-qwgT7X0vrud/9O0ia27nLZuQio33awZ6c3xS81jm
-=+XWK
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmkSAAwXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLKYKQv+NMtA839NpCrxFNSkUuYm3ryk
+5dGRtKSUJPFW6lvplzT95MZ9NdXsIlBFaEeyz1IU+JiGQKvHWja3BeUGBSLcQ8ej
+yJOUacfCq3UbTYn5hwDv8YUy86JKs2PhQoi6nJYmHtoS2dunG7RnhJ/YwZSG2b+3
+o0wDREo+hoUQk+dwdU9L3R9QBti41N68rRkQN94CaHmCeT63bdpAX/CESx7I8vtn
+6igtVGyzCjN7S4iGqEzUiROoyNGYXMQO8ZYp2nB+9j3HsmSXN4Zucrtk7AwfADYO
+OzMqRdJE73kQWN6IiCOLD6yEMPOUmhldf5/qi+rjcUyp4q8FiximuQr0V/y9519b
+le174kBj/VnfpY42clN0UwV8/XSx1GIrHc1Ulrrw3+3Y4d5egxYCe36B09/FM+bl
+sjlYHDy3zXHXgmai+lBGDA7wREDu5dNFhbu3mxJ+oWgxyQ9bUYfva13dB5yPVbYn
+2aNYxMhNP/Exx0qQkIF9c8mATonhjuMN9H6ehoP0
+=VlBb
 -----END PGP SIGNATURE-----

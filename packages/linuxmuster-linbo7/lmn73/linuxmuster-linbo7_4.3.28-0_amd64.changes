@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Mon, 10 Nov 2025 15:43:58 +0100
+Date: Mon, 10 Nov 2025 16:08:44 +0100
 Source: linuxmuster-linbo7
 Binary: linuxmuster-linbo7
 Built-For-Profiles: noudeb
@@ -19,33 +19,34 @@ Changes:
  .
    * linbo-remote noauto fix (083b973).
    * update-linbofs locale fix (43daaa2).
+   * Fix #143 linbo_readfile prints filename (bb702ac).
 Checksums-Sha1:
- 1aaaf79ecab05d5dafa7a040ef4392c3e75517fa 2056 linuxmuster-linbo7_4.3.28-0.dsc
- eb22f81d352b906d94e45ed8a619deeb2146f318 2058381 linuxmuster-linbo7_4.3.28-0.tar.gz
- b65e5020c014604d89ba1d2b059a5459eee9179f 93057928 linuxmuster-linbo7_4.3.28-0_all.deb
- 11f96d4e1837fa38a2e1330b72b04828152f7ec8 15960 linuxmuster-linbo7_4.3.28-0_amd64.buildinfo
+ 85db9b3d6434c7d5d2d6204104d2cb9b8c737c10 2056 linuxmuster-linbo7_4.3.28-0.dsc
+ cd0446c284f134f682bc946b98ec67ab381f4287 2058366 linuxmuster-linbo7_4.3.28-0.tar.gz
+ 944f5cada6d5bff2aa825a43490dd8a5f4bb39a1 93041794 linuxmuster-linbo7_4.3.28-0_all.deb
+ 486d0eb4d59737119dbf520356dda6f2750744f8 15960 linuxmuster-linbo7_4.3.28-0_amd64.buildinfo
 Checksums-Sha256:
- ea7e686c6e6f4b4e21fd3b08a730ebcc33b4cdf2f826aa3aebda5cd186bd2875 2056 linuxmuster-linbo7_4.3.28-0.dsc
- 0cdfbeac03ee6270004df3e299284c036c1d5fcf10dceb88419712698b91b113 2058381 linuxmuster-linbo7_4.3.28-0.tar.gz
- 59147ffcf5de33e8c731b67dda2857fa2e5305653d57b81f7e10db43f7c0dbea 93057928 linuxmuster-linbo7_4.3.28-0_all.deb
- d42eaea2eaf27010dc09b5e639a62f8bb090544f4770b622a84b1ac727e73792 15960 linuxmuster-linbo7_4.3.28-0_amd64.buildinfo
+ 69f7781deed913759e8b318321e3e828616fd1c184e9fa46bfdeb5d17c1a0a41 2056 linuxmuster-linbo7_4.3.28-0.dsc
+ e1697783a35d91aa46fa65c10469ef83cebf788c882ec23a25e2dd586078e658 2058366 linuxmuster-linbo7_4.3.28-0.tar.gz
+ 939c562395cf60c00f34d954486343db315630e8f512052a675ace6f1fd17fd2 93041794 linuxmuster-linbo7_4.3.28-0_all.deb
+ f88b7cc549616502f3bca9d89f9586d7d1a1c106ad5a20d2334f682b4876ae85 15960 linuxmuster-linbo7_4.3.28-0_amd64.buildinfo
 Files:
- 81323a98731b542fc95f109186c73e89 2056 admin extra linuxmuster-linbo7_4.3.28-0.dsc
- a56e718011c14076370c7b9aa0e0530f 2058381 admin extra linuxmuster-linbo7_4.3.28-0.tar.gz
- f52c2615fffa017f4010f6edb787e29e 93057928 admin extra linuxmuster-linbo7_4.3.28-0_all.deb
- 6fa9974427c34498e1755721f53eb2df 15960 admin extra linuxmuster-linbo7_4.3.28-0_amd64.buildinfo
+ 6fb5fc303c2a674e50b711ad66fe137b 2056 admin extra linuxmuster-linbo7_4.3.28-0.dsc
+ a30992d0c50a64bb1be46bc478b1f9a7 2058366 admin extra linuxmuster-linbo7_4.3.28-0.tar.gz
+ 0dce24a38b57761103b42a7585b50ff4 93041794 admin extra linuxmuster-linbo7_4.3.28-0_all.deb
+ b816e50849020524b42719b24b1f8b81 15960 admin extra linuxmuster-linbo7_4.3.28-0_amd64.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmkR+j4XHHRob21hc0Bs
-aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLJNTwv9Esw0lDGLTqLMuK0mbjpqkerC
-kp2aWWgg/btY3h1+hjKKWfFOCA/icnrLn7dgoJOg3T0emySBFlaCpcEaVplY8SCo
-6wwkdPAA4K3tVsSlC27uQIYEXmBQ2gbQMBxTrnC0IQSqWKLApcxHpXcQD0OHkZ7c
-KCVp9TYULWh0hINPcoFRJA3nOTW/OlAB+omD9bR2vS5un3ysJgeTFyZ5dWT6T8/B
-mtp7gO9+Fv1O2/Vap0pg0aaQXf9Y8sCvWCg+bDN2Bq08K9xNB634Rmofv39b/rSp
-d3NSYUgR1OHt44LslKViOn/bxWktVWekDjY3QXGViCNPfe4+ZCGws1JuQfpmIuwM
-Vm184WSObrNmHWyAi4qeZoor2ejGtBEezclPEfWsDqWkv3DHSOegpeZ0ZnUd4rEW
-/sA46rKAEKFT7Xj60ZITcBA3EBQ0/xX3iIV3kQvqaAOemIbuppantiyAVhc/GtDL
-0jkpZ9EJzQ5DV0dZbzPUAIF1VlgbZvYk2HIxzoxz
-=0mqA
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmkSAAwXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLJiWgv/YLmV7hPHMLwXIF4E5bVrBJb7
+83Iqk8pDOWQlPGghpTjXCfXKLI2zICMSW0gomO596DXc2BgtBmzZerWf9w5SNKX5
+PZlFTAjNJJpYzH1VvM+SMtVHMmPw98JyOpRFSuafrh6bnY7x6png+h5qJFT/h+xG
+Z0hZuB1Gvcpu5PtFmqP0s0Y2nO87vQZhY69LEEJvfIWjW7yYFMuN9e7UEurSa2pK
+DzJIjUxLmP8R3heQAp/YdMtNF+uUeHe4WYJxQW2jaGqsb+Z4xTIdEWeJViJvW+g/
+ZkOddReNEtm+I11klGcWX1Xs/H8FQjKMXKMU3oQwfAxaoZrzr5QRfJizWmAe6m6B
+xG6QBWSQvRExlPe2adAFp4FkgATNjoGJP/FQ92TafOfL11fctTVAu44dutTtPIv5
+ZVTTpY9nsTPgTLmzpFOmq01J5JmSKW9liLnPyDHBNQO+OkaPwoNyr2MWK/3g7q0f
+gCwRMbAKuYIRQOFr2zpnvnA6WXiYn2VUgdIvrcry
+=Gru/
 -----END PGP SIGNATURE-----
