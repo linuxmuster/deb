@@ -2,15 +2,15 @@ Format: 1.0
 Source: linuxmuster-linuxclient7
 Binary: linuxmuster-linuxclient7
 Architecture: all
-Version: 1.0.12
+Version: 1.1.0
 Maintainer: Dorian Zedler <dorian@itsblue.de>
 Standards-Version: 5.0.0
 Build-Depends: debhelper (>= 5.0.0)
 Package-List:
  linuxmuster-linuxclient7 deb linuxmuster optional arch=all
 Checksums-Sha1:
- d8887d9daee3c26f6ca5071099a70405d68fb7da 66434 linuxmuster-linuxclient7_1.0.12.tar.gz
+ 1983a8420172037cb22109ce25365da99e218cb8 82703 linuxmuster-linuxclient7_1.1.0.tar.gz
 Checksums-Sha256:
- c8a28516b6c87e794a6fac5886cc76721cf2695f061aab00d0ea8ee6d9065ea3 66434 linuxmuster-linuxclient7_1.0.12.tar.gz
+ 7827a5b7b3837bdab33b2d314f84f064c6b2609d31819177eca21e0fd2a1162a 82703 linuxmuster-linuxclient7_1.1.0.tar.gz
 Files:
- 879cb1f2c047145459a464d992b0b5ab 66434 linuxmuster-linuxclient7_1.0.12.tar.gz
+ d921eedd4eaea5da544bd4fdf8422e33 82703 linuxmuster-linuxclient7_1.1.0.tar.gz
