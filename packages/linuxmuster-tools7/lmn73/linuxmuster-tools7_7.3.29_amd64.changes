@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Sat, 15 Nov 2025 13:07:01 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.29
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.29) lmn73; urgency=medium
+ .
+   * [common] Add colors for ColorShell
+   * [examples] Get list of teachers members of schoolclasses
+   * [examples] ResetInternet: speed up call of all students
+   * [ldapwriter] Allow custom fields in projects
+   * [print] Add template manager (jinja and LaTeX)
+   * [print] Add templates for students lists (DE, EN, FR)
+   * [print] Print schoolclass' students list
+   * [print] Support multipages
+   * [samba] Avoid prefix shadowing in smbstatus
+Checksums-Sha1:
+ 0acb10031cadd0d7879089d4429eea6ef8243fa6 580 linuxmuster-tools7_7.3.29.dsc
+ f38a7f2c5e3227e65ac6f8c4e28c8cb8a84de130 88039 linuxmuster-tools7_7.3.29.tar.gz
+ 7676eebd258457f8771d0c28d66d05dc74462d08 60318 linuxmuster-tools7_7.3.29_all.deb
+ 3e5bfa9e26b277f1324121f03b9440d0d79d662e 7644 linuxmuster-tools7_7.3.29_amd64.buildinfo
+Checksums-Sha256:
+ 542f5c96058c83d443ca65c002470ac042c3ba8826ad726d6f403d2bd1c1a20d 580 linuxmuster-tools7_7.3.29.dsc
+ 63d9ff8071f3566fa0eae29d89c28dbbf918532b983f8ca8cc4d47fa822a8d3a 88039 linuxmuster-tools7_7.3.29.tar.gz
+ ebdf401e6cc22ef25c0a0f859ec317569c555b7ace28f6d8a3f014941b61eb4d 60318 linuxmuster-tools7_7.3.29_all.deb
+ 14e106d217835320d5f11b603f08a7d602a74aa42cd5af09b34b2a4cd7d4b072 7644 linuxmuster-tools7_7.3.29_amd64.buildinfo
+Files:
+ ddd0f9e15f213201ec7dd4eedbaf53db 580 linuxmuster optional linuxmuster-tools7_7.3.29.dsc
+ 73a1e9d11ec032160f80094bb8ac45b1 88039 linuxmuster optional linuxmuster-tools7_7.3.29.tar.gz
+ 48dd4abca7a5bb687565a56f37f60b83 60318 linuxmuster optional linuxmuster-tools7_7.3.29_all.deb
+ b9b09d7d18c0707c01f56678af2e3c00 7644 linuxmuster optional linuxmuster-tools7_7.3.29_amd64.buildinfo
