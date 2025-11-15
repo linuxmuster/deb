@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 15 Nov 2025 13:13:52 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.17
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.17) lmn73; urgency=medium
+ .
+   * Remove quote in keys for simplier auth in SwaggerUI
+   * New endpoint /schoolclass/9a/pdf_students_list for students' lists
+Checksums-Sha1:
+ 1fe68410a4c38d2d015e41a738295f4d8e1fa35a 568 linuxmuster-api7_7.3.17.dsc
+ 6b703ff684186a213b0283881c999ab43a147def 57820 linuxmuster-api7_7.3.17.tar.gz
+ a73136fe9c1ee05a89937eecb2c14a795c6fca9f 41210 linuxmuster-api7_7.3.17_all.deb
+ 26bfd4e199a552ca2e40303e12a31c5d5ed06fc8 7628 linuxmuster-api7_7.3.17_amd64.buildinfo
+Checksums-Sha256:
+ 6a2136034f8392731e51f5cefacf223b50fa6c36b9bc87b182ef0ea6501b1468 568 linuxmuster-api7_7.3.17.dsc
+ 15fb2b3545e9ac7eaaaf92e88ad0873087686508ef1d560bb586c090fc345467 57820 linuxmuster-api7_7.3.17.tar.gz
+ 5220f4fcc1ec9eefd80e5a6d81d8d96a6f101544b77c8530702b4f7d7ff7c493 41210 linuxmuster-api7_7.3.17_all.deb
+ 7dc7ef4c22ee695548c4560687cbc0ed8fa9b9f48268b1963ef0d0618918417b 7628 linuxmuster-api7_7.3.17_amd64.buildinfo
+Files:
+ d981cc6ad2ef0bd1ab6269ad60799b67 568 linuxmuster optional linuxmuster-api7_7.3.17.dsc
+ 30c9ed91f872384f1d37debe238f4877 57820 linuxmuster optional linuxmuster-api7_7.3.17.tar.gz
+ bf9158279ffd6d3d259c2c677bf79dc3 41210 linuxmuster optional linuxmuster-api7_7.3.17_all.deb
+ c048b61c412e66b5b9217c0bc1d15ce4 7628 linuxmuster optional linuxmuster-api7_7.3.17_amd64.buildinfo
