@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sat, 15 Nov 2025 16:40:06 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.1.0
+Distribution: lmn73
+Urgency: medium
+Maintainer: Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.1.0) lmn73; urgency=medium
+ .
+   * Add option to change drive letter template via config file (#33)
+   * Move configuration to /etc/linumuster-linuxclient7/config.yml (#32)
+   * Add module name to logs (#68)
+Checksums-Sha1:
+ 6b9e26cc37067192aa611365640e38f561cf0c6a 607 linuxmuster-linuxclient7_1.1.0.dsc
+ 1983a8420172037cb22109ce25365da99e218cb8 82703 linuxmuster-linuxclient7_1.1.0.tar.gz
+ fbd970d8ab4b50cb32b99b1a81b91043fde2934e 42778 linuxmuster-linuxclient7_1.1.0_all.deb
+ 40bfcfb88c8bf6984f963aa3abe731cdaeb5318e 7685 linuxmuster-linuxclient7_1.1.0_amd64.buildinfo
+Checksums-Sha256:
+ d4cbcfafd4667d68d16bcecb56c68004700c6a8fe94ee36c1cc8b8537fd8e2b8 607 linuxmuster-linuxclient7_1.1.0.dsc
+ 7827a5b7b3837bdab33b2d314f84f064c6b2609d31819177eca21e0fd2a1162a 82703 linuxmuster-linuxclient7_1.1.0.tar.gz
+ 4a7d0956ec837b39abd9747b626a428e2e96552cffb5e70380bcfea210f7706e 42778 linuxmuster-linuxclient7_1.1.0_all.deb
+ 0c3b84fa2e6c80d1a9c8373bf34dfc64979540d9bc70af480389dc34ccc15ebe 7685 linuxmuster-linuxclient7_1.1.0_amd64.buildinfo
+Files:
+ 11248433d66b16d157fd055ea74e00aa 607 linuxmuster optional linuxmuster-linuxclient7_1.1.0.dsc
+ d921eedd4eaea5da544bd4fdf8422e33 82703 linuxmuster optional linuxmuster-linuxclient7_1.1.0.tar.gz
+ 2a1e126838b080869805d10cfc9a7cea 42778 linuxmuster optional linuxmuster-linuxclient7_1.1.0_all.deb
+ 4a6d03a29933ce9e1ec58947ad1584e4 7685 linuxmuster optional linuxmuster-linuxclient7_1.1.0_amd64.buildinfo
