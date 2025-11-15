@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 15 Nov 2025 13:03:40 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.28
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.28) lmn73; urgency=medium
+ .
+   * [groupmembership] Allow multiple users assignment for groups
+   * [users] More readability for passwords
+Checksums-Sha1:
+ 3795e80f0f7670d5573f4574f52c00059e4c172f 565 linuxmuster-webui7_7.3.28.dsc
+ 31cfcc15520184fccb6ab5574460bfbe3edae99f 1608138 linuxmuster-webui7_7.3.28.tar.gz
+ 3978adfe7faf39f041f919795954e7ea44c0b9ee 829844 linuxmuster-webui7_7.3.28_all.deb
+ 01e2dcec4680d54decd4703f72c56163a4d7f732 7694 linuxmuster-webui7_7.3.28_amd64.buildinfo
+Checksums-Sha256:
+ 4c82963e1460695cf52eb763a2f3671aba7069300bc7f32949d44a9fd7a18f3c 565 linuxmuster-webui7_7.3.28.dsc
+ 43bb0d3277ae20639e4122ed4cd2f7998b34485c7ac0bd3ca94ecaab484e9e57 1608138 linuxmuster-webui7_7.3.28.tar.gz
+ e07dbe8d18c01d24dc5f5efc49b130203d3b069b843aaa9eb753637356057094 829844 linuxmuster-webui7_7.3.28_all.deb
+ d67e3a95b09d6d421d594030717538059941a09433f173fbf0e0a1ed484f8d43 7694 linuxmuster-webui7_7.3.28_amd64.buildinfo
+Files:
+ 7bba114866efbf9a3c2f39a50ea17da7 565 admin optional linuxmuster-webui7_7.3.28.dsc
+ 6614957b41705a47aa80b29124e2edee 1608138 admin optional linuxmuster-webui7_7.3.28.tar.gz
+ dfa2dc12a7ae8a2114b456d061d7aa6c 829844 admin optional linuxmuster-webui7_7.3.28_all.deb
+ 528e7657c424b97eddbb034a20a9a1ff 7694 admin optional linuxmuster-webui7_7.3.28_amd64.buildinfo
