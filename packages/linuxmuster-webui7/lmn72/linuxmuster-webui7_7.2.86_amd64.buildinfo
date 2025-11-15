@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.2.85
+Version: 7.2.86
 Checksums-Md5:
- 67f2078ae5970a66f6d95a12a21046f8 565 linuxmuster-webui7_7.2.85.dsc
- c42cc92d81a4ece44fba2b08ece0ff9f 833996 linuxmuster-webui7_7.2.85_all.deb
+ 4893d2f3e285651ab66fcc435cc31bf7 565 linuxmuster-webui7_7.2.86.dsc
+ 35188c553470bb5c7bbfc1daccdc97a8 834186 linuxmuster-webui7_7.2.86_all.deb
 Checksums-Sha1:
- b4b7afa6d3924be2c271e12c205cf809fef1ca5e 565 linuxmuster-webui7_7.2.85.dsc
- 5b536cf94dda809a71be9b68ad101c2b96195480 833996 linuxmuster-webui7_7.2.85_all.deb
+ ce72333c9d793a4926e2cad96f3189e024f3c0ce 565 linuxmuster-webui7_7.2.86.dsc
+ 40c72879f5c0b1d9836cd37ce5dceff91e2f9b38 834186 linuxmuster-webui7_7.2.86_all.deb
 Checksums-Sha256:
- 591b26aabd72e6d6d242c8a266b712bbf77b8ddf96f2b0ac3c7723dd37fb805e 565 linuxmuster-webui7_7.2.85.dsc
- 525000866082ee40b0b2bf53d5a5a321615bce552606004e6888bae67f689843 833996 linuxmuster-webui7_7.2.85_all.deb
+ 8a5ae6f38027d7af108cf1d601fda7c7caf5ede1b8a44b5c481b01c1c10dab85 565 linuxmuster-webui7_7.2.86.dsc
+ 16fe98b552e1e245844dbce09e394f4c5aa6907d59ac5b60f3cc4f5bdfcd30c5 834186 linuxmuster-webui7_7.2.86_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 01 Nov 2025 18:01:04 +0000
+Build-Date: Sat, 15 Nov 2025 12:17:57 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -28,9 +28,9 @@ Installed-Build-Depends:
  base-files (= 12ubuntu4.7),
  base-passwd (= 3.5.52build1),
  bash (= 5.1-6ubuntu1.1),
- binutils (= 2.38-4ubuntu2.8),
- binutils-common (= 2.38-4ubuntu2.8),
- binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.8),
+ binutils (= 2.38-4ubuntu2.10),
+ binutils-common (= 2.38-4ubuntu2.10),
+ binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.10),
  bsdextrautils (= 2.37.2-4ubuntu3.4),
  bsdutils (= 1:2.37.2-4ubuntu3.4),
  build-essential (= 12.9ubuntu3),
@@ -90,7 +90,7 @@ Installed-Build-Depends:
  libattr1 (= 1:2.5.1-1build1),
  libaudit-common (= 1:3.0.7-1build1),
  libaudit1 (= 1:3.0.7-1build1),
- libbinutils (= 2.38-4ubuntu2.8),
+ libbinutils (= 2.38-4ubuntu2.10),
  libblkid1 (= 2.37.2-4ubuntu3.4),
  libbsd0 (= 0.11.5-1),
  libbz2-1.0 (= 1.0.8-5build1),
@@ -115,7 +115,7 @@ Installed-Build-Depends:
  libcrypt-dev (= 1:4.4.27-1),
  libcrypt1 (= 1:4.4.27-1),
  libctf-nobfd0 (= 2.38-4ubuntu2.8),
- libctf0 (= 2.38-4ubuntu2.8),
+ libctf0 (= 2.38-4ubuntu2.10),
  libdb5.3 (= 5.3.28+dfsg1-0.8ubuntu3),
  libdebconfclient0 (= 0.261ubuntu1),
  libdebhelper-perl (= 13.6ubuntu1),
@@ -190,12 +190,12 @@ Installed-Build-Depends:
  libtsan2 (= 12.3.0-1ubuntu1~22.04.2),
  libubsan1 (= 12.3.0-1ubuntu1~22.04.2),
  libuchardet0 (= 0.0.7-1build2),
- libudev1 (= 249.11-0ubuntu3.16),
+ libudev1 (= 249.11-0ubuntu3.17),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3.4),
- libxml2 (= 2.9.13+dfsg-1ubuntu0.9),
+ libxml2 (= 2.9.13+dfsg-1ubuntu0.10),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-160.170),
+ linux-libc-dev (= 5.15.0-161.171),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -227,4 +227,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1762019968"
+ SOURCE_DATE_EPOCH="1763209014"
