@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 16 Nov 2025 13:52:23 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.31
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.31) lmn73; urgency=medium
+ .
+   * [ldapwriter] Only create new projects
+   * [print] Fix current working directory
+Checksums-Sha1:
+ 601a60213ffe2eabd1fbc060cc056ed56c79ea76 580 linuxmuster-tools7_7.3.31.dsc
+ af27f7f6d5fd0e270b53fdfc729184bae835ae07 88733 linuxmuster-tools7_7.3.31.tar.gz
+ a20cce9246fd85b42c192ffcdf0a1e197ff49e8b 60638 linuxmuster-tools7_7.3.31_all.deb
+ 7fd1a3854ec20cf689a406a0f658d7d1532eabc4 7644 linuxmuster-tools7_7.3.31_amd64.buildinfo
+Checksums-Sha256:
+ 4507173ab025e5435a5b12af29a441db3a50e43123f35ff510b343baa22edc51 580 linuxmuster-tools7_7.3.31.dsc
+ 53fc425d00a167f81c4fc145d79709ada0aeaab72c20c7066364404cc5ef8795 88733 linuxmuster-tools7_7.3.31.tar.gz
+ 7f0ebc3a5af18415402999452926a7531cc03be579d1c33b205bdc85800285c7 60638 linuxmuster-tools7_7.3.31_all.deb
+ be8b6b858deead4ee219922821cd057051ab1e9e07d39cbe322380a5688e6ede 7644 linuxmuster-tools7_7.3.31_amd64.buildinfo
+Files:
+ 6c0ebbbb31b09f410462af1a250ade4b 580 linuxmuster optional linuxmuster-tools7_7.3.31.dsc
+ 046ed08596920366f03367043ee9dee3 88733 linuxmuster optional linuxmuster-tools7_7.3.31.tar.gz
+ a447e037b98531ba091ecb96e0527936 60638 linuxmuster optional linuxmuster-tools7_7.3.31_all.deb
+ 2c07778988fb3e36c6dd66df2329af44 7644 linuxmuster optional linuxmuster-tools7_7.3.31_amd64.buildinfo
