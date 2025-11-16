@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 16 Nov 2025 17:42:06 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.1.1
+Distribution: lmn73
+Urgency: medium
+Maintainer: Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.1.1) lmn73; urgency=medium
+ .
+   * Fix onLogin hook on Debian 13 (#90)
+Checksums-Sha1:
+ fcfb5952c0e6a37cef566d2165f391c6a8249f3b 607 linuxmuster-linuxclient7_1.1.1.dsc
+ f104956bc71730e2a881c536ef7caaaf1b7bd934 82298 linuxmuster-linuxclient7_1.1.1.tar.gz
+ 5301776d031cfce833ed17a36d6bd0808d41d1a6 42458 linuxmuster-linuxclient7_1.1.1_all.deb
+ 0c210065147424a62d8829fdcb11260264efa669 7685 linuxmuster-linuxclient7_1.1.1_amd64.buildinfo
+Checksums-Sha256:
+ da8fe9bcbbee34d844086a96e0ce716517dde12fd61cece5c713a3c5ce224b25 607 linuxmuster-linuxclient7_1.1.1.dsc
+ 1eddde7e98b30609d80b3ab09e085c4751b012e230ea71a2a7a589a1b38880e4 82298 linuxmuster-linuxclient7_1.1.1.tar.gz
+ d7d9d379c4bfbd2ceb30475e8041d5d3d3089f3bad3e0cfb4cd7a556cf432ba1 42458 linuxmuster-linuxclient7_1.1.1_all.deb
+ 4494082b680fe697dcf1d2fed9b692f80822d81063d5b673759bb2f9947a41bf 7685 linuxmuster-linuxclient7_1.1.1_amd64.buildinfo
+Files:
+ 5030c25196a0999b4c8e72e7b2de0bb0 607 linuxmuster optional linuxmuster-linuxclient7_1.1.1.dsc
+ d96db903162c4321659768ad30b55009 82298 linuxmuster optional linuxmuster-linuxclient7_1.1.1.tar.gz
+ 4dbbbd97e8164753236ee96d61703ad1 42458 linuxmuster optional linuxmuster-linuxclient7_1.1.1_all.deb
+ 1cca6af77fabff010488e98988e142ae 7685 linuxmuster optional linuxmuster-linuxclient7_1.1.1_amd64.buildinfo
