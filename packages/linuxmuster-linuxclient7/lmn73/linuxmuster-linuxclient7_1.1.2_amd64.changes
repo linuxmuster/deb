@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 16 Nov 2025 19:09:06 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.1.2
+Distribution: lmn73
+Urgency: high
+Maintainer: Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.1.2) lmn73; urgency=high
+ .
+   * Hotfix: getJoinedDomains and getInstalledPrinters not working
+Checksums-Sha1:
+ ef4db5288b38d960d5a1ff07e74f65f595df12d4 607 linuxmuster-linuxclient7_1.1.2.dsc
+ c3c5eea1aace16a5b48800f23f0b6034b6a9c9e9 82287 linuxmuster-linuxclient7_1.1.2.tar.gz
+ 4e1dd4f791b3f33f12cf7e49a1167fd1ee4ba6ed 42524 linuxmuster-linuxclient7_1.1.2_all.deb
+ 70c5ea3a4ba3ef0180f45ad7486d8d4f578c4eaf 7685 linuxmuster-linuxclient7_1.1.2_amd64.buildinfo
+Checksums-Sha256:
+ 5a302518f2997bd16ee760a3a6494663761078c56f26ea9311cbf9b4a3afb6c2 607 linuxmuster-linuxclient7_1.1.2.dsc
+ 4045a060a600f1ae8d87a34fc87dcf711fe7f08423be765056b53573da462749 82287 linuxmuster-linuxclient7_1.1.2.tar.gz
+ f7d3f4f9dcd8c7cb3c32ef60abf30fd24a785017e0a8360abd54ef3702c29527 42524 linuxmuster-linuxclient7_1.1.2_all.deb
+ e6c800d68978e4640a7289b9b2b6fbfe9d00475c35b2013ba8e130efa510e8ba 7685 linuxmuster-linuxclient7_1.1.2_amd64.buildinfo
+Files:
+ 86d1eb80bf50f1fe24b34c6aa18f39a5 607 linuxmuster optional linuxmuster-linuxclient7_1.1.2.dsc
+ 7342bec838be22ca2ad4065c598c9cdb 82287 linuxmuster optional linuxmuster-linuxclient7_1.1.2.tar.gz
+ 4b45f9caef90f49c413408c386c2a020 42524 linuxmuster optional linuxmuster-linuxclient7_1.1.2_all.deb
+ d9b97708630c0c63765f8984907cb202 7685 linuxmuster optional linuxmuster-linuxclient7_1.1.2_amd64.buildinfo
