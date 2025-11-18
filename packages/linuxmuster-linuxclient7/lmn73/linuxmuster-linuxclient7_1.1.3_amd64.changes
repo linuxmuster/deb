@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 18 Nov 2025 09:10:06 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.1.3
+Distribution: lmn73
+Urgency: high
+Maintainer: Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.1.3) lmn73; urgency=high
+ .
+   * Hotfix: login for non domainusers on Debian 13 with x11
+Checksums-Sha1:
+ cb6720f243dfa1415e94f63f23e2fddf45dff7f1 607 linuxmuster-linuxclient7_1.1.3.dsc
+ 20d480c25cb5eb57170192e616b2e6b6cfcaa580 81803 linuxmuster-linuxclient7_1.1.3.tar.gz
+ f6c9f22392ba5ed3f509958bd9e2628eaf7eda7c 42566 linuxmuster-linuxclient7_1.1.3_all.deb
+ 23cfdd5a327a5378a930cb81831be4b4cf98a8cf 7685 linuxmuster-linuxclient7_1.1.3_amd64.buildinfo
+Checksums-Sha256:
+ acc5ec8057e221a2e1ec60c9c1ca34bba77be3439fb1b2e8fd15d9eaebaa7388 607 linuxmuster-linuxclient7_1.1.3.dsc
+ 1fa97f124e47087be548f5865e09e9780f3222e036cc55d6055482073b936d5c 81803 linuxmuster-linuxclient7_1.1.3.tar.gz
+ 4ec97670fd03ad8a54eaa0548877957f3e3fbfb82ffc8540f0165608cd91a745 42566 linuxmuster-linuxclient7_1.1.3_all.deb
+ 85d0d0a0000530e897899f6a8649beeb6971e7a74e943c433186d335f4e47b20 7685 linuxmuster-linuxclient7_1.1.3_amd64.buildinfo
+Files:
+ 39c907321354e2da437db48d1bc55de2 607 linuxmuster optional linuxmuster-linuxclient7_1.1.3.dsc
+ 8dc40b16bb6b824564f032c6dfcb3463 81803 linuxmuster optional linuxmuster-linuxclient7_1.1.3.tar.gz
+ d6309533d50f72b0c38601e47029dc0d 42566 linuxmuster optional linuxmuster-linuxclient7_1.1.3_all.deb
+ e720658ca1055b754290b0a7f27eaa33 7685 linuxmuster optional linuxmuster-linuxclient7_1.1.3_amd64.buildinfo
