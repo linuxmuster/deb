@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 19 Nov 2025 15:33:19 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.30-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.30-0) lmn73; urgency=low
+ .
+   * don't create keytab if firewall setup is skipped (a1c1f8c).
+   * disable isc-dhcp-server6.service during setup (79b68bb).
+   * fix linuxmuster.net version in setup dialog (485811b).
+Checksums-Sha1:
+ ea9498b83de461eed99ab9e3a06e1bd55e960595 583 linuxmuster-base7_7.3.30-0.dsc
+ fb69c6151698991f8f09cf06ec38f8c64273700c 89750 linuxmuster-base7_7.3.30-0.tar.gz
+ bfe870bb2fc68f9c42e4fbb917a4630ead56f560 59728 linuxmuster-base7_7.3.30-0_all.deb
+ e8752a2ea375def3d13101cbb952eca19c3ec950 7739 linuxmuster-base7_7.3.30-0_amd64.buildinfo
+Checksums-Sha256:
+ 7415d237b04bce37e70b92f8d3118175d0541f6b45e52861aa9e84abf78f5f4c 583 linuxmuster-base7_7.3.30-0.dsc
+ d06bdbf9197db1f2c3d10bb14f4a72cc2b9be624f756e953490161d629fdef2c 89750 linuxmuster-base7_7.3.30-0.tar.gz
+ bf7b40c9148573f28fbe8b115fd7def81b357d1a666cadfc55b02d1656373f6a 59728 linuxmuster-base7_7.3.30-0_all.deb
+ 3a9422491b49b04870cccec429b3a8cb93cbc15a0c7e11ebdef83dcb95500c67 7739 linuxmuster-base7_7.3.30-0_amd64.buildinfo
+Files:
+ 093cfec65a78c7ec8d58fb7159daf82f 583 linuxmuster optional linuxmuster-base7_7.3.30-0.dsc
+ 0b2c8c8ad468943ddfc997da55429923 89750 linuxmuster optional linuxmuster-base7_7.3.30-0.tar.gz
+ 50de8ed99bdbc6bf6a128e70295303e0 59728 linuxmuster optional linuxmuster-base7_7.3.30-0_all.deb
+ d613531f3861255263ac9bd404f84c39 7739 linuxmuster optional linuxmuster-base7_7.3.30-0_amd64.buildinfo
