@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 27 Nov 2025 20:48:22 +0100
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.31-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.31-0) lmn73; urgency=low
+ .
+   * setup fix: changing hostname is ignored by samba provisioning (9e02e40).
+Checksums-Sha1:
+ 35fd2595ce14f2f19a5d9cb2e40a6bc895550568 583 linuxmuster-base7_7.3.31-0.dsc
+ 404d391cbefab565c3e86da41df39f780e0c96c8 89411 linuxmuster-base7_7.3.31-0.tar.gz
+ 0b077951c219db673f57a03465f74b3bc8cb9a79 59774 linuxmuster-base7_7.3.31-0_all.deb
+ 2adf287b6d7160b24f93ef495855062a56ac29d6 7739 linuxmuster-base7_7.3.31-0_amd64.buildinfo
+Checksums-Sha256:
+ 6e9d1f0e4ef8bb304fccc030da0f1b7c234dbe95e12ae74e8d8b34bd7237a073 583 linuxmuster-base7_7.3.31-0.dsc
+ 183940a1d265d859dc5cb947412220e062bd43a2bdf9fcc571047038287e00b2 89411 linuxmuster-base7_7.3.31-0.tar.gz
+ f5b359936da19f537e713a87d64375bf5a41035954808a289cadb8e5330d1173 59774 linuxmuster-base7_7.3.31-0_all.deb
+ eeb5748d8393becdb45e7519b1db17cd59c80650bb603a2000405c6cc3434d07 7739 linuxmuster-base7_7.3.31-0_amd64.buildinfo
+Files:
+ 4687a8ed38275d643525633280da863e 583 linuxmuster optional linuxmuster-base7_7.3.31-0.dsc
+ d0f1c00cae86b4d76a3ab72f6153dc0f 89411 linuxmuster optional linuxmuster-base7_7.3.31-0.tar.gz
+ d3ecf5952f2be1ff7db06aa993edc32a 59774 linuxmuster optional linuxmuster-base7_7.3.31-0_all.deb
+ c26a9349d083938de810053cbe871d1b 7739 linuxmuster optional linuxmuster-base7_7.3.31-0_amd64.buildinfo
