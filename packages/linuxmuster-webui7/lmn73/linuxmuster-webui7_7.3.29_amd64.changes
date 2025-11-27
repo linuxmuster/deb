@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Thu, 27 Nov 2025 16:16:46 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.29
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.29) lmn73; urgency=medium
+ .
+   * Remove some deprecated code
+   * [linbo_sync] Fix prestart default value
+   * [session] Error permanently displayed
+   * [setup] Check certificates and proper echoing
+   * [users] Split students and attic view into tabs
+   * [users] Dot again allowed in passwords
+   * [users] Fix unid table view for teachers
+Checksums-Sha1:
+ 7408bc7563b7f56787ab87323d15a22bf5c48137 565 linuxmuster-webui7_7.3.29.dsc
+ d7d67b386ade10802e4dfcee9bad244d3c428485 1608058 linuxmuster-webui7_7.3.29.tar.gz
+ 1fe80c67d410bea0a8bb284f593f7326c1025d09 830604 linuxmuster-webui7_7.3.29_all.deb
+ 7f9c81bb7e8bdc698fe0dbb1bde4600673420803 7694 linuxmuster-webui7_7.3.29_amd64.buildinfo
+Checksums-Sha256:
+ 224354339813fdde14a740557e6fc5ba340648f69e93a9757b17bfd40c836ea7 565 linuxmuster-webui7_7.3.29.dsc
+ 1037a89dcc7bfbac62a388d3d744a4d8e5f20480f00b3d944a4159d3a3d36c3d 1608058 linuxmuster-webui7_7.3.29.tar.gz
+ 593ab88641314c5ab66b8fb3fcc3acd57461b64cd3fe6415e580390ac130adcb 830604 linuxmuster-webui7_7.3.29_all.deb
+ dd781f00eff27f41227c3a7c68fab4c6b03181075f42def9676a544a4b892ba5 7694 linuxmuster-webui7_7.3.29_amd64.buildinfo
+Files:
+ 4f161cd2b36825b2d167534b47418f1c 565 admin optional linuxmuster-webui7_7.3.29.dsc
+ 979b77b787a18b6975914905ccfbaa4a 1608058 admin optional linuxmuster-webui7_7.3.29.tar.gz
+ 075d3cb2f533e2c0b2fd52ef2f5387f7 830604 admin optional linuxmuster-webui7_7.3.29_all.deb
+ 86b552c6dba3ac489ea0b876a6b380a0 7694 admin optional linuxmuster-webui7_7.3.29_amd64.buildinfo
