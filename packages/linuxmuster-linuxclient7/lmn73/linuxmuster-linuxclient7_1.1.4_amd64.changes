@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 8 Dec 2025 18:10:06 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.1.4
+Distribution: lmn73
+Urgency: medium
+Maintainer: Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (1.1.4) lmn73; urgency=medium
+ .
+   * Fix: regressions in setup and prepareImage (#91)
+Checksums-Sha1:
+ 4e9cb254a80bea89ab83c669180a058aef5dd34e 607 linuxmuster-linuxclient7_1.1.4.dsc
+ 682e17696fd2ae0496203d4ac681bebc0dbcf1ad 82292 linuxmuster-linuxclient7_1.1.4.tar.gz
+ 553d1ebd6c752e22e67a75c1f5958723e77c0420 42778 linuxmuster-linuxclient7_1.1.4_all.deb
+ b5eb5ab505c8a581b6debf651facab8da4fb3faf 7685 linuxmuster-linuxclient7_1.1.4_amd64.buildinfo
+Checksums-Sha256:
+ 81d46b0c788d3967ee8b58fba45ace8ba293671c83c516ad57311f2e481d7372 607 linuxmuster-linuxclient7_1.1.4.dsc
+ 03b56074ee58ec76b611eb547924034fbe8edd51001ec509944fe2a10912053d 82292 linuxmuster-linuxclient7_1.1.4.tar.gz
+ dbf01247dfbff72a8ca5b48607587d9272a87193ac5edde0c5e17cec1b3605cf 42778 linuxmuster-linuxclient7_1.1.4_all.deb
+ b58177106902e29fb51f48a2d646369ab789a3736920d263437bcf5306c82a2d 7685 linuxmuster-linuxclient7_1.1.4_amd64.buildinfo
+Files:
+ 2b5e11b5c1194f7149c30993a86f0ae9 607 linuxmuster optional linuxmuster-linuxclient7_1.1.4.dsc
+ 1881cc764c9e0b4860473fbf2d032ead 82292 linuxmuster optional linuxmuster-linuxclient7_1.1.4.tar.gz
+ 4b86bd808acd9ed2e7a8d44dcdce6ec5 42778 linuxmuster optional linuxmuster-linuxclient7_1.1.4_all.deb
+ a7aaa8b110929acc8def4d16b45f052e 7685 linuxmuster optional linuxmuster-linuxclient7_1.1.4_amd64.buildinfo
