@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 08 Dec 2025 20:47:31 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.20
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.20) lmn73; urgency=medium
+ .
+   * Not so restrictive for teachers.
+Checksums-Sha1:
+ ca9f7bb11e3287e88de9a0cf633aafd617f8b9a3 568 linuxmuster-api7_7.3.20.dsc
+ b46514e7baf5b3979228fad1e794b5299f6e1d8c 58351 linuxmuster-api7_7.3.20.tar.gz
+ e46c365fa2f7f8406b34bc143d7c16ea42769dd6 41426 linuxmuster-api7_7.3.20_all.deb
+ c32c3ae668f287c88afcb100d5c972416ee476e8 7628 linuxmuster-api7_7.3.20_amd64.buildinfo
+Checksums-Sha256:
+ 5b1721427e97f60aa13ee764216eca7615995a96572641dc7611cf50473e3eaa 568 linuxmuster-api7_7.3.20.dsc
+ ee6c137cd9e7de328dbeb41de528e8db79d4d1e459529e7f1f0ca1f79c643aba 58351 linuxmuster-api7_7.3.20.tar.gz
+ c26420e7355bd53ed63add8e485eb527689bd19c9a4fc937ed63a0b2a113f1c5 41426 linuxmuster-api7_7.3.20_all.deb
+ 3ca445f00539d5114ec5f5939bd271304cbec67d98028aed8f7db44b93507be8 7628 linuxmuster-api7_7.3.20_amd64.buildinfo
+Files:
+ 14fe94fd41bc1e0ab3c9c188ec64e73a 568 linuxmuster optional linuxmuster-api7_7.3.20.dsc
+ ac0a6a093e400b4cd63ca6eb89c93793 58351 linuxmuster optional linuxmuster-api7_7.3.20.tar.gz
+ 6724335627992adb763250c106a46805 41426 linuxmuster optional linuxmuster-api7_7.3.20_all.deb
+ 589f128ffd8e21985881a42da52e8f65 7628 linuxmuster optional linuxmuster-api7_7.3.20_amd64.buildinfo
