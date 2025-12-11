@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 11 Dec 2025 14:50:41 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.13
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.3.13) lmn73; urgency=medium
+ .
+   * Fix quotas display.
+Checksums-Sha1:
+ f235852e70217d3f93c9ff59dc98f199c97297b5 568 linuxmuster-cli7_7.3.13.dsc
+ c10892140c085c8b4e082d9626f5ac60b78ab5d7 29804 linuxmuster-cli7_7.3.13.tar.gz
+ ff239ede14985c433d9be00f76b29da99787856f 16148 linuxmuster-cli7_7.3.13_all.deb
+ 27747dfaeb1a889e52bbddef9af58db077c6a0b4 7628 linuxmuster-cli7_7.3.13_amd64.buildinfo
+Checksums-Sha256:
+ 0a19a7ffb1e99f1659024e83120c778564012895de0a659712d82c72c9d671f3 568 linuxmuster-cli7_7.3.13.dsc
+ 0820f8aa2eef6db29f815431c43a6f0d9f118d71c17c16c8d3b9f935b3db47af 29804 linuxmuster-cli7_7.3.13.tar.gz
+ b3ed819a990562ea3e6dc054f0b9b788b6beeb18c75ebe1dea837b005ab92d3b 16148 linuxmuster-cli7_7.3.13_all.deb
+ e44294d73e3e6f33e00ec9d169f5e33d38ae3cff2fb0088208c3e9b12535559c 7628 linuxmuster-cli7_7.3.13_amd64.buildinfo
+Files:
+ 3206ba9f4f143fd747190fa24ae0d422 568 linuxmuster optional linuxmuster-cli7_7.3.13.dsc
+ eb937a070c0ef6148bb57b5f582ab43a 29804 linuxmuster optional linuxmuster-cli7_7.3.13.tar.gz
+ 497157f937a1aa3e4e6f2052b91438c8 16148 linuxmuster optional linuxmuster-cli7_7.3.13_all.deb
+ 60959997b815ee46536f3d79c0e76d74 7628 linuxmuster optional linuxmuster-cli7_7.3.13_amd64.buildinfo
