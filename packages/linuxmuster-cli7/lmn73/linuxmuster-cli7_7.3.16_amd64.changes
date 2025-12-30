@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 30 Dec 2025 18:02:34 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.16
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.3.16) lmn73; urgency=medium
+ .
+   * Display joinable and hidden attributes for schoolclasses.
+   * Sort schoolclasses by names.
+   * Display joinable and hidden attributes for printers.
+   * Add command to list projects.
+   * Add reset-internet command for students.
+   * Use smbclient to delete obsolet directories in attic. EXPERIMENTAL.
+Checksums-Sha1:
+ 815948ebb203990bdac7c89173fcc19bbeb443d9 568 linuxmuster-cli7_7.3.16.dsc
+ fb92a5b3f93a2355792afcafd187930d5cb6b270 31243 linuxmuster-cli7_7.3.16.tar.gz
+ 623165f7ee509b91c4ba034a4c8a5da3337672fa 17444 linuxmuster-cli7_7.3.16_all.deb
+ b1e833c4fdca7da7e62c981de46118279311a6bb 7628 linuxmuster-cli7_7.3.16_amd64.buildinfo
+Checksums-Sha256:
+ e894f03494de59150d8490b9fee233267efc10eaacb42091c44cb4479a1d0238 568 linuxmuster-cli7_7.3.16.dsc
+ c6e2e1b1ef3847e71febd4f0bb1aeb69072d772e73567768f72bd4a6d469dd1e 31243 linuxmuster-cli7_7.3.16.tar.gz
+ ae71e02dd7e0c5c3a896d019f4d6b378bde759bde0ad20327086fe612787726c 17444 linuxmuster-cli7_7.3.16_all.deb
+ 90b90318ec6f7c8efca52dcfc7b3b2a030d994a6d5a99ae64754e2e7710497ca 7628 linuxmuster-cli7_7.3.16_amd64.buildinfo
+Files:
+ f25f72ebae0927f5f0331205168f58a0 568 linuxmuster optional linuxmuster-cli7_7.3.16.dsc
+ c78a4587e548456d3dff8ffbcc28af7b 31243 linuxmuster optional linuxmuster-cli7_7.3.16.tar.gz
+ 512d0d6ea55dacef24a8fec7370b86da 17444 linuxmuster optional linuxmuster-cli7_7.3.16_all.deb
+ d9d71fd601b13c5c37cb4baa606f44c2 7628 linuxmuster optional linuxmuster-cli7_7.3.16_amd64.buildinfo
