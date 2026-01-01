@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 01 Jan 2026 23:49:52 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.35
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.35) lmn73; urgency=medium
+ .
+   * [common] Human readable output for sophomorix status
+   * [ldapreader] Add request to get raw users
+Checksums-Sha1:
+ 5b50a2fe6c2a103fdf78dd4c8a5c5693aa8c323f 580 linuxmuster-tools7_7.3.35.dsc
+ ce5fc0adbef0c713c0177a3b485c8312e2afdd68 89679 linuxmuster-tools7_7.3.35.tar.gz
+ ed1f8cd3410aed7429706672d67d844f1bad24fa 62956 linuxmuster-tools7_7.3.35_all.deb
+ a1dde565c3d99e45672b488952fdc99a6104a81f 7644 linuxmuster-tools7_7.3.35_amd64.buildinfo
+Checksums-Sha256:
+ 1b4cf1ebca1d20b3e866201c18622b4b0a83a5c185e6cf45371f42ce839a42e2 580 linuxmuster-tools7_7.3.35.dsc
+ 271929dba3fbbf947cfde7f3308335e20d44c0f2265576f3d2b6eeeab0f3b358 89679 linuxmuster-tools7_7.3.35.tar.gz
+ ffdada6d01cfd5e7455f1412cf28cc9d9d2e73da9cc39a7c31a4ae7a10df600f 62956 linuxmuster-tools7_7.3.35_all.deb
+ 71bdb03c6fe546ef3f46ab8cb2a750d0ed11a8e67d13222ab3f7bbec54989924 7644 linuxmuster-tools7_7.3.35_amd64.buildinfo
+Files:
+ 97a573a9639a0519a344f4f9bba2d688 580 linuxmuster optional linuxmuster-tools7_7.3.35.dsc
+ 419916cae5e03915483f4aba06cd1820 89679 linuxmuster optional linuxmuster-tools7_7.3.35.tar.gz
+ edb05b1f8482c1671cb5e2258d39e4d7 62956 linuxmuster optional linuxmuster-tools7_7.3.35_all.deb
+ a86bdbba04dc96c8b358dc647e8e7681 7644 linuxmuster optional linuxmuster-tools7_7.3.35_amd64.buildinfo
