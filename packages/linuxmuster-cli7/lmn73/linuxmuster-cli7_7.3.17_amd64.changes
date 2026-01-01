@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 01 Jan 2026 23:51:53 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.17
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.3.17) lmn73; urgency=medium
+ .
+   * Accelerate loading time for lmncli users.
+   * Filter users per status in lmncli users.
+   * Display old status for attic users.
+Checksums-Sha1:
+ 751fbf617865c4b04d3403db7029469a30fa72a8 568 linuxmuster-cli7_7.3.17.dsc
+ a6d325dae88f3c1a240fc58f1ead0c7397b07cee 31378 linuxmuster-cli7_7.3.17.tar.gz
+ 78820aa2b87d759164147a76aef0dd0b6dfc84dd 17698 linuxmuster-cli7_7.3.17_all.deb
+ 438eab01c4a60e350ae9e2dad26c13d579be6c06 7628 linuxmuster-cli7_7.3.17_amd64.buildinfo
+Checksums-Sha256:
+ 4580828e3d6e92cfaf6cf05f35951baa067ee0388fb2318e94e382014f050d47 568 linuxmuster-cli7_7.3.17.dsc
+ 57c9981d5949db64f74a43513b790a620bb35757e5d155e6b87cd753d4dedc74 31378 linuxmuster-cli7_7.3.17.tar.gz
+ e458c28977ddc6252fe7e569e609a7d5899c8d48e179ca669b60aa8b8163d078 17698 linuxmuster-cli7_7.3.17_all.deb
+ 4634f8f586a4b6a8858a9cbd9f178c6b53d49760a1ce31bafe5c6e93d796e81b 7628 linuxmuster-cli7_7.3.17_amd64.buildinfo
+Files:
+ 089a519e1e549d529a86eb77913c4463 568 linuxmuster optional linuxmuster-cli7_7.3.17.dsc
+ a6b451d46aef1cc3fe0986ce1796af14 31378 linuxmuster optional linuxmuster-cli7_7.3.17.tar.gz
+ 914d307736204db2b70a52f006906edd 17698 linuxmuster optional linuxmuster-cli7_7.3.17_all.deb
+ ab379bf451f230b89f145847810f74c7 7628 linuxmuster optional linuxmuster-cli7_7.3.17_amd64.buildinfo
