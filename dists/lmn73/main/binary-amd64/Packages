@@ -32,18 +32,18 @@ Description: linuxmuster.net configuration scripts
  This package provides configuration scripts for linuxmuster.net
 
 Package: linuxmuster-cli7
-Version: 7.3.16
+Version: 7.3.17
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 95
+Installed-Size: 96
 Depends: python3, linuxmuster-tools7
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-cli7/linuxmuster-cli7_7.3.16_all.deb
-Size: 17444
-SHA256: ae71e02dd7e0c5c3a896d019f4d6b378bde759bde0ad20327086fe612787726c
-SHA1: 623165f7ee509b91c4ba034a4c8a5da3337672fa
-MD5sum: 512d0d6ea55dacef24a8fec7370b86da
+Filename: pool/main/l/linuxmuster-cli7/linuxmuster-cli7_7.3.17_all.deb
+Size: 17698
+SHA256: e458c28977ddc6252fe7e569e609a7d5899c8d48e179ca669b60aa8b8163d078
+SHA1: 78820aa2b87d759164147a76aef0dd0b6dfc84dd
+MD5sum: 914d307736204db2b70a52f006906edd
 Description: Tools and CLI for the linuxmuster.net 7 server.
 
 Package: linuxmuster-common
