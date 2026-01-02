@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: lmn80
-Date: Fri, 02 Jan 2026 12:07:47 UTC
+Date: Fri, 02 Jan 2026 22:48:54 UTC
 Architectures: i386 amd64
 Components: main
 Description: lmn80 (jammy) stable
@@ -40,17 +40,17 @@ SHA256:
  1def9179ce65b8dcedd14c59d82e4b6c17269a5bc8ffc57cfdc1e59bfa25cc6b 126 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmlXtRMACgkQTouLZn11
-LDJeCQ//aCPEDtMnzsLBXUhjsR+PhCP3gd0LihaaV9VcVQRIG73kbPyMX0j+ch1Z
-wB+UpSKw7JvA5HNdwTg/CMn0fwzn1kOxlhhxfjlGMsd02JSNqMGLUmbAywMaHZSO
-MekSkVfLME2tF6S4d2ch/Q6mjcmN1z5ORBtd15e7Dws2aF5thBvqxuPP3gpV45nx
-KernfCRBYAksyeo8GjfWHxhWPXGNcLlhQ/BNQdx7xbiqU+UoDWQdFC9fA2HbMmBj
-RP9J7l+LxN5YjYHm49bxYU6bHQsS2KecPZDOi71QDfLvjPqFYulIZU5RsKbHHR0P
-NqQF/kjSxPLI56I2JmxC24W8QjGHwvumQCrizLjoNxVH2Q2OzHBM/RdGFUJlpP65
-mKQRe0YI6yxRvkvq+jb1fuKLvW+ankNSTByV2BUbJQtCjcetGCMq47NKavw+irXb
-q6bmmjAEvdsLmpO6ef1yBHVGCvQGfpImApn7q+jmi1M2jvPqg+OQz8RRlROK/O3P
-+s6cBdvdvsI7DQZP3sY0+A1rwikYuDl3LSgvuf3OdbMRF7GUvopkx+PFCpGVIjy7
-fU8dA54LOOx3AmFm7NfuCz+5oXaVXva8JyjwMPy6d5OlDslXB9xof4dQgZ05Rpd3
-K0nI8wBAqQenATLS6JR+8e8C8vWm4zfoHHwFuByNBEVWQDKMgGk=
-=mBam
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmlYS1YACgkQTouLZn11
+LDK/qRAAgycvluhJ65c24KZJ0dvC5ZGfmN38NpHD0U3vIRU5AVSBWNPewt9ZukQN
+qlNGKwHiD2CC6QP30qpGtKXbmbLBO5tq7ynNVwoKcx7vHqOVPudgAYG7kWJ/dL/W
+ReV+ut/pfbB3nFN/AMbRJa8Oizv8hOUS3h+6GsKhhkdUeI7NqS5cclubngnOWmEE
+36HRHzzldoxJZMDCPd7g80W8tT75uRXMucxBwxeYRGwv5NxlkjAOuJf43xlC/Ng7
+dZuZiVdzTk5624Rp5MYrmHOWmvplMprDDr/VR7Z2I2Ro2xPLqG7IjwlCDxIVZ1i0
+fqKh2KB0qbxG42LHG5MRaFMCAg9eR/1YV6qdrrVvgi2PgScjHDeptrMW+Fk4GUVe
+Rb477PRdVebwn9Jv/bEkbQI7gNV6lN8YdyE78j3kNWvyvEb73LWPO+1/v4dkfTQG
+wC3xwpVZqFzEsaycp178lJd9a3hPQ2oU5x/w5zfD+e/vSYlVsJN6gdR6ljtA1sKs
+h8onn9ltICCbwM+hQIkbBxxElkq9XFi7V8nVY8jtnufkEvh/UYApvP4CndTWcT5E
+dqY0Bno6zY0n0M8Xy4oiHpSeGcOtBOTKIZZ0d8Yxc96CMBxUf2JbG+1BxpjJURzZ
+N2VR54JZzXgw8iNjpm23KG3J99UXzMaKJQMzLuB9saVNdKp7Kvk=
+=mhv/
 -----END PGP SIGNATURE-----
