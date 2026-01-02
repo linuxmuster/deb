@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Fri, 02 Jan 2026 12:38:23 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.31
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.31) lmn73; urgency=medium
+ .
+   * [groupmembership] Review logic of members and admins
+   * [groupmembership] Review logic of joinable and hidden groups
+   * [groupmembership] Edit printers joinable and hidden attributes
+   * [groupmembership] Warning for projects without admin
+   * [groupmembership] Separate view for teachers in a schoolclass
+   * [groupmembership] Display number of teachers in a schoolclass in the index view
+   * [listmanagement] Warning for users coming back from attic
+   * [listmanagement] Fix display of killable users
+Checksums-Sha1:
+ 259897da71b8612b553d1bc7a1e4ade88bfbb6bd 565 linuxmuster-webui7_7.3.31.dsc
+ 4b32c7f609962924b606979ba41973e9932dafae 1612623 linuxmuster-webui7_7.3.31.tar.gz
+ 8539ad905d0232dc65fbbc39bc0e0817d487f7e9 832598 linuxmuster-webui7_7.3.31_all.deb
+ a68042a57a7ae37fd9b894f8167336de58db83e6 7694 linuxmuster-webui7_7.3.31_amd64.buildinfo
+Checksums-Sha256:
+ 749ec0395866a527451943a827adb36c35f102827705ed7d6e09f09f3a438814 565 linuxmuster-webui7_7.3.31.dsc
+ 250938be794e48871d0bcf07c563fda2d4df529a807aaaabf19b5dda6e3e244a 1612623 linuxmuster-webui7_7.3.31.tar.gz
+ 4890ca2fcf845b134078d1588edcbed7895ad32692b9134ea7f02b89d59d1ce2 832598 linuxmuster-webui7_7.3.31_all.deb
+ 852a9f929fc8e0ac2e0d9d7181e3a2a1b188a46e0448b1957e1f4ed795e47fe8 7694 linuxmuster-webui7_7.3.31_amd64.buildinfo
+Files:
+ daafb3f4bcfcb13b9083841f00b6b300 565 admin optional linuxmuster-webui7_7.3.31.dsc
+ 1bb55f81b273686923ec91ce6e1ef122 1612623 admin optional linuxmuster-webui7_7.3.31.tar.gz
+ f0b9fab7b1362a17112608c0d9e9f246 832598 admin optional linuxmuster-webui7_7.3.31_all.deb
+ 7dcffd527c4f024a7c2a0d0df1473dac 7694 admin optional linuxmuster-webui7_7.3.31_amd64.buildinfo
