@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 12 Jan 2026 15:53:10 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.31-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.31-0) lmn73; urgency=low
+ .
+   * fix error handling in case of not existing firmware configuration and logs (2491143).
+Checksums-Sha1:
+ 7c713a9b4f3280a5df01774dd4eb275176bfb9a7 2056 linuxmuster-linbo7_4.3.31-0.dsc
+ c4dfbe717357cfe38059c800a7f42df315dc843c 2097400 linuxmuster-linbo7_4.3.31-0.tar.gz
+ fd1ba5ceeb4db49914fd51bdac4612b7d3dedb97 92901312 linuxmuster-linbo7_4.3.31-0_all.deb
+ bf8632f862fe5a39c8e42476f5897dec74063c82 15845 linuxmuster-linbo7_4.3.31-0_amd64.buildinfo
+Checksums-Sha256:
+ 204804483d68d19ce174dc13496eb8301f345fefc7f917ca10831c8f3ab2f868 2056 linuxmuster-linbo7_4.3.31-0.dsc
+ db3c0e049f69d21c95dc09b7a97f8b890c8f7936603e1c5b3ce3182bb9ccd023 2097400 linuxmuster-linbo7_4.3.31-0.tar.gz
+ 388b4f79431da0cf374998a52aed99e9f6239d79de4212aabf5ec91c7f0c26ed 92901312 linuxmuster-linbo7_4.3.31-0_all.deb
+ 70fe88acd8b9e285f266d7578a37731171fa51b1de69c3a372be54650b5ad333 15845 linuxmuster-linbo7_4.3.31-0_amd64.buildinfo
+Files:
+ d4fea46621869636164ffc8360e06655 2056 admin extra linuxmuster-linbo7_4.3.31-0.dsc
+ c36788e250613045725861740077fed1 2097400 admin extra linuxmuster-linbo7_4.3.31-0.tar.gz
+ 228470fae7cd978aead9ff6d5625d9da 92901312 admin extra linuxmuster-linbo7_4.3.31-0_all.deb
+ dd4bd285ad4f49d65716164d0ae23e5a 15845 admin extra linuxmuster-linbo7_4.3.31-0_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHLBAEBCgA1FiEEzx0G+D7oUYy6gOiPJstRT/0LRLIFAmllCusXHHRob21hc0Bs
+aW51eG11c3Rlci5uZXQACgkQJstRT/0LRLImYQv9E9TvuOYhoz3vJ5I53WmjBId5
+u9qutbp7dVMtRawcYVMH01oya9RmqzEyGqrAsSM68GT9jETdUSzvq7gb695u4qBZ
+rpqVxgUMbgFDzHH0O+KOYo9a+c5qUqjqXJnd2unXdYxcCMSoUGSgP/hINjuXbbqu
+6lZ6zMt0poCJNcYnzKjz01YU7sE8Rn2qMkdg6rpOpCxhyPVukLXM/pBr0kc+cOik
+4qS6I4hhfJ4n9tMkvOyoWTADHJvmw7zX7VX757kO2fPnk03D+9kH9tsqEyln5e21
+veZp1hefnZ6/4aXX8eYasnUO1hgrGnAWFQkfno48furYt+NKKqMCikDRzE8Iw4X9
+FnBZl6mDlYpiCBJx39nJid1dh8SwlDQDzKm3xb3qGyy5/zW5voNs5GJLQP010LQG
+iR0wlKL4Avh7EspSIPZTkI+BEZ8ThWIyyDNezOpiVr4ZhPpakDV+DbrHvqQIkAZK
+shreT2wzAO32jjMGI7KrbXfQhBdbS5r6lEwGZ57U
+=5m65
+-----END PGP SIGNATURE-----
