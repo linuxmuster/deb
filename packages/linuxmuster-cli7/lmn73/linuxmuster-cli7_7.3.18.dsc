@@ -2,15 +2,15 @@ Format: 1.0
 Source: linuxmuster-cli7
 Binary: linuxmuster-cli7
 Architecture: all
-Version: 7.3.17
+Version: 7.3.18
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Standards-Version: 5.0.0
 Build-Depends: debhelper (>= 5.0.0)
 Package-List:
  linuxmuster-cli7 deb linuxmuster optional arch=all
 Checksums-Sha1:
- a6d325dae88f3c1a240fc58f1ead0c7397b07cee 31378 linuxmuster-cli7_7.3.17.tar.gz
+ 6d07217c674b4d6784927c58f5a26c9239a468f0 31427 linuxmuster-cli7_7.3.18.tar.gz
 Checksums-Sha256:
- 57c9981d5949db64f74a43513b790a620bb35757e5d155e6b87cd753d4dedc74 31378 linuxmuster-cli7_7.3.17.tar.gz
+ 7ceb1faf7a21a1773c0db7fcce7dba911c8908a7071cd97a276f5ce370d40208 31427 linuxmuster-cli7_7.3.18.tar.gz
 Files:
- a6b451d46aef1cc3fe0986ce1796af14 31378 linuxmuster-cli7_7.3.17.tar.gz
+ 00a0fe5369965f88aeb7967b5a3d3fcd 31427 linuxmuster-cli7_7.3.18.tar.gz
