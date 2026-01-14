@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-api7
 Binary: linuxmuster-api7
 Architecture: all source
-Version: 7.3.22
+Version: 7.3.23
 Checksums-Md5:
- 8717d6a3c6ac066a23adad2d93fb4ca9 568 linuxmuster-api7_7.3.22.dsc
- c90e9cf4b6dbc368bea454502c3a63f1 44374 linuxmuster-api7_7.3.22_all.deb
+ f68b848845479b29c1db33ee50427d61 568 linuxmuster-api7_7.3.23.dsc
+ 3abbbaddc1a922e436cab80ef0c73cf1 44744 linuxmuster-api7_7.3.23_all.deb
 Checksums-Sha1:
- 7e888b0d6d12ae7002866c533949e2f40f3a13be 568 linuxmuster-api7_7.3.22.dsc
- 801903290d1b063ca5d8979de214b0f7859822a7 44374 linuxmuster-api7_7.3.22_all.deb
+ a20e9704ec3e118ab118bd976ee27b34e73e26e4 568 linuxmuster-api7_7.3.23.dsc
+ 77594880c3906a2d16e5ac30f3073f7d4c165ba5 44744 linuxmuster-api7_7.3.23_all.deb
 Checksums-Sha256:
- a2d279eca328a95932a0910fa86e3f479f5c8498d6848d2ba520d80650063a56 568 linuxmuster-api7_7.3.22.dsc
- 55337e54c8ec6c24320a8da9d6178789a3fc867119ee00c0fcc12c209494529f 44374 linuxmuster-api7_7.3.22_all.deb
+ ee3de222e404597dc9c70a5e5a3fa254195bd92ce8dd508dd4b5aba557c69055 568 linuxmuster-api7_7.3.23.dsc
+ 901b90be74595e98eb152d19ae0820070b29dea41b3944e1b2db789ccf1cb1ff 44744 linuxmuster-api7_7.3.23_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 02 Jan 2026 22:42:25 +0000
+Build-Date: Wed, 14 Jan 2026 09:19:36 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -172,13 +172,13 @@ Installed-Build-Depends:
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04),
  libsub-override-perl (= 0.10-1),
- libsystemd0 (= 255.4-1ubuntu8.11),
+ libsystemd0 (= 255.4-1ubuntu8.12),
  libtinfo6 (= 6.4+20240113-1ubuntu2),
  libtool (= 2.4.7-7build1),
  libtsan2 (= 14.2.0-4ubuntu2~24.04),
  libubsan1 (= 14.2.0-4ubuntu2~24.04),
  libuchardet0 (= 0.0.8-1build1),
- libudev1 (= 255.4-1ubuntu8.11),
+ libudev1 (= 255.4-1ubuntu8.12),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.3),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.6),
@@ -214,4 +214,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1767392768"
+ SOURCE_DATE_EPOCH="1768382274"
