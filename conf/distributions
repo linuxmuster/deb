@@ -104,8 +104,16 @@ SignWith: 4E8B8B667D752C32
 
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
+Codename: lmn74
+Architectures: i386 amd64 source
+Components: main
+Description: lmn74 (resolute) stable
+SignWith: 4E8B8B667D752C32
+
+Origin: deb.linuxmuster.net
+Label: deb.linuxmuster.net
 Codename: lmn80
 Architectures: i386 amd64 source
 Components: main
-Description: lmn80 (jammy) stable
+Description: lmn80 (resolute) stable
 SignWith: 4E8B8B667D752C32
