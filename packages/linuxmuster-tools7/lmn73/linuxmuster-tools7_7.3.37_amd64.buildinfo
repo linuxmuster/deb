@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all source
-Version: 7.3.36
+Version: 7.3.37
 Checksums-Md5:
- 67f2c54f7e134228dee94ab2fae057c3 580 linuxmuster-tools7_7.3.36.dsc
- 3a491d3f9a331768bfa657afaa5c5c04 63556 linuxmuster-tools7_7.3.36_all.deb
+ c4dd15af1c0ad9923e0bf7475e155838 580 linuxmuster-tools7_7.3.37.dsc
+ 8a86f488d5a1f43ebcf50408baf33e14 65680 linuxmuster-tools7_7.3.37_all.deb
 Checksums-Sha1:
- 9efb115cb7fb1e1ea40c9e75f833e25d59cb79d9 580 linuxmuster-tools7_7.3.36.dsc
- b9c1d623ab6bf846a6ad8f528727be49081e4540 63556 linuxmuster-tools7_7.3.36_all.deb
+ a60ea7a050921795afb83dc21d8abff617966b62 580 linuxmuster-tools7_7.3.37.dsc
+ e3e19310e0078a73bdd614524973f36718c18b32 65680 linuxmuster-tools7_7.3.37_all.deb
 Checksums-Sha256:
- ab91991524b292fb6f620a00edf3856a5440a45d3ed43b7cce33093d877564f8 580 linuxmuster-tools7_7.3.36.dsc
- b003b407dfb3ac18449e6f007cdffbfa39053bcdf68ce8a58deae3d5bed3cc09 63556 linuxmuster-tools7_7.3.36_all.deb
+ 60081e053ce155fe04106224bcf7121070c373bc4bb384a85b5738160dbc6c4f 580 linuxmuster-tools7_7.3.37.dsc
+ 32096f8da734d3cd217e6196a10e81ba1aa9c3577f9c396681e0c49e5940f69a 65680 linuxmuster-tools7_7.3.37_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 04 Feb 2026 20:00:03 +0000
+Build-Date: Sun, 22 Feb 2026 17:11:50 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -168,7 +168,7 @@ Installed-Build-Depends:
  libsframe1 (= 2.42-4ubuntu2.8),
  libsigsegv2 (= 2.14-1ubuntu2),
  libsmartcols1 (= 2.39.3-9ubuntu6.3),
- libssl3t64 (= 3.0.13-0ubuntu3.6),
+ libssl3t64 (= 3.0.13-0ubuntu3.7),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04),
  libsub-override-perl (= 0.10-1),
@@ -183,7 +183,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.39.3-9ubuntu6.3),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.7),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-90.91),
+ linux-libc-dev (= 6.8.0-94.96),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -214,4 +214,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1770235143"
+ SOURCE_DATE_EPOCH="1771780071"

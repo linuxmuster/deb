@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 22 Feb 2026 18:07:51 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.37
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.37) lmn73; urgency=medium
+ .
+   * [ldapreader] Remove webui permissions in rawuser response.
+   * [ldapreader] Add endpoints for school- and global admins.
+   * [ldapreader] Add endpoints for school- and global bind users.
+   * [ldapwriter] Fix multischool issues.
+   * [linbo] Class for linbo-remote and build command.
+   * [linbo] New parser for start.conf.
+Checksums-Sha1:
+ a60ea7a050921795afb83dc21d8abff617966b62 580 linuxmuster-tools7_7.3.37.dsc
+ 2914fa1d28c5aa870d97333657921d306f37e590 93982 linuxmuster-tools7_7.3.37.tar.gz
+ e3e19310e0078a73bdd614524973f36718c18b32 65680 linuxmuster-tools7_7.3.37_all.deb
+ 741403a34f54f222f1f164e63ee2d2f30109fd6a 7644 linuxmuster-tools7_7.3.37_amd64.buildinfo
+Checksums-Sha256:
+ 60081e053ce155fe04106224bcf7121070c373bc4bb384a85b5738160dbc6c4f 580 linuxmuster-tools7_7.3.37.dsc
+ 8dd10899504f8b7b499a9c66342a90f852a6eda159f0d8263d10c0bc76700265 93982 linuxmuster-tools7_7.3.37.tar.gz
+ 32096f8da734d3cd217e6196a10e81ba1aa9c3577f9c396681e0c49e5940f69a 65680 linuxmuster-tools7_7.3.37_all.deb
+ 55b0fc124c2a96da3c59934408a49ed5015c016952f29c5d6b50807b2d358bf8 7644 linuxmuster-tools7_7.3.37_amd64.buildinfo
+Files:
+ c4dd15af1c0ad9923e0bf7475e155838 580 linuxmuster optional linuxmuster-tools7_7.3.37.dsc
+ 4f066706076dcc3bf433b8a460266fbb 93982 linuxmuster optional linuxmuster-tools7_7.3.37.tar.gz
+ 8a86f488d5a1f43ebcf50408baf33e14 65680 linuxmuster optional linuxmuster-tools7_7.3.37_all.deb
+ abfc217079e1077d6f6e74e77cf4651e 7644 linuxmuster optional linuxmuster-tools7_7.3.37_amd64.buildinfo
