@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 22 Feb 2026 18:06:51 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.20
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.3.20) lmn73; urgency=medium
+ .
+   * Add school parameter for parents.
+Checksums-Sha1:
+ 52c381052c46d6aa58b1e15d646326122d7f213f 568 linuxmuster-cli7_7.3.20.dsc
+ a22dcb3f2a6e474a485684dc93575dfc1cfb2ab7 31545 linuxmuster-cli7_7.3.20.tar.gz
+ 390b459fb9454261973809a325a8bf8d03c4abdd 17850 linuxmuster-cli7_7.3.20_all.deb
+ c3ae58cbc42c4e67d621495651293df31b02e0d1 7628 linuxmuster-cli7_7.3.20_amd64.buildinfo
+Checksums-Sha256:
+ d25d0d8043dd0710f0fb47fea5be0c92c10a7e6695bdf445222c193014ab53d7 568 linuxmuster-cli7_7.3.20.dsc
+ 4274867c1173ea3c173859331ad10f8bef07048e8b4579ac59adcd1ee60652b1 31545 linuxmuster-cli7_7.3.20.tar.gz
+ 08b0a814ddefb9280ecc558eb4afe76417b48c7502964fa50fa0d9a19f3144a2 17850 linuxmuster-cli7_7.3.20_all.deb
+ 615e4277b810f2529e81538785b2c953b58dbeffe7f5ebca8b1cef89cff89f6f 7628 linuxmuster-cli7_7.3.20_amd64.buildinfo
+Files:
+ e2fdf30dfc671d55c374664274c5b3f8 568 linuxmuster optional linuxmuster-cli7_7.3.20.dsc
+ e16fe2ac54758419b7c0ecd56d9207c6 31545 linuxmuster optional linuxmuster-cli7_7.3.20.tar.gz
+ 7fe422b42219c56647bb50a618fa12a5 17850 linuxmuster optional linuxmuster-cli7_7.3.20_all.deb
+ cdcb20fe733fd4c7add64faabaf43e8a 7628 linuxmuster optional linuxmuster-cli7_7.3.20_amd64.buildinfo
