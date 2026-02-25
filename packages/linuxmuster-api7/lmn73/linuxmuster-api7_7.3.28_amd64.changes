@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 25 Feb 2026 11:28:44 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.28
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.28) lmn73; urgency=medium
+ .
+   * /devices: Fix status on GET.
+   * /devices: ignore status in POST if given.
+   * /devices: send comment in csv too.
+   * /schoolclasses: PATCH some attributes like mailalias.
+Checksums-Sha1:
+ 1a840cf6a62f06465809f4f08571dae01ff00787 568 linuxmuster-api7_7.3.28.dsc
+ 5aba586e89272155a1a8a7bbe25b199b1d2af0f8 66310 linuxmuster-api7_7.3.28.tar.gz
+ ebfc1697561adfe038b1108d3f3d73a5cf59d612 48136 linuxmuster-api7_7.3.28_all.deb
+ 5bd23b08f7331f1eaf5d99a6d9108b021e14fac1 7628 linuxmuster-api7_7.3.28_amd64.buildinfo
+Checksums-Sha256:
+ 6e836cd826aed8f7f10069c54dc07e53be9308dea1f515608e4d2413e63182b5 568 linuxmuster-api7_7.3.28.dsc
+ 916a92ff3b041de234d60ea125211ba0cc1181b24e91833e16dfe4b70358e9fe 66310 linuxmuster-api7_7.3.28.tar.gz
+ 01ac722abb24bcb9713b579f9fa12f13ea16beacd9d9116dc40c264fd3a891ac 48136 linuxmuster-api7_7.3.28_all.deb
+ d85f2d3d3030f893f1045791aa7c4e8741123d466db97fd679053175a7685934 7628 linuxmuster-api7_7.3.28_amd64.buildinfo
+Files:
+ 4c89a44bf571507518a1ab9bd65a9ec0 568 linuxmuster optional linuxmuster-api7_7.3.28.dsc
+ fc0ce3c18936e444a75a4b2239ac9e29 66310 linuxmuster optional linuxmuster-api7_7.3.28.tar.gz
+ 756fdea4f6645d237c3fea0785c88a73 48136 linuxmuster optional linuxmuster-api7_7.3.28_all.deb
+ 44078f3b12543bc77567e339a49199bb 7628 linuxmuster optional linuxmuster-api7_7.3.28_amd64.buildinfo
