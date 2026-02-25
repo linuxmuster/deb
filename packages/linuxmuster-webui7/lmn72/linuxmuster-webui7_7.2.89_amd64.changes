@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 25 Feb 2026 23:11:01 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.89
+Distribution: lmn72
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.89) lmn72; urgency=medium
+ .
+   * Security fix in Ajenti 2.2.13.
+Checksums-Sha1:
+ 54d1a662f1399417b0c1632f4dba69ee7ebeeee5 565 linuxmuster-webui7_7.2.89.dsc
+ 26fd7049a655a401ce6974b0fbb7cc72a7941295 1449808 linuxmuster-webui7_7.2.89.tar.gz
+ 9473e962f54fa40836bd976961edf4699b32cb7b 834264 linuxmuster-webui7_7.2.89_all.deb
+ fe638f776453367c817914ad05a77ae40c5abd10 7968 linuxmuster-webui7_7.2.89_amd64.buildinfo
+Checksums-Sha256:
+ 4cfa943a7366075558860dbd5b0aaedf0a4a70629b7aafcbd0a224c886b1007b 565 linuxmuster-webui7_7.2.89.dsc
+ 08bbc60c1bfaf4ae9f9936b4d0b58d6c6e0aa62293d1423147b15483997f15d0 1449808 linuxmuster-webui7_7.2.89.tar.gz
+ a1cb87ec627397024ec6a228a173513176b4e7a6d81be367a7e715ee0c706349 834264 linuxmuster-webui7_7.2.89_all.deb
+ 1c79dd390caf42f4cb2fd3b7e4cdd45d6a4f1ab5b7436b1076055165b755d2a0 7968 linuxmuster-webui7_7.2.89_amd64.buildinfo
+Files:
+ 359d75c1fb136c10823859544ac8b5aa 565 admin optional linuxmuster-webui7_7.2.89.dsc
+ dc25fa4a0d80a7d9c38f55737930faf6 1449808 admin optional linuxmuster-webui7_7.2.89.tar.gz
+ fb2189901c1f9e79412be466ce39bdfc 834264 admin optional linuxmuster-webui7_7.2.89_all.deb
+ 86669ae9e9a1ce485199b46e70a20aab 7968 admin optional linuxmuster-webui7_7.2.89_amd64.buildinfo
