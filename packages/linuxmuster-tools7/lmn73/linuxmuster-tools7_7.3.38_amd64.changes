@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 25 Feb 2026 11:27:15 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.38
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.38) lmn73; urgency=medium
+ .
+   * [lmnfile] Fix semicolons in comments line.
+Checksums-Sha1:
+ 1c010a25d2d22f4bb3d1499a26b2812a13998bd6 580 linuxmuster-tools7_7.3.38.dsc
+ ad7bb2ebe2b3a5c2cbc931f491ee7ff528fcf7f7 93392 linuxmuster-tools7_7.3.38.tar.gz
+ c11431769db5651922ae76e917b6ef0288ef7d30 65766 linuxmuster-tools7_7.3.38_all.deb
+ ccf38e02c74603624056f9bd4e10311256a93360 7644 linuxmuster-tools7_7.3.38_amd64.buildinfo
+Checksums-Sha256:
+ 2da4b6694ce6bd1a9deb55cee4e46de4a8e10c270c3901256a9aee7324b240c6 580 linuxmuster-tools7_7.3.38.dsc
+ c4f8c43e35c26300a445019aac756842a588fef101f49743e4ccae27f054a69d 93392 linuxmuster-tools7_7.3.38.tar.gz
+ 53e5b553eb715dd56ca09351c0e7b9539c2e5097490e92a7f795a1591e3483fd 65766 linuxmuster-tools7_7.3.38_all.deb
+ c1128efd077e9a9b80ee1ddabe8cc5a395845ecb393ab7f619499ca9e510f957 7644 linuxmuster-tools7_7.3.38_amd64.buildinfo
+Files:
+ adff06c5b34d4d54f1287583ca1b9d9e 580 linuxmuster optional linuxmuster-tools7_7.3.38.dsc
+ 6f2dbd9acdf654671ad6f5e277a3fb5c 93392 linuxmuster optional linuxmuster-tools7_7.3.38.tar.gz
+ 81638c581d5083e6087a07b7b140141e 65766 linuxmuster optional linuxmuster-tools7_7.3.38_all.deb
+ 23a37cf35289dff870b66fd8175543b0 7644 linuxmuster optional linuxmuster-tools7_7.3.38_amd64.buildinfo
