@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 01 Mar 2026 18:34:10 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.29
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.29) lmn73; urgency=medium
+ .
+   * /devices/list: Change namespace to list for devices management.
+   * New GET endpoint /devices/device.
+   * New PATCH endpoint /devices/device (only 2 attributes).
+   * Fix secret key generation.
+   * Fix server error when devices.csv is missing.
+Checksums-Sha1:
+ 0bc3e02dafa12d407a0ce114d20d98fb1f3a52ff 568 linuxmuster-api7_7.3.29.dsc
+ 089cfcf5b1c4990ee6ea1621ff865afa7cee8871 67005 linuxmuster-api7_7.3.29.tar.gz
+ aa5c228e7e5e85d5705699513c39a9022eb92917 48536 linuxmuster-api7_7.3.29_all.deb
+ f1fb99f367f8135f0b8a22a36e76ab18a9b96d9b 7696 linuxmuster-api7_7.3.29_amd64.buildinfo
+Checksums-Sha256:
+ 64eca73de9c764cef8e5af25cde7b1846578058bcc557881cc4713a1b08147d6 568 linuxmuster-api7_7.3.29.dsc
+ abc6ee6dd75ab704bac5b37bd21e0b6d9e4ba7e612b4039680c5bbfdbcacb5e5 67005 linuxmuster-api7_7.3.29.tar.gz
+ 71b661fa2bcf581ab6d5e71dadc049b168486accb3abc95103d9b81643885abd 48536 linuxmuster-api7_7.3.29_all.deb
+ 08c6205d12dc16645c502d6dc9c150b8926a6eddb0d0e4a5ec311f8b497c45df 7696 linuxmuster-api7_7.3.29_amd64.buildinfo
+Files:
+ b879c04779b75683834b050e4d8b5f3b 568 linuxmuster optional linuxmuster-api7_7.3.29.dsc
+ 16340396c38ea4786ca4ead029d96b49 67005 linuxmuster optional linuxmuster-api7_7.3.29.tar.gz
+ 7dec3737f3119e10c94dd57b61440811 48536 linuxmuster optional linuxmuster-api7_7.3.29_all.deb
+ 64aad81430bbc51073ad2ecb859b9b2c 7696 linuxmuster optional linuxmuster-api7_7.3.29_amd64.buildinfo
