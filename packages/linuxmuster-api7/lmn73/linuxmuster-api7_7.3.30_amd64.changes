@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 03 Mar 2026 16:57:08 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.30
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.30) lmn73; urgency=medium
+ .
+   * PATCH /devices/device: set password hashes.
+Checksums-Sha1:
+ 1755c1aaba452db9bb33b633954691620f7b6acb 568 linuxmuster-api7_7.3.30.dsc
+ 3b5f2d4111bd689499a327b5ac0b73c94ed70abf 67072 linuxmuster-api7_7.3.30.tar.gz
+ cbe4988d9a2d74d9963d6e5560ae8fd5c8ecb910 48638 linuxmuster-api7_7.3.30_all.deb
+ fd29888a9b1ff44be80facd9e49f70235fdc6d21 7696 linuxmuster-api7_7.3.30_amd64.buildinfo
+Checksums-Sha256:
+ bbf4044d8677c4ac11df43fea4752624c1cb5b3baf3a9ef126e58229aa622e40 568 linuxmuster-api7_7.3.30.dsc
+ 562bb4cfffa205821cbd6b480ca721d6d695079a099d4a52558a52f4da8700ab 67072 linuxmuster-api7_7.3.30.tar.gz
+ 98d2e1e16f98e3e15b866a74a4b18ee504ee1b02838332503bbe0c557c5ef9b5 48638 linuxmuster-api7_7.3.30_all.deb
+ 6ee53a742b814b154175a4987e779ab17ab8ae53a1a4710b7ee39596c5d9ee41 7696 linuxmuster-api7_7.3.30_amd64.buildinfo
+Files:
+ 35cacb21c3599a204f0c463e1b84d7a1 568 linuxmuster optional linuxmuster-api7_7.3.30.dsc
+ 401842c7c3b17ab6bc04e4e434cdacb1 67072 linuxmuster optional linuxmuster-api7_7.3.30.tar.gz
+ 0899c223ab82855b5e94878d5aac3f13 48638 linuxmuster optional linuxmuster-api7_7.3.30_all.deb
+ 809f350efcfc42cf31aafac8b3333125 7696 linuxmuster optional linuxmuster-api7_7.3.30_amd64.buildinfo
