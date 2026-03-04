@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 04 Mar 2026 14:22:17 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.40
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.40) lmn73; urgency=medium
+ .
+   * [common] Check tmp dir and harden security.
+   * [linbo] Fix read config.
+Checksums-Sha1:
+ b971c52383370b2665d3dc922971e12e56a07efd 580 linuxmuster-tools7_7.3.40.dsc
+ cc9bcf29950d95bfba20c99d473debd821cb5ab4 95338 linuxmuster-tools7_7.3.40.tar.gz
+ 6adf70db6f5ff51907ec10d0a8ca59f14db61682 66670 linuxmuster-tools7_7.3.40_all.deb
+ c9fd0ee8f2ab19338701390e0bef395b9a7e6c82 7712 linuxmuster-tools7_7.3.40_amd64.buildinfo
+Checksums-Sha256:
+ 166e170d25480c50b2721f659fbdd68eb46873742e4113a42f66b9d66a9e0eb3 580 linuxmuster-tools7_7.3.40.dsc
+ 16427e8d1bfe679c0f0af165a4240b787c961321db8bc2dc346d192d6b233944 95338 linuxmuster-tools7_7.3.40.tar.gz
+ 2909fde16248809d33c37df10afba2d7a2c7f957124f9438c8cbd09c8a892632 66670 linuxmuster-tools7_7.3.40_all.deb
+ 57a2b155216ae1d3a4d797ad7260c66e2420c3bd3237a7394d6672151b27974b 7712 linuxmuster-tools7_7.3.40_amd64.buildinfo
+Files:
+ f8007a4e083f748b6e1c374088c51b3a 580 linuxmuster optional linuxmuster-tools7_7.3.40.dsc
+ 516354c408d0e285e98e4125a93ca7d9 95338 linuxmuster optional linuxmuster-tools7_7.3.40.tar.gz
+ e02c6c77760054805e8a7fbf2baa70f8 66670 linuxmuster optional linuxmuster-tools7_7.3.40_all.deb
+ 79a0c222f23e5b492f528a9e876f8846 7712 linuxmuster optional linuxmuster-tools7_7.3.40_amd64.buildinfo
