@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 08 Mar 2026 21:15:28 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.41
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.41) lmn73; urgency=medium
+ .
+   * [linbo] Get last sync datetime for a device with pxe boot.
+   * [samba-util] Use native ldb to get and set credentials for devices.
+Checksums-Sha1:
+ a3834746618ee0901254164095a30191a3d74035 580 linuxmuster-tools7_7.3.41.dsc
+ 31ced6c119e94ddd173487cd4a1cb4e8900e0282 95620 linuxmuster-tools7_7.3.41.tar.gz
+ da3980a128683c4f7938090e0d8746e391d39d78 67000 linuxmuster-tools7_7.3.41_all.deb
+ 6317e17a46500e264e0b5e55930f9acf84b8e096 7712 linuxmuster-tools7_7.3.41_amd64.buildinfo
+Checksums-Sha256:
+ 8469b50938e2e64676eefc8f49fb0ceff5abf45fd0ab97926c377299baa20c7a 580 linuxmuster-tools7_7.3.41.dsc
+ 6d2c01a86d887ce5e441a2f46e1a5b97ef5d143c20bccc4b4a846bbce53c0e24 95620 linuxmuster-tools7_7.3.41.tar.gz
+ 0740317f9c734d53fadf3083c7d4b8c6e5a94b5c675f907e74c25726cf640584 67000 linuxmuster-tools7_7.3.41_all.deb
+ 4148122b0121060650b237a31af8314f0d9eb83548e443d886ffc655a4f91113 7712 linuxmuster-tools7_7.3.41_amd64.buildinfo
+Files:
+ ff47379746ee84bd8ca7c3a640ecdbed 580 linuxmuster optional linuxmuster-tools7_7.3.41.dsc
+ da12d1ef49b068ef11d811039ea40f31 95620 linuxmuster optional linuxmuster-tools7_7.3.41.tar.gz
+ 7252e0b7379ace7547329717e7aa1a5d 67000 linuxmuster optional linuxmuster-tools7_7.3.41_all.deb
+ 58412118fb8ece7a9e2d74ab3ac8a756 7712 linuxmuster optional linuxmuster-tools7_7.3.41_amd64.buildinfo
