@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sun, 08 Mar 2026 21:18:26 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.33
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.33) lmn73; urgency=medium
+ .
+   * GET /devices/device: new credentials flag for AD credentials.
+   * PATCH /devices/device: use DeviceManager to set credentials.
+   * PoC for new permissions system.
+Checksums-Sha1:
+ e1000190257eecc7ef345d8215b4a916063775ef 568 linuxmuster-api7_7.3.33.dsc
+ 88a184c23ad72e95428d0d47e1e291b1a6bed708 68532 linuxmuster-api7_7.3.33.tar.gz
+ fc9df23bbb1c7752c81b8c65d78321718b789da5 49316 linuxmuster-api7_7.3.33_all.deb
+ 7300026380c9c57c196f99764422516276ffb9da 7696 linuxmuster-api7_7.3.33_amd64.buildinfo
+Checksums-Sha256:
+ 22dc7e7c5b2a1746677d34841c0cb029ef6466f0b4bbf94949fe76531e90b77a 568 linuxmuster-api7_7.3.33.dsc
+ 81f0dc8e1da7084deebd4a4343b1029a32eb8ca4150aee1a728c6a80d5dd550c 68532 linuxmuster-api7_7.3.33.tar.gz
+ abf7230dce2588fa6a0f0b143550660d7028155a5fe1cf16d1293856d9904c51 49316 linuxmuster-api7_7.3.33_all.deb
+ 4e463763e8b0501ffee744769f39c37366b55bd97d38bb35d0dc70e9817eb3d5 7696 linuxmuster-api7_7.3.33_amd64.buildinfo
+Files:
+ 670c57d0f521af2b76916334087ac6b3 568 linuxmuster optional linuxmuster-api7_7.3.33.dsc
+ 2f89e9db1064d50f2abdeb573d0b1b69 68532 linuxmuster optional linuxmuster-api7_7.3.33.tar.gz
+ 745b1ef286b2020fd70d6cae44eee185 49316 linuxmuster optional linuxmuster-api7_7.3.33_all.deb
+ 9848a3120685311d4ad25e48044feb57 7696 linuxmuster optional linuxmuster-api7_7.3.33_amd64.buildinfo
