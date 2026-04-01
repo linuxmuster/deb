@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 02 Apr 2026 00:00:50 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.42
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.42) lmn73; urgency=medium
+ .
+   * Remove LaTeX  templates from bootstrap to avoid lmnapi boot problems.
+   * [ldapwriter] LMNPrinter class to join/quit printer groups.
+Checksums-Sha1:
+ 998684a322a56bacc4920ace497710581a9bc7bf 580 linuxmuster-tools7_7.3.42.dsc
+ d83005ab599d1fcecc61d5a0324249230de43774 95974 linuxmuster-tools7_7.3.42.tar.gz
+ 3f532418bc411ad2944aeabc2a523813174b1ce9 67094 linuxmuster-tools7_7.3.42_all.deb
+ a1ca19ad87a3e92e76dc50b43ca3dd1183ae848d 7720 linuxmuster-tools7_7.3.42_amd64.buildinfo
+Checksums-Sha256:
+ 379b9061f2440c193e4bded48a7dc326d6156ff5777e463d1cdca4b53b097a56 580 linuxmuster-tools7_7.3.42.dsc
+ a0ec947d7aa717ae6faa473cc00c320de95514ad12c423396b44f299e88e1c26 95974 linuxmuster-tools7_7.3.42.tar.gz
+ 8b08f591a24344b7dba7b34c5aef73c4fa9225be298aa7340453bd7311f5410c 67094 linuxmuster-tools7_7.3.42_all.deb
+ b8b10dbba75e7b6f9a4b7c0c7afd5a3409bb0dac5237f96b188c2ddcd246326c 7720 linuxmuster-tools7_7.3.42_amd64.buildinfo
+Files:
+ a24eacfbf7316b0a45c1b0754ec6d168 580 linuxmuster optional linuxmuster-tools7_7.3.42.dsc
+ 27e427c77196fa8edfb2d2bdc4b97041 95974 linuxmuster optional linuxmuster-tools7_7.3.42.tar.gz
+ ceed48587a82b616e73e8d81758e28f5 67094 linuxmuster optional linuxmuster-tools7_7.3.42_all.deb
+ 49c7b47e61354b2024066aa5510e5b31 7720 linuxmuster optional linuxmuster-tools7_7.3.42_amd64.buildinfo
