@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 02 Apr 2026 00:03:47 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.34
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.34) lmn73; urgency=medium
+ .
+   * /printers/join and quit: use lmntools.
+Checksums-Sha1:
+ e0954771f1e5344b53239f8737ee192b7144891e 568 linuxmuster-api7_7.3.34.dsc
+ e63f975a42bb0dd7702c673e8f2b460b50c883f2 68889 linuxmuster-api7_7.3.34.tar.gz
+ 8a060d4290995ee8f22f27ee6c1936283b3c0793 49330 linuxmuster-api7_7.3.34_all.deb
+ 864924e9dddc837f8e021c847f62278a6b027186 7704 linuxmuster-api7_7.3.34_amd64.buildinfo
+Checksums-Sha256:
+ a2d582d1b535372c8508dcc3b67324424eb8298251953089776bfb48fa8557a0 568 linuxmuster-api7_7.3.34.dsc
+ 0424acf965e1aed1dcc02e0de9ac24f0cecdb56e8120da49feab6db34b222254 68889 linuxmuster-api7_7.3.34.tar.gz
+ 0836334fb29710e917a8acd7770fd24015b3643b4f8a928146dbe494071f9444 49330 linuxmuster-api7_7.3.34_all.deb
+ fde04e0cec80fac77774e32058189654af8d8cb08d389ea406b85c22eacc1817 7704 linuxmuster-api7_7.3.34_amd64.buildinfo
+Files:
+ 57d1f23d129e8422d0fa315fa60f7e76 568 linuxmuster optional linuxmuster-api7_7.3.34.dsc
+ 2387715cbf538d2587f62f8662c7434c 68889 linuxmuster optional linuxmuster-api7_7.3.34.tar.gz
+ a1a8c3f7620084b6af8f627a588c6c26 49330 linuxmuster optional linuxmuster-api7_7.3.34_all.deb
+ cead66d1cca724bbf6e8bfd44a3bc58c 7704 linuxmuster optional linuxmuster-api7_7.3.34_amd64.buildinfo
