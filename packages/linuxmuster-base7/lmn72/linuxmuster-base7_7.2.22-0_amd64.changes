@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 08 Apr 2025 14:41:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.22-0
+Distribution: lmn72
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.2.22-0) lmn72; urgency=low
+ .
+   * fix #171: remove warning in upgradescript 7.2 to 7.3.
+Checksums-Sha1:
+ 87ba8af9b4e5a1535cffcb2b88b98e735d0175d0 583 linuxmuster-base7_7.2.22-0.dsc
+ 954f70f55fe315c9762f10299f2b233f95091914 82306 linuxmuster-base7_7.2.22-0.tar.gz
+ 54f5071063db0a05cfaa0671d7619f1aadc7ae8d 62106 linuxmuster-base7_7.2.22-0_all.deb
+ ee34b7524c990bbcd7c66170427897105d252687 7999 linuxmuster-base7_7.2.22-0_amd64.buildinfo
+Checksums-Sha256:
+ 8ea898f4a030694d0c276e6a908c438541eecf1831c1e12ae55347beacc90158 583 linuxmuster-base7_7.2.22-0.dsc
+ cba84817e89f4ad5a44b15053d7cdd941a88e47e8ecd5130c65fd8072c49ed74 82306 linuxmuster-base7_7.2.22-0.tar.gz
+ 8169bcde6861213fc3edc9e186e8421ceae058470affadb82fd9aa5167bd863c 62106 linuxmuster-base7_7.2.22-0_all.deb
+ fe8d6572c80c01184c6fe07fc1357afe72331a0a7766f3a7ebfc36eb5f14517e 7999 linuxmuster-base7_7.2.22-0_amd64.buildinfo
+Files:
+ e5f5a6fcc039af83c861e0dfd3756606 583 linuxmuster optional linuxmuster-base7_7.2.22-0.dsc
+ cc0a450ec5027a3866d655a715e2666e 82306 linuxmuster optional linuxmuster-base7_7.2.22-0.tar.gz
+ 1f4a8c538a1107e77928b9cb9d782e91 62106 linuxmuster optional linuxmuster-base7_7.2.22-0_all.deb
+ beec0e12d580061f88138125e81a7fb0 7999 linuxmuster optional linuxmuster-base7_7.2.22-0_amd64.buildinfo
