@@ -20,3 +20,6 @@ Files in this directory:
 - 🗒 [linuxmuster-webui7_7.3.39.dsc](linuxmuster-webui7_7.3.39.dsc)
 - 🗒 [linuxmuster-webui7_7.3.39.tar.gz](linuxmuster-webui7_7.3.39.tar.gz)
 - 🗒 [linuxmuster-webui7_7.3.39_all.deb](linuxmuster-webui7_7.3.39_all.deb)
+- 🗒 [linuxmuster-webui7_7.4.1.dsc](linuxmuster-webui7_7.4.1.dsc)
+- 🗒 [linuxmuster-webui7_7.4.1.tar.gz](linuxmuster-webui7_7.4.1.tar.gz)
+- 🗒 [linuxmuster-webui7_7.4.1_all.deb](linuxmuster-webui7_7.4.1_all.deb)
