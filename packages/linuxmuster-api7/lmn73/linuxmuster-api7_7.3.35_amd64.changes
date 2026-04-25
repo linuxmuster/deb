@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sat, 25 Apr 2026 17:47:42 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.35
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.35) lmn73; urgency=medium
+ .
+   * Add linbo endpoints for Linbo Docker (@amoalani). EXPERIMENTAL
+   * Add vdi endpoints (@hermanntoast). EXPERIMENTAL
+   * Add alias ALL for all authenticated users.
+   * Rewrite start page.
+   * Add rate limiter on /v1/auth/token
+   * Add expiry date to jwt.
+   * Only allow HS512 as signature request.
+   * Add protection against timing attack.
+Checksums-Sha1:
+ c0142267f453ee839c57780bc08c3752693726e6 568 linuxmuster-api7_7.3.35.dsc
+ 536b14a99c6857c3e909a268d1720d8cb9968b9a 77293 linuxmuster-api7_7.3.35.tar.gz
+ fbcfc73e955eccd784bad7eccdfa0fbc2884aeb7 56872 linuxmuster-api7_7.3.35_all.deb
+ 590894245b94bc56a7bd983217d46c2627058348 7704 linuxmuster-api7_7.3.35_amd64.buildinfo
+Checksums-Sha256:
+ fe8f4cef3abed39cf7ea3ca62e504aada78d7ac4f164fc54b5b195dc17677ca3 568 linuxmuster-api7_7.3.35.dsc
+ a30aa087dac78e3b294e58a4c8e966ed635028d50a4597c0ef69e32e2644a539 77293 linuxmuster-api7_7.3.35.tar.gz
+ 8caedc882660ab7146b99790794598437eac5ca1f72e144c7cd7c1d6304a6bad 56872 linuxmuster-api7_7.3.35_all.deb
+ e40a5e03c03bb759bd549de57db58e974b76c5fa32d7b2dacc8a23d5ad18ab1a 7704 linuxmuster-api7_7.3.35_amd64.buildinfo
+Files:
+ 363f21781c2fd3cb097e8b520cc4bb17 568 linuxmuster optional linuxmuster-api7_7.3.35.dsc
+ c77ee89785c9cef94a81974baaf31272 77293 linuxmuster optional linuxmuster-api7_7.3.35.tar.gz
+ 7b7709ca25250320e65b6f8598e7f76d 56872 linuxmuster optional linuxmuster-api7_7.3.35_all.deb
+ 3372d098fee6920a65ada5a2cf8dbc9f 7704 linuxmuster optional linuxmuster-api7_7.3.35_amd64.buildinfo
