@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 25 Apr 2026 18:14:04 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.1
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.1) lmn74; urgency=medium
+ .
+   * New package for 7.4.
+Checksums-Sha1:
+ 43ae97c366eebef4b9980d4f71c85322d9e7aec7 561 linuxmuster-webui7_7.4.1.dsc
+ ba005dfca2650a9984192efcf677e8ea17c68e7e 1621713 linuxmuster-webui7_7.4.1.tar.gz
+ 3a1abee9e49c229e06b424a9b6df90473b553115 834606 linuxmuster-webui7_7.4.1_all.deb
+ f6de7fde2ddd4fa2992739a6278b550a746f95c9 7763 linuxmuster-webui7_7.4.1_amd64.buildinfo
+Checksums-Sha256:
+ 16d0c428a7fae7bef453475d1cd60bdae5be64d29575f7ca4707fdc699463915 561 linuxmuster-webui7_7.4.1.dsc
+ 4b8c6adf7356e27eda7748eb5386504254686a56f1f6eeb85c5c82a7ae26292b 1621713 linuxmuster-webui7_7.4.1.tar.gz
+ c6187969e270ecd1b79057f8e2fea7723118f25f3ce202b2982289ecba42545a 834606 linuxmuster-webui7_7.4.1_all.deb
+ 5603ab747ce733af05ffbb8b8bcc0e22ea2cb768f30a3c5d571c67f631257810 7763 linuxmuster-webui7_7.4.1_amd64.buildinfo
+Files:
+ 848dfb5ca7979e231aeb87f52154d51f 561 admin optional linuxmuster-webui7_7.4.1.dsc
+ e10628aade3b5d95f3836d3a248eaefc 1621713 admin optional linuxmuster-webui7_7.4.1.tar.gz
+ b7ad995ce90932a116350de1c1d193c4 834606 admin optional linuxmuster-webui7_7.4.1_all.deb
+ 26fd5cc21da55f9c72ee24fccfe27020 7763 admin optional linuxmuster-webui7_7.4.1_amd64.buildinfo
