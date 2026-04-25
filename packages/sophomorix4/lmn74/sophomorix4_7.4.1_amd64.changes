@@ -27,7 +27,7 @@ Checksums-Sha1:
  651208f2bf4fccb0b1b582f937b7cc60c4ff0759 8440 sophomorix-dump_7.4.1_all.deb
  d9ca796b272c609869c41ac3bfaed3367d128900 254382 sophomorix-samba_7.4.1_all.deb
  c2144025ee00eb6e69f6f8045f217aacbadbcfa6 17866 sophomorix-vampire_7.4.1_all.deb
- a416042488ab8d8d3a596bc2f5992fcd7c4338c4 11785 sophomorix4_7.4.1_amd64.buildinfo
+ e88a659c008cb0e4526962239b290d37175c6606 11785 sophomorix4_7.4.1_amd64.buildinfo
 Checksums-Sha256:
  acce536eba409dd76d35ad52109b59917c8152bbb48d309908e3c8482875f287 833 sophomorix4_7.4.1.dsc
  b5994be779640a2b32d01dc73a7212af258b6adbe3fe49bb66b4adf0f67e4d17 753876 sophomorix4_7.4.1.tar.xz
@@ -36,7 +36,7 @@ Checksums-Sha256:
  c1bd94522a2026bca06034ffd98430dc452fd2aca8b904a30ff78f857e3bad54 8440 sophomorix-dump_7.4.1_all.deb
  7d928af9cca4da0f3ffb79259fb699e4cd36eed4bcc0d978cf3aeec6b8f03955 254382 sophomorix-samba_7.4.1_all.deb
  f6923dd28dc388d13290940ded3ad3cfb552e25d21e69d22b1e2f924d605c9ec 17866 sophomorix-vampire_7.4.1_all.deb
- 86b03665020f387b21fb3f26e577a315310c990aed8e72d70fc1e028a074fe21 11785 sophomorix4_7.4.1_amd64.buildinfo
+ fc3f5cff980b54dd9c1086ce2860814fbcd11aacee8ae03f864553528c15f42b 11785 sophomorix4_7.4.1_amd64.buildinfo
 Files:
  9861309877073df766aa051da3f02b31 833 admin optional sophomorix4_7.4.1.dsc
  2fb2e2b2fb692d625fe0c5962c53c563 753876 admin optional sophomorix4_7.4.1.tar.xz
@@ -45,4 +45,4 @@ Files:
  c8331cb314c3d32831724f6b73448b9a 8440 admin optional sophomorix-dump_7.4.1_all.deb
  503785606ef9cdbbf1d9da0607894fa4 254382 admin optional sophomorix-samba_7.4.1_all.deb
  9e36829f5635e2c678c191b9b2c2003c 17866 admin optional sophomorix-vampire_7.4.1_all.deb
- ab52d542bb4323e70038ada2c9b53b60 11785 admin optional sophomorix4_7.4.1_amd64.buildinfo
+ b75354ffb5309fd8db01f7f726a6fd52 11785 admin optional sophomorix4_7.4.1_amd64.buildinfo
