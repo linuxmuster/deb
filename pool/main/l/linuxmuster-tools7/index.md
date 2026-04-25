@@ -11,3 +11,6 @@ Files in this directory:
 - 🗒 [linuxmuster-tools7_7.3.43.dsc](linuxmuster-tools7_7.3.43.dsc)
 - 🗒 [linuxmuster-tools7_7.3.43.tar.gz](linuxmuster-tools7_7.3.43.tar.gz)
 - 🗒 [linuxmuster-tools7_7.3.43_all.deb](linuxmuster-tools7_7.3.43_all.deb)
+- 🗒 [linuxmuster-tools7_7.4.1.dsc](linuxmuster-tools7_7.4.1.dsc)
+- 🗒 [linuxmuster-tools7_7.4.1.tar.gz](linuxmuster-tools7_7.4.1.tar.gz)
+- 🗒 [linuxmuster-tools7_7.4.1_all.deb](linuxmuster-tools7_7.4.1_all.deb)
