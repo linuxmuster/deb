@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 25 Apr 2026 18:11:15 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.1
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.4.1) lmn74; urgency=medium
+ .
+   * New package for 7.4.
+Checksums-Sha1:
+ 801ffc624bf9c4abfc41097079155260a1a90dd7 564 linuxmuster-api7_7.4.1.dsc
+ b8bce77351f5afcf7cd9a17c07281ee2587b2f30 77370 linuxmuster-api7_7.4.1.tar.gz
+ ea880593fef164390b1dfaed6bcd8ff6e9b21efc 56886 linuxmuster-api7_7.4.1_all.deb
+ 165b5909ec7ba30df31b754d37945dbc8678e8c5 7697 linuxmuster-api7_7.4.1_amd64.buildinfo
+Checksums-Sha256:
+ 7c2ed71b8731b74ba61d21a997c494c19cd7b3a28838fbace19e20daeefc28c5 564 linuxmuster-api7_7.4.1.dsc
+ eb9cf7e0f277417f27467828ae2177193ec62cd25e60d8294a7898aea9a33e51 77370 linuxmuster-api7_7.4.1.tar.gz
+ 54bd4baa1f42105891ceacc469b982580ad468799c414f1638db69037d88c0d8 56886 linuxmuster-api7_7.4.1_all.deb
+ bb2a7b3958e39aae6c008d7d6d306eb48ec38fbd1ae9b042c2c01f96f47bc645 7697 linuxmuster-api7_7.4.1_amd64.buildinfo
+Files:
+ 0b9c3a623369c531168f583ffcc7221b 564 linuxmuster optional linuxmuster-api7_7.4.1.dsc
+ 85013fba3e2944996d181d18942955d0 77370 linuxmuster optional linuxmuster-api7_7.4.1.tar.gz
+ 556d31e3b647a2a732aed58d249d0329 56886 linuxmuster optional linuxmuster-api7_7.4.1_all.deb
+ f3c781bca11086777bd5fd73e48cc8bc 7697 linuxmuster optional linuxmuster-api7_7.4.1_amd64.buildinfo
