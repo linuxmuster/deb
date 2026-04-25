@@ -13,6 +13,21 @@ SHA1: ea880593fef164390b1dfaed6bcd8ff6e9b21efc
 MD5sum: 556d31e3b647a2a732aed58d249d0329
 Description: Api for the linuxmuster.net 7 server.
 
+Package: linuxmuster-cli7
+Version: 7.4.1
+Architecture: all
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Installed-Size: 96
+Depends: python3, linuxmuster-tools7
+Priority: optional
+Section: linuxmuster
+Filename: pool/main/l/linuxmuster-cli7/linuxmuster-cli7_7.4.1_all.deb
+Size: 17878
+SHA256: 8c759da9e6a482d634ccfabae4a164ac90311244bf32bf9b68c095cefce91794
+SHA1: 2333153d33ffee7e2c15dc09fea43d80b805a458
+MD5sum: 39fdefa427c02a691432f1f58355bc60
+Description: Tools and CLI for the linuxmuster.net 7 server.
+
 Package: linuxmuster-common
 Version: 7.4.0-0
 Architecture: all

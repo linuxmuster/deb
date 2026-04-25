@@ -8,3 +8,6 @@ Files in this directory:
 - 🗒 [linuxmuster-cli7_7.3.20.dsc](linuxmuster-cli7_7.3.20.dsc)
 - 🗒 [linuxmuster-cli7_7.3.20.tar.gz](linuxmuster-cli7_7.3.20.tar.gz)
 - 🗒 [linuxmuster-cli7_7.3.20_all.deb](linuxmuster-cli7_7.3.20_all.deb)
+- 🗒 [linuxmuster-cli7_7.4.1.dsc](linuxmuster-cli7_7.4.1.dsc)
+- 🗒 [linuxmuster-cli7_7.4.1.tar.gz](linuxmuster-cli7_7.4.1.tar.gz)
+- 🗒 [linuxmuster-cli7_7.4.1_all.deb](linuxmuster-cli7_7.4.1_all.deb)
