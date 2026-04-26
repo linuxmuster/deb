@@ -43,18 +43,18 @@ MD5sum: aa0c9ad02a31cedcfb5e8803eeadfb84
 Description: linuxmuster.net common files
 
 Package: linuxmuster-tools7
-Version: 7.4.1
+Version: 7.4.2
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 519
 Depends: python3, nmap, sophomorix-samba
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.1_all.deb
-Size: 90246
-SHA256: 143a975763e65fc610c9cd414a2673ffe8143a5542ca20c4ee6450a08ff47d7c
-SHA1: 174192e5a577744bcbde1102c3ba50aa57999467
-MD5sum: 8828406268e9b9ab6ce137f3ba8ad65c
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.2_all.deb
+Size: 90334
+SHA256: fb7c9ede9d0893c6b977446f5b006ee6433b2717755cb5c2793f05a4da9ff721
+SHA1: 9c3f786b6bd161c5d847057d6f196959f27dc13d
+MD5sum: 091183e0a6a530fa54e6293fe7e43b9f
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
