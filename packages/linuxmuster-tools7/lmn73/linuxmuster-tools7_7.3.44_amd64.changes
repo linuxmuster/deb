@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 26 Apr 2026 11:56:08 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.44
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.44) lmn73; urgency=medium
+ .
+   * Little fixs for Linbo Docker project.
+Checksums-Sha1:
+ d05f9674c7698b3e6081553aa54a46e6ff702c24 583 linuxmuster-tools7_7.3.44.dsc
+ e76fab339c5aefb42ac881e18d5671f28d0a029c 123544 linuxmuster-tools7_7.3.44.tar.gz
+ d25e1f4a949f55804264b780a8bb64ddf48fdf4c 90326 linuxmuster-tools7_7.3.44_all.deb
+ 49d27ef550eb1cd5d70b7458dd8f3a15bd550cc4 7720 linuxmuster-tools7_7.3.44_amd64.buildinfo
+Checksums-Sha256:
+ 568b8c2443f6547a32a1cb500944ae437fde37dc077f0d714d8624cd733b61fe 583 linuxmuster-tools7_7.3.44.dsc
+ 6b482669de1deb429c700872bb07bbeac902b6ec15e973e3bfc8f4c8f2767fa3 123544 linuxmuster-tools7_7.3.44.tar.gz
+ 6dbb9d49bab4223ff9cfa28a3218c9f0adfcb4d3be3adbcf6c2140b242ea7b7b 90326 linuxmuster-tools7_7.3.44_all.deb
+ 3fd6e4f722d2b9d6032e718f3b7981ce9ff05b9e4b4f5f2e8f9793f2059fc5a8 7720 linuxmuster-tools7_7.3.44_amd64.buildinfo
+Files:
+ ecd06300d1877ed18706a848616cc5d2 583 linuxmuster optional linuxmuster-tools7_7.3.44.dsc
+ 96790be95a9aaef09b035246390c9f78 123544 linuxmuster optional linuxmuster-tools7_7.3.44.tar.gz
+ 5b16953ebf83e6d5b14b33d8ae18c310 90326 linuxmuster optional linuxmuster-tools7_7.3.44_all.deb
+ 81e8cfb1f2a48ac82e59e5c2b413200a 7720 linuxmuster optional linuxmuster-tools7_7.3.44_amd64.buildinfo
