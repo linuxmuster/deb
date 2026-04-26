@@ -2,15 +2,15 @@ Format: 1.0
 Source: linuxmuster-tools7
 Binary: linuxmuster-tools7
 Architecture: all
-Version: 7.3.43
+Version: 7.3.44
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Standards-Version: 5.0.0
 Build-Depends: debhelper (>= 5.0.0)
 Package-List:
  linuxmuster-tools7 deb linuxmuster optional arch=all
 Checksums-Sha1:
- 15f21bdf37facc5750ef207e514bd7ed9fd2cc06 123751 linuxmuster-tools7_7.3.43.tar.gz
+ e76fab339c5aefb42ac881e18d5671f28d0a029c 123544 linuxmuster-tools7_7.3.44.tar.gz
 Checksums-Sha256:
- a868b608c830d80668969a519326e9de93c32f8c7fd539d370a02df15df0fd33 123751 linuxmuster-tools7_7.3.43.tar.gz
+ 6b482669de1deb429c700872bb07bbeac902b6ec15e973e3bfc8f4c8f2767fa3 123544 linuxmuster-tools7_7.3.44.tar.gz
 Files:
- d0a8ff27c752d303dddde4366ea7e2b2 123751 linuxmuster-tools7_7.3.43.tar.gz
+ 96790be95a9aaef09b035246390c9f78 123544 linuxmuster-tools7_7.3.44.tar.gz
