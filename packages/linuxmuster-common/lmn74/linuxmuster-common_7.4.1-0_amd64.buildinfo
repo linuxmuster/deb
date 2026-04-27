@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-common
 Binary: linuxmuster-common
 Architecture: all source
-Version: 7.4.0-1
+Version: 7.4.1-0
 Checksums-Md5:
- 860b47c9f8b83683eb4cede7d35720ab 585 linuxmuster-common_7.4.0-1.dsc
- 01b8cded30dc45384058783d3326409a 5236 linuxmuster-common_7.4.0-1_all.deb
+ a784cdbe82da1d73c0b433524873cde2 588 linuxmuster-common_7.4.1-0.dsc
+ b0f10697682a46ebfa6f0d7b33c24a06 5278 linuxmuster-common_7.4.1-0_all.deb
 Checksums-Sha1:
- 59c08ef0550f944181c4af94623c5c0b962ef1b1 585 linuxmuster-common_7.4.0-1.dsc
- 79826b9d76f7b2b78f22834a9f8ed39ab4aa1c1d 5236 linuxmuster-common_7.4.0-1_all.deb
+ cd297cb2bbc6751ad9324f4bf5b19801fad41734 588 linuxmuster-common_7.4.1-0.dsc
+ 1ba85a813caf0e7bc6e01233e2947d0649232e13 5278 linuxmuster-common_7.4.1-0_all.deb
 Checksums-Sha256:
- 56f4d05b36ef339437215cf25f9ff3140124f40d2defad9af6dbf3a0b39f5fe9 585 linuxmuster-common_7.4.0-1.dsc
- 0faeca317770bcde9057e18599b2638de70a4a70f2cea18f32a16791400f3bdf 5236 linuxmuster-common_7.4.0-1_all.deb
+ 84b0a2d05e07e8ea53d80f5c27da511827e97ba5170162f9d658ceccb7d7e436 588 linuxmuster-common_7.4.1-0.dsc
+ 9186b4b25997284a41563801e72a4fbd793a9e6f4d7bbef944f26d72b1c45af8 5278 linuxmuster-common_7.4.1-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 27 Apr 2026 08:42:39 +0000
+Build-Date: Mon, 27 Apr 2026 14:06:06 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -165,4 +165,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
- SOURCE_DATE_EPOCH="1777279219"
+ SOURCE_DATE_EPOCH="1777285708"
