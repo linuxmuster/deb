@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 27 Apr 2026 12:28:28 +0200
+Source: linuxmuster-common
+Binary: linuxmuster-common
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.1-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-common - linuxmuster.net common files
+Changes:
+ linuxmuster-common (7.4.1-0) lmn74; urgency=low
+ .
+   * Rebuild with new lmndev-runner based workflow (f572f82).
+   * Fix ubuntu 26.04 build system compatibility (a9b39c0).
+Checksums-Sha1:
+ cd297cb2bbc6751ad9324f4bf5b19801fad41734 588 linuxmuster-common_7.4.1-0.dsc
+ e8c8de1a515508691ed3b0675c9ae75afd543b5d 55901 linuxmuster-common_7.4.1-0.tar.gz
+ 1ba85a813caf0e7bc6e01233e2947d0649232e13 5278 linuxmuster-common_7.4.1-0_all.deb
+ 2dfc5a228d437b10a40e357a8d4ab8b5598a3308 5591 linuxmuster-common_7.4.1-0_amd64.buildinfo
+Checksums-Sha256:
+ 84b0a2d05e07e8ea53d80f5c27da511827e97ba5170162f9d658ceccb7d7e436 588 linuxmuster-common_7.4.1-0.dsc
+ 07c284280de8be1f683fae87bbbc3e6cf679617f73207114b51572fa150ee106 55901 linuxmuster-common_7.4.1-0.tar.gz
+ 9186b4b25997284a41563801e72a4fbd793a9e6f4d7bbef944f26d72b1c45af8 5278 linuxmuster-common_7.4.1-0_all.deb
+ 91aa5d53c1414f1d973c73a0c2c5bb7059ac7cd14e39973d05c68cb612dfdb1a 5591 linuxmuster-common_7.4.1-0_amd64.buildinfo
+Files:
+ a784cdbe82da1d73c0b433524873cde2 588 linuxmuster optional linuxmuster-common_7.4.1-0.dsc
+ d4d19f2b2e39bf2993c34873bf00fc7c 55901 linuxmuster optional linuxmuster-common_7.4.1-0.tar.gz
+ b0f10697682a46ebfa6f0d7b33c24a06 5278 linuxmuster optional linuxmuster-common_7.4.1-0_all.deb
+ 807410f7cd2d1e8cdc0edabab54f464e 5591 linuxmuster optional linuxmuster-common_7.4.1-0_amd64.buildinfo
