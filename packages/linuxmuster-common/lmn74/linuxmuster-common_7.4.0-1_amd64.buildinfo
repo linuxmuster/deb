@@ -4,17 +4,17 @@ Binary: linuxmuster-common
 Architecture: all source
 Version: 7.4.0-1
 Checksums-Md5:
- 860b47c9f8b83683eb4cede7d35720ab 585 linuxmuster-common_7.4.0-1.dsc
+ 51431c50603704ea82b141957f1fab1c 588 linuxmuster-common_7.4.0-1.dsc
  01b8cded30dc45384058783d3326409a 5236 linuxmuster-common_7.4.0-1_all.deb
 Checksums-Sha1:
- 59c08ef0550f944181c4af94623c5c0b962ef1b1 585 linuxmuster-common_7.4.0-1.dsc
+ db0b66eb6f4cd4e942936c6626ef850347f5250d 588 linuxmuster-common_7.4.0-1.dsc
  79826b9d76f7b2b78f22834a9f8ed39ab4aa1c1d 5236 linuxmuster-common_7.4.0-1_all.deb
 Checksums-Sha256:
- 56f4d05b36ef339437215cf25f9ff3140124f40d2defad9af6dbf3a0b39f5fe9 585 linuxmuster-common_7.4.0-1.dsc
+ c5b36d122992cdf794181cc95989a6519ecc2cb0b183ac67919ddf0957bbd116 588 linuxmuster-common_7.4.0-1.dsc
  0faeca317770bcde9057e18599b2638de70a4a70f2cea18f32a16791400f3bdf 5236 linuxmuster-common_7.4.0-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 27 Apr 2026 08:42:39 +0000
+Build-Date: Mon, 27 Apr 2026 10:52:32 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),

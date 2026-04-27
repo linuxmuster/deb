@@ -5,12 +5,12 @@ Architecture: all
 Version: 7.4.0-1
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Standards-Version: 5.0.0
-Build-Depends: debhelper (>= 5.0.0)
+Build-Depends: debhelper-compat (= 13)
 Package-List:
  linuxmuster-common deb linuxmuster optional arch=all
 Checksums-Sha1:
- ed797c58e052bcdc8b07259b2cef2e507b05f370 56121 linuxmuster-common_7.4.0-1.tar.gz
+ 580c15d9b59dbe1cbcef6831c750b5658d3ff875 55892 linuxmuster-common_7.4.0-1.tar.gz
 Checksums-Sha256:
- 61f44ad5d1ae89a0bf706c3b13c2dd27fd34cb3d315670d556e776ad25468187 56121 linuxmuster-common_7.4.0-1.tar.gz
+ a877e43b401f7a67148b36b50c800808a817b2ca5c6616426cd4a3d6a94937d1 55892 linuxmuster-common_7.4.0-1.tar.gz
 Files:
- c42d723338c4910892d32333b5203453 56121 linuxmuster-common_7.4.0-1.tar.gz
+ 25ee49e89953f1779a9873a14ef99a94 55892 linuxmuster-common_7.4.0-1.tar.gz
