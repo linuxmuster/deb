@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 27 Apr 2026 15:52:22 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.1-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.1-0) lmn74; urgency=low
+ .
+   * Fix ubuntu 26.04 build system compatibility (2f11e86, 1b15697).
+Checksums-Sha1:
+ baec9a36dbca109e5cd59d4ecdca1bd76ce94ce9 900 linuxmuster-base7_7.4.1-0.dsc
+ c2bc8886b5e9e327e123e287bce9aab4afb55a2a 328075 linuxmuster-base7_7.4.1-0.tar.gz
+ 0aedf23bc9883e5f9c4fec1c22de95cd001052a2 85654 linuxmuster-base7_7.4.1-0_all.deb
+ 8bc89b31c6f661b1dc9d1c5367728d934a67aa04 9301 linuxmuster-base7_7.4.1-0_amd64.buildinfo
+Checksums-Sha256:
+ a8137162dba21ada8eba23d9c168b58c81b5457541dc139357cc8f90894b428d 900 linuxmuster-base7_7.4.1-0.dsc
+ 6fdcd2b04cac04ec33dd51bba27414ea58088798c781b0d84d20923d77c77969 328075 linuxmuster-base7_7.4.1-0.tar.gz
+ 231a6e8958371a8c35c45c7a1740a141fbcae6b5afcbd44fc1d7e1f542d95c9a 85654 linuxmuster-base7_7.4.1-0_all.deb
+ 6c0310222f006d32ca7686879d2e74c4e73ff7b871fd66321801fcadfa96ce34 9301 linuxmuster-base7_7.4.1-0_amd64.buildinfo
+Files:
+ af15f51c8ca9a3e00ec13544d146941f 900 linuxmuster optional linuxmuster-base7_7.4.1-0.dsc
+ 94e27c5ae28914c774a50a2f26db9ba0 328075 linuxmuster optional linuxmuster-base7_7.4.1-0.tar.gz
+ d580b79df626372e921f738b65aabcbc 85654 linuxmuster optional linuxmuster-base7_7.4.1-0_all.deb
+ 7a1e47b5c4a9642588e229aa92c696fa 9301 linuxmuster optional linuxmuster-base7_7.4.1-0_amd64.buildinfo
