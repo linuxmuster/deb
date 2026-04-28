@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Tue, 28 Apr 2026 16:35:54 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.33-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.33-0) lmn73; urgency=low
+ .
+   * kernel updates: 6.1.169, 6.12.84 & 6.19.14 (#134, f609324).
+   * remove deprecated rtl8812au module (fee0e10).
+   * Merge pull request #146 from highTowerSU/main: Added hook-symlinks (a497248).
+   * Merge pull request #149 from amolani/feature/treiberpostsync-support,
+     feat: add .driverpostsync hook support (bc04d94).
+Checksums-Sha1:
+ 0b400e308ed3afb7c9d18a138adb4058f14ba015 1315 linuxmuster-linbo7_4.3.33-0.dsc
+ 23514a3becd4fd95e86dc48dabe21559f280bfe4 2061941 linuxmuster-linbo7_4.3.33-0.tar.gz
+ f9c5309c763536f4e99d87bf95394cc57d9ae6e7 91881362 linuxmuster-linbo7_4.3.33-0_all.deb
+ 68fba9648199576f9e8d785ab7c7485aea2cc184 15370 linuxmuster-linbo7_4.3.33-0_amd64.buildinfo
+Checksums-Sha256:
+ 1db66db1fbf09aa955eea0b08c8a129c603ddffd0ebdde49fd80bc03f2c04fac 1315 linuxmuster-linbo7_4.3.33-0.dsc
+ 90694c558c5e7943b58e079019455c019b5de545c8d0bd8c532387ea5110fd22 2061941 linuxmuster-linbo7_4.3.33-0.tar.gz
+ 8db128e4c322b99f30b933536f7ee76bc543db2109bbfbbf0638cd6b4b96b6bb 91881362 linuxmuster-linbo7_4.3.33-0_all.deb
+ 47e4e840a3207eb2d0b3433198c9121aea5c6906c6590fae3f6c1262bf90c9f6 15370 linuxmuster-linbo7_4.3.33-0_amd64.buildinfo
+Files:
+ 39598c2a58e22102bebf3ad2ae251c66 1315 admin extra linuxmuster-linbo7_4.3.33-0.dsc
+ 5e8b9e4b1f5edfecd2f0b07a30b6e6ba 2061941 admin extra linuxmuster-linbo7_4.3.33-0.tar.gz
+ c00ef0dc6a6a5a480b1bab21507d66e6 91881362 admin extra linuxmuster-linbo7_4.3.33-0_all.deb
+ 450b5c47a635ed8dd19bb463954bd2b5 15370 admin extra linuxmuster-linbo7_4.3.33-0_amd64.buildinfo
