@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Mon, 25 May 2026 13:27:23 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.0-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.0-0) lmn74; urgency=low
+ .
+   * refactor kernel provisioning, switch to stock ubuntu kernel (#150).
+   * refactor build process to use 100% Ubuntu components (#151).
+   * switch to ubuntu's native opentracker (3d65c15).
+   * remove deprecated code for windows activation handling (d8e925b).
+   * equalise Linbo version to linuxmuster.net version.
+   * replace ctorrent with aria2c (#152).
+   * try to download qdiff image only if baseimage is qcow2 (aa2f853).
+   * update custom kernel example file (403fda2).
+   * add progress indicator in update-linbofs (8e7e0d3).
+Checksums-Sha1:
+ 0d151526eafe7cee2f67a3bb4ce63027dbce01d4 1203 linuxmuster-linbo7_7.4.0-0.dsc
+ bc090bcdbbff5823746fd881c55ee4382ba6b7a4 1941421 linuxmuster-linbo7_7.4.0-0.tar.gz
+ 6bb1590426403256830389aaa0deb1b0c3100604 99425292 linuxmuster-linbo7_7.4.0-0_all.deb
+ 7ee6d69cb6e63be8a213910ec45135072708323a 14671 linuxmuster-linbo7_7.4.0-0_amd64.buildinfo
+Checksums-Sha256:
+ efad4fa68a8f0a54da0697bc2873df0650eb2e375e4a4b95d5d6c53159185568 1203 linuxmuster-linbo7_7.4.0-0.dsc
+ b9ad30a6bf28eeceaf90f33ae228879e91b0ca648c8700831876a6dcecf4389c 1941421 linuxmuster-linbo7_7.4.0-0.tar.gz
+ d78abdb35072f04aef0bbb39565197b4f5155b07550363c8286d633cfb7d761f 99425292 linuxmuster-linbo7_7.4.0-0_all.deb
+ e4f4e19429a11b2c1906be93de2b69be15d7741f358853cdc10f788f2d3ad1cf 14671 linuxmuster-linbo7_7.4.0-0_amd64.buildinfo
+Files:
+ c3a174f326b66ab99b2ad74a610276c6 1203 admin extra linuxmuster-linbo7_7.4.0-0.dsc
+ ff8c1ec6b6c7e559d2c592cb086ca08c 1941421 admin extra linuxmuster-linbo7_7.4.0-0.tar.gz
+ 85baa85793bbb141793b8250107bd72b 99425292 admin extra linuxmuster-linbo7_7.4.0-0_all.deb
+ 9dfaa8a383a1f52a152c70656729081f 14671 admin extra linuxmuster-linbo7_7.4.0-0_amd64.buildinfo
