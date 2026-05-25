@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 22 May 2026 17:53:28 +0200
+Source: linuxmuster-common
+Binary: linuxmuster-common
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.2-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-common - linuxmuster.net common files
+Changes:
+ linuxmuster-common (7.4.2-0) lmn74; urgency=low
+ .
+   * add opentracker environment variables (8cd7c51).
+Checksums-Sha1:
+ a27aa72c52418b1cc70dbaef7ffcd8b6d411ae95 588 linuxmuster-common_7.4.2-0.dsc
+ d6c1025f4dc534ca16bb0f8351a88591dbb6dac2 18306 linuxmuster-common_7.4.2-0.tar.gz
+ 8cd062754cb6c782b318d92180252c4c2d30592f 5390 linuxmuster-common_7.4.2-0_all.deb
+ 1138944ec65096c2df9dbe0673706880306e967f 5731 linuxmuster-common_7.4.2-0_amd64.buildinfo
+Checksums-Sha256:
+ 7b31d878809745d52e57aa4efe0433bd5c5cbe07715de71227c1dd953a7ac124 588 linuxmuster-common_7.4.2-0.dsc
+ 4c5eddb0541d41bfa1fa099c215d1324643a6faec932fe913c29c0816b203222 18306 linuxmuster-common_7.4.2-0.tar.gz
+ ce91fed22c181c536022ee607748c77087f5c27c3177fa2ccce73da9c564f8ed 5390 linuxmuster-common_7.4.2-0_all.deb
+ d67ed774e9c940718e2d3f5bd73f94e0dd8d5624f94dc78a7383203a78994c0c 5731 linuxmuster-common_7.4.2-0_amd64.buildinfo
+Files:
+ e015cbadddd6544942b6eb5ad8652efa 588 linuxmuster optional linuxmuster-common_7.4.2-0.dsc
+ a35fd08f7301b64bd5d0b1c4277daebe 18306 linuxmuster optional linuxmuster-common_7.4.2-0.tar.gz
+ f20771dcb0a2dcc7bd39201f5cf37d60 5390 linuxmuster optional linuxmuster-common_7.4.2-0_all.deb
+ ea66c59d4a634a8e47d65c7058e2fdd1 5731 linuxmuster optional linuxmuster-common_7.4.2-0_amd64.buildinfo

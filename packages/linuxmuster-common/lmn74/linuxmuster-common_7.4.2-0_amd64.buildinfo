@@ -2,25 +2,25 @@ Format: 1.0
 Source: linuxmuster-common
 Binary: linuxmuster-common
 Architecture: all source
-Version: 7.4.1-0
+Version: 7.4.2-0
 Checksums-Md5:
- a784cdbe82da1d73c0b433524873cde2 588 linuxmuster-common_7.4.1-0.dsc
- b0f10697682a46ebfa6f0d7b33c24a06 5278 linuxmuster-common_7.4.1-0_all.deb
+ e015cbadddd6544942b6eb5ad8652efa 588 linuxmuster-common_7.4.2-0.dsc
+ f20771dcb0a2dcc7bd39201f5cf37d60 5390 linuxmuster-common_7.4.2-0_all.deb
 Checksums-Sha1:
- cd297cb2bbc6751ad9324f4bf5b19801fad41734 588 linuxmuster-common_7.4.1-0.dsc
- 1ba85a813caf0e7bc6e01233e2947d0649232e13 5278 linuxmuster-common_7.4.1-0_all.deb
+ a27aa72c52418b1cc70dbaef7ffcd8b6d411ae95 588 linuxmuster-common_7.4.2-0.dsc
+ 8cd062754cb6c782b318d92180252c4c2d30592f 5390 linuxmuster-common_7.4.2-0_all.deb
 Checksums-Sha256:
- 84b0a2d05e07e8ea53d80f5c27da511827e97ba5170162f9d658ceccb7d7e436 588 linuxmuster-common_7.4.1-0.dsc
- 9186b4b25997284a41563801e72a4fbd793a9e6f4d7bbef944f26d72b1c45af8 5278 linuxmuster-common_7.4.1-0_all.deb
+ 7b31d878809745d52e57aa4efe0433bd5c5cbe07715de71227c1dd953a7ac124 588 linuxmuster-common_7.4.2-0.dsc
+ ce91fed22c181c536022ee607748c77087f5c27c3177fa2ccce73da9c564f8ed 5390 linuxmuster-common_7.4.2-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 27 Apr 2026 14:06:06 +0000
+Build-Date: Mon, 25 May 2026 11:01:29 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
  autopoint (= 0.23.2-1),
  autotools-dev (= 20240727.1build1),
- base-files (= 14ubuntu6),
+ base-files (= 14ubuntu6.1),
  base-passwd (= 3.6.8),
  bash (= 5.3-2ubuntu1),
  binutils (= 2.46-3ubuntu2),
@@ -139,7 +139,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.41.3-3ubuntu2),
  libxml2-16 (= 2.15.2+dfsg-0.1),
  libzstd1 (= 1.5.7+dfsg-3),
- linux-libc-dev (= 7.0.0-14.14),
+ linux-libc-dev (= 7.0.0-15.15),
  lto-disabled-list (= 79),
  m4 (= 1.4.21-1),
  make (= 4.4.1-3),
@@ -155,7 +155,7 @@ Installed-Build-Depends:
  po-debconf (= 1.0.22),
  rpcsvc-proto (= 1.4.3-1build1),
  rust-coreutils (= 0.8.0-0ubuntu3),
- sed (= 4.9-2build3),
+ sed (= 4.9-2ubuntu1),
  sensible-utils (= 0.0.26build1),
  sysvinit-utils (= 3.15-5ubuntu1),
  tar (= 1.35+dfsg-4),
@@ -165,4 +165,6 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
- SOURCE_DATE_EPOCH="1777285708"
+ LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
+ LD_PRELOAD="libfakeroot-sysv.so"
+ SOURCE_DATE_EPOCH="1779465208"
