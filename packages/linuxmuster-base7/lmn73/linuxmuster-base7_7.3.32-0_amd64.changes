@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 29 May 2026 16:14:10 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.32-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.32-0) lmn73; urgency=low
+ .
+   * add linuxmuster-release-upgrade (549db36).
+   * Fix: Pre-check failed in linuxmuster-import-devices (#173).
+Checksums-Sha1:
+ 620bfbb35e9da2dba9712aac8f2ec45453bcd0aa 583 linuxmuster-base7_7.3.32-0.dsc
+ e6d20e1ef7f739bbe4822affe5adea443e1ad8bd 91462 linuxmuster-base7_7.3.32-0.tar.gz
+ 96072d107dfc2e7ec7d2a30b071759f4e49063ce 61236 linuxmuster-base7_7.3.32-0_all.deb
+ e0c0ff25b62f74753155d04f2ecd8aa3c529cdad 6254 linuxmuster-base7_7.3.32-0_amd64.buildinfo
+Checksums-Sha256:
+ 1a1514e139d3ea8715800da2cd92f66897987ea66632c0c377bf87bd410ab3d8 583 linuxmuster-base7_7.3.32-0.dsc
+ 12ffbd00ea582e4779c6e40b6b01fb3d238d0b4631c37fae955ade3d93003546 91462 linuxmuster-base7_7.3.32-0.tar.gz
+ 8a79202309cfbf0d718b0df8960bace85a2b6d4f90f723c7b66dd9f3d3b4b32e 61236 linuxmuster-base7_7.3.32-0_all.deb
+ 20354fb0a7808d859fb6b4577e611b7567579efe7f28df7b3f74beb57b681e18 6254 linuxmuster-base7_7.3.32-0_amd64.buildinfo
+Files:
+ de5fcd7a6089864ddbae11e56544f8e5 583 linuxmuster optional linuxmuster-base7_7.3.32-0.dsc
+ b0e06b850124077b76b0c00ee760bc6c 91462 linuxmuster optional linuxmuster-base7_7.3.32-0.tar.gz
+ e37728aa391c71a15770c1defa8f39c5 61236 linuxmuster optional linuxmuster-base7_7.3.32-0_all.deb
+ 88dce374b992dbdd76f927534e8a94df 6254 linuxmuster optional linuxmuster-base7_7.3.32-0_amd64.buildinfo
