@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 29 May 2026 17:12:54 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.2-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.2-0) lmn74; urgency=low
+ .
+   * Fix ubuntu 26.04 build system compatibility (2f11e86, 1b15697).
+   * Fix: Pre-check failed in linuxmuster-import-devices (#173).
+Checksums-Sha1:
+ ca5ad8366ea105081c0d55fec9d0a7234d928fc2 900 linuxmuster-base7_7.4.2-0.dsc
+ c025c45f87903547ddc732861c90d14262b5107b 144693 linuxmuster-base7_7.4.2-0.tar.gz
+ f16d3c9e0afadb3b7eac67d67f98f4897dfd7502 85790 linuxmuster-base7_7.4.2-0_all.deb
+ 81240010da05544962c68c16c6e07e296934e8c3 9459 linuxmuster-base7_7.4.2-0_amd64.buildinfo
+Checksums-Sha256:
+ 2de2537f2ed0d6d19fb493c668cbe744ae4a213caa766781211d9e6704123c10 900 linuxmuster-base7_7.4.2-0.dsc
+ b768d99b0d4c67374f832bbb98b79d24702e9859565455c17288faa83d1b2a87 144693 linuxmuster-base7_7.4.2-0.tar.gz
+ 0b9cddb3eda553dba34593ba9c1fc5b9c6ea5151d81dc9549b35d9cb26bab9b6 85790 linuxmuster-base7_7.4.2-0_all.deb
+ 678baf70240358a020cf24fcd825f47e5e6dded74ef642a41be03db8db5032a7 9459 linuxmuster-base7_7.4.2-0_amd64.buildinfo
+Files:
+ e0b8940883f6c7495a3c00dc68b47369 900 linuxmuster optional linuxmuster-base7_7.4.2-0.dsc
+ 05d37d3d21740ad89c31aea609bd764e 144693 linuxmuster optional linuxmuster-base7_7.4.2-0.tar.gz
+ 0c999ae186e2c416764220746a7de20a 85790 linuxmuster optional linuxmuster-base7_7.4.2-0_all.deb
+ d3396c7569cee07b6402bacd585fb361 9459 linuxmuster optional linuxmuster-base7_7.4.2-0_amd64.buildinfo
