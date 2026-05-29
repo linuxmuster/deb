@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 28 May 2026 16:08:24 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.1-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.1-0) lmn74; urgency=low
+ .
+   * linbofs modules update (#150, a012380).
+   * fix module list concenation in kernel-harvester.sh (#150, fb863aa).
+   * update-linbofs: invoke busybox dumpkmap chrooted (#151, ede4d57).
+   * remove remnants of old opentracker service (#151, ede4d57).
+   * update opentracker.conf (#151, cceaee3).
+Checksums-Sha1:
+ 94b49ecd66f3b3ff894f5835763a7d066df323fc 1203 linuxmuster-linbo7_7.4.1-0.dsc
+ a22a1852002c953aad6d6384ac1a02bd2275d71a 1943659 linuxmuster-linbo7_7.4.1-0.tar.gz
+ d3dfd0d8d88699ba97da223af7c19912decc25d6 99705282 linuxmuster-linbo7_7.4.1-0_all.deb
+ 302558b22a1ddae28ac4a90fd7cbe3e0db52a44d 14671 linuxmuster-linbo7_7.4.1-0_amd64.buildinfo
+Checksums-Sha256:
+ c3ddd13dfb526e194b429339664c118186f6148c70fa5a712dd83f9efb9c1283 1203 linuxmuster-linbo7_7.4.1-0.dsc
+ 3377ef14d80ccb58c829f43ec61d7bb3235d1fab7cf5e5e5d8fec3c151108bdc 1943659 linuxmuster-linbo7_7.4.1-0.tar.gz
+ fc72fb9b65013cce93b663ef0c8947ca5acdb3eec7da42e3593ffbccfc998d69 99705282 linuxmuster-linbo7_7.4.1-0_all.deb
+ 5a1d1be551e54d24c054bd9dfa8a77c71200be24f8cd269a45f834245f886da6 14671 linuxmuster-linbo7_7.4.1-0_amd64.buildinfo
+Files:
+ 7af562982535a3c4995b930ebb87b767 1203 admin extra linuxmuster-linbo7_7.4.1-0.dsc
+ 26a24cb0c0d6df59f426eb9e57b5ae95 1943659 admin extra linuxmuster-linbo7_7.4.1-0.tar.gz
+ c77ae433b05c434cbc3f9b94ce48d4f7 99705282 admin extra linuxmuster-linbo7_7.4.1-0_all.deb
+ 13bbde70d338d84642a58213529b45dc 14671 admin extra linuxmuster-linbo7_7.4.1-0_amd64.buildinfo
