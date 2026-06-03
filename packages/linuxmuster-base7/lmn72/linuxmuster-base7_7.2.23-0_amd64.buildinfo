@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.2.22-0
+Version: 7.2.23-0
 Checksums-Md5:
- e5f5a6fcc039af83c861e0dfd3756606 583 linuxmuster-base7_7.2.22-0.dsc
- 1f4a8c538a1107e77928b9cb9d782e91 62106 linuxmuster-base7_7.2.22-0_all.deb
+ 61f7347f8e1321a222a18c2b68b7022f 583 linuxmuster-base7_7.2.23-0.dsc
+ e8c7bf0b7091b48aa65b32ae58048cd0 62174 linuxmuster-base7_7.2.23-0_all.deb
 Checksums-Sha1:
- 87ba8af9b4e5a1535cffcb2b88b98e735d0175d0 583 linuxmuster-base7_7.2.22-0.dsc
- 54f5071063db0a05cfaa0671d7619f1aadc7ae8d 62106 linuxmuster-base7_7.2.22-0_all.deb
+ a3c3222b9144b53d1f95b777ca24344847dfeae1 583 linuxmuster-base7_7.2.23-0.dsc
+ acab7e1acb0960b3a2ebb66736ff60fe1a64986b 62174 linuxmuster-base7_7.2.23-0_all.deb
 Checksums-Sha256:
- 8ea898f4a030694d0c276e6a908c438541eecf1831c1e12ae55347beacc90158 583 linuxmuster-base7_7.2.22-0.dsc
- 8169bcde6861213fc3edc9e186e8421ceae058470affadb82fd9aa5167bd863c 62106 linuxmuster-base7_7.2.22-0_all.deb
+ 7ea36b21dd9504b9b4abe938d5d3a87b2afde0ae99c9f991deba74f379357115 583 linuxmuster-base7_7.2.23-0.dsc
+ 97c5ec30bc64228ad129ac15c51194d16f6786dfd782ebe770f6cd4a9f4623c4 62174 linuxmuster-base7_7.2.23-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 08 Apr 2026 12:48:34 +0000
+Build-Date: Wed, 03 Jun 2026 15:21:08 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -31,8 +31,8 @@ Installed-Build-Depends:
  binutils (= 2.38-4ubuntu2.12),
  binutils-common (= 2.38-4ubuntu2.12),
  binutils-x86-64-linux-gnu (= 2.38-4ubuntu2.12),
- bsdextrautils (= 2.37.2-4ubuntu3.4),
- bsdutils (= 1:2.37.2-4ubuntu3.4),
+ bsdextrautils (= 2.37.2-4ubuntu3.5),
+ bsdutils (= 1:2.37.2-4ubuntu3.5),
  build-essential (= 12.9ubuntu3),
  bzip2 (= 1.0.8-5build1),
  clang-13 (= 1:13.0.1-2ubuntu2.2),
@@ -99,7 +99,7 @@ Installed-Build-Depends:
  libc6-dev (= 2.35-0ubuntu3.13),
  libc6-i386 (= 2.35-0ubuntu3.13),
  libcap-ng0 (= 0.7.9-2.2build3),
- libcap2 (= 1:2.44-1ubuntu0.22.04.2),
+ libcap2 (= 1:2.44-1ubuntu0.22.04.3),
  libcc1-0 (= 12.3.0-1ubuntu1~22.04.3),
  libclang-common-13-dev (= 1:13.0.1-2ubuntu2.2),
  libclang-common-14-dev (= 1:14.0.0-1ubuntu1.1),
@@ -173,12 +173,12 @@ Installed-Build-Depends:
  libseccomp2 (= 2.5.3-2ubuntu3~22.04.1),
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
- libsmartcols1 (= 2.37.2-4ubuntu3.4),
- libssl3 (= 3.0.2-0ubuntu1.21),
+ libsmartcols1 (= 2.37.2-4ubuntu3.5),
+ libssl3 (= 3.0.2-0ubuntu1.23),
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04.3),
  libstdc++6 (= 12.3.0-1ubuntu1~22.04.3),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 249.11-0ubuntu3.19),
+ libsystemd0 (= 249.11-0ubuntu3.20),
  libtinfo6 (= 6.3-2ubuntu0.1),
  libtirpc-common (= 1.3.2-2ubuntu0.1),
  libtirpc-dev (= 1.3.2-2ubuntu0.1),
@@ -188,12 +188,12 @@ Installed-Build-Depends:
  libtsan2 (= 12.3.0-1ubuntu1~22.04.3),
  libubsan1 (= 12.3.0-1ubuntu1~22.04.3),
  libuchardet0 (= 0.0.7-1build2),
- libudev1 (= 249.11-0ubuntu3.17),
+ libudev1 (= 249.11-0ubuntu3.20),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3.5),
  libxml2 (= 2.9.13+dfsg-1ubuntu0.11),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-173.183),
+ linux-libc-dev (= 5.15.0-179.189),
  llvm-13-linker-tools (= 1:13.0.1-2ubuntu2.2),
  llvm-14-linker-tools (= 1:14.0.0-1ubuntu1.1),
  llvm-15-linker-tools (= 1:15.0.7-0ubuntu0.22.04.3),
@@ -213,11 +213,11 @@ Installed-Build-Depends:
  po-debconf (= 1.0.21+nmu1),
  readline-common (= 8.1.2-1),
  rpcsvc-proto (= 1.4.2-0ubuntu6),
- sed (= 4.8-1ubuntu2),
+ sed (= 4.8-1ubuntu2.1),
  sensible-utils (= 0.0.17),
  sysvinit-utils (= 3.01-1ubuntu1),
  tar (= 1.34+dfsg-1ubuntu0.1.22.04.2),
- util-linux (= 2.37.2-4ubuntu3.4),
+ util-linux (= 2.37.2-4ubuntu3.5),
  xz-utils (= 5.2.5-2ubuntu1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu9.2)
 Environment:
@@ -225,4 +225,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
- SOURCE_DATE_EPOCH="1744116060"
+ SOURCE_DATE_EPOCH="1780499700"
