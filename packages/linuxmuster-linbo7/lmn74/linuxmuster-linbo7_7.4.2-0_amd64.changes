@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri,  5 Jun 2026 22:39:30 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.2-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.2-0) lmn74; urgency=low
+ .
+   * linbo_partition: fix unmounting cache (a9688d0).
+   * increase width of linbo client boot output to 64 chars (dc7f60e).
+   * improve aria2c's console output (64e84f6, #152).
+   * fix plymouth's boot output (6986444).
+Checksums-Sha1:
+ 1eef901e14e1fe931fe4c9c3f7244a2cdc66dad2 1203 linuxmuster-linbo7_7.4.2-0.dsc
+ c6b90fb7816e0af176226d4cb60776399ef2ecae 1946166 linuxmuster-linbo7_7.4.2-0.tar.gz
+ 901e2f6d7b5f52f809c3370a3febff90ed2d9f15 99697676 linuxmuster-linbo7_7.4.2-0_all.deb
+ ba330201d6f08cada9224b7db77adbe115800407 14671 linuxmuster-linbo7_7.4.2-0_amd64.buildinfo
+Checksums-Sha256:
+ ab64f7bca02381375d11f221e7597ef85e357b27cc861a1d0c52af1e1f0eb4fe 1203 linuxmuster-linbo7_7.4.2-0.dsc
+ 6b3b99afb8f1df9a86575346967477f93c429cfc551ea18c7879fe68a3903125 1946166 linuxmuster-linbo7_7.4.2-0.tar.gz
+ 0cbefc73b7e4989c00717a514920d035b056a6e4a578435b36efd794a0b34f21 99697676 linuxmuster-linbo7_7.4.2-0_all.deb
+ 6c53c3fb8e865f4252f2e45dd5b381b72d887f6795009da76c24504eebc279dc 14671 linuxmuster-linbo7_7.4.2-0_amd64.buildinfo
+Files:
+ c59eaee182a8cf27e3af753781e1c0ec 1203 admin extra linuxmuster-linbo7_7.4.2-0.dsc
+ 09fe84ecc59a628aaa30fefe9b8db9a0 1946166 admin extra linuxmuster-linbo7_7.4.2-0.tar.gz
+ a3173e2a7f19ed1b66d2c822849f7dc0 99697676 admin extra linuxmuster-linbo7_7.4.2-0_all.deb
+ 44e85d88661270b37eab7ba97fe46322 14671 admin extra linuxmuster-linbo7_7.4.2-0_amd64.buildinfo
