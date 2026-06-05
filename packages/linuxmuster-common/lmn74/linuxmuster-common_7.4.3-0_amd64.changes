@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri,  5 Jun 2026 17:40:46 +0200
+Source: linuxmuster-common
+Binary: linuxmuster-common
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.3-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-common - linuxmuster.net common files
+Changes:
+ linuxmuster-common (7.4.3-0) lmn74; urgency=low
+ .
+   * helperfunctions.sh: fix python functions import (33148aey).
+Checksums-Sha1:
+ 7a044f81dc1a229d3778ff34a2984efc3378e356 588 linuxmuster-common_7.4.3-0.dsc
+ 0cb526e9c3ae0961980df20690abf7d32d52a1fe 18404 linuxmuster-common_7.4.3-0.tar.gz
+ e8f19c3ebfb6ed63faeff417ebbefa1fa62b359a 5472 linuxmuster-common_7.4.3-0_all.deb
+ 30e29ff42e82412875e37c3fdf3ba167258edefb 5731 linuxmuster-common_7.4.3-0_amd64.buildinfo
+Checksums-Sha256:
+ 2840cbfd2d1f34fbe73da3cd6765fd2affe6e8d6d71eb387248d7020c9144271 588 linuxmuster-common_7.4.3-0.dsc
+ 1fe5e1b516bb93233d3d709cd735a7c48ddc3526a8891c82f81eba82ea3861b2 18404 linuxmuster-common_7.4.3-0.tar.gz
+ e4aaaa1ec2047b214929c8ccb4715b3425f2b6f758a57909a4d58270efaa9ba3 5472 linuxmuster-common_7.4.3-0_all.deb
+ 2c565236f6098f2fe8bfc53277c06f4661e32482d317e0c0669167c46023d798 5731 linuxmuster-common_7.4.3-0_amd64.buildinfo
+Files:
+ 032692a6573f38750bdd164f7b6bec40 588 linuxmuster optional linuxmuster-common_7.4.3-0.dsc
+ 7eb4f9839671ee03580c13e1d084db73 18404 linuxmuster optional linuxmuster-common_7.4.3-0.tar.gz
+ 7bbe5a68abe9e5f32fd8f2fee8650c86 5472 linuxmuster optional linuxmuster-common_7.4.3-0_all.deb
+ f7e0f110f5a7637ac45e240a2eea964d 5731 linuxmuster optional linuxmuster-common_7.4.3-0_amd64.buildinfo

@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-common
 Binary: linuxmuster-common
 Architecture: all source
-Version: 7.4.2-0
+Version: 7.4.3-0
 Checksums-Md5:
- e015cbadddd6544942b6eb5ad8652efa 588 linuxmuster-common_7.4.2-0.dsc
- f20771dcb0a2dcc7bd39201f5cf37d60 5390 linuxmuster-common_7.4.2-0_all.deb
+ 032692a6573f38750bdd164f7b6bec40 588 linuxmuster-common_7.4.3-0.dsc
+ 7bbe5a68abe9e5f32fd8f2fee8650c86 5472 linuxmuster-common_7.4.3-0_all.deb
 Checksums-Sha1:
- a27aa72c52418b1cc70dbaef7ffcd8b6d411ae95 588 linuxmuster-common_7.4.2-0.dsc
- 8cd062754cb6c782b318d92180252c4c2d30592f 5390 linuxmuster-common_7.4.2-0_all.deb
+ 7a044f81dc1a229d3778ff34a2984efc3378e356 588 linuxmuster-common_7.4.3-0.dsc
+ e8f19c3ebfb6ed63faeff417ebbefa1fa62b359a 5472 linuxmuster-common_7.4.3-0_all.deb
 Checksums-Sha256:
- 7b31d878809745d52e57aa4efe0433bd5c5cbe07715de71227c1dd953a7ac124 588 linuxmuster-common_7.4.2-0.dsc
- ce91fed22c181c536022ee607748c77087f5c27c3177fa2ccce73da9c564f8ed 5390 linuxmuster-common_7.4.2-0_all.deb
+ 2840cbfd2d1f34fbe73da3cd6765fd2affe6e8d6d71eb387248d7020c9144271 588 linuxmuster-common_7.4.3-0.dsc
+ e4aaaa1ec2047b214929c8ccb4715b3425f2b6f758a57909a4d58270efaa9ba3 5472 linuxmuster-common_7.4.3-0_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 25 May 2026 11:01:29 +0000
+Build-Date: Fri, 05 Jun 2026 15:42:51 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -167,4 +167,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1779465208"
+ SOURCE_DATE_EPOCH="1780674046"
