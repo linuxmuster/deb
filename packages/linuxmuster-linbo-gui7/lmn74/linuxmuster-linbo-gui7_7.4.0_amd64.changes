@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 07 Jun 2026 09:34:23 +0100
+Source: linuxmuster-linbo-gui7
+Binary: linuxmuster-linbo-gui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.0
+Distribution: lmn74
+Urgency: medium
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Changed-By: Dorian Zedler <dorian@itsblue.de>
+Description:
+ linuxmuster-linbo-gui7 - Linuxmuster Linbo GUI
+Changes:
+ linuxmuster-linbo-gui7 (7.4.0) lmn74; urgency=medium
+ .
+   * chore: release for lmn 7.4
+Checksums-Sha1:
+ 80e6b441a16f1b9e6cb819ac48ace116779fd5b9 711 linuxmuster-linbo-gui7_7.4.0.dsc
+ 3385f05df44343e9162b4963cde130d3be733670 3578098 linuxmuster-linbo-gui7_7.4.0.tar.gz
+ 2eca44caeed196ebbe3db0f3065145cd9c27c7e0 9370580 linuxmuster-linbo-gui7_7.4.0_all.deb
+ 4c619541a20f64c31604ed935764f4741f1bfa43 8174 linuxmuster-linbo-gui7_7.4.0_amd64.buildinfo
+Checksums-Sha256:
+ 45981bfd9df857a6d911941f328936fd9c1fa2bb3c79449beaa2bb47c0a1fada 711 linuxmuster-linbo-gui7_7.4.0.dsc
+ a5746e6643b7bc39857676ce1efd9e0b4a28f0b8bc5cb7845149a4457add50dc 3578098 linuxmuster-linbo-gui7_7.4.0.tar.gz
+ 066af08b6e0ccc7bd6b6e8efcc85d76f00a88b9fc4e32717f7ee9111236c0f11 9370580 linuxmuster-linbo-gui7_7.4.0_all.deb
+ 18043f8413c578a978b42efd553cd22a6c8ec52b1365a9d50a2fe71f09daa5bd 8174 linuxmuster-linbo-gui7_7.4.0_amd64.buildinfo
+Files:
+ 44694742d9b09b0e5873eb49b1756220 711 admin extra linuxmuster-linbo-gui7_7.4.0.dsc
+ d85351f5eebcc006cb5a7225a99b4d51 3578098 admin extra linuxmuster-linbo-gui7_7.4.0.tar.gz
+ 676e8980115dd12a93d4a66143810c24 9370580 admin extra linuxmuster-linbo-gui7_7.4.0_all.deb
+ d78bc22f47d629704e6382579b5f1ea0 8174 admin extra linuxmuster-linbo-gui7_7.4.0_amd64.buildinfo
