@@ -11,3 +11,6 @@ Files in this directory:
 - 🗒 [linuxmuster-linbo-gui7_7.3.3.dsc](linuxmuster-linbo-gui7_7.3.3.dsc)
 - 🗒 [linuxmuster-linbo-gui7_7.3.3.tar.gz](linuxmuster-linbo-gui7_7.3.3.tar.gz)
 - 🗒 [linuxmuster-linbo-gui7_7.3.3_all.deb](linuxmuster-linbo-gui7_7.3.3_all.deb)
+- 🗒 [linuxmuster-linbo-gui7_7.4.0.dsc](linuxmuster-linbo-gui7_7.4.0.dsc)
+- 🗒 [linuxmuster-linbo-gui7_7.4.0.tar.gz](linuxmuster-linbo-gui7_7.4.0.tar.gz)
+- 🗒 [linuxmuster-linbo-gui7_7.4.0_all.deb](linuxmuster-linbo-gui7_7.4.0_all.deb)

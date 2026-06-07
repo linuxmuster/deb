@@ -60,6 +60,24 @@ SHA1: e8f19c3ebfb6ed63faeff417ebbefa1fa62b359a
 MD5sum: 7bbe5a68abe9e5f32fd8f2fee8650c86
 Description: linuxmuster.net common files
 
+Package: linuxmuster-linbo-gui7
+Version: 7.4.0
+Architecture: all
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Installed-Size: 9214
+Depends: linuxmuster-linbo7 (>= 4.3.0) | linuxmuster-cachingserver-linbo7
+Homepage: https://github.com/linuxmuster/linuxmuster-linbo-gui
+Priority: extra
+Section: admin
+Filename: pool/main/l/linuxmuster-linbo-gui7/linuxmuster-linbo-gui7_7.4.0_all.deb
+Size: 9370580
+SHA256: 066af08b6e0ccc7bd6b6e8efcc85d76f00a88b9fc4e32717f7ee9111236c0f11
+SHA1: 2eca44caeed196ebbe3db0f3065145cd9c27c7e0
+MD5sum: 676e8980115dd12a93d4a66143810c24
+Description: Linuxmuster Linbo GUI
+ This package contains the GUI for the Linux-based Network Boot
+ (LINBO) boot/install/repair system.
+
 Package: linuxmuster-linbo7
 Version: 7.4.2-0
 Architecture: all
