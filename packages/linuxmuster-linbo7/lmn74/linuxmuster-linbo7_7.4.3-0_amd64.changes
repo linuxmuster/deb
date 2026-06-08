@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Mon,  8 Jun 2026 17:36:20 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.3-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.3-0) lmn74; urgency=low
+ .
+   * fix wifi issue 'key addition failed', add kernel module ccm.ko.zst to linbofs (#150, d6af8e2).
+   * fix obsole grub module efi_uga.mod (7f39461).
+   * disable P2P (Peer-to-Peer) interface creation in wpa_supplicant.conf.ex (9ef2cc5).
+   * add missing dependency to logrotate (8df3c21).
+   * improve torrent hash file handling in conjunction with image updates on the client (6dd7f6b).
+   * update-linbofs: fix busybox dumpkmap (#151).
+   * add missing hdparm to linbofs (#151, 11b4ff8).
+Checksums-Sha1:
+ e8b84a349f0c595172c7a5942fa657925e20f423 1203 linuxmuster-linbo7_7.4.3-0.dsc
+ ea35cfbcbadb508965e4eb4ba57f7211bac98557 1946592 linuxmuster-linbo7_7.4.3-0.tar.gz
+ 303b0b432e4fd54aaa241f7c8c9ee04f720d849b 99756208 linuxmuster-linbo7_7.4.3-0_all.deb
+ 3aba7d257f0b8745ff94fc1864a5133d7487843b 14671 linuxmuster-linbo7_7.4.3-0_amd64.buildinfo
+Checksums-Sha256:
+ d72848a274270652ded9ea6ef5e5a6a51cebfc59399502ad57ace06d8768d811 1203 linuxmuster-linbo7_7.4.3-0.dsc
+ 6fbc4bdb42d2cfc73724ee6730bf9807f345ff445bd8f1b7471aae2d1bb909ac 1946592 linuxmuster-linbo7_7.4.3-0.tar.gz
+ e577f2d68372ba9014d8a0b190bd9b7c9e0067d1eafe88f4b84eacbd46592feb 99756208 linuxmuster-linbo7_7.4.3-0_all.deb
+ f9055383e537446d933068c69a9808771a7c44e4100731aa644317c99c2c3700 14671 linuxmuster-linbo7_7.4.3-0_amd64.buildinfo
+Files:
+ d93a734580126bd9e597a01cef7490e8 1203 admin extra linuxmuster-linbo7_7.4.3-0.dsc
+ e98937f4c583927d8ee0c296269cbe3c 1946592 admin extra linuxmuster-linbo7_7.4.3-0.tar.gz
+ 231315964ad02bd2718ba2cb5d32934e 99756208 admin extra linuxmuster-linbo7_7.4.3-0_all.deb
+ 9c534094c9e0b166523ef1abf7bcf7f6 14671 admin extra linuxmuster-linbo7_7.4.3-0_amd64.buildinfo
