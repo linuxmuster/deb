@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 16 Jun 2026 17:13:49 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.2
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.2) lmn74; urgency=medium
+ .
+   * Avoid var shadowing with lmntools
+   * Compatibility for Python 3.13
+   * Security update of paramiko
+   * Security update of Ajenti
+   * Fix dependency of ntpsec
+   * [users] Use pdflatex as default for passwords
+Checksums-Sha1:
+ 95ccfc84a8f4c3e5cade3b2f32cfc9eb433d25f4 561 linuxmuster-webui7_7.4.2.dsc
+ 8ed758558fb2c3935d702a73124f28e25e1fbf41 1621718 linuxmuster-webui7_7.4.2.tar.gz
+ f2869b84e2960b83a567636447b6b1df3c0b79f1 834672 linuxmuster-webui7_7.4.2_all.deb
+ 98b2fd87d2526650a67938fc1dac64af64b71af2 7775 linuxmuster-webui7_7.4.2_amd64.buildinfo
+Checksums-Sha256:
+ 036f85bead1ed57ac244b230bcd32b5ffe3bc96fc857a8de63668e15ed45abfc 561 linuxmuster-webui7_7.4.2.dsc
+ dc538752aaaf6590c7326e36dcc41fb57e1e591c50ed0d248337109b1517fbc4 1621718 linuxmuster-webui7_7.4.2.tar.gz
+ 3b983093bcc4a250422aaa8ce815e5726f0783aa20257f8ba8157cc3803b427c 834672 linuxmuster-webui7_7.4.2_all.deb
+ 7a00395e94ab7ba49f0030d330fdda78e965b1bb1d93ca4ac9597a9e1ebfc3d0 7775 linuxmuster-webui7_7.4.2_amd64.buildinfo
+Files:
+ e2b75ef77cbe2191d5bec98ce03fb8d7 561 admin optional linuxmuster-webui7_7.4.2.dsc
+ 8025f2feb4c15a7f4deaab31b1a21b97 1621718 admin optional linuxmuster-webui7_7.4.2.tar.gz
+ 1d48d251ddb01110513e1f1efe27477a 834672 admin optional linuxmuster-webui7_7.4.2_all.deb
+ c940a8ca5898d94a684132d646935fb7 7775 admin optional linuxmuster-webui7_7.4.2_amd64.buildinfo
