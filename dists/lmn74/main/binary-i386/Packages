@@ -101,18 +101,18 @@ Description: linuxmuster-linbo7
   the Linux-based Network Boot (LINBO) boot/install/repair system.
 
 Package: linuxmuster-tools7
-Version: 7.4.2
+Version: 7.4.3
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 519
+Installed-Size: 649
 Depends: python3, nmap, sophomorix-samba
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.2_all.deb
-Size: 90334
-SHA256: fb7c9ede9d0893c6b977446f5b006ee6433b2717755cb5c2793f05a4da9ff721
-SHA1: 9c3f786b6bd161c5d847057d6f196959f27dc13d
-MD5sum: 091183e0a6a530fa54e6293fe7e43b9f
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.3_all.deb
+Size: 107508
+SHA256: 2aecf92ef5f0a54434a6c8d3fd81e787476383d55337cdddfd3ed53a41887655
+SHA1: 1ee85a142fd414865e34cab170efc78c2972a4a8
+MD5sum: a3dd58c23bc317265f324a326321e13d
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
