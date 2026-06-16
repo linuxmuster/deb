@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-api7
 Binary: linuxmuster-api7
 Architecture: all source
-Version: 7.4.1
+Version: 7.4.2
 Checksums-Md5:
- 0b9c3a623369c531168f583ffcc7221b 564 linuxmuster-api7_7.4.1.dsc
- 556d31e3b647a2a732aed58d249d0329 56886 linuxmuster-api7_7.4.1_all.deb
+ 397329c781e6ca8ad1a2029307e9821a 564 linuxmuster-api7_7.4.2.dsc
+ 2bfcdbeb37508865143ec33cbe2705e3 60162 linuxmuster-api7_7.4.2_all.deb
 Checksums-Sha1:
- 801ffc624bf9c4abfc41097079155260a1a90dd7 564 linuxmuster-api7_7.4.1.dsc
- ea880593fef164390b1dfaed6bcd8ff6e9b21efc 56886 linuxmuster-api7_7.4.1_all.deb
+ 086d69572e393ad0d81037ff724320b30c2e228d 564 linuxmuster-api7_7.4.2.dsc
+ ac742c5083a83ae9bb78c177d04206ad4dad216b 60162 linuxmuster-api7_7.4.2_all.deb
 Checksums-Sha256:
- 7c2ed71b8731b74ba61d21a997c494c19cd7b3a28838fbace19e20daeefc28c5 564 linuxmuster-api7_7.4.1.dsc
- 54bd4baa1f42105891ceacc469b982580ad468799c414f1638db69037d88c0d8 56886 linuxmuster-api7_7.4.1_all.deb
+ 5e007c0b3f11d72c4f42d6c95d567009ec9282ce1ee8b1c5d51284f4825c8cb1 564 linuxmuster-api7_7.4.2.dsc
+ 6810915f955d3031d31620ac12fec93d36017bb0915cef660a84de5832ec68af 60162 linuxmuster-api7_7.4.2_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 25 Apr 2026 16:12:12 +0000
+Build-Date: Tue, 16 Jun 2026 15:23:49 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -54,8 +54,8 @@ Installed-Build-Depends:
  dh-autoreconf (= 20),
  dh-strip-nondeterminism (= 1.13.1-1),
  diffutils (= 1:3.10-1build1),
- dpkg (= 1.22.6ubuntu6.5),
- dpkg-dev (= 1.22.6ubuntu6.5),
+ dpkg (= 1.22.6ubuntu6.6),
+ dpkg-dev (= 1.22.6ubuntu6.6),
  dwz (= 0.15-1build6),
  file (= 1:5.45-3build1),
  findutils (= 4.9.0-5build1),
@@ -99,7 +99,7 @@ Installed-Build-Depends:
  libc6 (= 2.39-0ubuntu8.7),
  libc6-dev (= 2.39-0ubuntu8.7),
  libcap-ng0 (= 0.8.4-2build2),
- libcap2 (= 1:2.66-5ubuntu2.2),
+ libcap2 (= 1:2.66-5ubuntu2.4),
  libcc1-0 (= 14.2.0-4ubuntu2~24.04.1),
  libclang-common-16-dev (= 1:16.0.6-23ubuntu4),
  libclang-common-17-dev (= 1:17.0.6-9ubuntu1),
@@ -117,7 +117,7 @@ Installed-Build-Depends:
  libdb5.3t64 (= 5.3.28+dfsg2-7),
  libdebconfclient0 (= 0.271ubuntu3),
  libdebhelper-perl (= 13.14.1ubuntu5),
- libdpkg-perl (= 1.22.6ubuntu6.5),
+ libdpkg-perl (= 1.22.6ubuntu6.6),
  libdw1t64 (= 0.190-1.1ubuntu0.1),
  libedit2 (= 3.1-20230828-1build1),
  libelf1t64 (= 0.190-1.1ubuntu0.1),
@@ -128,7 +128,7 @@ Installed-Build-Depends:
  libgcc-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libgcc-14-dev (= 14.2.0-4ubuntu2~24.04.1),
  libgcc-s1 (= 14.2.0-4ubuntu2~24.04.1),
- libgcrypt20 (= 1.10.3-2build1),
+ libgcrypt20 (= 1.10.3-2ubuntu0.1),
  libgdbm-compat4t64 (= 1.23-5.1build1),
  libgdbm6t64 (= 1.23-5.1build1),
  libgmp10 (= 2:6.3.0+dfsg-2ubuntu6.1),
@@ -145,7 +145,7 @@ Installed-Build-Depends:
  libllvm18 (= 1:18.1.3-1ubuntu1),
  liblsan0 (= 14.2.0-4ubuntu2~24.04.1),
  liblz4-1 (= 1.9.4-1build1.1),
- liblzma5 (= 5.6.1+really5.4.5-1ubuntu0.2),
+ liblzma5 (= 5.6.1+really5.4.5-1ubuntu0.3),
  libmagic-mgc (= 1:5.45-3build1),
  libmagic1t64 (= 1:5.45-3build1),
  libmd0 (= 1.1.0-2build1.1),
@@ -183,7 +183,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.39.3-9ubuntu6.5),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.7),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-110.110),
+ linux-libc-dev (= 6.8.0-124.124),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -202,16 +202,16 @@ Installed-Build-Depends:
  po-debconf (= 1.0.21+nmu1),
  readline-common (= 8.2-4build1),
  rpcsvc-proto (= 1.4.2-0ubuntu7),
- sed (= 4.9-2build1),
+ sed (= 4.9-2ubuntu0.24.04.1),
  sensible-utils (= 0.0.22),
  sysvinit-utils (= 3.08-6ubuntu3),
  tar (= 1.35+dfsg-3build1),
  util-linux (= 2.39.3-9ubuntu6.5),
- xz-utils (= 5.6.1+really5.4.5-1ubuntu0.2),
+ xz-utils (= 5.6.1+really5.4.5-1ubuntu0.3),
  zlib1g (= 1:1.3.dfsg-3.1ubuntu2.1)
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1777133475"
+ SOURCE_DATE_EPOCH="1781623299"
