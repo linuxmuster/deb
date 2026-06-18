@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:49:06 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.4-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.4-0) lmn74; urgency=low
+ .
+   * remove obsolete dependency to ntpdate (5a13ed6).
+   * fix setuptools deprecation warnings during package build (bf6bcc2).
+Checksums-Sha1:
+ be7e7919974a56b6de30a0437d315885a0cbc223 900 linuxmuster-base7_7.4.4-0.dsc
+ a3b3491111b5f7dadaba3d088e284c8cb29bf611 146988 linuxmuster-base7_7.4.4-0.tar.gz
+ ebcaa657a63fd8547b525c34f15ac4ad56c9415d 89058 linuxmuster-base7_7.4.4-0_all.deb
+ e061b3e9f23f31182c011af0774f0651baf2eaf7 9488 linuxmuster-base7_7.4.4-0_amd64.buildinfo
+Checksums-Sha256:
+ 23ca1942831e161a7f49369abce48ef0d43dfdf60eeb494f96d22f41da650271 900 linuxmuster-base7_7.4.4-0.dsc
+ e9d3795577e0a7da99af918fd06ccf2d09fbe81d4791b5408a1f8ca5630c9927 146988 linuxmuster-base7_7.4.4-0.tar.gz
+ 7e6653c5678c0df33a43c18328222ebb8e45925302b2fba5f4cb1dedee462fb2 89058 linuxmuster-base7_7.4.4-0_all.deb
+ 75d5a7bd22067087cadfa32f5b6a1d7e7e4979617c1acf7cee9cf1357ddcab11 9488 linuxmuster-base7_7.4.4-0_amd64.buildinfo
+Files:
+ d91c71fa45ca122fb4da1a85f8973db8 900 linuxmuster optional linuxmuster-base7_7.4.4-0.dsc
+ bdb84227e48911cb57b7d85c2c396279 146988 linuxmuster optional linuxmuster-base7_7.4.4-0.tar.gz
+ 502b56a22925efe26a38e2b6170c1654 89058 linuxmuster optional linuxmuster-base7_7.4.4-0_all.deb
+ ca1c92497254f172d83e14e02649095d 9488 linuxmuster optional linuxmuster-base7_7.4.4-0_amd64.buildinfo
