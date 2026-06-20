@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: lmn7-testing
-Date: Sat, 20 Jun 2026 15:32:02 UTC
+Date: Sat, 20 Jun 2026 15:35:02 UTC
 Architectures: i386 amd64
 Components: main
 Description: lmn7 (bionic) testing
@@ -40,17 +40,17 @@ SHA256:
  f1e8b81a2fdc786923ab8afb020771f16b69e0144eca2f5f79c5549a79784989 127 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmo2snIACgkQTouLZn11
-LDLGig//cdpI5l+QI6ov6IzbzbaIvT4zZQxZCanApuZCXf+72E01JZJzqriSmbK8
-xd2/tT/AoE/z/UZHGOHzlQMKBLJUIWHRcrcwPajyL2EdeVTbbXuUxY0nmjyiDbro
-505pn3t9SmEBZPAvV/YVD/MpnZ7vGeLrQu5Ew6P8w7APhz0KQoPDvq4bOQQJ8QjT
-lnrXHf+Mbk2vfcC9D8dOeBpOZhbq47Qz1m+BxrBx1t2JupOdxkeS2/ZYUBoJGSre
-IAbw89ufhgOCYm/BIBGHHHXncZERV2Kl4k+ax9gMssRFUPp7kNQcyQ2xYKXIGJJd
-X7oAtwHYEw+724oYogyWC0v8MXsPZ15JEMeO4xzW/eqfsJKj87YA5gZ3FW+ymylg
-/knwsuierakT7bHvrbTlkK18BP5iMkLVnRtBrHjS7IU291MzulRl3W+iL6HS0J/X
-r2prcsTrDeoc+vAwqYTU9chKhoaySaqwc65+Jk4U70Cll98g/3vq0iDuIR1YcSlh
-qi0N8GZ9nhaYeosfVXjygR/vmQxkENe2on9zEizQDa/rmk9pBLvtqZbRPaDnjSY0
-DM5XfN4dp5QehWmRT1q9gpLiiJn6sabqgUbjJaD1vwCrPBfBVTw8Bj0SjXXgn7BG
-z4yt16093YYnQPoakE3nOpqdaIYRl5f3zCzeR6ZJhQopdZCLG2E=
-=kBr5
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmo2syYACgkQTouLZn11
+LDKJkQ//SmZSZOAVnV2q1cBYiSRxHd6fV+c/3AHx8w0yTGdMoVtZQG+yhqTdHXLA
+GjyggbY2fkGQ0bjaumn+Yor2p3nE4PbBVWh1bfQum4Qv5S7CBEvje9D5hIbep6JI
+Ta1yIorT+j2Pmt8qAp2TFJaLi2lARSZoqJtnWwHyHzInUFH5i09T3c8NMVANermX
+vJdsIyYmiEEbClvY3LvDI8oNP4Znw0MbnqpiomDQ8IQWeJ/DLgCCB+BEn8UQMt8K
+k6x/fWB3NSGhuJenR+0305leLBDxVDoIqDt54Ljy60rA9N4WrYyL64kFF14Q60mH
+pwF0eeh3b8M0CDct5+xG2b8LWQ9tghwygq4CBnGV6Zl9uU5UlqL8xAnDVQElQmwl
+mFlhosZDDOL3mrmLoRdnR8fuMV87XtnSO29AF+IzZ7ft17TdNJ/asyAHi7c+FTHn
+QhS+Wcvpw+HoI5uBK8b5Bb3X+r0HsJc2BGw6hjdn3pjyiEdmkSB8zBxuZuL8ilZo
+BLJxJAzmfNfunBrzD4AtqNcnSZye7GXN3+YZx0HXcV7H9n9vyLwq+vG1H2elxw1J
+lK0apfxd2tmWEE/6q3KKzIFFmdm/lnYkPlRVsQCNXGZ3AeZAQ8ZDF+MTHzEB+gmz
+Ae6hPalbvhh9dSf+EcS68DvcMIiUjsgfrWKTiFNxUFXaINP8New=
+=zkky
 -----END PGP SIGNATURE-----
