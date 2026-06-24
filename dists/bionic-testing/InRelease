@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: bionic-testing
-Date: Wed, 24 Jun 2026 14:46:30 UTC
+Date: Wed, 24 Jun 2026 15:34:10 UTC
 Architectures: i386 amd64
 Components: main
 Description: bionic testing
@@ -40,17 +40,17 @@ SHA256:
  e00b8147766d2ff261666ff1f91d8696c859a18821e7b487afb3af983e89d544 120 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmo77cYACgkQTouLZn11
-LDIuCRAAiUvFrEgjHcDQijfKke3eVbJBL4GxaIMMewK0gpKDrHqS15XjLgbgOmgV
-DOxjlqVrRSSRmrFF/Pgfl+LJjw4MvB+GtLPdUWoo6wgOKohphMBjGeU20q4mNQl0
-mo0XiVDo2FFzpOKMP0ceMdUEZmAG8j4z9CEGbNkzwFhsixXiigfDx5R8asAEXFxX
-G10UnVbQ/xBnhg1uEJ8S5geQ7Ds6hvA2FNHsppbLHjLtWtRLxeWCcaYwMtwhYcKB
-3NGqlWdQO2dxg1uFj2++9rOtb3TQf95lt/ES0bK6ZGG6G4MlxpMW+6MUx94anzV/
-KMH+hdEkGk3L+yfJ1DwG57nbsswrUAoznLrMw9ouppo3+Ji1J2wp5zGLxmXcRr/x
-iO983yzjEc2/mxRn8Q+MEz9hDQv94YBq3HheVJOaUKjJIh990ZnNqdsGlM28F13S
-bei8A+iRo6w6oucyBUQxdeVBRtelm4OrMWDyE9mYEHfV7FJY8WgC0n0zi7Zsxmq4
-9px/k+wzqneKLrJwy3mnnnUPEITJHqQpEt0DYvAaTIXmAA69uHxk2JNkpyCdLXrE
-v5Zlfem5zOtQ18jbv2pArPIeyd/u5qqOu63nsX2vOD+E27hfDJShDuJBA/i5WLwO
-NDuSKX1vI33k/S39fZ3jj0pGtkjxsSF085aT92TE+6pwfn7Qx3c=
-=PKa4
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmo7+PIACgkQTouLZn11
+LDJP5g//dqrJwSqM30xiYEJUysSYiEDbjrrAKPWfm6u1MmmR8YB68/T/Oal0Zhuq
+hcUIbIQdd1FwOMr7tI5yN7soWXKy6jDfdTY4fFWQL3DIY2HqmQwxb/7Kx+UBAElV
+Qo2mnBWq/K1WDBKGqE3F55hQrzfjOPzIYyAZV8xKFe57UH1u+oKxCr8LLDZ8P0I3
+mWp7uYZuQm96KDRnsMZ7w35msTaN0ZUdihN8mD/93Io0XwFWxKw2M/zyfz0ecFTA
+xPyR00x1pWCV2UFKsJ+DEfsSgSj+LMM62B8Q4lsqlS7BdiwYKopnT9AMD+lQ6Ktv
+TW/OKD3ZrWO8NIPJx4M1hsi0B/bTikT80YTcjb65F3jDELL6KhYZkcl0vZCqdyCP
+26ybFtK/ldmTJ1HKojgaU0zs8BoktLPJEM8Uyvkq+6ahdEWjBfVwH//kzGkeDhnI
+bIbvg7sUo94VEht/PCfi7fVtFaupI/DXT7jhWOhyAQo8e6sbAmmlNjvk/JpaTfCJ
+SvrUWl62jEmErLqsyeQFWIGhseO93pfAuIaP3YadpRxipKnjuc/KbHZc6lboNfh2
+qzcyBdXQO6lD4BQHmH2FN7eMKbny3jzFQUwM8ySeYFXx2h3vH0nkO4KLKg6U6s7C
+zh7gOJSRejWyyeFH3dl8tkE8PTqyBZCQyVndaXmPKnHg6FGbj9A=
+=BKjR
 -----END PGP SIGNATURE-----
