@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.4.4-0
+Version: 7.4.5
 Checksums-Md5:
- d91c71fa45ca122fb4da1a85f8973db8 900 linuxmuster-base7_7.4.4-0.dsc
- 502b56a22925efe26a38e2b6170c1654 89058 linuxmuster-base7_7.4.4-0_all.deb
+ 05a9672f2fa058c252a304b2ebf4d781 892 linuxmuster-base7_7.4.5.dsc
+ d85a2089f805969c1d715fe3fe069c4a 90634 linuxmuster-base7_7.4.5_all.deb
 Checksums-Sha1:
- be7e7919974a56b6de30a0437d315885a0cbc223 900 linuxmuster-base7_7.4.4-0.dsc
- ebcaa657a63fd8547b525c34f15ac4ad56c9415d 89058 linuxmuster-base7_7.4.4-0_all.deb
+ 0116a562dbd5205cdf202d13cbcee566ae3ea300 892 linuxmuster-base7_7.4.5.dsc
+ 789b3547c03cccf8bd305fe81e7bf203ee175421 90634 linuxmuster-base7_7.4.5_all.deb
 Checksums-Sha256:
- 23ca1942831e161a7f49369abce48ef0d43dfdf60eeb494f96d22f41da650271 900 linuxmuster-base7_7.4.4-0.dsc
- 7e6653c5678c0df33a43c18328222ebb8e45925302b2fba5f4cb1dedee462fb2 89058 linuxmuster-base7_7.4.4-0_all.deb
+ b8749d4703c18dbe75482b015bc88962068ef097ac97186c42bcc7dc5c955bfc 892 linuxmuster-base7_7.4.5.dsc
+ 8c032cf100760f16e0faed16457453d52afd9b0e4e865b796360d069872bb36d 90634 linuxmuster-base7_7.4.5_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 18 Jun 2026 08:52:18 +0000
+Build-Date: Wed, 24 Jun 2026 15:22:40 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -29,7 +29,7 @@ Installed-Build-Depends:
  bsdextrautils (= 2.41.3-3ubuntu2),
  build-essential (= 12.12ubuntu2),
  bzip2 (= 1.0.8-6build2),
- ca-certificates (= 20260223),
+ ca-certificates (= 20260601~26.04.1),
  coreutils (= 9.5-1ubuntu2+0.0.0~ubuntu25),
  coreutils-from-uutils (= 0.0.0~ubuntu25),
  cpp (= 4:15.2.0-5ubuntu1),
@@ -278,4 +278,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1781772546"
+ SOURCE_DATE_EPOCH="1782313716"
