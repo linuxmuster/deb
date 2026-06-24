@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 24 Jun 2026 16:30:28 +0200
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.0
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.4.0) lmn74; urgency=low
+ .
+   * basic refactoring in conjunction with ubuntu 26.04 support (#30, 64a6234):
+     - replace dependency to python3-reconfigure,
+     - remove deprecated lvm and babo options,
+     - improve quota and fstab handling (ext4 quota feature needs to be
+       activated offline during boot),
+     - improve linuxmuster repo handling in lmn-appliance,
+     - purge ubuntu's cloud utils rather than disabling them,
+     - update sshd_config and resolv.conf templates.
+     - remove package revision no. from version.
+Checksums-Sha1:
+ 021d49dc9378a64606bc085202122e76f93c6ab5 600 linuxmuster-prepare_7.4.0.dsc
+ 86ffa2d7334da015389de39708bee4c0a6bf26cb 28680 linuxmuster-prepare_7.4.0.tar.xz
+ 2683ffaababe4a4eff5880dbd0dac2f1c159d015 14250 linuxmuster-prepare_7.4.0_all.deb
+ 62638058117be2130861362795947b34c10051e2 6247 linuxmuster-prepare_7.4.0_amd64.buildinfo
+Checksums-Sha256:
+ 8a8dbdb51273ef1ca1eb90b5c65c6d011c83b85f4fd4f3f98c080f83c85fdfc0 600 linuxmuster-prepare_7.4.0.dsc
+ 80a7fe71e901272ccff2fd49f1d7bd157420ced5b555122d19b2bacfe72d28de 28680 linuxmuster-prepare_7.4.0.tar.xz
+ 5ea33e9348351f85ab3eb9746635e7d7b2cb2bf81b347774747ddb18b58e00f6 14250 linuxmuster-prepare_7.4.0_all.deb
+ 58963639c8cedda97ac3c97680cc25bc5b259b6b20d5b6329c5236acfe0193b1 6247 linuxmuster-prepare_7.4.0_amd64.buildinfo
+Files:
+ ac86a581e573bb5fab10ecf7db52108f 600 utils optional linuxmuster-prepare_7.4.0.dsc
+ 49d1cc28ac0a7f0cfae37a81701937da 28680 utils optional linuxmuster-prepare_7.4.0.tar.xz
+ f4879b91f7544e80a4100d1e7f198fb9 14250 utils optional linuxmuster-prepare_7.4.0_all.deb
+ e1f1dbd588f41875cbe73236d856085e 6247 utils optional linuxmuster-prepare_7.4.0_amd64.buildinfo
