@@ -11,3 +11,6 @@ Files in this directory:
 - 🗒 [linuxmuster-prepare_7.3.1-0.dsc](linuxmuster-prepare_7.3.1-0.dsc)
 - 🗒 [linuxmuster-prepare_7.3.1-0.tar.gz](linuxmuster-prepare_7.3.1-0.tar.gz)
 - 🗒 [linuxmuster-prepare_7.3.1-0_all.deb](linuxmuster-prepare_7.3.1-0_all.deb)
+- 🗒 [linuxmuster-prepare_7.4.0.dsc](linuxmuster-prepare_7.4.0.dsc)
+- 🗒 [linuxmuster-prepare_7.4.0.tar.xz](linuxmuster-prepare_7.4.0.tar.xz)
+- 🗒 [linuxmuster-prepare_7.4.0_all.deb](linuxmuster-prepare_7.4.0_all.deb)
