@@ -47,17 +47,17 @@ MD5sum: ad2b2e6ef9f6a2279bb5c072aa66cde1
 Description: Tools and CLI for the linuxmuster.net 7 server.
 
 Package: linuxmuster-common
-Version: 7.4.3-0
+Version: 7.4.4
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Installed-Size: 22
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-common/linuxmuster-common_7.4.3-0_all.deb
-Size: 5472
-SHA256: e4aaaa1ec2047b214929c8ccb4715b3425f2b6f758a57909a4d58270efaa9ba3
-SHA1: e8f19c3ebfb6ed63faeff417ebbefa1fa62b359a
-MD5sum: 7bbe5a68abe9e5f32fd8f2fee8650c86
+Filename: pool/main/l/linuxmuster-common/linuxmuster-common_7.4.4_all.deb
+Size: 5556
+SHA256: 3472f97ea1bd6038380997fc87fb88ef448949620be6f26d52b87235eb3ce4fa
+SHA1: bd02caed0e426125b57816108afd06a649ad06d8
+MD5sum: 24fb095593dd463e59c24cf3838fb838
 Description: linuxmuster.net common files
 
 Package: linuxmuster-linbo-gui7
