@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-common
 Binary: linuxmuster-common
 Architecture: all source
-Version: 7.4.3-0
+Version: 7.4.4
 Checksums-Md5:
- 032692a6573f38750bdd164f7b6bec40 588 linuxmuster-common_7.4.3-0.dsc
- 7bbe5a68abe9e5f32fd8f2fee8650c86 5472 linuxmuster-common_7.4.3-0_all.deb
+ 0312e39ff48e3b6e7298916de0f5d339 580 linuxmuster-common_7.4.4.dsc
+ 24fb095593dd463e59c24cf3838fb838 5556 linuxmuster-common_7.4.4_all.deb
 Checksums-Sha1:
- 7a044f81dc1a229d3778ff34a2984efc3378e356 588 linuxmuster-common_7.4.3-0.dsc
- e8f19c3ebfb6ed63faeff417ebbefa1fa62b359a 5472 linuxmuster-common_7.4.3-0_all.deb
+ 2fb5413e7f52e20cc7bb9eeb1d81e58b1e571bf0 580 linuxmuster-common_7.4.4.dsc
+ bd02caed0e426125b57816108afd06a649ad06d8 5556 linuxmuster-common_7.4.4_all.deb
 Checksums-Sha256:
- 2840cbfd2d1f34fbe73da3cd6765fd2affe6e8d6d71eb387248d7020c9144271 588 linuxmuster-common_7.4.3-0.dsc
- e4aaaa1ec2047b214929c8ccb4715b3425f2b6f758a57909a4d58270efaa9ba3 5472 linuxmuster-common_7.4.3-0_all.deb
+ 1d71962694a6ef4067c6ad234ee806d834d52e5324f592132f480bea8c17570e 580 linuxmuster-common_7.4.4.dsc
+ 3472f97ea1bd6038380997fc87fb88ef448949620be6f26d52b87235eb3ce4fa 5556 linuxmuster-common_7.4.4_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 05 Jun 2026 15:42:51 +0000
+Build-Date: Thu, 25 Jun 2026 06:42:14 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -125,7 +125,7 @@ Installed-Build-Depends:
  libselinux1 (= 3.9-4build1),
  libsframe3 (= 2.46-3ubuntu2),
  libsmartcols1 (= 2.41.3-3ubuntu2),
- libssl3t64 (= 3.5.5-1ubuntu3),
+ libssl3t64 (= 3.5.5-1ubuntu3.2),
  libstdc++-15-dev (= 15.2.0-16ubuntu1),
  libstdc++6 (= 16-20260322-1ubuntu1),
  libsystemd0 (= 259.5-0ubuntu3),
@@ -139,7 +139,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.41.3-3ubuntu2),
  libxml2-16 (= 2.15.2+dfsg-0.1),
  libzstd1 (= 1.5.7+dfsg-3),
- linux-libc-dev (= 7.0.0-15.15),
+ linux-libc-dev (= 7.0.0-22.22),
  lto-disabled-list (= 79),
  m4 (= 1.4.21-1),
  make (= 4.4.1-3),
@@ -147,7 +147,7 @@ Installed-Build-Depends:
  mawk (= 1.3.4.20260129-1),
  ncurses-base (= 6.6+20251231-1),
  ncurses-bin (= 6.6+20251231-1),
- openssl-provider-legacy (= 3.5.5-1ubuntu3),
+ openssl-provider-legacy (= 3.5.5-1ubuntu3.2),
  patch (= 2.8-2build1),
  perl (= 5.40.1-7build1),
  perl-base (= 5.40.1-7build1),
@@ -167,4 +167,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1780674046"
+ SOURCE_DATE_EPOCH="1782369506"
