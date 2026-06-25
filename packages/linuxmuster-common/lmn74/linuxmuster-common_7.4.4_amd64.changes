@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 25 Jun 2026 08:38:26 +0200
+Source: linuxmuster-common
+Binary: linuxmuster-common
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.4
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-common - linuxmuster.net common files
+Changes:
+ linuxmuster-common (7.4.4) lmn74; urgency=low
+ .
+   * helperfunctions.sh: add get_confpath() (5d31eee).
+   * remove deprecated linbo kernel paths from helperfunctions.sh (83d6ed5).
+   * remove package revision no. from version.
+Checksums-Sha1:
+ 2fb5413e7f52e20cc7bb9eeb1d81e58b1e571bf0 580 linuxmuster-common_7.4.4.dsc
+ b0e9d006fa5abc7dbdbeee16263a9363b7e7a44a 18429 linuxmuster-common_7.4.4.tar.gz
+ bd02caed0e426125b57816108afd06a649ad06d8 5556 linuxmuster-common_7.4.4_all.deb
+ d4552830a8b202089f5bcd065de9edd0ab893db7 5721 linuxmuster-common_7.4.4_amd64.buildinfo
+Checksums-Sha256:
+ 1d71962694a6ef4067c6ad234ee806d834d52e5324f592132f480bea8c17570e 580 linuxmuster-common_7.4.4.dsc
+ d8dd46a75affb2de60edfc139256c3c271bee15c88767f239d83b0451981df81 18429 linuxmuster-common_7.4.4.tar.gz
+ 3472f97ea1bd6038380997fc87fb88ef448949620be6f26d52b87235eb3ce4fa 5556 linuxmuster-common_7.4.4_all.deb
+ b9c679f0de5851b4e25e21b61420f13465c7b071a728e378edee577dc3a7fede 5721 linuxmuster-common_7.4.4_amd64.buildinfo
+Files:
+ 0312e39ff48e3b6e7298916de0f5d339 580 linuxmuster optional linuxmuster-common_7.4.4.dsc
+ abdd9e0287ab1b028f1da96a074e6579 18429 linuxmuster optional linuxmuster-common_7.4.4.tar.gz
+ 24fb095593dd463e59c24cf3838fb838 5556 linuxmuster optional linuxmuster-common_7.4.4_all.deb
+ 5845d192f82368fb2e10bb7ef61c4bc6 5721 linuxmuster optional linuxmuster-common_7.4.4_amd64.buildinfo
