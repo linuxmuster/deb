@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sat, 27 Jun 2026 09:09:55 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.35-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.35-0) lmn73; urgency=low
+ .
+   * linuxmuster-release-upgrade: auto-detect grub boot device before reconfiguring (78b5398, 82d3ce3).
+Checksums-Sha1:
+ 31d540c110137a42498e74e31929e1ef3fc91a10 583 linuxmuster-base7_7.3.35-0.dsc
+ 39b768f4a70ddbee5287d3f1aa7b9e893c279faf 91911 linuxmuster-base7_7.3.35-0.tar.gz
+ 0c0a5a92c8763c7244e4db72eef3fc65f1e6c0da 61838 linuxmuster-base7_7.3.35-0_all.deb
+ cec79f56e739e85985cc75b220593e85af1c0d4c 6261 linuxmuster-base7_7.3.35-0_amd64.buildinfo
+Checksums-Sha256:
+ 6a39bc1f4c08ec4c20ce211581a776cfa2ed192bac3732ac76a09cec5de9ea71 583 linuxmuster-base7_7.3.35-0.dsc
+ 66a27252a813188f3740deea3dfb072b75f3d4d46d0b6ff22f416d7b5cf8f6ae 91911 linuxmuster-base7_7.3.35-0.tar.gz
+ edb21d949850e1f43bf468c84fb1fff40cedebf8f86efd1df994573e6bca3087 61838 linuxmuster-base7_7.3.35-0_all.deb
+ 6754a220713a4204e7287cb8291280ebad2f85e91a16f009f175c86d1150c98d 6261 linuxmuster-base7_7.3.35-0_amd64.buildinfo
+Files:
+ ae0fa903c7c94b62de4a70dd88570ffc 583 linuxmuster optional linuxmuster-base7_7.3.35-0.dsc
+ bc034b05a69b9905e7b82cf62240ebf0 91911 linuxmuster optional linuxmuster-base7_7.3.35-0.tar.gz
+ 0d604707af1f94718d2810ad4821551b 61838 linuxmuster optional linuxmuster-base7_7.3.35-0_all.deb
+ abc564c6540fac8b5cb859b03fc1ed23 6261 linuxmuster optional linuxmuster-base7_7.3.35-0_amd64.buildinfo
