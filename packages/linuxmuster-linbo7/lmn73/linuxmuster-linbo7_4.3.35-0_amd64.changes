@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun,  5 Jul 2026 14:33:00 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.35-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.35-0) lmn73; urgency=low
+ .
+   * update-linbofs: fix undetected module extraction failure (6ce8279, 8e08242).
+Checksums-Sha1:
+ 57ef5aa57871efdecbfb12064ccb43b375e1124e 1315 linuxmuster-linbo7_4.3.35-0.dsc
+ e6f94c28c2f8d0c0016875b0a588a80028012c0c 2063267 linuxmuster-linbo7_4.3.35-0.tar.gz
+ 014c67c642bc471927eadba072e7015d2465b6eb 92157172 linuxmuster-linbo7_4.3.35-0_all.deb
+ 496705d24fb4d5951e557683eb6d4101fe45c6d6 15415 linuxmuster-linbo7_4.3.35-0_amd64.buildinfo
+Checksums-Sha256:
+ dbe18bce75b653868e431fb3ae640dc6475e306babecf747c435ff65ec85f733 1315 linuxmuster-linbo7_4.3.35-0.dsc
+ 875500ac3f214722c1f78b174f35966ea56bc533aba7084ccb018f0904263cb9 2063267 linuxmuster-linbo7_4.3.35-0.tar.gz
+ 54365b5431950e1f2ea8f80da6fdbd5d77d7f6cc672100209ba4c5986661d0a6 92157172 linuxmuster-linbo7_4.3.35-0_all.deb
+ 4298df3cb956e64db1f7313b558b6b5d4884623cba76bc612a5ac18868da1806 15415 linuxmuster-linbo7_4.3.35-0_amd64.buildinfo
+Files:
+ 3d60952dd9eb7432ce64375e7b220a2c 1315 admin extra linuxmuster-linbo7_4.3.35-0.dsc
+ 8beacabf2de853d9880c597246d4ff26 2063267 admin extra linuxmuster-linbo7_4.3.35-0.tar.gz
+ 7c6b235f3a202981787b36bb18a5d97c 92157172 admin extra linuxmuster-linbo7_4.3.35-0_all.deb
+ f30aa526e5280d529c09d8b8c90f546f 15415 admin extra linuxmuster-linbo7_4.3.35-0_amd64.buildinfo
