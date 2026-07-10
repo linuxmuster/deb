@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 10 Jul 2026 08:48:36 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.46
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.46) lmn73; urgency=medium
+ .
+   * Endpoints for staff groups and members.
+Checksums-Sha1:
+ 4259948aebfb73221fc3804d6f0a8cf8c4f79cf9 583 linuxmuster-tools7_7.3.46.dsc
+ cc902672008b9695cd19e24b677cf6c58e759b6d 124236 linuxmuster-tools7_7.3.46.tar.gz
+ b489f6a1e8803b064fcb1fc5c0481bc1ac2ce7cf 90570 linuxmuster-tools7_7.3.46_all.deb
+ c4b13bc1a51a352a67b23f46732242a9ce082e70 7742 linuxmuster-tools7_7.3.46_amd64.buildinfo
+Checksums-Sha256:
+ ea652172477c88b6d43daf170e38d31332fa2c00517dc68a79191f79f6cddd5a 583 linuxmuster-tools7_7.3.46.dsc
+ 39d8d05beba2a0fa2acf4dd36fe40a5ac2294dd7873a20570eb07d773297469e 124236 linuxmuster-tools7_7.3.46.tar.gz
+ 19d3f38ceb64af130f75e466296101f7d187c06036f5eb79df841710c8deaa01 90570 linuxmuster-tools7_7.3.46_all.deb
+ 0b8cf162301a4ab932359817bcda9a09688dafdb30509c3411cea29fc540f84b 7742 linuxmuster-tools7_7.3.46_amd64.buildinfo
+Files:
+ d16552c05d951c89e5ba273c0266a4ec 583 linuxmuster optional linuxmuster-tools7_7.3.46.dsc
+ fd64c6b0dce8c037531e6ff761f45936 124236 linuxmuster optional linuxmuster-tools7_7.3.46.tar.gz
+ 6461b244b3af99c7b127306e58e7ca2e 90570 linuxmuster optional linuxmuster-tools7_7.3.46_all.deb
+ 824ed32dc48abd0415677741939fc3c0 7742 linuxmuster optional linuxmuster-tools7_7.3.46_amd64.buildinfo
