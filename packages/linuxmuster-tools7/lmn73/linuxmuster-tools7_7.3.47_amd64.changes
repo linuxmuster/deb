@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 15 Jul 2026 10:11:12 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.47
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.47) lmn73; urgency=medium
+ .
+   * [print] Possibility to print large cards (36 passwords on 2 pages).
+   * [print] Print passwords and convert sophomorix templates as jinja templates.
+Checksums-Sha1:
+ 3e46d2414aa064970d509666dca81b2a8ebe4b70 583 linuxmuster-tools7_7.3.47.dsc
+ 90751ee13b78a4be1d3a7994eb833dad2bd19fa7 126179 linuxmuster-tools7_7.3.47.tar.gz
+ 6951486430e4655bac1fc31915c4bd7386d5fffc 92334 linuxmuster-tools7_7.3.47_all.deb
+ ef443582a4f090715dedf89c54617f8c16a4d8d7 7742 linuxmuster-tools7_7.3.47_amd64.buildinfo
+Checksums-Sha256:
+ 3b8b0de2ee74fc1c1507ba61c98b545d6e575cb4c6bb82bed9201948f2ffb9d7 583 linuxmuster-tools7_7.3.47.dsc
+ 59d27e5b8e53f0b3cb2395238e61b29f8c37ca92b7d11704d49be79e19705bb8 126179 linuxmuster-tools7_7.3.47.tar.gz
+ 3a6f0e5d7ecfdd8555643f40bc377418be50ab04b3a3f2a0f9b6301d78c83bf2 92334 linuxmuster-tools7_7.3.47_all.deb
+ 2d3e5bccd66450bc7da14b06977be9b98161b1a31df6d702bdef4b000a20c98c 7742 linuxmuster-tools7_7.3.47_amd64.buildinfo
+Files:
+ 6c287103515a8dcfd6e9c561601f342f 583 linuxmuster optional linuxmuster-tools7_7.3.47.dsc
+ c9493782aea306e7560808179d5e5d84 126179 linuxmuster optional linuxmuster-tools7_7.3.47.tar.gz
+ b9b3e9911abcddcff1133d0e5a982311 92334 linuxmuster optional linuxmuster-tools7_7.3.47_all.deb
+ 2f05bdbc72fc21f7f2c1ad2fb0946369 7742 linuxmuster optional linuxmuster-tools7_7.3.47_amd64.buildinfo
