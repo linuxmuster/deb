@@ -2,31 +2,31 @@ Format: 1.0
 Source: sophomorix4
 Binary: sophomorix-belwue-mail sophomorix-developer sophomorix-dump sophomorix-samba sophomorix-vampire
 Architecture: all source
-Version: 7.4.2
+Version: 7.4.3
 Checksums-Md5:
- 0e69e850816fd61d0a5080ab458c05e1 833 sophomorix4_7.4.2.dsc
- 098f4af2a926ddeceb4a783937b54639 15556 sophomorix-belwue-mail_7.4.2_all.deb
- 2efbe02c6274c9f6f73d2eb757b834f6 81292 sophomorix-developer_7.4.2_all.deb
- 6fa3ead1ca6c2d9ee3d38b91c825c507 8470 sophomorix-dump_7.4.2_all.deb
- e385486c2ed2b12d06fec36fad04c7c2 254400 sophomorix-samba_7.4.2_all.deb
- b02ba723193577dfe4d15e4b4e99353b 17910 sophomorix-vampire_7.4.2_all.deb
+ 0334fbc986cd74a1c4478b4435b4cf35 833 sophomorix4_7.4.3.dsc
+ 36874d42591e3722b9aff94bf6006937 15676 sophomorix-belwue-mail_7.4.3_all.deb
+ 23e0e51443e1492e5d7af439cd2ad78e 81396 sophomorix-developer_7.4.3_all.deb
+ b49f16d5e5f2118166d6e4570ce9396e 8570 sophomorix-dump_7.4.3_all.deb
+ 9afd3372c842ef7e00e36caeadc8d5ee 255598 sophomorix-samba_7.4.3_all.deb
+ ee922c4ac0b0938a94920001cb4523f8 18010 sophomorix-vampire_7.4.3_all.deb
 Checksums-Sha1:
- 425d4829c3b6c5973c7a160aa91fa394c7c519eb 833 sophomorix4_7.4.2.dsc
- 361d9fa51fba5076d8d51adf9edd18c2bb0525d5 15556 sophomorix-belwue-mail_7.4.2_all.deb
- 1aaf3b8607b1bbc1eeee8aec038259d5b4be4d9a 81292 sophomorix-developer_7.4.2_all.deb
- be9cefcc2d325378186f6451a61ddcd589b40c7a 8470 sophomorix-dump_7.4.2_all.deb
- bc17e7fef1d49f72db84ebaae7299f6382d1e83b 254400 sophomorix-samba_7.4.2_all.deb
- 575baf3ca510c537641998d62ba9d9c5262b8a20 17910 sophomorix-vampire_7.4.2_all.deb
+ 9f5e19cec4699889b485697d5865bb46ac852b0d 833 sophomorix4_7.4.3.dsc
+ bb175a56933a66635faaab02be65151a01718320 15676 sophomorix-belwue-mail_7.4.3_all.deb
+ f73bda0b2238372225a5a1a7d6338f24726cd678 81396 sophomorix-developer_7.4.3_all.deb
+ 7eff0cb7b16cceecd8fa2524baf7e5318bc02fee 8570 sophomorix-dump_7.4.3_all.deb
+ 69714a3780b274c1798c3031f6b632558f6eeb26 255598 sophomorix-samba_7.4.3_all.deb
+ 607a8fe9e1fdace0aa1a1e00a2d0c42551fecada 18010 sophomorix-vampire_7.4.3_all.deb
 Checksums-Sha256:
- 6929d556ada78a2ffa89191a42e9d0c18b8054900164b578b18f7e71bc072f8e 833 sophomorix4_7.4.2.dsc
- 92c511a9a6353be55d0990855a4f35fe6f888d8d4c882a7d103f9c039c3cb13c 15556 sophomorix-belwue-mail_7.4.2_all.deb
- ed80719a645275d4f4d9207bcc63ba72e6b8f4ad3603b2d19461487ec97cb304 81292 sophomorix-developer_7.4.2_all.deb
- 96e62ee8c001a6922d53bd03598545d7f99417d2633894ff9a51640e9b2d1f30 8470 sophomorix-dump_7.4.2_all.deb
- 25f7b1d57dc6982974c44257ce3d256c6ca6c0083c727462186a07c1c57d07a8 254400 sophomorix-samba_7.4.2_all.deb
- 65d2c4635cadb92ad044c60b1fc03ca79a7e6c5f0ad22fdb9b8f9478fbd68b44 17910 sophomorix-vampire_7.4.2_all.deb
+ 9c22a052ca1d9613488cb5ee5f264c785297169558a1c78314f7645db443a1b9 833 sophomorix4_7.4.3.dsc
+ 8e2fcd65c9e182b9a1a3ec17e599b4160f170f033cc971a4b68f8e36dfdd6c17 15676 sophomorix-belwue-mail_7.4.3_all.deb
+ e5deb3d909ee2fdb3fb1d7c3eb5609edeb47cc3330d6c79bf4ef73e1d40ec428 81396 sophomorix-developer_7.4.3_all.deb
+ 1fc42477e79f4fcca382e298481128ba1f567aea6c0be846babc60b7f73aa31d 8570 sophomorix-dump_7.4.3_all.deb
+ 4b8e4daf84c887dac4c4a78589958c1247517bde697f7d4953673ec5c8843db6 255598 sophomorix-samba_7.4.3_all.deb
+ 8d53a912b5e6e50360db1993886c19b408a236d071d5f4e022ea90d6b3ed2e6f 18010 sophomorix-vampire_7.4.3_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 20 Jun 2026 12:20:30 +0000
+Build-Date: Wed, 15 Jul 2026 09:17:14 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -48,7 +48,7 @@ Installed-Build-Depends:
  bsdutils (= 1:2.39.3-9ubuntu6.5),
  build-essential (= 12.10ubuntu1),
  bzip2 (= 1.0.8-5.1build0.1),
- ca-certificates (= 20240203),
+ ca-certificates (= 20260601~24.04.1),
  clang-16 (= 1:16.0.6-23ubuntu4),
  clang-17 (= 1:17.0.6-9ubuntu1),
  clang-18 (= 1:18.1.3-1ubuntu1),
@@ -212,7 +212,7 @@ Installed-Build-Depends:
  libmount1 (= 2.39.3-9ubuntu6.5),
  libmpc3 (= 1.3.1-1build1.1),
  libmpfr6 (= 4.2.1-1build1.1),
- libncursesw6 (= 6.4+20240113-1ubuntu2),
+ libncursesw6 (= 6.4+20240113-1ubuntu2.1),
  libnet-http-perl (= 6.23-1),
  libnet-ssleay-perl (= 1.94-1build4),
  libnettle8t64 (= 3.9.1-2.2build1.1),
@@ -226,7 +226,7 @@ Installed-Build-Depends:
  libpam0g (= 1.5.3-5ubuntu5.5),
  libparams-classify-perl (= 0.015-2build5),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.2),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.3),
  libpipeline1 (= 1.5.7-2),
  libpython3-stdlib (= 3.12.3-0ubuntu2.1),
  libpython3.12-minimal (= 3.12.3-1ubuntu0.13),
@@ -244,7 +244,7 @@ Installed-Build-Depends:
  libsframe1 (= 2.42-4ubuntu2.10),
  libsigsegv2 (= 2.14-1ubuntu2),
  libsmartcols1 (= 2.39.3-9ubuntu6.5),
- libsqlite3-0 (= 3.45.1-1ubuntu2.5),
+ libsqlite3-0 (= 3.45.1-1ubuntu2.6),
  libssl3t64 (= 3.0.13-0ubuntu3.11),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04.1),
@@ -253,7 +253,7 @@ Installed-Build-Depends:
  libsystemd0 (= 255.4-1ubuntu8.16),
  libtasn1-6 (= 4.19.0-3ubuntu0.24.04.2),
  libtimedate-perl (= 2.3300-2),
- libtinfo6 (= 6.4+20240113-1ubuntu2),
+ libtinfo6 (= 6.4+20240113-1ubuntu2.1),
  libtool (= 2.4.7-7build1),
  libtry-tiny-perl (= 0.31-2),
  libtsan2 (= 14.2.0-4ubuntu2~24.04.1),
@@ -265,9 +265,9 @@ Installed-Build-Depends:
  libuuid1 (= 2.39.3-9ubuntu6.5),
  libwww-perl (= 6.76-1ubuntu0.1),
  libwww-robotrules-perl (= 6.02-1),
- libxml2 (= 2.9.14+dfsg-1.3ubuntu3.7),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3.8),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-124.124),
+ linux-libc-dev (= 6.8.0-134.134),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -278,16 +278,16 @@ Installed-Build-Depends:
  man-db (= 2.12.0-4build2),
  mawk (= 1.3.4.20240123-1build1),
  media-types (= 10.1.0),
- ncurses-base (= 6.4+20240113-1ubuntu2),
- ncurses-bin (= 6.4+20240113-1ubuntu2),
+ ncurses-base (= 6.4+20240113-1ubuntu2.1),
+ ncurses-bin (= 6.4+20240113-1ubuntu2.1),
  netbase (= 6.4),
  openssl (= 3.0.13-0ubuntu3.11),
  passwd (= 1:4.13+dfsg1-4ubuntu3.2),
  patch (= 2.7.6-7build3),
  patchutils (= 0.4.2-1build3),
- perl (= 5.38.2-3.2ubuntu0.2),
- perl-base (= 5.38.2-3.2ubuntu0.2),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.2),
+ perl (= 5.38.2-3.2ubuntu0.3),
+ perl-base (= 5.38.2-3.2ubuntu0.3),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.3),
  perl-openssl-defaults (= 7build3),
  pinentry-curses (= 1.2.1-3ubuntu5),
  po-debconf (= 1.0.21+nmu1),
@@ -300,7 +300,7 @@ Installed-Build-Depends:
  sed (= 4.9-2ubuntu0.24.04.1),
  sensible-utils (= 0.0.22),
  sysvinit-utils (= 3.08-6ubuntu3),
- tar (= 1.35+dfsg-3build1),
+ tar (= 1.35+dfsg-3ubuntu0.1),
  tzdata (= 2026a-0ubuntu0.24.04.1),
  util-linux (= 2.39.3-9ubuntu6.5),
  wdiff (= 1.2.2-6build1),
@@ -311,4 +311,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1781957948"
+ SOURCE_DATE_EPOCH="1784106943"
