@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.4.2
+Version: 7.4.3
 Checksums-Md5:
- e2b75ef77cbe2191d5bec98ce03fb8d7 561 linuxmuster-webui7_7.4.2.dsc
- 1d48d251ddb01110513e1f1efe27477a 834672 linuxmuster-webui7_7.4.2_all.deb
+ fd52fcda819de6a934c95e7f4c17fc75 561 linuxmuster-webui7_7.4.3.dsc
+ 818927db4e439e663fe01d55c02c9493 834932 linuxmuster-webui7_7.4.3_all.deb
 Checksums-Sha1:
- 95ccfc84a8f4c3e5cade3b2f32cfc9eb433d25f4 561 linuxmuster-webui7_7.4.2.dsc
- f2869b84e2960b83a567636447b6b1df3c0b79f1 834672 linuxmuster-webui7_7.4.2_all.deb
+ 0c484709391527eb43f2030f1db3223724346559 561 linuxmuster-webui7_7.4.3.dsc
+ 963046deebf060fb9688cc42093bbaae1049f6c6 834932 linuxmuster-webui7_7.4.3_all.deb
 Checksums-Sha256:
- 036f85bead1ed57ac244b230bcd32b5ffe3bc96fc857a8de63668e15ed45abfc 561 linuxmuster-webui7_7.4.2.dsc
- 3b983093bcc4a250422aaa8ce815e5726f0783aa20257f8ba8157cc3803b427c 834672 linuxmuster-webui7_7.4.2_all.deb
+ 2eb14d9eb09fec04def5b3e57d2e501031a33359a7485e5af94dce0eb2e71d48 561 linuxmuster-webui7_7.4.3.dsc
+ 75917548e8765130a67cf41caafe555629206835d3ec5406df2b4863135e0508 834932 linuxmuster-webui7_7.4.3_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 16 Jun 2026 15:17:22 +0000
+Build-Date: Wed, 15 Jul 2026 09:11:30 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -161,7 +161,7 @@ Installed-Build-Depends:
  libpam-runtime (= 1.5.3-5ubuntu5.5),
  libpam0g (= 1.5.3-5ubuntu5.5),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.2),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.3),
  libpipeline1 (= 1.5.7-2),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04.1),
  libreadline8t64 (= 8.2-4build1),
@@ -170,22 +170,22 @@ Installed-Build-Depends:
  libsframe1 (= 2.42-4ubuntu2.10),
  libsigsegv2 (= 2.14-1ubuntu2),
  libsmartcols1 (= 2.39.3-9ubuntu6.5),
- libssl3t64 (= 3.0.13-0ubuntu3.9),
+ libssl3t64 (= 3.0.13-0ubuntu3.11),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04.1),
  libsub-override-perl (= 0.10-1),
- libsystemd0 (= 255.4-1ubuntu8.15),
- libtinfo6 (= 6.4+20240113-1ubuntu2),
+ libsystemd0 (= 255.4-1ubuntu8.16),
+ libtinfo6 (= 6.4+20240113-1ubuntu2.1),
  libtool (= 2.4.7-7build1),
  libtsan2 (= 14.2.0-4ubuntu2~24.04.1),
  libubsan1 (= 14.2.0-4ubuntu2~24.04.1),
  libuchardet0 (= 0.0.8-1build1),
- libudev1 (= 255.4-1ubuntu8.15),
+ libudev1 (= 255.4-1ubuntu8.16),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.5),
- libxml2 (= 2.9.14+dfsg-1.3ubuntu3.7),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3.8),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-124.124),
+ linux-libc-dev (= 6.8.0-134.134),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -195,19 +195,19 @@ Installed-Build-Depends:
  make (= 4.3-4.1build2),
  man-db (= 2.12.0-4build2),
  mawk (= 1.3.4.20240123-1build1),
- ncurses-base (= 6.4+20240113-1ubuntu2),
- ncurses-bin (= 6.4+20240113-1ubuntu2),
+ ncurses-base (= 6.4+20240113-1ubuntu2.1),
+ ncurses-bin (= 6.4+20240113-1ubuntu2.1),
  patch (= 2.7.6-7build3),
- perl (= 5.38.2-3.2ubuntu0.2),
- perl-base (= 5.38.2-3.2ubuntu0.2),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.2),
+ perl (= 5.38.2-3.2ubuntu0.3),
+ perl-base (= 5.38.2-3.2ubuntu0.3),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.3),
  po-debconf (= 1.0.21+nmu1),
  readline-common (= 8.2-4build1),
  rpcsvc-proto (= 1.4.2-0ubuntu7),
  sed (= 4.9-2ubuntu0.24.04.1),
  sensible-utils (= 0.0.22),
  sysvinit-utils (= 3.08-6ubuntu3),
- tar (= 1.35+dfsg-3build1),
+ tar (= 1.35+dfsg-3ubuntu0.1),
  util-linux (= 2.39.3-9ubuntu6.5),
  xz-utils (= 5.6.1+really5.4.5-1ubuntu0.3),
  zlib1g (= 1:1.3.dfsg-3.1ubuntu2.1)
@@ -216,4 +216,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1781622829"
+ SOURCE_DATE_EPOCH="1784106610"
