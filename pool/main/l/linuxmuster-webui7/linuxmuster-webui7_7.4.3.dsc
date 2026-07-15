@@ -2,14 +2,14 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all
-Version: 7.4.2
+Version: 7.4.3
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Build-Depends: debhelper (>= 4.0.0), fakeroot
 Package-List:
  linuxmuster-webui7 deb admin optional arch=all
 Checksums-Sha1:
- 8ed758558fb2c3935d702a73124f28e25e1fbf41 1621718 linuxmuster-webui7_7.4.2.tar.gz
+ b9f19b337d5ef277f8f1cbec9eb4658ba74da55c 1622779 linuxmuster-webui7_7.4.3.tar.gz
 Checksums-Sha256:
- dc538752aaaf6590c7326e36dcc41fb57e1e591c50ed0d248337109b1517fbc4 1621718 linuxmuster-webui7_7.4.2.tar.gz
+ c60d8a10e27de98e3b79086162192bffd30e6ede495cfcbfe3ec48e95810fb28 1622779 linuxmuster-webui7_7.4.3.tar.gz
 Files:
- 8025f2feb4c15a7f4deaab31b1a21b97 1621718 linuxmuster-webui7_7.4.2.tar.gz
+ 735fdb69bef63e9b079ac92d1a02fc4c 1622779 linuxmuster-webui7_7.4.3.tar.gz
