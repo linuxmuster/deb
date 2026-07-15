@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 15 Jul 2026 11:10:10 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.3
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.3) lmn74; urgency=medium
+ .
+   * Security fixs in Ajenti.
+   * Print parents and staff passwords too.
+Checksums-Sha1:
+ 0c484709391527eb43f2030f1db3223724346559 561 linuxmuster-webui7_7.4.3.dsc
+ b9f19b337d5ef277f8f1cbec9eb4658ba74da55c 1622779 linuxmuster-webui7_7.4.3.tar.gz
+ 963046deebf060fb9688cc42093bbaae1049f6c6 834932 linuxmuster-webui7_7.4.3_all.deb
+ 4c219800e7931362aa42094ca763ff961d464d6b 7785 linuxmuster-webui7_7.4.3_amd64.buildinfo
+Checksums-Sha256:
+ 2eb14d9eb09fec04def5b3e57d2e501031a33359a7485e5af94dce0eb2e71d48 561 linuxmuster-webui7_7.4.3.dsc
+ c60d8a10e27de98e3b79086162192bffd30e6ede495cfcbfe3ec48e95810fb28 1622779 linuxmuster-webui7_7.4.3.tar.gz
+ 75917548e8765130a67cf41caafe555629206835d3ec5406df2b4863135e0508 834932 linuxmuster-webui7_7.4.3_all.deb
+ 9981f800a26993462dba8f41eb57ee9051cc6fff59a2d186d8c740c3c876664d 7785 linuxmuster-webui7_7.4.3_amd64.buildinfo
+Files:
+ fd52fcda819de6a934c95e7f4c17fc75 561 admin optional linuxmuster-webui7_7.4.3.dsc
+ 735fdb69bef63e9b079ac92d1a02fc4c 1622779 admin optional linuxmuster-webui7_7.4.3.tar.gz
+ 818927db4e439e663fe01d55c02c9493 834932 admin optional linuxmuster-webui7_7.4.3_all.deb
+ 1d3ff82e5fb65da9091638771af45bc1 7785 admin optional linuxmuster-webui7_7.4.3_amd64.buildinfo
