@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.4.7
+Version: 7.4.6
 Checksums-Md5:
- 4a080b2709ca9691b6dc70177b10e247 892 linuxmuster-base7_7.4.7.dsc
- 16155acac90732e2eb5463e84fd51440 91352 linuxmuster-base7_7.4.7_all.deb
+ 10c92de729d44ad331f2b195a918dbdf 892 linuxmuster-base7_7.4.6.dsc
+ efbaea1d5cf751db93c0822cf9111c96 91358 linuxmuster-base7_7.4.6_all.deb
 Checksums-Sha1:
- 63ef0af676cd2be1d0bba399f5ad6fbf46ee7ad7 892 linuxmuster-base7_7.4.7.dsc
- 0023277f3cec86d96143c036503ef9d57309f456 91352 linuxmuster-base7_7.4.7_all.deb
+ 9363d178753af229c4be9a0bfadad70752bf86a5 892 linuxmuster-base7_7.4.6.dsc
+ 4558c13579bc224c0f9503dc79ad5f6177883c05 91358 linuxmuster-base7_7.4.6_all.deb
 Checksums-Sha256:
- 48cecbe97f01aef0c5dedee10c5832e15a6c7f409e803c7193c6e2359bd0eec1 892 linuxmuster-base7_7.4.7.dsc
- 5e686ca1a2ba86d41196357a287dc6b07e2dab2ce7fb0dab49eb09098f6bb76e 91352 linuxmuster-base7_7.4.7_all.deb
+ 7b4bd93bfe7391fed7e4cfe924727a36a11b6c15b210e5aa3b5e817400e4d576 892 linuxmuster-base7_7.4.6.dsc
+ 40b0326a59fc9047ecf64ef18d038875097490c3d5d2f5d9df534affbae14699 91358 linuxmuster-base7_7.4.6_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 15 Jul 2026 16:36:59 +0000
+Build-Date: Wed, 15 Jul 2026 17:31:27 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -279,4 +279,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1784122578"
+ SOURCE_DATE_EPOCH="1784136507"
