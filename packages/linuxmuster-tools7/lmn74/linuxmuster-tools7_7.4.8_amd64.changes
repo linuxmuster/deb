@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 15 Jul 2026 11:06:32 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.8
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.8) lmn74; urgency=medium
+ .
+   * [check] Allow dot in login
+   * [print] Possibility to print large cards (36 passwords on 2 pages).
+   * [print] Print passwords and convert sophomorix templates as jinja
+     templates.
+   * [ldapwriter] Add LMNGroups
+   * [subnets] New module to manage subnets and track changes (@hermanntoast)
+Checksums-Sha1:
+ b02539bbb244b70a521b8f1be0cf3df84a04f103 579 linuxmuster-tools7_7.4.8.dsc
+ e3dd607b3dffb23954fb61f35ed520bcdc8c3f09 150454 linuxmuster-tools7_7.4.8.tar.gz
+ 5a65248abebd0c4a25d521f7decbcdf67b02690c 111964 linuxmuster-tools7_7.4.8_all.deb
+ 837e8625a3164d7beff744b3f67bc731817a0873 7738 linuxmuster-tools7_7.4.8_amd64.buildinfo
+Checksums-Sha256:
+ a1f509f3a295cbf974b5ed9bd82769fc932805fcc13305f66598d30e1e7d7b3e 579 linuxmuster-tools7_7.4.8.dsc
+ 6e21c2b6d14d04e78438bea4c988a43528167cd6a511cd3e12459b03a785c7e9 150454 linuxmuster-tools7_7.4.8.tar.gz
+ 8c80d48f1615fcf81caece839e75099662dc0a247fad0e76ae84ef4dc69e538d 111964 linuxmuster-tools7_7.4.8_all.deb
+ 5b1146ad5a1050a56f46949dec2c746cbb021f65d3df560b5579ad9e3281e391 7738 linuxmuster-tools7_7.4.8_amd64.buildinfo
+Files:
+ c512a556d9074707c3e52b730ff6360e 579 linuxmuster optional linuxmuster-tools7_7.4.8.dsc
+ 973e4796e8a9333336ca2737397a33fc 150454 linuxmuster optional linuxmuster-tools7_7.4.8.tar.gz
+ c29ebab507a6dda902599921d220067f 111964 linuxmuster optional linuxmuster-tools7_7.4.8_all.deb
+ a888eec4c3be8fb5ed6b15f7d63a7ecf 7738 linuxmuster optional linuxmuster-tools7_7.4.8_amd64.buildinfo
