@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 16 Jul 2026 22:35:54 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.9
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.9) lmn74; urgency=medium
+ .
+   * [linbo] Write and delete raw start.conf.
+Checksums-Sha1:
+ 683ec63749312632c9961becf789f9af4974fc93 579 linuxmuster-tools7_7.4.9.dsc
+ c8c931393c41dec688b35ecf9f7b217ddd26460a 152913 linuxmuster-tools7_7.4.9.tar.gz
+ 5be1523bc251df36640066c712be2506febc7b2f 113186 linuxmuster-tools7_7.4.9_all.deb
+ 9196f72cc36324a2daeb5be6ac43bd26f1fa2cf3 7738 linuxmuster-tools7_7.4.9_amd64.buildinfo
+Checksums-Sha256:
+ e2a2d5bfe46e5ebdf148f3620b70bd8d79c7d7b42673dedbe471cd2bfbd60678 579 linuxmuster-tools7_7.4.9.dsc
+ 6c1236958cd56dbcb7f0e7695fbb31059dc2d3c16c556e00987792f121b18fac 152913 linuxmuster-tools7_7.4.9.tar.gz
+ b9b71b94a13b168c07105e8a16b02e263f607b6df8109971cd8bfd5959a431af 113186 linuxmuster-tools7_7.4.9_all.deb
+ 14848da3d41182089f78d888c30e014b613304cde5c97842950a9709aa69bb58 7738 linuxmuster-tools7_7.4.9_amd64.buildinfo
+Files:
+ be2bff95d40a9b185dbab03e32bedbd2 579 linuxmuster optional linuxmuster-tools7_7.4.9.dsc
+ 9093b1763122c6e26c560e31c048d87c 152913 linuxmuster optional linuxmuster-tools7_7.4.9.tar.gz
+ 0b5521f17a494491e9dabcbd5b37e65d 113186 linuxmuster optional linuxmuster-tools7_7.4.9_all.deb
+ 0ffd9ed2bc06dfadfcf347af4098377c 7738 linuxmuster optional linuxmuster-tools7_7.4.9_amd64.buildinfo
