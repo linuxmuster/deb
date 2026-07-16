@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 16 Jul 2026 22:36:51 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.5
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.4.5) lmn74; urgency=medium
+ .
+   * [linbo] Add endpoints to write raw start.conf or delete start.conf
+Checksums-Sha1:
+ 82111872075c8e9347fd8b2621e2b9e8c4e0036e 564 linuxmuster-api7_7.4.5.dsc
+ 38a998c1ff7dfbf11232151b687603ec0fc89825 84882 linuxmuster-api7_7.4.5.tar.gz
+ 5d90d6c8c7bc5b750a859d999ec6ba8cbae4e5a1 62764 linuxmuster-api7_7.4.5_all.deb
+ 85c9c62b42266e377058f93875fd06e97cfe0f9e 7719 linuxmuster-api7_7.4.5_amd64.buildinfo
+Checksums-Sha256:
+ 29d81a44876aa28d45a6326b7cc184d14781eb9d45c4a311b2af800fe584c7f3 564 linuxmuster-api7_7.4.5.dsc
+ 0256ec1eb2e0412ea75b2897fdfc4508f804d0e8f1c1cba59f10b4b1d74f8bcf 84882 linuxmuster-api7_7.4.5.tar.gz
+ 7f1d4871246cd20b11da1cbe5f1eb9d290205422246782c9dcdfb4c5fdfb3115 62764 linuxmuster-api7_7.4.5_all.deb
+ a0368a0295aa542d8278fc2d05abf879f14bf46c7289bcea8a78942acb95de93 7719 linuxmuster-api7_7.4.5_amd64.buildinfo
+Files:
+ 1dad730f9f16e7e8d2afd16990b17394 564 linuxmuster optional linuxmuster-api7_7.4.5.dsc
+ a9ec921922fdcc1e428c3710ff6a62ed 84882 linuxmuster optional linuxmuster-api7_7.4.5.tar.gz
+ 72465cf93a8ca88f7f532fce213ffe3c 62764 linuxmuster optional linuxmuster-api7_7.4.5_all.deb
+ 8f0b4b80281fa016a0acc42b925c4e50 7719 linuxmuster optional linuxmuster-api7_7.4.5_amd64.buildinfo
