@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 17 Jul 2026 15:34:21 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.6
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.6) lmn74; urgency=low
+ .
+   * fix #156, update-linbofs: preserve symlinks when copying cached firmware (636dc17).
+Checksums-Sha1:
+ 626f0476838421c5de4661071d5cfc96da26da76 1195 linuxmuster-linbo7_7.4.6.dsc
+ 0413365d84d0325bac2733a4712d82cce65285fd 1947354 linuxmuster-linbo7_7.4.6.tar.gz
+ c9be1ca9ad04f6c267451f917c8f83055b2c0427 99526566 linuxmuster-linbo7_7.4.6_all.deb
+ 27f277907c33612e6ad1a5cb54efb46e434cbd95 14788 linuxmuster-linbo7_7.4.6_amd64.buildinfo
+Checksums-Sha256:
+ a240499fbd94b47ec68ee781877480c081f2cf35eedb0703a9dd6ab444801e52 1195 linuxmuster-linbo7_7.4.6.dsc
+ 0614d020e8d5a0e29c6fa16f9c52aa888e2fdbbeda8003f543a9bc5395518cba 1947354 linuxmuster-linbo7_7.4.6.tar.gz
+ 51e2ff49fc394ea9f2e60d2e214d322862b72abdea0460d106f9e1ce86175af8 99526566 linuxmuster-linbo7_7.4.6_all.deb
+ dedf2787edc9dd6a1ae6d665cb3b0d223ecd8f1e398b99f5cd73455e387259bc 14788 linuxmuster-linbo7_7.4.6_amd64.buildinfo
+Files:
+ 2ad63740cf21c906f5bf6da205439dbd 1195 admin extra linuxmuster-linbo7_7.4.6.dsc
+ a59d40639f1232de479b1f41291e1153 1947354 admin extra linuxmuster-linbo7_7.4.6.tar.gz
+ 1c5a59a94b44078cb36cda5ebc67a15a 99526566 admin extra linuxmuster-linbo7_7.4.6_all.deb
+ 4da36611a75f7683a34afc680fd4e481 14788 admin extra linuxmuster-linbo7_7.4.6_amd64.buildinfo
