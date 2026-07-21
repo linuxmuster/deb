@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Tue, 21 Jul 2026 17:51:35 +0200
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.3
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.4.3) lmn74; urgency=medium
+ .
+     * Fix shell injection in `lmncli version` (dpkg -l via shell=True).
+     * Fix crash on error in `student manage` (invalid typer.Colors.RED, missing paren).
+     * Fix reset-internet matching schoolclass by substring instead of exact name.
+     * Fix IndexError on malformed DN in printers and devices listing.
+     * Fix room prefix filter using startswith instead of unsafe index access.
+     * Add "Unknown" status fallback in devices listing.
+     * Use context manager for user-kill log file handle.
+     * Guard against empty teacher login in check_smbclient.
+     * Rename asdict -> as_dict to match linuxmuster-tools.
+Checksums-Sha1:
+ 4fb9d752bc0377961257497dd6128a2f1f2a8d9b 564 linuxmuster-cli7_7.4.3.dsc
+ 4e3d2293220ae2c6a8518ce9808847b0e928a38e 32091 linuxmuster-cli7_7.4.3.tar.gz
+ e92321b01d649b4a6d48ffa3edb06ef6372e5bcb 18318 linuxmuster-cli7_7.4.3_all.deb
+ cadcb9fcfa5c1559fb2692494991945ed0024c3a 7719 linuxmuster-cli7_7.4.3_amd64.buildinfo
+Checksums-Sha256:
+ 7a8c420e5a1fe17f02c3fb1eb18bf862aa06c1ae7b23549d8c889f7a4f006f56 564 linuxmuster-cli7_7.4.3.dsc
+ 4a9f9fe7ba5f4d7090f47492469f1faf639089e78b2b14164646405e11e95527 32091 linuxmuster-cli7_7.4.3.tar.gz
+ 0533e670972b7fd23842f6b744582a3d682dce7decd67dae68e0d3d1b2c3e5ce 18318 linuxmuster-cli7_7.4.3_all.deb
+ 85d78752088e7e9c5e27b1c3d39ced9762a661d867fefdb802667b47f95adec3 7719 linuxmuster-cli7_7.4.3_amd64.buildinfo
+Files:
+ 2e9caf376623fdb69b305c117dbb0791 564 linuxmuster optional linuxmuster-cli7_7.4.3.dsc
+ b811e34c2e9bfe009603b74f11aeb9ed 32091 linuxmuster optional linuxmuster-cli7_7.4.3.tar.gz
+ d39fdb525de370b17ae9e838fb20f513 18318 linuxmuster optional linuxmuster-cli7_7.4.3_all.deb
+ fa5140b1d3be222fb8ae326da1720aae 7719 linuxmuster optional linuxmuster-cli7_7.4.3_amd64.buildinfo
