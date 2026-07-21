@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Tue, 21 Jul 2026 22:40:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.8
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.8) lmn74; urgency=low
+ .
+   * Fix TypeError crash when recreating firewall certificate (#178, f90437c).
+   * Fix ignored return value of checkFwMajorVer() in renew-certs
+     (#179, 1dc36b9).
+   * Report failed MAC detection instead of silently using random fallback
+     in l_add-server.py (#180, f977059).
+   * Avoid shell=True string concatenation in sophomorix schema provisioning
+     (#181, 99299e7).
+   * Close race window between writing secrets and restricting permissions
+     (#182, 882dc86).
+   * Fix literal 'None' string for missing firmware/sysctl tags in firewall
+     config (#183, 31df758).
+   * Fix fragile netplan interface detection via dict repr string-split
+     (#184, 8ff8834).
+   * Remove unsupported 'dsa' from SSH host key CRYPTO_TYPES (#185, 60607ac).
+Checksums-Sha1:
+ 229052f6360c962c7c2b013900bc902cc61e9e04 892 linuxmuster-base7_7.4.8.dsc
+ 8259c1184c295cae1c4374171e13d7b5e6b33291 150636 linuxmuster-base7_7.4.8.tar.gz
+ f5412c4af6a72e51d97fb99ed359e8ad74075e00 92134 linuxmuster-base7_7.4.8_all.deb
+ 5282a9401b17e89a5ecad28eacd251c210a0648e 9611 linuxmuster-base7_7.4.8_amd64.buildinfo
+Checksums-Sha256:
+ 2d199e105328cbc2588ca3b143f94e54cfd56150858ee5a1afdef5c1afc42edf 892 linuxmuster-base7_7.4.8.dsc
+ b435428731353d9601594f5e1b0815e2628373db157340832b1b94bf3cfde34e 150636 linuxmuster-base7_7.4.8.tar.gz
+ c2fb9715f2165a6e4142ec3d00970db46621a5f6e36e716cacc36bf25b80f12e 92134 linuxmuster-base7_7.4.8_all.deb
+ 7aa62cd901de2203dd4abb9a514a44654393e47a90670a97088b7bd698cac787 9611 linuxmuster-base7_7.4.8_amd64.buildinfo
+Files:
+ a0293b13a3b46839acc8ad1dcbcad117 892 linuxmuster optional linuxmuster-base7_7.4.8.dsc
+ cdd54fd27d2e5091d0f54aa559a6956f 150636 linuxmuster optional linuxmuster-base7_7.4.8.tar.gz
+ 4f65d0b58b02e9d3b1c3e81bce15f446 92134 linuxmuster optional linuxmuster-base7_7.4.8_all.deb
+ 805a84eebac3f46db7ec7421241be9b9 9611 linuxmuster optional linuxmuster-base7_7.4.8_amd64.buildinfo
