@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 21 Jul 2026 23:36:20 +0200
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.4
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.4.4) lmn74; urgency=medium
+ .
+   * Fix dict parameter in students. Fix #5.
+Checksums-Sha1:
+ 80d2e1e6b25641154154310dff9c78e01c6045c2 564 linuxmuster-cli7_7.4.4.dsc
+ 69f6767fa758696e65b20303dd00c254c47fdda5 32089 linuxmuster-cli7_7.4.4.tar.gz
+ 2c7da232f1b28a16dc9759408b47a24e93cdd9a4 18334 linuxmuster-cli7_7.4.4_all.deb
+ 7c63e983fbc8322633603db4b9a203298a3d4af5 7719 linuxmuster-cli7_7.4.4_amd64.buildinfo
+Checksums-Sha256:
+ 757f9b4249ad53ceba7c7015fe02dc7f1094cd87d61ce69c1e2b17d35a5d64c8 564 linuxmuster-cli7_7.4.4.dsc
+ 9b334ed40563f9dc61df1ec5a0347a998cd7f12e15ca1a197222022ac52d1097 32089 linuxmuster-cli7_7.4.4.tar.gz
+ 93161cef97f402beb616f112adb86d5dd9bae94072d4e2b4588f225d4c0d5a64 18334 linuxmuster-cli7_7.4.4_all.deb
+ d2a12aa18eaacb5c0d791a281c4b501520e134d1cf2d6a405b36b812e1696a6e 7719 linuxmuster-cli7_7.4.4_amd64.buildinfo
+Files:
+ e86453c9bad13ac477c025eeca692e6d 564 linuxmuster optional linuxmuster-cli7_7.4.4.dsc
+ 6d1c0171f954ea3f00ef8f9a5c51c800 32089 linuxmuster optional linuxmuster-cli7_7.4.4.tar.gz
+ 91b837649a56e6b293f6399045ab77db 18334 linuxmuster optional linuxmuster-cli7_7.4.4_all.deb
+ 2d449e4b8a93ac53f4ce9bbbe006b4b4 7719 linuxmuster optional linuxmuster-cli7_7.4.4_amd64.buildinfo
