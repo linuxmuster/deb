@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Wed, 22 Jul 2026 22:21:23 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.5
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.5) lmn74; urgency=medium
+ .
+   * Add endpoints, service and frontend to edit password constraints.
+   * Scope password constraints read/write by role (schooladmin vs
+     globaladmin) and by school. Fix #287.
+   * Validate new passwords against the configured policy when setting or
+     changing them.
+   * Disable default (global) fields for schooladmins; i18n for character
+     classes.
+   * Catch backend validation errors properly and cap require_classes count
+     to the number of checked classes. Fix #289.
+   * Print passwords of parents in schools other than the default school.
+     Fix #288.
+   * Ensure host_key key is not missing; restart API after saving a new key.
+   * Replace password/settings modals with a better dialog window.
+   * Build fix for the bind passwords view; fix default values.
+Checksums-Sha1:
+ 57def65db548515c25c535e60d07226d1ae08f20 561 linuxmuster-webui7_7.4.5.dsc
+ 3efed252e325a8bb819744de3c0bbb19dff51815 1628438 linuxmuster-webui7_7.4.5.tar.gz
+ 9db97232c0fcc592727eec1b57c720a2c7e4334a 839360 linuxmuster-webui7_7.4.5_all.deb
+ b2af21d394717ac9ab8bebaa5c4a4037fb0901c8 7785 linuxmuster-webui7_7.4.5_amd64.buildinfo
+Checksums-Sha256:
+ 04947081fb183141fa4deeb86c959ee6a494d675f14351dbdf68f6dc410dc54a 561 linuxmuster-webui7_7.4.5.dsc
+ f7d7e505955dedb55859177cd003c1ae218dd45bc4ded305385492be2b25e786 1628438 linuxmuster-webui7_7.4.5.tar.gz
+ 47974aff9003fe2dcfc6baa2324333a298885c868201f2e5eea59f5bb40b854f 839360 linuxmuster-webui7_7.4.5_all.deb
+ 90a9833f30da7fa3f309aba5910a8d95fd7d2af50dcc6e7c5b862e66d03f4630 7785 linuxmuster-webui7_7.4.5_amd64.buildinfo
+Files:
+ 51b6eca7af4765c984878f5951523aae 561 admin optional linuxmuster-webui7_7.4.5.dsc
+ c932b19782477a812b59e5b8cbe0b98c 1628438 admin optional linuxmuster-webui7_7.4.5.tar.gz
+ bbb4e46587a020351bcd5ef8863f111e 839360 admin optional linuxmuster-webui7_7.4.5_all.deb
+ 1079fde69f5b812941a287b3023c4f08 7785 admin optional linuxmuster-webui7_7.4.5_amd64.buildinfo
