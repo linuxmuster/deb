@@ -118,34 +118,34 @@ Description: linuxmuster.net pre setup configuration scripts
  linuxmuster.net server installation.
 
 Package: linuxmuster-tools7
-Version: 7.4.9
+Version: 7.4.10
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 695
+Installed-Size: 1072
 Depends: python3, nmap, sophomorix-samba
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.9_all.deb
-Size: 113186
-SHA256: b9b71b94a13b168c07105e8a16b02e263f607b6df8109971cd8bfd5959a431af
-SHA1: 5be1523bc251df36640066c712be2506febc7b2f
-MD5sum: 0b5521f17a494491e9dabcbd5b37e65d
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.10_all.deb
+Size: 178308
+SHA256: 84bb3c5cd9b27e98cf029dfec4fc8e1c530dab68537f46835fc009b2fe072d18
+SHA1: e7e631aa7211203336904e93eb63b2d3d520de2a
+MD5sum: ff8e464ea8885fe9122c5b043684d415
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
-Version: 7.4.4
+Version: 7.4.5
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 18023
+Installed-Size: 18052
 Depends: python3-pip, python3-dev, python3-jinja2, python3-lxml, python3-venv, libffi-dev, libssl-dev, libjpeg-dev, libpng-dev, uuid-dev, libkrb5-dev, gcc, python3-dbus, python3-augeas, python3-apt, ntpsec, libldap2-dev, libsasl2-dev, python3-ldap, sophomorix-samba (>= 3.90.0-2), nmap, linuxmuster-tools7, linuxmuster-cli7, libmagic1, python3-magic
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.4.4_all.deb
-Size: 834808
-SHA256: f142cfd577c546433be53bcc09d651b4e9a1ad3b16dc93c7aee7064fa487da64
-SHA1: 196e9f6593ba3f88f96168aa3b676108dc0f4f3c
-MD5sum: a80cbfbd5f006b775cd1c00b74f024bf
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.4.5_all.deb
+Size: 839360
+SHA256: 47974aff9003fe2dcfc6baa2324333a298885c868201f2e5eea59f5bb40b854f
+SHA1: 9db97232c0fcc592727eec1b57c720a2c7e4334a
+MD5sum: bbb4e46587a020351bcd5ef8863f111e
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
 Package: sophomorix-belwue-mail
