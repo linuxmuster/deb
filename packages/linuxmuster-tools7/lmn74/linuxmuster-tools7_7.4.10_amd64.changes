@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 22 Jul 2026 22:16:00 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.10
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.10) lmn74; urgency=medium
+ .
+   * [passwords] New password constraints module: policy provider, Samba
+     domain floor (min length/complexity/age), YAML config, webui editing,
+     tests and README.
+   * [samba_util] Throw a clear runtime error instead of a confusing
+     AttributeError when SamDB can't be opened (no root access).
+   * [samba_util] Fix missing SCOPE_SUBTREE import breaking
+     DeviceManager.get_credentials(). Closes #20.
+   * [ldapwriter] Fix silent failure when removing a group's last member or
+     emptying a group entirely (redirect to delattr instead of a swallowed
+     ValueError). Closes #21.
+   * [ldapwriter] Raise ValueError instead of silently no-op'ing when
+     setattr() is given an empty value.
+   * [ldapwriter] Add SchoolError exception; catch it when instantiating
+     LMNGroup with school='global'.
+   * [ldapwriter] Avoid lowercase mismatch on group/user lookups.
+   * [ldapconnector] Fix crash when /ou lookup returns an empty result.
+   * [linbo] Add LINBO hardware inventory reader (@amolani)
+   * [linbo] Add LINBO driver profile metadata management (@amolani)
+   * [linbo] Add read-only then writable LINBO driver image assignments
+     (@amolani)
+   * [linbo] Render and publish LINBO driver dispatchers (@amolani)
+   * [linbo] Delegate Windows drivers to LINBO image groups; synchronize
+     driver assignments and dispatchers (@amolani)
+   * [lmnfile] Make ConfigLoader writes atomic.
+   * [tests] Add test coverage for common, devices, lmnconfig, print,
+     quotas, samba_util, smbclient and subnets modules.
+   * Replace deprecated datetime.utcnow() usage.
+Checksums-Sha1:
+ 7690cd54921d443a4dcccecc87d084eee4170a01 583 linuxmuster-tools7_7.4.10.dsc
+ 5b598c8a623f5ba19a123704697b783020696d29 235028 linuxmuster-tools7_7.4.10.tar.gz
+ e7e631aa7211203336904e93eb63b2d3d520de2a 178308 linuxmuster-tools7_7.4.10_all.deb
+ 4dc0136906952af23261344c9f7c5a9ad15cfcaf 7745 linuxmuster-tools7_7.4.10_amd64.buildinfo
+Checksums-Sha256:
+ 8ad65a2088e504854a1501835a31ff9ad304d40afba0f657da3a30a04e03ebee 583 linuxmuster-tools7_7.4.10.dsc
+ 13f8bec56e0c689a95c10fdaf31d4143b613918b9ba1dc40dbe364ee560d4a9f 235028 linuxmuster-tools7_7.4.10.tar.gz
+ 84bb3c5cd9b27e98cf029dfec4fc8e1c530dab68537f46835fc009b2fe072d18 178308 linuxmuster-tools7_7.4.10_all.deb
+ d9105e150f4db3529adc4774da91416d219f03de5d339ed777de8f3977ca432c 7745 linuxmuster-tools7_7.4.10_amd64.buildinfo
+Files:
+ 8712631dba7b4f02a1356b58b064c59e 583 linuxmuster optional linuxmuster-tools7_7.4.10.dsc
+ eef83ac53fa32ad139e3f59c232b774d 235028 linuxmuster optional linuxmuster-tools7_7.4.10.tar.gz
+ ff8e464ea8885fe9122c5b043684d415 178308 linuxmuster optional linuxmuster-tools7_7.4.10_all.deb
+ 1f332a6fcf75e783b92dd77193e409b0 7745 linuxmuster optional linuxmuster-tools7_7.4.10_amd64.buildinfo
