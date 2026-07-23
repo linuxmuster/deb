@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 23 Jul 2026 10:00:30 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.38-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.38-0) lmn73; urgency=low
+ .
+   * linuxmuster-release-upgrade: fix #186, don't destroy resolv.conf if backup already restored (#187, c68e2bb).
+Checksums-Sha1:
+ bdd853a12b158bec68e307b3fa329bc1a1ff59dd 583 linuxmuster-base7_7.3.38-0.dsc
+ 5ac813a995f013dbdcbf33d0ffd2ded96b81a090 92085 linuxmuster-base7_7.3.38-0.tar.gz
+ bb2ae03eab8061c33f6ed6ac87c3cd48f37a8577 62186 linuxmuster-base7_7.3.38-0_all.deb
+ aab41f90dd83d6a7021abf8bde332b7c65d158ac 6267 linuxmuster-base7_7.3.38-0_amd64.buildinfo
+Checksums-Sha256:
+ ce06fe220fd5b0a00799a1c7d1322e7a01b6a59447d3a904e4f7d17b8eecd308 583 linuxmuster-base7_7.3.38-0.dsc
+ 7139461694699bb02d66afd60a4659f8a22c9be6710e6621d22e45b2f4a0a436 92085 linuxmuster-base7_7.3.38-0.tar.gz
+ cef6632e2241f95cb2b9febb170b6b2492931b7f1555e1b2a58dee22e536fcf7 62186 linuxmuster-base7_7.3.38-0_all.deb
+ 79c11ebb408679b23d398185d5aa7f22a66904d11a75e20e22be40293d6b8f09 6267 linuxmuster-base7_7.3.38-0_amd64.buildinfo
+Files:
+ 4d20302f6178f7ae45227456e2dee43a 583 linuxmuster optional linuxmuster-base7_7.3.38-0.dsc
+ af310c10792a38ba17c600df15c34511 92085 linuxmuster optional linuxmuster-base7_7.3.38-0.tar.gz
+ d2c342ac6830fede1b0ed64fa6496f86 62186 linuxmuster optional linuxmuster-base7_7.3.38-0_all.deb
+ df3497ae7fa343ea3b6dfc6c968caa2d 6267 linuxmuster optional linuxmuster-base7_7.3.38-0_amd64.buildinfo
