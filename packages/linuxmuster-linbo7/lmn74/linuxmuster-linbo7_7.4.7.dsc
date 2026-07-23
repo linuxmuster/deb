@@ -8,8 +8,8 @@ Build-Depends: acl, argon2, aria2, bc, binutils, btcheck, buildtorrent, busybox,
 Package-List:
  linuxmuster-linbo7 deb admin extra arch=all
 Checksums-Sha1:
- 46ff008d54028c9dec850496df6765d3bc14fe9d 1948332 linuxmuster-linbo7_7.4.7.tar.gz
+ b5c4d50c27fd82777b2e9ddf9445171e7691ec0c 1948463 linuxmuster-linbo7_7.4.7.tar.gz
 Checksums-Sha256:
- b01b1103d124e920debbe52036d9e29c99ab41b5075d2bd47bf34a9fd159e3f0 1948332 linuxmuster-linbo7_7.4.7.tar.gz
+ dfccb208d363718294dfbd4d75977af6470716dac8ce1872552cab0d0922f0be 1948463 linuxmuster-linbo7_7.4.7.tar.gz
 Files:
- 5c6a2766fe6612424054d16c198d2e04 1948332 linuxmuster-linbo7_7.4.7.tar.gz
+ cca69c6fb09fa787e41fa8887730d5ca 1948463 linuxmuster-linbo7_7.4.7.tar.gz
