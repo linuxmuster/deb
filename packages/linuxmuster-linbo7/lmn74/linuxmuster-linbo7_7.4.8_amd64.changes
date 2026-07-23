@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 23 Jul 2026 09:24:17 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.8
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.8) lmn74; urgency=low
+ .
+   * linbo_partition: Make convert_size() portable to POSIX sh, not just busybox ash
+     (cf170d6).
+   * linbofs: fix missing qemu-guest-agent in 7.4 (#130, ff46029).
+   * Merge pull request #157 from amolani/feature/windows-driver-profiles:
+     Add native Windows driver profile support.
+Checksums-Sha1:
+ d33c76de3d89e06b26416476c7c391d613941a98 1213 linuxmuster-linbo7_7.4.8.dsc
+ 3b365a20f57c925fc7bd52602c57d74c297810d6 1985505 linuxmuster-linbo7_7.4.8.tar.gz
+ e22d3b44442f501cc5b6d6de0a42e826b2bf85c5 101139846 linuxmuster-linbo7_7.4.8_all.deb
+ 49c4600cab8a4525d7eacfb8144b25b51c331def 14915 linuxmuster-linbo7_7.4.8_amd64.buildinfo
+Checksums-Sha256:
+ a5c029712a8b44bb0752d6326b98bc5df3e0beee6876c3def883f5db9622f6d0 1213 linuxmuster-linbo7_7.4.8.dsc
+ c0af2eeeb7c37d1b2e784a614081467f062eabcc5c47a4457dddf9be5e6704b4 1985505 linuxmuster-linbo7_7.4.8.tar.gz
+ 2a78804b2ca16539696f62c9c044b4b7420c20322ce83af810b5ea66796d3a8e 101139846 linuxmuster-linbo7_7.4.8_all.deb
+ bddcf1fc87ed9d2e396adad2a704e5faf1776731df6db9dc02e5c74a8d5abefc 14915 linuxmuster-linbo7_7.4.8_amd64.buildinfo
+Files:
+ 5a58184b38a58255b0bf81476c9a5483 1213 admin extra linuxmuster-linbo7_7.4.8.dsc
+ 42342266894a238d7fb037ef678791ed 1985505 admin extra linuxmuster-linbo7_7.4.8.tar.gz
+ cdae90fde06b60c3521ee5c77168447f 101139846 admin extra linuxmuster-linbo7_7.4.8_all.deb
+ a2d31b8770360b3b677eb235ca84ed79 14915 admin extra linuxmuster-linbo7_7.4.8_amd64.buildinfo
