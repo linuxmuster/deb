@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Fri, 24 Jul 2026 12:00:00 +0200
+Source: linuxmuster-fileserver
+Binary: linuxmuster-fileserver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.0-0
+Distribution: lmn74
+Urgency: low
+Maintainer: Lukas Spitznagel <lukas.spitznagel@netzint.de>
+Changed-By: Lukas Spitznagel <lukas.spitznagel@netzint.de>
+Description:
+ linuxmuster-fileserver - Linuxmuster Fileserver
+Changes:
+ linuxmuster-fileserver (7.4.0-0) lmn74; urgency=low
+ .
+   * Add support for Ubuntu 26.04 LTS (Resolute Raccoon)
+   * Replace the "ntp" dependency, which no longer exists in Ubuntu 26.04,
+     with "chrony | ntpsec | systemd-timesyncd"
+   * Add explicit dependency on python3
+   * Fix SyntaxWarning about invalid escape sequences emitted by Python 3.14
+     on every invocation (banner is now a raw string)
+   * Switch packaging to debhelper compat level 13
+   * Declare source format 3.0 (native)
+   * Build releases on the Ubuntu 26.04 runner image
+   * Publish to the lmn74 distribution
+   * nsswitch.conf template: use "files" instead of the legacy "compat" NSS
+     service and drop "mdns4_minimal", whose module is not installed
+   * Depend on libnss-systemd, which provides the "systemd" NSS service the
+     nsswitch.conf template refers to
+   * linuxmuster-fix-acls: return instead of continue outside a loop, and
+     print a correct usage line when no school is given
+   * Makefile: drop the unused CONFIGFILE variable and the "all" target that
+     referred to a non-existent "build" target
+Checksums-Sha1:
+ 83cd11500b56a5904fd3e7658f3cb451dd5743e8 629 linuxmuster-fileserver_7.4.0-0.dsc
+ b0d0cab46a702b23ecbcbe0143dd81e6e1b01c71 9884 linuxmuster-fileserver_7.4.0-0.tar.xz
+ f7efd485ba7708bca2f52880a64f974f678437cd 6688 linuxmuster-fileserver_7.4.0-0_all.deb
+ 1726719ad5dcd2ce5be6ea6a10e2ff928d86ef2e 7320 linuxmuster-fileserver_7.4.0-0_amd64.buildinfo
+Checksums-Sha256:
+ 5e25907bc586ac165a3a3708218a4ddbdcaeb15cba8c9772cfafc3b13cad5ca8 629 linuxmuster-fileserver_7.4.0-0.dsc
+ 864601cbe025f6738ad7623a9329e8729cee140572fc58f4df4e7ab999ef7bb6 9884 linuxmuster-fileserver_7.4.0-0.tar.xz
+ 5b498cf76b372e4259657b8e557156f1426e3ddc86f8423e31ad063a8c4afaf7 6688 linuxmuster-fileserver_7.4.0-0_all.deb
+ 465dccc39d3a0a6295c2890ddcd03a71e92ee6388efc33d8a3ca0371a19760ae 7320 linuxmuster-fileserver_7.4.0-0_amd64.buildinfo
+Files:
+ c7ce507529e1bc1273ee0a290b7c9577 629 admin optional linuxmuster-fileserver_7.4.0-0.dsc
+ 92b0799f71336c78e91538f14e8d1469 9884 admin optional linuxmuster-fileserver_7.4.0-0.tar.xz
+ 4a20ad1e2de6dd08d09e59de24d7dcfa 6688 admin optional linuxmuster-fileserver_7.4.0-0_all.deb
+ a2ee1c917b286ab2f6fafbe189fd47d8 7320 admin optional linuxmuster-fileserver_7.4.0-0_amd64.buildinfo
