@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 30 Jul 2026 12:58:43 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.9
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.9) lmn74; urgency=low
+ .
+   * linbofs: add missing Intel platform power-management modules
+     (pinctrl, PMC/telemetry, idma64), fixing NVMe controller resets on
+     Meteor Lake laptops (#165, 8ce8f70).
+Checksums-Sha1:
+ ce985dee714c033270a4c6f650049f62d34d1f95 1213 linuxmuster-linbo7_7.4.9.dsc
+ 7bfbc9437865cb2c129efd4eda1f17e07466c391 1987498 linuxmuster-linbo7_7.4.9.tar.gz
+ 0777031d8e15b7fb2ff112a1761bfdfcf86018ee 101425364 linuxmuster-linbo7_7.4.9_all.deb
+ c4826c12cf5b77e3ab93b75805a18684b14a50d3 14944 linuxmuster-linbo7_7.4.9_amd64.buildinfo
+Checksums-Sha256:
+ 58bf85e3d40ccac1fc148d686129f91845c63b1eb6209ea7eee9a99cb4704506 1213 linuxmuster-linbo7_7.4.9.dsc
+ 38c34adb45f5e8dd32d077b89a6343e08f24fc771e0b635eb6814a28b05b2cf6 1987498 linuxmuster-linbo7_7.4.9.tar.gz
+ bd50abfa2f3270eb3e578e7697ff9bdf9a80593228ae8145a812b7a975843be7 101425364 linuxmuster-linbo7_7.4.9_all.deb
+ cdf93c792ee9c8400c21572ab3996af0acad7e36758d91a02e22db72ed3708e4 14944 linuxmuster-linbo7_7.4.9_amd64.buildinfo
+Files:
+ cf3211d3cc2c099aa08f8e3c47d4be77 1213 admin extra linuxmuster-linbo7_7.4.9.dsc
+ 145374f20a7d3e1d1553cf67a07e87e8 1987498 admin extra linuxmuster-linbo7_7.4.9.tar.gz
+ 4c0855121fab11289ffd4e2e443128d3 101425364 admin extra linuxmuster-linbo7_7.4.9_all.deb
+ e663c8284ee402d1704067ca89118f3f 14944 admin extra linuxmuster-linbo7_7.4.9_amd64.buildinfo
