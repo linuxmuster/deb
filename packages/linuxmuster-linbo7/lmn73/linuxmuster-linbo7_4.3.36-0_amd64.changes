@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 30 Jul 2026 16:26:14 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.36-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.36-0) lmn73; urgency=low
+ .
+   * fix(linbo-torrent): don't kill the tmux session stop was invoked from (#166, dd2f941).
+Checksums-Sha1:
+ 4975325d9c7f3f6432d3131249a2bc88da868e86 1315 linuxmuster-linbo7_4.3.36-0.dsc
+ 50d1a200b3a4867028b2a0295e5f63d9dde6e1e0 2063571 linuxmuster-linbo7_4.3.36-0.tar.gz
+ e0c4742a6936453e0a2da9bc7ad58fc91bfebef8 69201302 linuxmuster-linbo7_4.3.36-0_all.deb
+ 2f6954ef01772c3c0b97cfd69c214a2bc22f5c92 15418 linuxmuster-linbo7_4.3.36-0_amd64.buildinfo
+Checksums-Sha256:
+ bd2a4db94d88662914bdb4b4aaa6773553fa67e7135516d4be16b364c09a2935 1315 linuxmuster-linbo7_4.3.36-0.dsc
+ f9331d5057948286320c9b75412f8090e0c5d3c60ced480e5aba78a4b44ca5ec 2063571 linuxmuster-linbo7_4.3.36-0.tar.gz
+ dfb5dbd567e26d6e47ff0e4713887d311e62b7b2aef7ce18287dd7812f7e7c9c 69201302 linuxmuster-linbo7_4.3.36-0_all.deb
+ fa1c1efadb2dcbc1d5da94b6506069d509cd747efae1313838b6d477d3a07cc4 15418 linuxmuster-linbo7_4.3.36-0_amd64.buildinfo
+Files:
+ 527685a2bf5cd37a45ce883a07e4abbe 1315 admin extra linuxmuster-linbo7_4.3.36-0.dsc
+ 88ecf4aecf753fc2125baa5efe306afa 2063571 admin extra linuxmuster-linbo7_4.3.36-0.tar.gz
+ 9a4d5b81a21205d2aee5da90ec7138ba 69201302 admin extra linuxmuster-linbo7_4.3.36-0_all.deb
+ fd140462f49cb58e529174a9c68cdf04 15418 admin extra linuxmuster-linbo7_4.3.36-0_amd64.buildinfo
