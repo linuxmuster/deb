@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.4.8
+Version: 7.4.9
 Checksums-Md5:
- a0293b13a3b46839acc8ad1dcbcad117 892 linuxmuster-base7_7.4.8.dsc
- 4f65d0b58b02e9d3b1c3e81bce15f446 92134 linuxmuster-base7_7.4.8_all.deb
+ dea5bba73bc3bc12e5c49d7d239a66c4 892 linuxmuster-base7_7.4.9.dsc
+ bf286f4b41d8bcb39d0a8a57653b69d7 94430 linuxmuster-base7_7.4.9_all.deb
 Checksums-Sha1:
- 229052f6360c962c7c2b013900bc902cc61e9e04 892 linuxmuster-base7_7.4.8.dsc
- f5412c4af6a72e51d97fb99ed359e8ad74075e00 92134 linuxmuster-base7_7.4.8_all.deb
+ c997dfe9d605a92724e4d8dd2ac6a741d57f2a4e 892 linuxmuster-base7_7.4.9.dsc
+ 953032b046106dc6044eee63f348c5af983d5f1c 94430 linuxmuster-base7_7.4.9_all.deb
 Checksums-Sha256:
- 2d199e105328cbc2588ca3b143f94e54cfd56150858ee5a1afdef5c1afc42edf 892 linuxmuster-base7_7.4.8.dsc
- c2fb9715f2165a6e4142ec3d00970db46621a5f6e36e716cacc36bf25b80f12e 92134 linuxmuster-base7_7.4.8_all.deb
+ 8841e21de4813787cfc48f7a91d160147ed18221577815ce5c3b827526875935 892 linuxmuster-base7_7.4.9.dsc
+ 062e42c834c6670ecd7a8b4e20ef749b30584fb04c9b15b66694d69a0f66cfb1 94430 linuxmuster-base7_7.4.9_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 21 Jul 2026 20:03:01 +0000
+Build-Date: Sat, 01 Aug 2026 13:41:01 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -27,7 +27,7 @@ Installed-Build-Depends:
  binutils-common (= 2.46-3ubuntu2),
  binutils-x86-64-linux-gnu (= 2.46-3ubuntu2),
  bsdextrautils (= 2.41.3-3ubuntu2),
- build-essential (= 12.12ubuntu2.26.04.1),
+ build-essential (= 12.12ubuntu2.26.04.2),
  bzip2 (= 1.0.8-6build2),
  ca-certificates (= 20260601~26.04.1),
  coreutils (= 9.5-1ubuntu2+0.0.0~ubuntu25),
@@ -121,13 +121,13 @@ Installed-Build-Depends:
  libgomp1 (= 16-20260322-1ubuntu1),
  libgpg-error0 (= 1.58-2),
  libgprofng0 (= 2.46-3ubuntu2),
- libgssapi-krb5-2 (= 1.22.1-2ubuntu4),
+ libgssapi-krb5-2 (= 1.22.1-2ubuntu4.1),
  libhogweed6t64 (= 3.10.2-1),
- libhtml-parser-perl (= 3.83-1build1),
+ libhtml-parser-perl (= 3.83-1ubuntu0.1),
  libhtml-tagset-perl (= 3.24-1),
  libhtml-tree-perl (= 5.07-3),
  libhttp-cookies-perl (= 6.11-1),
- libhttp-date-perl (= 6.06-1),
+ libhttp-date-perl (= 6.06-1ubuntu0.26.04.1),
  libhttp-message-perl (= 7.01-1ubuntu1),
  libhttp-negotiate-perl (= 6.01-2),
  libhwasan0 (= 16-20260322-1ubuntu1),
@@ -138,10 +138,10 @@ Installed-Build-Depends:
  libitm1 (= 16-20260322-1ubuntu1),
  libjansson4 (= 2.14-2build4),
  libjs-sphinxdoc (= 8.2.3-12),
- libk5crypto3 (= 1.22.1-2ubuntu4),
+ libk5crypto3 (= 1.22.1-2ubuntu4.1),
  libkeyutils1 (= 1.6.3-6ubuntu3),
- libkrb5-3 (= 1.22.1-2ubuntu4),
- libkrb5support0 (= 1.22.1-2ubuntu4),
+ libkrb5-3 (= 1.22.1-2ubuntu4.1),
+ libkrb5support0 (= 1.22.1-2ubuntu4.1),
  libldap-common (= 2.6.10+dfsg-1ubuntu5),
  libldap2 (= 2.6.10+dfsg-1ubuntu5),
  liblsan0 (= 16-20260322-1ubuntu1),
@@ -161,10 +161,10 @@ Installed-Build-Depends:
  libnettle8t64 (= 3.10.2-1),
  libnghttp2-14 (= 1.68.0-2ubuntu0.2),
  libp11-kit0 (= 0.26.2-2),
- libpam-modules (= 1.7.0-5ubuntu3),
- libpam-modules-bin (= 1.7.0-5ubuntu3),
- libpam-runtime (= 1.7.0-5ubuntu3),
- libpam0g (= 1.7.0-5ubuntu3),
+ libpam-modules (= 1.7.0-5ubuntu3.1),
+ libpam-modules-bin (= 1.7.0-5ubuntu3.1),
+ libpam-runtime (= 1.7.0-5ubuntu3.1),
+ libpam0g (= 1.7.0-5ubuntu3.1),
  libpcre2-8-0 (= 10.46-1build1),
  libperl5.40 (= 5.40.1-7ubuntu0.1),
  libpipeline1 (= 1.5.8-2),
@@ -182,7 +182,7 @@ Installed-Build-Depends:
  libsframe3 (= 2.46-3ubuntu2),
  libsmartcols1 (= 2.41.3-3ubuntu2),
  libsodium23 (= 1.0.18-2),
- libsqlite3-0 (= 3.46.1-9ubuntu0.1),
+ libsqlite3-0 (= 3.46.1-9ubuntu0.2),
  libssh2-1t64 (= 1.11.1-1ubuntu0.26.04.3),
  libssl3t64 (= 3.5.5-1ubuntu3.2),
  libstdc++-15-dev (= 15.2.0-16ubuntu1),
@@ -268,10 +268,10 @@ Installed-Build-Depends:
  sed (= 4.9-2ubuntu1),
  sensible-utils (= 0.0.26build1),
  sysvinit-utils (= 3.15-5ubuntu1),
- tar (= 1.35+dfsg-4ubuntu0.3),
+ tar (= 1.35+dfsg-4ubuntu0.4),
  tzdata (= 2026b-0ubuntu0.26.04.1),
  util-linux (= 2.41.3-3ubuntu2),
- wget (= 1.25.0-2ubuntu4.2),
+ wget (= 1.25.0-2ubuntu4.3),
  xz-utils (= 5.8.3-1),
  zlib1g (= 1:1.3.dfsg+really1.3.1-1ubuntu3)
 Environment:
@@ -279,4 +279,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1784666400"
+ SOURCE_DATE_EPOCH="1785591523"
