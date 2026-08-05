@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 05 Aug 2026 15:35:00 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.7
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.4.7) lmn74; urgency=medium
+ .
+   * [passwords] Add POST /v1/users/{user}/set-random-first-password:
+     generates a password satisfying the current policy server-side and
+     returns it.
+   * [passwords] Allow omitting `password` in set-first-password to reset
+     the current password back to the existing first password instead of
+     setting a new one.
+   * [passwords] Use LMNUser.set_actual_password() instead of the removed
+     samba_util.UserManager for setting the account's current password.
+   * Fix authentication broken by the linuxmuster-tools
+     test_password()/check_password() rename (JWT issuance via Basic Auth
+     was failing).
+   * [security] Exempt local requests (127.0.0.1/::1, e.g.
+     linuxmuster-webui7 on the same host) from the rate limiter.
+   * [linbo] Add LINBO Windows driver API endpoints. (@amolani)
+   * [tests] Add/update tests for the password endpoints, policy
+     constraints, and the rate limiter's loopback exemption.
+Checksums-Sha1:
+ 185113b57fa4f640f32507c61b74cf8dfcc4d253 564 linuxmuster-api7_7.4.7.dsc
+ 4ad6e7b733da3f2e10d1ceb876c6f7952c6aa715 94729 linuxmuster-api7_7.4.7.tar.gz
+ 98532cfdbdad27fd5ae39baae1be4f6e64923d1c 71206 linuxmuster-api7_7.4.7_all.deb
+ 471739c26d100b1245862157fe360e55276eb6b5 7719 linuxmuster-api7_7.4.7_amd64.buildinfo
+Checksums-Sha256:
+ 198ef50dc30f59b4a03c3e38b44b615b70dc53db2280f18321b6abc358797f23 564 linuxmuster-api7_7.4.7.dsc
+ 52b95b0926e1cd35f5531384e4cff831904f08df65617a18eae2a1a584d6d2ad 94729 linuxmuster-api7_7.4.7.tar.gz
+ 5d7b9acd72b981be80fb12526ad14559c6b5baaf80f78e9ac3d261134a15d3d7 71206 linuxmuster-api7_7.4.7_all.deb
+ 8bfbe574bb1772e05dc3267a47629a8f4bd8026fb12ab083a6f361bbff3fb52c 7719 linuxmuster-api7_7.4.7_amd64.buildinfo
+Files:
+ bad7cd7c83c7c7564fe3f4338cb0c0cf 564 linuxmuster optional linuxmuster-api7_7.4.7.dsc
+ f13fe63450aec29c8cae253097fe73da 94729 linuxmuster optional linuxmuster-api7_7.4.7.tar.gz
+ 8be5c9ed8058c5190cd1a4325c065414 71206 linuxmuster optional linuxmuster-api7_7.4.7_all.deb
+ 5ec8c8ae7e25deb6500efbfb31db0c00 7719 linuxmuster optional linuxmuster-api7_7.4.7_amd64.buildinfo
