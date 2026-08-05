@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 05 Aug 2026 15:45:00 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.6
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.6) lmn74; urgency=medium
+ .
+   * [users] Migrate all password management (initial/current/random
+     password, first-password check and reveal) from
+     sophomorix-passwd/sophomorix-user shell-outs to linuxmuster-api, via a
+     new minimal lmnapi HTTP client. Add linuxmuster-api as a package
+     dependency and load its host/port from config.
+   * [auth] Fix self.context.lmnapi_client being lost after login:
+     authenticate() runs on Ajenti's shared restricted worker, not the
+     session's own process. The client is now built in
+     prepare_environment() instead.
+   * [users] Show a clear message instead of a raw technical error (e.g.
+     "No linuxmuster-api session token available") when linuxmuster-api is
+     unreachable for the current session; add the missing failure
+     notification for the "Set initial password"/"Set random password"
+     actions on the student list.
+   * [auth] Fix redundant regex escapes and unescaped-sequence warnings in
+     check_password_complexity().
+Checksums-Sha1:
+ 469d38c02f2316498413362324cc6d595f82acfe 561 linuxmuster-webui7_7.4.6.dsc
+ a527a23124ce79b735b9fbaafd4b6b0a8a413018 1630320 linuxmuster-webui7_7.4.6.tar.gz
+ f4113360861bbd3db13f5eadf9a29fa9a99aedff 840836 linuxmuster-webui7_7.4.6_all.deb
+ 75c57f05ebb22eda9d28ef2cc3e70672480f5a4c 7785 linuxmuster-webui7_7.4.6_amd64.buildinfo
+Checksums-Sha256:
+ 9c595c06854455c6aa24fe6f438c0c1cbfb8b839d393bad2f354c266fbf93298 561 linuxmuster-webui7_7.4.6.dsc
+ b63ea3ae5ca39f2a143b997387910cb0e1edfaddf4e0daf4f90d4dd32a00c75b 1630320 linuxmuster-webui7_7.4.6.tar.gz
+ 9b56168bb97ce8fe60e09cbbc1767e6127f640bb54393916c2715a4811e5c8da 840836 linuxmuster-webui7_7.4.6_all.deb
+ 1f362403d14de65909e735d221566eaf6ce24aad8790efe6876e13e828c8f411 7785 linuxmuster-webui7_7.4.6_amd64.buildinfo
+Files:
+ 1fefd54ee02b3ee87bbcdcf6be67e49a 561 admin optional linuxmuster-webui7_7.4.6.dsc
+ 8aaf5b05a08bba98f7251e4cf6659823 1630320 admin optional linuxmuster-webui7_7.4.6.tar.gz
+ ae9132b0ada92627c33c1c0d1fba5073 840836 admin optional linuxmuster-webui7_7.4.6_all.deb
+ c125f27ecbee26138fe780a98e85d86e 7785 admin optional linuxmuster-webui7_7.4.6_amd64.buildinfo
