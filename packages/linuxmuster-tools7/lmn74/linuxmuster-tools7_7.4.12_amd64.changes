@@ -1,0 +1,86 @@
+Format: 1.8
+Date: Fri, 07 Aug 2026 15:00:00 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.12
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.12) lmn74; urgency=medium
+ .
+   * [linbo] Add LinboRemote (linbo_sync.py) to build and run linbo-remote
+     commands: target a group, a room or a list of clients (ip or
+     hostname), with parameter validation and nr checked against the
+     target's start.conf before running. Raises LinboRemoteParameterError
+     on invalid input instead of silently building a wrong command.
+   * [linbo] Fix format:<nr> partition numbering: use the partition's
+     position in start.conf's [Partition] list instead of the digit in its
+     device path - the two diverge as soon as partitions aren't defined in
+     the same order as their device numbers.
+   * [linbo] Add list_running_sessions()/attach_command() to track
+     linbo-remote's tmux sessions (see linuxmuster-api#32, thanks
+     @TomlDev). Fix session names in the process: tmux silently replaces
+     the dot in "<hostname>.linbo-remote" with an underscore, so sessions
+     were never actually matched.
+   * [linbo] host_status: add classify_host() (Off/Linbo/OS Linux/OS
+     Windows/OS Unknown) via plain blocking sockets - no nmap, no asyncio,
+     safe to call from gevent-based code (the webui).
+   * [linbo] Fix group_os() missing the 'broadcast' default in its 'auto'
+     dict - present in the webui's own copy of this logic, dropped in
+     lmntools' version (used by lmncli), now aligned.
+   * [linbo] Change last_sync_all()'s return shape to match the webui's:
+     host['image'] (list of {date, status, image}) instead of the
+     separate host['images']/host['sync'] lmncli used. lmncli's
+     "lastsync" typer adapted accordingly (see linuxmuster-cli7).
+   * [tests] Add coverage for LinboRemote, the session-name fix, host
+     boot-state classification and the partition-numbering fix.
+   * [linbo] Add 'hash' to the recognized non-editable image extra files
+     (alongside torrent/macct/md5) - it was already produced on disk but
+     unknown to LinboImage, so deleting or renaming an image left it
+     behind (orphaned file, and a failed rmdir on delete).
+   * [linbo] images.py: raise ImageExistsError/RuntimeError instead of a
+     silent print()+return when renaming/duplicating onto an existing
+     path, or renaming/deleting/saving extras on an image group whose
+     base image failed to load.
+   * [linbo] Add IncompleteImageInfoError for a missing or incomplete
+     .info file. An image group with a broken .info now shows up in
+     listings flagged with an error instead of either crashing the whole
+     manager or silently fabricating missing fields.
+   * [linbo] Fix LinboImageManager.delete() using self.images[group]
+     instead of self.groups[group] for a backup-only deletion.
+   * [ldapconnector] Fix a KeyError when a custom_fields.yml entry is
+     present but missing a key (e.g. 'editable') - only entries missing
+     entirely were defaulted before, partial ones weren't merged with the
+     defaults.
+   * [samba_util] GroupManager.add_members(): only swallow the benign LDAP
+     "already a member" error (code 68); every other exception used to be
+     silently dropped too.
+   * [samba_util] GroupManager: run each post-hook script in its own
+     try/except, logged on failure instead of failing the whole
+     add_members()/remove_members() call - the LDAP change had already
+     succeeded by the time hooks run, so a broken hook script must not be
+     reported as a failed membership change.
+   * [tests] Add coverage for image rename/duplicate/delete/restore
+     conflicts and error paths, the incomplete-.info case, and the
+     custom-fields partial-entry fix.
+Checksums-Sha1:
+ ea123874db8761cfa40a2b156f07ad804777ed6b 583 linuxmuster-tools7_7.4.12.dsc
+ cc774962578920b7f56dce63ef472cae1a436b47 263794 linuxmuster-tools7_7.4.12.tar.gz
+ 86a87fafba2b0fbe37c5ab2587a71c72f7df5e12 199994 linuxmuster-tools7_7.4.12_all.deb
+ 641028971115a3757edb36913c0bd695401754c6 7745 linuxmuster-tools7_7.4.12_amd64.buildinfo
+Checksums-Sha256:
+ 5c55dfc4ccc6c006c1d2ed0002af88a6d2a84de6702ab35695db55a5d0c26877 583 linuxmuster-tools7_7.4.12.dsc
+ 13c9c7062bc54777ccf8204f2f9749c36019bcef951cb65c920010a0ff9d052a 263794 linuxmuster-tools7_7.4.12.tar.gz
+ bdca82cff58c796ae9ec035c36bbab080c07e7a5f176d034fee15fc18ddf3c64 199994 linuxmuster-tools7_7.4.12_all.deb
+ 0e041ddd19c45502bddb5aeec202e048027bf213b17d66f939e6db6a83c60d77 7745 linuxmuster-tools7_7.4.12_amd64.buildinfo
+Files:
+ 6a0f4e78fc08b6194d13befddf948fef 583 linuxmuster optional linuxmuster-tools7_7.4.12.dsc
+ 89c1da4869bf36d72ee998926b40f756 263794 linuxmuster optional linuxmuster-tools7_7.4.12.tar.gz
+ 49d6ea541bc6a18b9c41239ee553c475 199994 linuxmuster optional linuxmuster-tools7_7.4.12_all.deb
+ c15bfb5be94a41146366d30f1ef838b5 7745 linuxmuster optional linuxmuster-tools7_7.4.12_amd64.buildinfo
