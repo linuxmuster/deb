@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: bionic
-Date: Fri, 07 Aug 2026 13:19:39 UTC
+Date: Fri, 07 Aug 2026 13:19:50 UTC
 Architectures: i386 amd64
 Components: main
 Description: bionic stable
@@ -40,17 +40,17 @@ SHA256:
  52687ea393e573ec4a9493d80e9c6ab8f398c198e314e9e26b7f4c60787e63f8 119 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmp122sACgkQTouLZn11
-LDIs/Q/+OwCiC//NbRj3lVl2klhZNy8/JJ1zXcv/du50mATRhpu3WRqLliGfBJXU
-caBbHBi5TmskRbAnwDphZkv/udDOp0OY/pEHhV/aGqw67It713p+29Dc8NEVsuWR
-p1cFj3EA/CxjZ5IPv2wfahSA/YHDDUL+6e87bqvmOzNATRJgkzU+7sRu7SQKB7qp
-N6qCxNg2KFC4awiJ/I0ICW4Q6Lxg8k41KdjAzxul/DDfdN5v3EpHjXwHmv1ca1Sz
-8XPjcqDahpzZl7TsHDNIJyqs4W1EcSPVBx+94yK9CXe6UtLoO8d8bi3/ZfDI9q3/
-tVaTUoKZ6bRbHsq9g4cDbeRzakkVScHt8Uf+cm1xwhSLubzPXD0m5DwMdaS+qLdu
-xLvNQdBO1iLM5LVdl+yON+G31mqNCNXJC36HoDAkj2tmU1usYRJ7zO4bc6UIwAW9
-BWlN4VBKINlIH0wU+58lG34lzsDhHSjdrcVD8/oz8XnHhznTVR0K+MR5zrZg/bgb
-livfyMv5U+O3pZsBPXlZmcr9NYthB3lzErkmGoacEBF9QifVIHqeRq2RQWx720TZ
-ByVr+bi8bwZqsLsLCPCN4A+65FAHhIIlMAYcUKjB1FByIRfRMN84Ky23XG3j3EWE
-tMJx7t3wqIIGUVa2tFQs0DdGumGin7upBjbTCBmeGldFFshrgr8=
-=j7oc
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmp123YACgkQTouLZn11
+LDKTmBAAp1/O1fEgOAsNRYPhklBq5wTwXbJUv+R30rAT//fFPYp4Pvo82VS6TZ7G
+q3PxLy4oEju3htLI8b2jksIBe+W2gEihd/KrUfY8Izur5FLwMWXmr2zYxSxnYb1v
+e+DKOeqdizFQRagD3JKaMznYsbXf3uknRrj/cGaDjtV78jxTPIlb1gevwXOJNqud
+VZxIW+wK8sOYFfRlPAh89L5Ot1j7y6pE2uHsYVVDvWYPiTF5gdVPexTJrqp4JZHu
+46Njd3A7YfDRt0vZmpimueaM+nnAlMbglSIrGMHtVPgSYB5HOxrWn0s+vCn91lRu
+XckYQSRy5d9GZkFhY1wb1xGDsGgomlhvsr0mYarBJAw7u/nZVJjJRpr+LdhwZ6x1
+XCELOrMMHGeCEK7FQ7Zu2YgI9/LUiY4D0f2hoU/kekVYmIyZTEQ705lqAwER2JF4
+O1aqw5CERmNBVq+m2vvN89AjuKPQpjp4PicRSFJHSgNUJtjGya/yoI9uAoEcsRmQ
+BNxpzjyz/HJs/jP9ccygUmns/lhsqEItNB3rprRuNHdoMWM+zjR3H8kPEVshcXLv
+f8TzJ3Dp5h1r/nC/29TFBhgzrXH6LjH2Jc6jmzyChaRCOn6K7P4moPF3tb+SdlhP
+WE2UMzgYMbpRzElX20bVUvqXXP7OovfGn808imNGnZP18YMrkz8=
+=2BjY
 -----END PGP SIGNATURE-----
