@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 07 Aug 2026 15:45:00 +0200
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.6
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.4.6) lmn74; urgency=medium
+ .
+   * [passwd] New typer: "lmncli passwd <user>" manages a user's first
+     (initial) and current login password - set-first-password,
+     set-current-password, set-random-password, reset-first-password and
+     check-first-pw. Brings parity with the webui/lmnapi password
+     management.
+   * [tests] Add coverage for the new passwd typer.
+   * [linbo] Adapt "lmncli linbo lastsync" to lmntools' last_sync_all() new
+     return shape (host['image'] list of {date, status, image} instead of
+     separate host['images']/host['sync']).
+Checksums-Sha1:
+ e5c36c7f836bee703a444dc16ffbd816579e64d9 564 linuxmuster-cli7_7.4.6.dsc
+ 2547904a9edf83937d8a6ea1350333854b5379df 62510 linuxmuster-cli7_7.4.6.tar.gz
+ 8994d3aff7bc9d670a171ab35d61950a633b775c 43004 linuxmuster-cli7_7.4.6_all.deb
+ 9dca1c781245ed668d6ba7efcf28cf52768012bd 7719 linuxmuster-cli7_7.4.6_amd64.buildinfo
+Checksums-Sha256:
+ e636470d6c515ef89f34dc72c40fdfa33e7a561be71f78aec4268b4d0303852d 564 linuxmuster-cli7_7.4.6.dsc
+ 5dfb50ee549dbb37d42f4085f227f9f37e6e52b78fdb9d39c3a587789f4c129d 62510 linuxmuster-cli7_7.4.6.tar.gz
+ 5a433f19e81d4cabf752c44eb282a8396b355e68b45d61054bc55437a1bc1730 43004 linuxmuster-cli7_7.4.6_all.deb
+ 1202a75f3e8335c4da7e3b2a2d2877188a308e77856ff117abc0e733f947a5b1 7719 linuxmuster-cli7_7.4.6_amd64.buildinfo
+Files:
+ 2400da79b0ea0731efa7cb5d018ec50a 564 linuxmuster optional linuxmuster-cli7_7.4.6.dsc
+ 8381a04a822940c6858a8e381a7eab45 62510 linuxmuster optional linuxmuster-cli7_7.4.6.tar.gz
+ 039f9410e2c7d9e9be17241fdd09d673 43004 linuxmuster optional linuxmuster-cli7_7.4.6_all.deb
+ ac6fe7c9dcf2cb5bd6c703e26ca0a772 7719 linuxmuster optional linuxmuster-cli7_7.4.6_amd64.buildinfo
