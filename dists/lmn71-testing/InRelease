@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: lmn71-testing
-Date: Sat, 08 Aug 2026 14:17:12 UTC
+Date: Sat, 08 Aug 2026 14:17:30 UTC
 Architectures: i386 amd64
 Components: main
 Description: lmn71-testing (bionic) stable
@@ -40,17 +40,17 @@ SHA256:
  5d443da65d87bd15988f5c898ed44f77bce9e133d838f8885e3bbd847c0866ea 135 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmp3OmgACgkQTouLZn11
-LDI4NA/9F0wTJ4yJo++oLygDFuzGowCIVfe0QFg+5mIKKvu3z3IX+/mfNiP1RMXr
-yR7farYpB+Hl3RprT9NXa5t4LmfS3omrI6sMYpyKFMAn2OCq4cnQICoGtTcc8KVv
-0Ha3hAGWCojhF8kXIHygoJJsdfMeB1p7DeIt5Nk2iOVYtkh//RMzCmipZ1+r4HFs
-tUjs46t1sp3fsxgFcmrrVLPanmaRvAqrJ1nTV8N06ncURURD28aBJUyGkq+Y60pE
-lYSXs1mNUGBqQRBqmu8sfBUkvngmOzr4aKtOoCEgZHgtrDPItOB6hzMVbED+lndM
-fdNmGoqXl9TcGhdKEvpBqIGuTUfZeiEDQxEQqf2VfnGN0OhcZwXFC75OhypLqglk
-DNzr7cwNRFAjEwNThgI084ZryptGTFOZyLLx1fXxdTM1WNIa8xMS6nmhvigkbsG+
-EMgaNXZ78fWfPMc23XQW09g7advzjAcJ2+ZABTmKJQmOOp/bD098dVnZ4uIIw23o
-X9+i1FaXdOEXhNLtW+WMO4TMe0c1eBj6WcZCfc8sGUa5B3J3v0+UNUafs2ZeOMJO
-Rqz473S3JcseLrFt5W6UJzRje2RY9KYTDa2V7G7V3SiaBfaMc8SuypA2hBftXp0v
-dOhOHDPY2EYWj658MChBbgehJ6dtNEG9RayKDg7PHjxb5f8ZM6I=
-=runm
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmp3OnoACgkQTouLZn11
+LDIbMBAAq69ySx8uPm4S0N3glaXE1kHTwb2yzeeaxG7zjvov8ntbdq/CBC6n3DT9
+JZ4czleMd6r+pqgud5yZYEBc4HYB99p2hWCxqPo461xHgXltCtkGRT+652zQ+Sju
+TrPgkK5KCcCBaq6GI1XuT/nBczxwECvJ8E3BY691ndqvSy3LQT2ovNzXmUyjLJbB
+Les64LO8YsnPIdT+OA+In4IxT3S9AP6x3//FOqjYiIpaVV58CSIhVhMOIE4npEjV
+dsXNdFqzfTzOOlOP8iN+zsmzXl+wBoGtaONGXHFft2q37yX4/etPRUmmTHwxZmHl
+N17wrPJoKxwC3n41lKaog7oTWSDtKF1epmz2f4Kk2oTKiy4NTV1TX4wJcWVwxQU9
+bHhl22kBuS5DLPd/XqQPxzb38SEmPGfKotDvmrM+Ev2fH2EFZohIwwwGDfxHFLa2
+ZVn3Ei+dSdd3xp+i1Vstw/M3fVOP9MXOtos+flA3DSrF3scKt6xNs1lLVmHrOOZn
+NscHaFJTJbHjYLwOOMFH3RDJFHd5iBDvWLxE1R7WBi321YDS5dzc5XqMk0Aq+oS5
+3mLkxEFtputsy1V2H/c5j4FrZycd6sIJGrx58oY8qUOAt0Fy51p8/W/6CzUHnoCz
+UcmMhfRkIMWisVtyjJ0rEw0z+w0CZ/O/y4PN2iKuiwn+7qizGZ4=
+=gh+2
 -----END PGP SIGNATURE-----
