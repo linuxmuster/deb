@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: focal-testing
-Date: Fri, 07 Aug 2026 13:21:38 UTC
+Date: Sat, 08 Aug 2026 14:17:12 UTC
 Architectures: i386 amd64
 Components: main
 Description: focal testing
@@ -40,17 +40,17 @@ SHA256:
  2f751da8165871981ae1c9a3ae8dd8e9d99418ab66f6b9f83c0865d03e8d2400 119 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmp12+IACgkQTouLZn11
-LDJ/iQ/+KiYR14HvLO4sfIwFue/EDpDj4eNWy+fuC27mULOj2NQrzssN/k9hs13R
-i4x+UBXudVYiHjFRB/EgTaQLlEhlHfjmT9Q7QxYgj1EOGa5sWBnb98uBwNXBMah4
-nauGi63LTOeSMRHBom5cPsFMwV648tbV0TRUj3UiyoL1sDowLoLi6nHpYiBtq6Io
-cCX7nKvN02HZo6bDp1iPV903yIMjnLYxxJ5qixg1oPP1wPSPpjHmC0bOtkn09bgR
-r9OEmg/B9kcjKVlzJHMlnIfATCaYECLoXDz9V2Umt+vXW4MiMgQQvAw2tgP3bv8H
-u+NUFINlVhfa3xkP0PZMsr5e56AMVZ7+AXoBWgTc4sfDZBRfMIO8xSZuY7mp6dWV
-AhXxHXOyHDBFC6AalEVWibTogAvb/gusiYfWmlMSOFiZRYJgDe16Sg08I0IM5hPx
-opKNBRJ14nkyXliCRcHE2u7cdmHEPTTnIFBaka0KVyDu5TI7F2okcWZqoCGtqnko
-GmxwpBtn4S4RR+8GaEOM5c7qJ/4FlD5ZTv4W53u2KrEMeBFVms0YlCRSAZ+9t9X/
-eOjw9nRRu43jjsriwS45F1G8QHsAuBtBfUXdyqwdUbQ2HOAk0rVoa5d+eN4ImsB9
-18q/sS7zsvoeHOpkE6AASBkPx+dWpcV44hC7bl03GqFjzO6q/Ks=
-=nTGS
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmp3OmgACgkQTouLZn11
+LDL6RxAAte9Sl7khrAlKBwTLTFLQmRa6qcV+zJejU89lku8cNgLUV6DRAZ7H9EUb
+snziuCtk2cgxAo9afSEuuYZiIvQk8KVYbOhqg+FfkyWAEpQy8d6+2dMOyA6hoVxy
+7eX2Ol36cXRXtIa66HLOWxYoueMc3F6Fz83rNbils97TzDJidRgw66jMOY3e9bq0
+GAgjEH3OmHC4bb3bXB+FjlZ1IWPhaFPuwvHB5vyz3kX/Uh9joSCJAPuNAl0RplMr
+EVAdOdx9fxTwiu7g99hfwnEowz2P3ngP/FkySy87n6wZWAKzmKiOyo3Tf23tO2hb
+nhffNvCTAHI+eajVrBc/8e4d31U0dF5/WsYgUYWdu3DY0SWppsOw5ORuK2L+wX3N
+oKCl6yMrFIUov1hca3QnKeCJPfexzGi4LO66SuVtl38Auv4upwHxhXrdRHjc3prY
+KZtZhLOlVY1w7SUbMce3ZF+4k7sWukQvm7b6SlhaRwbsH2zL+RmwK6w4zROltAeD
+MDa0RIiC91RhUcGwP5Hb0DrNJeYRUd/gxUrt26aiXaI8vCbsfPZTlu1ymvNWYhLe
+1fhq7errHGzz3Ghwi8r6+dBsA84Peo0QrFMFqCaRxlg+lnovTU4xg3sz1p2MsaqR
+aiSWz1ur6wOtO9GzBzdl367rgbKja93Sx5n3mEFk/CBEnkW7fxo=
+=rdep
 -----END PGP SIGNATURE-----
