@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 07 Aug 2026 17:00:00 +0200
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.7
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.4.7) lmn74; urgency=medium
+ .
+   * [students] "lmncli students reset-internet" now uses
+     samba_util.GroupManager instead of the deprecated LMNMgmtGroup: only
+     students actually missing internet access are updated (skip is now
+     explicit, not implicit), and a failure on one student no longer
+     aborts silently - all failures are collected and reported at the
+     end, with a non-zero exit code.
+Checksums-Sha1:
+ 850891037e2b74b9ea1699439757db25ae1f324c 564 linuxmuster-cli7_7.4.7.dsc
+ 6b6806c6e2d278e1e683471a8996a1993021619a 63086 linuxmuster-cli7_7.4.7.tar.gz
+ 6e80d3c5d6bf90814f4694580e451d3b3d1a9677 43426 linuxmuster-cli7_7.4.7_all.deb
+ 07d1e7822fe530f538f906ccec66b5ace0cccdfe 7719 linuxmuster-cli7_7.4.7_amd64.buildinfo
+Checksums-Sha256:
+ 6d7103a7ae174ae49d13f095b0de032a80aa724b7df3d14cdab05fa498273a67 564 linuxmuster-cli7_7.4.7.dsc
+ 1533bb45dcd8bb0a26e6a471f4ad62ee4d7ed1831203023295c5e6943a63aec8 63086 linuxmuster-cli7_7.4.7.tar.gz
+ aab8be75e06583881c62bbdcfe6807d7ca97d4784b601bf67629b8eccddc68de 43426 linuxmuster-cli7_7.4.7_all.deb
+ 76c1ed6322d798b49333147d5b9b70f6c0bd1b066a8c96234b70a22d967eea8d 7719 linuxmuster-cli7_7.4.7_amd64.buildinfo
+Files:
+ 4778cecd2680ca12887c691141c3f539 564 linuxmuster optional linuxmuster-cli7_7.4.7.dsc
+ 109c368179b5de95d714063f784ed953 63086 linuxmuster optional linuxmuster-cli7_7.4.7.tar.gz
+ d0f52e3be0ef35705f0d8b5d27089735 43426 linuxmuster optional linuxmuster-cli7_7.4.7_all.deb
+ 826bd5a37d20714b0447b7f4686a0777 7719 linuxmuster optional linuxmuster-cli7_7.4.7_amd64.buildinfo
