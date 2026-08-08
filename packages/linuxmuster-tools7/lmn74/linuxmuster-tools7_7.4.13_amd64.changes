@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Sat, 08 Aug 2026 16:00:00 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.13
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.13) lmn74; urgency=medium
+ .
+   * [ldapconnector] Remove the deprecated LMNMgmtGroup class (superseded
+     by samba_util.GroupManager, which properly reports LDAP errors
+     instead of swallowing them). Update the ResetInternet.py example
+     accordingly.
+   * [ldapconnector/quotas] Fix sophomorixCloudQuotaCalculated and
+     sophomorixMailQuotaCalculated being typed as list instead of str in
+     LMNUserModel, LMNRawUserModel and LMNObjectModel - both are
+     single-valued LDAP attributes (isSingleValued: TRUE), so the reader
+     was wrapping a plain string in a list, showing up as e.g.
+     ["2506 MB"] once rendered by the webui. get_user_quotas() adjusted
+     accordingly. Breaking change: any consumer of these two fields now
+     gets a str, not a list.
+   * [tests] Adjust fixtures and expectations in ldapconnector and quotas
+     test suites for the list->str change above.
+   * [common] Add is_samba_provisioned() (provisioning.py), based on the
+     presence of /etc/linuxmuster/.secret/administrator - the AD admin
+     secret samba-tool domain provision creates - rather than
+     /var/lib/linuxmuster/setup.ini, which is written by linuxmuster-setup's
+     very first module and stays present for most of the install while LDAP
+     is still unusable. Also add LdapNotProvisionedError (exceptions.py).
+   * [ldapconnector] LdapConnector._connect() now raises
+     LdapNotProvisionedError instead of a raw FileNotFoundError when
+     connecting as root/outside the webui on a domain that isn't
+     provisioned yet, so callers can catch it and respond cleanly (e.g.
+     redirect to the setup wizard, return a 503) instead of crashing.
+   * [devices] Devices.load() no longer raises when
+     SCHOOL/[SCHOOL.]devices.csv doesn't exist yet (fresh install, school
+     not provisioned yet): devices/groups/macs/ips/rooms are left empty
+     instead. Fixes a startup crash in linuxmuster-webui7, which imports
+     all its plugins eagerly and, through ldapconnector.writers.device,
+     instantiates a module-level Devices() singleton.
+   * [samba_util] SambaToolDNS._get_ignore_list() gets the same guard for
+     the same devices.csv read.
+   * [packaging] debian/control: add python3-pip as a dependency.
+   * [tests] Add coverage for the provisioning check (common, ldapconnector)
+     and for the missing-devices.csv case (devices, samba_util).
+Checksums-Sha1:
+ 5b816e86f7f330fd1d4fbc50be0d3bd3905b0a1e 583 linuxmuster-tools7_7.4.13.dsc
+ 8860926359c13da0160f2405f1403e51c54af42d 268610 linuxmuster-tools7_7.4.13.tar.gz
+ 2c210f9646e1fe8ea4d1721b2fac9118bc148571 203024 linuxmuster-tools7_7.4.13_all.deb
+ a096df0958c3f90d1e3acfe8afc9cda677dbdc8e 7745 linuxmuster-tools7_7.4.13_amd64.buildinfo
+Checksums-Sha256:
+ b6bc9e35ae644e2ac910b11be26a3b0f446ae0d1f3fb81afcf79289ef8b9d3a2 583 linuxmuster-tools7_7.4.13.dsc
+ 347ef8ba8b14384e70ae97d711adc36d5a8f98131b89dcf00b4e1dd6be631c1a 268610 linuxmuster-tools7_7.4.13.tar.gz
+ 2def000af046e50976a38b7fb8bc8bc5e9b2a451164013efb3cf985e9a22212c 203024 linuxmuster-tools7_7.4.13_all.deb
+ 3044506c8b17908dea1dd6563f89ffb9fdca9d1731f036d031ae955ee32797d0 7745 linuxmuster-tools7_7.4.13_amd64.buildinfo
+Files:
+ 9376efa97c0dabc27c375c4556972e48 583 linuxmuster optional linuxmuster-tools7_7.4.13.dsc
+ c08fd031d13d6608e81034889ceaa109 268610 linuxmuster optional linuxmuster-tools7_7.4.13.tar.gz
+ d4f1d18e099155fd67e673f5621dfbe3 203024 linuxmuster optional linuxmuster-tools7_7.4.13_all.deb
+ aed8b1f0aed726a2512d842fa08d4e69 7745 linuxmuster optional linuxmuster-tools7_7.4.13_amd64.buildinfo
