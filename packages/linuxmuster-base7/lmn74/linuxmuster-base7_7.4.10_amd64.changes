@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun,  9 Aug 2026 15:37:03 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.10
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.10) lmn74; urgency=low
+ .
+   * fix(e_fstab.py): remove undefined msg (4ba6014).
+Checksums-Sha1:
+ b9d70ad4c0101429a0a787abaf863685fac62d0d 896 linuxmuster-base7_7.4.10.dsc
+ aa39986273772e0f72d58958d368e2a69fe97c88 152828 linuxmuster-base7_7.4.10.tar.gz
+ bad201007f5dc31100ed6c84444ee8f51b566d5e 94450 linuxmuster-base7_7.4.10_all.deb
+ fd9d8231d1dd357a20dd781558731377ad7de72d 9652 linuxmuster-base7_7.4.10_amd64.buildinfo
+Checksums-Sha256:
+ 3fb81cd2db1af867aed2e2562dc4fd069375d317e923febb76b52ad6d18ae5c7 896 linuxmuster-base7_7.4.10.dsc
+ a7f05ae1ae69902bfc7955c411bb0a8a6bc2615c977feac57821b55036fbfca1 152828 linuxmuster-base7_7.4.10.tar.gz
+ b0d9d63c3f9cb5788dc544d04c4ee20e5dee4bfb5dc35db142d6717baeec0125 94450 linuxmuster-base7_7.4.10_all.deb
+ ca75a71870b08838c0045d47632c68a352505e14cce38c4d599f66f477fd2794 9652 linuxmuster-base7_7.4.10_amd64.buildinfo
+Files:
+ 758d06bf2c38a94466afdf46c9056490 896 linuxmuster optional linuxmuster-base7_7.4.10.dsc
+ 64de1bc6dfec9af531f2c85a2e2a7aca 152828 linuxmuster optional linuxmuster-base7_7.4.10.tar.gz
+ eec593482146e2f9e9e2980b3699b0b4 94450 linuxmuster optional linuxmuster-base7_7.4.10_all.deb
+ 18fb5834b9ab43c661ff6fcc1df526f7 9652 linuxmuster optional linuxmuster-base7_7.4.10_amd64.buildinfo
