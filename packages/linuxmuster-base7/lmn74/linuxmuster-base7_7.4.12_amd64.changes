@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Tue, 11 Aug 2026 09:57:29 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.12
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.12) lmn74; urgency=low
+ .
+   * fix(cupsd.conf): cups problem version >= cups-2.4.7-1.2ubuntu7.9 (#189).
+   * fix(cupsd.conf): require @SYSTEM auth for /admin/conf (#190).
+   * setup(z_final.py): add webui service restart (9114202).
+Checksums-Sha1:
+ 58856f540ceffc1326b935dce6b0b36a7fd44052 896 linuxmuster-base7_7.4.12.dsc
+ 4229a71175cd3f0c2b1851e7e5159f2a3876a5dd 157934 linuxmuster-base7_7.4.12.tar.gz
+ 0f892536ef0f4eabcf266c2aebd3d476e37b47c7 95938 linuxmuster-base7_7.4.12_all.deb
+ a8c65b4fc3977e0d51914e89206746f07b122a2a 9674 linuxmuster-base7_7.4.12_amd64.buildinfo
+Checksums-Sha256:
+ c5040583e1fb561ee14fcedc0447b5e347de89827fa207ad434171bda6106fb3 896 linuxmuster-base7_7.4.12.dsc
+ f677944cb3eae50da1422ebda6f9e15262e8ee6a72144a8c43d07c8b51577c92 157934 linuxmuster-base7_7.4.12.tar.gz
+ 564cf6a344ebd1fdee35b6c7bb00dad2714332f9811ac158e63db44a507fa7e5 95938 linuxmuster-base7_7.4.12_all.deb
+ 4cbcefab4abf4deb5a54214093d1e844904ec823e03caa5b6bace57f69c4ff73 9674 linuxmuster-base7_7.4.12_amd64.buildinfo
+Files:
+ bde8155d8542822c1b17cdb2cb45865d 896 linuxmuster optional linuxmuster-base7_7.4.12.dsc
+ 6432595c48c797c019f7c14bfd843e64 157934 linuxmuster optional linuxmuster-base7_7.4.12.tar.gz
+ 1b7a6aa0518f9f3475d1b75ac8f12359 95938 linuxmuster optional linuxmuster-base7_7.4.12_all.deb
+ b818d8e79e4c5ce463b00bb81a28d79c 9674 linuxmuster optional linuxmuster-base7_7.4.12_amd64.buildinfo
