@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-prepare
 Binary: linuxmuster-prepare
 Architecture: all source
-Version: 7.4.0
+Version: 7.4.1
 Checksums-Md5:
- ac86a581e573bb5fab10ecf7db52108f 600 linuxmuster-prepare_7.4.0.dsc
- f4879b91f7544e80a4100d1e7f198fb9 14250 linuxmuster-prepare_7.4.0_all.deb
+ 66c76d64aebe120f86a9bc323dd3296d 600 linuxmuster-prepare_7.4.1.dsc
+ 061972e46a2a1acd1a9ecabe981f515e 15122 linuxmuster-prepare_7.4.1_all.deb
 Checksums-Sha1:
- 021d49dc9378a64606bc085202122e76f93c6ab5 600 linuxmuster-prepare_7.4.0.dsc
- 2683ffaababe4a4eff5880dbd0dac2f1c159d015 14250 linuxmuster-prepare_7.4.0_all.deb
+ 2efb4eb0dcdf7916dbd90ff3194b01ca60b32ee7 600 linuxmuster-prepare_7.4.1.dsc
+ 81bc8ed134415bd41a2f16499c6a6bdece83626f 15122 linuxmuster-prepare_7.4.1_all.deb
 Checksums-Sha256:
- 8a8dbdb51273ef1ca1eb90b5c65c6d011c83b85f4fd4f3f98c080f83c85fdfc0 600 linuxmuster-prepare_7.4.0.dsc
- 5ea33e9348351f85ab3eb9746635e7d7b2cb2bf81b347774747ddb18b58e00f6 14250 linuxmuster-prepare_7.4.0_all.deb
+ d2f529addc09bcda12fafa61e3d3158e1f8309807997d8352c388f5b9f0261ce 600 linuxmuster-prepare_7.4.1.dsc
+ c6809d6ebe1a11e1298ffe371ad5f8f296c89aad05a86c172923020396a323ba 15122 linuxmuster-prepare_7.4.1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 24 Jun 2026 14:35:33 +0000
+Build-Date: Tue, 11 Aug 2026 08:32:50 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -27,7 +27,7 @@ Installed-Build-Depends:
  binutils-common (= 2.46-3ubuntu2),
  binutils-x86-64-linux-gnu (= 2.46-3ubuntu2),
  bsdextrautils (= 2.41.3-3ubuntu2),
- build-essential (= 12.12ubuntu2),
+ build-essential (= 12.12ubuntu2.26.04.2),
  bzip2 (= 1.0.8-6build2),
  coreutils (= 9.5-1ubuntu2+0.0.0~ubuntu25),
  coreutils-from-uutils (= 0.0.0~ubuntu25),
@@ -64,7 +64,7 @@ Installed-Build-Depends:
  gnu-coreutils (= 9.7-3ubuntu2),
  grep (= 3.12-1),
  groff-base (= 1.23.0-10),
- gzip (= 1.14-1~exp2ubuntu1),
+ gzip (= 1.14-1~exp2ubuntu1.1),
  hostname (= 3.25build1),
  init-system-helpers (= 1.69),
  intltool-debian (= 0.35.0+20060710.6build1),
@@ -78,13 +78,14 @@ Installed-Build-Depends:
  libbinutils (= 2.46-3ubuntu2),
  libblkid1 (= 2.41.3-3ubuntu2),
  libbz2-1.0 (= 1.0.8-6build2),
- libc-bin (= 2.43-2ubuntu2),
- libc-dev-bin (= 2.43-2ubuntu2),
- libc-gconv-modules-extra (= 2.43-2ubuntu2),
- libc6 (= 2.43-2ubuntu2),
- libc6-dev (= 2.43-2ubuntu2),
+ libc-bin (= 2.43-2ubuntu2.3),
+ libc-dev-bin (= 2.43-2ubuntu2.3),
+ libc-gconv-modules-extra (= 2.43-2ubuntu2.3),
+ libc6 (= 2.43-2ubuntu2.3),
+ libc6-dev (= 2.43-2ubuntu2.3),
  libcap-ng0 (= 0.8.5-4build5),
  libcc1-0 (= 16-20260322-1ubuntu1),
+ libcrypt-dev (= 1:4.5.1-1),
  libcrypt1 (= 1:4.5.1-1),
  libctf-nobfd0 (= 2.46-3ubuntu2),
  libctf0 (= 2.46-3ubuntu2),
@@ -117,38 +118,38 @@ Installed-Build-Depends:
  libmpc3 (= 1.3.1-3),
  libmpfr6 (= 4.2.2-3),
  libncursesw6 (= 6.6+20251231-1),
- libpam-modules (= 1.7.0-5ubuntu3),
- libpam-modules-bin (= 1.7.0-5ubuntu3),
- libpam-runtime (= 1.7.0-5ubuntu3),
- libpam0g (= 1.7.0-5ubuntu3),
+ libpam-modules (= 1.7.0-5ubuntu3.1),
+ libpam-modules-bin (= 1.7.0-5ubuntu3.1),
+ libpam-runtime (= 1.7.0-5ubuntu3.1),
+ libpam0g (= 1.7.0-5ubuntu3.1),
  libpcre2-8-0 (= 10.46-1build1),
- libperl5.40 (= 5.40.1-7build1),
+ libperl5.40 (= 5.40.1-7ubuntu0.1),
  libpipeline1 (= 1.5.8-2),
  libpython3-stdlib (= 3.14.3-0ubuntu2),
- libpython3.14-minimal (= 3.14.4-1),
- libpython3.14-stdlib (= 3.14.4-1),
+ libpython3.14-minimal (= 3.14.4-1ubuntu0.1),
+ libpython3.14-stdlib (= 3.14.4-1ubuntu0.1),
  libquadmath0 (= 16-20260322-1ubuntu1),
  libreadline8t64 (= 8.3-4),
  libseccomp2 (= 2.6.0-2ubuntu5),
  libselinux1 (= 3.9-4build1),
  libsframe3 (= 2.46-3ubuntu2),
  libsmartcols1 (= 2.41.3-3ubuntu2),
- libsqlite3-0 (= 3.46.1-9),
- libssl3t64 (= 3.5.5-1ubuntu3.2),
+ libsqlite3-0 (= 3.46.1-9ubuntu0.2),
+ libssl3t64 (= 3.5.5-1ubuntu3.3),
  libstdc++-15-dev (= 15.2.0-16ubuntu1),
  libstdc++6 (= 16-20260322-1ubuntu1),
- libsystemd0 (= 259.5-0ubuntu3),
+ libsystemd0 (= 259.5-0ubuntu3.3),
  libtinfo6 (= 6.6+20251231-1),
  libtool (= 2.5.4-9),
  libtsan2 (= 16-20260322-1ubuntu1),
  libubsan1 (= 16-20260322-1ubuntu1),
  libuchardet0 (= 0.0.8-2),
- libudev1 (= 259.5-0ubuntu3),
+ libudev1 (= 259.5-0ubuntu3.3),
  libunistring5 (= 1.3-2build1),
  libuuid1 (= 2.41.3-3ubuntu2),
- libxml2-16 (= 2.15.2+dfsg-0.1),
+ libxml2-16 (= 2.15.2+dfsg-0.1ubuntu0.1),
  libzstd1 (= 1.5.7+dfsg-3),
- linux-libc-dev (= 7.0.0-22.22),
+ linux-libc-dev (= 7.0.0-29.29),
  lto-disabled-list (= 79),
  m4 (= 1.4.21-1),
  make (= 4.4.1-3),
@@ -158,24 +159,24 @@ Installed-Build-Depends:
  ncurses-base (= 6.6+20251231-1),
  ncurses-bin (= 6.6+20251231-1),
  netbase (= 6.5build1),
- openssl-provider-legacy (= 3.5.5-1ubuntu3.2),
+ openssl-provider-legacy (= 3.5.5-1ubuntu3.3),
  patch (= 2.8-2build1),
- perl (= 5.40.1-7build1),
- perl-base (= 5.40.1-7build1),
- perl-modules-5.40 (= 5.40.1-7build1),
+ perl (= 5.40.1-7ubuntu0.1),
+ perl-base (= 5.40.1-7ubuntu0.1),
+ perl-modules-5.40 (= 5.40.1-7ubuntu0.1),
  po-debconf (= 1.0.22),
  python3 (= 3.14.3-0ubuntu2),
  python3-minimal (= 3.14.3-0ubuntu2),
- python3.14 (= 3.14.4-1),
- python3.14-minimal (= 3.14.4-1),
+ python3.14 (= 3.14.4-1ubuntu0.1),
+ python3.14-minimal (= 3.14.4-1ubuntu0.1),
  readline-common (= 8.3-4),
  rpcsvc-proto (= 1.4.3-1build1),
  rust-coreutils (= 0.8.0-0ubuntu3),
  sed (= 4.9-2ubuntu1),
  sensible-utils (= 0.0.26build1),
  sysvinit-utils (= 3.15-5ubuntu1),
- tar (= 1.35+dfsg-4),
- tzdata (= 2026a-3ubuntu1),
+ tar (= 1.35+dfsg-4ubuntu0.4),
+ tzdata (= 2026c-0ubuntu0.26.04.1),
  util-linux (= 2.41.3-3ubuntu2),
  xz-utils (= 5.8.3-1),
  zlib1g (= 1:1.3.dfsg+really1.3.1-1ubuntu3)
@@ -184,4 +185,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1782311428"
+ SOURCE_DATE_EPOCH="1786435764"
