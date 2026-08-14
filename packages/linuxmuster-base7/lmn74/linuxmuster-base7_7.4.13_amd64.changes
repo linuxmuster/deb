@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 14 Aug 2026 16:50:29 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.13
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.13) lmn74; urgency=low
+ .
+   * fix(e_fstab.py): drop legacy journaled-quota mount options
+     (usrjquota=/grpjquota=) from REQUIRED_MOUNT_OPTIONS and actively strip
+     them if already present, and mask the now-redundant
+     quotaon-root.service/quotaon.service systemd units, since both
+     conflict with the modern ext4 on-disk quota feature this module
+     enables. Verified end to end on an upgraded 7.4 host across a real
+     reboot.
+Checksums-Sha1:
+ 41f5f1a0359e966ce6d9869c283e9ca5fbd47c26 896 linuxmuster-base7_7.4.13.dsc
+ 514f1eb8a3c61d0b3107b5e6aaff59864f4990b8 157911 linuxmuster-base7_7.4.13.tar.gz
+ 20814a1a085b131550ed7bd278644a8fd247c3ed 96748 linuxmuster-base7_7.4.13_all.deb
+ 59946e33c6d75f0d8c0ab815a570e6904f8fde2d 9674 linuxmuster-base7_7.4.13_amd64.buildinfo
+Checksums-Sha256:
+ 87ab7dbb1dd84503890c8821e8ce4ccec81c8eb7ff37127df32cef7d0f8ea359 896 linuxmuster-base7_7.4.13.dsc
+ 87a43f24701b732926eddbf95f1fc7bc04f129af51981423bad67dbe58cda5f0 157911 linuxmuster-base7_7.4.13.tar.gz
+ 31188cf9db1df60689f3d64ec11fb99c0b52364a88729c06264835ff04b1c3c9 96748 linuxmuster-base7_7.4.13_all.deb
+ 191e1832c76f6c60378702eec830d8b91b21dbaedbe59d2932005b0d3b966592 9674 linuxmuster-base7_7.4.13_amd64.buildinfo
+Files:
+ eec7759af87c1100b37526fc3301d1a5 896 linuxmuster optional linuxmuster-base7_7.4.13.dsc
+ 68d8a137f210dd7b98f0f167d71e648f 157911 linuxmuster optional linuxmuster-base7_7.4.13.tar.gz
+ 6a23df10b1576b222cc489476e144602 96748 linuxmuster optional linuxmuster-base7_7.4.13_all.deb
+ 6746447450ca45c98ec1e59ad3101ddf 9674 linuxmuster optional linuxmuster-base7_7.4.13_amd64.buildinfo
