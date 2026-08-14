@@ -2,15 +2,15 @@ Format: 3.0 (native)
 Source: linuxmuster-prepare
 Binary: linuxmuster-prepare
 Architecture: all
-Version: 7.4.2
+Version: 7.4.1
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Standards-Version: 4.7.3
 Build-Depends: debhelper-compat (= 13), dh-python
 Package-List:
  linuxmuster-prepare deb utils optional arch=all
 Checksums-Sha1:
- 038614ce655de05924ead49883c7061cfce73a63 31320 linuxmuster-prepare_7.4.2.tar.xz
+ a43a0539c5d3ae7b0c677d72d608df2292cdce82 30244 linuxmuster-prepare_7.4.1.tar.xz
 Checksums-Sha256:
- 05221f2f9a06c2e222bd705396b4ca35fa3f8a90148954747d8cef7536affc21 31320 linuxmuster-prepare_7.4.2.tar.xz
+ cfb88bb43bfeb39a869cd4ae82815d6072cbdcc477dd78e7f1ce67fc636ab078 30244 linuxmuster-prepare_7.4.1.tar.xz
 Files:
- 78e211bde379f5ae4a11e119fe153113 31320 linuxmuster-prepare_7.4.2.tar.xz
+ 925532baa52fe829e4586a3600466683 30244 linuxmuster-prepare_7.4.1.tar.xz
