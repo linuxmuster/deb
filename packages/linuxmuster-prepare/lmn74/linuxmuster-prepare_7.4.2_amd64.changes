@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 14 Aug 2026 16:44:37 +0200
+Source: linuxmuster-prepare
+Binary: linuxmuster-prepare
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.2
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-prepare - linuxmuster.net pre setup configuration scripts
+Changes:
+ linuxmuster-prepare (7.4.2) lmn74; urgency=low
+ .
+   * fix(lmn-prepare): strip legacy journaled-quota mount options
+     (usrjquota=/grpjquota=/jqfmt=) from ext4 fstab entries before enabling
+     the modern on-disk quota feature, and mask the now-redundant
+     quotaon-root.service/quotaon.service systemd units, fixing
+     quotaon-root.service failing permanently at boot on hosts upgraded
+     from 7.3. Verified end to end across a real reboot.
+Checksums-Sha1:
+ 87f222cb72e110ed23c63af98343b7135d6afe74 600 linuxmuster-prepare_7.4.2.dsc
+ 038614ce655de05924ead49883c7061cfce73a63 31320 linuxmuster-prepare_7.4.2.tar.xz
+ 698690e3b215b3eb3c803dba77531a86f81372a1 16274 linuxmuster-prepare_7.4.2_all.deb
+ e51b654d16f9fcfbe2f2d922b8b03ccabf673bfb 6391 linuxmuster-prepare_7.4.2_amd64.buildinfo
+Checksums-Sha256:
+ 66ef0fd11e7ccf5b0b7c4142468ba62426f38a468dc9f326c346a36feb67a48f 600 linuxmuster-prepare_7.4.2.dsc
+ 05221f2f9a06c2e222bd705396b4ca35fa3f8a90148954747d8cef7536affc21 31320 linuxmuster-prepare_7.4.2.tar.xz
+ 692fd41f35bd41179b61d91b072e2c8e064be63c2c9ea230b42d7760e93bdb3f 16274 linuxmuster-prepare_7.4.2_all.deb
+ 4ad046ff898f0d21e6a2431724f4a33745148477acc9218b156bb69bda0743b9 6391 linuxmuster-prepare_7.4.2_amd64.buildinfo
+Files:
+ 907f720c3a822249a7357ccb7e1bf99a 600 utils optional linuxmuster-prepare_7.4.2.dsc
+ 78e211bde379f5ae4a11e119fe153113 31320 utils optional linuxmuster-prepare_7.4.2.tar.xz
+ 9fa9d69bc38556c489df828e68d831a6 16274 utils optional linuxmuster-prepare_7.4.2_all.deb
+ 8e2b88f87982613434069c1fb2ac6af9 6391 utils optional linuxmuster-prepare_7.4.2_amd64.buildinfo
