@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 16 Aug 2026 13:30:00 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.40-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.40-0) lmn73; urgency=low
+ .
+   * fix(linuxmuster-release-upgrade): retrofit quota fstab fix and unit
+     masking onto upgraded systems, since neither lmn-prepare nor
+     e_fstab.py ever touch them otherwise (0d56f33, 50eb82d).
+   * fix(linuxmuster-release-upgrade): purge modemmanager before the OS
+     upgrade, if installed - useless here and slows the upgrade down
+     (7296d9e).
+Checksums-Sha1:
+ 1fa9a6e990b97e168a2f5c4d2a751219c10116a4 583 linuxmuster-base7_7.3.40-0.dsc
+ f57fab5b9850290b86ff6a3572b64d0f77ce30c6 95189 linuxmuster-base7_7.3.40-0.tar.gz
+ 541f0e12ab397021dc8328cb1c51f38d5475a0c9 64982 linuxmuster-base7_7.3.40-0_all.deb
+ 46a206a8ef73fd60b23b082029ae7b1309cfe4b1 6267 linuxmuster-base7_7.3.40-0_amd64.buildinfo
+Checksums-Sha256:
+ ed6d9c4c64a8b22c9d66438f36eae22c1ed149997244fa6596d93eea23c1b031 583 linuxmuster-base7_7.3.40-0.dsc
+ f4f156047abed78d6d009076d612b682048944d3933cfbe5d3ba373fa0073901 95189 linuxmuster-base7_7.3.40-0.tar.gz
+ 9e577903852cb7fbf27d6a50d378bf716edbf949e26f2e8dece8ef892274e233 64982 linuxmuster-base7_7.3.40-0_all.deb
+ ea614265a07d0079b47490a003ec3bdc57f5dcee58edd20054e1ac64fda77ea8 6267 linuxmuster-base7_7.3.40-0_amd64.buildinfo
+Files:
+ dec29e3920730244a96217a7b0fde559 583 linuxmuster optional linuxmuster-base7_7.3.40-0.dsc
+ e4584386270bf7476633bca4d306ce4e 95189 linuxmuster optional linuxmuster-base7_7.3.40-0.tar.gz
+ 3426e6fec45f6c9fa83e6dd9f61b8d77 64982 linuxmuster optional linuxmuster-base7_7.3.40-0_all.deb
+ bb0144d4340f00bbd85c7fd327a26097 6267 linuxmuster optional linuxmuster-base7_7.3.40-0_amd64.buildinfo
