@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Mon, 17 Aug 2026 00:00:00 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.14
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.14) lmn74; urgency=medium
+ .
+   * [lmnfile] StartConfLoader: opening a non-existent start.conf.* in 'w'
+     mode now creates a new group file instead of raising
+     FileNotFoundError. Fix linuxmuster/linuxmuster-webui7#293 (webui
+     creates a new LINBO group via `with LMNFile(path, 'w') as f`).
+   * [packaging] Add pexpect as a dependency. Fix #28.
+Checksums-Sha1:
+ eb41516a41951fe7bd26093e2e3f83488b51a6d5 583 linuxmuster-tools7_7.4.14.dsc
+ 81b943d4702d161a006098c95afcefb63614d8b2 271003 linuxmuster-tools7_7.4.14.tar.gz
+ fb752d63902f502a7a87b15c520c19e5ffbf042b 203384 linuxmuster-tools7_7.4.14_all.deb
+ ba4b71c3750dac2bed13e4f8c85c066544780e92 7748 linuxmuster-tools7_7.4.14_amd64.buildinfo
+Checksums-Sha256:
+ 2bfed4282568ab9cf614326213868642a27bca3ce71c63b881463e72a7557a34 583 linuxmuster-tools7_7.4.14.dsc
+ ff81cb315915690965e4b7b7037251fe7eab4609af3f3390238bbf1bdfb00cb9 271003 linuxmuster-tools7_7.4.14.tar.gz
+ b2b886ade8580b9028448c4e62ea6bcfe681bd0ae80002449789f015d5e7c27b 203384 linuxmuster-tools7_7.4.14_all.deb
+ b44285d146b9e82ed1d588d22f1d9832c7a0cd5dd1dfc0cfaadabc1560bc89ec 7748 linuxmuster-tools7_7.4.14_amd64.buildinfo
+Files:
+ aad90aacded9cc930914e00f5039868a 583 linuxmuster optional linuxmuster-tools7_7.4.14.dsc
+ 899eaa420e3d85f511e4f13d4927056b 271003 linuxmuster optional linuxmuster-tools7_7.4.14.tar.gz
+ 5f0ef8e2c42582c3c435da72c51fc3f5 203384 linuxmuster optional linuxmuster-tools7_7.4.14_all.deb
+ 4611abee23684f60ef4e7468f618e363 7748 linuxmuster optional linuxmuster-tools7_7.4.14_amd64.buildinfo
