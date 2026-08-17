@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Mon, 17 Aug 2026 00:00:00 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.10
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.10) lmn74; urgency=medium
+ .
+   * [lmn_linbo4] Fix KeyError 'diff' when saving an image without the
+     diff option: default to False if missing from the POST body. Hide
+     the edit button for images that are in an error state.
+   * [lmn_users] Fix a duplicate "Login" column in the users list
+     management view; replaced by the intended "Birthday" column.
+     Fix #292.
+   * [lmn_landingpage] Update landing page (index.html, po/pot, all
+     locale .js) to display version 7.4. Merge pull request #290 from
+     jolly-jump/patch-1.
+   * [lmn_setup_wizard] Rebuild all.js.
+Checksums-Sha1:
+ 16d7d6bfe2706c45dd4005b748d711f381016270 565 linuxmuster-webui7_7.4.10.dsc
+ 555b1d599ea4eb1e703cf6c938e49f7305de3d2e 1626767 linuxmuster-webui7_7.4.10.tar.gz
+ f68caed5e2a92f5d6d8520041bf6391fd9bd9e9d 835914 linuxmuster-webui7_7.4.10_all.deb
+ 407c760fb82716a8419c6e77ae3dadf5be6c3dbb 7795 linuxmuster-webui7_7.4.10_amd64.buildinfo
+Checksums-Sha256:
+ c2e056e842f6e6213853ad5dae3da8d2c09173c1efefe112610b8bb8e1ec71ce 565 linuxmuster-webui7_7.4.10.dsc
+ a423c64a9b9b68cace6777efe598bd3f03402cc6f6eab2e5ba65e45fc7fd65e1 1626767 linuxmuster-webui7_7.4.10.tar.gz
+ 10840a685eba27008cfa2749aeb914f685ea121c226f68f3e3c4683572a8ec5a 835914 linuxmuster-webui7_7.4.10_all.deb
+ 0a6e1f6549191e1144e1a022054a739ca93a0a881cefa0094cbe316044a08c60 7795 linuxmuster-webui7_7.4.10_amd64.buildinfo
+Files:
+ ed407943d027b9091ccf5aa88f89e174 565 admin optional linuxmuster-webui7_7.4.10.dsc
+ f0136deb81ba999f95557e872e772701 1626767 admin optional linuxmuster-webui7_7.4.10.tar.gz
+ a426e790a3b3ffc8f7fd13f4ad68756d 835914 admin optional linuxmuster-webui7_7.4.10_all.deb
+ ed978d9bd192093cfc1c77d972dc889c 7795 admin optional linuxmuster-webui7_7.4.10_amd64.buildinfo
