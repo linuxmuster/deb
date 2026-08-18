@@ -14,20 +14,20 @@ MD5sum: 7f26e6f15bafb61236f2dce38940b5ca
 Description: Api for the linuxmuster.net 7 server.
 
 Package: linuxmuster-base7
-Version: 7.4.14
+Version: 7.4.15
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
-Installed-Size: 443
+Installed-Size: 460
 Pre-Depends: python3, linuxmuster-common (>= 7.4.0)
 Depends: python3-apt, python3-bcrypt, python3-bs4, python3-dialog, python3-ipy, python3-ldap3, python3-lxml, python3-netaddr, python3-netifaces, python3-paramiko, python3-requests, python3-urllib3, python3:any, coreutils, cups, dracut, printer-driver-cups-pdf, isc-dhcp-server, python3-setproctitle, openssl, samba, samba-ad-dc, samba-dsdb-modules, smbclient, ldb-tools, krb5-user, linuxmuster-prepare, linuxmuster-linbo7, linuxmuster-webui7, ntpsec, sophomorix-samba, tmux
 Conflicts: dnsmasq-base
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.4.14_all.deb
-Size: 100886
-SHA256: f305aace34e4fcbc21587d9525580dee8991318ee7a0300ff06d23173b265f11
-SHA1: def1025527119b8e0af4f0b2108ed9577cd27e6d
-MD5sum: 8bf57ef0e6ff73f3c46c52a278f83f54
+Filename: pool/main/l/linuxmuster-base7/linuxmuster-base7_7.4.15_all.deb
+Size: 104298
+SHA256: ee76746a2283ea0c04466fcce7c18e03aac4756f43d72b647b80b747fbfca073
+SHA1: abe47764f9569d7d44b222b15cfc033b9460eb01
+MD5sum: ec688dbaade851fbc8ed04761fad17b1
 Description: linuxmuster.net configuration scripts
  This package provides configuration scripts for linuxmuster.net
 
