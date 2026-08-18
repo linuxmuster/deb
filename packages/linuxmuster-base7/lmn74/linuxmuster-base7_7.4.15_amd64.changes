@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Tue, 18 Aug 2026 18:50:48 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.15
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.15) lmn74; urgency=low
+ .
+   * fix(ntp.conf): drop obsolete notrap restrict flag, which ntpsec
+     ignores and logs on every start (#192, PR #193, debbab8).
+   * fix(ntp.conf): drop obsolete nopeer restrict flag, same reason (7505cbc).
+   * refactor(e_fstab.py): split main() into named phase functions (#129, 354ea1b)
+   * refactor(import_devices.py): split main() into named step functions,
+     drop dead devices/serverip/domainname variables (#129, 22b07aa)
+   * refactor(import_subnets.py): split main() into readSetupValues(),
+     partitionSubnets() and updateFirewall() (#129, 2d405f4)
+   * refactor(setup.py): split main() into parseArguments(),
+     openSetupLogfile(), writeCustomIni() and runSetupModules() (#129, e4c6e69)
+   * refactor(functions.py): split into functions/ package with 8 cohesive
+     submodules (core, files, network, samba, linbo, certs, remote,
+     security); __init__.py re-exports every name unchanged (#129, 5f1841e)
+   * fix(d_templates.py): fill @@restricted_subnets@@ with a safe empty
+     default and create /var/log/ntpsec proactively - both were causing
+     ntpd errors on the very first start of a fresh install (4873245)
+   * fix(d_templates.py): run the one-time ntpd sync as ntpsec:ntpsec
+     instead of root, avoiding an AppArmor dac_override denial that still
+     caused "Permission denied" writing to /var/log/ntpsec (9cd111a)
+Checksums-Sha1:
+ 6b91b2f0b0e069f2dfdef3b3ab74e7857c539027 896 linuxmuster-base7_7.4.15.dsc
+ 49de90a0f4cb87b48956f0e0e3031039fbc07222 167420 linuxmuster-base7_7.4.15.tar.gz
+ abe47764f9569d7d44b222b15cfc033b9460eb01 104298 linuxmuster-base7_7.4.15_all.deb
+ 0914cca89b61a88e9547cdb8e1e6b73d078dd69d 9677 linuxmuster-base7_7.4.15_amd64.buildinfo
+Checksums-Sha256:
+ 44bf66d7c0dbcd1c52a3fb165a8182ac47fdcbc773f4840fb1f178d0ec5473ef 896 linuxmuster-base7_7.4.15.dsc
+ a227ea921c98ee14fe542a50eb6631a1af5066c1c1ec1cc16711d2afd013ae5b 167420 linuxmuster-base7_7.4.15.tar.gz
+ ee76746a2283ea0c04466fcce7c18e03aac4756f43d72b647b80b747fbfca073 104298 linuxmuster-base7_7.4.15_all.deb
+ b91b59edab438cc6c127d20bc1390c42d5b95ded2700ca6a76d2f87cc128dc83 9677 linuxmuster-base7_7.4.15_amd64.buildinfo
+Files:
+ 8f0b305a3a2f3a5e5f1a35b3c38aaa43 896 linuxmuster optional linuxmuster-base7_7.4.15.dsc
+ fbaecfacedd0c61361a4bc4c84400009 167420 linuxmuster optional linuxmuster-base7_7.4.15.tar.gz
+ ec688dbaade851fbc8ed04761fad17b1 104298 linuxmuster optional linuxmuster-base7_7.4.15_all.deb
+ 40a2067f69a44d176054662f05d8fc62 9677 linuxmuster optional linuxmuster-base7_7.4.15_amd64.buildinfo
