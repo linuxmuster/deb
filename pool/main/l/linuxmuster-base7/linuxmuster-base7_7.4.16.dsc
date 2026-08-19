@@ -2,7 +2,7 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all
-Version: 7.4.15
+Version: 7.4.16
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
 Uploaders: Thomas Schmitt <thomas@linuxmuster.net>
 Standards-Version: 5.0.0
@@ -10,8 +10,8 @@ Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptoo
 Package-List:
  linuxmuster-base7 deb linuxmuster optional arch=all
 Checksums-Sha1:
- 49de90a0f4cb87b48956f0e0e3031039fbc07222 167420 linuxmuster-base7_7.4.15.tar.gz
+ 9a90fc4df3288312b8fbab93493b7d5f131f4ee9 167430 linuxmuster-base7_7.4.16.tar.gz
 Checksums-Sha256:
- a227ea921c98ee14fe542a50eb6631a1af5066c1c1ec1cc16711d2afd013ae5b 167420 linuxmuster-base7_7.4.15.tar.gz
+ 6de51315124500d7c4c4cdfebedd17de42365d8c59759a557ac2de5dcd1d1dde 167430 linuxmuster-base7_7.4.16.tar.gz
 Files:
- fbaecfacedd0c61361a4bc4c84400009 167420 linuxmuster-base7_7.4.15.tar.gz
+ 4c2354f8fb8187aba31225b64b749205 167430 linuxmuster-base7_7.4.16.tar.gz
