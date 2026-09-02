@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 02 Sep 2026 16:51:45 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.19
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.19) lmn74; urgency=low
+ .
+   * fix(opnsense_reset.py): re-import subnets after firewall config reset,
+     restoring the LAN gateway's static routes and outbound NAT rules for
+     subnets other than the server's own, which the config reset wipes on
+     every run (b6e4878).
+Checksums-Sha1:
+ 8b140dd56ab284662ec345272dbeb978f59becac 896 linuxmuster-base7_7.4.19.dsc
+ 4464d4b9510248277b6fa63bc8f6aa240cfdd7b6 174291 linuxmuster-base7_7.4.19.tar.gz
+ 3b525d33942c203d7be2952870d44a5506eff002 109584 linuxmuster-base7_7.4.19_all.deb
+ 3c14df5c82fe693368ac98848f40a721eeeff29b 9687 linuxmuster-base7_7.4.19_amd64.buildinfo
+Checksums-Sha256:
+ 58111f30f45028d5b8cd2269305e029af05f2bd9219d5388d138e475dae37858 896 linuxmuster-base7_7.4.19.dsc
+ 41361e552357a8243251129a8dca1de184f47a141276285cf87c923a6e307aae 174291 linuxmuster-base7_7.4.19.tar.gz
+ f72c5e3c7516d727450105479e620d15571f576a4e5f9660b0b7bc200faf7d65 109584 linuxmuster-base7_7.4.19_all.deb
+ 9ad60be7506cfd953ba564e748440c0a7a3a6fea99aa9e78337f4b8ffb006e91 9687 linuxmuster-base7_7.4.19_amd64.buildinfo
+Files:
+ de1f0b45f796e2bc49c92a3db96f5bd6 896 linuxmuster optional linuxmuster-base7_7.4.19.dsc
+ a8b3e2c39c20c1bbebef9ffc74b536d6 174291 linuxmuster optional linuxmuster-base7_7.4.19.tar.gz
+ c6078d9795cec4d6d62fe7a3636517bc 109584 linuxmuster optional linuxmuster-base7_7.4.19_all.deb
+ 9169743abc1ba81ced05880c228c18dd 9687 linuxmuster optional linuxmuster-base7_7.4.19_amd64.buildinfo

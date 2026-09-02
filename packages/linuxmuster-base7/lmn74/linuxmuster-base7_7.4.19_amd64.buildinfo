@@ -2,25 +2,25 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.4.18
+Version: 7.4.19
 Checksums-Md5:
- 6099df80ec61791dbe1e775f7ea8161d 896 linuxmuster-base7_7.4.18.dsc
- 9d20c7817c75c939ddbe3176a905d650 109116 linuxmuster-base7_7.4.18_all.deb
+ de1f0b45f796e2bc49c92a3db96f5bd6 896 linuxmuster-base7_7.4.19.dsc
+ c6078d9795cec4d6d62fe7a3636517bc 109584 linuxmuster-base7_7.4.19_all.deb
 Checksums-Sha1:
- ac2d7e7027af5a5d2b18e8342b9b98fc4b1671a3 896 linuxmuster-base7_7.4.18.dsc
- d19ac68189b779a09d6de7da111cd34df6bfabbf 109116 linuxmuster-base7_7.4.18_all.deb
+ 8b140dd56ab284662ec345272dbeb978f59becac 896 linuxmuster-base7_7.4.19.dsc
+ 3b525d33942c203d7be2952870d44a5506eff002 109584 linuxmuster-base7_7.4.19_all.deb
 Checksums-Sha256:
- 849796ce22377b8477e7f94e31214f7bea8ada2876bc9b220bb89655f38ba380 896 linuxmuster-base7_7.4.18.dsc
- 230e5c8298a12eb0561dc6f8352f6070f0c42f063a2be1095210cf3f80e2360f 109116 linuxmuster-base7_7.4.18_all.deb
+ 58111f30f45028d5b8cd2269305e029af05f2bd9219d5388d138e475dae37858 896 linuxmuster-base7_7.4.19.dsc
+ f72c5e3c7516d727450105479e620d15571f576a4e5f9660b0b7bc200faf7d65 109584 linuxmuster-base7_7.4.19_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 26 Aug 2026 16:44:28 +0000
+Build-Date: Wed, 02 Sep 2026 14:55:49 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
  autopoint (= 0.23.2-1),
  autotools-dev (= 20240727.1build1),
- base-files (= 14ubuntu6.1),
+ base-files (= 14ubuntu6.2),
  base-passwd (= 3.6.8),
  bash (= 5.3-2ubuntu1),
  binutils (= 2.46-3ubuntu2),
@@ -28,7 +28,7 @@ Installed-Build-Depends:
  binutils-x86-64-linux-gnu (= 2.46-3ubuntu2),
  bsdextrautils (= 2.41.3-3ubuntu2),
  build-essential (= 12.12ubuntu2.26.04.2),
- bzip2 (= 1.0.8-6build2),
+ bzip2 (= 1.0.8-6ubuntu0.1),
  ca-certificates (= 20260601~26.04.1),
  coreutils (= 9.5-1ubuntu2+0.0.0~ubuntu25),
  coreutils-from-uutils (= 0.0.0~ubuntu25),
@@ -84,7 +84,7 @@ Installed-Build-Depends:
  libbinutils (= 2.46-3ubuntu2),
  libblkid1 (= 2.41.3-3ubuntu2),
  libbrotli1 (= 1.2.0-3build1),
- libbz2-1.0 (= 1.0.8-6build2),
+ libbz2-1.0 (= 1.0.8-6ubuntu0.1),
  libc-bin (= 2.43-2ubuntu2.3),
  libc-dev-bin (= 2.43-2ubuntu2.3),
  libc-gconv-modules-extra (= 2.43-2ubuntu2.3),
@@ -184,7 +184,7 @@ Installed-Build-Depends:
  libsodium23 (= 1.0.18-2),
  libsqlite3-0 (= 3.46.1-9ubuntu0.2),
  libssh2-1t64 (= 1.11.1-1ubuntu0.26.04.3),
- libssl3t64 (= 3.5.5-1ubuntu3.3),
+ libssl3t64 (= 3.5.5-1ubuntu3.4),
  libstdc++-15-dev (= 15.2.0-16ubuntu1),
  libstdc++6 (= 16-20260322-1ubuntu1),
  libsystemd0 (= 259.5-0ubuntu3.4),
@@ -217,18 +217,18 @@ Installed-Build-Depends:
  ncurses-base (= 6.6+20251231-1),
  ncurses-bin (= 6.6+20251231-1),
  netbase (= 6.5build1),
- openssl (= 3.5.5-1ubuntu3.3),
- openssl-provider-legacy (= 3.5.5-1ubuntu3.3),
+ openssl (= 3.5.5-1ubuntu3.4),
+ openssl-provider-legacy (= 3.5.5-1ubuntu3.4),
  patch (= 2.8-2build1),
  perl (= 5.40.1-7ubuntu0.1),
  perl-base (= 5.40.1-7ubuntu0.1),
  perl-modules-5.40 (= 5.40.1-7ubuntu0.1),
  perl-openssl-defaults (= 7build4),
  po-debconf (= 1.0.22),
- python-apt-common (= 3.1.0ubuntu1),
+ python-apt-common (= 3.1.0ubuntu1.1),
  python3 (= 3.14.3-0ubuntu2),
  python3-all (= 3.14.3-0ubuntu2),
- python3-apt (= 3.1.0ubuntu1),
+ python3-apt (= 3.1.0ubuntu1.1),
  python3-autocommand (= 2.2.2-4),
  python3-bcrypt (= 5.0.0-3build1),
  python3-bs4 (= 4.14.3-2build1),
@@ -279,4 +279,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1787761803"
+ SOURCE_DATE_EPOCH="1788360705"
