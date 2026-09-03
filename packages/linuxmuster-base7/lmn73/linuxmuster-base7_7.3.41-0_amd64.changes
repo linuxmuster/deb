@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 03 Sep 2026 14:42:46 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.41-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.41-0) lmn73; urgency=low
+ .
+   * fix(linuxmuster-release-upgrade): mask the correctly-named
+     systemd-networkd-wait-online.service instead of a nonexistent unit
+     name - masking the wrong name silently no-op'd, leaving boot to hang
+     at its ~120s timeout since systemd-resolved (masked, correctly, since
+     this is a Samba AD domain controller) is still masked too (#203, 72dd48e).
+Checksums-Sha1:
+ 966d00112027c550e9628f235027cd57f980f178 583 linuxmuster-base7_7.3.41-0.dsc
+ 26d6080305c04eb96efc6dd73bc892332e178d23 95601 linuxmuster-base7_7.3.41-0.tar.gz
+ a296aa1c2f2c5b15b80fd987f231150bf671f995 65400 linuxmuster-base7_7.3.41-0_all.deb
+ cec1a0286941ae73191669f883a51cb916d1aaed 6269 linuxmuster-base7_7.3.41-0_amd64.buildinfo
+Checksums-Sha256:
+ e6e9004e9cd98a855387c0a53b45ac5162a34823e0d9b6dc30df56d056e5819b 583 linuxmuster-base7_7.3.41-0.dsc
+ abbadf4b0742eadc4c9707c40bd6c6df7a32df8fab1d2ae6bee123d45bfa7902 95601 linuxmuster-base7_7.3.41-0.tar.gz
+ d76d39aada52697ff631dbe003fb4199bccc0f5235b3e009fd7cd460ec9ada2d 65400 linuxmuster-base7_7.3.41-0_all.deb
+ 0849bc69682171152a3e37116e4696d28880f8573d939e0e7c4d905a9911937f 6269 linuxmuster-base7_7.3.41-0_amd64.buildinfo
+Files:
+ 4d1d5cc370284c464ee92fa01438f8c8 583 linuxmuster optional linuxmuster-base7_7.3.41-0.dsc
+ 42861de94719961a4c6fdb30619fa1f9 95601 linuxmuster optional linuxmuster-base7_7.3.41-0.tar.gz
+ e272c8c359f9529d35a0c9938d7a44fe 65400 linuxmuster optional linuxmuster-base7_7.3.41-0_all.deb
+ 9293419104f1a787bcf4aa194e4f7d0d 6269 linuxmuster optional linuxmuster-base7_7.3.41-0_amd64.buildinfo
