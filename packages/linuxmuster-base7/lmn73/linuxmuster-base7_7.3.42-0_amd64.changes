@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 09 Sep 2026 10:55:33 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.42-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.3.42-0) lmn73; urgency=low
+ .
+   * fix(linuxmuster-release-upgrade): disable systemd-resolved's DNS stub
+     listener (DNSStubListener=no) instead of masking systemd-resolved and
+     systemd-networkd-wait-online.service outright - verified on two
+     independent production systems (#203, 0a0f4b0).
+Checksums-Sha1:
+ 96e2a3521774c60bca5c542bcd5c2daf1b37a51e 583 linuxmuster-base7_7.3.42-0.dsc
+ 2d9de326cb134e03c1902a56a1fb4c05707c7a39 95651 linuxmuster-base7_7.3.42-0.tar.gz
+ cb14a5bf7b6c7f950d0045b4201ca61e945f7133 65542 linuxmuster-base7_7.3.42-0_all.deb
+ 72390fd46266dbc30064f4f82e0f47586aeb4e92 6269 linuxmuster-base7_7.3.42-0_amd64.buildinfo
+Checksums-Sha256:
+ b3ceb1954f3700316b926a3d11fbdccffb726bae0afbb60de39d22172545de74 583 linuxmuster-base7_7.3.42-0.dsc
+ 0ec73e89f6491c4345de73c85a9553405e7434270b367617b43e7531df84b8e7 95651 linuxmuster-base7_7.3.42-0.tar.gz
+ ee4638f70a176b743da01590f59d50c4269484cc501b7647f8e49d14bdbce583 65542 linuxmuster-base7_7.3.42-0_all.deb
+ 5ef8fefbdd14051573fa916c7fc91e57b17d401eaa2a031374b308272962bd44 6269 linuxmuster-base7_7.3.42-0_amd64.buildinfo
+Files:
+ 9a2dc7f710e87d1c2200c8b10a70d01a 583 linuxmuster optional linuxmuster-base7_7.3.42-0.dsc
+ 96a48a40fc1dd7df5a8ea2abd126c16b 95651 linuxmuster optional linuxmuster-base7_7.3.42-0.tar.gz
+ 951baba8e5fda6f8b80a72ad39aa8f9a 65542 linuxmuster optional linuxmuster-base7_7.3.42-0_all.deb
+ f96f11ae3f136c4020ee894a04bac2c4 6269 linuxmuster optional linuxmuster-base7_7.3.42-0_amd64.buildinfo
