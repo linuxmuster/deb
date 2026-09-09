@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 09 Sep 2026 12:30:54 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.20
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.20) lmn74; urgency=low
+ .
+   * fix(postinst): repair systemd-resolved/systemd-networkd-wait-online.service
+     on package upgrade for Samba AD DCs left masked by an old
+     linuxmuster-release-upgrade run - idempotent, only disables
+     systemd-resolved's DNS stub listener instead (#203, 16d35c5).
+Checksums-Sha1:
+ 5952257ce816ae508bf2f05a7ddff50636881118 896 linuxmuster-base7_7.4.20.dsc
+ e3f9ce1a669c536c7324756899beda678b1b2cb7 175055 linuxmuster-base7_7.4.20.tar.gz
+ daa1ba4976a63d189eb913ee3258882afec3027e 110796 linuxmuster-base7_7.4.20_all.deb
+ f380b7f5842b93d37dacd4bcb59a9fb2250512db 9687 linuxmuster-base7_7.4.20_amd64.buildinfo
+Checksums-Sha256:
+ 3c71d3f80f64b5a2d5091629cb272744972fb41381ab2def978c07008b9a8e37 896 linuxmuster-base7_7.4.20.dsc
+ fc8e031232268b75da8e721160f68d1e65a62a8cbc8d3b0859c6e948ffba7878 175055 linuxmuster-base7_7.4.20.tar.gz
+ e901f72d15a89884dc0a37a4a25f4ed2943d8fa911a4ed72428becb6c2b0fe4c 110796 linuxmuster-base7_7.4.20_all.deb
+ e327e6970fa8112e152522bcd9d2d27c7407eccd66ccadcf006383d6bd345aa8 9687 linuxmuster-base7_7.4.20_amd64.buildinfo
+Files:
+ bf3237c6bc3280d64e1a9eec69352202 896 linuxmuster optional linuxmuster-base7_7.4.20.dsc
+ 8bab03b74e55af2dfa281861c45f84e8 175055 linuxmuster optional linuxmuster-base7_7.4.20.tar.gz
+ b58e4d04667de6464f98c21def0bfe45 110796 linuxmuster optional linuxmuster-base7_7.4.20_all.deb
+ 799434c7dd9a9f705da4bb7509f29406 9687 linuxmuster optional linuxmuster-base7_7.4.20_amd64.buildinfo
