@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-webui7
 Binary: linuxmuster-webui7
 Architecture: all source
-Version: 7.3.44
+Version: 7.3.45
 Checksums-Md5:
- 9eb10f5d4873ac214c0384165ebc4e5e 565 linuxmuster-webui7_7.3.44.dsc
- 5e0ef33ab38f3594c536b4528dc8b7e9 834726 linuxmuster-webui7_7.3.44_all.deb
+ a6595835637b884e22b7c31d32f7cdaf 565 linuxmuster-webui7_7.3.45.dsc
+ b0ccf69ed610b769ae9976ad00f395c5 835102 linuxmuster-webui7_7.3.45_all.deb
 Checksums-Sha1:
- b227c8252ff4ceff0b894ca01b8cc7494aec142f 565 linuxmuster-webui7_7.3.44.dsc
- 7406ceb5472613333477f6e3d9d7c48416a52bc2 834726 linuxmuster-webui7_7.3.44_all.deb
+ 99315fcc525c28f6939f637a871c4a1cf4fdeae9 565 linuxmuster-webui7_7.3.45.dsc
+ cb9bd051130175ff63a8f45f7dbb46ecc6269e92 835102 linuxmuster-webui7_7.3.45_all.deb
 Checksums-Sha256:
- 9bfd4919151949256eae556e11eeb7b9ac13ec13712f26aed365f87815851101 565 linuxmuster-webui7_7.3.44.dsc
- 3f67a391179d51aab3b3b7df885f608954687dced44a701812ffcfac4cd2b2d6 834726 linuxmuster-webui7_7.3.44_all.deb
+ 39b2118f0ca18978ccd91cd3a4e91e5fb1a6ce722d57f9de47b291913cec152a 565 linuxmuster-webui7_7.3.45.dsc
+ fea9cfc076f7a8c15c4e01589177dd6ae18b209d27d6347160f154d03c7e5560 835102 linuxmuster-webui7_7.3.45_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 15 Jul 2026 11:02:37 +0000
+Build-Date: Sat, 12 Sep 2026 14:44:10 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -25,20 +25,20 @@ Installed-Build-Depends:
  automake (= 1:1.16.5-1.3ubuntu1),
  autopoint (= 0.21-14ubuntu2),
  autotools-dev (= 20220109.1),
- base-files (= 13ubuntu10.4),
+ base-files (= 13ubuntu10.5),
  base-passwd (= 3.6.3build1),
  bash (= 5.2.21-2ubuntu4),
  binutils (= 2.42-4ubuntu2.10),
  binutils-common (= 2.42-4ubuntu2.10),
  binutils-x86-64-linux-gnu (= 2.42-4ubuntu2.10),
- bsdextrautils (= 2.39.3-9ubuntu6.5),
- bsdutils (= 1:2.39.3-9ubuntu6.5),
+ bsdextrautils (= 2.39.3-9ubuntu6.6),
+ bsdutils (= 1:2.39.3-9ubuntu6.6),
  build-essential (= 12.10ubuntu1),
- bzip2 (= 1.0.8-5.1build0.1),
+ bzip2 (= 1.0.8-5.1ubuntu0.1),
  clang-16 (= 1:16.0.6-23ubuntu4),
  clang-17 (= 1:17.0.6-9ubuntu1),
  clang-18 (= 1:18.1.3-1ubuntu1),
- coreutils (= 9.4-3ubuntu6.2),
+ coreutils (= 9.4-3ubuntu6.3),
  cpp (= 4:13.2.0-7ubuntu1),
  cpp-12 (= 12.4.0-2ubuntu1~24.04.1),
  cpp-13 (= 13.3.0-6ubuntu2~24.04.1),
@@ -53,7 +53,7 @@ Installed-Build-Depends:
  debugedit (= 1:5.0-5build2),
  dh-autoreconf (= 20),
  dh-strip-nondeterminism (= 1.13.1-1),
- diffutils (= 1:3.10-1build1),
+ diffutils (= 1:3.10-1ubuntu0.1),
  dpkg (= 1.22.6ubuntu6.6),
  dpkg-dev (= 1.22.6ubuntu6.6),
  dwz (= 0.15-1build6),
@@ -64,7 +64,7 @@ Installed-Build-Depends:
  g++-13 (= 13.3.0-6ubuntu2~24.04.1),
  g++-13-x86-64-linux-gnu (= 13.3.0-6ubuntu2~24.04.1),
  g++-x86-64-linux-gnu (= 4:13.2.0-7ubuntu1),
- gawk (= 1:5.2.1-2build3),
+ gawk (= 1:5.2.1-2ubuntu0.1),
  gcc (= 4:13.2.0-7ubuntu1),
  gcc-12 (= 12.4.0-2ubuntu1~24.04.1),
  gcc-12-base (= 12.4.0-2ubuntu1~24.04.1),
@@ -79,7 +79,7 @@ Installed-Build-Depends:
  gettext-base (= 0.21-14ubuntu2),
  grep (= 3.11-4build1),
  groff-base (= 1.23.0-3build2),
- gzip (= 1.12-1ubuntu3.1),
+ gzip (= 1.12-1ubuntu3.2),
  hostname (= 3.23+nmu2ubuntu2),
  init-system-helpers (= 1.66ubuntu1),
  install-info (= 7.1-3build2),
@@ -88,17 +88,17 @@ Installed-Build-Depends:
  libarchive-zip-perl (= 1.68-1),
  libasan8 (= 14.2.0-4ubuntu2~24.04.1),
  libatomic1 (= 14.2.0-4ubuntu2~24.04.1),
- libattr1 (= 1:2.5.2-1build1.1),
+ libattr1 (= 1:2.5.2-1ubuntu0.1),
  libaudit-common (= 1:3.1.2-2.1build1.1),
  libaudit1 (= 1:3.1.2-2.1build1.1),
  libbinutils (= 2.42-4ubuntu2.10),
- libblkid1 (= 2.39.3-9ubuntu6.5),
+ libblkid1 (= 2.39.3-9ubuntu6.6),
  libbsd0 (= 0.12.1-1build1.1),
- libbz2-1.0 (= 1.0.8-5.1build0.1),
- libc-bin (= 2.39-0ubuntu8.7),
- libc-dev-bin (= 2.39-0ubuntu8.7),
- libc6 (= 2.39-0ubuntu8.7),
- libc6-dev (= 2.39-0ubuntu8.7),
+ libbz2-1.0 (= 1.0.8-5.1ubuntu0.1),
+ libc-bin (= 2.39-0ubuntu8.8),
+ libc-dev-bin (= 2.39-0ubuntu8.8),
+ libc6 (= 2.39-0ubuntu8.8),
+ libc6-dev (= 2.39-0ubuntu8.8),
  libcap-ng0 (= 0.8.4-2build2),
  libcap2 (= 1:2.66-5ubuntu2.4),
  libcc1-0 (= 14.2.0-4ubuntu2~24.04.1),
@@ -130,7 +130,7 @@ Installed-Build-Depends:
  libgcc-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libgcc-14-dev (= 14.2.0-4ubuntu2~24.04.1),
  libgcc-s1 (= 14.2.0-4ubuntu2~24.04.1),
- libgcrypt20 (= 1.10.3-2ubuntu0.1),
+ libgcrypt20 (= 1.10.3-2ubuntu0.2),
  libgdbm-compat4t64 (= 1.23-5.1build1),
  libgdbm6t64 (= 1.23-5.1build1),
  libgmp10 (= 2:6.3.0+dfsg-2ubuntu6.1),
@@ -151,17 +151,17 @@ Installed-Build-Depends:
  libmagic-mgc (= 1:5.45-3build1),
  libmagic1t64 (= 1:5.45-3build1),
  libmd0 (= 1.1.0-2build1.1),
- libmount1 (= 2.39.3-9ubuntu6.5),
+ libmount1 (= 2.39.3-9ubuntu6.6),
  libmpc3 (= 1.3.1-1build1.1),
  libmpfr6 (= 4.2.1-1build1.1),
  libobjc-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libobjc4 (= 14.2.0-4ubuntu2~24.04.1),
- libpam-modules (= 1.5.3-5ubuntu5.5),
- libpam-modules-bin (= 1.5.3-5ubuntu5.5),
- libpam-runtime (= 1.5.3-5ubuntu5.5),
- libpam0g (= 1.5.3-5ubuntu5.5),
+ libpam-modules (= 1.5.3-5ubuntu5.7),
+ libpam-modules-bin (= 1.5.3-5ubuntu5.7),
+ libpam-runtime (= 1.5.3-5ubuntu5.7),
+ libpam0g (= 1.5.3-5ubuntu5.7),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.3),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.4),
  libpipeline1 (= 1.5.7-2),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04.1),
  libreadline8t64 (= 8.2-4build1),
@@ -169,23 +169,23 @@ Installed-Build-Depends:
  libselinux1 (= 3.5-2ubuntu2.1),
  libsframe1 (= 2.42-4ubuntu2.10),
  libsigsegv2 (= 2.14-1ubuntu2),
- libsmartcols1 (= 2.39.3-9ubuntu6.5),
- libssl3t64 (= 3.0.13-0ubuntu3.11),
+ libsmartcols1 (= 2.39.3-9ubuntu6.6),
+ libssl3t64 (= 3.0.13-0ubuntu3.15),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04.1),
  libsub-override-perl (= 0.10-1),
- libsystemd0 (= 255.4-1ubuntu8.16),
- libtinfo6 (= 6.4+20240113-1ubuntu2.1),
+ libsystemd0 (= 255.4-1ubuntu8.17),
+ libtinfo6 (= 6.4+20240113-1ubuntu2.2),
  libtool (= 2.4.7-7build1),
  libtsan2 (= 14.2.0-4ubuntu2~24.04.1),
  libubsan1 (= 14.2.0-4ubuntu2~24.04.1),
  libuchardet0 (= 0.0.8-1build1),
- libudev1 (= 255.4-1ubuntu8.16),
+ libudev1 (= 255.4-1ubuntu8.17),
  libunistring5 (= 1.1-2build1.1),
- libuuid1 (= 2.39.3-9ubuntu6.5),
+ libuuid1 (= 2.39.3-9ubuntu6.6),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.8),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-134.134),
+ linux-libc-dev (= 6.8.0-139.139),
  llvm-16-linker-tools (= 1:16.0.6-23ubuntu4),
  llvm-17-linker-tools (= 1:17.0.6-9ubuntu1),
  llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
@@ -195,25 +195,25 @@ Installed-Build-Depends:
  make (= 4.3-4.1build2),
  man-db (= 2.12.0-4build2),
  mawk (= 1.3.4.20240123-1build1),
- ncurses-base (= 6.4+20240113-1ubuntu2.1),
- ncurses-bin (= 6.4+20240113-1ubuntu2.1),
+ ncurses-base (= 6.4+20240113-1ubuntu2.2),
+ ncurses-bin (= 6.4+20240113-1ubuntu2.2),
  patch (= 2.7.6-7build3),
- perl (= 5.38.2-3.2ubuntu0.3),
- perl-base (= 5.38.2-3.2ubuntu0.3),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.3),
+ perl (= 5.38.2-3.2ubuntu0.4),
+ perl-base (= 5.38.2-3.2ubuntu0.4),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.4),
  po-debconf (= 1.0.21+nmu1),
  readline-common (= 8.2-4build1),
  rpcsvc-proto (= 1.4.2-0ubuntu7),
  sed (= 4.9-2ubuntu0.24.04.1),
  sensible-utils (= 0.0.22),
  sysvinit-utils (= 3.08-6ubuntu3),
- tar (= 1.35+dfsg-3ubuntu0.1),
- util-linux (= 2.39.3-9ubuntu6.5),
+ tar (= 1.35+dfsg-3ubuntu0.4),
+ util-linux (= 2.39.3-9ubuntu6.6),
  xz-utils (= 5.6.1+really5.4.5-1ubuntu0.3),
- zlib1g (= 1:1.3.dfsg-3.1ubuntu2.1)
+ zlib1g (= 1:1.3.dfsg-3.1ubuntu2.2)
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1784112888"
+ SOURCE_DATE_EPOCH="1789224101"
