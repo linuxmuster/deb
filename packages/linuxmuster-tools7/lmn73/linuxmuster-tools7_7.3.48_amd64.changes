@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Sat, 12 Sep 2026 16:41:49 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.48
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.48) lmn73; urgency=medium
+ .
+   * [linbo][ldapconnector] Fix case sensitive names for image.status, so
+     that the last sync date is found whatever the case of the file name.
+   * [ldapconnector] Fix ValueError when the member list of a schoolclass
+     subgroup ends up empty: the attribute is now deleted instead of being
+     set to an empty list.
+   * [lmnfile] Accept negative values in config files, so that the
+     unlimited quota (-1) of school.conf is read as an integer.
+Checksums-Sha1:
+ 76a45c906dbe5f43c2681eb7cbb9f94e2d78f7b6 583 linuxmuster-tools7_7.3.48.dsc
+ 6fe43323d5dfa9fd0b4c930aebf89ef55223c96d 126440 linuxmuster-tools7_7.3.48.tar.gz
+ 19716d07783b16f784bc021bd286617495bf67b7 92946 linuxmuster-tools7_7.3.48_all.deb
+ 93df199b4cb75c77cf0a00aa414a12fa8b30931d 7751 linuxmuster-tools7_7.3.48_amd64.buildinfo
+Checksums-Sha256:
+ 79159a35e895d8a68694013587c2c44134ef0ac64fd69e6c4c7c5da50e564cae 583 linuxmuster-tools7_7.3.48.dsc
+ 9bf78dd64d5cbb386ab671619b1c41c54939dbc70fc0e96d0f2f71c60a938e02 126440 linuxmuster-tools7_7.3.48.tar.gz
+ dcfe669951aa541964bec18342e2ed51ea922df7d8e10de111ff31440972eb8d 92946 linuxmuster-tools7_7.3.48_all.deb
+ 29d7b8a4efad1070886cc65973a3149d0b6625cc1f0dbb15d482c8877c882319 7751 linuxmuster-tools7_7.3.48_amd64.buildinfo
+Files:
+ bb153de60e6368024311072912a02bc0 583 linuxmuster optional linuxmuster-tools7_7.3.48.dsc
+ 6028f16f0e6d942ad921581650ad847c 126440 linuxmuster optional linuxmuster-tools7_7.3.48.tar.gz
+ 187ba0fc722fe4917661da19545a4b94 92946 linuxmuster optional linuxmuster-tools7_7.3.48_all.deb
+ eb392d880ea48b259618777d7de14b50 7751 linuxmuster optional linuxmuster-tools7_7.3.48_amd64.buildinfo
