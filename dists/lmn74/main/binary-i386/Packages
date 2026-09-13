@@ -149,19 +149,19 @@ MD5sum: fa3cb05eb27c14f35281b6901d627a13
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
-Version: 7.4.10
+Version: 7.4.11
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 18023
+Installed-Size: 18026
 Depends: python3-pip, python3-dev, python3-jinja2, python3-lxml, python3-venv, libffi-dev, libssl-dev, libjpeg-dev, libpng-dev, uuid-dev, libkrb5-dev, gcc, python3-dbus, python3-augeas, python3-apt, ntpsec, libldap2-dev, libsasl2-dev, python3-ldap, sophomorix-samba (>= 3.90.0-2), nmap, linuxmuster-tools7, linuxmuster-cli7, linuxmuster-api7, libmagic1, python3-magic
 Homepage: www.linuxmuster.net
 Priority: optional
 Section: admin
-Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.4.10_all.deb
-Size: 835914
-SHA256: 10840a685eba27008cfa2749aeb914f685ea121c226f68f3e3c4683572a8ec5a
-SHA1: f68caed5e2a92f5d6d8520041bf6391fd9bd9e9d
-MD5sum: a426e790a3b3ffc8f7fd13f4ad68756d
+Filename: pool/main/l/linuxmuster-webui7/linuxmuster-webui7_7.4.11_all.deb
+Size: 836920
+SHA256: 57db3f00f2d88f9caa86e1f04002d288909489bec11d1e6b36d35e56f4a111b0
+SHA1: 049037348b242d3b4b070bedfde77f6517934060
+MD5sum: 2cc51c845f4432cd69f4c1493cf3ea87
 Description: Next generation web-based management tool for linuxmuster.net v7.x
 
 Package: sophomorix-belwue-mail
