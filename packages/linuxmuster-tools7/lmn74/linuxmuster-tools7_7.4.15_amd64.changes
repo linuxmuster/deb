@@ -1,0 +1,63 @@
+Format: 1.8
+Date: Sun, 13 Sep 2026 16:04:50 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.15
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.15) lmn74; urgency=medium
+ .
+   * [ldapconnector] Printer members are now added and removed in a single
+     targeted LDAP modify instead of rewriting the whole member list: two
+     changes landing at the same time can no longer overwrite each other.
+     LMNPrinter.add_members()/remove_members() take users as well as
+     groups and report their failures like the group writers do.
+   * [ldapconnector] Fix ValueError when the last member of a group was
+     removed: an empty member list now goes through delattr(). Reported by
+     @juergen.
+   * [ldapconnector] A failed LDAP write while adding a member now reaches
+     the caller instead of being logged and reported as a success.
+   * [ldapconnector] Fix the parent group lookup for student logins
+     containing a dot. Merge pull request #31 from @Maddi02.
+   * [lmnfile] ConfigLoader accepts negative values: a quota of -1 stayed a
+     string and left the quota tab empty. Reported by @juergen.
+   * [linbo] image.status: the three duplicated parsers are merged into
+     one, timestamps are exposed as UTC epoch, a missing or malformed
+     status file no longer raises, and file names are matched
+     case-insensitively. Reported by @TomS.
+   * [linbo] scan_hosts() no longer returns lastSeen: it held the time of
+     the probe, not a last-seen date. Recording it is the caller's job.
+   * [linbo] parse_linbo_startconf() flushes the last stanza. Fix #29,
+     reported by @TomlDev. Group listing is decoupled from start.conf
+     parsing and exposed through the new group_ids attribute.
+   * [linbo] Move the unused LinboImageSync class to WIP.
+   * [common] New NameChecker.validate(), used wherever a name is used to
+     build a path.
+   * [schoolclasses] The <class>-teachers/-students/-parents subgroups are
+     now kept in sync in sophomorixAdmins too, can be deleted, and their
+     orphans detected after a kill. New SchoolClassExistError.
+   * [install-scripts] Student groups are checked for every school and the
+     attic is excluded. The sophomorix hooks no longer abort on a single
+     failure and drop a deprecated school parameter.
+Checksums-Sha1:
+ 1576edc1d1a0bf9d97cc39a723c1aa8aeda55633 583 linuxmuster-tools7_7.4.15.dsc
+ 3c1fb5d2f5dc9de652bee99cb2d8caf3f90ff6fc 288380 linuxmuster-tools7_7.4.15.tar.gz
+ 6ad0bd3a51d938a6dd5dff73d71089af9e232aff 217382 linuxmuster-tools7_7.4.15_all.deb
+ 57dbf26a456473eb507b7084a043c5e2dde0c580 7754 linuxmuster-tools7_7.4.15_amd64.buildinfo
+Checksums-Sha256:
+ 40afcfd8b8b484a9474c2f59c6c2b6c5ea94033b5956b87eabc00e98c6ada8ff 583 linuxmuster-tools7_7.4.15.dsc
+ 178359ba772cb50eaa6ffd1c92bc60cfce53678e2e605988a485e2a164df5fab 288380 linuxmuster-tools7_7.4.15.tar.gz
+ 4b92d98f623ab0e6a58c76d10345b3e6e1eeb58894c9865ff6d8665ed0e3046b 217382 linuxmuster-tools7_7.4.15_all.deb
+ f060ff39edc56a598de89f3cd6d5383abb32addb96a99460fb706a75e812012b 7754 linuxmuster-tools7_7.4.15_amd64.buildinfo
+Files:
+ b2f8e6ef9867b81634b05c3e372989d4 583 linuxmuster optional linuxmuster-tools7_7.4.15.dsc
+ cc41fbe5792bb831ca01fc6e87fae94f 288380 linuxmuster optional linuxmuster-tools7_7.4.15.tar.gz
+ fa3cb05eb27c14f35281b6901d627a13 217382 linuxmuster optional linuxmuster-tools7_7.4.15_all.deb
+ 3348d0d78a39173821841c5c60e8d57a 7754 linuxmuster optional linuxmuster-tools7_7.4.15_amd64.buildinfo
