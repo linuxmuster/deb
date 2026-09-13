@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Sun, 13 Sep 2026 16:07:51 +0200
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.8
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.4.8) lmn74; urgency=medium
+ .
+   * [schoolclass] Teachers are now written to sophomorixAdmins as well as
+     to the member list, which is where sophomorix and the webui read
+     them from.
+   * [schoolclass] New command to clean up the orphan subgroups left
+     behind by a killed schoolclass.
+   * [teachers] Ignore the attic group when listing teachers.
+   * [students] Ignore the attic for every school.
+   * [students] Do not abort on a single failure: every failure is
+     collected and displayed, with a non-zero exit code.
+   * [samba] Check the given school is a valid one.
+   * [help] Update the help of several parameters.
+Checksums-Sha1:
+ d76cd57fd626f6186ef56c0e1ae154530a800bd1 564 linuxmuster-cli7_7.4.8.dsc
+ c099031c76785250f9fd81e483024baf51ef3c40 65911 linuxmuster-cli7_7.4.8.tar.gz
+ 6c3e4d750c37910e1ef9c8a47c2306017884ee18 45524 linuxmuster-cli7_7.4.8_all.deb
+ 4c2dc62e48896a05f4e2ed41722ee6afcee9a096 7728 linuxmuster-cli7_7.4.8_amd64.buildinfo
+Checksums-Sha256:
+ 77bd37f0d0611c54f09c1f491f4e292ddf88bea48baa62d610794909320fd8af 564 linuxmuster-cli7_7.4.8.dsc
+ da8062ebe381948e8f16e83548db7596b0eb2c0c7568e7d101b16d8c0b3ed2f0 65911 linuxmuster-cli7_7.4.8.tar.gz
+ 48858b79d8804916515ae3a474a2d6ba1d68ca4e152120c4af9a52972826ab8e 45524 linuxmuster-cli7_7.4.8_all.deb
+ c6ea0e0087e991e51e964cfa53c4917ae14fc0e4199c22bc6afee143295b0dc4 7728 linuxmuster-cli7_7.4.8_amd64.buildinfo
+Files:
+ ced824f1760ac025b8aef1182585519b 564 linuxmuster optional linuxmuster-cli7_7.4.8.dsc
+ cc331cd66a0a0b92b58ae4135b031c07 65911 linuxmuster optional linuxmuster-cli7_7.4.8.tar.gz
+ 1d804f6b096ec7b4745b236a2352fdf9 45524 linuxmuster optional linuxmuster-cli7_7.4.8_all.deb
+ 5701f123668f9aa5911ac0e4e5df5a54 7728 linuxmuster optional linuxmuster-cli7_7.4.8_amd64.buildinfo
