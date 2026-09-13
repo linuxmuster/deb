@@ -1,0 +1,63 @@
+Format: 1.8
+Date: Sun, 13 Sep 2026 16:06:28 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.12
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.4.12) lmn74; urgency=medium
+ .
+   * [printers] PATCH /v1/printers/{printer} was rewriting attributes a
+     partial patch never sent: a patch adding a member also unhid the
+     printer, made it joinable and reset its school to default-school.
+     Only the attributes actually sent are written now.
+   * [printers] Removing the last member answered 500 (empty value refused
+     by setattr) and an unknown name answered 500 (None used as a DN).
+     Both are handled: the member list can be cleared, and an unknown name
+     is refused with a 404 naming it, the whole patch being rejected.
+   * [printers] An exam account is refused with a 400 saying so, instead
+     of a "not found" for an account which does exist.
+   * [printers] Members are applied through one targeted LDAP modify, so
+     adding users and groups in the same operation no longer loses one of
+     the two. Reported by @ebert.
+   * [printers] Pass the caller's school to the writer (multischool).
+   * [roles] GET /v1/roles/{role} is scoped to the caller's school: a
+     school-administrator can no longer read the users of another school,
+     and an empty school parameter no longer widens the query to every
+     school. Global roles, which are read unfiltered, are restricted to
+     global-administrators. Reported by the edulution-ui team.
+   * [listmanagement] Both /v1/listmanagement/{school}/{mgmtlist} routes
+     are scoped to the caller's school: a school-administrator could read
+     and, above all, overwrite the management CSV of another school.
+   * [checks] require_school() treats an empty school as absent and
+     derives it from the caller's token.
+   * [linbo] New endpoint returning the last LINBO status of a given
+     device.
+   * [linbo] POST /linbo/hosts/scan no longer returns lastSeen: the field
+     held the time of the scan itself, not a last-seen date. Tracking last
+     reachability is up to the caller.
+   * [linbo] Use the new group_ids attribute. Fix #36.
+   * [users] Add cn to the user list. Merge pull request #40 from
+     @JanHolger.
+Checksums-Sha1:
+ 1862f711bc35faed86a1d1e2cb6cd1acda3f857b 571 linuxmuster-api7_7.4.12.dsc
+ 4905c1cefb44e424e0eb0118489fe4ebdc37f6d7 135233 linuxmuster-api7_7.4.12.tar.gz
+ b18edb513e16b0ee76fade79f8e904fc8a37e3ae 101584 linuxmuster-api7_7.4.12_all.deb
+ 2276cf440b2f9c2b4ed2ed1fb4c0b976bce082dc 7738 linuxmuster-api7_7.4.12_amd64.buildinfo
+Checksums-Sha256:
+ 542640e80fd6ec7801866170813a962134288fdb065bdce9f346b9d469e5913d 571 linuxmuster-api7_7.4.12.dsc
+ 2285985655d483581b68c0a3d13d3818f3f5214ad678c58a820865e6d641940d 135233 linuxmuster-api7_7.4.12.tar.gz
+ 86f27c511111d03caa22920f5162a830c0f9ebaa961241190435c9e14c40b3ac 101584 linuxmuster-api7_7.4.12_all.deb
+ b500c60e0e0d8a9f348e09be6287aa248561b58e1680434e90aeb0847d339325 7738 linuxmuster-api7_7.4.12_amd64.buildinfo
+Files:
+ 88848355a687f22f91b67b31aa7bb83d 571 linuxmuster optional linuxmuster-api7_7.4.12.dsc
+ ee726a85db47dcddefd53259862f0d6b 135233 linuxmuster optional linuxmuster-api7_7.4.12.tar.gz
+ e55500397c21f02b02fbcb76a6c7f590 101584 linuxmuster optional linuxmuster-api7_7.4.12_all.deb
+ 7211726835a787a7d25b29c6f02d8f86 7738 linuxmuster optional linuxmuster-api7_7.4.12_amd64.buildinfo
