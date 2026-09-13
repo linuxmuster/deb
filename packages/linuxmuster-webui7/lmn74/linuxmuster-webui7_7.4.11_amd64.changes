@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Sun, 13 Sep 2026 16:08:44 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.11
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.11) lmn74; urgency=medium
+ .
+   * [lmn_groupmembership] Enrolling several users or groups into a
+     printer at once had no visible effect: the members were written, but
+     the answer of the server was malformed and the interface neither
+     notified nor refreshed. Printer membership now goes through
+     linuxmuster-api in a single call instead of one sophomorix-group call
+     per entity. Reported by @ebert.
+   * [lmn_groupmembership] Exam accounts are no longer offered when
+     searching for a member to add: the account is temporary, and its
+     label barely differs from the real one.
+   * [lmn_common] New linuxmuster-api client methods for printers
+     (patch_printer_members, join_printer, quit_printer).
+   * [lmn_device-manager] Use last_sync from linuxmuster-tools instead of
+     a local implementation.
+   * [core] Update to Ajenti 2.2.17, which fixes three issues reachable
+     without authentication (see the Ajenti changelog).
+Checksums-Sha1:
+ 75b40a7515434aeebb7c6974152bd9cfcbb5f9b4 565 linuxmuster-webui7_7.4.11.dsc
+ 8464020f6c94f65e1e0a3249f2da71fd78a244ae 1629459 linuxmuster-webui7_7.4.11.tar.gz
+ 049037348b242d3b4b070bedfde77f6517934060 836920 linuxmuster-webui7_7.4.11_all.deb
+ b91631d55886a4cf6d11f152c524632bbfff45d3 7801 linuxmuster-webui7_7.4.11_amd64.buildinfo
+Checksums-Sha256:
+ 8619113d85868e5d4462017b655d9057e7c0cd52d4fe1063e517e603789a5534 565 linuxmuster-webui7_7.4.11.dsc
+ 3827d7d69bedb06c00f7546b8edd135ab3d6f33d477b35c076ef491229467c7e 1629459 linuxmuster-webui7_7.4.11.tar.gz
+ 57db3f00f2d88f9caa86e1f04002d288909489bec11d1e6b36d35e56f4a111b0 836920 linuxmuster-webui7_7.4.11_all.deb
+ 86cd58f03b4b3ca6a926c0e63cb7e703e4186b1e58c86f9084394c19308e9066 7801 linuxmuster-webui7_7.4.11_amd64.buildinfo
+Files:
+ f9c76b0b172f7729915ce6177b21d2eb 565 admin optional linuxmuster-webui7_7.4.11.dsc
+ d12ea43523d83fcd0873f571f6c00ff8 1629459 admin optional linuxmuster-webui7_7.4.11.tar.gz
+ 2cc51c845f4432cd69f4c1493cf3ea87 836920 admin optional linuxmuster-webui7_7.4.11_all.deb
+ 7294959e9aad5d356849b6034dbaf871 7801 admin optional linuxmuster-webui7_7.4.11_amd64.buildinfo
