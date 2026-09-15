@@ -1,0 +1,73 @@
+Format: 1.8
+Date: Tue, 15 Sep 2026 21:19:14 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.13
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.4.13) lmn74; urgency=medium
+ .
+   * [security] A host key can be restricted to a list of endpoints with a
+     new optional "scope" in its host_keys entry. Without one, nothing
+     changes: the key keeps reaching the whole API with the LDAP role of
+     its user. A scope only ever narrows, the role is still checked behind
+     it. Entries read "<METHOD> <path>" and are matched against the path
+     as it appears on the wire, without the /v1 prefix, with "*" for one
+     path segment and "**" for the rest of the path. An entry matching no
+     route of the API is logged as a warning at startup and never allows
+     anything.
+   * [security] The rate limit of GET /v1/auth/ is configurable through a
+     new rate_limit section (requests, window, whitelist) instead of being
+     fixed at 5 requests per 60 s. The counter stays per client address,
+     which a front-end signing all its users in from one address would
+     spend on the first few of them: such an address can now be
+     whitelisted. Setting requests to 0 or less disables the limiter.
+     Callers on the host itself are still never counted. Fix #41, reported
+     by @Pasemesan.
+   * [linbo] Three routes for a group's VDI config, read, written and
+     deleted at /v1/linbo/startconfs/{group_id}/vdi. Not to be confused
+     with an image's .vdi sidecar. Fix #38, reported by @TomlDev.
+   * [linbo] The start.conf backups the server already keeps are exposed:
+     list, restore and delete under
+     /v1/linbo/startconfs/{group_id}/backups. A restore backs the current
+     file up before overwriting it. Fix #39, reported by @TomlDev.
+   * [linbo] GET /v1/linbo/iso downloads linbo.iso, GET /v1/linbo/examples
+     lists the example configs shipped with the server and
+     /v1/linbo/examples/{name} returns one of them. See #39.
+   * [linbo] School-administrators reach the LINBO routes, which were
+     global-admin only while the Schulkonsole has always granted them the
+     same access. Routes acting on machines (wol, boot logs) are filtered
+     to the school of the caller through devices.csv; the ones reading
+     /srv/linbo address a flat, server-wide set of files and each
+     dangerous endpoint says so in its description. Per-school LINBO files
+     are the real fix and are planned separately. Only /server-info stays
+     global-admin only. Fix #37, reported by @TomlDev.
+   * [linbo] The startconfs and configs routes no longer take a school
+     parameter: group_id addresses one server-wide set of files and the
+     parameter was only validated, never used.
+   * [packaging] postinst: the deprecated venv migration is dropped, and a
+     new linuxmuster-venv dpkg trigger reinstalls the API requirements
+     when linuxmuster-tools7 rebuilds the shared venv after a Python
+     upgrade.
+Checksums-Sha1:
+ 4098bf1102978d631bb580c7dfdd82b712ee00f3 571 linuxmuster-api7_7.4.13.dsc
+ 148ec390f552cc9662b0788b351d21bc9440e6ae 149367 linuxmuster-api7_7.4.13.tar.gz
+ adc0f208415a76e329f50859e3f182c4b46b6400 112548 linuxmuster-api7_7.4.13_all.deb
+ 303bd9738a1dadb8f944c5ddaca043a93b6f9146 7738 linuxmuster-api7_7.4.13_amd64.buildinfo
+Checksums-Sha256:
+ 3b01f726d07324b58fc36e5f72eab69da4ffd71a61f4a9f041061bd742b79c6b 571 linuxmuster-api7_7.4.13.dsc
+ 7e364c3a19fc6823651a37c38d0b36a933dd8e7c05717bbed9c2c9e070533787 149367 linuxmuster-api7_7.4.13.tar.gz
+ 9bea15b1989eb085373057b8284b9c6e4978516bdf462dbf0733cc435a0e4de0 112548 linuxmuster-api7_7.4.13_all.deb
+ d31057dcd3cbb970298dec1b42242ee0c83676e950fcf42f2b935e44de7079d5 7738 linuxmuster-api7_7.4.13_amd64.buildinfo
+Files:
+ 644c83882479f5fb7b256c4393a8aeac 571 linuxmuster optional linuxmuster-api7_7.4.13.dsc
+ 7a2df56c2dcfe636b093882927dfee0e 149367 linuxmuster optional linuxmuster-api7_7.4.13.tar.gz
+ 5fc016bca1ec0a5c8e7ddfc01685a66d 112548 linuxmuster optional linuxmuster-api7_7.4.13_all.deb
+ d0580e6819c9b613e6f8019e39553ac0 7738 linuxmuster optional linuxmuster-api7_7.4.13_amd64.buildinfo
