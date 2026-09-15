@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: lmn70
-Date: Tue, 15 Sep 2026 12:10:32 UTC
+Date: Tue, 15 Sep 2026 16:46:04 UTC
 Architectures: i386 amd64
 Components: main
 Description: lmn70 (bionic) stable
@@ -40,17 +40,17 @@ SHA256:
  affabc0762542764c0cdd95a24c3fa1a304bbb44e657b696ed3702f070c92534 127 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmqpNbgACgkQTouLZn11
-LDKiYQ/9FLshRYd9nzXzcolToSHqIRNMO8TnAqo+paJpui1emQ3vXCocVHDisJ6F
-rQDTqu6mLlOSJ/OtsX9ojqQRSigFsX083ZKria1SOX7t2aE9dlTn21owT6Eji6RI
-IbVasfOoxeZJ0rJxhXPtvqpMcBsjbC3DDexVYlWCjkre4Gu+s5RGsLqDGHb9DNRz
-ulchs3h4Kw02cIrQMLzxgNy2YFr1n5YZvMADMVVqp6I7dJur0CJdcEfE8Tkh1xtG
-Nh8UUhnKj7SVnkhdfGi85t4bChC0fVs2ALzq5aqA1xj+dTL/SyITAYLeJ7RxMj1K
-yRhEfkJ00Kc75/ClRo7EZO+Eabi2sCtvbwgw11EG3f2Ci/8RDGeVkrdUZDx3lqpp
-TIlaZApWXN0I7c7yKvw3e9Q2RduhoFrVEE7++iGiJLIARQEVlL52Nj8SRxLj2KIo
-X1KKdXc6fK5Jt0zq4lVMdYJzHBMPyvNm0W+dtkLId/JQ382rUOd3yuZ4JyDhBlVk
-BrSK2GiXnKxAwLXVn6m3SPkYgsKNen4drdPCUjHbFbH44j/sWhvviOI8VgcKY8ux
-zTtA62wIqj+0eF322tqbusY+6m0Hrpno4uO+3X74lkH/j1TBZ/St9SQrIgd7nVU0
-l/jG6LpZhEO117PfBWB+x0vSmTWMP06/SOInIO7ouC9NhwZcuLg=
-=cpcf
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmqpdkwACgkQTouLZn11
+LDJL4w//b5pIFRb7ax58y1Nc2dddg895UIzqGvsba1JSwZxy+dpw3BW7Xvc2km8D
+6VVnbFyOGpXxxiifSWe0FEARuCyMz8/LXWF/MPbM6xpGrro7dzW3eTegVW0vTN32
+m6rnFDoXtrPL7aJWe5ZN5xvuJbDx71stWhBXoL0Jse/etGK7g6altznNVRBkFWhs
+48SekCzZ8SrwpeB9V/aRs/V35HdnCZp4sOALSzjnbbQhIfuT6jlz8lG03Smg9N69
+JRywteP3pkpwBTzwcJJ53mT8pn7Ok3f9FRNUrVrhNF938C/BACoIscHZQTTAceQ/
+bm1Ljj1b6LIlitWXiZ2Iw75tdqHGOX66J6KZPjuDEYyMpgQoKXIgbO2r7tFkohdl
+NrMLCmwK18/88LAgeKy7LdA4YA55EqUMcgxp8KmEFXIvbr9xEMCDm3Y1EcQc+GQO
+k1hIbL8MJsZvO+/Rnkx3ftipliBLHpnk+Kf0LH6qahItYkfqbWSlZIXpaIxw5SHs
+o9fFUice4AmyL0DkoSsnjgOJ5Z6zPseqrl+64SrqJjBBJZ5UvAYOjphebU6H2BGC
+aFalWoSKx74cVUoVmZD5cA1A55Cz97yxki9PLOmQrXMT5dWnvuYRx0qmdkln/ydz
+Vu5AhUvkcE8fhPUX/VQAel3U0d6sMC+cb6gZJo2QN314K7aegjA=
+=uF17
 -----END PGP SIGNATURE-----
