@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Tue, 15 Sep 2026 21:19:14 +0200
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.12
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.12) lmn74; urgency=medium
+ .
+   * [lmn_settings] An API key can be restricted to a list of endpoints,
+     the scope added in linuxmuster-api 7.4.13. Entries are added and
+     removed from the key dialog, and the dialog documents the syntax and
+     its wildcards. Leaving the scope empty keeps the current behaviour: a
+     key reaching the whole API with the permissions of its user.
+   * [lmn_settings] Saving the API keys no longer drops the fields this
+     tab does not know about: keys are merged into the ones already in the
+     API's config.yml instead of replacing them wholesale, which silently
+     discarded the scope of every key at once.
+   * [lmn_settings] A failed restart of linuxmuster-api is reported
+     instead of being swallowed. The service only reads the keys at
+     startup, so until it is restarted the change just saved is not
+     active.
+   * [packaging] postinst: the deprecated venv migration is dropped, and a
+     system-wide Ajenti is uninstalled on install and upgrade. pip skips
+     in a --system-site-packages venv any requirement the system already
+     satisfies, pinned versions included, so a system-wide copy kept the
+     venv from ever owning its own and no update would have touched it
+     again.
+   * [packaging] New linuxmuster-venv dpkg trigger: when
+     linuxmuster-tools7 rebuilds the shared venv after a Python upgrade,
+     the webui reinstalls its requirements and restarts.
+Checksums-Sha1:
+ ae7d3a86e2a36de73836fefb29757bc444841347 565 linuxmuster-webui7_7.4.12.dsc
+ 9c65923c8722a6cc84144b8e1daa7c6335459498 1631774 linuxmuster-webui7_7.4.12.tar.gz
+ ce6b426e80cef5a38238e955c2a96074fb9f12f7 838894 linuxmuster-webui7_7.4.12_all.deb
+ 1019104bf4ed1bab4897c91b86e9016761da3942 7801 linuxmuster-webui7_7.4.12_amd64.buildinfo
+Checksums-Sha256:
+ 49dfab5f8689af46da0495746c025ffd8ff1bb3f3e202e0535c0a9182a1dd46f 565 linuxmuster-webui7_7.4.12.dsc
+ dae13634257c8677a03bb6cad9c11eb0550fd8e6b6108da326a16c078c06902d 1631774 linuxmuster-webui7_7.4.12.tar.gz
+ fab3d5056dd34b1f647d7d71fc129951e3757e5aec427171efe7b4d0e51f2a1d 838894 linuxmuster-webui7_7.4.12_all.deb
+ acb5d8b0d68036f3fa791f9a541310966eb5cfc9cabc77d43af626705e7795be 7801 linuxmuster-webui7_7.4.12_amd64.buildinfo
+Files:
+ 71b7dcb72b7f50c8fa4742fb37f98728 565 admin optional linuxmuster-webui7_7.4.12.dsc
+ f0da27ae9aa96f06cd4e03c49ed4bd2c 1631774 admin optional linuxmuster-webui7_7.4.12.tar.gz
+ 2ab4319e36056a437f58438701994145 838894 admin optional linuxmuster-webui7_7.4.12_all.deb
+ 3df95477fb5519b18b640b8be1b7d978 7801 admin optional linuxmuster-webui7_7.4.12_amd64.buildinfo
