@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 15 Sep 2026 18:18:17 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.36
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.36) lmn73; urgency=medium
+ .
+   * Configure rate limit and whitelist ips. See #41.
+Checksums-Sha1:
+ 1b91585479a145d50cb451b4185495236aeefcd5 568 linuxmuster-api7_7.3.36.dsc
+ b69822236cddc8f671cb0741464722163246ba6d 79947 linuxmuster-api7_7.3.36.tar.gz
+ 70979e863b8380bb707b2e67b87bbd159a24e2f2 58664 linuxmuster-api7_7.3.36_all.deb
+ dbf6d8e0f63001624e6a9d861716574baaa84931 7735 linuxmuster-api7_7.3.36_amd64.buildinfo
+Checksums-Sha256:
+ 219027d2973a73f36a4b8fc24756be8ea4976cb11b002da2ac1a14c3cdee3a14 568 linuxmuster-api7_7.3.36.dsc
+ 3acac17af834a1d69f665a264f293f689e13b70b6b4ffdb7e1e543be1d2cfcd7 79947 linuxmuster-api7_7.3.36.tar.gz
+ 1523de25cc39247e727634d6006b7f695b948ead927e8cc6922869c612bbb8a7 58664 linuxmuster-api7_7.3.36_all.deb
+ ec0dd1fee357fd3ba3e59c8d78902d4882efed34a97d83bf0a13c673e383c4b5 7735 linuxmuster-api7_7.3.36_amd64.buildinfo
+Files:
+ 860be9467ba62e412161c37d6dd79a0d 568 linuxmuster optional linuxmuster-api7_7.3.36.dsc
+ bef3ffb72e9a7e16acc111ce949cd66c 79947 linuxmuster optional linuxmuster-api7_7.3.36.tar.gz
+ 8252d857828f56028c111fdab0c0c1cf 58664 linuxmuster optional linuxmuster-api7_7.3.36_all.deb
+ 71819c85485d9088652d51adf9a37cd8 7735 linuxmuster optional linuxmuster-api7_7.3.36_amd64.buildinfo
