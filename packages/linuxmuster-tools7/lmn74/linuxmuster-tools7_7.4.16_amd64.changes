@@ -1,0 +1,68 @@
+Format: 1.8
+Date: Tue, 15 Sep 2026 21:19:14 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.16
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.16) lmn74; urgency=medium
+ .
+   * [linbo] Renaming or duplicating an image left behind a .torrent and a
+     .hash describing the previous name: a torrent embeds the file name it
+     serves, so neither survives the rename. Both are now dropped and
+     rebuilt with "linbo-torrent create", in the background and only once
+     the directory holds its final name. The image listing gained a
+     torrent flag saying whether the file is there. Fix #30, reported by
+     @TomlDev.
+   * [linbo] New start.conf backup handling: list_startconf_backups(),
+     restore_startconf_backup() and delete_startconf_backup(). A restore
+     backs the current file up first, so it can itself be undone, and
+     copies the backup byte for byte: comments and formatting are the
+     point of keeping one.
+   * [linbo] list_examples() and read_example() expose the example configs
+     shipped in /srv/linbo/examples, limited to the start.conf templates
+     and their .reg/.postsync/.prestart sidecars.
+   * [linbo] read_vdi_config(), write_vdi_config() and delete_vdi_config()
+     handle a group's start.conf.<group>.vdi file.
+   * [linbo] Boot logs are listed with the hostname each file belongs to,
+     None for a file naming no host (a multicast log, a client which could
+     not identify itself), so that a caller can keep only the machines of
+     one school.
+   * [devices] Devices exposes hostnames, hostname_prefix and
+     prefixed_hostnames: the same hosts as anything school-agnostic writes
+     them (LINBO logs, hwinfo files, AD objects), which answers "is this
+     host mine?" for a name coming from outside the school.
+   * [packaging] configobj, jinja2, python-ldap, magic, pexpect and pyyaml
+     are declared as apt dependencies instead of requirements.txt: pip
+     installs nothing in a --system-site-packages venv when the system
+     already satisfies the requirement, so the file never guaranteed
+     anything. Should fix #32, reported by @HappyBasher.
+   * [packaging] A venv whose pyvenv.cfg no longer matches the running
+     Python is rebuilt from scratch: it records its interpreter version
+     once and never updates it, so after an Ubuntu LTS upgrade everything
+     pip installed sits in an orphaned site-packages, off sys.path, and
+     the venv looks healthy while importing nothing. The rebuild fires the
+     new linuxmuster-venv dpkg trigger, which has linuxmuster-api7, -cli7
+     and -webui7 reinstall their own requirements.
+Checksums-Sha1:
+ 6db0e0a816a1e41ef6f52e90c6ca3c17223baab2 583 linuxmuster-tools7_7.4.16.dsc
+ 4041735b96db2f1c530b9ce849aeba64350df3c3 301357 linuxmuster-tools7_7.4.16.tar.gz
+ 1d39c02e39b2b57f3f83840c0cf6393760ab5cac 226814 linuxmuster-tools7_7.4.16_all.deb
+ fade0ff83dacd7f8c8663900ddf7c52e7200d79e 7754 linuxmuster-tools7_7.4.16_amd64.buildinfo
+Checksums-Sha256:
+ 2543dd897f7070cbee909ea7e9a7d45b8fed570667cbfa43e3a913bb09da7ee8 583 linuxmuster-tools7_7.4.16.dsc
+ 71fafe69d8a9c8bde56d1085e1fc927a74f5ac76d24f8b24d0b732666f050f12 301357 linuxmuster-tools7_7.4.16.tar.gz
+ 4ac0c4dc355abb8d1b60c1564a46c7ef843c2b036d85c578b2f94bcf369d5d23 226814 linuxmuster-tools7_7.4.16_all.deb
+ 618cd389271c4bed24623a222b9fe9f410230407d966944e43a69674ac6effaa 7754 linuxmuster-tools7_7.4.16_amd64.buildinfo
+Files:
+ 3be26da432254ce19d0deaa4021bc960 583 linuxmuster optional linuxmuster-tools7_7.4.16.dsc
+ a6ecaa2885cb9df0c8215ec300b8e3de 301357 linuxmuster optional linuxmuster-tools7_7.4.16.tar.gz
+ 0e88ef278f9f2b58367b63e281de8b50 226814 linuxmuster optional linuxmuster-tools7_7.4.16_all.deb
+ 81ee5147a5ecce2df88691225b14af31 7754 linuxmuster optional linuxmuster-tools7_7.4.16_amd64.buildinfo
