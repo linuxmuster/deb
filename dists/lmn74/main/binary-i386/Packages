@@ -134,18 +134,18 @@ Description: linuxmuster.net pre setup configuration scripts
  linuxmuster.net server installation.
 
 Package: linuxmuster-tools7
-Version: 7.4.16
+Version: 7.4.17
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 1309
+Installed-Size: 1313
 Depends: python3, python3-pip, python3-venv, python3-configobj, python3-jinja2, python3-ldap, python3-magic, python3-pexpect, python3-yaml, nmap, sophomorix-samba
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.16_all.deb
-Size: 226814
-SHA256: 4ac0c4dc355abb8d1b60c1564a46c7ef843c2b036d85c578b2f94bcf369d5d23
-SHA1: 1d39c02e39b2b57f3f83840c0cf6393760ab5cac
-MD5sum: 0e88ef278f9f2b58367b63e281de8b50
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.17_all.deb
+Size: 227412
+SHA256: bdd4bcb78827e5f6a4b3e5d9847e04ccb7bcaa858c95bdefa88de68c032b0565
+SHA1: 367716ff095dd2ca358d47fe2f655e0abf459393
+MD5sum: b8854475a70fb8af0a3cec5f84311bb6
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
