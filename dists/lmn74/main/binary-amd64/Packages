@@ -32,18 +32,18 @@ Description: linuxmuster.net configuration scripts
  This package provides configuration scripts for linuxmuster.net
 
 Package: linuxmuster-cli7
-Version: 7.4.9
+Version: 7.4.10
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 293
+Installed-Size: 298
 Depends: python3, linuxmuster-tools7
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-cli7/linuxmuster-cli7_7.4.9_all.deb
-Size: 46560
-SHA256: f1cdb318059c338e6e1d117ef721e9e22625f5d95a0b1e87169e98b8617e86dd
-SHA1: 96ef37f7dccebb25df11de2056263312bfb4cc14
-MD5sum: ae5cd117c6a846a61df842b63f2f8627
+Filename: pool/main/l/linuxmuster-cli7/linuxmuster-cli7_7.4.10_all.deb
+Size: 47912
+SHA256: 189bd0a4dfee0d5aec90cba5ae2283e624abcae7c5337e0abb2e4d2854003777
+SHA1: 356d1284e1fab18081b5ed82d7a90adefc9535d8
+MD5sum: b6904ca971def8c7473ec15cae81d847
 Description: Tools and CLI for the linuxmuster.net 7 server.
 
 Package: linuxmuster-common
@@ -134,18 +134,18 @@ Description: linuxmuster.net pre setup configuration scripts
  linuxmuster.net server installation.
 
 Package: linuxmuster-tools7
-Version: 7.4.17
+Version: 7.4.18
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 1313
+Installed-Size: 1317
 Depends: python3, python3-pip, python3-venv, python3-configobj, python3-jinja2, python3-ldap, python3-magic, python3-pexpect, python3-yaml, nmap, sophomorix-samba
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.17_all.deb
-Size: 227412
-SHA256: bdd4bcb78827e5f6a4b3e5d9847e04ccb7bcaa858c95bdefa88de68c032b0565
-SHA1: 367716ff095dd2ca358d47fe2f655e0abf459393
-MD5sum: b8854475a70fb8af0a3cec5f84311bb6
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.4.18_all.deb
+Size: 228222
+SHA256: ec22a96875a0ab0c31fcc46836f40075c621f28784a4373f55e1bc3490ff9b87
+SHA1: 0af0fd7ffd3259817a550d1c75890d9597caa3e3
+MD5sum: b1ac55c15f2b6c52744228664e8f5cbf
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
