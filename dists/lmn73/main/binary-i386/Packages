@@ -95,10 +95,10 @@ Description: Linuxmuster Linbo GUI
  (LINBO) boot/install/repair system.
 
 Package: linuxmuster-linbo7
-Version: 4.3.37-0
+Version: 4.3.38-0
 Architecture: all
 Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
-Installed-Size: 92569
+Installed-Size: 92800
 Pre-Depends: linuxmuster-common
 Depends: argon2, coreutils, cpio, ctorrent, dosfstools, dropbear-bin, grub-common, grub-efi-amd64-bin, grub-ipxe, grub-pc-bin, isolinux, libowfat0t64, linux-firmware, linuxmuster-linbo-gui7, mbr, python3, qemu-utils, rsync, sed, ssh, syslinux-common, syslinux-utils, tftpd-hpa, tmux, udpcast, wakeonlan, xorriso, xz-utils, zip, zlib1g, zstd
 Recommends: linuxmuster-base7
@@ -107,11 +107,11 @@ Conflicts: atftpd, bittorrent, linuxmuster-linbo, linuxmuster-linbo-common, linu
 Breaks: linuxmuster-linbo-common7
 Priority: extra
 Section: admin
-Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.3.37-0_all.deb
-Size: 92196456
-SHA256: e2f75bd8a91f2c3304663685a743218fa9b67cb4caa5d584d669ea49cff10dd7
-SHA1: 61146da71d5d65f9282e44a5525ba795c26788b5
-MD5sum: 58c1238dd1332c6d02c2dd76ee74f554
+Filename: pool/main/l/linuxmuster-linbo7/linuxmuster-linbo7_4.3.38-0_all.deb
+Size: 92431410
+SHA256: 1bebbdbaaa0689e1412b48e2c295cc4c060ee8289d0ec77f3bd96aad2264d360
+SHA1: 1d90a2f4f922d7a156525c6e56038d97d5ccd027
+MD5sum: a723486a17455ea33431fcfae6a1efde
 Description: linuxmuster-linbo7
   This package contains kernel, initrd, scripts and pxe boot configuration for
   the Linux-based Network Boot (LINBO) boot/install/repair system.
@@ -148,18 +148,18 @@ MD5sum: c9dd9f91b4ced2d5021ef431ded4f58c
 Description: linuxmuster.net pre setup configuration scripts
 
 Package: linuxmuster-tools7
-Version: 7.3.48
+Version: 7.3.49
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
 Installed-Size: 542
 Depends: python3, nmap, sophomorix-samba
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.3.48_all.deb
-Size: 92946
-SHA256: dcfe669951aa541964bec18342e2ed51ea922df7d8e10de111ff31440972eb8d
-SHA1: 19716d07783b16f784bc021bd286617495bf67b7
-MD5sum: 187ba0fc722fe4917661da19545a4b94
+Filename: pool/main/l/linuxmuster-tools7/linuxmuster-tools7_7.3.49_all.deb
+Size: 93212
+SHA256: e837d89d84129b63c77f95886de7dd2274bacb2aea438722185d840185cb4185
+SHA1: f8231ddf28f531c89c8ef4db42731e13e6b028e3
+MD5sum: f24b9dfb052410ab0089679d76bff6c8
 Description: Tools for the linuxmuster.net 7 server.
 
 Package: linuxmuster-webui7
