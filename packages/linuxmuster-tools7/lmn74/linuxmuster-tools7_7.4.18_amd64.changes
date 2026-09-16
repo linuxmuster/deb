@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 16 Sep 2026 21:10:17 +0200
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.18
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.18) lmn74; urgency=medium
+ .
+   * [linbo] last_sync() takes a timestamp parameter. Left to its default
+     it returns the epoch of the last synchronisation, as before; set to
+     False it returns the whole status entry, which also carries the
+     creation timestamp of the image that was applied. last_sync_all()
+     uses it to add an imageVersion key to every entry of a host's image
+     list, saying which version of the image that host actually runs, or
+     None when it never synchronised it. Existing callers are untouched.
+   * [linbo] Unknown start.conf parameters are reported at debug level
+     through the module logger, instead of warning level through the root
+     one. A start.conf holding legacy LINBO 2.x keys logged one warning
+     per key and per file, and since the root logger is the one the
+     consumers configure, those warnings landed straight in the output of
+     lmncli: 37 lines for three groups before a single result was
+     printed.
+   * [common] Same treatment for the malformed lines skipped by the
+     sophomorix log parsers.
+Checksums-Sha1:
+ f4a1be2d78bb2fe15e964013bea16e75cee8a51e 583 linuxmuster-tools7_7.4.18.dsc
+ efcb22ba7fd14886d38be755098a0115212a3c19 302076 linuxmuster-tools7_7.4.18.tar.gz
+ 0af0fd7ffd3259817a550d1c75890d9597caa3e3 228222 linuxmuster-tools7_7.4.18_all.deb
+ 70b0fc2b31ebd9a43edac70ced368f20dcdad527 7754 linuxmuster-tools7_7.4.18_amd64.buildinfo
+Checksums-Sha256:
+ 2f0ae0bf67f19c37f21d73169cc72e0d19fae679386e12b146cbfdb4318c7383 583 linuxmuster-tools7_7.4.18.dsc
+ dc927ba33579e7cc29fa31a5272ff569daede0755495411f57986d86102aea34 302076 linuxmuster-tools7_7.4.18.tar.gz
+ ec22a96875a0ab0c31fcc46836f40075c621f28784a4373f55e1bc3490ff9b87 228222 linuxmuster-tools7_7.4.18_all.deb
+ 05fa79a1e259eb5c6366a05790ba36a9c6def49d5c0701fd7c81a5cfb581f52e 7754 linuxmuster-tools7_7.4.18_amd64.buildinfo
+Files:
+ e2715f9f7ec811b4ba88e8597cf5b66e 583 linuxmuster optional linuxmuster-tools7_7.4.18.dsc
+ bbe674254292d7eee335675326468354 302076 linuxmuster optional linuxmuster-tools7_7.4.18.tar.gz
+ b1ac55c15f2b6c52744228664e8f5cbf 228222 linuxmuster optional linuxmuster-tools7_7.4.18_all.deb
+ 0701405d7cac829c42a8aa958508c43b 7754 linuxmuster optional linuxmuster-tools7_7.4.18_amd64.buildinfo
