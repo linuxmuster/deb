@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 14 Sep 2026 15:57:39 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.38-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.38-0) lmn73; urgency=low
+ .
+   * kernel updates: 6.1.188, 6.12.110, 7.2.6 (#134, 707b65b, 496620b).
+   * linbo_wrapper: typo fix in prestart case (7287e71).
+Checksums-Sha1:
+ 72fd75cd45414daab9036e091ef04dcfa0c3d874 1315 linuxmuster-linbo7_4.3.38-0.dsc
+ 22c1be1d3ec7ee20cfd8b2b158201e567f4b82f2 2063754 linuxmuster-linbo7_4.3.38-0.tar.gz
+ 1d90a2f4f922d7a156525c6e56038d97d5ccd027 92431410 linuxmuster-linbo7_4.3.38-0_all.deb
+ c97d32932e8e536c815df7638b7bebe667d97ad6 15435 linuxmuster-linbo7_4.3.38-0_amd64.buildinfo
+Checksums-Sha256:
+ dd4241cfee225ca5b4ed8192d0c88e6daf67eeea000b420dff563305bcd1b609 1315 linuxmuster-linbo7_4.3.38-0.dsc
+ 07c4d68e16ccf9632aa6877199d7b5bd4d6c515eac570bf6e6808d4fc1ebd3fd 2063754 linuxmuster-linbo7_4.3.38-0.tar.gz
+ 1bebbdbaaa0689e1412b48e2c295cc4c060ee8289d0ec77f3bd96aad2264d360 92431410 linuxmuster-linbo7_4.3.38-0_all.deb
+ 9e114a399631158051b5362b381f959f972c5983a24846cd27fcc5d0b48b18a5 15435 linuxmuster-linbo7_4.3.38-0_amd64.buildinfo
+Files:
+ 6a3581714bb8022f990e60eda7e2ef7c 1315 admin extra linuxmuster-linbo7_4.3.38-0.dsc
+ bf4e083150efa816d0956b8c8a76bd0f 2063754 admin extra linuxmuster-linbo7_4.3.38-0.tar.gz
+ a723486a17455ea33431fcfae6a1efde 92431410 admin extra linuxmuster-linbo7_4.3.38-0_all.deb
+ 6192743c8ed6fb219cc3ffbc8ec506fa 15435 admin extra linuxmuster-linbo7_4.3.38-0_amd64.buildinfo
