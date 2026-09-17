@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 17 Sep 2026 15:18:51 +0200
+Source: linuxmuster-common
+Binary: linuxmuster-common
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.5
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-common - linuxmuster.net common files
+Changes:
+ linuxmuster-common (7.4.5) lmn74; urgency=low
+ .
+   * keep python bytecode caches out of the package: clean lib/__pycache__ in
+     debian/rules and exclude __pycache__/*.pyc from dh_install, which
+     "debian/install" pulled in via "lib/*".
+   * postinst: byte-compile environment.py on "configure" instead of on
+     "abort-upgrade|abort-remove|abort-deconfigure", where it never ran on a
+     normal installation.
+Checksums-Sha1:
+ 0776a9d905404717f7b91e3b1761511cc4342825 580 linuxmuster-common_7.4.5.dsc
+ a92d1df8ea5b053ea621e59437d573ac774ee19b 19160 linuxmuster-common_7.4.5.tar.gz
+ e8820f79f499bf8a4572a7141ec4772f2929b48a 5930 linuxmuster-common_7.4.5_all.deb
+ 4afaebb02c3a50075b81f2fc95fd1309d2c08fb8 5858 linuxmuster-common_7.4.5_amd64.buildinfo
+Checksums-Sha256:
+ d48e3eda3ea1d1644029953d8cded933e7bacbc1321140e4195e367d46b1cafb 580 linuxmuster-common_7.4.5.dsc
+ 9916297363fd78426619674e409ed3c329802c2a332ebd8585a6319ac9ab72b1 19160 linuxmuster-common_7.4.5.tar.gz
+ e9802ec2f4a6b5f356bf1cc193a05ecaef3081bc612eaf60a899d5aa954dd990 5930 linuxmuster-common_7.4.5_all.deb
+ a7da4ba328e713b6fecfd47897e400d8d2f22c10427ea10fb511b31e10d1571c 5858 linuxmuster-common_7.4.5_amd64.buildinfo
+Files:
+ ee845e8a44f06d832d87ce123606b1c4 580 linuxmuster optional linuxmuster-common_7.4.5.dsc
+ 8358f6e66a37155a912824da5cd1482a 19160 linuxmuster optional linuxmuster-common_7.4.5.tar.gz
+ 7ae1ecc30871c2e12d0c8b3a6d5b79ba 5930 linuxmuster optional linuxmuster-common_7.4.5_all.deb
+ 00c6dd4cd3f422094adfea1989eeded7 5858 linuxmuster optional linuxmuster-common_7.4.5_amd64.buildinfo
