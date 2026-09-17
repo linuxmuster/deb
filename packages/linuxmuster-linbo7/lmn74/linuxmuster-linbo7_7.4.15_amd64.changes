@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Thu, 17 Sep 2026 13:39:36 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.15
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.15) lmn74; urgency=low
+ .
+   * fix(rsync-pre-download.sh): isolate per-transfer staging file for
+     status/log uploads, preventing parallel host uploads from clobbering
+     each other's temporary files or writing into the wrong host log
+     (#172, a238262).
+   * fix(linbo-scp.sh): remove trailing "$" from RSYNC_SKIP_COMPRESS
+     variable name, preventing malformed rsync --skip-compress suffix
+     lists in the upload wrapper (d74fef8).
+Checksums-Sha1:
+ 31504d2c0b4a4cdf51816997d0e2bdea5de4f39c 1217 linuxmuster-linbo7_7.4.15.dsc
+ 0d23e67b084a44e81dab2588a75b46991ca8b2eb 2020646 linuxmuster-linbo7_7.4.15.tar.gz
+ 8a44f12688ae1dc1a7cb7c88250c7f4f953e3f4e 100804084 linuxmuster-linbo7_7.4.15_all.deb
+ db4f08ab51ea8c587d5c095921ba0cac78cf654b 15079 linuxmuster-linbo7_7.4.15_amd64.buildinfo
+Checksums-Sha256:
+ 96591542c3beaf9275ffe1ff4c388b15bc92e7b6572cdc849008b22b9827e3d8 1217 linuxmuster-linbo7_7.4.15.dsc
+ d9bb53558eb5615eb713cd7a185a96b0f551a5bfe1b13c76092588c51ec39da9 2020646 linuxmuster-linbo7_7.4.15.tar.gz
+ de2135c3274fce43c93fcadbf8d225cbcab80f45eb1fa7684a6985168837b700 100804084 linuxmuster-linbo7_7.4.15_all.deb
+ 4ec5156d43aa59356b86d04fce84f0deb7d0993c1b68a9a7ead876956b5f890d 15079 linuxmuster-linbo7_7.4.15_amd64.buildinfo
+Files:
+ 226a6ae2bcbb1f6f5fb7b94875d2a838 1217 admin extra linuxmuster-linbo7_7.4.15.dsc
+ e9bedc5c48dce184977b1aeed6fbbf20 2020646 admin extra linuxmuster-linbo7_7.4.15.tar.gz
+ c79d33d1c33e7ce7a6fd9e4c23245a87 100804084 admin extra linuxmuster-linbo7_7.4.15_all.deb
+ 14651faf90296f0cd92859abcb58a0bc 15079 admin extra linuxmuster-linbo7_7.4.15_amd64.buildinfo
