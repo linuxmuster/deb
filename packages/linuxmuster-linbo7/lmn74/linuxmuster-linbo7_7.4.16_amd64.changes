@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sat, 19 Sep 2026 14:16:25 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.16
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.16) lmn74; urgency=low
+ .
+   * fix(linbo_remote_cli): stop rejecting directed-broadcast WOL address -
+     a subnet's broadcast address always ends in .255 for prefix <= /24,
+     which was rejected by the host-address-shaped isValidIpv4() check,
+     silently disabling -u for the common case (#173, de59df6).
+Checksums-Sha1:
+ 94a3bdb9fc6998896780ff351067144d0f1189d1 1217 linuxmuster-linbo7_7.4.16.dsc
+ 7b965c6b2001c6bbd19a30d18ca6363bdc8faf5a 2017583 linuxmuster-linbo7_7.4.16.tar.gz
+ d0aa1f58f9dc4d4054eb746ccf5967ae14ffef4f 100804860 linuxmuster-linbo7_7.4.16_all.deb
+ de7e6481d973a45b37a133eb178ee40923f0d69f 15079 linuxmuster-linbo7_7.4.16_amd64.buildinfo
+Checksums-Sha256:
+ 3ed020b70c6c41cbc2ce347448b0602645cb7c6a97a03623b6b8a8a768f48950 1217 linuxmuster-linbo7_7.4.16.dsc
+ 88b119904b70ee057667946ab5f17a0cea276213cf71b2129f92db966bdf66f1 2017583 linuxmuster-linbo7_7.4.16.tar.gz
+ e3e5d118c05d255e4e55ab2a5a55b419dcfd4882d5b1603df6016ea5d43632b5 100804860 linuxmuster-linbo7_7.4.16_all.deb
+ f8bdfcd3d6622b4b6e36dbed38501b81a28d2a3e859f2486500a4acdace11c18 15079 linuxmuster-linbo7_7.4.16_amd64.buildinfo
+Files:
+ 904428cb89550a6b39d68edceb43a4d0 1217 admin extra linuxmuster-linbo7_7.4.16.dsc
+ e477dc45f9fe6be342128819d51b4ee2 2017583 admin extra linuxmuster-linbo7_7.4.16.tar.gz
+ 315ce7ca6f4354c9ae0f291af98b5e7b 100804860 admin extra linuxmuster-linbo7_7.4.16_all.deb
+ 06554e1cfba4547f3da32ad81018c4aa 15079 admin extra linuxmuster-linbo7_7.4.16_amd64.buildinfo
