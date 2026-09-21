@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Mon, 21 Sep 2026 13:41:58 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.17
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.17) lmn74; urgency=low
+ .
+   * fix(linbo_remote_lib): make isValidIpv4() a pure syntax check - the
+     octet-based .0/.255 "network"/"broadcast" heuristic was only correct
+     by coincidence for /24 subnets, wrongly rejecting valid host addresses
+     in larger subnets (#174, 6805dc2).
+   * fix(rsync-pre-download.sh): merge per-image status lines again instead
+     of overwriting <host>_image.status on every sync, which discarded every
+     other image's entry since 13ff562 (#171, 235231d).
+Checksums-Sha1:
+ 93583db951a34de577eaec59c1fe3b7f00101bce 1217 linuxmuster-linbo7_7.4.17.dsc
+ 2a95f2ef7aa0413ebe8f87d380d55ab8f5bd67fb 2018919 linuxmuster-linbo7_7.4.17.tar.gz
+ 7b74034acf03fc315a6d3bfefee175082490a1a5 100808864 linuxmuster-linbo7_7.4.17_all.deb
+ 9003dc35fdccd77470e0f497ac460aaf33abb1ef 15079 linuxmuster-linbo7_7.4.17_amd64.buildinfo
+Checksums-Sha256:
+ e312b8e57989f2da11e7770d34b1f97f9a0e4fd4800fc543d007c0b012718c82 1217 linuxmuster-linbo7_7.4.17.dsc
+ 286e0617e2846a71418d16642e26eeaa2bea59d09c3507ae3906c055cff90ea1 2018919 linuxmuster-linbo7_7.4.17.tar.gz
+ 38c5166c984707804e47b285e22276c8613017316c8cf55152abbf6ca6dd61b3 100808864 linuxmuster-linbo7_7.4.17_all.deb
+ f2e15d59079dbee60d14823b0ca77b6e80607786b8c4423322cb8e0917e2ae4f 15079 linuxmuster-linbo7_7.4.17_amd64.buildinfo
+Files:
+ 1cae2dea15390a285939a58cfa581e72 1217 admin extra linuxmuster-linbo7_7.4.17.dsc
+ 40d9dc5b306a53c6d1a9427c01d7ee2a 2018919 admin extra linuxmuster-linbo7_7.4.17.tar.gz
+ 5e8f76e6a786570aed3d65eca9e1094d 100808864 admin extra linuxmuster-linbo7_7.4.17_all.deb
+ ae12280b053e63a0ff3320ba2e99fc28 15079 admin extra linuxmuster-linbo7_7.4.17_amd64.buildinfo
