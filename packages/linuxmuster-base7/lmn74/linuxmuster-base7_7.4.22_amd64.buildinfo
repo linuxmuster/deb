@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.4.21
+Version: 7.4.22
 Checksums-Md5:
- 1b60fa5ca2ebb41de3592de13729772f 896 linuxmuster-base7_7.4.21.dsc
- 02b4d0f5e545bb964b0687e3a0a70da2 111898 linuxmuster-base7_7.4.21_all.deb
+ 4a95e568eb6b17834a38ff9fb190927d 896 linuxmuster-base7_7.4.22.dsc
+ a5d51cc64e6088481b555d3d8a08e56c 109778 linuxmuster-base7_7.4.22_all.deb
 Checksums-Sha1:
- 340db2a29a3dba1db4ccd3d94039cb026a3503e1 896 linuxmuster-base7_7.4.21.dsc
- 610c770b36f5cc815bb34f003c4575e016f68430 111898 linuxmuster-base7_7.4.21_all.deb
+ bb1fa292bb82acfddee301fcc821aeb49bb54e8e 896 linuxmuster-base7_7.4.22.dsc
+ c7ede7ff203a12a3167c551c4da122f8421dd105 109778 linuxmuster-base7_7.4.22_all.deb
 Checksums-Sha256:
- 1bbee72d29a113bd2368d8cdffdebc079391d12a2201a0df9e9bc0eb23714939 896 linuxmuster-base7_7.4.21.dsc
- 6b682307a6004d763344139a0cfeb1047f5c56d6231c688a8b23645c73faa7ae 111898 linuxmuster-base7_7.4.21_all.deb
+ 7a0335131efdb94543ac38d4cc52683b9a1f64c4c4173828760028c9c4ad6e18 896 linuxmuster-base7_7.4.22.dsc
+ ac11f7ab90aa25bcdea795f4aaff9d77b384a650454000880c93d322799a38cf 109778 linuxmuster-base7_7.4.22_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 15 Sep 2026 12:06:55 +0000
+Build-Date: Mon, 21 Sep 2026 13:48:01 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -182,7 +182,7 @@ Installed-Build-Depends:
  libsframe3 (= 2.46-3ubuntu2),
  libsmartcols1 (= 2.41.3-3ubuntu2.2),
  libsodium23 (= 1.0.18-2),
- libsqlite3-0 (= 3.46.1-9ubuntu0.2),
+ libsqlite3-0 (= 3.46.1-9ubuntu0.3),
  libssh2-1t64 (= 1.11.1-1ubuntu0.26.04.4),
  libssl3t64 (= 3.5.5-1ubuntu3.5),
  libstdc++-15-dev (= 15.2.0-16ubuntu1),
@@ -207,7 +207,7 @@ Installed-Build-Depends:
  libxxhash0 (= 0.8.3-2build1),
  libzstd1 (= 1.5.7+dfsg-3),
  linux-libc-dev (= 7.0.0-31.31),
- linuxmuster-common (= 7.4.4),
+ linuxmuster-common (= 7.4.5),
  lto-disabled-list (= 79),
  m4 (= 1.4.21-1),
  make (= 4.4.1-3),
@@ -235,7 +235,7 @@ Installed-Build-Depends:
  python3-certifi (= 2026.1.4+ds-1),
  python3-cffi-backend (= 2.0.0-3build1),
  python3-chardet (= 5.2.0+dfsg-2build1),
- python3-cryptography (= 46.0.5-1ubuntu2),
+ python3-cryptography (= 46.0.5-1ubuntu2.2),
  python3-dialog (= 3.5.3-1),
  python3-idna (= 3.11-1ubuntu0.1),
  python3-inflect (= 7.5.0-1build1),
@@ -279,4 +279,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1789473337"
+ SOURCE_DATE_EPOCH="1789997052"

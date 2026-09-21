@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 21 Sep 2026 15:24:12 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.22
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.22) lmn74; urgency=low
+ .
+   * fix(functions/network): make isValidHostIpv4() subnet-aware - the
+     octet-based .0/.255 "network"/"broadcast" heuristic was only correct
+     by coincidence for /24 subnets, wrongly rejecting or accepting host
+     addresses in larger or smaller subnets (#205, 9b94731).
+Checksums-Sha1:
+ bb1fa292bb82acfddee301fcc821aeb49bb54e8e 896 linuxmuster-base7_7.4.22.dsc
+ 6903c89b66450b23a7b47d19dc17e6b425789933 175639 linuxmuster-base7_7.4.22.tar.gz
+ c7ede7ff203a12a3167c551c4da122f8421dd105 109778 linuxmuster-base7_7.4.22_all.deb
+ 73079932c10f78f41898686c1095d6feb662a9d3 9740 linuxmuster-base7_7.4.22_amd64.buildinfo
+Checksums-Sha256:
+ 7a0335131efdb94543ac38d4cc52683b9a1f64c4c4173828760028c9c4ad6e18 896 linuxmuster-base7_7.4.22.dsc
+ 10dc2e7db71cce4a0de8593ccdbd18369f455f37434a3301e301225265b7c810 175639 linuxmuster-base7_7.4.22.tar.gz
+ ac11f7ab90aa25bcdea795f4aaff9d77b384a650454000880c93d322799a38cf 109778 linuxmuster-base7_7.4.22_all.deb
+ eb8aae6e21d081628d2e0d3ccdd3ab3199c391615f8ee3d129bff757b5a28ed5 9740 linuxmuster-base7_7.4.22_amd64.buildinfo
+Files:
+ 4a95e568eb6b17834a38ff9fb190927d 896 linuxmuster optional linuxmuster-base7_7.4.22.dsc
+ e11c7a9a90ca3afb85b1d987968e52b5 175639 linuxmuster optional linuxmuster-base7_7.4.22.tar.gz
+ a5d51cc64e6088481b555d3d8a08e56c 109778 linuxmuster optional linuxmuster-base7_7.4.22_all.deb
+ 46fc0ba0955feec50d93fc033a37095a 9740 linuxmuster optional linuxmuster-base7_7.4.22_amd64.buildinfo
