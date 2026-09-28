@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-base7
 Binary: linuxmuster-base7
 Architecture: all source
-Version: 7.4.22
+Version: 7.4.23
 Checksums-Md5:
- 4a95e568eb6b17834a38ff9fb190927d 896 linuxmuster-base7_7.4.22.dsc
- a5d51cc64e6088481b555d3d8a08e56c 109778 linuxmuster-base7_7.4.22_all.deb
+ a3ef866c9fcdd056b5d5e7a6a0f959db 896 linuxmuster-base7_7.4.23.dsc
+ 09a8c2eed71113ecb892dfc9c347f51d 116718 linuxmuster-base7_7.4.23_all.deb
 Checksums-Sha1:
- bb1fa292bb82acfddee301fcc821aeb49bb54e8e 896 linuxmuster-base7_7.4.22.dsc
- c7ede7ff203a12a3167c551c4da122f8421dd105 109778 linuxmuster-base7_7.4.22_all.deb
+ 01ee551a5a42b9f67e3a585efb09f03b7884e98f 896 linuxmuster-base7_7.4.23.dsc
+ 5dbabd3eada3c83187a238ea1cbdaf77b36030c5 116718 linuxmuster-base7_7.4.23_all.deb
 Checksums-Sha256:
- 7a0335131efdb94543ac38d4cc52683b9a1f64c4c4173828760028c9c4ad6e18 896 linuxmuster-base7_7.4.22.dsc
- ac11f7ab90aa25bcdea795f4aaff9d77b384a650454000880c93d322799a38cf 109778 linuxmuster-base7_7.4.22_all.deb
+ 03b03c0d2c4038ea7aa75eb94141fd8e52dadc1e000af7cc12a70e2bf0ef80a5 896 linuxmuster-base7_7.4.23.dsc
+ cce2183fa946952482ea9e03b935cda2bed6390858f576ba07be3bb47bcb8dbb 116718 linuxmuster-base7_7.4.23_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 21 Sep 2026 13:48:01 +0000
+Build-Date: Mon, 28 Sep 2026 12:02:16 +0000
 Installed-Build-Depends:
  autoconf (= 2.72-3.1ubuntu2),
  automake (= 1:1.18.1-3build1),
@@ -36,7 +36,7 @@ Installed-Build-Depends:
  cpp-15 (= 15.2.0-16ubuntu1),
  cpp-15-x86-64-linux-gnu (= 15.2.0-16ubuntu1),
  cpp-x86-64-linux-gnu (= 4:15.2.0-5ubuntu1),
- curl (= 8.18.0-1ubuntu2.5),
+ curl (= 8.18.0-1ubuntu2.7),
  dash (= 0.5.12-12ubuntu3),
  debconf (= 1.5.92),
  debhelper (= 13.31ubuntu1),
@@ -98,7 +98,7 @@ Installed-Build-Depends:
  libcrypt1 (= 1:4.5.1-1),
  libctf-nobfd0 (= 2.46-3ubuntu2),
  libctf0 (= 2.46-3ubuntu2),
- libcurl4t64 (= 8.18.0-1ubuntu2.5),
+ libcurl4t64 (= 8.18.0-1ubuntu2.7),
  libdb5.3t64 (= 5.3.28+dfsg2-10ubuntu1),
  libdebconfclient0 (= 0.280ubuntu1),
  libdebhelper-perl (= 13.31ubuntu1),
@@ -107,7 +107,7 @@ Installed-Build-Depends:
  libdw1t64 (= 0.194-4),
  libelf1t64 (= 0.194-4),
  libencode-locale-perl (= 1.05-3),
- libexpat1 (= 2.7.4-1),
+ libexpat1 (= 2.7.4-1ubuntu0.2),
  libffi8 (= 3.5.2-4),
  libfile-listing-perl (= 6.16-1),
  libfile-stripnondeterminism-perl (= 1.15.0-1build1),
@@ -202,11 +202,11 @@ Installed-Build-Depends:
  libuuid1 (= 2.41.3-3ubuntu2.2),
  libwww-perl (= 6.81-1ubuntu0.1),
  libwww-robotrules-perl (= 6.02-1build1),
- libxml2-16 (= 2.15.2+dfsg-0.1ubuntu0.1),
+ libxml2-16 (= 2.15.2+dfsg-0.1ubuntu0.2),
  libxslt1.1 (= 1.1.45-0.1),
  libxxhash0 (= 0.8.3-2build1),
  libzstd1 (= 1.5.7+dfsg-3),
- linux-libc-dev (= 7.0.0-31.31),
+ linux-libc-dev (= 7.0.0-34.34),
  linuxmuster-common (= 7.4.5),
  lto-disabled-list (= 79),
  m4 (= 1.4.21-1),
@@ -253,7 +253,7 @@ Installed-Build-Depends:
  python3-paramiko (= 4.0.0-1ubuntu2),
  python3-pkg-resources (= 78.1.1-0.1build1),
  python3-pyasn1 (= 0.6.3-1ubuntu0.1),
- python3-requests (= 2.32.5+dfsg-1ubuntu1),
+ python3-requests (= 2.32.5+dfsg-1ubuntu1.1),
  python3-setuptools (= 78.1.1-0.1build1),
  python3-soupsieve (= 2.8.3-1),
  python3-typeguard (= 4.4.4-2),
@@ -264,7 +264,7 @@ Installed-Build-Depends:
  python3.14-minimal (= 3.14.4-1ubuntu0.2),
  readline-common (= 8.3-4),
  rpcsvc-proto (= 1.4.3-1build1),
- rust-coreutils (= 0.8.0-0ubuntu3),
+ rust-coreutils (= 0.10.0-1ubuntu2~26.04.1),
  sed (= 4.9-2ubuntu1),
  sensible-utils (= 0.0.26build1),
  sysvinit-utils (= 3.15-5ubuntu1),
@@ -279,4 +279,4 @@ Environment:
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib64/libfakeroot:/usr/lib32/libfakeroot"
  LD_PRELOAD="libfakeroot-sysv.so"
- SOURCE_DATE_EPOCH="1789997052"
+ SOURCE_DATE_EPOCH="1790596452"

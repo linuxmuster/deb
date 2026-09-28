@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 28 Sep 2026 13:54:12 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.23
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.23) lmn74; urgency=low
+ .
+   * fix(renew_certs.py): use the servername for server cert file names
+     (#208, 74e0042).
+Checksums-Sha1:
+ 01ee551a5a42b9f67e3a585efb09f03b7884e98f 896 linuxmuster-base7_7.4.23.dsc
+ 1a4f11ebc85b9a10fe3ce1710ce77f9484a11735 182235 linuxmuster-base7_7.4.23.tar.gz
+ 5dbabd3eada3c83187a238ea1cbdaf77b36030c5 116718 linuxmuster-base7_7.4.23_all.deb
+ 11d98691f3eef08b67df27781e9d2ec3f0702a13 9760 linuxmuster-base7_7.4.23_amd64.buildinfo
+Checksums-Sha256:
+ 03b03c0d2c4038ea7aa75eb94141fd8e52dadc1e000af7cc12a70e2bf0ef80a5 896 linuxmuster-base7_7.4.23.dsc
+ 040ae7632386286992c3f861e3d461e6e1ce508db4b12cc213a8b3e3c3356760 182235 linuxmuster-base7_7.4.23.tar.gz
+ cce2183fa946952482ea9e03b935cda2bed6390858f576ba07be3bb47bcb8dbb 116718 linuxmuster-base7_7.4.23_all.deb
+ 43db441da7e5084af57e81e339d29566ee5083a074ba869346860c286b3cbd39 9760 linuxmuster-base7_7.4.23_amd64.buildinfo
+Files:
+ a3ef866c9fcdd056b5d5e7a6a0f959db 896 linuxmuster optional linuxmuster-base7_7.4.23.dsc
+ 487af713816404715aeddd284b8a82ae 182235 linuxmuster optional linuxmuster-base7_7.4.23.tar.gz
+ 09a8c2eed71113ecb892dfc9c347f51d 116718 linuxmuster optional linuxmuster-base7_7.4.23_all.deb
+ 1035ed9084ee98b3212b8ed76973747f 9760 linuxmuster optional linuxmuster-base7_7.4.23_amd64.buildinfo
