@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Mon,  5 Oct 2026 14:49:57 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 4.3.39-0
+Distribution: lmn73
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (4.3.39-0) lmn73; urgency=low
+ .
+   * kernel updates: 6.1.189, 6.12.112, 7.2.9 (#134).
+   * feat(init.sh): show netwait progress on the plymouth splash (#167, dee7ed7).
+   * fix(init.sh): wait for a network interface to appear before enumerating it (#167, ddae3dc).
+   * fix(init.sh): do not hang in udhcpc on an interface that is down (#187, a6de749).
+   * fix(linbo_mountcache): find the cache partition without by-id links (#189, b48a780).
+Checksums-Sha1:
+ 3917cdde73f5fdd927d618ea462c644ef4d39c9c 1315 linuxmuster-linbo7_4.3.39-0.dsc
+ 01c8ffe7ea60182feb1bcec847da029c21a77bba 2070586 linuxmuster-linbo7_4.3.39-0.tar.gz
+ 3e10b38c47e407f38f2645f6e87b05516f37a7c8 91773436 linuxmuster-linbo7_4.3.39-0_all.deb
+ 451b46c896fff028014e5a1e4303095de5d17bd0 15450 linuxmuster-linbo7_4.3.39-0_amd64.buildinfo
+Checksums-Sha256:
+ fd41a5fa363dbab61c63cb92ca2d02d5fd038ccc58ce1c598659ae54a73c6b72 1315 linuxmuster-linbo7_4.3.39-0.dsc
+ 18575a2dc125d721ba1835c396a1b88612b19f9f85372c6b82919241c51ce8e5 2070586 linuxmuster-linbo7_4.3.39-0.tar.gz
+ 348e0a956329bf493daabff621d174bfc522db4eb0af21e0024f3d0ea9a701a1 91773436 linuxmuster-linbo7_4.3.39-0_all.deb
+ 39f30f8e857ba58cc87e64a839ccb16fdcb6acacd21015a9c2cb39c6be7e56e0 15450 linuxmuster-linbo7_4.3.39-0_amd64.buildinfo
+Files:
+ 19d6f119345879e8ce2309984bac195a 1315 admin extra linuxmuster-linbo7_4.3.39-0.dsc
+ 9f2598ad7e034b482b4cc894a04cc830 2070586 admin extra linuxmuster-linbo7_4.3.39-0.tar.gz
+ 3133bc31dc2f9481bfe3c4b8ad7f63ab 91773436 admin extra linuxmuster-linbo7_4.3.39-0_all.deb
+ 2d04f4bf56040b040bcf550d6ca623c1 15450 admin extra linuxmuster-linbo7_4.3.39-0_amd64.buildinfo
