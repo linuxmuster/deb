@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 07 Oct 2026 13:34:27 +0200
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.19
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.19) lmn74; urgency=low
+ .
+   * fix(linbo-torrent): never hand machine account files to nobody
+     (#182, b760996).
+   * fix(linbo-configure): make existing machine account files root-only
+     on upgrade (#182, 03324a7).
+Checksums-Sha1:
+ a0dc569a3299392f9a6ceaa533c1888c05db7c79 1217 linuxmuster-linbo7_7.4.19.dsc
+ 3845d16ad07896509d60bf11441517dd4411cfda 2029673 linuxmuster-linbo7_7.4.19.tar.gz
+ cbcac5a13261e38830fe746b3406d9b2c61462cc 101985670 linuxmuster-linbo7_7.4.19_all.deb
+ e877061d02d279794799e10dc404f3fab96192c9 15113 linuxmuster-linbo7_7.4.19_amd64.buildinfo
+Checksums-Sha256:
+ 8e2c7b3ff029f0415f9aa05e30ded913406e876f5bf28d03eca1007ad5237257 1217 linuxmuster-linbo7_7.4.19.dsc
+ 6f5fde3e8221e7217c4fc033afdbe12fc9d4c97f0c39dd7baf0c508fe050b6fe 2029673 linuxmuster-linbo7_7.4.19.tar.gz
+ e1717cf0d9779add1e4daf5981a952eba89765ffd004feb6877846bf6b43859e 101985670 linuxmuster-linbo7_7.4.19_all.deb
+ 19faebe4706005a3100ded464f216fd0f826d38f97f1d8fd3a1690f532211e80 15113 linuxmuster-linbo7_7.4.19_amd64.buildinfo
+Files:
+ d690be0328a96393caa4f1737506fb72 1217 admin extra linuxmuster-linbo7_7.4.19.dsc
+ e4eaef89890d7ff5b0fdbef42c1266aa 2029673 admin extra linuxmuster-linbo7_7.4.19.tar.gz
+ e06f079c8029c94a7064f48d0b8f1e45 101985670 admin extra linuxmuster-linbo7_7.4.19_all.deb
+ 5d6821662d5cf668016a2dfa1df3ebd2 15113 admin extra linuxmuster-linbo7_7.4.19_amd64.buildinfo
