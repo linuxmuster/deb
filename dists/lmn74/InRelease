@@ -4,53 +4,53 @@ Hash: SHA512
 Origin: deb.linuxmuster.net
 Label: deb.linuxmuster.net
 Codename: lmn74
-Date: Sun, 11 Oct 2026 08:45:47 UTC
+Date: Sun, 11 Oct 2026 08:48:03 UTC
 Architectures: i386 amd64
 Components: main
 Description: lmn74 (resolute) stable
 MD5Sum:
- 5f6917d2403d5713b2e93b7826fc84f0 10821 main/binary-i386/Packages
- 622272ee5070517216e86e3e19b6aa86 3774 main/binary-i386/Packages.gz
+ cff792dc8e48bb01d210fb6b76659d2b 10821 main/binary-i386/Packages
+ 56eddd65432a0e9aab59e7f6e63a31b0 3781 main/binary-i386/Packages.gz
  1149b28ec05f1ec1a4fb0748ff2e860d 127 main/binary-i386/Release
- 5f6917d2403d5713b2e93b7826fc84f0 10821 main/binary-amd64/Packages
- 622272ee5070517216e86e3e19b6aa86 3774 main/binary-amd64/Packages.gz
+ cff792dc8e48bb01d210fb6b76659d2b 10821 main/binary-amd64/Packages
+ 56eddd65432a0e9aab59e7f6e63a31b0 3781 main/binary-amd64/Packages.gz
  33d92865be8754ef614ed683f1474e78 128 main/binary-amd64/Release
- 9faafc310b21bccf17f8ec7edbec4a2a 11334 main/source/Sources
- 80bbb3b998caa501beed1d8a6fb5d77a 3636 main/source/Sources.gz
+ 47ec1f0072a34a4037502994a31c9c69 11334 main/source/Sources
+ db35a31881fcd04878d53f30cedbf4ac 3640 main/source/Sources.gz
  b9f0c2c2a20bc093306f593680cd41ed 129 main/source/Release
 SHA1:
- 917cb607fc942fc2ec582900345b07697d4eea99 10821 main/binary-i386/Packages
- 6b3173c1df0b0786ad8b04cf5c9378aad104e48f 3774 main/binary-i386/Packages.gz
+ 2096a0b99d640af8590a947d708477a9cc70a510 10821 main/binary-i386/Packages
+ 46cf9b478a91d3765a6c0792236473aecf0e83c7 3781 main/binary-i386/Packages.gz
  df3d088091e7a2abece57a85813123897806f00d 127 main/binary-i386/Release
- 917cb607fc942fc2ec582900345b07697d4eea99 10821 main/binary-amd64/Packages
- 6b3173c1df0b0786ad8b04cf5c9378aad104e48f 3774 main/binary-amd64/Packages.gz
+ 2096a0b99d640af8590a947d708477a9cc70a510 10821 main/binary-amd64/Packages
+ 46cf9b478a91d3765a6c0792236473aecf0e83c7 3781 main/binary-amd64/Packages.gz
  d5eaad8648f529d8160b44f57e8d0a7c275f8bdc 128 main/binary-amd64/Release
- 2e98b5c3187b0d9bd941f96511e27812044f7eb0 11334 main/source/Sources
- ef7aecb80ecb2d7ee8da4446137efe53bf894b91 3636 main/source/Sources.gz
+ b46a894d306abd7a49fd969b0c768e2705d20141 11334 main/source/Sources
+ 6eb28c9e1236c4c460ac58d7ad030c742e9cf954 3640 main/source/Sources.gz
  7c19ef150dd03257b3b998b906fe88363ef15b24 129 main/source/Release
 SHA256:
- 44a328fa124668b104c7bfaf5f058b22b0a3d1d281513ddad73627f4c6445901 10821 main/binary-i386/Packages
- 998ba83d049b0ff1437733cfaa21b4d02dfcc1ad3ee1762b10673c5bf373231a 3774 main/binary-i386/Packages.gz
+ 320ad0e2e28852988646942a39d164988d184b0e3826316387374c587c3c55b3 10821 main/binary-i386/Packages
+ b8dd0a3f036ec71f36acb7f5f628f02aefaba075b76c9c82d5dee2d18e88fe83 3781 main/binary-i386/Packages.gz
  02049bd97b342d8dbd20bdae2e26f018385956f6d6041fd4f20b82800f5dbea3 127 main/binary-i386/Release
- 44a328fa124668b104c7bfaf5f058b22b0a3d1d281513ddad73627f4c6445901 10821 main/binary-amd64/Packages
- 998ba83d049b0ff1437733cfaa21b4d02dfcc1ad3ee1762b10673c5bf373231a 3774 main/binary-amd64/Packages.gz
+ 320ad0e2e28852988646942a39d164988d184b0e3826316387374c587c3c55b3 10821 main/binary-amd64/Packages
+ b8dd0a3f036ec71f36acb7f5f628f02aefaba075b76c9c82d5dee2d18e88fe83 3781 main/binary-amd64/Packages.gz
  42c85e390f5bc98bc89c48da3a79fe0e3388556770f91dd9b2b1038f07206035 128 main/binary-amd64/Release
- 7b28f9d6449349f5be8b8b362b830297a975bdc6fc5506d7b54f85b79b435942 11334 main/source/Sources
- feb4019133bee93bb25b3b000e456b007b526754eb4a88628e9f5828ef18feb7 3636 main/source/Sources.gz
+ 5c10b3f8833f113d912a2f51d4d3153b6e766f5f451540b087a10b1657d1103a 11334 main/source/Sources
+ e033576e7ede276790afda3056d5e8f867aedc844bfda570da175f0957d587cf 3640 main/source/Sources.gz
  3a1c1d1099f8c519d0721987d017007a2b96ca4fb2eae7427d3a924aea18f665 129 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmrLTLsACgkQTouLZn11
-LDIM1hAAjly2HuEH6MaRyRaTMahH3fkDIIo5lVsfAKB7w8FMMAcs/C5pMp42x8G1
-5nHZnu/RF2rjodA5SpuAb51W255FKPPdinGioLvbRFeN86LuQ/4j9q8PNwdWmCKW
-2SzcIo00hdzxV87t6Oc+UwBMFbR/E3Qmuzp55DEN8QfnWRHYWLnWyxn9eAHBwKi5
-C5u1Ch3fUMuWyUGorkqxgjdjN1mLKgMcPPu9TxO4vLI9ZhSg+xGhxJ5Xqax6Fbrv
-6aUIhLGnxoJyERAePY7HmT8tkxWcmrdU6YV5K7T74cKhrhS+7EFA0JtAkrxTDfip
-teiL27IptS9oVWCbtsJA7QgWrtqvkh1741K3zzSnCQ6B3fZKUJm2Sagi7y+lvMU3
-7WowPJ7E4scniJ/lf9HzCJIKVLDyCLjjJJmA/2eFufr+1gK5C7zCphgfWEexNDdg
-R6EURpdw+kTnWJXMHh6NCarczf+KeQr/CQtT4diXVQPMz/xnwnxaclXrRYAPf2Ow
-VXnTabBaJu95/XI5FOsBMXeQwlhUVaTDpGuFbzam0PX044YBx+A2CftM/Oa3mVEg
-h5xgH2C/3DLWA2d96xV73qhoDymzEi/psCgU7e5fQsIhi0cEdCG8Cj3brmb790ej
-SvVTyieBhSMkYgqkvEj0rmy1nmM2g4eS7yn+ccoblbXqgYOWDyo=
-=GWbU
+iQIzBAEBCgAdFiEEIaka7CjRvpQ/zyqpTouLZn11LDIFAmrLTUMACgkQTouLZn11
+LDKjLBAAkgwnDnPd6ixs80uOdEe9JsVH9zDILlEFr28doX+3SUizqLuE2HOWM+ek
+3wNV8v4hKAoA3kSM8CNG9MH0dmnPUPCUoM7ubf2sG38jSgwtHTpqwU1c1ralK/dS
+gd4xQAcxUXeqHDxBrZy634aqu8JTE1BqosVeqLc/fq9sMPaUIT/X2oNO5KEoGmJN
+Xg0sZHWdiBYgmC17LYI9ZJKRBIvfrI1r/db4RnjP6qBC44zc3fG45TAt4UPumjmN
+909e7OVXQhFVe+dkyosuBmQJ9BACQsqFmUsZdsMC7CCN1e0cfWvZqQ5VJ4bLbGvc
+QrRZpN6a0wsf1Mcn2lz+/tDCER8e5U+KUVGvjmOuqsJWmXRwb2R87Gm2O/GWGrjI
+dPAJa9w/00GgkM48KffulTIIjTBNcLD+oJVA5DLMk7vN4DPAa7k/SERC+y4Oclf1
+xLm44Lsbe5URar0n/ItZwJt7o6qCbCdKhO554+vxvIgY/PLk6K5M/0GhUuQG9ewJ
+/SeXV3CZNpMrVFKqKVWPfZVbKgHYzGNzT9lMB9QDOHFkGmwdWWc7U7GeMrQRzfYX
+qjvri2hMMTh2B+1E3a3FhzMS/cQB5ltzFHOdluxPQkKkI976uMV8iwCmlMqSGIGU
+EZ9gH5P33+b77sz5ZWMQSx98KMs06aYzD7ubUO94sDHG31kc5Lg=
+=5YFw
 -----END PGP SIGNATURE-----
