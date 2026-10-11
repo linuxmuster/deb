@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Sun, 11 Oct 2026 10:30:00 +0200
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.14
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.4.14) lmn74; urgency=medium
+ .
+   * [security] Basic auth accepts non-ASCII credentials, decoded as UTF-8
+     with a Latin-1 fallback. FastAPI only decoded ASCII, so a password
+     accepted by set-current-password, like one with umlauts, ß or €,
+     could never be used to log in. Fix #47, reported by @TomlDev.
+   * [groups] PATCH /groups/{group} only writes the flags it is sent. The
+     schema defaulted join to True and hide, mailalias and maillist to
+     False, so a patch only renaming a group also unhid it and made it
+     joinable. Fix #49, reported by @Maddi02, whose tests were taken
+     over.
+   * [devices] PATCH /devices/{device} passes the school when writing the
+     credentials of a device, which were looked for in default-school
+     only. Thanks to @amolani (#42).
+   * [linbo] New POST /linbo/restart-services, restarting linbo-multicast
+     and linbo-torrent after a change on an image. The services are
+     global: a school-administrator restarts them for every school.
+     Fix #43, reported by @TomlDev.
+   * [linbo] New GET /linbo/sync/onboot, GET and DELETE
+     /linbo/sync/onboot/{hostname}, to list, read and withdraw the
+     commands waiting for a host's next boot. A school-administrator
+     only sees the hosts of their school. Fix #44, reported by @TomlDev.
+   * [linbo] POST /linbo/hosts/query, GET /linbo/configs and POST
+     /linbo/hosts/scan return an empty list instead of a 404 when
+     nothing matches. Fix #45, reported by @TomlDev.
+   * [linbo] GET /linbo/changes no longer misses a change made in the
+     same second as the cursor. The deletedHosts and deletedStartConfs
+     fields, always empty, are removed. See linuxmuster-tools#38.
+   * [sessions] Session members are sorted in natural order.
+   * [devices] GET /devices/roles reads the computer roles from the new
+     SophomorixIni.computer_roles.
+   * [packaging] Depends on linuxmuster-tools7 (>= 7.4.19).
+Checksums-Sha1:
+ 14f9bdab2a77fdd04e125da3252ef3e9547e0403 571 linuxmuster-api7_7.4.14.dsc
+ 4329c8ac8ff000d5bf1dcdcf6748de576a9e69a7 156094 linuxmuster-api7_7.4.14.tar.gz
+ 658534d38772c22cf6cc442884db8d6fcff98b63 116238 linuxmuster-api7_7.4.14_all.deb
+ 30ceda32e6d237c07992ae6042d6a8db4b2179ba 7740 linuxmuster-api7_7.4.14_amd64.buildinfo
+Checksums-Sha256:
+ e07e520962564d6b30726ed69b0eff9b01ce0d1443b9fd78769222db8c6d077f 571 linuxmuster-api7_7.4.14.dsc
+ e9b507285353c6379a253ca6da460f57c69f67b0387343f9dd77994dad52e3e2 156094 linuxmuster-api7_7.4.14.tar.gz
+ 3d6a4938239df76964861287aca1ff07f7aeaf27804f433e9b5c03413107e961 116238 linuxmuster-api7_7.4.14_all.deb
+ 7aa6d3fe1fec189673924ab07ac1ce14bd76230030d445895e09376b6be4ef38 7740 linuxmuster-api7_7.4.14_amd64.buildinfo
+Files:
+ d62a13941d30add06f7ddc01687d00a1 571 linuxmuster optional linuxmuster-api7_7.4.14.dsc
+ cc2ffaacc0a72b3b5f52f621c8426ba8 156094 linuxmuster optional linuxmuster-api7_7.4.14.tar.gz
+ a425e6b7db6b691c175d9f82dde2f58d 116238 linuxmuster optional linuxmuster-api7_7.4.14_all.deb
+ 549bf7e2a83fcdb6ea611ec0c1549e03 7740 linuxmuster optional linuxmuster-api7_7.4.14_amd64.buildinfo
