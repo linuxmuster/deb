@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 11 Oct 2026 10:30:00 +0200
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.11
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.4.11) lmn74; urgency=medium
+ .
+   * Listings are sorted in natural order: schoolclasses (names without
+     any digit last), devices on room and hostname, lmngroups, printers
+     and projects.
+   * [users] "lmncli users ls" makes a single raw request and filters the
+     roles itself, which is faster.
+   * [packaging] Depends on linuxmuster-tools7 (>= 7.4.19).
+Checksums-Sha1:
+ 3f822088200b152585b8f0705773663e96e27ed9 568 linuxmuster-cli7_7.4.11.dsc
+ d5044ce0e9f798a2cae022fc8e318cd9574e81c6 70435 linuxmuster-cli7_7.4.11.tar.gz
+ 1d82847b3c937d5a0a5dba535581dbdfb95cba46 48734 linuxmuster-cli7_7.4.11_all.deb
+ 600cc311775f64a8d60dbbc52d088b61cf8b0dd4 7737 linuxmuster-cli7_7.4.11_amd64.buildinfo
+Checksums-Sha256:
+ 2759964548a0c2bc4f754a15892ab6b73599d496f12243dc7a117d6c0109dc6f 568 linuxmuster-cli7_7.4.11.dsc
+ e101bae3a16ccb903a0d48b7e8de50371c295008bd68a9c48ffb58fbfb4eb85b 70435 linuxmuster-cli7_7.4.11.tar.gz
+ 55b2dd3a57f244e09cf647e2fdab7c0bc778eddcb226bd2656985d8156fbdf2f 48734 linuxmuster-cli7_7.4.11_all.deb
+ 454be2c51c6c859fe4a65e96c6b3bef2dab877deba636e4335a50ac1c5e3dbdc 7737 linuxmuster-cli7_7.4.11_amd64.buildinfo
+Files:
+ 17a5316ec51492e0402e02ac6568a173 568 linuxmuster optional linuxmuster-cli7_7.4.11.dsc
+ 82238bc826e88bbefc3e716901dfc905 70435 linuxmuster optional linuxmuster-cli7_7.4.11.tar.gz
+ d4b24d5eeed0616fde110342c4618845 48734 linuxmuster optional linuxmuster-cli7_7.4.11_all.deb
+ 67f4419741a487b9a60c1e81ca4461a4 7737 linuxmuster optional linuxmuster-cli7_7.4.11_amd64.buildinfo
