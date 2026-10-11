@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Sun, 11 Oct 2026 10:30:00 +0200
+Source: sophomorix4
+Binary: sophomorix-belwue-mail sophomorix-developer sophomorix-dump sophomorix-samba sophomorix-vampire
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.6
+Distribution: lmn74
+Urgency: medium
+Maintainer: Rüdiger Beck <jeffbeck@web.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ sophomorix-belwue-mail - Reading external Mail data at Belwue and suggest actions
+ sophomorix-developer - Test suite for sophomorix-samba
+ sophomorix-dump - Migration dump script
+ sophomorix-samba - Sophomorix for Samba 4
+ sophomorix-vampire - Migration vampire script
+Changes:
+ sophomorix4 (7.4.6) lmn74; urgency=medium
+ .
+   * [sophomorix-device] AD_gpo_listall() no longer runs samba-tool gpo
+     listcontainers for each GPO: its output was never read, and each
+     call cost about 1.5 s on every run. Fix #190, reported by
+     @Pasemesan.
+   * [school.conf] New "manual" value for MAIL_LOCAL_PART_SCHEME: an
+     existing mail address is no longer overwritten, new users and users
+     without an address get their login name. MAIL_LOCAL_PART_MAP and
+     MAILDOMAIN=NONE take precedence. Extends #188, reported by
+     @hermanntoast.
+Checksums-Sha1:
+ 080e9fb999da452429e053a8f84332ff6115caad 833 sophomorix4_7.4.6.dsc
+ 4522bd611f2f9909307097129944818d09fdb4c1 756984 sophomorix4_7.4.6.tar.xz
+ 5cde5fe6aba9869aa03e96e7f99873b19e67a156 16102 sophomorix-belwue-mail_7.4.6_all.deb
+ bb047b7ab1dd3f272d56ea28c5b84c7c68700a73 81816 sophomorix-developer_7.4.6_all.deb
+ 10ae69e9213f88edcbb0ca1021a47213aca051a9 9006 sophomorix-dump_7.4.6_all.deb
+ d8d9332b4136a0c51e67609091f0a370c1236125 257004 sophomorix-samba_7.4.6_all.deb
+ 8050af470097f655e8ee2255ab03349d7d88e513 18440 sophomorix-vampire_7.4.6_all.deb
+ 0dc624b2ebb8bddc5f5dcbf4a50e42844e3d0b79 11856 sophomorix4_7.4.6_amd64.buildinfo
+Checksums-Sha256:
+ e4d4d724b561e2d32131798274487bf9c82f67a70d12e1feb97436417e2cdda3 833 sophomorix4_7.4.6.dsc
+ 478ea4c71da354dc4924da68cac780aae3afbc5b3402b30cf68d0dd9395c3597 756984 sophomorix4_7.4.6.tar.xz
+ b2c7749dbc3814b121ef413b1d868396a19e73c4aebee4aff1b3190090f7d889 16102 sophomorix-belwue-mail_7.4.6_all.deb
+ e33fe61d6bfc1795fd8d095d932779a54d2fb9777c50465cb59f6163f66271b0 81816 sophomorix-developer_7.4.6_all.deb
+ 5cfdb1928e3b3860c80a831175f6e4f85040f0fbd0c9a6f34847ecf23c9af599 9006 sophomorix-dump_7.4.6_all.deb
+ 3c36d047d0381f041d99e7a533f023256ff31395fb2c25c6fc50c5e7ce56eb5c 257004 sophomorix-samba_7.4.6_all.deb
+ e71b095fa87b9584fd8a3be377b29c4b97eebe1c4ef5fd7168cbcc9ec71aac5e 18440 sophomorix-vampire_7.4.6_all.deb
+ f24ff1922b76e82781ac974796407485891829436444c0602fbabc71371efae5 11856 sophomorix4_7.4.6_amd64.buildinfo
+Files:
+ f9d6b4a69960e9129dcece17f116a98a 833 admin optional sophomorix4_7.4.6.dsc
+ 2e96f27e4fee324248391bde5c6719e0 756984 admin optional sophomorix4_7.4.6.tar.xz
+ 454c4f8d5d0c80076e1b9346bf7a1e3d 16102 admin optional sophomorix-belwue-mail_7.4.6_all.deb
+ c43d1d2747910895321424024f97d42b 81816 admin optional sophomorix-developer_7.4.6_all.deb
+ 295ecd6c637c6b20db7f26f87cf1034c 9006 admin optional sophomorix-dump_7.4.6_all.deb
+ bd825564797a54b9d28a9a502b9bdefa 257004 admin optional sophomorix-samba_7.4.6_all.deb
+ 0b223b8ecb497cdbad5a1dfbd2cd4c8d 18440 admin optional sophomorix-vampire_7.4.6_all.deb
+ 06716be66bf7ed42dc6dd73f2591c1f9 11856 admin optional sophomorix4_7.4.6_amd64.buildinfo
