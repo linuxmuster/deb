@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 14 Oct 2026 18:56:57 +0200
+Source: linuxmuster-base7
+Binary: linuxmuster-base7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.24
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-base7 - linuxmuster.net configuration scripts
+Changes:
+ linuxmuster-base7 (7.4.24) lmn74; urgency=low
+ .
+   * fix(systemd): restart isc-dhcp-server on failure at boot - dhcpd could
+     start before the server address was configured and then stayed down
+     (#210, 1e22733).
+   * fix(postinst): idempotent fix script for isc-dhcp-server restart -
+     brings existing servers to the same state on package upgrade and
+     starts dhcpd if it failed at the last boot (#210, 7709672).
+   * fix(smb.conf): register only the server address as DC DNS records
+     (#212, 8ea4203).
+   * fix(postinst): idempotent fix script for samba dns registration
+     (#212, 2d8c952).
+   * fix(j_samba-provisioning): pin the host ip on domain provision
+     (#212, 721ca60).
+   * fix(import_subnets): report firewall API auth failures instead of a
+     version error (#214, 47029bc).
+   * feat(opnsense_apikey): add linuxmuster-opnsense-apikey to deploy a new
+     firewall API key (#214, 401dd16).
+Checksums-Sha1:
+ 4e4bae0585cdb7d9a80afd66e6b0fd98fad70aaf 896 linuxmuster-base7_7.4.24.dsc
+ fc08055bf43d558f82f574cd29c0bec476ca7e0a 187363 linuxmuster-base7_7.4.24.tar.gz
+ 6513862efea8bf381ebaf07b86e65d757d5e8138 121068 linuxmuster-base7_7.4.24_all.deb
+ 4170b38eae39df463173e60930a0637f26f95097 9760 linuxmuster-base7_7.4.24_amd64.buildinfo
+Checksums-Sha256:
+ bbfc6df5b6c25a29ee682ec85282cb2ae3b929a136777fc1fbe7c5c362d922d2 896 linuxmuster-base7_7.4.24.dsc
+ 9bdf97b8f26f5ffdea95e1cece646497d5f4da11ccf51839fc175b5b6dba94e4 187363 linuxmuster-base7_7.4.24.tar.gz
+ e7499480f072a6ec3c61fb3ef47d48e23105d8e53570393798a7fd1caa2a4438 121068 linuxmuster-base7_7.4.24_all.deb
+ f40b136b740947150b52dffebaaf807a1c3a4c721c44a7d1a0dbe907b94a6f1f 9760 linuxmuster-base7_7.4.24_amd64.buildinfo
+Files:
+ 3ee0e51a0febc8bb8e8d4c5b57fc2a76 896 linuxmuster optional linuxmuster-base7_7.4.24.dsc
+ 91146d6fa3f2ac29d28d37c8c5c1fc4a 187363 linuxmuster optional linuxmuster-base7_7.4.24.tar.gz
+ f2589b3a9b367fc9154b42386ab335d5 121068 linuxmuster optional linuxmuster-base7_7.4.24_all.deb
+ 6be532e0546891c7eed7ee44114a28fd 9760 linuxmuster optional linuxmuster-base7_7.4.24_amd64.buildinfo
