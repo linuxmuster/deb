@@ -8,3 +8,6 @@ Files in this directory:
 - 🗒 [linuxmuster-linuxclient7_1.1.4.dsc](linuxmuster-linuxclient7_1.1.4.dsc)
 - 🗒 [linuxmuster-linuxclient7_1.1.4.tar.gz](linuxmuster-linuxclient7_1.1.4.tar.gz)
 - 🗒 [linuxmuster-linuxclient7_1.1.4_all.deb](linuxmuster-linuxclient7_1.1.4_all.deb)
+- 🗒 [linuxmuster-linuxclient7_7.4.0.dsc](linuxmuster-linuxclient7_7.4.0.dsc)
+- 🗒 [linuxmuster-linuxclient7_7.4.0.tar.gz](linuxmuster-linuxclient7_7.4.0.tar.gz)
+- 🗒 [linuxmuster-linuxclient7_7.4.0_all.deb](linuxmuster-linuxclient7_7.4.0_all.deb)
