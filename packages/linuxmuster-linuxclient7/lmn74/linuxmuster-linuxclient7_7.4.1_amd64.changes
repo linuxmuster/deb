@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 19 Oct 2026 13:20:01 +0200
+Source: linuxmuster-linuxclient7
+Binary: linuxmuster-linuxclient7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.1
+Distribution: lmn74
+Urgency: medium
+Maintainer: Dorian Zedler <dorian@itsblue.de>
+Changed-By: Lukas Lukic-Spitznagel <lukas.spitznagel@netzint.de>
+Description:
+ linuxmuster-linuxclient7 - Package for Ubuntu clients to connect to the linuxmuster.net 7 ac
+Changes:
+ linuxmuster-linuxclient7 (7.4.1) lmn74; urgency=medium
+ .
+   * Hide sysvol shares in KDE (#95)
+   * Show an error if the hostname is longer than 15 characters (#34)
+Checksums-Sha1:
+ 247fa7d27fed50178b4f4eb0c0210d017efac112 607 linuxmuster-linuxclient7_7.4.1.dsc
+ 76276ba0a31d4aaff3c9387c60a6bdcc25201ea9 87223 linuxmuster-linuxclient7_7.4.1.tar.gz
+ 2fd1c33315d1e5655892f6621efaa50d358450b0 46732 linuxmuster-linuxclient7_7.4.1_all.deb
+ bde60c5cc79bb3a3ff491814faf0e45bf76a628a 7795 linuxmuster-linuxclient7_7.4.1_amd64.buildinfo
+Checksums-Sha256:
+ 8ae0b1ad6b6e2264cf32e85b8f8cd5f604eb6ae92200032d343afa2721a5d90e 607 linuxmuster-linuxclient7_7.4.1.dsc
+ 7024f4e86094e2ad8c28ea1c832ec6c7535881cae13941f4131de27cbc8b0494 87223 linuxmuster-linuxclient7_7.4.1.tar.gz
+ 49cadcd1c5d986cc7f177c0eda3d4ebaff7baace8a87d149cbe259eb325da645 46732 linuxmuster-linuxclient7_7.4.1_all.deb
+ 1077ecf907896910d2eb00853e7f0c2da4c0d4acdbf9ff7d641940fbe852209c 7795 linuxmuster-linuxclient7_7.4.1_amd64.buildinfo
+Files:
+ f01b47716360683efa6272c51b65ad29 607 linuxmuster optional linuxmuster-linuxclient7_7.4.1.dsc
+ 451175f4801b44d30fc3a721490b1d1c 87223 linuxmuster optional linuxmuster-linuxclient7_7.4.1.tar.gz
+ a01a05b0e85148a7a18bb1295e0ed4cb 46732 linuxmuster optional linuxmuster-linuxclient7_7.4.1_all.deb
+ 8ba3860cc4831fcf7f0bba5bb418817a 7795 linuxmuster optional linuxmuster-linuxclient7_7.4.1_amd64.buildinfo

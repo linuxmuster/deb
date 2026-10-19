@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-linuxclient7
 Binary: linuxmuster-linuxclient7
 Architecture: all source
-Version: 7.4.0
+Version: 7.4.1
 Checksums-Md5:
- f24dc7a047b5ab27af6bbbc64c542fa9 607 linuxmuster-linuxclient7_7.4.0.dsc
- 01953b91e3e945aac5967aee397b2134 45508 linuxmuster-linuxclient7_7.4.0_all.deb
+ f01b47716360683efa6272c51b65ad29 607 linuxmuster-linuxclient7_7.4.1.dsc
+ a01a05b0e85148a7a18bb1295e0ed4cb 46732 linuxmuster-linuxclient7_7.4.1_all.deb
 Checksums-Sha1:
- 4d959e605ee5d7889d46b9fea9770482ba647a24 607 linuxmuster-linuxclient7_7.4.0.dsc
- c98a766b7e5e4bd196da5491e3b198cce4d3d607 45508 linuxmuster-linuxclient7_7.4.0_all.deb
+ 247fa7d27fed50178b4f4eb0c0210d017efac112 607 linuxmuster-linuxclient7_7.4.1.dsc
+ 2fd1c33315d1e5655892f6621efaa50d358450b0 46732 linuxmuster-linuxclient7_7.4.1_all.deb
 Checksums-Sha256:
- be2a1023614948b33737cd32a9ebb2d68340455dbdd34132f8eaab2d8318f5e4 607 linuxmuster-linuxclient7_7.4.0.dsc
- b58deb36cf68dbc63003fc4e68cadd857d27ef47973342c5edb27a75c08e5951 45508 linuxmuster-linuxclient7_7.4.0_all.deb
+ 8ae0b1ad6b6e2264cf32e85b8f8cd5f604eb6ae92200032d343afa2721a5d90e 607 linuxmuster-linuxclient7_7.4.1.dsc
+ 49cadcd1c5d986cc7f177c0eda3d4ebaff7baace8a87d149cbe259eb325da645 46732 linuxmuster-linuxclient7_7.4.1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 16 Oct 2026 19:58:15 +0000
+Build-Date: Mon, 19 Oct 2026 11:32:57 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -214,4 +214,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="C.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1792141206"
+ SOURCE_DATE_EPOCH="1792408801"
