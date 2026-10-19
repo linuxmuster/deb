@@ -117,19 +117,19 @@ Description: linuxmuster-linbo7
   the Linux-based Network Boot (LINBO) boot/install/repair system.
 
 Package: linuxmuster-linuxclient7
-Version: 7.4.0
+Version: 7.4.1
 Architecture: all
 Maintainer: Dorian Zedler <dorian@itsblue.de>
-Installed-Size: 336
+Installed-Size: 344
 Depends: python3, python3-ldap, python3-yaml, cifs-utils, ldb-tools, bind9-host, ipcalc, hxtools, network-manager, krb5-user, keyutils, samba, sssd, sssd-tools, libsss-sudo, adcli, libpam-sss, sudo, realmd, cups (>= 2.3.0), coreutils, libcap2-bin
 Conflicts: linuxmuster-client-adsso, linuxmuster-client-adsso7, ni-lmn-client-adsso
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-linuxclient7/linuxmuster-linuxclient7_7.4.0_all.deb
-Size: 45508
-SHA256: b58deb36cf68dbc63003fc4e68cadd857d27ef47973342c5edb27a75c08e5951
-SHA1: c98a766b7e5e4bd196da5491e3b198cce4d3d607
-MD5sum: 01953b91e3e945aac5967aee397b2134
+Filename: pool/main/l/linuxmuster-linuxclient7/linuxmuster-linuxclient7_7.4.1_all.deb
+Size: 46732
+SHA256: 49cadcd1c5d986cc7f177c0eda3d4ebaff7baace8a87d149cbe259eb325da645
+SHA1: 2fd1c33315d1e5655892f6621efaa50d358450b0
+MD5sum: a01a05b0e85148a7a18bb1295e0ed4cb
 Description: Package for Ubuntu clients to connect to the linuxmuster.net 7 active directory server.
 
 Package: linuxmuster-prepare
