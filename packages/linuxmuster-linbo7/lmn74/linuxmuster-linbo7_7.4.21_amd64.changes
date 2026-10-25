@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Sun, 25 Oct 2026 14:54:49 +0100
+Source: linuxmuster-linbo7
+Binary: linuxmuster-linbo7
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: source all
+Version: 7.4.21
+Distribution: lmn74
+Urgency: low
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>
+Changed-By: Thomas Schmitt <thomas@linuxmuster.net>
+Description:
+ linuxmuster-linbo7 - linuxmuster-linbo7
+Changes:
+ linuxmuster-linbo7 (7.4.21) lmn74; urgency=low
+ .
+   * fix(rsync-post-upload): drop the dead empty-BAKDIR cleanup after a
+     failed upload (#133, fd29b93).
+   * feat(linbo_create_image): create a base image under a new name
+     (#133, 866eef6).
+   * feat(rsync-pre-upload): accept image uploads only from registered
+     devices (#133, c04f422).
+   * feat(rsync-pre-upload): leave image uploads of other schools unchecked
+     (#133, c7250bc).
+   * feat(rsync-pre-upload): guard image uploads under a new name
+     (#133, b2b3f6a).
+   * feat(rsync-post-upload): take over the supplemental files of the
+     source image (#133, 4d70dc2).
+   * feat(linbo-remote, linbo_wrapper): create and upload images under a
+     new name (#133, 9bcbbd3).
+   * fix(linbo-remote): name a surplus field instead of an unknown empty
+     command (#133, 446256f).
+   * fix(linbo_upload): report failed uploads as failed (#198, d8d57ff).
+   * feat(init.sh): show the progress of onboot commands in the splash
+     (#199, 9ab96b4).
+   * feat(init.sh): log failed onboot commands and skip the remaining ones
+     (#199, a2be6c2).
+   * fix(linbo_upload, linbo_create_image): never upload an incomplete image
+     (#199, dea35d6).
+Checksums-Sha1:
+ 54e046517777bc987c5b9b25aba74fe969ac4994 1217 linuxmuster-linbo7_7.4.21.dsc
+ 80a4c1aad536521d77d2ab542bfb0ad767a396bd 2045399 linuxmuster-linbo7_7.4.21.tar.gz
+ baec3cf505b35667cb2dc2ef234d045eea0fe731 101991494 linuxmuster-linbo7_7.4.21_all.deb
+ 19497956ac00aaa6f0aef5b9be35deae9b1aec33 15113 linuxmuster-linbo7_7.4.21_amd64.buildinfo
+Checksums-Sha256:
+ 17ea9ff1832509087ff368e082798629c3a7483471d0b761a838f51d881ff75b 1217 linuxmuster-linbo7_7.4.21.dsc
+ a826e96cba5350baaa0bcfce89ffb9c7a0eebf2fb7a0ca077726f1c588ec4170 2045399 linuxmuster-linbo7_7.4.21.tar.gz
+ ec4f6ddba1fb3080da9afd90f9c859d865a0e47f76dbcc5c73e45e0064fefea5 101991494 linuxmuster-linbo7_7.4.21_all.deb
+ 9283cbdb62f8dd1c2fe102818c75d82aa179aedea7effaefce87f63a5f8454a8 15113 linuxmuster-linbo7_7.4.21_amd64.buildinfo
+Files:
+ 2573f2b1d397ed32959d536984f21c3d 1217 admin extra linuxmuster-linbo7_7.4.21.dsc
+ 7dc776feefb926bce8c68db0f8118960 2045399 admin extra linuxmuster-linbo7_7.4.21.tar.gz
+ 6f6355f8aee3916893d1f3c9fd3cac54 101991494 admin extra linuxmuster-linbo7_7.4.21_all.deb
+ 82e1fff55685fd1ccd983c5545c5d401 15113 admin extra linuxmuster-linbo7_7.4.21_amd64.buildinfo
