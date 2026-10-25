@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Sun, 25 Oct 2026 22:45:00 +0100
+Source: sophomorix4
+Binary: sophomorix-belwue-mail sophomorix-developer sophomorix-dump sophomorix-samba sophomorix-vampire
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.7
+Distribution: lmn74
+Urgency: medium
+Maintainer: Rüdiger Beck <jeffbeck@web.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ sophomorix-belwue-mail - Reading external Mail data at Belwue and suggest actions
+ sophomorix-developer - Test suite for sophomorix-samba
+ sophomorix-dump - Migration dump script
+ sophomorix-samba - Sophomorix for Samba 4
+ sophomorix-vampire - Migration vampire script
+Changes:
+ sophomorix4 (7.4.7) lmn74; urgency=medium
+ .
+   * [security] [sophomorix-quota] The smbcquotas command was printed with
+     the administrator password in clear: on every quota set
+     (AD_user_setquota), and when querying a user (--smbcquotas,
+     --smbcquotas-only). The password is masked, including one holding
+     regex special characters.
+   * [sophomorix-quota] A user's quota is queried on the DFS target of a
+     share served by another fileserver, as it already was when setting
+     it.
+   * [sophomorix-query] --quota-usage queries the DFS target of a share
+     served by another fileserver, and reports a failed query as an
+     error instead of 0 MiB used.
+   * [sophomorix-passwd] A random password shorter than 4 characters is
+     refused with an error instead of looping forever: it needs one
+     character of each of the 4 classes.
+Checksums-Sha1:
+ 0526a9dc3c1aafac36876b9b4722dc3a8d70abd6 833 sophomorix4_7.4.7.dsc
+ 666af6172cf295492ca8fe6e7840eb2db3eb6b55 757424 sophomorix4_7.4.7.tar.xz
+ 44c24d4e34bb9079924a7b009ed3abde7a3acda7 16412 sophomorix-belwue-mail_7.4.7_all.deb
+ 9b69ba4498a7d5abf8d9ae63c02580adfed6ed18 82128 sophomorix-developer_7.4.7_all.deb
+ 811f12aefb315c0fa01500a270ac01ef25b030cb 9334 sophomorix-dump_7.4.7_all.deb
+ d21fb17894faecb6fe6a55bd1b8a16d12edfc48e 258074 sophomorix-samba_7.4.7_all.deb
+ 13d63a5d5323ac99f5b17081be63879df52298cb 18768 sophomorix-vampire_7.4.7_all.deb
+ c0c8ce0dda6bd0f62284b305f7766739c73e1cff 11857 sophomorix4_7.4.7_amd64.buildinfo
+Checksums-Sha256:
+ 103c6b317038ebfca61978de0495507ee16855aada313655d1b25d6c6cd7de21 833 sophomorix4_7.4.7.dsc
+ 2614dafc16ccff50886444da02845df0c5139c6204370095017e4d38e8b63d06 757424 sophomorix4_7.4.7.tar.xz
+ bbf8e541cf3a27ba05dd4f1e4eb47bdf607f5db70ada8743f58a61f416445d26 16412 sophomorix-belwue-mail_7.4.7_all.deb
+ 3bf96767e31c88c2a0498e304542abb7bc0e3f5c9df1f2b42785dc4928734093 82128 sophomorix-developer_7.4.7_all.deb
+ 0c77ceef6ce7d6948c1db792c324b4c05cbdf5a6bff10aacde1a5d2ce9305672 9334 sophomorix-dump_7.4.7_all.deb
+ fb20b8c036e45fcac28aa895e566d6437d5feb45f89da60d4bc554cf4d4ee539 258074 sophomorix-samba_7.4.7_all.deb
+ 3b00d5e2390764aefc6de67bb2889580b335ee68e53734170fdc10e10d26a968 18768 sophomorix-vampire_7.4.7_all.deb
+ e225c171db3cd5a156fc2cb1e50288da037a7ce276c9c8b3fd642258ac276400 11857 sophomorix4_7.4.7_amd64.buildinfo
+Files:
+ 91802154b8565aff7fcdfc1a11a38b2a 833 admin optional sophomorix4_7.4.7.dsc
+ 6f8e037e158ced1a1325287a13e1c644 757424 admin optional sophomorix4_7.4.7.tar.xz
+ 702bb4152e8a318245148c419cf7b08d 16412 admin optional sophomorix-belwue-mail_7.4.7_all.deb
+ 03b4d0ab0766991301297d7fe7a27705 82128 admin optional sophomorix-developer_7.4.7_all.deb
+ f9066b72587228c5b97f1263fb4ad3ff 9334 admin optional sophomorix-dump_7.4.7_all.deb
+ 09f5c9a7f9120d753af11dbd23ab6898 258074 admin optional sophomorix-samba_7.4.7_all.deb
+ fa22f65470b766c7d1b1a19c417ed13f 18768 admin optional sophomorix-vampire_7.4.7_all.deb
+ 220547a0e3017a45c30b38345cc5c212 11857 admin optional sophomorix4_7.4.7_amd64.buildinfo
