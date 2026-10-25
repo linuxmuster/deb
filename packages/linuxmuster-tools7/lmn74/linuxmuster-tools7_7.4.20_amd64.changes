@@ -1,0 +1,73 @@
+Format: 1.8
+Date: Sun, 25 Oct 2026 22:45:00 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.20
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.20) lmn74; urgency=medium
+ .
+   * [security] [linbo] get_onboot_command() never returns the
+     "linbo:<password>" entry written by linbo-remote -p before an
+     upload: it is the LINBO rsync password in clear. See
+     linuxmuster-api#51, reported by @TomlDev.
+   * [linbo] Deleting an image removes its whole directory, backups,
+     differential image and any file added by hand included, instead of
+     its known files only, which left the directory behind. An image
+     whose .info is missing or incomplete can be deleted too. The path is
+     checked to be a directory below /srv/linbo before removal. Fix #39,
+     reported by @TomlDev.
+   * [linbo] New last_start(workstation), the last OS start of a client
+     and the name of the OS, read from its <hostname>_linbo.log, or from
+     the last rotated .1.gz if the current log holds none.
+     last_sync_all() gets a laststart parameter filling lastStart for
+     each host.
+   * [linbo] New LinboBootLogs.latest_remote_log(), the log of the last
+     linbo-remote run of a host: linuxmuster-linbo7 7.4.18 writes one log
+     per run, the former <hostname>.linbo-remote is still read as a
+     fallback.
+   * [linbo] LinboRemote accepts the linbo-remote command
+     image_name:<name> of linuxmuster-linbo7 7.4.21, creating or uploading
+     an image under a new name. It refuses it, as linbo-remote does,
+     without a following create_image/upload_image and with a qdiff
+     command. Fix #46, reported by @HappyBasher.
+   * [linbo] A missing SyncEnabled, NewEnabled or StartEnabled in a
+     start.conf is read as yes, as LINBO does, instead of raising a
+     KeyError.
+   * [devices] The validator reports a LINBO group containing '__'
+     (group.reserved_separator): LINBO names the group of a non default
+     school <school>__<group>.
+   * [samba_util] last_login() gives the hostname of each login, resolved
+     from the devices.csv of all schools, and leaves out the
+     administrator account.
+   * [lmnconfig] New load_shares(), reading again the shares and their
+     DFS targets, so far only read at import. get_user_quotas() calls it
+     once when a share is not found, e.g. after it was moved to a
+     fileserver while linuxmuster-api was running.
+   * [quotas] list_user_files() no longer matches a directory whose name
+     only starts with the one looked for.
+   * [print] LatexRenderer raises UnknownTemplateTypeError for a template
+     type it does not know, instead of failing later on an undefined
+     output file.
+Checksums-Sha1:
+ 98e77a808fbd142a2f4d2a7ac885a981dcf19cff 583 linuxmuster-tools7_7.4.20.dsc
+ b035183f02f7ba4f15181294f59e385a4be74c32 343733 linuxmuster-tools7_7.4.20.tar.gz
+ c2b93df6be68868ef2caa950adba1f6378ee5eab 257430 linuxmuster-tools7_7.4.20_all.deb
+ 8a6c58750a10f7b2e39ad73dffe63c823879c5fa 7757 linuxmuster-tools7_7.4.20_amd64.buildinfo
+Checksums-Sha256:
+ fa20c5ce021bc6f314678fdb4e2354dbdb17a5c0b64db8bcdda4a39f4078ae70 583 linuxmuster-tools7_7.4.20.dsc
+ 16d671edb4b02aae43765b9e999788d20fbca25d7363a1ac44b25e1c9880bcef 343733 linuxmuster-tools7_7.4.20.tar.gz
+ f01d2253717c89504583ed0daa7868a2281b15aaeb0b52d818f5560789ff88a4 257430 linuxmuster-tools7_7.4.20_all.deb
+ 1b33712ed0728f368aae5c398f27a4a83aa2ada521afe2d787f1db49204f4da1 7757 linuxmuster-tools7_7.4.20_amd64.buildinfo
+Files:
+ 877266984eb643d1b0092e96526d149c 583 linuxmuster optional linuxmuster-tools7_7.4.20.dsc
+ 529db7b1204288aee2cc8a1105ecef2a 343733 linuxmuster optional linuxmuster-tools7_7.4.20.tar.gz
+ b41890d6edc9daa0bbca7d4e4e7018d9 257430 linuxmuster optional linuxmuster-tools7_7.4.20_all.deb
+ 13eb667b5f2b4978628e0f05e60631ba 7757 linuxmuster optional linuxmuster-tools7_7.4.20_amd64.buildinfo
