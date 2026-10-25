@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Sun, 25 Oct 2026 22:45:00 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.15
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.4.15) lmn74; urgency=medium
+ .
+   * [security] [linbo] The onboot routes no longer return the
+     "linbo:<password>" entry, the LINBO rsync password in clear, through
+     linuxmuster-tools 7.4.20. Fix #51, reported by @TomlDev.
+   * [linbo] DELETE /linbo/images/{image_name} removes the whole image
+     directory, including files added by hand, and also works for an
+     image whose .info is missing or incomplete, refused so far with a
+     409. The same applies to the backup directory deleted by the backup
+     route. See linuxmuster-tools#39, reported by @TomlDev.
+   * [linbo] The linbo-remote log route reads the log of the host's last
+     run, linuxmuster-linbo7 7.4.18 writing one log per run.
+   * [passwords] Teachers can read the password constraints and the
+     effective password policy. Fix #50, reported by @TomlDev.
+   * [packaging] Depends on linuxmuster-tools7 (>= 7.4.20).
+Checksums-Sha1:
+ d48497967846426b6663f00737f5952d1e4caebb 571 linuxmuster-api7_7.4.15.dsc
+ d3b97ef6e13fe8840786bfb4c7c1848adaa9caac 157493 linuxmuster-api7_7.4.15.tar.gz
+ 4d483b8c8f719513a66a30229ad38f9ca0b6462e 116860 linuxmuster-api7_7.4.15_all.deb
+ 95d40da263ee130fb7458836efbf8464d078f878 7741 linuxmuster-api7_7.4.15_amd64.buildinfo
+Checksums-Sha256:
+ c1577ad4a9bb52c5da7b0eb166e6745d35d1b21fce87adfc59fc2f789170ea94 571 linuxmuster-api7_7.4.15.dsc
+ faf90b914fd047ee50caab543dacb6feec6ffb33c9a00f1fffda8f17beebf906 157493 linuxmuster-api7_7.4.15.tar.gz
+ a740cc08a64df53c4a80bce6c7870a58709b7a77d467ef5335fd8e3546da08a1 116860 linuxmuster-api7_7.4.15_all.deb
+ 19533a0ed9d64a710ed094c5a78ae197a22625ef1df2ac98a9fb4ccb3c1bdd66 7741 linuxmuster-api7_7.4.15_amd64.buildinfo
+Files:
+ 258dfa774df85962fa8dd1ed6697c813 571 linuxmuster optional linuxmuster-api7_7.4.15.dsc
+ e5cb645346e5f82a15e35729013e7627 157493 linuxmuster optional linuxmuster-api7_7.4.15.tar.gz
+ 90766d1f74ddb0161bcf1886723da888 116860 linuxmuster optional linuxmuster-api7_7.4.15_all.deb
+ 2b5238cb943c44898935bd28c18599d3 7741 linuxmuster optional linuxmuster-api7_7.4.15_amd64.buildinfo
