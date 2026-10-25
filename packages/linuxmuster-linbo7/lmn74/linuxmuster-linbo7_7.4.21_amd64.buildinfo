@@ -2,19 +2,19 @@ Format: 1.0
 Source: linuxmuster-linbo7
 Binary: linuxmuster-linbo7
 Architecture: all source
-Version: 7.4.20
+Version: 7.4.21
 Checksums-Md5:
- 7fbe563582568b4dce5be3b2509644ad 1217 linuxmuster-linbo7_7.4.20.dsc
- 3d50acddd997e02a66ec60eab6578df5 101984836 linuxmuster-linbo7_7.4.20_all.deb
+ 2573f2b1d397ed32959d536984f21c3d 1217 linuxmuster-linbo7_7.4.21.dsc
+ 6f6355f8aee3916893d1f3c9fd3cac54 101991494 linuxmuster-linbo7_7.4.21_all.deb
 Checksums-Sha1:
- 8433c1148682224d12104c99a662687027ce10da 1217 linuxmuster-linbo7_7.4.20.dsc
- edeb8f4b73a3e745211af054291148b2b734291d 101984836 linuxmuster-linbo7_7.4.20_all.deb
+ 54e046517777bc987c5b9b25aba74fe969ac4994 1217 linuxmuster-linbo7_7.4.21.dsc
+ baec3cf505b35667cb2dc2ef234d045eea0fe731 101991494 linuxmuster-linbo7_7.4.21_all.deb
 Checksums-Sha256:
- 9ee5f71ac12e59af5eff2579e626f50bda229850283ab266da0b45c492e7d838 1217 linuxmuster-linbo7_7.4.20.dsc
- dc8df0cc9261cc1502edd022a762e63617730e8b18d12c1e9f663c30380d5892 101984836 linuxmuster-linbo7_7.4.20_all.deb
+ 17ea9ff1832509087ff368e082798629c3a7483471d0b761a838f51d881ff75b 1217 linuxmuster-linbo7_7.4.21.dsc
+ ec4f6ddba1fb3080da9afd90f9c859d865a0e47f76dbcc5c73e45e0064fefea5 101991494 linuxmuster-linbo7_7.4.21_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 18 Oct 2026 11:37:40 +0000
+Build-Date: Sun, 25 Oct 2026 13:57:38 +0000
 Installed-Build-Depends:
  3cpio (= 0.14.0-1ubuntu1),
  acl (= 2.3.2-2),
@@ -429,4 +429,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  DEB_BUILD_PROFILES="derivative.ubuntu noudeb"
  MAKEFLAGS="-j4"
- SOURCE_DATE_EPOCH="1792322855"
+ SOURCE_DATE_EPOCH="1792936489"
