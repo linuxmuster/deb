@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Sun, 25 Oct 2026 22:45:00 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.14
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.14) lmn74; urgency=medium
+ .
+   * [security] [lmn_auth] The password is no longer kept after the
+     login: only the linuxmuster-api token is retrieved, and it stays in
+     the session worker. With two-factor authentication, the token was
+     lost at the TOTP step and every request to linuxmuster-api failed
+     with "api not available". Needs Ajenti 2.2.18.
+   * [security] [lmn_auth] The sudo elevation is disabled.
+   * [security] [lmn_users] Only the installed LaTeX templates can be
+     used to print passwords, no arbitrary path.
+   * [security] [lmn_wireguard] The wireguard endpoint is restricted to
+     administrators.
+   * [security] [lmn_device-manager] The route running arbitrary commands
+     is removed, and the plugin is marked as deprecated.
+   * [security] [lmn_websession] Session ids and BigBlueButton passwords
+     are generated with secrets instead of random.
+   * [lmn_linbo4] Deleting an image warns that its whole directory is
+     removed, backups and files added by hand included.
+   * [packaging] Requires Ajenti 2.2.18, core plugin 0.117 and settings
+     plugin 0.36.
+   * [packaging] Depends on linuxmuster-tools7 (>= 7.4.20).
+Checksums-Sha1:
+ db46d94224033aa627f763ac35b34520153d3107 565 linuxmuster-webui7_7.4.14.dsc
+ df0c0418ae612a924a9c0c4a104f5ff42266f8f9 1675654 linuxmuster-webui7_7.4.14.tar.gz
+ 9e6ff24427f7a2def98547188d398b0f1cdd57fb 872586 linuxmuster-webui7_7.4.14_all.deb
+ 553146afc258c03ab0bc6cf0eea40d4c82310050 7804 linuxmuster-webui7_7.4.14_amd64.buildinfo
+Checksums-Sha256:
+ c521828ee7483d0ab9a8bd13868c06f62247ed067595ea47223efdff27240167 565 linuxmuster-webui7_7.4.14.dsc
+ 9d449e8cf0c8675fdba045dff32177229c7879762cabe15a47208c9248aa1b10 1675654 linuxmuster-webui7_7.4.14.tar.gz
+ 6f55f3bae032583874bf7ca0c0b52642d8f0cde1b556451f46596e0c12c01101 872586 linuxmuster-webui7_7.4.14_all.deb
+ 1811fdb89b43c0445dd2808698b63a637018991074e4b399e4024372472bba1d 7804 linuxmuster-webui7_7.4.14_amd64.buildinfo
+Files:
+ 39e7de593b0bd516db61bec6c93ff3de 565 admin optional linuxmuster-webui7_7.4.14.dsc
+ 0c1456a9e5f3d9687e45e70fa2ea9b31 1675654 admin optional linuxmuster-webui7_7.4.14.tar.gz
+ 399f133b400060466272d28647c95264 872586 admin optional linuxmuster-webui7_7.4.14_all.deb
+ 17fe26bfb5e238ebd3cc6692f9c434d8 7804 admin optional linuxmuster-webui7_7.4.14_amd64.buildinfo
