@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Mon, 26 Oct 2026 09:40:31 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.47
+Distribution: lmn73
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.47) lmn73; urgency=medium
+ .
+   * Update to Ajenti 2.2.18 (security fixes).
+   * [security] [lmn_auth] The sudo elevation is disabled.
+   * [security] [lmn_linbo4] Avoid path traversal in the config/ and vdi/
+     routes.
+   * [security] [lmn_users] Only the installed LaTeX templates can be
+     used to print passwords, no arbitrary path.
+   * [security] [lmn_wireguard] The wireguard endpoint is restricted to
+     administrators.
+   * [security] [lmn_device-manager] The route running arbitrary commands
+     is removed, and the plugin is marked as deprecated.
+   * [security] [lmn_websession] Session ids and BigBlueButton passwords
+     are generated with secrets instead of random.
+   * [lmn_settings] [lmn_users] A refused request answers 403 instead of
+     failing with a 500.
+   * [packaging] Requires Ajenti 2.2.18, core plugin 0.117 and settings
+     plugin 0.36.
+   * [packaging] Depends on linuxmuster-tools7 (>= 7.3.29).
+Checksums-Sha1:
+ 6e729a2b51e5c7e82a0a127d9a1ce4df37c0ea1c 565 linuxmuster-webui7_7.3.47.dsc
+ 755f67c6d4f27481a491dbbd317aa6a34d3ecf2b 1626072 linuxmuster-webui7_7.3.47.tar.gz
+ 98b07faa691de9760bbcb46ee94ee71738dabbcb 836258 linuxmuster-webui7_7.3.47_all.deb
+ 531f107d5b06b740c5e8af92b23119830676bf7f 7804 linuxmuster-webui7_7.3.47_amd64.buildinfo
+Checksums-Sha256:
+ 0b2913fbccef47de1155287cdc8bd2095ac67a80ab632a57f4d8b2945a692217 565 linuxmuster-webui7_7.3.47.dsc
+ 4548448cdee43af8091125c55f9c2b5a19f83db5a7698c04aa94a50da6df9d18 1626072 linuxmuster-webui7_7.3.47.tar.gz
+ 5e76821a32ea7a0b35730ea059b160952c3b831be593dc6ab2a43f19b2e3eb6c 836258 linuxmuster-webui7_7.3.47_all.deb
+ f1dd68a55fd0e70502e18d72a24ceb0a21ecf7ff3a1c583d882fd3bf4415ff06 7804 linuxmuster-webui7_7.3.47_amd64.buildinfo
+Files:
+ 7f774b435cf3e7247be718f8489882fd 565 admin optional linuxmuster-webui7_7.3.47.dsc
+ 2463cc8d36cfb143fbb664819a268939 1626072 admin optional linuxmuster-webui7_7.3.47.tar.gz
+ c6657e3ad6b9dc4a399609273b8fc6c8 836258 admin optional linuxmuster-webui7_7.3.47_all.deb
+ 4ed6b1d5a2de7c12ed6bb27885e79d3b 7804 admin optional linuxmuster-webui7_7.3.47_amd64.buildinfo
