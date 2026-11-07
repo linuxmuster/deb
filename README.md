@@ -51,6 +51,33 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/linuxmuster.net.
 sudo apt update
 ```
 
+# Installing a specific version
+
+This repository only serves the **latest** version of each package per distribution
+(`apt policy <package>` lists a single version). If you really need an older version
+(e.g. to roll back after a regression), every released `.deb` is attached to the
+GitHub release of its project:
+
+1. Open the releases page of the project (see the package list above), e.g.
+   https://github.com/linuxmuster/linuxmuster-tools/releases
+2. Pick the version you need, check that it was built for your distribution (most
+   release titles show it, e.g. `Release 7.4.19 (lmn74)`), and download the `.deb`:
+
+   ```bash
+   wget https://github.com/linuxmuster/linuxmuster-tools/releases/download/v7.4.19/linuxmuster-tools7_7.4.19_all.deb
+   ```
+3. Install it and keep apt from upgrading it again:
+
+   ```bash
+   sudo apt install ./linuxmuster-tools7_7.4.19_all.deb
+   sudo apt-mark hold linuxmuster-tools7
+   ```
+4. Once the problem is fixed upstream, release the hold:
+
+   ```bash
+   sudo apt-mark unhold linuxmuster-tools7 && sudo apt upgrade
+   ```
+
 # Linuxmuster.net packages interaction
 
 A quick view over the interaction between all packages when installed on the server:
