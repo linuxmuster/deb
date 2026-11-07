@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-This is the Linuxmuter.net archive. It is the place where you can get the latest versions of all Linuxmuster.net software.
+This is the Linuxmuster.net archive. It is the place where you can get the latest versions of all Linuxmuster.net software.
 </p>
 
 # Packages
@@ -17,16 +17,16 @@ This repo currently contains the following packages:
 - [leoclient2](https://github.com/linuxmuster/leoclient2) (lmn71-testing)
 - [base7](https://github.com/linuxmuster/linuxmuster-base7) (lmn71,lmn72,lmn73,lmn74)
 - [linbo-gui7](https://github.com/linuxmuster/linuxmuster-linbo-gui7) (lmn71,lmn72,lmn73,lmn74)
-- [linbo7](https://github.com/linuxmuster/linuxmuster-linbo7) (lmn71, lmn71-testing,lmn72,lmn73,lmn74)
-- [linuxclient7](https://github.com/linuxmuster/linuxmuster-linuxclient7) (lmn71,lmn72,lmn73)
-- [prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71,lmn72,lmn73,lmn74)
-- [webui7](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71, lmn72,lmn73,lmn74)
-- [sophomorix-samba](https://github.com/linuxmuster/sophomorix-samba) (lmn72,lmn73,lmn74)
-- [tools](https://github.com/linuxmuster/linuxmuster-tools) (lmn72,lmn7,lmn743)
-- [cli](https://github.com/linuxmuster/linuxmuster-cli) (lmn72,lmn73,lmn74)
-- [api](https://github.com/linuxmuster/linuxmuster-api) (lmn72,lmn73,lmn74)
-- [common](https://github.com/linuxmuster/linuxmuster-common) (lmn73,lmn74)
-- [fileserver](https://github.com/linuxmuster/linuxmuster-fileserver) (lmn73,lmn74)
+- [linbo](https://github.com/linuxmuster/linuxmuster-linbo7) (lmn71, lmn71-testing,lmn72,lmn73,lmn74)
+- [linuxmuster-linuxclient](https://github.com/linuxmuster/linuxmuster-linuxclient7) (lmn71,lmn72,lmn73)
+- [linuxmuster-prepare](https://github.com/linuxmuster/linuxmuster-prepare) (lmn71,lmn72,lmn73,lmn74)
+- [linuxmuster-webui](https://github.com/linuxmuster/linuxmuster-webui7) (lmn71, lmn72,lmn73,lmn74)
+- [sophomorix](https://github.com/linuxmuster/sophomorix4) (lmn72,lmn73,lmn74)
+- [linuxmuster-tools](https://github.com/linuxmuster/linuxmuster-tools) (lmn72,lmn73,lmn74)
+- [linuxmuster-cli](https://github.com/linuxmuster/linuxmuster-cli7) (lmn72,lmn73,lmn74)
+- [linuxmuster-api](https://github.com/linuxmuster/linuxmuster-api) (lmn72,lmn73,lmn74)
+- [linuxmuster-common](https://github.com/linuxmuster/linuxmuster-common) (lmn73,lmn74)
+- [linuxmuster-fileserver](https://github.com/linuxmuster/linuxmuster-fileserver) (lmn73,lmn74)
   
 # Setup
 
@@ -35,7 +35,7 @@ To use the repository, please follow these steps:
 ## 1. Import key:
 
 ```bash
-sudo wget -qO- "https://deb.linuxmuster.net/pub.gpg" | gpg --dearmour -o /usr/share/keyrings/linuxmuster.net.gpg
+wget -qO- "https://deb.linuxmuster.net/pub.gpg" | sudo gpg --dearmour -o /usr/share/keyrings/linuxmuster.net.gpg
 ```
 
 ## 2. Add repo:
