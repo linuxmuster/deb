@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Wed, 18 Nov 2026 09:05:08 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.21
+Distribution: lmn74
+Urgency: high
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.4.21) lmn74; urgency=high
+ .
+   * [security] [ldapconnector] The value of /search is escaped in the
+     LDAP filter.
+   * [passwords] Random first passwords use PWD_LENGTH of school.conf,
+     and a diceware passphrase with RANDOM_PWD = dice.
+   * [print] All LaTeX special characters are escaped, and the school is
+     forwarded when printing a schoolclass list.
+   * [samba] smbstatus is read from its json output, with the school
+     prefix and the users of a room.
+   * Minor fixes: expired certificates, malformed sophomorix log lines,
+     drives without properties, custom fields imported from the webui,
+     gzipped logs, hostname and room of machines.
+Checksums-Sha1:
+ 20fdd74ac20d5d794dee3c9d539251177a7a48ce 583 linuxmuster-tools7_7.4.21.dsc
+ 1b2490efe0df4e0e7150c49d4e9d03bfae36835b 348635 linuxmuster-tools7_7.4.21.tar.gz
+ cb857a548d27e77cb9ef4174a37468e31383fb45 261732 linuxmuster-tools7_7.4.21_all.deb
+ 64f8f59f1516e9f8517ef238fac278bb209bc967 7757 linuxmuster-tools7_7.4.21_amd64.buildinfo
+Checksums-Sha256:
+ bce6bc71e27d2d1a13e9e780f36943e44c70c0ae9b1e0a3edc7b24e74c6cfc4f 583 linuxmuster-tools7_7.4.21.dsc
+ 4255eab58712607c4d0b5f793943bd6c3d3096498bb531b5e466508ee00f481f 348635 linuxmuster-tools7_7.4.21.tar.gz
+ 29cc857135c2ba40e16c3b1a0b31e37c2117263674aee86d6b231a552ae53556 261732 linuxmuster-tools7_7.4.21_all.deb
+ 01fd3d785a1fa5e53cd91e7f15af7fb8f1f2a9c0a6848e4051018ed6338b4ae8 7757 linuxmuster-tools7_7.4.21_amd64.buildinfo
+Files:
+ 017fddc4d2810472337caa5f79cb6115 583 linuxmuster optional linuxmuster-tools7_7.4.21.dsc
+ 4eaf39ac8d92a5139e4942df6f18967b 348635 linuxmuster optional linuxmuster-tools7_7.4.21.tar.gz
+ 999b790da7d790fc58311d8b37cfb444 261732 linuxmuster optional linuxmuster-tools7_7.4.21_all.deb
+ 737ba43fe44dba6ed0717514ebcf6e9e 7757 linuxmuster optional linuxmuster-tools7_7.4.21_amd64.buildinfo
