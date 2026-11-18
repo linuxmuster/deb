@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 18 Nov 2026 10:47:06 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.48
+Distribution: lmn73
+Urgency: high
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.3.48) lmn73; urgency=high
+ .
+   * [security] [lmn_session_new] Root command execution when stopping an
+     exam: the target directory is sanitized and the participants are
+     checked in LDAP.
+   * [security] [lmn_session_new] The unused moveFileToHome route, without
+     permission check, is disabled.
+Checksums-Sha1:
+ 77f12bea6734e9402c518b495b677828488e88f9 565 linuxmuster-webui7_7.3.48.dsc
+ 9c9ee96aa48983ef3890e53b5a080588516e5d4c 1626644 linuxmuster-webui7_7.3.48.tar.gz
+ 7bdbf03c3ba16bcec81eb2837edcccb57f2d29e5 836716 linuxmuster-webui7_7.3.48_all.deb
+ 4d41b4afe8174212f26eed3f9b0956b49006cc0a 7804 linuxmuster-webui7_7.3.48_amd64.buildinfo
+Checksums-Sha256:
+ ad8864de6924eb48f3c26994ccf4dc9fbe6dd60728d2d685ceffe8a5f459df1e 565 linuxmuster-webui7_7.3.48.dsc
+ 5134efd37821e6b7c25dc79109cd1c5eb42f99c85d5e3c8bcdf5399cb6715db8 1626644 linuxmuster-webui7_7.3.48.tar.gz
+ 6f3fb8a5701e834fe4df596263e0a58fc1daf539b2a883f4523c1331966c74a2 836716 linuxmuster-webui7_7.3.48_all.deb
+ 4ec6d6bf1458861c81343ca27d6f311c4c2bf12cabeca0fd5cc134cd9eef6383 7804 linuxmuster-webui7_7.3.48_amd64.buildinfo
+Files:
+ 23a6731ba0f7713923580e9f07a16595 565 admin optional linuxmuster-webui7_7.3.48.dsc
+ 39a2037f29fe61982281e1d1e452ebcc 1626644 admin optional linuxmuster-webui7_7.3.48.tar.gz
+ cd2784bf9bdf88037e0580cc9ae5362d 836716 admin optional linuxmuster-webui7_7.3.48_all.deb
+ 21fe5d9ce66e78685db07e664da1c76b 7804 admin optional linuxmuster-webui7_7.3.48_amd64.buildinfo
