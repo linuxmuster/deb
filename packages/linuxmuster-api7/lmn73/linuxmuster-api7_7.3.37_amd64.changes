@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Wed, 18 Nov 2026 10:39:33 +0100
+Source: linuxmuster-api7
+Binary: linuxmuster-api7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.37
+Distribution: lmn73
+Urgency: high
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-api7 - Api for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-api7 (7.3.37) lmn73; urgency=high
+ .
+   * [security] Teachers could add themselves to the admins management
+     group by changing the case of its name: the cn must match exactly.
+   * [security] Root command execution through the target directory of
+     POST /exammode/stop.
+   * [security] /query is limited to the own school, except for global
+     administrators, and never returns first passwords.
+   * [security] Parents and staff have the same rank as teachers. A user
+     can't act on another user of the same rank or of another school.
+   * [security] First passwords of other users are hidden from teachers
+     (except students) and from school administrators (administrators).
+   * [security] School administrators only see the administrators and
+     bind users of their own school.
+   * [security] [sessions] The members of a new session and the owner of
+     a session are checked.
+   * Depends on linuxmuster-tools7 (>= 7.3.50).
+Checksums-Sha1:
+ 9b597d5352b86a11a329fd7944dec147d7184599 568 linuxmuster-api7_7.3.37.dsc
+ 938abe4516ee605cc713c7bf01acb013f0a6379f 81795 linuxmuster-api7_7.3.37.tar.gz
+ 07353219fb16e0f6f0265227f12215f1688cb607 60424 linuxmuster-api7_7.3.37_all.deb
+ f4bdd6671370e81dcdbacebc9b67cbf4fc7967fd 7738 linuxmuster-api7_7.3.37_amd64.buildinfo
+Checksums-Sha256:
+ 939a809be77d20e840e8624b92e92f6cabf8572d41a3d266832cb54610279a11 568 linuxmuster-api7_7.3.37.dsc
+ a04698fc44715bfbc65431b4529a8d4b21f393659710b612645ab9bcdad2fb79 81795 linuxmuster-api7_7.3.37.tar.gz
+ 8c7436a359a4a8086f92901e0ff1659bbcbfd38ed739bf03e3ad694f1d77b73a 60424 linuxmuster-api7_7.3.37_all.deb
+ 7256e83698d8a1c5ff6f7176da387a2797d993d788c356e3fe36fe2c6a1fb6f4 7738 linuxmuster-api7_7.3.37_amd64.buildinfo
+Files:
+ 0a05dae83b98961568c8523c5eaacdc0 568 linuxmuster optional linuxmuster-api7_7.3.37.dsc
+ a6ce92e1896cf2a9491c5112c3a07ceb 81795 linuxmuster optional linuxmuster-api7_7.3.37.tar.gz
+ 18cc427dc0ead86844cb60057ba37b68 60424 linuxmuster optional linuxmuster-api7_7.3.37_all.deb
+ 5eac6a59d5c28b72db9e7ce5b6fbec0d 7738 linuxmuster optional linuxmuster-api7_7.3.37_amd64.buildinfo
