@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 18 Nov 2026 10:40:23 +0100
+Source: linuxmuster-tools7
+Binary: linuxmuster-tools7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.3.50
+Distribution: lmn73
+Urgency: high
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-tools7 - Tools for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-tools7 (7.3.50) lmn73; urgency=high
+ .
+   * [security] [ldapconnector] The value of /search is escaped in the
+     LDAP filter.
+Checksums-Sha1:
+ 938c6a44bcfc657cc77f1ab1a88eeb668b5e0f33 583 linuxmuster-tools7_7.3.50.dsc
+ a8be261383f82e04229f6398472d5b25c25fe94d 126931 linuxmuster-tools7_7.3.50.tar.gz
+ 55c8f7ffa02a916f02cfedb76c95b72ffdd7b6d0 93284 linuxmuster-tools7_7.3.50_all.deb
+ 0aea1c85ed728dc96735ad094a232a380782116d 7754 linuxmuster-tools7_7.3.50_amd64.buildinfo
+Checksums-Sha256:
+ 53934f0168264ad85944350adf7d9d61f3ba6b1b080016975281d85e9eabb80f 583 linuxmuster-tools7_7.3.50.dsc
+ 3002c3f0b30fe562ba8b479d43fa3a416a1218176224a5e49ac913ce26f284bd 126931 linuxmuster-tools7_7.3.50.tar.gz
+ 9c63bf6afcfc4dd9635f4468e41870239a6e5f7465bd77e7d03227f31b8783ea 93284 linuxmuster-tools7_7.3.50_all.deb
+ a1bda759c986611ce9f4150cdfb9cf4478d6f8da147999ff31b88031f3e7a2bf 7754 linuxmuster-tools7_7.3.50_amd64.buildinfo
+Files:
+ c4b2f7d5c166330358720fcccab332c3 583 linuxmuster optional linuxmuster-tools7_7.3.50.dsc
+ 4ab70e57beff16accb09ff51170c6fcc 126931 linuxmuster optional linuxmuster-tools7_7.3.50.tar.gz
+ 6d5a7d14912235193acf8368dcc9de5c 93284 linuxmuster optional linuxmuster-tools7_7.3.50_all.deb
+ 455a5cb2813668f87b12b4b33dcf3286 7754 linuxmuster optional linuxmuster-tools7_7.3.50_amd64.buildinfo
