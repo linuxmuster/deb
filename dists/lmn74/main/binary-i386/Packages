@@ -1,16 +1,16 @@
 Package: linuxmuster-api7
-Version: 7.4.16
+Version: 7.4.17
 Architecture: all
 Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
-Installed-Size: 623
-Depends: openssl, linuxmuster-tools7 (>= 7.4.20), python3
+Installed-Size: 651
+Depends: openssl, linuxmuster-tools7 (>= 7.4.21), python3
 Priority: optional
 Section: linuxmuster
-Filename: pool/main/l/linuxmuster-api7/linuxmuster-api7_7.4.16_all.deb
-Size: 116864
-SHA256: 845822839c06deb2c936013c9334f2f24a4ddcbe34b8dae04648c032fd916ab8
-SHA1: e88b4ba9f3e741ac0049816b4c1d28a06d089a44
-MD5sum: 4a688f51da4e465eaf2147a5fa3f1be9
+Filename: pool/main/l/linuxmuster-api7/linuxmuster-api7_7.4.17_all.deb
+Size: 121532
+SHA256: 295896a872b331e43a1c4fb12fceaa7022ecd6a661c8fcf29281cc2e48cec76b
+SHA1: 178ab3339561419789285f107ff0a576ce0aeb93
+MD5sum: ded7d826431c73e3e7309a9df98d24a3
 Description: Api for the linuxmuster.net 7 server.
 
 Package: linuxmuster-base7
