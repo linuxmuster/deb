@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 18 Nov 2026 09:05:50 +0100
+Source: linuxmuster-cli7
+Binary: linuxmuster-cli7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.13
+Distribution: lmn74
+Urgency: medium
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-cli7 - Tools and CLI for the linuxmuster.net 7 server.
+Changes:
+ linuxmuster-cli7 (7.4.13) lmn74; urgency=medium
+ .
+   * [samba] "lmncli samba status" lists every connection of each user,
+     with the date of login.
+   * Depends on linuxmuster-tools7 (>= 7.4.21).
+Checksums-Sha1:
+ 2bce588ca35c573d27a98e8e26824d0a06fc5bd1 568 linuxmuster-cli7_7.4.13.dsc
+ 540f047231fd43b99acf98e5bec9edaab3275666 71245 linuxmuster-cli7_7.4.13.tar.gz
+ 3a4719f1ac26bfabdf7150d286f14180ecf9d091 49574 linuxmuster-cli7_7.4.13_all.deb
+ f0061854b7edcf216be92af179050d955b8b0928 7738 linuxmuster-cli7_7.4.13_amd64.buildinfo
+Checksums-Sha256:
+ c12c6f569a8ef9b991cb137a1435c31fd631a8d7eafbc83d0e6faa063acd77f6 568 linuxmuster-cli7_7.4.13.dsc
+ 8fb273c289ccd55e8a6bfd3f66e5e155ddbbbdfb12208556f6f352bce92a90ac 71245 linuxmuster-cli7_7.4.13.tar.gz
+ 6863a8d0c9846af9c15d6ff6b9232634592a40b5986ab3cdafd9dda86c5f12f5 49574 linuxmuster-cli7_7.4.13_all.deb
+ 7974975b3a5bd008af1f4b1b5ffde9b51f33a3dca3dd67da46265d8c6ad1bc5f 7738 linuxmuster-cli7_7.4.13_amd64.buildinfo
+Files:
+ 232b12f45468c3d7cc57bac1fbc88062 568 linuxmuster optional linuxmuster-cli7_7.4.13.dsc
+ e3a3a9a426169834f1f160f62e945f31 71245 linuxmuster optional linuxmuster-cli7_7.4.13.tar.gz
+ 28bd6970387fcb2b457d64078fb4af35 49574 linuxmuster optional linuxmuster-cli7_7.4.13_all.deb
+ aca49e2899ea2cdac72ada2e598e392e 7738 linuxmuster optional linuxmuster-cli7_7.4.13_amd64.buildinfo
