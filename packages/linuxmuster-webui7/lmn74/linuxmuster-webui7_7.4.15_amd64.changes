@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Wed, 18 Nov 2026 09:05:08 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.4.15
+Distribution: lmn74
+Urgency: high
+Maintainer: Arnaud Kientz <arnaud@linuxmuster.net>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.4.15) lmn74; urgency=high
+ .
+   * [security] [lmn_session] Root command execution when stopping an
+     exam: the target directory is sanitized and the participants are
+     checked in LDAP.
+   * [security] [lmn_device-manager] Prestart commands: no path traversal,
+     the rsync password is never returned, current school only.
+   * [security] [lmn_clients] Only the custom scripts of the current
+     school can be written.
+   * [security] [lmn_common] Only global administrators can change the
+     school.
+   * [security] [lmn_permissions] The permissions matrix is restricted to
+     root in dev mode.
+   * [lmn_session] lmn_session_new is renamed lmn_session, the old upload
+     methods are deprecated.
+   * [lmn_permissions] Parent and staff permissions are handled.
+   * The room of a user is read through linuxmuster-api.
+Checksums-Sha1:
+ 50c1e2aad14ac6dae5954f41c1173a6189788e95 565 linuxmuster-webui7_7.4.15.dsc
+ 6b95ba9b1d1946e6c99a2cf69be2e19857862b41 1779786 linuxmuster-webui7_7.4.15.tar.gz
+ bdcbf935e0952602c4b0300a6ea5e0a6e976e590 881498 linuxmuster-webui7_7.4.15_all.deb
+ 43af784344066162908de28f0d387587dc366fc1 7804 linuxmuster-webui7_7.4.15_amd64.buildinfo
+Checksums-Sha256:
+ cccdd9f4e057605cf83edcf949ef2e341fb9d83404c5daf20a0bad23ccd50364 565 linuxmuster-webui7_7.4.15.dsc
+ 17343907e79fb9f9adf5da5a86b77313c9f2ff95f30e5d37a82fd584d395145d 1779786 linuxmuster-webui7_7.4.15.tar.gz
+ 1c2248581780cd4c87e484a7759d54d1fe2f37f3079b0e687c22d901afedf6e9 881498 linuxmuster-webui7_7.4.15_all.deb
+ b880563d8b907222ea58be8a770d852c0f8c603323273c65d32bbd12b2060f5b 7804 linuxmuster-webui7_7.4.15_amd64.buildinfo
+Files:
+ 31c82ffce9ce536e5f4b30dfbc4879f7 565 admin optional linuxmuster-webui7_7.4.15.dsc
+ 0b1ed5c20344ca492ea80212b76d6cc3 1779786 admin optional linuxmuster-webui7_7.4.15.tar.gz
+ 67f39a813645236b8f04e7a909514b82 881498 admin optional linuxmuster-webui7_7.4.15_all.deb
+ 8c021d8aecf219ddb0d0639f825978c2 7804 admin optional linuxmuster-webui7_7.4.15_amd64.buildinfo
